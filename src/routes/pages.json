@@ -1,0 +1,10 @@
+[
+  { "title": "IIL", "slug": "index.html" },
+  { "title": "About", "slug": "about" },
+  { "title": "Team", "slug": "team" },
+  { "title": "Research", "slug": "research" },
+  { "title": "Publications", "slug": "publications" },
+  { "title": "Open Lab", "slug": "openlab" },
+  { "title": "News", "slug": "news" },
+  { "title": "Collaborate", "slug": "collaborate" }
+]

@@ -3,7 +3,7 @@
    * @type {import('@sveltejs/kit').Load}
    */
   export async function load({ fetch }) {
-    const res = await fetch(`/posts.json`);
+    const res = await fetch(`/blog/posts.json`);
     const posts = await res.json();
     
     return {
@@ -40,7 +40,7 @@
     <div class="article-list">
       {#each paginatedItems as { metadata: { title, description, tags, outline, slug }, path }}
         <div class="mb-4">
-          <a sveltekit:prefetch href={path.replace(/\.[^/.]+$/, "")}
+          <a sveltekit:prefetch href={'blog/'+path.replace(/\.[^/.]+$/, "")}
             ><h2 class="text-3xl leading-relaxed">{title}</h2></a
           >
           <p>{description}</p>
