@@ -4,7 +4,7 @@
 </script>
 
 <a
-  class="h-9 p-2 flex items-center justify-center bg-gray-100 rounded-lg"
+  class="h-9 p-2 flex items-center justify-center"
   href={url}>
   {label}
 </a>

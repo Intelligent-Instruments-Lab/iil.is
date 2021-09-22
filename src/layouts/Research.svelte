@@ -21,6 +21,9 @@
     <h1 class="headline text-7xl leading-relaxed font-black font-display mb-4">
       Research projects
     </h1>
+    <div>
+      <p>Research projects carried out by the IIL.</p>
+    </div>
     <div class="article-list">
       {#each paginatedItems as { metadata: { title, description, tags, outline, slug }, path }}
         <div class="mb-4">
