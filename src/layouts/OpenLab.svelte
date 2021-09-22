@@ -1,27 +1,54 @@
 <script>
+  import { paginate, PaginationNav } from "svelte-paginate";
   import { seo } from "$lib/store";
+  //https://www.npmjs.com/package/svelte-paginate
 
-  export let title;
-  export let description;
+  export let openlabs;
+
+  let items = openlabs.reverse()
+  let currentPage = 1;
+  let pageSize = 2;
+  $: paginatedItems = paginate({ items, pageSize, currentPage });
 
   $seo = {
-    title: title,
-    description: description,
+    title: "Hagura - Light",
+    description: "Hagura is a light-weight theme/template built for sveltekit.",
   };
+
 </script>
 
-<h1 class="font-bold text-6xl mb-4">{title}</h1>
-<div class="post">
-  <slot />
-</div>
+<main>
+  <article>
+    <h1 class="headline text-7xl leading-relaxed font-black font-display mb-4">
+      Open Lab
+    </h1>
+    <div>
+      <p>We have developed the Collaboration Interface Protocol in order to work with other scientists and artists. Some of these collaborations are formal and focussing on specific experiments or projects, but we are also interested in a more open approach and informal exchange and collaboration.</p>
 
-<svelte:head>
-  <title>{title}</title>
-  <meta name="description" content={description} />
-</svelte:head>
-
-<style>
-  .post {
-    margin-bottom: 4rem;
-  }
-</style>
+      <p>We seek to maintain a critical yet playful reflection upon the lab as a performative space, where various agents interact and produce knowledge: an “aesthetics of experimentation”. We will run open lab sessions on Friday afternoons and people can follow the project via public events. We will make regular use of social media, and use podcasts, YouTube and blogging for lasting online documentation.</p>
+    </div>
+    <!-- <div>
+      <p><b>Next Open Lab</b></p>
+    </div> -->
+    <div class="article-list">
+      {#each paginatedItems as { metadata: { title, description, tags, outline, slug }, path }}
+        <div class="mb-4">
+          <a sveltekit:prefetch href={'openlab/'+path.replace(/\.[^/.]+$/, "")}
+            ><h2 class="text-3xl leading-relaxed">{title}</h2></a
+          >
+          <p>{description}</p>
+        </div>
+      {/each}
+    </div>
+    <div class="mx-auto">
+      <PaginationNav
+        totalItems={items.length}
+        {pageSize}
+        {currentPage}
+        limit={1}
+        showStepOptions={true}
+        on:setPage={(e) => (currentPage = e.detail.page)}
+      />
+    </div>
+  </article>
+</main>

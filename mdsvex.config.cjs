@@ -26,11 +26,9 @@ module.exports = {
     about: "./src/layouts/About.svelte",
     collaborate: "./src/layouts/Collaborate.svelte",
     home: "./src/layouts/Home.svelte",
-    news: "./src/layouts/News.svelte",
     newsitem: "./src/layouts/NewsItem.svelte",
-    openlab: "./src/layouts/OpenLab.svelte",
+    openlab: "./src/layouts/OpenLabEvent.svelte",
     publications: "./src/layouts/Publications.svelte",
-    research: "./src/layouts/Research.svelte",
     researchproject: "./src/layouts/ResearchProject.svelte",
     team: "./src/layouts/Team.svelte"
   },
