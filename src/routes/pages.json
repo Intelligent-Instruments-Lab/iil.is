@@ -1,10 +1,10 @@
 [
-  { "title": "IIL", "slug": "index.html" },
-  { "title": "About", "slug": "about" },
-  { "title": "Team", "slug": "team" },
-  { "title": "Research", "slug": "research" },
-  { "title": "Publications", "slug": "publications" },
-  { "title": "Open Lab", "slug": "openlab" },
-  { "title": "News", "slug": "news" },
-  { "title": "Collaborate", "slug": "collaborate" }
+  { "label": "IIL", "url": "/" },
+  { "label": "About", "url": "/about" },
+  { "label": "Team", "url": "/team" },
+  { "label": "Research", "url": "/research" },
+  { "label": "Publications", "url": "/publications" },
+  { "label": "Open Lab", "url": "/openlab" },
+  { "label": "News", "url": "/news" },
+  { "label": "Collaborate", "url": "/collaborate" }
 ]

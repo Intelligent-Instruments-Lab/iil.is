@@ -9,3 +9,12 @@ We explore how musical instruments embedded with creative AI augments our musica
 
 Through developing new musical instruments we ask how people, performers and audience alike, perceive and understand technologies with musical agency.
 
+READ MORE ABOUT THE PROJECT
+
+IIL hosts Open Lab events in Reykjavík every Friday:
+
+JOIN THE NEXT OPEN LAB
+
+IIL hosts researchers and artists to work with us:
+
+COLLABORATE WITH US

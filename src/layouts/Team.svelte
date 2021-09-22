@@ -1,6 +1,6 @@
 <script>
   import { seo } from "$lib/store";
-  import Member from "./TeamMember.svelte"
+  import Member from "../components/Team/Member.svelte"
   import team from "../routes/team/team.json"
 
   export let title;
@@ -24,11 +24,13 @@
 </style>
 
 <h1 class="font-bold text-6xl mb-4">{title}</h1>
+
 <div class="post">
-  <slot />
+  <slot/>
 </div>
+
 <div>
   {#each team as member, index}
-    <Member member={member}/>        
+      <Member member={member}/>
   {/each}
 </div>

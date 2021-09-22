@@ -1,24 +1,33 @@
 [
   {
     "name": "Thor Magnusson",
-    "title": "Professor of Future Music",
+    "role": "Principal Investigator",
     "bio": "A worker in rhythm, frequencies and intensities. Research and development in the areas of music and technology. I am a professor of future music in the Music Department at the University of Sussex and a research professor at the Iceland University of the Arts. In 2021 I serve as an Edgard-Varèse guest professor at the Technische Universität Berlin.",
     "email": "thor.magnusson@lhi.is",
     "image": "thor.jpg",
     "links": {
       "twitter": "thormagnusson",
-      "github": "thormagnusson"
-    }
+      "github": "thormagnusson",
+      "scholar": "cCgOZ_gAAAAJ",
+      "website": "thormagnusson.github.io"
+    },
+    "projects": [
+      "sonicwriting"
+    ]
   },
   {
     "name": "Jack Armitage",
-    "title": "Postdoctoral Research Fellow",
+    "role": "Postdoctoral Research Fellow",
     "bio": "Designers, researcher, technologist, musician, teacher.",
     "email": "jack@lhi.is",
     "image": "jack.jpg",
     "links": {
       "twitter": "jdkarmitage",
-      "github": "jarmitage"
-    }
+      "github": "jarmitage",
+      "scholar": "APvoBhUAAAAJ",
+      "instagram": "jdkarmitage",
+      "website": "jackarmitage.com"
+    },
+    "projects": []
   }
 ]

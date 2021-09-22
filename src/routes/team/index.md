@@ -6,4 +6,3 @@ description: "Our team"
 ---
 
 This is our team.
-
