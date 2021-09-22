@@ -1,27 +1,11 @@
-<script context="module">
-  /**
-   * @type {import('@sveltejs/kit').Load}
-   */
-  export async function load({ fetch }) {
-    const res = await fetch(`/posts.json`);
-    const posts = await res.json();
-    
-    return {
-      props: {
-        posts,
-      },
-    };
-  }
-</script>
-
 <script>
   import { paginate, PaginationNav } from "svelte-paginate";
   import { seo } from "$lib/store";
   //https://www.npmjs.com/package/svelte-paginate
 
-  export let posts;
+  export let projects;
 
-  let items = posts;
+  let items = projects;
   let currentPage = 1;
   let pageSize = 2;
   $: paginatedItems = paginate({ items, pageSize, currentPage });
@@ -35,12 +19,15 @@
 <main>
   <article>
     <h1 class="headline text-7xl leading-relaxed font-black font-display mb-4">
-      Hagura - Light!
+      Research projects
     </h1>
+    <div>
+      <p>Research projects carried out by the IIL.</p>
+    </div>
     <div class="article-list">
       {#each paginatedItems as { metadata: { title, description, tags, outline, slug }, path }}
         <div class="mb-4">
-          <a sveltekit:prefetch href={path.replace(/\.[^/.]+$/, "")}
+          <a sveltekit:prefetch href={'research/'+path.replace(/\.[^/.]+$/, "")}
             ><h2 class="text-3xl leading-relaxed">{title}</h2></a
           >
           <p>{description}</p>
