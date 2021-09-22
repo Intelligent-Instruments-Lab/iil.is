@@ -23,6 +23,13 @@ module.exports = {
     ],
   ],
   layout: {
-    blog: "./src/lib/BlogLayout.svelte",
+    about: "./src/layouts/About.svelte",
+    collaborate: "./src/layouts/Collaborate.svelte",
+    home: "./src/layouts/Home.svelte",
+    newsitem: "./src/layouts/NewsItem.svelte",
+    openlab: "./src/layouts/OpenLabEvent.svelte",
+    publications: "./src/layouts/Publications.svelte",
+    researchproject: "./src/layouts/ResearchProject.svelte",
+    team: "./src/layouts/Team.svelte"
   },
 };
