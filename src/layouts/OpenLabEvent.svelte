@@ -1,5 +1,5 @@
 <script>
-  import { seo } from "$lib/store";
+  import { seo } from "../stores/seo.js";
 
   export let title;
   export let description;
