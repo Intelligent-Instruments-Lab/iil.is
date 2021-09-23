@@ -1,5 +1,5 @@
 <script>
-  import { seo } from "$lib/store";
+  import { seo } from "../stores/seo.js";
   import Member from "../components/Team/Member.svelte"
   import team from "../routes/team/team.json"
 
