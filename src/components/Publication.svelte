@@ -1,5 +1,6 @@
 <script>
-  import { normalizeFieldValue } from "bibtex";
+  import pkg from 'bibtex';
+  const { normalizeFieldValue } = pkg;
   export let pub
   //console.log(pub.fields)
 
