@@ -28,6 +28,10 @@ For example, this is how you would add/edit team members, and the team page itse
 - The order they appear on the page with is described in `./src/routes/team/order.json`
 - To edit the page itself, go to `./src/layouts/Team.svelte`
 
+### Publications
+
+The idea here is that we have a single `.bib` file that we maintain, which the website uses to auto-populate our Publications page. However there's a couple of technical issues to clear before this is solid (#3).
+
 ## Installation
 
 Run the following commands.
