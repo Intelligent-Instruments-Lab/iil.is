@@ -1,6 +1,6 @@
 <script>
   import { paginate, PaginationNav } from "svelte-paginate";
-  import { seo } from "$lib/store";
+  import { seo } from "../stores/seo.js";
   //https://www.npmjs.com/package/svelte-paginate
 
   export let items;

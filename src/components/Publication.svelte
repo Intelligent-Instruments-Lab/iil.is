@@ -1,10 +1,12 @@
 <script>
-  import pkg from 'bibtex';
-  const { normalizeFieldValue } = pkg;
+  import * as bibtex from 'bibtex'
+  // import { normalizeFieldValue } from 'bibtex';
+  // import pkg from 'bibtex';
+  // const { normalizeFieldValue } = pkg;
   export let pub
   //console.log(pub.fields)
 
-  const field = f => normalizeFieldValue(pub.getField(f))
+  const field = f => bibtex.normalizeFieldValue(pub.getField(f))
 
 </script>
 

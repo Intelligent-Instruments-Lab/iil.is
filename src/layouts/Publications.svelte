@@ -1,14 +1,15 @@
 <script>
-  import { seo } from "$lib/store";
+  import { seo } from "../stores/seo.js";
   import Publication from "../components/Publication.svelte"
   
-  import pkg from 'bibtex';
-  const { normalizeFieldValue, parseBibFile } = pkg;
+  import * as bibtex from 'bibtex'
+  // const { parseBibFile } = pkg
   // import { parseBibFile } from "bibtex";
+  // import { parseBibFile } from "../lib/bibtex/index/";
   // import pubs from '../routes/publications/publications.bib?raw'
   
   export let publications
-  const bib = Object.values(parseBibFile(publications).entries$)
+  const bib = Object.values(bibtex.parseBibFile(publications).entries$)
 
   let title = 'Title'
   let description = 'Description'
