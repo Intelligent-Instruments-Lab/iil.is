@@ -8,6 +8,12 @@ var __markAsModule = (target) => __defProp(target, "__esModule", { value: true }
 var __require = typeof require !== "undefined" ? require : (x) => {
   throw new Error('Dynamic require of "' + x + '" is not supported');
 };
+var __esm = (fn, res) => function __init() {
+  return fn && (res = (0, fn[Object.keys(fn)[0]])(fn = 0)), res;
+};
+var __commonJS = (cb, mod) => function __require3() {
+  return mod || (0, cb[Object.keys(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+};
 var __export = (target, all) => {
   __markAsModule(target);
   for (var name in all)
@@ -25,19 +31,7 @@ var __toModule = (module2) => {
   return __reExport(__markAsModule(__defProp(module2 != null ? __create(__getProtoOf(module2)) : {}, "default", module2 && module2.__esModule && "default" in module2 ? { get: () => module2.default, enumerable: true } : { value: module2, enumerable: true })), module2);
 };
 
-// .svelte-kit/netlify/entry.js
-__export(exports, {
-  handler: () => handler
-});
-
 // node_modules/@sveltejs/kit/dist/install-fetch.js
-var import_http = __toModule(require("http"));
-var import_https = __toModule(require("https"));
-var import_zlib = __toModule(require("zlib"));
-var import_stream = __toModule(require("stream"));
-var import_util = __toModule(require("util"));
-var import_crypto = __toModule(require("crypto"));
-var import_url = __toModule(require("url"));
 function dataUriToBuffer(uri) {
   if (!/^data:/i.test(uri)) {
     throw new TypeError('`uri` does not appear to be a Data URI (must begin with "data:")');
@@ -74,10 +68,6 @@ function dataUriToBuffer(uri) {
   buffer.charset = charset;
   return buffer;
 }
-var src = dataUriToBuffer;
-var dataUriToBuffer$1 = src;
-var { Readable } = import_stream.default;
-var wm = new WeakMap();
 async function* read(parts) {
   for (const part of parts) {
     if ("stream" in part) {
@@ -87,133 +77,9 @@ async function* read(parts) {
     }
   }
 }
-var Blob = class {
-  constructor(blobParts = [], options2 = {}) {
-    let size = 0;
-    const parts = blobParts.map((element) => {
-      let buffer;
-      if (element instanceof Buffer) {
-        buffer = element;
-      } else if (ArrayBuffer.isView(element)) {
-        buffer = Buffer.from(element.buffer, element.byteOffset, element.byteLength);
-      } else if (element instanceof ArrayBuffer) {
-        buffer = Buffer.from(element);
-      } else if (element instanceof Blob) {
-        buffer = element;
-      } else {
-        buffer = Buffer.from(typeof element === "string" ? element : String(element));
-      }
-      size += buffer.length || buffer.size || 0;
-      return buffer;
-    });
-    const type = options2.type === void 0 ? "" : String(options2.type).toLowerCase();
-    wm.set(this, {
-      type: /[^\u0020-\u007E]/.test(type) ? "" : type,
-      size,
-      parts
-    });
-  }
-  get size() {
-    return wm.get(this).size;
-  }
-  get type() {
-    return wm.get(this).type;
-  }
-  async text() {
-    return Buffer.from(await this.arrayBuffer()).toString();
-  }
-  async arrayBuffer() {
-    const data = new Uint8Array(this.size);
-    let offset = 0;
-    for await (const chunk of this.stream()) {
-      data.set(chunk, offset);
-      offset += chunk.length;
-    }
-    return data.buffer;
-  }
-  stream() {
-    return Readable.from(read(wm.get(this).parts));
-  }
-  slice(start = 0, end = this.size, type = "") {
-    const { size } = this;
-    let relativeStart = start < 0 ? Math.max(size + start, 0) : Math.min(start, size);
-    let relativeEnd = end < 0 ? Math.max(size + end, 0) : Math.min(end, size);
-    const span = Math.max(relativeEnd - relativeStart, 0);
-    const parts = wm.get(this).parts.values();
-    const blobParts = [];
-    let added = 0;
-    for (const part of parts) {
-      const size2 = ArrayBuffer.isView(part) ? part.byteLength : part.size;
-      if (relativeStart && size2 <= relativeStart) {
-        relativeStart -= size2;
-        relativeEnd -= size2;
-      } else {
-        const chunk = part.slice(relativeStart, Math.min(size2, relativeEnd));
-        blobParts.push(chunk);
-        added += ArrayBuffer.isView(chunk) ? chunk.byteLength : chunk.size;
-        relativeStart = 0;
-        if (added >= span) {
-          break;
-        }
-      }
-    }
-    const blob = new Blob([], { type: String(type).toLowerCase() });
-    Object.assign(wm.get(blob), { size: span, parts: blobParts });
-    return blob;
-  }
-  get [Symbol.toStringTag]() {
-    return "Blob";
-  }
-  static [Symbol.hasInstance](object) {
-    return object && typeof object === "object" && typeof object.stream === "function" && object.stream.length === 0 && typeof object.constructor === "function" && /^(Blob|File)$/.test(object[Symbol.toStringTag]);
-  }
-};
-Object.defineProperties(Blob.prototype, {
-  size: { enumerable: true },
-  type: { enumerable: true },
-  slice: { enumerable: true }
-});
-var fetchBlob = Blob;
-var Blob$1 = fetchBlob;
-var FetchBaseError = class extends Error {
-  constructor(message, type) {
-    super(message);
-    Error.captureStackTrace(this, this.constructor);
-    this.type = type;
-  }
-  get name() {
-    return this.constructor.name;
-  }
-  get [Symbol.toStringTag]() {
-    return this.constructor.name;
-  }
-};
-var FetchError = class extends FetchBaseError {
-  constructor(message, type, systemError) {
-    super(message, type);
-    if (systemError) {
-      this.code = this.errno = systemError.code;
-      this.erroredSysCall = systemError.syscall;
-    }
-  }
-};
-var NAME = Symbol.toStringTag;
-var isURLSearchParameters = (object) => {
-  return typeof object === "object" && typeof object.append === "function" && typeof object.delete === "function" && typeof object.get === "function" && typeof object.getAll === "function" && typeof object.has === "function" && typeof object.set === "function" && typeof object.sort === "function" && object[NAME] === "URLSearchParams";
-};
-var isBlob = (object) => {
-  return typeof object === "object" && typeof object.arrayBuffer === "function" && typeof object.type === "string" && typeof object.stream === "function" && typeof object.constructor === "function" && /^(Blob|File)$/.test(object[NAME]);
-};
 function isFormData(object) {
   return typeof object === "object" && typeof object.append === "function" && typeof object.set === "function" && typeof object.get === "function" && typeof object.getAll === "function" && typeof object.delete === "function" && typeof object.keys === "function" && typeof object.values === "function" && typeof object.entries === "function" && typeof object.constructor === "function" && object[NAME] === "FormData";
 }
-var isAbortSignal = (object) => {
-  return typeof object === "object" && object[NAME] === "AbortSignal";
-};
-var carriage = "\r\n";
-var dashes = "-".repeat(2);
-var carriageLength = Buffer.byteLength(carriage);
-var getFooter = (boundary) => `${dashes}${boundary}${dashes}${carriage.repeat(2)}`;
 function getHeader(boundary, name, field) {
   let header = "";
   header += `${dashes}${boundary}${carriage}`;
@@ -224,7 +90,6 @@ function getHeader(boundary, name, field) {
   }
   return `${header}${carriage.repeat(2)}`;
 }
-var getBoundary = () => (0, import_crypto.randomBytes)(8).toString("hex");
 async function* formDataIterator(form, boundary) {
   for (const [name, value] of form) {
     yield getHeader(boundary, name, value);
@@ -251,83 +116,6 @@ function getFormDataLength(form, boundary) {
   length += Buffer.byteLength(getFooter(boundary));
   return length;
 }
-var INTERNALS$2 = Symbol("Body internals");
-var Body = class {
-  constructor(body, {
-    size = 0
-  } = {}) {
-    let boundary = null;
-    if (body === null) {
-      body = null;
-    } else if (isURLSearchParameters(body)) {
-      body = Buffer.from(body.toString());
-    } else if (isBlob(body))
-      ;
-    else if (Buffer.isBuffer(body))
-      ;
-    else if (import_util.types.isAnyArrayBuffer(body)) {
-      body = Buffer.from(body);
-    } else if (ArrayBuffer.isView(body)) {
-      body = Buffer.from(body.buffer, body.byteOffset, body.byteLength);
-    } else if (body instanceof import_stream.default)
-      ;
-    else if (isFormData(body)) {
-      boundary = `NodeFetchFormDataBoundary${getBoundary()}`;
-      body = import_stream.default.Readable.from(formDataIterator(body, boundary));
-    } else {
-      body = Buffer.from(String(body));
-    }
-    this[INTERNALS$2] = {
-      body,
-      boundary,
-      disturbed: false,
-      error: null
-    };
-    this.size = size;
-    if (body instanceof import_stream.default) {
-      body.on("error", (err) => {
-        const error2 = err instanceof FetchBaseError ? err : new FetchError(`Invalid response body while trying to fetch ${this.url}: ${err.message}`, "system", err);
-        this[INTERNALS$2].error = error2;
-      });
-    }
-  }
-  get body() {
-    return this[INTERNALS$2].body;
-  }
-  get bodyUsed() {
-    return this[INTERNALS$2].disturbed;
-  }
-  async arrayBuffer() {
-    const { buffer, byteOffset, byteLength } = await consumeBody(this);
-    return buffer.slice(byteOffset, byteOffset + byteLength);
-  }
-  async blob() {
-    const ct = this.headers && this.headers.get("content-type") || this[INTERNALS$2].body && this[INTERNALS$2].body.type || "";
-    const buf = await this.buffer();
-    return new Blob$1([buf], {
-      type: ct
-    });
-  }
-  async json() {
-    const buffer = await consumeBody(this);
-    return JSON.parse(buffer.toString());
-  }
-  async text() {
-    const buffer = await consumeBody(this);
-    return buffer.toString();
-  }
-  buffer() {
-    return consumeBody(this);
-  }
-};
-Object.defineProperties(Body.prototype, {
-  body: { enumerable: true },
-  bodyUsed: { enumerable: true },
-  arrayBuffer: { enumerable: true },
-  blob: { enumerable: true },
-  json: { enumerable: true },
-  text: { enumerable: true }
-});
 async function consumeBody(data) {
   if (data[INTERNALS$2].disturbed) {
     throw new TypeError(`body used already for: ${data.url}`);
@@ -381,219 +169,6 @@ async function consumeBody(data) {
     throw new FetchError(`Premature close of server response while trying to fetch ${data.url}`);
   }
 }
-var clone = (instance, highWaterMark) => {
-  let p1;
-  let p2;
-  let { body } = instance;
-  if (instance.bodyUsed) {
-    throw new Error("cannot clone body after it is used");
-  }
-  if (body instanceof import_stream.default && typeof body.getBoundary !== "function") {
-    p1 = new import_stream.PassThrough({ highWaterMark });
-    p2 = new import_stream.PassThrough({ highWaterMark });
-    body.pipe(p1);
-    body.pipe(p2);
-    instance[INTERNALS$2].body = p1;
-    body = p2;
-  }
-  return body;
-};
-var extractContentType = (body, request) => {
-  if (body === null) {
-    return null;
-  }
-  if (typeof body === "string") {
-    return "text/plain;charset=UTF-8";
-  }
-  if (isURLSearchParameters(body)) {
-    return "application/x-www-form-urlencoded;charset=UTF-8";
-  }
-  if (isBlob(body)) {
-    return body.type || null;
-  }
-  if (Buffer.isBuffer(body) || import_util.types.isAnyArrayBuffer(body) || ArrayBuffer.isView(body)) {
-    return null;
-  }
-  if (body && typeof body.getBoundary === "function") {
-    return `multipart/form-data;boundary=${body.getBoundary()}`;
-  }
-  if (isFormData(body)) {
-    return `multipart/form-data; boundary=${request[INTERNALS$2].boundary}`;
-  }
-  if (body instanceof import_stream.default) {
-    return null;
-  }
-  return "text/plain;charset=UTF-8";
-};
-var getTotalBytes = (request) => {
-  const { body } = request;
-  if (body === null) {
-    return 0;
-  }
-  if (isBlob(body)) {
-    return body.size;
-  }
-  if (Buffer.isBuffer(body)) {
-    return body.length;
-  }
-  if (body && typeof body.getLengthSync === "function") {
-    return body.hasKnownLength && body.hasKnownLength() ? body.getLengthSync() : null;
-  }
-  if (isFormData(body)) {
-    return getFormDataLength(request[INTERNALS$2].boundary);
-  }
-  return null;
-};
-var writeToStream = (dest, { body }) => {
-  if (body === null) {
-    dest.end();
-  } else if (isBlob(body)) {
-    body.stream().pipe(dest);
-  } else if (Buffer.isBuffer(body)) {
-    dest.write(body);
-    dest.end();
-  } else {
-    body.pipe(dest);
-  }
-};
-var validateHeaderName = typeof import_http.default.validateHeaderName === "function" ? import_http.default.validateHeaderName : (name) => {
-  if (!/^[\^`\-\w!#$%&'*+.|~]+$/.test(name)) {
-    const err = new TypeError(`Header name must be a valid HTTP token [${name}]`);
-    Object.defineProperty(err, "code", { value: "ERR_INVALID_HTTP_TOKEN" });
-    throw err;
-  }
-};
-var validateHeaderValue = typeof import_http.default.validateHeaderValue === "function" ? import_http.default.validateHeaderValue : (name, value) => {
-  if (/[^\t\u0020-\u007E\u0080-\u00FF]/.test(value)) {
-    const err = new TypeError(`Invalid character in header content ["${name}"]`);
-    Object.defineProperty(err, "code", { value: "ERR_INVALID_CHAR" });
-    throw err;
-  }
-};
-var Headers = class extends URLSearchParams {
-  constructor(init2) {
-    let result = [];
-    if (init2 instanceof Headers) {
-      const raw = init2.raw();
-      for (const [name, values] of Object.entries(raw)) {
-        result.push(...values.map((value) => [name, value]));
-      }
-    } else if (init2 == null)
-      ;
-    else if (typeof init2 === "object" && !import_util.types.isBoxedPrimitive(init2)) {
-      const method = init2[Symbol.iterator];
-      if (method == null) {
-        result.push(...Object.entries(init2));
-      } else {
-        if (typeof method !== "function") {
-          throw new TypeError("Header pairs must be iterable");
-        }
-        result = [...init2].map((pair) => {
-          if (typeof pair !== "object" || import_util.types.isBoxedPrimitive(pair)) {
-            throw new TypeError("Each header pair must be an iterable object");
-          }
-          return [...pair];
-        }).map((pair) => {
-          if (pair.length !== 2) {
-            throw new TypeError("Each header pair must be a name/value tuple");
-          }
-          return [...pair];
-        });
-      }
-    } else {
-      throw new TypeError("Failed to construct 'Headers': The provided value is not of type '(sequence<sequence<ByteString>> or record<ByteString, ByteString>)");
-    }
-    result = result.length > 0 ? result.map(([name, value]) => {
-      validateHeaderName(name);
-      validateHeaderValue(name, String(value));
-      return [String(name).toLowerCase(), String(value)];
-    }) : void 0;
-    super(result);
-    return new Proxy(this, {
-      get(target, p, receiver) {
-        switch (p) {
-          case "append":
-          case "set":
-            return (name, value) => {
-              validateHeaderName(name);
-              validateHeaderValue(name, String(value));
-              return URLSearchParams.prototype[p].call(receiver, String(name).toLowerCase(), String(value));
-            };
-          case "delete":
-          case "has":
-          case "getAll":
-            return (name) => {
-              validateHeaderName(name);
-              return URLSearchParams.prototype[p].call(receiver, String(name).toLowerCase());
-            };
-          case "keys":
-            return () => {
-              target.sort();
-              return new Set(URLSearchParams.prototype.keys.call(target)).keys();
-            };
-          default:
-            return Reflect.get(target, p, receiver);
-        }
-      }
-    });
-  }
-  get [Symbol.toStringTag]() {
-    return this.constructor.name;
-  }
-  toString() {
-    return Object.prototype.toString.call(this);
-  }
-  get(name) {
-    const values = this.getAll(name);
-    if (values.length === 0) {
-      return null;
-    }
-    let value = values.join(", ");
-    if (/^content-encoding$/i.test(name)) {
-      value = value.toLowerCase();
-    }
-    return value;
-  }
-  forEach(callback) {
-    for (const name of this.keys()) {
-      callback(this.get(name), name);
-    }
-  }
-  *values() {
-    for (const name of this.keys()) {
-      yield this.get(name);
-    }
-  }
-  *entries() {
-    for (const name of this.keys()) {
-      yield [name, this.get(name)];
-    }
-  }
-  [Symbol.iterator]() {
-    return this.entries();
-  }
-  raw() {
-    return [...this.keys()].reduce((result, key) => {
-      result[key] = this.getAll(key);
-      return result;
-    }, {});
-  }
-  [Symbol.for("nodejs.util.inspect.custom")]() {
-    return [...this.keys()].reduce((result, key) => {
-      const values = this.getAll(key);
-      if (key === "host") {
-        result[key] = values[0];
-      } else {
-        result[key] = values.length > 1 ? values : values[0];
-      }
-      return result;
-    }, {});
-  }
-};
-Object.defineProperties(Headers.prototype, ["get", "entries", "forEach", "values"].reduce((result, property) => {
-  result[property] = { enumerable: true };
-  return result;
-}, {}));
 function fromRawHeaders(headers = []) {
   return new Headers(headers.reduce((result, value, index2, array) => {
     if (index2 % 2 === 0) {
@@ -610,231 +185,6 @@ function fromRawHeaders(headers = []) {
     }
   }));
 }
-var redirectStatus = new Set([301, 302, 303, 307, 308]);
-var isRedirect = (code) => {
-  return redirectStatus.has(code);
-};
-var INTERNALS$1 = Symbol("Response internals");
-var Response = class extends Body {
-  constructor(body = null, options2 = {}) {
-    super(body, options2);
-    const status = options2.status || 200;
-    const headers = new Headers(options2.headers);
-    if (body !== null && !headers.has("Content-Type")) {
-      const contentType = extractContentType(body);
-      if (contentType) {
-        headers.append("Content-Type", contentType);
-      }
-    }
-    this[INTERNALS$1] = {
-      url: options2.url,
-      status,
-      statusText: options2.statusText || "",
-      headers,
-      counter: options2.counter,
-      highWaterMark: options2.highWaterMark
-    };
-  }
-  get url() {
-    return this[INTERNALS$1].url || "";
-  }
-  get status() {
-    return this[INTERNALS$1].status;
-  }
-  get ok() {
-    return this[INTERNALS$1].status >= 200 && this[INTERNALS$1].status < 300;
-  }
-  get redirected() {
-    return this[INTERNALS$1].counter > 0;
-  }
-  get statusText() {
-    return this[INTERNALS$1].statusText;
-  }
-  get headers() {
-    return this[INTERNALS$1].headers;
-  }
-  get highWaterMark() {
-    return this[INTERNALS$1].highWaterMark;
-  }
-  clone() {
-    return new Response(clone(this, this.highWaterMark), {
-      url: this.url,
-      status: this.status,
-      statusText: this.statusText,
-      headers: this.headers,
-      ok: this.ok,
-      redirected: this.redirected,
-      size: this.size
-    });
-  }
-  static redirect(url, status = 302) {
-    if (!isRedirect(status)) {
-      throw new RangeError('Failed to execute "redirect" on "response": Invalid status code');
-    }
-    return new Response(null, {
-      headers: {
-        location: new URL(url).toString()
-      },
-      status
-    });
-  }
-  get [Symbol.toStringTag]() {
-    return "Response";
-  }
-};
-Object.defineProperties(Response.prototype, {
-  url: { enumerable: true },
-  status: { enumerable: true },
-  ok: { enumerable: true },
-  redirected: { enumerable: true },
-  statusText: { enumerable: true },
-  headers: { enumerable: true },
-  clone: { enumerable: true }
-});
-var getSearch = (parsedURL) => {
-  if (parsedURL.search) {
-    return parsedURL.search;
-  }
-  const lastOffset = parsedURL.href.length - 1;
-  const hash2 = parsedURL.hash || (parsedURL.href[lastOffset] === "#" ? "#" : "");
-  return parsedURL.href[lastOffset - hash2.length] === "?" ? "?" : "";
-};
-var INTERNALS = Symbol("Request internals");
-var isRequest = (object) => {
-  return typeof object === "object" && typeof object[INTERNALS] === "object";
-};
-var Request = class extends Body {
-  constructor(input, init2 = {}) {
-    let parsedURL;
-    if (isRequest(input)) {
-      parsedURL = new URL(input.url);
-    } else {
-      parsedURL = new URL(input);
-      input = {};
-    }
-    let method = init2.method || input.method || "GET";
-    method = method.toUpperCase();
-    if ((init2.body != null || isRequest(input)) && input.body !== null && (method === "GET" || method === "HEAD")) {
-      throw new TypeError("Request with GET/HEAD method cannot have body");
-    }
-    const inputBody = init2.body ? init2.body : isRequest(input) && input.body !== null ? clone(input) : null;
-    super(inputBody, {
-      size: init2.size || input.size || 0
-    });
-    const headers = new Headers(init2.headers || input.headers || {});
-    if (inputBody !== null && !headers.has("Content-Type")) {
-      const contentType = extractContentType(inputBody, this);
-      if (contentType) {
-        headers.append("Content-Type", contentType);
-      }
-    }
-    let signal = isRequest(input) ? input.signal : null;
-    if ("signal" in init2) {
-      signal = init2.signal;
-    }
-    if (signal !== null && !isAbortSignal(signal)) {
-      throw new TypeError("Expected signal to be an instanceof AbortSignal");
-    }
-    this[INTERNALS] = {
-      method,
-      redirect: init2.redirect || input.redirect || "follow",
-      headers,
-      parsedURL,
-      signal
-    };
-    this.follow = init2.follow === void 0 ? input.follow === void 0 ? 20 : input.follow : init2.follow;
-    this.compress = init2.compress === void 0 ? input.compress === void 0 ? true : input.compress : init2.compress;
-    this.counter = init2.counter || input.counter || 0;
-    this.agent = init2.agent || input.agent;
-    this.highWaterMark = init2.highWaterMark || input.highWaterMark || 16384;
-    this.insecureHTTPParser = init2.insecureHTTPParser || input.insecureHTTPParser || false;
-  }
-  get method() {
-    return this[INTERNALS].method;
-  }
-  get url() {
-    return (0, import_url.format)(this[INTERNALS].parsedURL);
-  }
-  get headers() {
-    return this[INTERNALS].headers;
-  }
-  get redirect() {
-    return this[INTERNALS].redirect;
-  }
-  get signal() {
-    return this[INTERNALS].signal;
-  }
-  clone() {
-    return new Request(this);
-  }
-  get [Symbol.toStringTag]() {
-    return "Request";
-  }
-};
-Object.defineProperties(Request.prototype, {
-  method: { enumerable: true },
-  url: { enumerable: true },
-  headers: { enumerable: true },
-  redirect: { enumerable: true },
-  clone: { enumerable: true },
-  signal: { enumerable: true }
-});
-var getNodeRequestOptions = (request) => {
-  const { parsedURL } = request[INTERNALS];
-  const headers = new Headers(request[INTERNALS].headers);
-  if (!headers.has("Accept")) {
-    headers.set("Accept", "*/*");
-  }
-  let contentLengthValue = null;
-  if (request.body === null && /^(post|put)$/i.test(request.method)) {
-    contentLengthValue = "0";
-  }
-  if (request.body !== null) {
-    const totalBytes = getTotalBytes(request);
-    if (typeof totalBytes === "number" && !Number.isNaN(totalBytes)) {
-      contentLengthValue = String(totalBytes);
-    }
-  }
-  if (contentLengthValue) {
-    headers.set("Content-Length", contentLengthValue);
-  }
-  if (!headers.has("User-Agent")) {
-    headers.set("User-Agent", "node-fetch");
-  }
-  if (request.compress && !headers.has("Accept-Encoding")) {
-    headers.set("Accept-Encoding", "gzip,deflate,br");
-  }
-  let { agent } = request;
-  if (typeof agent === "function") {
-    agent = agent(parsedURL);
-  }
-  if (!headers.has("Connection") && !agent) {
-    headers.set("Connection", "close");
-  }
-  const search = getSearch(parsedURL);
-  const requestOptions = {
-    path: parsedURL.pathname + search,
-    pathname: parsedURL.pathname,
-    hostname: parsedURL.hostname,
-    protocol: parsedURL.protocol,
-    port: parsedURL.port,
-    hash: parsedURL.hash,
-    search: parsedURL.search,
-    query: parsedURL.query,
-    href: parsedURL.href,
-    method: request.method,
-    headers: headers[Symbol.for("nodejs.util.inspect.custom")](),
-    insecureHTTPParser: request.insecureHTTPParser,
-    agent
-  };
-  return requestOptions;
-};
-var AbortError = class extends FetchBaseError {
-  constructor(message, type = "aborted") {
-    super(message, type);
-  }
-};
-var supportedSchemas = new Set(["data:", "http:", "https:"]);
 async function fetch(url, options_) {
   return new Promise((resolve2, reject) => {
     const request = new Request(url, options_);
@@ -1011,8 +361,1925 @@ async function fetch(url, options_) {
     writeToStream(request_, request);
   });
 }
+var import_http, import_https, import_zlib, import_stream, import_util, import_crypto, import_url, src, dataUriToBuffer$1, Readable, wm, Blob, fetchBlob, Blob$1, FetchBaseError, FetchError, NAME, isURLSearchParameters, isBlob, isAbortSignal, carriage, dashes, carriageLength, getFooter, getBoundary, INTERNALS$2, Body, clone, extractContentType, getTotalBytes, writeToStream, validateHeaderName, validateHeaderValue, Headers, redirectStatus, isRedirect, INTERNALS$1, Response, getSearch, INTERNALS, isRequest, Request, getNodeRequestOptions, AbortError, supportedSchemas;
+var init_install_fetch = __esm({
+  "node_modules/@sveltejs/kit/dist/install-fetch.js"() {
+    init_shims();
+    import_http = __toModule(require("http"));
+    import_https = __toModule(require("https"));
+    import_zlib = __toModule(require("zlib"));
+    import_stream = __toModule(require("stream"));
+    import_util = __toModule(require("util"));
+    import_crypto = __toModule(require("crypto"));
+    import_url = __toModule(require("url"));
+    src = dataUriToBuffer;
+    dataUriToBuffer$1 = src;
+    ({ Readable } = import_stream.default);
+    wm = new WeakMap();
+    Blob = class {
+      constructor(blobParts = [], options2 = {}) {
+        let size = 0;
+        const parts = blobParts.map((element) => {
+          let buffer;
+          if (element instanceof Buffer) {
+            buffer = element;
+          } else if (ArrayBuffer.isView(element)) {
+            buffer = Buffer.from(element.buffer, element.byteOffset, element.byteLength);
+          } else if (element instanceof ArrayBuffer) {
+            buffer = Buffer.from(element);
+          } else if (element instanceof Blob) {
+            buffer = element;
+          } else {
+            buffer = Buffer.from(typeof element === "string" ? element : String(element));
+          }
+          size += buffer.length || buffer.size || 0;
+          return buffer;
+        });
+        const type = options2.type === void 0 ? "" : String(options2.type).toLowerCase();
+        wm.set(this, {
+          type: /[^\u0020-\u007E]/.test(type) ? "" : type,
+          size,
+          parts
+        });
+      }
+      get size() {
+        return wm.get(this).size;
+      }
+      get type() {
+        return wm.get(this).type;
+      }
+      async text() {
+        return Buffer.from(await this.arrayBuffer()).toString();
+      }
+      async arrayBuffer() {
+        const data = new Uint8Array(this.size);
+        let offset = 0;
+        for await (const chunk of this.stream()) {
+          data.set(chunk, offset);
+          offset += chunk.length;
+        }
+        return data.buffer;
+      }
+      stream() {
+        return Readable.from(read(wm.get(this).parts));
+      }
+      slice(start = 0, end = this.size, type = "") {
+        const { size } = this;
+        let relativeStart = start < 0 ? Math.max(size + start, 0) : Math.min(start, size);
+        let relativeEnd = end < 0 ? Math.max(size + end, 0) : Math.min(end, size);
+        const span = Math.max(relativeEnd - relativeStart, 0);
+        const parts = wm.get(this).parts.values();
+        const blobParts = [];
+        let added = 0;
+        for (const part of parts) {
+          const size2 = ArrayBuffer.isView(part) ? part.byteLength : part.size;
+          if (relativeStart && size2 <= relativeStart) {
+            relativeStart -= size2;
+            relativeEnd -= size2;
+          } else {
+            const chunk = part.slice(relativeStart, Math.min(size2, relativeEnd));
+            blobParts.push(chunk);
+            added += ArrayBuffer.isView(chunk) ? chunk.byteLength : chunk.size;
+            relativeStart = 0;
+            if (added >= span) {
+              break;
+            }
+          }
+        }
+        const blob = new Blob([], { type: String(type).toLowerCase() });
+        Object.assign(wm.get(blob), { size: span, parts: blobParts });
+        return blob;
+      }
+      get [Symbol.toStringTag]() {
+        return "Blob";
+      }
+      static [Symbol.hasInstance](object) {
+        return object && typeof object === "object" && typeof object.stream === "function" && object.stream.length === 0 && typeof object.constructor === "function" && /^(Blob|File)$/.test(object[Symbol.toStringTag]);
+      }
+    };
+    Object.defineProperties(Blob.prototype, {
+      size: { enumerable: true },
+      type: { enumerable: true },
+      slice: { enumerable: true }
+    });
+    fetchBlob = Blob;
+    Blob$1 = fetchBlob;
+    FetchBaseError = class extends Error {
+      constructor(message, type) {
+        super(message);
+        Error.captureStackTrace(this, this.constructor);
+        this.type = type;
+      }
+      get name() {
+        return this.constructor.name;
+      }
+      get [Symbol.toStringTag]() {
+        return this.constructor.name;
+      }
+    };
+    FetchError = class extends FetchBaseError {
+      constructor(message, type, systemError) {
+        super(message, type);
+        if (systemError) {
+          this.code = this.errno = systemError.code;
+          this.erroredSysCall = systemError.syscall;
+        }
+      }
+    };
+    NAME = Symbol.toStringTag;
+    isURLSearchParameters = (object) => {
+      return typeof object === "object" && typeof object.append === "function" && typeof object.delete === "function" && typeof object.get === "function" && typeof object.getAll === "function" && typeof object.has === "function" && typeof object.set === "function" && typeof object.sort === "function" && object[NAME] === "URLSearchParams";
+    };
+    isBlob = (object) => {
+      return typeof object === "object" && typeof object.arrayBuffer === "function" && typeof object.type === "string" && typeof object.stream === "function" && typeof object.constructor === "function" && /^(Blob|File)$/.test(object[NAME]);
+    };
+    isAbortSignal = (object) => {
+      return typeof object === "object" && object[NAME] === "AbortSignal";
+    };
+    carriage = "\r\n";
+    dashes = "-".repeat(2);
+    carriageLength = Buffer.byteLength(carriage);
+    getFooter = (boundary) => `${dashes}${boundary}${dashes}${carriage.repeat(2)}`;
+    getBoundary = () => (0, import_crypto.randomBytes)(8).toString("hex");
+    INTERNALS$2 = Symbol("Body internals");
+    Body = class {
+      constructor(body, {
+        size = 0
+      } = {}) {
+        let boundary = null;
+        if (body === null) {
+          body = null;
+        } else if (isURLSearchParameters(body)) {
+          body = Buffer.from(body.toString());
+        } else if (isBlob(body))
+          ;
+        else if (Buffer.isBuffer(body))
+          ;
+        else if (import_util.types.isAnyArrayBuffer(body)) {
+          body = Buffer.from(body);
+        } else if (ArrayBuffer.isView(body)) {
+          body = Buffer.from(body.buffer, body.byteOffset, body.byteLength);
+        } else if (body instanceof import_stream.default)
+          ;
+        else if (isFormData(body)) {
+          boundary = `NodeFetchFormDataBoundary${getBoundary()}`;
+          body = import_stream.default.Readable.from(formDataIterator(body, boundary));
+        } else {
+          body = Buffer.from(String(body));
+        }
+        this[INTERNALS$2] = {
+          body,
+          boundary,
+          disturbed: false,
+          error: null
+        };
+        this.size = size;
+        if (body instanceof import_stream.default) {
+          body.on("error", (err) => {
+            const error2 = err instanceof FetchBaseError ? err : new FetchError(`Invalid response body while trying to fetch ${this.url}: ${err.message}`, "system", err);
+            this[INTERNALS$2].error = error2;
+          });
+        }
+      }
+      get body() {
+        return this[INTERNALS$2].body;
+      }
+      get bodyUsed() {
+        return this[INTERNALS$2].disturbed;
+      }
+      async arrayBuffer() {
+        const { buffer, byteOffset, byteLength } = await consumeBody(this);
+        return buffer.slice(byteOffset, byteOffset + byteLength);
+      }
+      async blob() {
+        const ct = this.headers && this.headers.get("content-type") || this[INTERNALS$2].body && this[INTERNALS$2].body.type || "";
+        const buf = await this.buffer();
+        return new Blob$1([buf], {
+          type: ct
+        });
+      }
+      async json() {
+        const buffer = await consumeBody(this);
+        return JSON.parse(buffer.toString());
+      }
+      async text() {
+        const buffer = await consumeBody(this);
+        return buffer.toString();
+      }
+      buffer() {
+        return consumeBody(this);
+      }
+    };
+    Object.defineProperties(Body.prototype, {
+      body: { enumerable: true },
+      bodyUsed: { enumerable: true },
+      arrayBuffer: { enumerable: true },
+      blob: { enumerable: true },
+      json: { enumerable: true },
+      text: { enumerable: true }
+    });
+    clone = (instance, highWaterMark) => {
+      let p1;
+      let p2;
+      let { body } = instance;
+      if (instance.bodyUsed) {
+        throw new Error("cannot clone body after it is used");
+      }
+      if (body instanceof import_stream.default && typeof body.getBoundary !== "function") {
+        p1 = new import_stream.PassThrough({ highWaterMark });
+        p2 = new import_stream.PassThrough({ highWaterMark });
+        body.pipe(p1);
+        body.pipe(p2);
+        instance[INTERNALS$2].body = p1;
+        body = p2;
+      }
+      return body;
+    };
+    extractContentType = (body, request) => {
+      if (body === null) {
+        return null;
+      }
+      if (typeof body === "string") {
+        return "text/plain;charset=UTF-8";
+      }
+      if (isURLSearchParameters(body)) {
+        return "application/x-www-form-urlencoded;charset=UTF-8";
+      }
+      if (isBlob(body)) {
+        return body.type || null;
+      }
+      if (Buffer.isBuffer(body) || import_util.types.isAnyArrayBuffer(body) || ArrayBuffer.isView(body)) {
+        return null;
+      }
+      if (body && typeof body.getBoundary === "function") {
+        return `multipart/form-data;boundary=${body.getBoundary()}`;
+      }
+      if (isFormData(body)) {
+        return `multipart/form-data; boundary=${request[INTERNALS$2].boundary}`;
+      }
+      if (body instanceof import_stream.default) {
+        return null;
+      }
+      return "text/plain;charset=UTF-8";
+    };
+    getTotalBytes = (request) => {
+      const { body } = request;
+      if (body === null) {
+        return 0;
+      }
+      if (isBlob(body)) {
+        return body.size;
+      }
+      if (Buffer.isBuffer(body)) {
+        return body.length;
+      }
+      if (body && typeof body.getLengthSync === "function") {
+        return body.hasKnownLength && body.hasKnownLength() ? body.getLengthSync() : null;
+      }
+      if (isFormData(body)) {
+        return getFormDataLength(request[INTERNALS$2].boundary);
+      }
+      return null;
+    };
+    writeToStream = (dest, { body }) => {
+      if (body === null) {
+        dest.end();
+      } else if (isBlob(body)) {
+        body.stream().pipe(dest);
+      } else if (Buffer.isBuffer(body)) {
+        dest.write(body);
+        dest.end();
+      } else {
+        body.pipe(dest);
+      }
+    };
+    validateHeaderName = typeof import_http.default.validateHeaderName === "function" ? import_http.default.validateHeaderName : (name) => {
+      if (!/^[\^`\-\w!#$%&'*+.|~]+$/.test(name)) {
+        const err = new TypeError(`Header name must be a valid HTTP token [${name}]`);
+        Object.defineProperty(err, "code", { value: "ERR_INVALID_HTTP_TOKEN" });
+        throw err;
+      }
+    };
+    validateHeaderValue = typeof import_http.default.validateHeaderValue === "function" ? import_http.default.validateHeaderValue : (name, value) => {
+      if (/[^\t\u0020-\u007E\u0080-\u00FF]/.test(value)) {
+        const err = new TypeError(`Invalid character in header content ["${name}"]`);
+        Object.defineProperty(err, "code", { value: "ERR_INVALID_CHAR" });
+        throw err;
+      }
+    };
+    Headers = class extends URLSearchParams {
+      constructor(init2) {
+        let result = [];
+        if (init2 instanceof Headers) {
+          const raw = init2.raw();
+          for (const [name, values] of Object.entries(raw)) {
+            result.push(...values.map((value) => [name, value]));
+          }
+        } else if (init2 == null)
+          ;
+        else if (typeof init2 === "object" && !import_util.types.isBoxedPrimitive(init2)) {
+          const method = init2[Symbol.iterator];
+          if (method == null) {
+            result.push(...Object.entries(init2));
+          } else {
+            if (typeof method !== "function") {
+              throw new TypeError("Header pairs must be iterable");
+            }
+            result = [...init2].map((pair) => {
+              if (typeof pair !== "object" || import_util.types.isBoxedPrimitive(pair)) {
+                throw new TypeError("Each header pair must be an iterable object");
+              }
+              return [...pair];
+            }).map((pair) => {
+              if (pair.length !== 2) {
+                throw new TypeError("Each header pair must be a name/value tuple");
+              }
+              return [...pair];
+            });
+          }
+        } else {
+          throw new TypeError("Failed to construct 'Headers': The provided value is not of type '(sequence<sequence<ByteString>> or record<ByteString, ByteString>)");
+        }
+        result = result.length > 0 ? result.map(([name, value]) => {
+          validateHeaderName(name);
+          validateHeaderValue(name, String(value));
+          return [String(name).toLowerCase(), String(value)];
+        }) : void 0;
+        super(result);
+        return new Proxy(this, {
+          get(target, p, receiver) {
+            switch (p) {
+              case "append":
+              case "set":
+                return (name, value) => {
+                  validateHeaderName(name);
+                  validateHeaderValue(name, String(value));
+                  return URLSearchParams.prototype[p].call(receiver, String(name).toLowerCase(), String(value));
+                };
+              case "delete":
+              case "has":
+              case "getAll":
+                return (name) => {
+                  validateHeaderName(name);
+                  return URLSearchParams.prototype[p].call(receiver, String(name).toLowerCase());
+                };
+              case "keys":
+                return () => {
+                  target.sort();
+                  return new Set(URLSearchParams.prototype.keys.call(target)).keys();
+                };
+              default:
+                return Reflect.get(target, p, receiver);
+            }
+          }
+        });
+      }
+      get [Symbol.toStringTag]() {
+        return this.constructor.name;
+      }
+      toString() {
+        return Object.prototype.toString.call(this);
+      }
+      get(name) {
+        const values = this.getAll(name);
+        if (values.length === 0) {
+          return null;
+        }
+        let value = values.join(", ");
+        if (/^content-encoding$/i.test(name)) {
+          value = value.toLowerCase();
+        }
+        return value;
+      }
+      forEach(callback) {
+        for (const name of this.keys()) {
+          callback(this.get(name), name);
+        }
+      }
+      *values() {
+        for (const name of this.keys()) {
+          yield this.get(name);
+        }
+      }
+      *entries() {
+        for (const name of this.keys()) {
+          yield [name, this.get(name)];
+        }
+      }
+      [Symbol.iterator]() {
+        return this.entries();
+      }
+      raw() {
+        return [...this.keys()].reduce((result, key) => {
+          result[key] = this.getAll(key);
+          return result;
+        }, {});
+      }
+      [Symbol.for("nodejs.util.inspect.custom")]() {
+        return [...this.keys()].reduce((result, key) => {
+          const values = this.getAll(key);
+          if (key === "host") {
+            result[key] = values[0];
+          } else {
+            result[key] = values.length > 1 ? values : values[0];
+          }
+          return result;
+        }, {});
+      }
+    };
+    Object.defineProperties(Headers.prototype, ["get", "entries", "forEach", "values"].reduce((result, property) => {
+      result[property] = { enumerable: true };
+      return result;
+    }, {}));
+    redirectStatus = new Set([301, 302, 303, 307, 308]);
+    isRedirect = (code) => {
+      return redirectStatus.has(code);
+    };
+    INTERNALS$1 = Symbol("Response internals");
+    Response = class extends Body {
+      constructor(body = null, options2 = {}) {
+        super(body, options2);
+        const status = options2.status || 200;
+        const headers = new Headers(options2.headers);
+        if (body !== null && !headers.has("Content-Type")) {
+          const contentType = extractContentType(body);
+          if (contentType) {
+            headers.append("Content-Type", contentType);
+          }
+        }
+        this[INTERNALS$1] = {
+          url: options2.url,
+          status,
+          statusText: options2.statusText || "",
+          headers,
+          counter: options2.counter,
+          highWaterMark: options2.highWaterMark
+        };
+      }
+      get url() {
+        return this[INTERNALS$1].url || "";
+      }
+      get status() {
+        return this[INTERNALS$1].status;
+      }
+      get ok() {
+        return this[INTERNALS$1].status >= 200 && this[INTERNALS$1].status < 300;
+      }
+      get redirected() {
+        return this[INTERNALS$1].counter > 0;
+      }
+      get statusText() {
+        return this[INTERNALS$1].statusText;
+      }
+      get headers() {
+        return this[INTERNALS$1].headers;
+      }
+      get highWaterMark() {
+        return this[INTERNALS$1].highWaterMark;
+      }
+      clone() {
+        return new Response(clone(this, this.highWaterMark), {
+          url: this.url,
+          status: this.status,
+          statusText: this.statusText,
+          headers: this.headers,
+          ok: this.ok,
+          redirected: this.redirected,
+          size: this.size
+        });
+      }
+      static redirect(url, status = 302) {
+        if (!isRedirect(status)) {
+          throw new RangeError('Failed to execute "redirect" on "response": Invalid status code');
+        }
+        return new Response(null, {
+          headers: {
+            location: new URL(url).toString()
+          },
+          status
+        });
+      }
+      get [Symbol.toStringTag]() {
+        return "Response";
+      }
+    };
+    Object.defineProperties(Response.prototype, {
+      url: { enumerable: true },
+      status: { enumerable: true },
+      ok: { enumerable: true },
+      redirected: { enumerable: true },
+      statusText: { enumerable: true },
+      headers: { enumerable: true },
+      clone: { enumerable: true }
+    });
+    getSearch = (parsedURL) => {
+      if (parsedURL.search) {
+        return parsedURL.search;
+      }
+      const lastOffset = parsedURL.href.length - 1;
+      const hash2 = parsedURL.hash || (parsedURL.href[lastOffset] === "#" ? "#" : "");
+      return parsedURL.href[lastOffset - hash2.length] === "?" ? "?" : "";
+    };
+    INTERNALS = Symbol("Request internals");
+    isRequest = (object) => {
+      return typeof object === "object" && typeof object[INTERNALS] === "object";
+    };
+    Request = class extends Body {
+      constructor(input, init2 = {}) {
+        let parsedURL;
+        if (isRequest(input)) {
+          parsedURL = new URL(input.url);
+        } else {
+          parsedURL = new URL(input);
+          input = {};
+        }
+        let method = init2.method || input.method || "GET";
+        method = method.toUpperCase();
+        if ((init2.body != null || isRequest(input)) && input.body !== null && (method === "GET" || method === "HEAD")) {
+          throw new TypeError("Request with GET/HEAD method cannot have body");
+        }
+        const inputBody = init2.body ? init2.body : isRequest(input) && input.body !== null ? clone(input) : null;
+        super(inputBody, {
+          size: init2.size || input.size || 0
+        });
+        const headers = new Headers(init2.headers || input.headers || {});
+        if (inputBody !== null && !headers.has("Content-Type")) {
+          const contentType = extractContentType(inputBody, this);
+          if (contentType) {
+            headers.append("Content-Type", contentType);
+          }
+        }
+        let signal = isRequest(input) ? input.signal : null;
+        if ("signal" in init2) {
+          signal = init2.signal;
+        }
+        if (signal !== null && !isAbortSignal(signal)) {
+          throw new TypeError("Expected signal to be an instanceof AbortSignal");
+        }
+        this[INTERNALS] = {
+          method,
+          redirect: init2.redirect || input.redirect || "follow",
+          headers,
+          parsedURL,
+          signal
+        };
+        this.follow = init2.follow === void 0 ? input.follow === void 0 ? 20 : input.follow : init2.follow;
+        this.compress = init2.compress === void 0 ? input.compress === void 0 ? true : input.compress : init2.compress;
+        this.counter = init2.counter || input.counter || 0;
+        this.agent = init2.agent || input.agent;
+        this.highWaterMark = init2.highWaterMark || input.highWaterMark || 16384;
+        this.insecureHTTPParser = init2.insecureHTTPParser || input.insecureHTTPParser || false;
+      }
+      get method() {
+        return this[INTERNALS].method;
+      }
+      get url() {
+        return (0, import_url.format)(this[INTERNALS].parsedURL);
+      }
+      get headers() {
+        return this[INTERNALS].headers;
+      }
+      get redirect() {
+        return this[INTERNALS].redirect;
+      }
+      get signal() {
+        return this[INTERNALS].signal;
+      }
+      clone() {
+        return new Request(this);
+      }
+      get [Symbol.toStringTag]() {
+        return "Request";
+      }
+    };
+    Object.defineProperties(Request.prototype, {
+      method: { enumerable: true },
+      url: { enumerable: true },
+      headers: { enumerable: true },
+      redirect: { enumerable: true },
+      clone: { enumerable: true },
+      signal: { enumerable: true }
+    });
+    getNodeRequestOptions = (request) => {
+      const { parsedURL } = request[INTERNALS];
+      const headers = new Headers(request[INTERNALS].headers);
+      if (!headers.has("Accept")) {
+        headers.set("Accept", "*/*");
+      }
+      let contentLengthValue = null;
+      if (request.body === null && /^(post|put)$/i.test(request.method)) {
+        contentLengthValue = "0";
+      }
+      if (request.body !== null) {
+        const totalBytes = getTotalBytes(request);
+        if (typeof totalBytes === "number" && !Number.isNaN(totalBytes)) {
+          contentLengthValue = String(totalBytes);
+        }
+      }
+      if (contentLengthValue) {
+        headers.set("Content-Length", contentLengthValue);
+      }
+      if (!headers.has("User-Agent")) {
+        headers.set("User-Agent", "node-fetch");
+      }
+      if (request.compress && !headers.has("Accept-Encoding")) {
+        headers.set("Accept-Encoding", "gzip,deflate,br");
+      }
+      let { agent } = request;
+      if (typeof agent === "function") {
+        agent = agent(parsedURL);
+      }
+      if (!headers.has("Connection") && !agent) {
+        headers.set("Connection", "close");
+      }
+      const search = getSearch(parsedURL);
+      const requestOptions = {
+        path: parsedURL.pathname + search,
+        pathname: parsedURL.pathname,
+        hostname: parsedURL.hostname,
+        protocol: parsedURL.protocol,
+        port: parsedURL.port,
+        hash: parsedURL.hash,
+        search: parsedURL.search,
+        query: parsedURL.query,
+        href: parsedURL.href,
+        method: request.method,
+        headers: headers[Symbol.for("nodejs.util.inspect.custom")](),
+        insecureHTTPParser: request.insecureHTTPParser,
+        agent
+      };
+      return requestOptions;
+    };
+    AbortError = class extends FetchBaseError {
+      constructor(message, type = "aborted") {
+        super(message, type);
+      }
+    };
+    supportedSchemas = new Set(["data:", "http:", "https:"]);
+  }
+});
+
+// node_modules/@sveltejs/adapter-netlify/files/shims.js
+var init_shims = __esm({
+  "node_modules/@sveltejs/adapter-netlify/files/shims.js"() {
+    init_install_fetch();
+  }
+});
+
+// node_modules/bibtex/index.js
+var require_bibtex = __commonJS({
+  "node_modules/bibtex/index.js"(exports, module2) {
+    init_shims();
+    !function(e, t) {
+      if (typeof exports == "object" && typeof module2 == "object")
+        module2.exports = t();
+      else if (typeof define == "function" && define.amd)
+        define([], t);
+      else {
+        var n = t();
+        for (var r in n)
+          (typeof exports == "object" ? exports : e)[r] = n[r];
+      }
+    }(exports, function() {
+      return function(e) {
+        function t(r) {
+          if (n[r])
+            return n[r].exports;
+          var s2 = n[r] = { i: r, l: false, exports: {} };
+          return e[r].call(s2.exports, s2, s2.exports, t), s2.l = true, s2.exports;
+        }
+        var n = {};
+        return t.m = e, t.c = n, t.d = function(e2, n2, r) {
+          t.o(e2, n2) || Object.defineProperty(e2, n2, { configurable: false, enumerable: true, get: r });
+        }, t.n = function(e2) {
+          var n2 = e2 && e2.__esModule ? function() {
+            return e2.default;
+          } : function() {
+            return e2;
+          };
+          return t.d(n2, "a", n2), n2;
+        }, t.o = function(e2, t2) {
+          return Object.prototype.hasOwnProperty.call(e2, t2);
+        }, t.p = "", t(t.s = 17);
+      }([function(e, t, n) {
+        "use strict";
+        function r(e2, t2) {
+          if (typeof e2 != "string")
+            throw new Error("Expected to be string: " + JSON.stringify(t2 || e2));
+          return e2;
+        }
+        function s2(e2, t2) {
+          if (e2 === void 0)
+            throw new Error("Expected to be defined: " + JSON.stringify(t2 || e2));
+          return e2;
+        }
+        function o(e2, t2) {
+          if (!i(e2))
+            throw new Error("Expected to be array: " + JSON.stringify(t2 || e2));
+          return e2;
+        }
+        function i(e2) {
+          return !!e2 && e2.constructor === Array;
+        }
+        function a(e2) {
+          return typeof e2 == "number";
+        }
+        function u(e2) {
+          return typeof e2 == "string";
+        }
+        Object.defineProperty(t, "__esModule", { value: true }), t.mustBeString = r, t.mustBeDefined = s2, t.mustBeArray = o, t.isArray = i, t.isNumber = a, t.isString = u, t.flattenMyArray = function(e2, n2) {
+          n2 || (n2 = []);
+          for (var r2 = 0, s3 = e2.length; r2 < s3; r2++) {
+            var o2 = e2[r2];
+            if (Array.isArray(o2))
+              for (var i2 = 0, a2 = o2.length; i2 < a2; i2++) {
+                var u2 = o2[i2];
+                Array.isArray(u2) ? t.flattenMyArray(u2, n2) : n2.push(u2);
+              }
+            else
+              n2.push(o2);
+          }
+          return n2;
+        };
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          return e2.type === "quotedstringwrapper";
+        }
+        function s2(e2) {
+          return e2.type === "quotedstring";
+        }
+        var o = this && this.__extends || function() {
+          var e2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(e3, t2) {
+            e3.__proto__ = t2;
+          } || function(e3, t2) {
+            for (var n2 in t2)
+              t2.hasOwnProperty(n2) && (e3[n2] = t2[n2]);
+          };
+          return function(t2, n2) {
+            function r2() {
+              this.constructor = t2;
+            }
+            e2(t2, n2), t2.prototype = n2 === null ? Object.create(n2) : (r2.prototype = n2.prototype, new r2());
+          };
+        }();
+        Object.defineProperty(t, "__esModule", { value: true });
+        var i = n(4), a = function(e2) {
+          function t2(t3, n2) {
+            return e2.call(this, "quotedstring", t3, n2) || this;
+          }
+          return o(t2, e2), t2;
+        }(i.BibStringComponent);
+        t.QuotedString = a;
+        var u = function(e2) {
+          function t2(t3) {
+            return e2.call(this, "quotedstringwrapper", t3) || this;
+          }
+          return o(t2, e2), t2;
+        }(i.BibOuterStringComponent);
+        t.OuterQuotedString = u, t.isOuterQuotedString = r, t.isQuotedString = s2;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          return e2.type === "bracedstringwrapper";
+        }
+        function s2(e2) {
+          return e2.type === "bracedstring";
+        }
+        var o = this && this.__extends || function() {
+          var e2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(e3, t2) {
+            e3.__proto__ = t2;
+          } || function(e3, t2) {
+            for (var n2 in t2)
+              t2.hasOwnProperty(n2) && (e3[n2] = t2[n2]);
+          };
+          return function(t2, n2) {
+            function r2() {
+              this.constructor = t2;
+            }
+            e2(t2, n2), t2.prototype = n2 === null ? Object.create(n2) : (r2.prototype = n2.prototype, new r2());
+          };
+        }();
+        Object.defineProperty(t, "__esModule", { value: true });
+        var i = n(4), a = function(e2) {
+          function t2(t3, n2) {
+            var r2 = e2.call(this, "bracedstring", t3, n2) || this;
+            return r2.isSpecialCharacter = t3 === 0 && n2[0] === "\\", r2;
+          }
+          return o(t2, e2), t2;
+        }(i.BibStringComponent);
+        t.BracedString = a;
+        var u = function(e2) {
+          function t2(t3) {
+            return e2.call(this, "bracedstringwrapper", t3) || this;
+          }
+          return o(t2, e2), t2;
+        }(i.BibOuterStringComponent);
+        t.OuterBracedString = u, t.isOuterBracedString = r, t.isBracedString = s2;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          return typeof e2.braceDepth == "number" && typeof e2.type == "string";
+        }
+        function s2(e2) {
+          return e2.type === "ContiguousSimpleString" && d.isArray(e2.data);
+        }
+        function o(e2) {
+          return e2.data.join("");
+        }
+        function i(e2, t2) {
+          if (d.isNumber(t2) || d.isString(t2))
+            return t2;
+          if (y.isStringRef(t2))
+            return new y.StringRef(0, t2.stringref);
+          switch (d.mustBeString(t2.type, t2)) {
+            case "id":
+            case "ws":
+            case "number":
+              return d.mustBeString(t2.string);
+            case "bracedstring":
+            case "braced":
+              if (!d.isArray(t2.data))
+                throw new Error("Expect array for data: " + JSON.stringify(t2));
+              return new h.BracedString(e2, d.flattenMyArray(t2.data).map(function(t3) {
+                return i(e2 + 1, t3);
+              }));
+            case "quotedstring":
+              if (!d.isArray(t2.data))
+                throw new Error("Expect array for data: " + JSON.stringify(t2));
+              var n2 = d.flattenMyArray(t2.data);
+              return new $.QuotedString(e2, n2.map(function(t3) {
+                return i(e2, t3);
+              }));
+            default:
+              throw new Error("Unexpected complex string type: " + t2.type);
+          }
+        }
+        function a(e2) {
+          if (d.isString(e2))
+            return e2;
+          if (d.isNumber(e2))
+            return e2 + "";
+          if (h.isBracedString(e2) || $.isQuotedString(e2) || $.isOuterQuotedString(e2) || h.isOuterBracedString(e2))
+            return u(e2.data);
+          throw new Error(JSON.stringify(e2));
+        }
+        function u(e2) {
+          return e2.map(a).join("");
+        }
+        function c(e2, t2) {
+          for (var n2 = [], r2 = 0, s3 = e2; r2 < s3.length; r2++) {
+            var o2 = s3[r2], i2 = p(o2, t2);
+            d.isArray(i2) ? n2 = n2.concat(i2) : n2.push(i2);
+          }
+          return n2;
+        }
+        function p(e2, t2) {
+          if (h.isBracedString(e2))
+            return e2;
+          if ($.isQuotedString(e2)) {
+            var n2 = c(e2.data, true);
+            return d.isArray(n2) ? t2 ? n2 : _.concat(n2).concat(_) : t2 ? n2 : ['"', n2, '"'];
+          }
+          if ($.isOuterQuotedString(e2))
+            return c(e2.data, true);
+          if (h.isOuterBracedString(e2))
+            return c(e2.data, false);
+          if (d.isString(e2) || d.isNumber(e2))
+            return e2;
+          throw y.isStringRef(e2) ? new Error("StringRef should be resolved at this point!") : new Error();
+        }
+        function b(e2) {
+          for (var t2 = [], n2 = 0, r2 = e2; n2 < r2.length; n2++) {
+            var o2 = r2[n2];
+            if (d.isString(o2) || d.isNumber(o2))
+              if (t2.length <= 0) {
+                var i2 = { type: "ContiguousSimpleString", data: [o2] };
+                t2.push(i2);
+              } else {
+                var a2 = t2[t2.length - 1];
+                if (s2(a2))
+                  a2.data.push(o2);
+                else {
+                  var i2 = { type: "ContiguousSimpleString", data: [o2] };
+                  t2.push(i2);
+                }
+              }
+            else
+              t2.push(o2);
+          }
+          return t2;
+        }
+        function l(e2) {
+          return m(e2, /\s+and\s+/g);
+        }
+        function f(e2, t2) {
+          return t2 === void 0 && (t2 = 2), m(e2, /\s*,\s*/g, t2);
+        }
+        function m(e2, t2, n2) {
+          for (var r2 = [], s3 = [], o2 = 0, i2 = e2; o2 < i2.length; o2++) {
+            var a2 = i2[o2];
+            if (d.isString(a2) && (n2 === void 0 || n2 > 0)) {
+              var u2 = t2.exec(a2), c2 = 0;
+              if (u2) {
+                do {
+                  var p2 = c2;
+                  c2 = u2.index + u2[0].length, s3.push(a2.substring(p2, u2.index)), (n2 === void 0 || n2 > 0) && (r2.push(s3), s3 = [], n2 !== void 0 && n2 > 0 && n2--), u2 = n2 === void 0 || n2 > 0 ? t2.exec(a2) : void 0;
+                } while (u2);
+                c2 > 0 && c2 < a2.length && s3.push(a2.substring(c2));
+              } else
+                s3.push(a2);
+            } else
+              s3.push(a2);
+          }
+          return s3.length > 0 && r2.push(s3), r2;
+        }
+        Object.defineProperty(t, "__esModule", { value: true });
+        var y = n(5), h = n(2), $ = n(1), d = n(0);
+        t.isBibStringComponent = r, t.isContiguousSimpleString = s2, t.joinContiguousSimpleStrings = o, t.parseStringComponent = i, t.toStringBibStringDatum = a, t.toStringBibStringData = u, t.flattenQuotedStrings = c;
+        var _ = ['"'];
+        t.globContiguousStrings = b, t.splitOnAnd = l, t.splitOnComma = f, t.splitOnPattern = m;
+      }, function(e, t, n) {
+        "use strict";
+        var r = this && this.__extends || function() {
+          var e2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(e3, t2) {
+            e3.__proto__ = t2;
+          } || function(e3, t2) {
+            for (var n2 in t2)
+              t2.hasOwnProperty(n2) && (e3[n2] = t2[n2]);
+          };
+          return function(t2, n2) {
+            function r2() {
+              this.constructor = t2;
+            }
+            e2(t2, n2), t2.prototype = n2 === null ? Object.create(n2) : (r2.prototype = n2.prototype, new r2());
+          };
+        }();
+        Object.defineProperty(t, "__esModule", { value: true });
+        var s2 = n(0), o = function() {
+          function e2(e3, t2, n2) {
+            this.type = e3, this.braceDepth = t2, this.data = n2;
+          }
+          return e2.isBibStringComponent = function(e3) {
+            return typeof e3.braceDepth == "number" && typeof e3.type == "string";
+          }, e2.stringifyDatum = function(t2) {
+            if (s2.isString(t2))
+              return t2;
+            if (s2.isNumber(t2))
+              return t2.toString();
+            if (e2.isBibStringComponent(t2))
+              return t2.stringify();
+            throw new Error("Unexpected state");
+          }, e2.prototype.stringify = function() {
+            return this.data.map(e2.stringifyDatum).join("");
+          }, e2;
+        }();
+        t.BibStringComponent = o;
+        var i = function(e2) {
+          function t2(t3, n2) {
+            return e2.call(this, t3, 0, n2) || this;
+          }
+          return r(t2, e2), t2;
+        }(o);
+        t.BibOuterStringComponent = i;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          return typeof e2.stringref == "string";
+        }
+        Object.defineProperty(t, "__esModule", { value: true });
+        var s2 = function() {
+          function e2(e3, t2) {
+            this.braceDepth = e3, this.stringref = t2;
+          }
+          return e2;
+        }();
+        t.StringRef = s2, t.isStringRef = r;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          return typeof e2.key == "string" && e2.value !== void 0;
+        }
+        function s2(e2) {
+          if (r(e2))
+            return { key: e2.key, value: o(e2.value) };
+          throw new Error("Was not a KeyVal: " + JSON.stringify(e2));
+        }
+        function o(e2) {
+          if (c.isNumber(e2))
+            return e2;
+          var t2 = c.mustBeArray(e2.data);
+          switch (e2.type) {
+            case "quotedstringwrapper":
+              return t2.length === 1 && c.isNumber(t2[0]) ? t2[0] : new u.OuterQuotedString(t2.map(function(e3) {
+                return p.parseStringComponent(0, e3);
+              }));
+            case "bracedstringwrapper":
+              return new a.OuterBracedString(t2.map(function(e3) {
+                return p.parseStringComponent(0, e3);
+              }));
+            default:
+              throw new Error("Unexpected value: " + JSON.stringify(e2));
+          }
+        }
+        function i(e2) {
+          if (e2)
+            return c.isNumber(e2) ? e2 : e2.stringify();
+        }
+        Object.defineProperty(t, "__esModule", { value: true });
+        var a = n(2), u = n(1), c = n(0), p = n(3);
+        t.isKeyVal = r, t.newKeyVal = s2, t.parseFieldValue = o, t.normalizeFieldValue = i;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          var t2 = s2(e2), n2 = t2.key, r2 = t2.value;
+          return new $(n2, r2);
+        }
+        function s2(e2) {
+          if (b.isKeyVal(e2))
+            return b.newKeyVal(e2);
+          if (e2.type !== "string")
+            throw new Error("Unexpected node: " + JSON.stringify(e2));
+          return s2(e2.data);
+        }
+        function o(e2) {
+          var t2 = {};
+          return Object.keys(e2).forEach(function(n2) {
+            t2[n2] || (t2[n2] = a({}, t2, e2, e2[n2]));
+          }), t2;
+        }
+        function i(e2, t2, n2, r2) {
+          return e2.data.map(function(e3) {
+            if (y.isString(e3) || y.isNumber(e3))
+              return e3;
+            if (l.isStringRef(e3))
+              return u(t2, r2, e3, n2);
+            if (h.isBibStringComponent(e3))
+              return c(e3, t2, n2, r2);
+            throw new Error();
+          });
+        }
+        function a(e2, t2, n2, r2) {
+          return y.isNumber(r2) ? r2 : m.isOuterBracedString(r2) || f.isOuterQuotedString(r2) ? p(r2, e2, t2, n2) : l.isStringRef(r2) ? u(e2, n2, r2, t2) : r2;
+        }
+        function u(e2, t2, n2, r2) {
+          var s3 = n2.stringref;
+          if (e2[s3])
+            throw new Error("Cycle detected: " + s3);
+          if (r2[s3])
+            return r2[s3];
+          if (!t2[s3])
+            throw new Error('Unresolved reference: "' + n2.stringref + '" (' + JSON.stringify(n2) + ")");
+          return r2[s3] = a(Object.assign({}, e2, (o2 = {}, o2[s3] = true, o2)), r2, t2, t2[s3]), r2[s3];
+          var o2;
+        }
+        function c(e2, t2, n2, r2) {
+          var s3 = i(e2, t2, n2, r2), o2 = e2.braceDepth;
+          if (f.isQuotedString(e2))
+            return new f.QuotedString(o2, s3);
+          if (m.isBracedString(e2))
+            return new m.BracedString(o2, s3);
+          if (f.isOuterQuotedString(e2))
+            return new f.OuterQuotedString(s3);
+          if (m.isOuterBracedString(e2))
+            return new m.OuterBracedString(s3);
+          throw new Error();
+        }
+        function p(e2, t2, n2, r2) {
+          var s3 = c(e2, t2, n2, r2);
+          if (!m.isOuterBracedString(s3) && !f.isOuterQuotedString(s3))
+            throw new Error();
+          return s3;
+        }
+        Object.defineProperty(t, "__esModule", { value: true });
+        var b = n(6), l = n(5), f = n(1), m = n(2), y = n(0), h = n(3), $ = function() {
+          function e2(e3, t2) {
+            this.type = "string", this.key = e3, this.value = t2;
+          }
+          return e2;
+        }();
+        t.BibStringEntry = $, t.newStringEntry = r, t.resolveStrings = o, t.resolveStringReferences = i, t.resolveStringReference = a, t.copyWithResolvedStringReferences = c, t.copyOuterWithResolvedStringReferences = p;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          var t2 = $.toStringBibStringData(e2);
+          return t2 ? t2.charAt(0) : "";
+        }
+        function s2(e2) {
+          return e2.length > 0 && o(e2[0]);
+        }
+        function o(e2) {
+          if (f.isString(e2)) {
+            if (!e2)
+              return false;
+            var t2 = e2.charAt(0);
+            return t2.toLowerCase() === t2 && t2.toUpperCase() !== t2;
+          }
+          if (m.isQuotedString(e2))
+            return !(!e2.data || e2.data.length <= 0) && o(e2.data[0]);
+          if (y.isStringRef(e2) || m.isOuterQuotedString(e2) || h.isOuterBracedString(e2))
+            throw new Error("Should not do this test on this type");
+          return false;
+        }
+        function i(e2) {
+          for (var t2 = $.splitOnPattern(e2, d), n2 = -1, r2 = -1, o2 = -1, i2 = 0; i2 < t2.length - 1; i2++)
+            s2(t2[i2]) && (n2 < 0 && (n2 = i2), r2 = i2 + 1);
+          o2 = n2 >= 0 ? n2 : t2.length - 1;
+          var a2 = n2 >= 0 ? u(t2, n2, r2) : [], c2 = u(t2, 0, o2), p2 = u(t2, Math.max(r2, o2), t2.length);
+          return new _(c2, a2, p2, []);
+        }
+        function a(e2, t2) {
+          for (var n2 = $.splitOnPattern(e2, d), r2 = $.splitOnPattern(t2, d), o2 = -1, i2 = -1, a2 = 0; a2 < n2.length - 1; a2++)
+            s2(n2[a2]) && (o2 < 0 && (o2 = a2), i2 = a2 + 1);
+          var c2 = o2 >= 0 ? u(n2, 0, i2) : [], p2 = r2, b2 = u(n2, Math.max(i2, 0));
+          return new _(p2, c2, b2, []);
+        }
+        function u(e2, t2, n2) {
+          for (var r2 = [], s3 = t2; s3 < (n2 === void 0 ? e2.length : n2); s3++)
+            r2.push(e2[s3]);
+          return r2;
+        }
+        function c(e2, t2, n2) {
+          for (var r2 = $.splitOnPattern(e2, d), o2 = $.splitOnPattern(n2, d), i2 = $.splitOnPattern(t2, d), a2 = -1, c2 = -1, p2 = 0; p2 < r2.length - 1; p2++)
+            s2(r2[p2]) && (a2 < 0 && (a2 = p2), c2 = p2 + 1);
+          var b2 = a2 >= 0 ? u(r2, 0, c2) : [], l2 = u(r2, Math.max(c2, 0));
+          return new _(o2, b2, l2, i2);
+        }
+        function p(e2) {
+          var t2 = $.splitOnComma(e2);
+          switch (t2.length) {
+            case 1:
+              return i(t2[0]);
+            case 2:
+              return a(l(t2[0]), l(t2[1]));
+            case 3:
+              return c(l(t2[0]), l(t2[1]), l(t2[2]));
+            default:
+              throw new Error("Could not parse author name: partitioned as " + JSON.stringify(t2) + " in " + JSON.stringify(e2));
+          }
+        }
+        function b(e2) {
+          return e2 !== void 0;
+        }
+        function l(e2) {
+          if (b(e2))
+            return e2;
+          throw new Error("???????");
+        }
+        Object.defineProperty(t, "__esModule", { value: true });
+        var f = n(0), m = n(1), y = n(5), h = n(2), $ = n(3), d = /\s+/g, _ = function() {
+          function e2(e3, t2, n2, s3) {
+            this.firstNames$ = e3, this.vons$ = t2, this.lastNames$ = n2, this.jrs$ = s3, this.initials = e3.map(r), this.firstNames = e3.map($.toStringBibStringData), this.vons = t2.map($.toStringBibStringData), this.lastNames = n2.map($.toStringBibStringData), this.jrs = s3.map($.toStringBibStringData), this.id = this.firstNames.join("-") + "-" + this.vons.join("-") + "-" + this.lastNames.join("-") + "-" + this.jrs.join("-");
+          }
+          return e2;
+        }();
+        t.AuthorName = _, t.parseAuthorName = p;
+        var g = function() {
+          function e2(e3, t2, n2) {
+            this.first = e3, this.von = t2, this.last = n2;
+          }
+          return e2;
+        }();
+        t.Authorrr = g;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          return p.parseAuthorName(e2);
+        }
+        function s2(e2) {
+          return c.isNumber(e2) ? o([e2]) : o(e2.data, b.isOuterQuotedString(e2));
+        }
+        function o(e2, t2) {
+          var n2 = f.globContiguousStrings(f.flattenQuotedStrings(e2, t2)), r2 = n2.map(function(e3) {
+            return f.isContiguousSimpleString(e3) ? f.joinContiguousSimpleStrings(e3) : e3;
+          });
+          return f.splitOnAnd(r2);
+        }
+        function i(e2) {
+          if (!a(e2))
+            throw new Error();
+          return e2;
+        }
+        function a(e2) {
+          return c.isArray(e2.authors$) && e2.type === "authors";
+        }
+        var u = this && this.__extends || function() {
+          var e2 = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(e3, t2) {
+            e3.__proto__ = t2;
+          } || function(e3, t2) {
+            for (var n2 in t2)
+              t2.hasOwnProperty(n2) && (e3[n2] = t2[n2]);
+          };
+          return function(t2, n2) {
+            function r2() {
+              this.constructor = t2;
+            }
+            e2(t2, n2), t2.prototype = n2 === null ? Object.create(n2) : (r2.prototype = n2.prototype, new r2());
+          };
+        }();
+        Object.defineProperty(t, "__esModule", { value: true });
+        var c = n(0), p = n(8), b = n(1), l = n(4), f = n(3), m = function(e2) {
+          function t2(t3) {
+            var n2 = this, o2 = c.isNumber(t3) ? [t3] : t3.data;
+            n2 = e2.call(this, "authors", o2) || this;
+            var i2 = s2(t3);
+            return n2.authors$ = i2.map(function(e3) {
+              return r(e3);
+            }), n2;
+          }
+          return u(t2, e2), t2;
+        }(l.BibOuterStringComponent);
+        t.Authors = m, t.determineAuthorNames$ = s2, t.mustBeAuthors = i, t.isAuthors = a;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          return e2.type === "comment" && o.isArray(e2.data);
+        }
+        function s2(e2) {
+          return o.flattenMyArray(e2).map(u);
+        }
+        Object.defineProperty(t, "__esModule", { value: true });
+        var o = n(0), i = function() {
+          function e2(e3) {
+            this.type = "comment", this.data = e3, this.string = e3.join("");
+          }
+          return e2.prototype.toString = function() {
+            return this.string;
+          }, e2;
+        }();
+        t.BibComment = i;
+        var a = function() {
+          function e2(e3, t2) {
+            this.type = e3, this.data = t2, this.string = t2.join("");
+          }
+          return e2.prototype.toString = function() {
+            return this.string;
+          }, e2;
+        }();
+        t.CommentEntry = a, t.isBibComment = r;
+        var u = function(e2) {
+          return o.isString(e2) ? e2 : typeof e2 == "number" ? e2.toString() : e2.type === "@bib" ? "@" + o.mustBeString(e2.string) : e2.type === "escapedEntry" ? "\\" + u(e2.data) : o.mustBeString(e2.string);
+        };
+        t.flattenPlainText = s2;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          var t2 = {};
+          return Object.keys(e2).forEach(function(n2) {
+            t2[n2] = u.parseFieldValue(e2[n2]);
+          }), t2;
+        }
+        function s2(e2) {
+          return typeof e2.type == "string" && typeof e2._id == "string" && !!e2.fields;
+        }
+        function o(e2, t2) {
+          var n2 = {}, r2 = e2.fields;
+          return Object.keys(e2.fields).forEach(function(e3) {
+            var s3 = a.resolveStringReference({}, n2, t2, r2[e3]);
+            switch (e3) {
+              case "author":
+                n2[e3] = new i.Authors(s3);
+                break;
+              case "title":
+                n2[e3] = s3;
+                break;
+              case "incollection":
+              default:
+                n2[e3] = s3;
+            }
+          }), new c(e2.type, e2._id, n2);
+        }
+        Object.defineProperty(t, "__esModule", { value: true });
+        var i = n(9), a = n(7), u = n(6), c = function() {
+          function e2(e3, t2, n2) {
+            this.type = e3, this._id = t2, this.fields = n2, this.sortkey$ = "", this.title$ = "";
+          }
+          return e2.prototype.getField = function(e3) {
+            return this.fields[e3.toLowerCase()];
+          }, e2.prototype.getFieldAsString = function(e3) {
+            var t2 = this.getField(e3);
+            return u.normalizeFieldValue(t2);
+          }, e2.prototype.getAuthors = function() {
+            var e3 = this.fields.author;
+            return e3 === void 0 ? e3 : i.mustBeAuthors(e3);
+          }, e2;
+        }();
+        t.BibEntry = c, t.parseEntryFields = r, t.isBibEntry = s2, t.processEntry = o;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          return e2.type === "preamble" && !!e2.data;
+        }
+        function s2(e2) {
+          var t2 = i.parseBibEntriesAndNonEntries(o.mustBeArray(e2.data));
+          return new a(t2);
+        }
+        Object.defineProperty(t, "__esModule", { value: true });
+        var o = n(0), i = n(13), a = function() {
+          function e2(e3) {
+            this.type = "preamble", this.data = e3, this.string = e3.join("");
+          }
+          return e2.prototype.toString = function() {
+            return this.string;
+          }, e2;
+        }();
+        t.Preamble = a, t.isPreamble = r, t.newPreambleNode = s2;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          if (!u.isArray(e2.data) || e2.type !== "NON_ENTRY")
+            throw new Error();
+          return new b.BibComment(b.flattenPlainText(e2.data));
+        }
+        function s2(e2) {
+          switch (typeof e2) {
+            case "object":
+              var t2 = e2.data;
+              if (typeof t2["@type"] == "string")
+                return new p.BibEntry(t2["@type"], t2._id, p.parseEntryFields(t2.fields));
+              switch (u.mustBeString(t2.type)) {
+                case "string":
+                  return f.newStringEntry(t2);
+                case "preamble":
+                  return l.newPreambleNode(t2);
+                default:
+                  throw new Error("Unexpected entry parsed: " + t2.type);
+              }
+            default:
+              throw new Error("Expected object as data for entry");
+          }
+        }
+        function o(e2) {
+          var n2 = new i.Parser(a.grammar.ParserRules, a.grammar.ParserStart);
+          n2.feed(new m.default(e2).readTokens());
+          var r2 = n2.results, s3 = r2[0];
+          return new y(t.parseBibEntriesAndNonEntries(s3));
+        }
+        Object.defineProperty(t, "__esModule", { value: true });
+        var i = n(19), a = n(20), u = n(0), c = n(6), p = n(11), b = n(10), l = n(12), f = n(7), m = n(21), y = function() {
+          function e2(e3) {
+            var t2 = this;
+            this.content = e3, this.comments = e3.filter(b.isBibComment).map(function(e4) {
+              if (b.isBibComment(e4))
+                return e4;
+              throw new Error();
+            }), this.preambles_raw = e3.filter(function(e4) {
+              return l.isPreamble(e4);
+            }).map(function(e4) {
+              if (l.isPreamble(e4))
+                return e4;
+              throw new Error();
+            }), this.preamble$ = this.preambles_raw.map(function(e4) {
+              return e4.toString();
+            }).join("\n");
+            var n2 = {};
+            this.content.forEach(function(e4) {
+              if (c.isKeyVal(e4)) {
+                if (n2[e4.key])
+                  throw new Error("String with id " + e4.key + " was defined more than once");
+                n2[e4.key] = e4.value;
+              }
+            }), this.strings_raw = n2, this.strings$ = f.resolveStrings(n2), this.entries_raw = e3.filter(function(e4) {
+              return p.isBibEntry(e4);
+            }).map(function(e4) {
+              if (p.isBibEntry(e4))
+                return e4;
+              throw new Error();
+            });
+            var r2 = {};
+            this.entries_raw.forEach(function(e4) {
+              var n3 = e4._id.toLowerCase();
+              if (r2[n3])
+                throw new Error("Entry with id " + n3 + " was defined more than once");
+              r2[n3] = p.processEntry(e4, t2.strings$);
+            }), this.entries$ = r2;
+          }
+          return e2.prototype.getEntry = function(e3) {
+            return this.entries$[e3.toLowerCase()];
+          }, e2;
+        }();
+        t.BibFilePresenter = y, t.parseBibEntriesAndNonEntries = function(e2) {
+          return e2.map(function(e3) {
+            switch (e3.type) {
+              case "NON_ENTRY":
+                return r(e3);
+              case "ENTRY":
+                return s2(e3);
+              default:
+                throw new Error("Expected ENTRY or NON_ENTRY");
+            }
+          });
+        }, t.parseBibFile = o;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2, t2) {
+          return { type: e2, string: t2 };
+        }
+        function s2(e2) {
+          return t.specialChars.hasOwnProperty(e2);
+        }
+        function o(e2) {
+          return t.escapableChars.hasOwnProperty(e2);
+        }
+        Object.defineProperty(t, "__esModule", { value: true }), t.newToken = r, t.specialChars = { "@": true, "(": true, ")": true, "{": true, "}": true, "#": true, "=": true, ",": true, "\\": true, '"': true }, t.isSpecialChar = s2, t.escapableChars = { "\\": true, "@": true, "{": true, "}": true }, t.isEscapableChar = o;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          return { type: "ws", string: e2 };
+        }
+        function s2(e2) {
+          return typeof e2.string == "string" && e2.type === t.WS;
+        }
+        function o(e2) {
+          return t.singleWhitespaces.hasOwnProperty(e2);
+        }
+        Object.defineProperty(t, "__esModule", { value: true }), t.WS = "ws", t.newWhitespace = r, t.isWhitespace = s2, t.singleWhitespaces = { " ": true, "	": true, "\r": true, "\n": true }, t.isSingleWhiteSpaceCharacter = o;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          return { type: "number", string: e2 };
+        }
+        function s2(e2) {
+          return t.numericChars.hasOwnProperty(e2);
+        }
+        Object.defineProperty(t, "__esModule", { value: true }), t.newNumber = r, t.numericChars = { 0: true, 1: true, 2: true, 3: true, 4: true, 5: true, 6: true, 7: true, 8: true, 9: true }, t.isNum = s2;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          for (var n2 in e2)
+            t.hasOwnProperty(n2) || (t[n2] = e2[n2]);
+        }
+        Object.defineProperty(t, "__esModule", { value: true }), r(n(8)), r(n(9)), r(n(18)), r(n(10)), r(n(11)), r(n(12)), r(n(7)), r(n(3)), r(n(4)), r(n(2)), r(n(1)), r(n(5)), r(n(6)), r(n(13)), r(n(0));
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          return t.optionalFields.hasOwnProperty(e2);
+        }
+        function s2(e2) {
+          return t.mandatoryFields.hasOwnProperty(e2);
+        }
+        function o(e2) {
+          return s2(e2) ? t.mandatoryFields[e2] : [];
+        }
+        function i(e2) {
+          return r(e2) ? t.optionalFields[e2] : [];
+        }
+        Object.defineProperty(t, "__esModule", { value: true });
+        var a = n(0);
+        t.address = "address", t.author = "author", t.booktitle = "booktitle", t.chapter = "chapter", t.edition = "edition", t.editor = "editor", t.howpublished = "howpublished", t.institution = "institution", t.journal = "journal", t.month = "month", t.note = "note", t.number = "number", t.organization = "organization", t.pages = "pages", t.publisher = "publisher", t.school = "school", t.series = "series", t.title = "title", t.type = "type", t.volume = "volume", t.year = "year", t.optionalFields = { book: [["volume", "number"], "series", "address", "edition", "month", "note"], booklet: ["author", "howpublished", "address", "address", "month", "year", "note"], conference: ["editor", ["volume", "number"], "series", "pages", "address", "month", "organization", "publisher", "note"], inproceedings: ["editor", ["volume", "number"], t.series, "pages", "address", "month", "organization", "publisher", "note"], inbook: ["volume", "number", "series", "type", "address", "edition", "month", "note"], incollection: ["editor", ["volume", "number"], "series", "type", "chapter", "pages", "address", "edition", "month", "note"], manual: ["author", "organization", "year", "address", "edition", "month", "note"], mastersthesis: ["type", "address", "month", "note"], misc: [], phdthesis: ["type", "address", "month", "note"], proceedings: ["editor", ["volume", "number"], "series", "address", "month", "organization", "publisher", "note"], techreport: ["type", "address", "number", "month", "note"], unpublished: ["month", "year"] }, t.mandatoryFields = { article: ["author", "title", "year", "journal"], book: [["author", "editor"], "title", "publisher", "year"], booklet: ["title"], conference: ["author", "title", "booktitle", "year"], inproceedings: ["author", "title", "booktitle", "year"], inbook: [["author", "editor"], "title", ["chapter", "pages"]], incollection: ["author", "title", "booktitle", "publisher", "year"], manual: ["title"], mastersthesis: ["author", "title", "school", "year"], misc: [["author", "title", "howpublished", "year", "month", "note"]], phdthesis: ["author", "title", "school", "year"], proceedings: ["year", "title"], techreport: ["author", "title", "institution", "year"], unpublished: ["author", "title", "note"] }, t.hasOptionalFields = r, t.hasMandatoryFields = s2, t.getMandatoryFields = o, t.getOptionalFields = i, t.findError = function(e2, t2) {
+          var n2 = e2.fields;
+          if (a.isString(t2)) {
+            if (!n2[t2])
+              return new Error("Warning: expected " + e2.type + " with id " + e2._id + " to have the field: " + t2);
+          } else if (a.isArray(t2)) {
+            var r2 = t2.reduce(function(e3, t3) {
+              if (a.isString(t3))
+                return e3 && n2.hasOwnProperty(t3);
+              throw new Error();
+            }, true);
+            if (!r2)
+              return new Error("Expected " + e2.type + " with id " + e2._id + " to have one of the following fields: " + t2);
+          }
+        };
+      }, function(e, t) {
+        !function(t2, n) {
+          typeof e == "object" && e.exports ? e.exports = n() : t2.nearley = n();
+        }(this, function() {
+          function e2(t3, n2, r2) {
+            return this.id = ++e2.highestId, this.name = t3, this.symbols = n2, this.postprocess = r2, this;
+          }
+          function t2(e3, t3, n2, r2) {
+            this.rule = e3, this.dot = t3, this.reference = n2, this.data = [], this.wantedBy = r2, this.isComplete = this.dot === e3.symbols.length;
+          }
+          function n(e3, t3) {
+            this.grammar = e3, this.index = t3, this.states = [], this.wants = {}, this.scannable = [], this.completed = {};
+          }
+          function r(e3, t3) {
+            this.rules = e3, this.start = t3 || this.rules[0].name;
+            var n2 = this.byName = {};
+            this.rules.forEach(function(e4) {
+              n2.hasOwnProperty(e4.name) || (n2[e4.name] = []), n2[e4.name].push(e4);
+            });
+          }
+          function s2() {
+            this.reset("");
+          }
+          function o(e3, t3, o2) {
+            if (e3 instanceof r)
+              var i = e3, o2 = t3;
+            else
+              var i = r.fromCompiled(e3, t3);
+            this.grammar = i, this.options = { keepHistory: false, lexer: i.lexer || new s2() };
+            for (var a in o2 || {})
+              this.options[a] = o2[a];
+            this.lexer = this.options.lexer, this.lexerState = void 0;
+            var u = new n(i, 0);
+            this.table = [u];
+            u.wants[i.start] = [], u.predict(i.start), u.process(), this.current = 0;
+          }
+          return e2.highestId = 0, e2.prototype.toString = function(e3) {
+            function t3(e4) {
+              return e4.literal ? JSON.stringify(e4.literal) : e4.type ? "%" + e4.type : e4.toString();
+            }
+            var n2 = e3 === void 0 ? this.symbols.map(t3).join(" ") : this.symbols.slice(0, e3).map(t3).join(" ") + " \u25CF " + this.symbols.slice(e3).map(t3).join(" ");
+            return this.name + " \u2192 " + n2;
+          }, t2.prototype.toString = function() {
+            return "{" + this.rule.toString(this.dot) + "}, from: " + (this.reference || 0);
+          }, t2.prototype.nextState = function(e3) {
+            var n2 = new t2(this.rule, this.dot + 1, this.reference, this.wantedBy);
+            return n2.left = this, n2.right = e3, n2.isComplete && (n2.data = n2.build()), n2;
+          }, t2.prototype.build = function() {
+            var e3 = [], t3 = this;
+            do {
+              e3.push(t3.right.data), t3 = t3.left;
+            } while (t3.left);
+            return e3.reverse(), e3;
+          }, t2.prototype.finish = function() {
+            this.rule.postprocess && (this.data = this.rule.postprocess(this.data, this.reference, o.fail));
+          }, n.prototype.process = function(e3) {
+            for (var t3 = this.states, n2 = this.wants, r2 = this.completed, s3 = 0; s3 < t3.length; s3++) {
+              var i = t3[s3];
+              if (i.isComplete) {
+                if (i.finish(), i.data !== o.fail) {
+                  for (var a = i.wantedBy, u = a.length; u--; ) {
+                    var c = a[u];
+                    this.complete(c, i);
+                  }
+                  if (i.reference === this.index) {
+                    var p = i.rule.name;
+                    (this.completed[p] = this.completed[p] || []).push(i);
+                  }
+                }
+              } else {
+                var p = i.rule.symbols[i.dot];
+                if (typeof p != "string") {
+                  this.scannable.push(i);
+                  continue;
+                }
+                if (n2[p]) {
+                  if (n2[p].push(i), r2.hasOwnProperty(p))
+                    for (var b = r2[p], u = 0; u < b.length; u++) {
+                      var l = b[u];
+                      this.complete(i, l);
+                    }
+                } else
+                  n2[p] = [i], this.predict(p);
+              }
+            }
+          }, n.prototype.predict = function(e3) {
+            for (var n2 = this.grammar.byName[e3] || [], r2 = 0; r2 < n2.length; r2++) {
+              var s3 = n2[r2], o2 = this.wants[e3], i = new t2(s3, 0, this.index, o2);
+              this.states.push(i);
+            }
+          }, n.prototype.complete = function(e3, t3) {
+            var n2 = t3.rule.name;
+            if (e3.rule.symbols[e3.dot] === n2) {
+              var r2 = e3.nextState(t3);
+              this.states.push(r2);
+            }
+          }, r.fromCompiled = function(t3, n2) {
+            var s3 = t3.Lexer;
+            t3.ParserStart && (n2 = t3.ParserStart, t3 = t3.ParserRules);
+            var t3 = t3.map(function(t4) {
+              return new e2(t4.name, t4.symbols, t4.postprocess);
+            }), o2 = new r(t3, n2);
+            return o2.lexer = s3, o2;
+          }, s2.prototype.reset = function(e3, t3) {
+            this.buffer = e3, this.index = 0, this.line = t3 ? t3.line : 1, this.lastLineBreak = t3 ? -t3.col : 0;
+          }, s2.prototype.next = function() {
+            if (this.index < this.buffer.length) {
+              var e3 = this.buffer[this.index++];
+              return e3 === "\n" && (this.line += 1, this.lastLineBreak = this.index), { value: e3 };
+            }
+          }, s2.prototype.save = function() {
+            return { line: this.line, col: this.index - this.lastLineBreak };
+          }, s2.prototype.formatError = function(e3, t3) {
+            var n2 = this.buffer;
+            if (typeof n2 == "string") {
+              var r2 = n2.indexOf("\n", this.index);
+              r2 === -1 && (r2 = n2.length);
+              var s3 = n2.substring(this.lastLineBreak, r2), o2 = this.index - this.lastLineBreak;
+              return t3 += " at line " + this.line + " col " + o2 + ":\n\n", t3 += "  " + s3 + "\n", t3 += "  " + Array(o2).join(" ") + "^";
+            }
+            return t3 + " at index " + (this.index - 1);
+          }, o.fail = {}, o.prototype.feed = function(e3) {
+            var t3 = this.lexer;
+            t3.reset(e3, this.lexerState);
+            for (var r2; r2 = t3.next(); ) {
+              var o2 = this.table[this.current];
+              this.options.keepHistory || delete this.table[this.current - 1];
+              var i = this.current + 1, a = new n(this.grammar, i);
+              this.table.push(a);
+              for (var u = r2.value, c = t3.constructor === s2 ? r2.value : r2, p = o2.scannable, b = p.length; b--; ) {
+                var l = p[b], f = l.rule.symbols[l.dot];
+                if (f.test ? f.test(c) : f.type ? f.type === r2.type : f.literal === u) {
+                  var m = l.nextState({ data: c, token: r2, isToken: true, reference: i - 1 });
+                  a.states.push(m);
+                }
+              }
+              if (a.process(), a.states.length === 0) {
+                var y = this.lexer.formatError(r2, "invalid syntax") + "\n";
+                y += "Unexpected " + (r2.type ? r2.type + " token: " : ""), y += JSON.stringify(r2.value !== void 0 ? r2.value : r2) + "\n";
+                var h = new Error(y);
+                throw h.offset = this.current, h.token = r2, h;
+              }
+              this.options.keepHistory && (o2.lexerState = t3.save()), this.current++;
+            }
+            return o2 && (this.lexerState = t3.save()), this.results = this.finish(), this;
+          }, o.prototype.save = function() {
+            var e3 = this.table[this.current];
+            return e3.lexerState = this.lexerState, e3;
+          }, o.prototype.restore = function(e3) {
+            var t3 = e3.index;
+            this.current = t3, this.table[t3] = e3, this.table.splice(t3 + 1), this.lexerState = e3.lexerState, this.results = this.finish();
+          }, o.prototype.rewind = function(e3) {
+            if (!this.options.keepHistory)
+              throw new Error("set option `keepHistory` to enable rewinding");
+            this.restore(this.table[e3]);
+          }, o.prototype.finish = function() {
+            var e3 = [], t3 = this.grammar.start;
+            return this.table[this.table.length - 1].states.forEach(function(n2) {
+              n2.rule.name === t3 && n2.dot === n2.rule.symbols.length && n2.reference === 0 && n2.data !== o.fail && e3.push(n2);
+            }), e3.map(function(e4) {
+              return e4.data;
+            });
+          }, { Parser: o, Grammar: r, Rule: e2 };
+        });
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          return e2[0];
+        }
+        function s2(e2, t2) {
+          if (t2.type !== "keyval")
+            throw new Error("Expected a keyval object");
+          var n2 = t2.key.toLowerCase();
+          return e2.fields[n2] ? void 0 : (e2.fields[n2] = t2.value, e2);
+        }
+        function o(e2) {
+          for (var t2 = [], n2 = 0; n2 < e2.length; n2++)
+            if (typeof e2[n2] == "object") {
+              if (!e2[n2].string)
+                throw new Error("Expected token to have a string field called 'string' in object " + JSON.stringify(e2[n2]));
+              t2.push(e2[n2].string);
+            } else {
+              if (typeof e2[n2] != "string" && typeof e2[n2] != "number")
+                throw new Error("Could not handle token " + JSON.stringify(e2[n2]) + " in array " + JSON.stringify(e2));
+              t2.push(e2[n2]);
+            }
+          return t2.join("");
+        }
+        Object.defineProperty(t, "__esModule", { value: true });
+        var i = function(e2) {
+          return e2.constructor === Number || typeof e2 == "object" && e2.type === "number";
+        }, a = { test: function(e2) {
+          return typeof e2 == "object" && e2.type === "id";
+        } }, u = { test: function(e2) {
+          return typeof e2 == "object" && e2.type === "@bib";
+        } }, c = { test: function(e2) {
+          return typeof e2 == "object" && e2.type === "@string";
+        } }, p = { test: function(e2) {
+          return typeof e2 == "object" && e2.type === "@preamble";
+        } }, b = { test: function(e2) {
+          return typeof e2 == "object" && e2.type === "@comment";
+        } }, l = { test: function(e2) {
+          return typeof e2 == "object" && e2.type === "ws";
+        } }, f = { test: i }, m = { literal: "#" }, y = { literal: "=" }, h = { literal: "\\" }, $ = { literal: "(" }, d = { literal: ")" }, _ = { literal: "{" }, g = { literal: "}" }, v = { literal: '"' }, x = { literal: "," };
+        t.grammar = { Lexer: void 0, ParserRules: [{ name: "main$ebnf$1", symbols: ["non_entry"], postprocess: r }, { name: "main$ebnf$1", symbols: [], postprocess: function() {
+        } }, { name: "main$ebnf$2", symbols: [] }, { name: "main$ebnf$2$subexpression$1$ebnf$1", symbols: ["non_entry"], postprocess: r }, { name: "main$ebnf$2$subexpression$1$ebnf$1", symbols: [], postprocess: function() {
+        } }, { name: "main$ebnf$2$subexpression$1", symbols: ["entry", "main$ebnf$2$subexpression$1$ebnf$1"] }, { name: "main$ebnf$2", symbols: ["main$ebnf$2", "main$ebnf$2$subexpression$1"], postprocess: function(e2) {
+          return e2[0].concat([e2[1]]);
+        } }, { name: "main", symbols: ["main$ebnf$1", "main$ebnf$2"], postprocess: function(e2) {
+          var t2 = [];
+          e2[0] && t2.push({ type: "NON_ENTRY", data: e2[0] });
+          for (var n2 = 0; n2 < e2[1].length; n2++)
+            t2.push({ type: "ENTRY", data: e2[1][n2][0] }), e2[1][n2][1] && t2.push({ type: "NON_ENTRY", data: e2[1][n2][1] });
+          return t2;
+        } }, { name: "_$ebnf$1", symbols: [] }, { name: "_$ebnf$1", symbols: ["_$ebnf$1", l], postprocess: function(e2) {
+          return e2[0].concat([e2[1]]);
+        } }, { name: "_", symbols: ["_$ebnf$1"] }, { name: "entry_decl$subexpression$1", symbols: [u] }, { name: "entry_decl$subexpression$1", symbols: [c] }, { name: "entry_decl$subexpression$1", symbols: [p] }, { name: "entry_decl$subexpression$1", symbols: [b] }, { name: "entry_decl", symbols: ["entry_decl$subexpression$1"], postprocess: function(e2) {
+          return e2[0][0];
+        } }, { name: "entry$subexpression$1", symbols: ["bib_entry"] }, { name: "entry$subexpression$1", symbols: ["string_entry"] }, { name: "entry$subexpression$1", symbols: ["preamble_entry"] }, { name: "entry$subexpression$1", symbols: ["comment_entry"] }, { name: "entry", symbols: ["entry$subexpression$1"], postprocess: function(e2) {
+          return e2[0][0];
+        } }, { name: "comment", symbols: ["main"], postprocess: function(e2) {
+          return e2[0];
+        } }, { name: "comment_liberal$ebnf$1", symbols: [] }, { name: "comment_liberal$ebnf$1$subexpression$1", symbols: [/./] }, { name: "comment_liberal$ebnf$1", symbols: ["comment_liberal$ebnf$1", "comment_liberal$ebnf$1$subexpression$1"], postprocess: function(e2) {
+          return e2[0].concat([e2[1]]);
+        } }, { name: "comment_liberal", symbols: ["comment_liberal$ebnf$1"], postprocess: function(e2) {
+          for (var t2 = [], n2 = 0; n2 < e2[0].length; n2++)
+            t2.push(e2[0][n2][0]);
+          return t2;
+        } }, { name: "entry_body_comment$subexpression$1$macrocall$2", symbols: ["comment"] }, { name: "entry_body_comment$subexpression$1$macrocall$1", symbols: [$, "entry_body_comment$subexpression$1$macrocall$2", d], postprocess: function(e2) {
+          return e2[1];
+        } }, { name: "entry_body_comment$subexpression$1", symbols: ["entry_body_comment$subexpression$1$macrocall$1"] }, { name: "entry_body_comment$subexpression$1$macrocall$4", symbols: ["comment"] }, { name: "entry_body_comment$subexpression$1$macrocall$3", symbols: [_, "entry_body_comment$subexpression$1$macrocall$4", g], postprocess: function(e2) {
+          return e2[1];
+        } }, { name: "entry_body_comment$subexpression$1", symbols: ["entry_body_comment$subexpression$1$macrocall$3"] }, { name: "entry_body_comment", symbols: ["entry_body_comment$subexpression$1"], postprocess: function(e2) {
+          return e2[0][0][0];
+        } }, { name: "entry_body_string$subexpression$1$macrocall$2", symbols: ["keyval"] }, { name: "entry_body_string$subexpression$1$macrocall$1", symbols: [$, "_", "entry_body_string$subexpression$1$macrocall$2", "_", d], postprocess: function(e2) {
+          return e2[2];
+        } }, { name: "entry_body_string$subexpression$1", symbols: ["entry_body_string$subexpression$1$macrocall$1"] }, { name: "entry_body_string$subexpression$1$macrocall$4", symbols: ["keyval"] }, { name: "entry_body_string$subexpression$1$macrocall$3", symbols: [_, "_", "entry_body_string$subexpression$1$macrocall$4", "_", g], postprocess: function(e2) {
+          return e2[2];
+        } }, { name: "entry_body_string$subexpression$1", symbols: ["entry_body_string$subexpression$1$macrocall$3"] }, { name: "entry_body_string", symbols: ["entry_body_string$subexpression$1"], postprocess: function(e2) {
+          return e2[0][0][0];
+        } }, { name: "entry_body_bib$subexpression$1$macrocall$2", symbols: ["bib_content"] }, { name: "entry_body_bib$subexpression$1$macrocall$1", symbols: [$, "_", "entry_body_bib$subexpression$1$macrocall$2", "_", d], postprocess: function(e2) {
+          return e2[2];
+        } }, { name: "entry_body_bib$subexpression$1", symbols: ["entry_body_bib$subexpression$1$macrocall$1"] }, { name: "entry_body_bib$subexpression$1$macrocall$4", symbols: ["bib_content"] }, { name: "entry_body_bib$subexpression$1$macrocall$3", symbols: [_, "_", "entry_body_bib$subexpression$1$macrocall$4", "_", g], postprocess: function(e2) {
+          return e2[2];
+        } }, { name: "entry_body_bib$subexpression$1", symbols: ["entry_body_bib$subexpression$1$macrocall$3"] }, { name: "entry_body_bib", symbols: ["entry_body_bib$subexpression$1"], postprocess: function(e2) {
+          return e2[0][0][0];
+        } }, { name: "bib_content$ebnf$1", symbols: [] }, { name: "bib_content$ebnf$1$subexpression$1", symbols: ["keyval", "_", x, "_"] }, { name: "bib_content$ebnf$1", symbols: ["bib_content$ebnf$1", "bib_content$ebnf$1$subexpression$1"], postprocess: function(e2) {
+          return e2[0].concat([e2[1]]);
+        } }, { name: "bib_content$ebnf$2$subexpression$1", symbols: ["_", x] }, { name: "bib_content$ebnf$2", symbols: ["bib_content$ebnf$2$subexpression$1"], postprocess: r }, { name: "bib_content$ebnf$2", symbols: [], postprocess: function() {
+        } }, { name: "bib_content", symbols: ["key_string", "_", x, "_", "bib_content$ebnf$1", "keyval", "bib_content$ebnf$2"], postprocess: function(e2) {
+          for (var t2 = { _id: e2[0], fields: [] }, n2 = e2[4], r2 = 0; r2 < n2.length; r2++)
+            t2.fields.push(n2[r2][0]);
+          return t2.fields.push(e2[5]), t2;
+        } }, { name: "bib_entry", symbols: [u, "_", "entry_body_bib"], postprocess: function(e2) {
+          var t2 = { _id: e2[2]._id };
+          t2["@type"] = e2[0].string, t2.fields = {};
+          for (var n2 = e2[2].fields, r2 = 0; r2 < n2.length; r2++)
+            s2(t2, n2[r2]);
+          return t2;
+        } }, { name: "string_entry", symbols: [c, "_", "entry_body_string"], postprocess: function(e2) {
+          return { type: "string", data: e2[2] };
+        } }, { name: "preamble_entry", symbols: [p, "_", "entry_body_comment"], postprocess: function(e2) {
+          return { type: "preamble", data: e2[2] };
+        } }, { name: "comment_entry", symbols: [b, "_", "entry_body_comment"], postprocess: function(e2) {
+          return { type: "comment", data: e2[2] };
+        } }, { name: "keyval", symbols: ["key_string", "_", y, "_", "value_string"], postprocess: function(e2) {
+          return { type: "keyval", key: e2[0], value: e2[4] };
+        } }, { name: "braced_string$ebnf$1", symbols: [] }, { name: "braced_string$ebnf$1$subexpression$1", symbols: ["non_brace"] }, { name: "braced_string$ebnf$1$subexpression$1", symbols: ["braced_string"] }, { name: "braced_string$ebnf$1", symbols: ["braced_string$ebnf$1", "braced_string$ebnf$1$subexpression$1"], postprocess: function(e2) {
+          return e2[0].concat([e2[1]]);
+        } }, { name: "braced_string", symbols: [_, "braced_string$ebnf$1", g], postprocess: function(e2) {
+          var t2 = [];
+          for (var n2 in e2[1])
+            t2.push(e2[1][n2][0]);
+          return { type: "braced", data: t2 };
+        } }, { name: "quoted_string$ebnf$1", symbols: [] }, { name: "quoted_string$ebnf$1$subexpression$1", symbols: ["escaped_quote"] }, { name: "quoted_string$ebnf$1$subexpression$1", symbols: ["non_quote_non_brace"] }, { name: "quoted_string$ebnf$1$subexpression$1", symbols: ["braced_string"] }, { name: "quoted_string$ebnf$1", symbols: ["quoted_string$ebnf$1", "quoted_string$ebnf$1$subexpression$1"], postprocess: function(e2) {
+          return e2[0].concat([e2[1]]);
+        } }, { name: "quoted_string", symbols: [v, "quoted_string$ebnf$1", v], postprocess: function(e2) {
+          var t2 = [];
+          for (var n2 in e2[1])
+            t2.push(e2[1][n2][0]);
+          return { type: "quotedstring", data: t2 };
+        } }, { name: "escaped_quote", symbols: [h, v] }, { name: "non_quote_non_brace$subexpression$1", symbols: [a] }, { name: "non_quote_non_brace$subexpression$1", symbols: [u] }, { name: "non_quote_non_brace$subexpression$1", symbols: [c] }, { name: "non_quote_non_brace$subexpression$1", symbols: [p] }, { name: "non_quote_non_brace$subexpression$1", symbols: [b] }, { name: "non_quote_non_brace$subexpression$1", symbols: [l] }, { name: "non_quote_non_brace$subexpression$1", symbols: [f] }, { name: "non_quote_non_brace$subexpression$1", symbols: [m] }, { name: "non_quote_non_brace$subexpression$1", symbols: [y] }, { name: "non_quote_non_brace$subexpression$1", symbols: [h] }, { name: "non_quote_non_brace$subexpression$1", symbols: [$] }, { name: "non_quote_non_brace$subexpression$1", symbols: [d] }, { name: "non_quote_non_brace$subexpression$1", symbols: [x] }, { name: "non_quote_non_brace", symbols: ["non_quote_non_brace$subexpression$1"] }, { name: "key_string$ebnf$1", symbols: ["stringreftoken"] }, { name: "key_string$ebnf$1", symbols: ["key_string$ebnf$1", "stringreftoken"], postprocess: function(e2) {
+          return e2[0].concat([e2[1]]);
+        } }, { name: "key_string", symbols: ["key_string$ebnf$1"], postprocess: function(e2) {
+          return o(e2[0]).toLowerCase();
+        } }, { name: "value_string$subexpression$1$ebnf$1", symbols: [] }, { name: "value_string$subexpression$1$ebnf$1$subexpression$1", symbols: ["_", m, "_", "quoted_string_or_ref"] }, { name: "value_string$subexpression$1$ebnf$1", symbols: ["value_string$subexpression$1$ebnf$1", "value_string$subexpression$1$ebnf$1$subexpression$1"], postprocess: function(e2) {
+          return e2[0].concat([e2[1]]);
+        } }, { name: "value_string$subexpression$1", symbols: ["quoted_string_or_ref", "value_string$subexpression$1$ebnf$1"] }, { name: "value_string$subexpression$1", symbols: ["braced_string"] }, { name: "value_string", symbols: ["value_string$subexpression$1"], postprocess: function(e2) {
+          var t2 = e2[0];
+          if (t2.length === 2) {
+            var n2 = [];
+            n2.push(t2[0]);
+            for (var r2 = 0; r2 < t2[1].length; r2++)
+              n2.push(t2[1][r2][3]);
+            return { type: "quotedstringwrapper", data: n2 };
+          }
+          if (t2[0].type === "braced")
+            return { type: "bracedstringwrapper", data: t2[0].data };
+          throw new Error("Don't know how to handle value " + JSON.stringify(t2[0]));
+        } }, { name: "quoted_string_or_ref$subexpression$1", symbols: ["quoted_string"] }, { name: "quoted_string_or_ref$subexpression$1", symbols: ["string_ref"] }, { name: "quoted_string_or_ref$subexpression$1", symbols: [f] }, { name: "quoted_string_or_ref", symbols: ["quoted_string_or_ref$subexpression$1"], postprocess: function(e2) {
+          return e2[0][0].type, e2[0][0];
+        } }, { name: "string_ref$subexpression$1$ebnf$1", symbols: [] }, { name: "string_ref$subexpression$1$ebnf$1", symbols: ["string_ref$subexpression$1$ebnf$1", "stringreftoken"], postprocess: function(e2) {
+          return e2[0].concat([e2[1]]);
+        } }, { name: "string_ref$subexpression$1", symbols: ["stringreftoken_n_num", "string_ref$subexpression$1$ebnf$1"] }, { name: "string_ref", symbols: ["string_ref$subexpression$1"], postprocess: function(e2) {
+          return { stringref: e2[0][0] + o(e2[0][1]) };
+        } }, { name: "stringreftoken$subexpression$1", symbols: [h] }, { name: "stringreftoken$subexpression$1", symbols: [$] }, { name: "stringreftoken$subexpression$1", symbols: [d] }, { name: "stringreftoken$subexpression$1", symbols: [a] }, { name: "stringreftoken$subexpression$1", symbols: [f] }, { name: "stringreftoken$subexpression$1", symbols: [u] }, { name: "stringreftoken$subexpression$1", symbols: [c] }, { name: "stringreftoken$subexpression$1", symbols: [p] }, { name: "stringreftoken$subexpression$1", symbols: [b] }, { name: "stringreftoken", symbols: ["stringreftoken$subexpression$1"], postprocess: function(e2) {
+          if (typeof e2[0][0] == "object") {
+            if (!e2[0][0].string)
+              throw new Error("Expected " + e2[0] + "to have a 'string' field");
+            return e2[0][0].string;
+          }
+          if (typeof e2[0][0] != "string" && typeof e2[0][0] != "number")
+            throw new Error("Expected " + e2[0][0] + " to be a string");
+          return e2[0][0];
+        } }, { name: "stringreftoken_n_num$subexpression$1", symbols: [h] }, { name: "stringreftoken_n_num$subexpression$1", symbols: [$] }, { name: "stringreftoken_n_num$subexpression$1", symbols: [d] }, { name: "stringreftoken_n_num$subexpression$1", symbols: [a] }, { name: "stringreftoken_n_num$subexpression$1", symbols: [u] }, { name: "stringreftoken_n_num$subexpression$1", symbols: [c] }, { name: "stringreftoken_n_num$subexpression$1", symbols: [p] }, { name: "stringreftoken_n_num$subexpression$1", symbols: [b] }, { name: "stringreftoken_n_num", symbols: ["stringreftoken_n_num$subexpression$1"], postprocess: function(e2) {
+          if (typeof e2[0][0] == "object") {
+            if (!e2[0][0].string)
+              throw new Error("Expected " + e2[0] + "to have a 'string' field");
+            return e2[0][0].string;
+          }
+          if (typeof e2[0][0] != "string" && typeof e2[0][0] != "number")
+            throw new Error("Expected " + e2[0][0] + " to be a string");
+          return e2[0][0];
+        } }, { name: "non_brace$subexpression$1", symbols: [h] }, { name: "non_brace$subexpression$1", symbols: [$] }, { name: "non_brace$subexpression$1", symbols: [d] }, { name: "non_brace$subexpression$1", symbols: [a] }, { name: "non_brace$subexpression$1", symbols: [v] }, { name: "non_brace$subexpression$1", symbols: [l] }, { name: "non_brace$subexpression$1", symbols: [f] }, { name: "non_brace$subexpression$1", symbols: [x] }, { name: "non_brace$subexpression$1", symbols: [u] }, { name: "non_brace$subexpression$1", symbols: [c] }, { name: "non_brace$subexpression$1", symbols: [p] }, { name: "non_brace$subexpression$1", symbols: [b] }, { name: "non_brace$subexpression$1", symbols: [m] }, { name: "non_brace$subexpression$1", symbols: [y] }, { name: "non_brace", symbols: ["non_brace$subexpression$1"], postprocess: function(e2) {
+          return e2[0][0];
+        } }, { name: "non_bracket$subexpression$1", symbols: [h] }, { name: "non_bracket$subexpression$1", symbols: [a] }, { name: "non_bracket$subexpression$1", symbols: [v] }, { name: "non_bracket$subexpression$1", symbols: [l] }, { name: "non_bracket$subexpression$1", symbols: [f] }, { name: "non_bracket$subexpression$1", symbols: [x] }, { name: "non_bracket$subexpression$1", symbols: [u] }, { name: "non_bracket$subexpression$1", symbols: [c] }, { name: "non_bracket$subexpression$1", symbols: [p] }, { name: "non_bracket$subexpression$1", symbols: [b] }, { name: "non_bracket$subexpression$1", symbols: [m] }, { name: "non_bracket$subexpression$1", symbols: [y] }, { name: "non_bracket", symbols: ["non_bracket$subexpression$1"], postprocess: function(e2) {
+          return e2[0][0];
+        } }, { name: "non_entry$ebnf$1$subexpression$1", symbols: ["escaped_entry"] }, { name: "non_entry$ebnf$1$subexpression$1", symbols: ["escaped_escape"] }, { name: "non_entry$ebnf$1$subexpression$1", symbols: ["escaped_non_esc_outside_entry"] }, { name: "non_entry$ebnf$1$subexpression$1", symbols: ["non_esc_outside_entry"] }, { name: "non_entry$ebnf$1", symbols: ["non_entry$ebnf$1$subexpression$1"] }, { name: "non_entry$ebnf$1$subexpression$2", symbols: ["escaped_entry"] }, { name: "non_entry$ebnf$1$subexpression$2", symbols: ["escaped_escape"] }, { name: "non_entry$ebnf$1$subexpression$2", symbols: ["escaped_non_esc_outside_entry"] }, { name: "non_entry$ebnf$1$subexpression$2", symbols: ["non_esc_outside_entry"] }, { name: "non_entry$ebnf$1", symbols: ["non_entry$ebnf$1", "non_entry$ebnf$1$subexpression$2"], postprocess: function(e2) {
+          return e2[0].concat([e2[1]]);
+        } }, { name: "non_entry", symbols: ["non_entry$ebnf$1"], postprocess: function(e2) {
+          for (var t2 = [], n2 = 0; n2 < e2[0].length; n2++)
+            t2.push(e2[0][n2][0]);
+          return t2;
+        } }, { name: "escaped_escape", symbols: [h, h], postprocess: function() {
+          return "\\";
+        } }, { name: "escaped_entry", symbols: [h, "entry_decl"], postprocess: function(e2) {
+          return { type: "escapedEntry", data: e2[1] };
+        } }, { name: "escaped_non_esc_outside_entry", symbols: [h, "non_esc_outside_entry"], postprocess: function(e2) {
+          return e2;
+        } }, { name: "non_esc_outside_entry$subexpression$1", symbols: [a] }, { name: "non_esc_outside_entry$subexpression$1", symbols: [l] }, { name: "non_esc_outside_entry$subexpression$1", symbols: [f] }, { name: "non_esc_outside_entry$subexpression$1", symbols: [m] }, { name: "non_esc_outside_entry$subexpression$1", symbols: [y] }, { name: "non_esc_outside_entry$subexpression$1", symbols: [$] }, { name: "non_esc_outside_entry$subexpression$1", symbols: [d] }, { name: "non_esc_outside_entry$subexpression$1", symbols: [_] }, { name: "non_esc_outside_entry$subexpression$1", symbols: [g] }, { name: "non_esc_outside_entry$subexpression$1", symbols: [v] }, { name: "non_esc_outside_entry$subexpression$1", symbols: [x] }, { name: "non_esc_outside_entry", symbols: ["non_esc_outside_entry$subexpression$1"], postprocess: function(e2) {
+          return e2[0][0];
+        } }], ParserStart: "main" };
+      }, function(e, t, n) {
+        "use strict";
+        Object.defineProperty(t, "__esModule", { value: true });
+        var r = n(14), s2 = n(15), o = n(16), i = n(22), a = n(23), u = function() {
+          function e2(e3) {
+            this.str = e3, this.len = e3.length, this.pos = 0;
+          }
+          return e2.prototype.getStringUntilNonEscapedChar = function(e3) {
+            for (var t2 = [], n2 = this.pos; n2 < this.len + 1; n2++) {
+              if (this.pos = n2, this.str.charAt(n2) == "\\" && this.str.charAt(n2 + 1).match(e3))
+                n2++, this.pos = n2;
+              else if (this.str.charAt(n2).match(e3))
+                break;
+              t2.push(this.str.charAt(n2));
+            }
+            return t2.join("");
+          }, e2.prototype.readTokens = function() {
+            for (var e3, t2 = []; e3 = this.readNextToken(); )
+              t2.push(e3);
+            return t2;
+          }, e2.prototype.readNextToken = function() {
+            if (!(this.pos >= this.str.length)) {
+              var e3 = this.str.charAt(this.pos);
+              return s2.isSingleWhiteSpaceCharacter(e3) ? this.eatWhiteSpace() : r.isSpecialChar(e3) ? this.eatSpecialChars(e3) : o.isNum(e3) ? this.eatNumericString(e3) : this.eatIdString();
+            }
+          }, e2.prototype.eatIdString = function() {
+            for (var e3 = [], t2 = this.pos, n2 = t2; n2 < this.len + 1; n2++) {
+              this.pos = n2;
+              var r2 = this.str.charAt(n2);
+              if (!i.isIdChar(r2))
+                break;
+              e3.push(r2);
+            }
+            return i.newIdToken(e3.join("").trim());
+          }, e2.prototype.eatNumericString = function(e3) {
+            for (var t2 = [e3], n2 = this.pos + 1, r2 = n2; r2 < this.len + 1; r2++) {
+              this.pos = r2;
+              var s3 = this.str.charAt(r2);
+              if (!o.isNum(s3))
+                break;
+              t2.push(s3);
+            }
+            var i2 = t2.join("");
+            if (t2[0] === "0")
+              return o.newNumber(i2);
+            var a2 = Number.parseInt(i2);
+            return Number.isFinite(a2) ? a2 : o.newNumber(i2);
+          }, e2.prototype.eatSpecialChars = function(e3) {
+            if (this.pos++, e3 === "@") {
+              var t2 = this.getStringUntilNonEscapedChar("{").trim().toLowerCase();
+              return a.isBibType(t2) ? r.newToken(a.bibTypes[t2], t2) : r.newToken("@bib", t2);
+            }
+            return e3;
+          }, e2.prototype.eatWhiteSpace = function() {
+            for (var e3 = []; this.pos < this.len + 1; ) {
+              var t2 = this.str.charAt(this.pos);
+              if (!s2.isSingleWhiteSpaceCharacter(t2))
+                break;
+              e3.push(t2), this.pos++;
+            }
+            return s2.newWhitespace(e3.join(""));
+          }, e2;
+        }();
+        t.default = u;
+      }, function(e, t, n) {
+        "use strict";
+        function r(e2) {
+          return { type: "id", string: e2 };
+        }
+        function s2(e2) {
+          return e2.type === "id" && typeof e2.string == "string";
+        }
+        function o(e2) {
+          return !(i.isSpecialChar(e2) || u.isNum(e2) || a.isSingleWhiteSpaceCharacter(e2));
+        }
+        Object.defineProperty(t, "__esModule", { value: true });
+        var i = n(14), a = n(15), u = n(16);
+        t.newIdToken = r, t.isIdToken = s2, t.isIdChar = o;
+      }, function(e, t, n) {
+        "use strict";
+        Object.defineProperty(t, "__esModule", { value: true }), t.bibTypes = { string: "@string", preamble: "@preamble", comment: "@comment", bib: "@bib" }, t.isBibType = function(e2) {
+          return t.bibTypes.hasOwnProperty(e2);
+        };
+      }]);
+    });
+  }
+});
+
+// .svelte-kit/netlify/entry.js
+__export(exports, {
+  handler: () => handler
+});
+init_shims();
 
 // .svelte-kit/output/server/app.js
+init_shims();
+var import_bibtex = __toModule(require_bibtex());
 var __require2 = typeof require !== "undefined" ? require : (x) => {
   throw new Error('Dynamic require of "' + x + '" is not supported');
 };
@@ -2413,7 +3680,7 @@ function add_attribute(name, value, boolean) {
 }
 function afterUpdate() {
 }
-var css$1 = {
+var css$7 = {
   code: "#svelte-announcer.svelte-1pdgbjn{clip:rect(0 0 0 0);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;left:0;overflow:hidden;position:absolute;top:0;white-space:nowrap;width:1px}",
   map: `{"version":3,"file":"root.svelte","sources":["root.svelte"],"sourcesContent":["<!-- This file is generated by @sveltejs/kit \u2014 do not edit it! -->\\n<script>\\n\\timport { setContext, afterUpdate, onMount } from 'svelte';\\n\\n\\t// stores\\n\\texport let stores;\\n\\texport let page;\\n\\n\\texport let components;\\n\\texport let props_0 = null;\\n\\texport let props_1 = null;\\n\\texport let props_2 = null;\\n\\n\\tsetContext('__svelte__', stores);\\n\\n\\t$: stores.page.set(page);\\n\\tafterUpdate(stores.page.notify);\\n\\n\\tlet mounted = false;\\n\\tlet navigated = false;\\n\\tlet title = null;\\n\\n\\tonMount(() => {\\n\\t\\tconst unsubscribe = stores.page.subscribe(() => {\\n\\t\\t\\tif (mounted) {\\n\\t\\t\\t\\tnavigated = true;\\n\\t\\t\\t\\ttitle = document.title || 'untitled page';\\n\\t\\t\\t}\\n\\t\\t});\\n\\n\\t\\tmounted = true;\\n\\t\\treturn unsubscribe;\\n\\t});\\n<\/script>\\n\\n<svelte:component this={components[0]} {...(props_0 || {})}>\\n\\t{#if components[1]}\\n\\t\\t<svelte:component this={components[1]} {...(props_1 || {})}>\\n\\t\\t\\t{#if components[2]}\\n\\t\\t\\t\\t<svelte:component this={components[2]} {...(props_2 || {})}/>\\n\\t\\t\\t{/if}\\n\\t\\t</svelte:component>\\n\\t{/if}\\n</svelte:component>\\n\\n{#if mounted}\\n\\t<div id=\\"svelte-announcer\\" aria-live=\\"assertive\\" aria-atomic=\\"true\\">\\n\\t\\t{#if navigated}\\n\\t\\t\\t{title}\\n\\t\\t{/if}\\n\\t</div>\\n{/if}\\n\\n<style>#svelte-announcer{clip:rect(0 0 0 0);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;left:0;overflow:hidden;position:absolute;top:0;white-space:nowrap;width:1px}</style>"],"names":[],"mappings":"AAqDO,gCAAiB,CAAC,KAAK,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,kBAAkB,MAAM,GAAG,CAAC,CAAC,UAAU,MAAM,GAAG,CAAC,CAAC,OAAO,GAAG,CAAC,KAAK,CAAC,CAAC,SAAS,MAAM,CAAC,SAAS,QAAQ,CAAC,IAAI,CAAC,CAAC,YAAY,MAAM,CAAC,MAAM,GAAG,CAAC"}`
 };
@@ -2438,7 +3705,7 @@ var Root = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     $$bindings.props_1(props_1);
   if ($$props.props_2 === void 0 && $$bindings.props_2 && props_2 !== void 0)
     $$bindings.props_2(props_2);
-  $$result.css.add(css$1);
+  $$result.css.add(css$7);
   {
     stores.page.set(page);
   }
@@ -2476,9 +3743,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-0dce5455.js",
+      file: assets + "/_app/start-45446532.js",
       css: [assets + "/_app/assets/start-464e9d0a.css", assets + "/_app/assets/vendor-8daff541.css"],
-      js: [assets + "/_app/start-0dce5455.js", assets + "/_app/chunks/vendor-a119ba46.js"]
+      js: [assets + "/_app/start-45446532.js", assets + "/_app/chunks/vendor-25f8e408.js"]
     },
     fetched: void 0,
     floc: false,
@@ -2507,7 +3774,7 @@ function init(settings = default_settings) {
 }
 var empty = () => ({});
 var manifest = {
-  assets: [],
+  assets: [{ "file": ".DS_Store", "size": 6148, "type": null }, { "file": "images/.DS_Store", "size": 6148, "type": null }, { "file": "images/research/.DS_Store", "size": 6148, "type": null }, { "file": "images/team/esther.jpg", "size": 167801, "type": "image/jpeg" }, { "file": "images/team/halldor.jpg", "size": 299460, "type": "image/jpeg" }, { "file": "images/team/jack.jpg", "size": 175973, "type": "image/jpeg" }, { "file": "images/team/thor.jpg", "size": 230590, "type": "image/jpeg" }, { "file": "images/team/victor.jpg", "size": 160655, "type": "image/jpeg" }, { "file": "publications.bib", "size": 6618, "type": null }],
   layout: "src/routes/__layout.svelte",
   error: ".svelte-kit/build/components/error.svelte",
   routes: [
@@ -2515,12 +3782,135 @@ var manifest = {
       type: "page",
       pattern: /^\/$/,
       params: empty,
-      a: ["src/routes/__layout.svelte", "src/routes/index.svelte"],
+      a: ["src/routes/__layout.svelte", "src/routes/index.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/publications\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/publications/index.svelte"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/collaborate\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/collaborate.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/research\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/research/index.svelte"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/research\/halldorophone\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/research/halldorophone.md"],
       b: [".svelte-kit/build/components/error.svelte"]
     },
     {
       type: "endpoint",
-      pattern: /^\/posts\.json$/,
+      pattern: /^\/research\/projects\.json$/,
+      params: empty,
+      load: () => Promise.resolve().then(function() {
+        return projects_json;
+      })
+    },
+    {
+      type: "page",
+      pattern: /^\/research\/secondproject\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/research/secondproject.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/research\/firstproject\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/research/firstproject.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "endpoint",
+      pattern: /^\/contact\/?$/,
+      params: empty,
+      load: () => Promise.resolve().then(function() {
+        return contact$1;
+      })
+    },
+    {
+      type: "page",
+      pattern: /^\/openlab\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/openlab/index.svelte"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "endpoint",
+      pattern: /^\/openlab\/openlabs\.json$/,
+      params: empty,
+      load: () => Promise.resolve().then(function() {
+        return openlabs_json;
+      })
+    },
+    {
+      type: "page",
+      pattern: /^\/openlab\/1\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/openlab/1.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/openlab\/2\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/openlab/2.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/openlab\/3\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/openlab/3.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/openlab\/4\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/openlab/4.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/about\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/about.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "endpoint",
+      pattern: /^\/pages\/?$/,
+      params: empty,
+      load: () => Promise.resolve().then(function() {
+        return pages$1;
+      })
+    },
+    {
+      type: "page",
+      pattern: /^\/blog\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/blog/index.svelte"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "endpoint",
+      pattern: /^\/blog\/posts\.json$/,
       params: empty,
       load: () => Promise.resolve().then(function() {
         return posts_json;
@@ -2546,6 +3936,57 @@ var manifest = {
       params: empty,
       a: ["src/routes/__layout.svelte", "src/routes/blog/firstpost.md"],
       b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/news\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/news/index.svelte"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "endpoint",
+      pattern: /^\/news\/items\.json$/,
+      params: empty,
+      load: () => Promise.resolve().then(function() {
+        return items_json;
+      })
+    },
+    {
+      type: "page",
+      pattern: /^\/news\/seconditem\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/news/seconditem.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/news\/firstitem\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/news/firstitem.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/news\/thirditem\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/news/thirditem.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/team\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/team/index.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "endpoint",
+      pattern: /^\/team\/team\/?$/,
+      params: empty,
+      load: () => Promise.resolve().then(function() {
+        return team$1;
+      })
     }
   ]
 };
@@ -2562,8 +4003,47 @@ var module_lookup = {
   ".svelte-kit/build/components/error.svelte": () => Promise.resolve().then(function() {
     return error;
   }),
-  "src/routes/index.svelte": () => Promise.resolve().then(function() {
-    return index;
+  "src/routes/index.md": () => Promise.resolve().then(function() {
+    return index$6;
+  }),
+  "src/routes/publications/index.svelte": () => Promise.resolve().then(function() {
+    return index$5;
+  }),
+  "src/routes/collaborate.md": () => Promise.resolve().then(function() {
+    return collaborate;
+  }),
+  "src/routes/research/index.svelte": () => Promise.resolve().then(function() {
+    return index$4;
+  }),
+  "src/routes/research/halldorophone.md": () => Promise.resolve().then(function() {
+    return halldorophone;
+  }),
+  "src/routes/research/secondproject.md": () => Promise.resolve().then(function() {
+    return secondproject;
+  }),
+  "src/routes/research/firstproject.md": () => Promise.resolve().then(function() {
+    return firstproject;
+  }),
+  "src/routes/openlab/index.svelte": () => Promise.resolve().then(function() {
+    return index$3;
+  }),
+  "src/routes/openlab/1.md": () => Promise.resolve().then(function() {
+    return _1$1;
+  }),
+  "src/routes/openlab/2.md": () => Promise.resolve().then(function() {
+    return _2$1;
+  }),
+  "src/routes/openlab/3.md": () => Promise.resolve().then(function() {
+    return _3$1;
+  }),
+  "src/routes/openlab/4.md": () => Promise.resolve().then(function() {
+    return _4$1;
+  }),
+  "src/routes/about.md": () => Promise.resolve().then(function() {
+    return about;
+  }),
+  "src/routes/blog/index.svelte": () => Promise.resolve().then(function() {
+    return index$2;
   }),
   "src/routes/blog/secondpost.md": () => Promise.resolve().then(function() {
     return secondpost;
@@ -2573,9 +4053,24 @@ var module_lookup = {
   }),
   "src/routes/blog/firstpost.md": () => Promise.resolve().then(function() {
     return firstpost;
+  }),
+  "src/routes/news/index.svelte": () => Promise.resolve().then(function() {
+    return index$1;
+  }),
+  "src/routes/news/seconditem.md": () => Promise.resolve().then(function() {
+    return seconditem;
+  }),
+  "src/routes/news/firstitem.md": () => Promise.resolve().then(function() {
+    return firstitem;
+  }),
+  "src/routes/news/thirditem.md": () => Promise.resolve().then(function() {
+    return thirditem;
+  }),
+  "src/routes/team/index.md": () => Promise.resolve().then(function() {
+    return index;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-5770875c.js", "css": ["assets/pages/__layout.svelte-5ef3c525.css", "assets/vendor-8daff541.css"], "js": ["pages/__layout.svelte-5770875c.js", "chunks/vendor-a119ba46.js", "chunks/store-cd5ccfbe.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-d1771d52.js", "css": ["assets/vendor-8daff541.css"], "js": ["error.svelte-d1771d52.js", "chunks/vendor-a119ba46.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-c15e470d.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/index.svelte-c15e470d.js", "chunks/vendor-a119ba46.js", "chunks/store-cd5ccfbe.js"], "styles": [] }, "src/routes/blog/secondpost.md": { "entry": "pages/blog/secondpost.md-559954f4.js", "css": ["assets/vendor-8daff541.css", "assets/BlogLayout-564f10bb.css"], "js": ["pages/blog/secondpost.md-559954f4.js", "chunks/vendor-a119ba46.js", "chunks/BlogLayout-2b481d2d.js", "chunks/store-cd5ccfbe.js"], "styles": [] }, "src/routes/blog/third-post.svx": { "entry": "pages/blog/third-post.svx-364a76cf.js", "css": ["assets/vendor-8daff541.css", "assets/BlogLayout-564f10bb.css"], "js": ["pages/blog/third-post.svx-364a76cf.js", "chunks/vendor-a119ba46.js", "chunks/BlogLayout-2b481d2d.js", "chunks/store-cd5ccfbe.js"], "styles": [] }, "src/routes/blog/firstpost.md": { "entry": "pages/blog/firstpost.md-ac24be84.js", "css": ["assets/vendor-8daff541.css", "assets/BlogLayout-564f10bb.css"], "js": ["pages/blog/firstpost.md-ac24be84.js", "chunks/vendor-a119ba46.js", "chunks/BlogLayout-2b481d2d.js", "chunks/store-cd5ccfbe.js"], "styles": [] } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-ad39c2a9.js", "css": ["assets/pages/__layout.svelte-f476f4f2.css", "assets/vendor-8daff541.css"], "js": ["pages/__layout.svelte-ad39c2a9.js", "chunks/vendor-25f8e408.js", "chunks/store-e21e7b62.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-163fb522.js", "css": ["assets/vendor-8daff541.css"], "js": ["error.svelte-163fb522.js", "chunks/vendor-25f8e408.js"], "styles": [] }, "src/routes/index.md": { "entry": "pages/index.md-053a4b7f.js", "css": ["assets/OpenLabEvent-2b4940b8.css", "assets/vendor-8daff541.css"], "js": ["pages/index.md-053a4b7f.js", "chunks/vendor-25f8e408.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/publications/index.svelte": { "entry": "pages/publications/index.svelte-9db484dd.js", "css": ["assets/OpenLabEvent-2b4940b8.css", "assets/vendor-8daff541.css"], "js": ["pages/publications/index.svelte-9db484dd.js", "chunks/vendor-25f8e408.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/collaborate.md": { "entry": "pages/collaborate.md-c69d676e.js", "css": ["assets/OpenLabEvent-2b4940b8.css", "assets/vendor-8daff541.css"], "js": ["pages/collaborate.md-c69d676e.js", "chunks/vendor-25f8e408.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/research/index.svelte": { "entry": "pages/research/index.svelte-5bb7ca0a.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/research/index.svelte-5bb7ca0a.js", "chunks/vendor-25f8e408.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/research/halldorophone.md": { "entry": "pages/research/halldorophone.md-04c4ff62.js", "css": ["assets/vendor-8daff541.css", "assets/OpenLabEvent-2b4940b8.css"], "js": ["pages/research/halldorophone.md-04c4ff62.js", "chunks/vendor-25f8e408.js", "chunks/ResearchProject-f0458337.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/research/secondproject.md": { "entry": "pages/research/secondproject.md-511e7333.js", "css": ["assets/vendor-8daff541.css", "assets/OpenLabEvent-2b4940b8.css"], "js": ["pages/research/secondproject.md-511e7333.js", "chunks/vendor-25f8e408.js", "chunks/ResearchProject-f0458337.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/research/firstproject.md": { "entry": "pages/research/firstproject.md-328df686.js", "css": ["assets/vendor-8daff541.css", "assets/OpenLabEvent-2b4940b8.css"], "js": ["pages/research/firstproject.md-328df686.js", "chunks/vendor-25f8e408.js", "chunks/ResearchProject-f0458337.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/openlab/index.svelte": { "entry": "pages/openlab/index.svelte-bb8fcb30.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/openlab/index.svelte-bb8fcb30.js", "chunks/vendor-25f8e408.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/openlab/1.md": { "entry": "pages/openlab/1.md-d868914e.js", "css": ["assets/vendor-8daff541.css", "assets/OpenLabEvent-2b4940b8.css"], "js": ["pages/openlab/1.md-d868914e.js", "chunks/vendor-25f8e408.js", "chunks/OpenLabEvent-7bdcf795.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/openlab/2.md": { "entry": "pages/openlab/2.md-eabd4c1c.js", "css": ["assets/vendor-8daff541.css", "assets/OpenLabEvent-2b4940b8.css"], "js": ["pages/openlab/2.md-eabd4c1c.js", "chunks/vendor-25f8e408.js", "chunks/OpenLabEvent-7bdcf795.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/openlab/3.md": { "entry": "pages/openlab/3.md-9007659e.js", "css": ["assets/vendor-8daff541.css", "assets/OpenLabEvent-2b4940b8.css"], "js": ["pages/openlab/3.md-9007659e.js", "chunks/vendor-25f8e408.js", "chunks/OpenLabEvent-7bdcf795.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/openlab/4.md": { "entry": "pages/openlab/4.md-ff44e93a.js", "css": ["assets/vendor-8daff541.css", "assets/OpenLabEvent-2b4940b8.css"], "js": ["pages/openlab/4.md-ff44e93a.js", "chunks/vendor-25f8e408.js", "chunks/OpenLabEvent-7bdcf795.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/about.md": { "entry": "pages/about.md-6d1f9f0c.js", "css": ["assets/OpenLabEvent-2b4940b8.css", "assets/vendor-8daff541.css"], "js": ["pages/about.md-6d1f9f0c.js", "chunks/vendor-25f8e408.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/blog/index.svelte": { "entry": "pages/blog/index.svelte-dbedbd12.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/blog/index.svelte-dbedbd12.js", "chunks/vendor-25f8e408.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/blog/secondpost.md": { "entry": "pages/blog/secondpost.md-8a59638c.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/blog/secondpost.md-8a59638c.js", "chunks/vendor-25f8e408.js"], "styles": [] }, "src/routes/blog/third-post.svx": { "entry": "pages/blog/third-post.svx-1a259011.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/blog/third-post.svx-1a259011.js", "chunks/vendor-25f8e408.js"], "styles": [] }, "src/routes/blog/firstpost.md": { "entry": "pages/blog/firstpost.md-9a279357.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/blog/firstpost.md-9a279357.js", "chunks/vendor-25f8e408.js"], "styles": [] }, "src/routes/news/index.svelte": { "entry": "pages/news/index.svelte-9b6da5ed.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/news/index.svelte-9b6da5ed.js", "chunks/vendor-25f8e408.js", "chunks/store-e21e7b62.js"], "styles": [] }, "src/routes/news/seconditem.md": { "entry": "pages/news/seconditem.md-e4379e6a.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/news/seconditem.md-e4379e6a.js", "chunks/vendor-25f8e408.js"], "styles": [] }, "src/routes/news/firstitem.md": { "entry": "pages/news/firstitem.md-3b1b78de.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/news/firstitem.md-3b1b78de.js", "chunks/vendor-25f8e408.js"], "styles": [] }, "src/routes/news/thirditem.md": { "entry": "pages/news/thirditem.md-554be649.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/news/thirditem.md-554be649.js", "chunks/vendor-25f8e408.js"], "styles": [] }, "src/routes/team/index.md": { "entry": "pages/team/index.md-03983b0d.js", "css": ["assets/OpenLabEvent-2b4940b8.css", "assets/vendor-8daff541.css"], "js": ["pages/team/index.md-03983b0d.js", "chunks/vendor-25f8e408.js", "chunks/store-e21e7b62.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
@@ -2592,12 +4087,146 @@ function render(request, {
   const host = request.headers["host"];
   return respond({ ...request, host }, options, { prerender });
 }
-async function get() {
-  const imports = { "./blog/firstpost.md": () => Promise.resolve().then(function() {
+async function get$3() {
+  const imports = { "./firstproject.md": () => Promise.resolve().then(function() {
+    return firstproject;
+  }), "./halldorophone.md": () => Promise.resolve().then(function() {
+    return halldorophone;
+  }), "./secondproject.md": () => Promise.resolve().then(function() {
+    return secondproject;
+  }) };
+  let body = [];
+  for (const path in imports) {
+    body.push(imports[path]().then(({ metadata: metadata2 }) => {
+      return {
+        metadata: metadata2,
+        path
+      };
+    }));
+  }
+  const posts = await Promise.all(body);
+  return {
+    body: JSON.stringify(posts)
+  };
+}
+var projects_json = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  get: get$3
+});
+var contact = [
+  {
+    url: "https://mailto:thor.magnusson@lhi.is",
+    label: "Email"
+  },
+  {
+    url: "https://twitter.com/_iil_is",
+    label: "Twitter"
+  },
+  {
+    url: "https://facebook.com/_iil_is",
+    label: "Facebook"
+  },
+  {
+    url: "https://instagram.com/intelligentinstruments",
+    label: "Instagram"
+  },
+  {
+    url: "https://youtube.com/c/_iil_is",
+    label: "YouTube"
+  },
+  {
+    url: "https://github.com/intelligent-instruments-lab",
+    label: "GitHub"
+  },
+  {
+    url: "https://https://discord.gg/smyvqzKT",
+    label: "Discord"
+  },
+  {
+    url: "https://tiktok.com/intelligentinstruments",
+    label: "TikTok"
+  }
+];
+var contact$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": contact
+});
+async function get$2() {
+  const imports = { "./1.md": () => Promise.resolve().then(function() {
+    return _1$1;
+  }), "./2.md": () => Promise.resolve().then(function() {
+    return _2$1;
+  }), "./3.md": () => Promise.resolve().then(function() {
+    return _3$1;
+  }), "./4.md": () => Promise.resolve().then(function() {
+    return _4$1;
+  }) };
+  let body = [];
+  for (const path in imports) {
+    body.push(imports[path]().then(({ metadata: metadata2 }) => {
+      return {
+        metadata: metadata2,
+        path
+      };
+    }));
+  }
+  const posts = await Promise.all(body);
+  return {
+    body: JSON.stringify(posts)
+  };
+}
+var openlabs_json = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  get: get$2
+});
+var pages = [
+  {
+    label: "IIL",
+    url: "/"
+  },
+  {
+    label: "About",
+    url: "/about"
+  },
+  {
+    label: "Team",
+    url: "/team"
+  },
+  {
+    label: "Research",
+    url: "/research"
+  },
+  {
+    label: "Publications",
+    url: "/publications"
+  },
+  {
+    label: "Open Lab",
+    url: "/openlab"
+  },
+  {
+    label: "News",
+    url: "/news"
+  },
+  {
+    label: "Collaborate",
+    url: "/collaborate"
+  }
+];
+var pages$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": pages
+});
+async function get$1() {
+  const imports = { "./firstpost.md": () => Promise.resolve().then(function() {
     return firstpost;
-  }), "./blog/secondpost.md": () => Promise.resolve().then(function() {
+  }), "./secondpost.md": () => Promise.resolve().then(function() {
     return secondpost;
-  }), "./blog/third-post.svx": () => Promise.resolve().then(function() {
+  }), "./third-post.svx": () => Promise.resolve().then(function() {
     return thirdPost;
   }) };
   let body = [];
@@ -2617,7 +4246,72 @@ async function get() {
 var posts_json = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
+  get: get$1
+});
+async function get() {
+  const imports = { "./firstitem.md": () => Promise.resolve().then(function() {
+    return firstitem;
+  }), "./seconditem.md": () => Promise.resolve().then(function() {
+    return seconditem;
+  }), "./thirditem.md": () => Promise.resolve().then(function() {
+    return thirditem;
+  }) };
+  let body = [];
+  for (const path in imports) {
+    body.push(imports[path]().then(({ metadata: metadata2 }) => {
+      return {
+        metadata: metadata2,
+        path
+      };
+    }));
+  }
+  const posts = await Promise.all(body);
+  return {
+    body: JSON.stringify(posts)
+  };
+}
+var items_json = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
   get
+});
+var team = [
+  {
+    name: "Thor Magnusson",
+    role: "Principal Investigator",
+    bio: "A worker in rhythm, frequencies and intensities. Research and development in the areas of music and technology. I am a professor of future music in the Music Department at the University of Sussex and a research professor at the Iceland University of the Arts. In 2021 I serve as an Edgard-Var\xE8se guest professor at the Technische Universit\xE4t Berlin.",
+    email: "thor.magnusson@lhi.is",
+    image: "thor.jpg",
+    links: {
+      twitter: "thormagnusson",
+      github: "thormagnusson",
+      scholar: "cCgOZ_gAAAAJ",
+      website: "thormagnusson.github.io"
+    },
+    projects: [
+      "sonicwriting"
+    ]
+  },
+  {
+    name: "Jack Armitage",
+    role: "Postdoctoral Research Fellow",
+    bio: "Designers, researcher, technologist, musician, teacher.",
+    email: "jack@lhi.is",
+    image: "jack.jpg",
+    links: {
+      twitter: "jdkarmitage",
+      github: "jarmitage",
+      scholar: "APvoBhUAAAAJ",
+      instagram: "jdkarmitage",
+      website: "jackarmitage.com"
+    },
+    projects: []
+  }
+];
+var team$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": team
 });
 var subscriber_queue = [];
 function writable(value, start = noop) {
@@ -2671,16 +4365,67 @@ var Seo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$unsubscribe_seo();
   return `${$$result.head += `${$$result.title = `<title>${escape($seo.title)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", $seo.description, 0)} data-svelte="svelte-1w5w2bj">`, ""}`;
 });
+var MenuItem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { url } = $$props;
+  let { label } = $$props;
+  if ($$props.url === void 0 && $$bindings.url && url !== void 0)
+    $$bindings.url(url);
+  if ($$props.label === void 0 && $$bindings.label && label !== void 0)
+    $$bindings.label(label);
+  return `<a class="${"h-9 p-2 flex items-center justify-center"}"${add_attribute("href", url, 0)}>${escape(label)}</a>`;
+});
+var Menu = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `<div class="${"flex items-baseline mt-4 mb-6"}"><div class="${"space-x-2 flex"}">${each(pages, (page, index2) => `${validate_component(MenuItem, "MenuItem").$$render($$result, { url: page.url, label: page.label }, {}, {})}`)}</div></div>
+
+<hr>`;
+});
+var Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `<div class="${"flex"}"><a href="${"/"}">Intelligent Instruments Lab</a>
+  ${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}</div>
+
+<hr>`;
+});
+var ListItem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { url } = $$props;
+  let { label } = $$props;
+  if ($$props.url === void 0 && $$bindings.url && url !== void 0)
+    $$bindings.url(url);
+  if ($$props.label === void 0 && $$bindings.label && label !== void 0)
+    $$bindings.label(label);
+  return `<a class="${"h-9 p-2 flex"}"${add_attribute("href", url, 0)} target="${"_blank"}">${escape(label)}</a>`;
+});
+var List = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { name } = $$props;
+  let { list } = $$props;
+  if ($$props.name === void 0 && $$bindings.name && name !== void 0)
+    $$bindings.name(name);
+  if ($$props.list === void 0 && $$bindings.list && list !== void 0)
+    $$bindings.list(list);
+  return `<div><div><p>${escape(name)}</p></div>
+  <div>${each(list, (item, index2) => `${validate_component(ListItem, "ListItem").$$render($$result, { url: item.url, label: item.label }, {}, {})}`)}</div></div>`;
+});
+var Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `<hr>
+<div class="${"flex"}"><div class="${"space-x-10 flex"}">${validate_component(List, "List").$$render($$result, { list: pages, name: "Explore" }, {}, {})}
+    ${validate_component(List, "List").$$render($$result, { list: contact, name: "Contact" }, {}, {})}
+    <div><p>Address:</p>
+      <p>Intelligent Instruments Lab</p>
+      <p>\xDEverholt 11</p>
+      <p>105 Reykjav\xEDk</p>
+      <p>Iceland</p></div></div></div>`;
+});
 var _layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Seo, "Seo").$$render($$result, {}, {}, {})}
-<div class="${"body-wrapper max-w-screen-md mx-auto"}">${slots.default ? slots.default({}) : ``}</div>`;
+<div class="${"body-wrapper max-w-screen-md mx-auto"}">${validate_component(Header, "Header").$$render($$result, {}, {}, {})}
+  ${slots.default ? slots.default({}) : ``}
+  ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}</div>`;
 });
 var __layout = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _layout
 });
-function load$1({ error: error2, status }) {
+function load$5({ error: error2, status }) {
   return { props: { error: error2, status } };
 }
 var Error$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -2703,7 +4448,154 @@ var error = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Error$1,
-  load: load$1
+  load: load$5
+});
+var css$6 = {
+  code: ".post.svelte-5dgm73{margin-bottom:4rem}",
+  map: '{"version":3,"file":"Home.svelte","sources":["Home.svelte"],"sourcesContent":["<script>\\n  import { seo } from \\"$lib/store\\";\\n\\n  export let title;\\n  export let description;\\n\\n  $seo = {\\n    title: title,\\n    description: description,\\n  };\\n<\/script>\\n\\n<h1 class=\\"font-bold text-6xl mb-4\\">{title}</h1>\\n<div class=\\"post\\">\\n  <slot />\\n</div>\\n\\n<svelte:head>\\n  <title>{title}</title>\\n  <meta name=\\"description\\" content={description} />\\n</svelte:head>\\n\\n<style>.post{margin-bottom:4rem}</style>\\n"],"names":[],"mappings":"AAsBO,mBAAK,CAAC,cAAc,IAAI,CAAC"}'
+};
+var Home = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let $seo, $$unsubscribe_seo;
+  $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
+  let { title: title2 } = $$props;
+  let { description: description2 } = $$props;
+  set_store_value(seo, $seo = { title: title2, description: description2 }, $seo);
+  if ($$props.title === void 0 && $$bindings.title && title2 !== void 0)
+    $$bindings.title(title2);
+  if ($$props.description === void 0 && $$bindings.description && description2 !== void 0)
+    $$bindings.description(description2);
+  $$result.css.add(css$6);
+  $$unsubscribe_seo();
+  return `<h1 class="${"font-bold text-6xl mb-4"}">${escape(title2)}</h1>
+<div class="${"post svelte-5dgm73"}">${slots.default ? slots.default({}) : ``}</div>
+
+${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}`;
+});
+var metadata$g = {
+  "layout": "home",
+  "title": "IIL",
+  "slug": "",
+  "description": "Intelligent Instruments Lab"
+};
+var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(Home, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$g), {}, {
+    default: () => `<p>We explore how musical instruments embedded with creative AI augments our musical performance and understanding of ourselves as users of intelligent technologies.</p>
+<p>Through developing new musical instruments we ask how people, performers and audience alike, perceive and understand technologies with musical agency.</p>
+<p><a href="${"/about"}">READ MORE ABOUT THE PROJECT</a></p>
+<p>IIL hosts Open Lab events in Reykjav\xEDk every Friday:</p>
+<p><a href="${"/openlab"}">JOIN THE NEXT OPEN LAB</a></p>
+<p>IIL hosts researchers and artists to work with us:</p>
+<p><a href="${"/collaborate"}">COLLABORATE WITH US</a></p>`
+  })}`;
+});
+var index$6 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Routes,
+  metadata: metadata$g
+});
+var Publication = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const { normalizeFieldValue } = import_bibtex.default;
+  let { pub } = $$props;
+  const field = (f) => normalizeFieldValue(pub.getField(f));
+  if ($$props.pub === void 0 && $$bindings.pub && pub !== void 0)
+    $$bindings.pub(pub);
+  return `<div><p>${pub.type === "inproceedings" ? `${escape(field("AUTHOR"))}. 
+      <i>${escape(field("TITLE"))}.</i> 
+      ${escape(field("BOOKTITLE"))}. 
+      ${escape(field("YEAR"))}.` : `${pub.type === "article" ? `${escape(field("AUTHOR"))}. 
+      <i>${escape(field("TITLE"))}.</i> 
+      ${escape(field("JOURNAL"))}. 
+      ${escape(field("YEAR"))}.` : `${pub.type === "book" ? `${escape(field("AUTHOR"))}. 
+      <i>${escape(field("TITLE"))}.</i>
+      ${escape(field("YEAR"))}.` : ``}`}`}</p></div>`;
+});
+var css$5 = {
+  code: ".post.svelte-5dgm73{margin-bottom:4rem}",
+  map: `{"version":3,"file":"Publications.svelte","sources":["Publications.svelte"],"sourcesContent":["<script>\\n  import { seo } from \\"$lib/store\\";\\n  import Publication from \\"../components/Publication.svelte\\"\\n  \\n  import pkg from 'bibtex';\\n  const { normalizeFieldValue, parseBibFile } = pkg;\\n  // import { parseBibFile } from \\"bibtex\\";\\n  // import pubs from '../routes/publications/publications.bib?raw'\\n  \\n  export let publications\\n  const bib = Object.values(parseBibFile(publications).entries$)\\n\\n  let title = 'Title'\\n  let description = 'Description'\\n\\n  $seo = {\\n    title: title,\\n    description: description,\\n  };\\n\\n\\n\\n  // TODO: generate download of .bib file\\n\\n  // http://instrumentslab.org/publications/\\n  // TODO: Item numbering\\n  // TODO: Jump to year\\n  // TODO: Separate into years\\n  // TODO: Sort entries by year\\n\\n<\/script>\\n\\n<svelte:head>\\n  <title>{title}</title>\\n  <meta name=\\"description\\" content={description} />\\n</svelte:head>\\n\\n<style>.post{margin-bottom:4rem}</style>\\n\\n<h1 class=\\"headline text-7xl leading-relaxed font-black font-display mb-4\\">\\n  Publications\\n</h1>\\n<p>This page contains papers from the Intelligent Instruments Lab, organised by date. \\nAlso see the latest news and events and press articles.</p>\\n<div class=\\"post\\">\\n  <slot />\\n</div>\\n\\n<div class=\\"space-y-6\\">\\n  {#each bib as entry}\\n    <Publication pub={entry}/>\\n  {/each}\\n</div>\\n"],"names":[],"mappings":"AAqCO,mBAAK,CAAC,cAAc,IAAI,CAAC"}`
+};
+var title = "Title";
+var description = "Description";
+var Publications = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let $seo, $$unsubscribe_seo;
+  $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
+  const { normalizeFieldValue, parseBibFile } = import_bibtex.default;
+  let { publications } = $$props;
+  const bib = Object.values(parseBibFile(publications).entries$);
+  set_store_value(seo, $seo = { title, description }, $seo);
+  if ($$props.publications === void 0 && $$bindings.publications && publications !== void 0)
+    $$bindings.publications(publications);
+  $$result.css.add(css$5);
+  $$unsubscribe_seo();
+  return `${$$result.head += `${$$result.title = `<title>${escape(title)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description, 0)} data-svelte="svelte-1law5hj">`, ""}
+
+
+
+<h1 class="${"headline text-7xl leading-relaxed font-black font-display mb-4"}">Publications
+</h1>
+<p>This page contains papers from the Intelligent Instruments Lab, organised by date. 
+Also see the latest news and events and press articles.</p>
+<div class="${"post svelte-5dgm73"}">${slots.default ? slots.default({}) : ``}</div>
+
+<div class="${"space-y-6"}">${each(bib, (entry) => `${validate_component(Publication, "Publication").$$render($$result, { pub: entry }, {}, {})}`)}</div>`;
+});
+async function load$4({ fetch: fetch2 }) {
+  const res = await fetch2(`/publications.bib`);
+  const publications = await res.text();
+  return { props: { publications } };
+}
+var Publications_1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { publications } = $$props;
+  if ($$props.publications === void 0 && $$bindings.publications && publications !== void 0)
+    $$bindings.publications(publications);
+  return `${validate_component(Publications, "Publications").$$render($$result, { publications }, {}, {})}`;
+});
+var index$5 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Publications_1,
+  load: load$4
+});
+var css$4 = {
+  code: ".post.svelte-5dgm73{margin-bottom:4rem}",
+  map: '{"version":3,"file":"Collaborate.svelte","sources":["Collaborate.svelte"],"sourcesContent":["<script>\\n  import { seo } from \\"$lib/store\\";\\n\\n  export let title;\\n  export let description;\\n\\n  $seo = {\\n    title: title,\\n    description: description,\\n  };\\n<\/script>\\n\\n<h1 class=\\"font-bold text-6xl mb-4\\">{title}</h1>\\n<div class=\\"post\\">\\n  <slot />\\n</div>\\n\\n<svelte:head>\\n  <title>{title}</title>\\n  <meta name=\\"description\\" content={description} />\\n</svelte:head>\\n\\n<style>.post{margin-bottom:4rem}</style>\\n"],"names":[],"mappings":"AAsBO,mBAAK,CAAC,cAAc,IAAI,CAAC"}'
+};
+var Collaborate$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let $seo, $$unsubscribe_seo;
+  $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
+  let { title: title2 } = $$props;
+  let { description: description2 } = $$props;
+  set_store_value(seo, $seo = { title: title2, description: description2 }, $seo);
+  if ($$props.title === void 0 && $$bindings.title && title2 !== void 0)
+    $$bindings.title(title2);
+  if ($$props.description === void 0 && $$bindings.description && description2 !== void 0)
+    $$bindings.description(description2);
+  $$result.css.add(css$4);
+  $$unsubscribe_seo();
+  return `<h1 class="${"font-bold text-6xl mb-4"}">${escape(title2)}</h1>
+<div class="${"post svelte-5dgm73"}">${slots.default ? slots.default({}) : ``}</div>
+
+${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}`;
+});
+var metadata$f = {
+  "layout": "collaborate",
+  "title": "Collaborate with us",
+  "slug": "collaborate",
+  "description": "Collaborate with us"
+};
+var Collaborate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(Collaborate$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$f), {}, {
+    default: () => `<p>The Intelligent Instruments Lab is open for collaborations with artists and scientists on experimental projects, equally as part of our work programme and as collaborations with other projects. We have developed a Collaboration Interaction Protocol (CIP) that makes such collaborations streamlined, easy to set up and effective. It defines all roles, timescales, experimental setups and outcomes through a simple system and we would love to hear from you if you have a reason to believe that our interests might intersect.</p>
+<p>We also have a visiting researcher scheme. We welcome people to come and work with us in our Reykjavik lab over a specified period of time. The aim with this scheme is to enable artists, composers and musicians to develop technologies for their musical expression, but in turn the collaboration will help us to answer our research questions. </p>
+<p>Please get in touch with the Principal Investigator, prof Thor Magnusson, or the relevant lab members, and the relevant contact information can be found on his LHI profile.</p>
+<p>We also have a public channel on Discord for any questions or conversation</p>`
+  })}`;
+});
+var collaborate = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Collaborate,
+  metadata: metadata$f
 });
 function paginate({ items, pageSize: pageSize2, currentPage }) {
   return items.slice((currentPage - 1) * pageSize2, (currentPage - 1) * pageSize2 + pageSize2);
@@ -2860,13 +4752,315 @@ var PaginationNav = create_ssr_component(($$result, $$props, $$bindings, slots) 
         `}` : ``}`}`}`}
     </span>`)}</div>`;
 });
-async function load({ fetch: fetch2 }) {
-  const res = await fetch2(`/posts.json`);
+var pageSize$3 = 2;
+var Research = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let paginatedItems;
+  let $seo, $$unsubscribe_seo;
+  $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
+  let { projects } = $$props;
+  let items = projects;
+  let currentPage = 1;
+  set_store_value(seo, $seo = {
+    title: "Hagura - Light",
+    description: "Hagura is a light-weight theme/template built for sveltekit."
+  }, $seo);
+  if ($$props.projects === void 0 && $$bindings.projects && projects !== void 0)
+    $$bindings.projects(projects);
+  paginatedItems = paginate({ items, pageSize: pageSize$3, currentPage });
+  $$unsubscribe_seo();
+  return `<main><article><h1 class="${"headline text-7xl leading-relaxed font-black font-display mb-4"}">Research projects
+    </h1>
+    <div><p>Research projects carried out by the IIL.</p></div>
+    <div class="${"article-list"}">${each(paginatedItems, ({ metadata: { title: title2, description: description2, tags, outline, slug }, path }) => `<div class="${"mb-4"}"><a sveltekit:prefetch${add_attribute("href", "research/" + path.replace(/\.[^/.]+$/, ""), 0)}><h2 class="${"text-3xl leading-relaxed"}">${escape(title2)}</h2></a>
+          <p>${escape(description2)}</p>
+        </div>`)}</div>
+    <div class="${"mx-auto"}">${validate_component(PaginationNav, "PaginationNav").$$render($$result, {
+    totalItems: items.length,
+    pageSize: pageSize$3,
+    currentPage,
+    limit: 1,
+    showStepOptions: true
+  }, {}, {})}</div></article></main>`;
+});
+async function load$3({ fetch: fetch2 }) {
+  const res = await fetch2(`/research/projects.json`);
+  const projects = await res.json();
+  return { props: { projects } };
+}
+var Research_1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { projects } = $$props;
+  if ($$props.projects === void 0 && $$bindings.projects && projects !== void 0)
+    $$bindings.projects(projects);
+  return `${validate_component(Research, "Research").$$render($$result, { projects }, {}, {})}`;
+});
+var index$4 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Research_1,
+  load: load$3
+});
+var css$3 = {
+  code: ".post.svelte-5dgm73{margin-bottom:4rem}",
+  map: '{"version":3,"file":"ResearchProject.svelte","sources":["ResearchProject.svelte"],"sourcesContent":["<script>\\n  import { seo } from \\"$lib/store\\";\\n\\n  export let title;\\n  export let description;\\n\\n  $seo = {\\n    title: title,\\n    description: description,\\n  };\\n<\/script>\\n\\n<h1 class=\\"font-bold text-6xl mb-4\\">{title}</h1>\\n<div class=\\"post\\">\\n  <slot />\\n</div>\\n\\n<svelte:head>\\n  <title>{title}</title>\\n  <meta name=\\"description\\" content={description} />\\n</svelte:head>\\n\\n<style>.post{margin-bottom:4rem}</style>\\n"],"names":[],"mappings":"AAsBO,mBAAK,CAAC,cAAc,IAAI,CAAC"}'
+};
+var ResearchProject = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let $seo, $$unsubscribe_seo;
+  $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
+  let { title: title2 } = $$props;
+  let { description: description2 } = $$props;
+  set_store_value(seo, $seo = { title: title2, description: description2 }, $seo);
+  if ($$props.title === void 0 && $$bindings.title && title2 !== void 0)
+    $$bindings.title(title2);
+  if ($$props.description === void 0 && $$bindings.description && description2 !== void 0)
+    $$bindings.description(description2);
+  $$result.css.add(css$3);
+  $$unsubscribe_seo();
+  return `<h1 class="${"font-bold text-6xl mb-4"}">${escape(title2)}</h1>
+<div class="${"post svelte-5dgm73"}">${slots.default ? slots.default({}) : ``}</div>
+
+${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}`;
+});
+var metadata$e = {
+  "layout": "researchproject",
+  "title": "Halldorophone",
+  "description": "Halldorophone"
+};
+var Halldorophone = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$e), {}, {
+    default: () => `<p>The halldorophone (Icelandic: d\xF3r\xF3f\xF3nn) is a cello-like electronic instrument created by artist and designer Halld\xF3r \xDAlfarsson.
+The halldorophone is designed specifically to feedback the strings and the instrument gained some recognition in early 2020 when composer Hildur Gu\xF0nad\xF3ttir won the Academy Award for her original soundtrack to the movie Joker, some of which was composed with a halldorophone.</p>`
+  })}`;
+});
+var halldorophone = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Halldorophone,
+  metadata: metadata$e
+});
+var metadata$d = {
+  "layout": "researchproject",
+  "title": "Another project",
+  "description": "Another project"
+};
+var Secondproject = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$d), {}, {
+    default: () => `<p>This is another cool project!</p>`
+  })}`;
+});
+var secondproject = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Secondproject,
+  metadata: metadata$d
+});
+var metadata$c = {
+  "layout": "researchproject",
+  "title": "A project",
+  "description": "A project"
+};
+var Firstproject = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$c), {}, {
+    default: () => `<p>This is a cool project!</p>`
+  })}`;
+});
+var firstproject = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Firstproject,
+  metadata: metadata$c
+});
+var pageSize$2 = 2;
+var OpenLab = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let paginatedItems;
+  let $seo, $$unsubscribe_seo;
+  $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
+  let { openlabs } = $$props;
+  let items = openlabs.reverse();
+  let currentPage = 1;
+  set_store_value(seo, $seo = {
+    title: "Hagura - Light",
+    description: "Hagura is a light-weight theme/template built for sveltekit."
+  }, $seo);
+  if ($$props.openlabs === void 0 && $$bindings.openlabs && openlabs !== void 0)
+    $$bindings.openlabs(openlabs);
+  paginatedItems = paginate({ items, pageSize: pageSize$2, currentPage });
+  $$unsubscribe_seo();
+  return `<main><article><h1 class="${"headline text-7xl leading-relaxed font-black font-display mb-4"}">Open Lab
+    </h1>
+    <div><p>We have developed the Collaboration Interface Protocol in order to work with other scientists and artists. Some of these collaborations are formal and focussing on specific experiments or projects, but we are also interested in a more open approach and informal exchange and collaboration.</p>
+
+      <p>We seek to maintain a critical yet playful reflection upon the lab as a performative space, where various agents interact and produce knowledge: an \u201Caesthetics of experimentation\u201D. We will run open lab sessions on Friday afternoons and people can follow the project via public events. We will make regular use of social media, and use podcasts, YouTube and blogging for lasting online documentation.</p></div>
+    
+    <div class="${"article-list"}">${each(paginatedItems, ({ metadata: { title: title2, description: description2, tags, outline, slug }, path }) => `<div class="${"mb-4"}"><a sveltekit:prefetch${add_attribute("href", "openlab/" + path.replace(/\.[^/.]+$/, ""), 0)}><h2 class="${"text-3xl leading-relaxed"}">${escape(title2)}</h2></a>
+          <p>${escape(description2)}</p>
+        </div>`)}</div>
+    <div class="${"mx-auto"}">${validate_component(PaginationNav, "PaginationNav").$$render($$result, {
+    totalItems: items.length,
+    pageSize: pageSize$2,
+    currentPage,
+    limit: 1,
+    showStepOptions: true
+  }, {}, {})}</div></article></main>`;
+});
+async function load$2({ fetch: fetch2 }) {
+  const res = await fetch2(`/openlab/openlabs.json`);
+  const openlabs = await res.json();
+  return { props: { openlabs } };
+}
+var Openlab = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { openlabs } = $$props;
+  if ($$props.openlabs === void 0 && $$bindings.openlabs && openlabs !== void 0)
+    $$bindings.openlabs(openlabs);
+  return `${validate_component(OpenLab, "OpenLab").$$render($$result, { openlabs }, {}, {})}`;
+});
+var index$3 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Openlab,
+  load: load$2
+});
+var css$2 = {
+  code: ".post.svelte-5dgm73{margin-bottom:4rem}",
+  map: '{"version":3,"file":"OpenLabEvent.svelte","sources":["OpenLabEvent.svelte"],"sourcesContent":["<script>\\n  import { seo } from \\"$lib/store\\";\\n\\n  export let title;\\n  export let description;\\n  export let date;\\n\\n  $seo = {\\n    title: title,\\n    description: description,\\n  };\\n<\/script>\\n\\n<h1 class=\\"font-bold text-6xl mb-4\\">{title}</h1>\\n<p class=\\"text-gray-400 mb-2\\">{date}</p>\\n<div class=\\"post\\">\\n  <slot />\\n</div>\\n\\n<svelte:head>\\n  <title>{title}</title>\\n  <meta name=\\"description\\" content={description} />\\n</svelte:head>\\n\\n<style>.post{margin-bottom:4rem}</style>\\n"],"names":[],"mappings":"AAwBO,mBAAK,CAAC,cAAc,IAAI,CAAC"}'
+};
+var OpenLabEvent = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let $seo, $$unsubscribe_seo;
+  $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
+  let { title: title2 } = $$props;
+  let { description: description2 } = $$props;
+  let { date } = $$props;
+  set_store_value(seo, $seo = { title: title2, description: description2 }, $seo);
+  if ($$props.title === void 0 && $$bindings.title && title2 !== void 0)
+    $$bindings.title(title2);
+  if ($$props.description === void 0 && $$bindings.description && description2 !== void 0)
+    $$bindings.description(description2);
+  if ($$props.date === void 0 && $$bindings.date && date !== void 0)
+    $$bindings.date(date);
+  $$result.css.add(css$2);
+  $$unsubscribe_seo();
+  return `<h1 class="${"font-bold text-6xl mb-4"}">${escape(title2)}</h1>
+<p class="${"text-gray-400 mb-2"}">${escape(date)}</p>
+<div class="${"post svelte-5dgm73"}">${slots.default ? slots.default({}) : ``}</div>
+
+${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}`;
+});
+var metadata$b = {
+  "layout": "openlab",
+  "title": "Open Lab 1",
+  "description": "Open Lab 1",
+  "date": "2021-09-10"
+};
+var _1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$b), {}, {
+    default: () => `<p>This is what is going to happen in Open Lab 1.</p>`
+  })}`;
+});
+var _1$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _1,
+  metadata: metadata$b
+});
+var metadata$a = {
+  "layout": "openlab",
+  "title": "Open Lab 2",
+  "description": "Open Lab 2",
+  "date": "2021-09-17"
+};
+var _2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$a), {}, {
+    default: () => `<p>This is what is going to happen in Open Lab 2.</p>`
+  })}`;
+});
+var _2$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _2,
+  metadata: metadata$a
+});
+var metadata$9 = {
+  "layout": "openlab",
+  "title": "Open Lab 3",
+  "description": "Open Lab 3",
+  "date": "2021-09-24"
+};
+var _3 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$9), {}, {
+    default: () => `<p>This is what is going to happen in Open Lab 3.</p>`
+  })}`;
+});
+var _3$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _3,
+  metadata: metadata$9
+});
+var metadata$8 = {
+  "layout": "openlab",
+  "title": "Open Lab 4",
+  "description": "Open Lab 4",
+  "date": "2021-10-01"
+};
+var _4 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$8), {}, {
+    default: () => `<p>This is what is going to happen in Open Lab 4.</p>`
+  })}`;
+});
+var _4$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _4,
+  metadata: metadata$8
+});
+var css$1 = {
+  code: ".post.svelte-5dgm73{margin-bottom:4rem}",
+  map: '{"version":3,"file":"About.svelte","sources":["About.svelte"],"sourcesContent":["<script>\\n  import { seo } from \\"$lib/store\\";\\n\\n  export let title;\\n  export let description;\\n\\n  $seo = {\\n    title: title,\\n    description: description,\\n  };\\n<\/script>\\n\\n<h1 class=\\"font-bold text-6xl mb-4\\">{title}</h1>\\n<div class=\\"post\\">\\n  <slot />\\n</div>\\n\\n<svelte:head>\\n  <title>{title}</title>\\n  <meta name=\\"description\\" content={description} />\\n</svelte:head>\\n\\n<style>.post{margin-bottom:4rem}</style>\\n"],"names":[],"mappings":"AAsBO,mBAAK,CAAC,cAAc,IAAI,CAAC"}'
+};
+var About$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let $seo, $$unsubscribe_seo;
+  $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
+  let { title: title2 } = $$props;
+  let { description: description2 } = $$props;
+  set_store_value(seo, $seo = { title: title2, description: description2 }, $seo);
+  if ($$props.title === void 0 && $$bindings.title && title2 !== void 0)
+    $$bindings.title(title2);
+  if ($$props.description === void 0 && $$bindings.description && description2 !== void 0)
+    $$bindings.description(description2);
+  $$result.css.add(css$1);
+  $$unsubscribe_seo();
+  return `<h1 class="${"font-bold text-6xl mb-4"}">${escape(title2)}</h1>
+<div class="${"post svelte-5dgm73"}">${slots.default ? slots.default({}) : ``}</div>
+
+${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}`;
+});
+var metadata$7 = {
+  "layout": "about",
+  "title": "About IIL",
+  "slug": "about",
+  "description": "About the Intelligent Instruments Lab"
+};
+var About = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(About$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$7), {}, {
+    default: () => `<h1 id="${"about-the-intelligent-instruments-lab"}"><a href="${"#about-the-intelligent-instruments-lab"}">About the Intelligent Instruments Lab</a></h1>
+<p>Artificial Intelligence is drastically changing the world we live in. Our machines have become creative, equally extending our mind and our body. Amazing technologies are emerging where machine learning can be used to parse large and small data sets, such as music or any musical behaviour, and generate new materials from that learning. New music, new sounds, new workings of our musical tools and instruments.</p>
+<p>We have been busy focusing on the technology of AI, but an emerging problem is that our critical understanding and language are lagging behind. The Intelligent Instruments project shifts the focus and through technical development of new instruments studies how AI affects us. And here the humanities become crucial in our understanding of AI and its cultural impact.</p>
+<p>The project will study the impact of creative AI, conducted in the research domain of music, with a broad humanities basis, involving musicians, computer scientists, philosophers and cognitive scientists in key international institutions. Through a streamlined research collaboration protocol, we seek to explore the language and discourse of creative AI, addressing our changed notions of, for example, agency, autonomy, authenticity, authorship, creativity and originality.</p>
+<p>In order to achieve this goal, the technical approach is to implement new machine learning in embodied musical instruments. We invent instruments that interact, learn, and evolve in the hands of the performer. The instruments become boundary objects, studied by collaborators from a range of sciences and the general public. In three respective work packages that are grounded in phenomenology, sociology and epistemology, we study how embodied creative AI transforms our 1) relationship with technology, 2) social interaction, and 3) knowledge production.</p>`
+  })}`;
+});
+var about = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": About,
+  metadata: metadata$7
+});
+async function load$1({ fetch: fetch2 }) {
+  const res = await fetch2(`/blog/posts.json`);
   const posts = await res.json();
   return { props: { posts } };
 }
-var pageSize = 2;
-var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+var pageSize$1 = 2;
+var Blog = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let paginatedItems;
   let $seo, $$unsubscribe_seo;
   $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
@@ -2879,53 +5073,28 @@ var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   }, $seo);
   if ($$props.posts === void 0 && $$bindings.posts && posts !== void 0)
     $$bindings.posts(posts);
-  paginatedItems = paginate({ items, pageSize, currentPage });
+  paginatedItems = paginate({ items, pageSize: pageSize$1, currentPage });
   $$unsubscribe_seo();
   return `<main><article><h1 class="${"headline text-7xl leading-relaxed font-black font-display mb-4"}">Hagura - Light!
     </h1>
-    <div class="${"article-list"}">${each(paginatedItems, ({ metadata: { title, description, tags, outline, slug }, path }) => `<div class="${"mb-4"}"><a sveltekit:prefetch${add_attribute("href", path.replace(/\.[^/.]+$/, ""), 0)}><h2 class="${"text-3xl leading-relaxed"}">${escape(title)}</h2></a>
-          <p>${escape(description)}</p>
+    <div class="${"article-list"}">${each(paginatedItems, ({ metadata: { title: title2, description: description2, tags, outline, slug }, path }) => `<div class="${"mb-4"}"><a sveltekit:prefetch${add_attribute("href", "blog/" + path.replace(/\.[^/.]+$/, ""), 0)}><h2 class="${"text-3xl leading-relaxed"}">${escape(title2)}</h2></a>
+          <p>${escape(description2)}</p>
         </div>`)}</div>
     <div class="${"mx-auto"}">${validate_component(PaginationNav, "PaginationNav").$$render($$result, {
     totalItems: items.length,
-    pageSize,
+    pageSize: pageSize$1,
     currentPage,
     limit: 1,
     showStepOptions: true
   }, {}, {})}</div></article></main>`;
 });
-var index = /* @__PURE__ */ Object.freeze({
+var index$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": Routes,
-  load
+  "default": Blog,
+  load: load$1
 });
-var css = {
-  code: ".post.svelte-5dgm73{margin-bottom:4rem}",
-  map: '{"version":3,"file":"BlogLayout.svelte","sources":["BlogLayout.svelte"],"sourcesContent":["<script>\\n  import { seo } from \\"$lib/store\\";\\n\\n  export let title;\\n  export let description;\\n  export let date;\\n\\n  $seo = {\\n    title: title,\\n    description: description,\\n  };\\n<\/script>\\n\\n<h1 class=\\"font-bold text-6xl mb-4\\">{title}</h1>\\n<p class=\\"text-gray-400 mb-2\\">{date}</p>\\n<div class=\\"post\\">\\n  <slot />\\n</div>\\n\\n<svelte:head>\\n  <title>{title}</title>\\n  <meta name=\\"description\\" content={description} />\\n</svelte:head>\\n\\n<style>.post{margin-bottom:4rem}</style>\\n"],"names":[],"mappings":"AAwBO,mBAAK,CAAC,cAAc,IAAI,CAAC"}'
-};
-var BlogLayout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  let $seo, $$unsubscribe_seo;
-  $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
-  let { title } = $$props;
-  let { description } = $$props;
-  let { date } = $$props;
-  set_store_value(seo, $seo = { title, description }, $seo);
-  if ($$props.title === void 0 && $$bindings.title && title !== void 0)
-    $$bindings.title(title);
-  if ($$props.description === void 0 && $$bindings.description && description !== void 0)
-    $$bindings.description(description);
-  if ($$props.date === void 0 && $$bindings.date && date !== void 0)
-    $$bindings.date(date);
-  $$result.css.add(css);
-  $$unsubscribe_seo();
-  return `<h1 class="${"font-bold text-6xl mb-4"}">${escape(title)}</h1>
-<p class="${"text-gray-400 mb-2"}">${escape(date)}</p>
-<div class="${"post svelte-5dgm73"}">${slots.default ? slots.default({}) : ``}</div>
-
-${$$result.head += `${$$result.title = `<title>${escape(title)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description, 0)} data-svelte="svelte-1law5hj">`, ""}`;
-});
-var metadata$2 = {
+var metadata$6 = {
   "layout": "blog",
   "title": "Second post",
   "slug": "secondpost",
@@ -2947,22 +5116,20 @@ var metadata$2 = {
   "date": "10th April 2021"
 };
 var Secondpost = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(BlogLayout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$2), {}, {
-    default: () => `<p>Atticus said to Jem one day, \u201CI\u2019d rather you shot at tin cans in the backyard, but I know you\u2019ll go after birds. Shoot all the blue jays you want, if you can hit \u2018em, but remember it\u2019s a sin to kill a mockingbird.\u201D That was the only time I ever heard Atticus say it was a sin to do something, and I asked Miss Maudie about it. \u201CYour father\u2019s right,\u201D she said. \u201CMockingbirds don\u2019t do one thing except make music for us to enjoy. They don\u2019t eat up people\u2019s gardens, don\u2019t nest in corn cribs, they don\u2019t do one thing but sing their hearts out for us. That\u2019s why it\u2019s a sin to kill a mockingbird.</p>
+  return `<p>Atticus said to Jem one day, \u201CI\u2019d rather you shot at tin cans in the backyard, but I know you\u2019ll go after birds. Shoot all the blue jays you want, if you can hit \u2018em, but remember it\u2019s a sin to kill a mockingbird.\u201D That was the only time I ever heard Atticus say it was a sin to do something, and I asked Miss Maudie about it. \u201CYour father\u2019s right,\u201D she said. \u201CMockingbirds don\u2019t do one thing except make music for us to enjoy. They don\u2019t eat up people\u2019s gardens, don\u2019t nest in corn cribs, they don\u2019t do one thing but sing their hearts out for us. That\u2019s why it\u2019s a sin to kill a mockingbird.</p>
 <p>I took a deep breath and listened to the old brag of my heart. I am, I am, I am.</p>
 <p>We believe that we can change the things around us in accordance with our desires\u2014we believe it because otherwise we can see no favourable outcome. We do not think of the outcome which generally comes to pass and is also favourable: we do not succeed in changing things in accordance with our desires, but gradually our desires change. The situation that we hoped to change because it was intolerable becomes unimportant to us. We have failed to surmount the obstacle, as we were absolutely determined to do, but life has taken us round it, led us beyond it, and then if we turn round to gaze into the distance of the past, we can barely see it, so imperceptible has it become.</p>
 <p>The most beautiful things in the world cannot be seen or touched, they are felt with the heart.</p>
 <p>Hello babies. Welcome to Earth. It\u2019s hot in the summer and cold in the winter. It\u2019s round and wet and crowded. On the outside, babies, you\u2019ve got a hundred years here. There\u2019s only one rule that I know of, babies-\u201CGod damn it, you\u2019ve got to be kind.</p>
-<p>Truly it was a great journey, and in it I met with many, whom to know was to love; but whom never could I see again; for life has not space enough; and each must do his duty to the security and well-being of the Redoubt. Yet, for all that I have set down, we travelled much, always; but there were so many millions, and so few years.</p>`
-  })}`;
+<p>Truly it was a great journey, and in it I met with many, whom to know was to love; but whom never could I see again; for life has not space enough; and each must do his duty to the security and well-being of the Redoubt. Yet, for all that I have set down, we travelled much, always; but there were so many millions, and so few years.</p>`;
 });
 var secondpost = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Secondpost,
-  metadata: metadata$2
+  metadata: metadata$6
 });
-var metadata$1 = {
+var metadata$5 = {
   "layout": "blog",
   "title": "Third post",
   "slug": "firstpost",
@@ -2984,26 +5151,24 @@ var metadata$1 = {
   "date": "1st May 2021"
 };
 var Third_post = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(BlogLayout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$1), {}, {
-    default: () => `<p>Truly it was a great journey, and in it I met with many, whom to know was to love; but whom never could I see again; for life has not space enough; and each must do his duty to the security and well-being of the Redoubt. Yet, for all that I have set down, we travelled much, always; but there were so many millions, and so few years.</p>
+  return `<p>Truly it was a great journey, and in it I met with many, whom to know was to love; but whom never could I see again; for life has not space enough; and each must do his duty to the security and well-being of the Redoubt. Yet, for all that I have set down, we travelled much, always; but there were so many millions, and so few years.</p>
 <p>Atticus said to Jem one day, \u201CI\u2019d rather you shot at tin cans in the backyard, but I know you\u2019ll go after birds. Shoot all the blue jays you want, if you can hit \u2018em, but remember it\u2019s a sin to kill a mockingbird.\u201D That was the only time I ever heard Atticus say it was a sin to do something, and I asked Miss Maudie about it. \u201CYour father\u2019s right,\u201D she said. \u201CMockingbirds don\u2019t do one thing except make music for us to enjoy. They don\u2019t eat up people\u2019s gardens, don\u2019t nest in corn cribs, they don\u2019t do one thing but sing their hearts out for us. That\u2019s why it\u2019s a sin to kill a mockingbird.</p>
 <p>I took a deep breath and listened to the old brag of my heart. I am, I am, I am.</p>
 <p>We believe that we can change the things around us in accordance with our desires\u2014we believe it because otherwise we can see no favourable outcome. We do not think of the outcome which generally comes to pass and is also favourable: we do not succeed in changing things in accordance with our desires, but gradually our desires change. The situation that we hoped to change because it was intolerable becomes unimportant to us. We have failed to surmount the obstacle, as we were absolutely determined to do, but life has taken us round it, led us beyond it, and then if we turn round to gaze into the distance of the past, we can barely see it, so imperceptible has it become.</p>
 <p>The most beautiful things in the world cannot be seen or touched, they are felt with the heart.</p>
-<p>Hello babies. Welcome to Earth. It\u2019s hot in the summer and cold in the winter. It\u2019s round and wet and crowded. On the outside, babies, you\u2019ve got a hundred years here. There\u2019s only one rule that I know of, babies-\u201CGod damn it, you\u2019ve got to be kind.</p>`
-  })}`;
+<p>Hello babies. Welcome to Earth. It\u2019s hot in the summer and cold in the winter. It\u2019s round and wet and crowded. On the outside, babies, you\u2019ve got a hundred years here. There\u2019s only one rule that I know of, babies-\u201CGod damn it, you\u2019ve got to be kind.</p>`;
 });
 var thirdPost = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Third_post,
-  metadata: metadata$1
+  metadata: metadata$5
 });
 var Counter = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let count = 42;
   return `<button class="${"bg-green-500 hover:bg-green-600 rounded px-4 py-1 my-4 text-white"}">Count: ${escape(count)}</button>`;
 });
-var metadata = {
+var metadata$4 = {
   "layout": "blog",
   "title": "First post",
   "slug": "firstpost",
@@ -3025,21 +5190,201 @@ var metadata = {
   "date": "3rd April 2021"
 };
 var Firstpost = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(BlogLayout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata), {}, {
-    default: () => `<p>Truly it was a great journey, and in it I met with many, whom to know was to love; but whom never could I see again; for life has not space enough; and each must do his duty to the security and well-being of the Redoubt. Yet, for all that I have set down, we travelled much, always; but there were so many millions, and so few years.</p>
+  return `<p>Truly it was a great journey, and in it I met with many, whom to know was to love; but whom never could I see again; for life has not space enough; and each must do his duty to the security and well-being of the Redoubt. Yet, for all that I have set down, we travelled much, always; but there were so many millions, and so few years.</p>
 <h3 id="${"a-sample-svelte-component"}"><a href="${"#a-sample-svelte-component"}">A sample svelte component</a></h3>
 ${validate_component(Counter, "Counter").$$render($$result, {}, {}, {})}
 <p>Atticus said to Jem one day, \u201CI\u2019d rather you shot at tin cans in the backyard, but I know you\u2019ll go after birds. Shoot all the blue jays you want, if you can hit \u2018em, but remember it\u2019s a sin to kill a mockingbird.\u201D That was the only time I ever heard Atticus say it was a sin to do something, and I asked Miss Maudie about it. \u201CYour father\u2019s right,\u201D she said. \u201CMockingbirds don\u2019t do one thing except make music for us to enjoy. They don\u2019t eat up people\u2019s gardens, don\u2019t nest in corn cribs, they don\u2019t do one thing but sing their hearts out for us. That\u2019s why it\u2019s a sin to kill a mockingbird.</p>
 <p>I took a deep breath and listened to the old brag of my heart. I am, I am, I am.</p>
 <p>We believe that we can change the things around us in accordance with our desires\u2014we believe it because otherwise we can see no favourable outcome. We do not think of the outcome which generally comes to pass and is also favourable: we do not succeed in changing things in accordance with our desires, but gradually our desires change. The situation that we hoped to change because it was intolerable becomes unimportant to us. We have failed to surmount the obstacle, as we were absolutely determined to do, but life has taken us round it, led us beyond it, and then if we turn round to gaze into the distance of the past, we can barely see it, so imperceptible has it become.</p>
 <p>The most beautiful things in the world cannot be seen or touched, they are felt with the heart.</p>
-<p>Hello babies. Welcome to Earth. It\u2019s hot in the summer and cold in the winter. It\u2019s round and wet and crowded. On the outside, babies, you\u2019ve got a hundred years here. There\u2019s only one rule that I know of, babies-\u201CGod damn it, you\u2019ve got to be kind.</p>`
-  })}`;
+<p>Hello babies. Welcome to Earth. It\u2019s hot in the summer and cold in the winter. It\u2019s round and wet and crowded. On the outside, babies, you\u2019ve got a hundred years here. There\u2019s only one rule that I know of, babies-\u201CGod damn it, you\u2019ve got to be kind.</p>`;
 });
 var firstpost = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Firstpost,
+  metadata: metadata$4
+});
+var pageSize = 2;
+var News = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let paginatedItems;
+  let $seo, $$unsubscribe_seo;
+  $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
+  let { items } = $$props;
+  let currentPage = 1;
+  set_store_value(seo, $seo = {
+    title: "Hagura - Light",
+    description: "Hagura is a light-weight theme/template built for sveltekit."
+  }, $seo);
+  if ($$props.items === void 0 && $$bindings.items && items !== void 0)
+    $$bindings.items(items);
+  paginatedItems = paginate({ items, pageSize, currentPage });
+  $$unsubscribe_seo();
+  return `<main><article><h1 class="${"headline text-7xl leading-relaxed font-black font-display mb-4"}">News
+    </h1>
+    <p>Here&#39;s some text that comes before the news</p>
+    <div class="${"article-list"}">${each(paginatedItems, ({ metadata: { title: title2, description: description2, tags, outline, slug }, path }) => `<div class="${"mb-4"}"><a sveltekit:prefetch${add_attribute("href", "news/" + path.replace(/\.[^/.]+$/, ""), 0)}><h2 class="${"text-3xl leading-relaxed"}">${escape(title2)}</h2></a>
+          <p>${escape(description2)}</p>
+        </div>`)}</div>
+    <div class="${"mx-auto"}">${validate_component(PaginationNav, "PaginationNav").$$render($$result, {
+    totalItems: items.length,
+    pageSize,
+    currentPage,
+    limit: 1,
+    showStepOptions: true
+  }, {}, {})}</div></article></main>`;
+});
+async function load({ fetch: fetch2 }) {
+  const res = await fetch2(`/news/items.json`);
+  const items = await res.json();
+  return { props: { items } };
+}
+var News_1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { items } = $$props;
+  if ($$props.items === void 0 && $$bindings.items && items !== void 0)
+    $$bindings.items(items);
+  return `${validate_component(News, "News").$$render($$result, { items }, {}, {})}`;
+});
+var index$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": News_1,
+  load
+});
+var metadata$3 = {
+  "layout": "news",
+  "title": "Another news item",
+  "description": "Another news item"
+};
+var Seconditem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `<p>This is another news item.</p>`;
+});
+var seconditem = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Seconditem,
+  metadata: metadata$3
+});
+var metadata$2 = {
+  "layout": "news",
+  "title": "A news item",
+  "description": "A news item"
+};
+var Firstitem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `<p>This is a news item.</p>`;
+});
+var firstitem = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Firstitem,
+  metadata: metadata$2
+});
+var metadata$1 = {
+  "layout": "news",
+  "title": "Anotherother news item",
+  "description": "Anotherother news item"
+};
+var Thirditem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `<p>This is anotherother news item.</p>`;
+});
+var thirditem = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Thirditem,
+  metadata: metadata$1
+});
+var Photo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { src: src2 } = $$props;
+  let { name } = $$props;
+  if ($$props.src === void 0 && $$bindings.src && src2 !== void 0)
+    $$bindings.src(src2);
+  if ($$props.name === void 0 && $$bindings.name && name !== void 0)
+    $$bindings.name(name);
+  return `<div class="${"flex-none w-96 h-96 relative"}"><img class="${"absolute inset-0 w-full h-full object-cover"}"${add_attribute("src", "images/team/" + src2, 0)}${add_attribute("alt", name, 0)}></div>`;
+});
+var Link = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { url } = $$props;
+  let { label } = $$props;
+  if ($$props.url === void 0 && $$bindings.url && url !== void 0)
+    $$bindings.url(url);
+  if ($$props.label === void 0 && $$bindings.label && label !== void 0)
+    $$bindings.label(label);
+  return `<a class="${"h-9 flex items-center justify-center bg-gray-100 rounded-lg"}"${add_attribute("href", url, 0)} target="${"_blank"}">${escape(label)}</a>`;
+});
+var Links = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { links } = $$props;
+  if ($$props.links === void 0 && $$bindings.links && links !== void 0)
+    $$bindings.links(links);
+  return `<div class="${"flex items-baseline mt-4 mb-6"}"><div class="${"space-x-2 flex"}">${links.twitter ? `${validate_component(Link, "Link").$$render($$result, {
+    url: "https://twitter.com/" + links.twitter,
+    label: "Twitter"
+  }, {}, {})}` : ``}
+    ${links.scholar ? `${validate_component(Link, "Link").$$render($$result, {
+    url: "https://scholar.google.com/citations?user=" + links.scholar,
+    label: "Scholar"
+  }, {}, {})}` : ``}
+    ${links.github ? `${validate_component(Link, "Link").$$render($$result, {
+    url: "https://github.com/" + links.github,
+    label: "GitHub"
+  }, {}, {})}` : ``}
+    ${links.instagram ? `${validate_component(Link, "Link").$$render($$result, {
+    url: "https://instagram.com/" + links.instagram,
+    label: "Instagram"
+  }, {}, {})}` : ``}
+    ${links.website ? `${validate_component(Link, "Link").$$render($$result, { url: links.website, label: "Website" }, {}, {})}` : ``}</div></div>`;
+});
+var Member = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { member } = $$props;
+  if ($$props.member === void 0 && $$bindings.member && member !== void 0)
+    $$bindings.member(member);
+  return `<div class="${"flex"}"><div class="${"space-x-6 flex"}">${validate_component(Photo, "Photo").$$render($$result, { src: member.image, name: member.name }, {}, {})}
+    <div><h1>Name: ${escape(member.name)}</h1>
+      <h3>Role: ${escape(member.role)}</h3>
+      <p>Bio: ${escape(member.bio)}</p>
+      <p><b>Email: <a${add_attribute("href", "mailto:" + member.email, 0)}${add_attribute("title", "Email " + member.name, 0)}>${escape(member.email)}</a></b></p>
+      ${validate_component(Links, "Links").$$render($$result, { links: member.links }, {}, {})}</div></div></div>`;
+});
+var css = {
+  code: ".post.svelte-5dgm73{margin-bottom:4rem}",
+  map: '{"version":3,"file":"Team.svelte","sources":["Team.svelte"],"sourcesContent":["<script>\\n  import { seo } from \\"$lib/store\\";\\n  import Member from \\"../components/Team/Member.svelte\\"\\n  import team from \\"../routes/team/team.json\\"\\n\\n  export let title;\\n  export let description;\\n\\n  $seo = {\\n    title: title,\\n    description: description,\\n  };\\n<\/script>\\n\\n<svelte:head>\\n  <title>{title}</title>\\n  <meta name=\\"description\\" content={description} />\\n</svelte:head>\\n\\n<style>.post{margin-bottom:4rem}</style>\\n\\n<h1 class=\\"font-bold text-6xl mb-4\\">{title}</h1>\\n\\n<div class=\\"post\\">\\n  <slot/>\\n</div>\\n\\n<div>\\n  {#each team as member, index}\\n      <Member member={member}/>\\n  {/each}\\n</div>\\n"],"names":[],"mappings":"AAmBO,mBAAK,CAAC,cAAc,IAAI,CAAC"}'
+};
+var Team$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let $seo, $$unsubscribe_seo;
+  $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
+  let { title: title2 } = $$props;
+  let { description: description2 } = $$props;
+  set_store_value(seo, $seo = { title: title2, description: description2 }, $seo);
+  if ($$props.title === void 0 && $$bindings.title && title2 !== void 0)
+    $$bindings.title(title2);
+  if ($$props.description === void 0 && $$bindings.description && description2 !== void 0)
+    $$bindings.description(description2);
+  $$result.css.add(css);
+  $$unsubscribe_seo();
+  return `${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}
+
+
+
+<h1 class="${"font-bold text-6xl mb-4"}">${escape(title2)}</h1>
+
+<div class="${"post svelte-5dgm73"}">${slots.default ? slots.default({}) : ``}</div>
+
+<div>${each(team, (member, index2) => `${validate_component(Member, "Member").$$render($$result, { member }, {}, {})}`)}</div>`;
+});
+var metadata = {
+  "layout": "team",
+  "title": "Team",
+  "slug": "team",
+  "description": "Our team"
+};
+var Team = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(Team$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata), {}, {
+    default: () => `<p>This is our team.</p>`
+  })}`;
+});
+var index = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Team,
   metadata
 });
 
