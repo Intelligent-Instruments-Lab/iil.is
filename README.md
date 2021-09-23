@@ -30,7 +30,7 @@ For example, this is how you would add/edit team members, and the team page itse
 
 ### Publications
 
-The idea here is that we have a single `.bib` file that we maintain, which the website uses to auto-populate our Publications page. However there's a couple of technical issues to clear before this is solid (#3).
+The idea here is that we have a single `.bib` file that we maintain, which the website uses to auto-populate our Publications page. However there's a couple of technical issues to clear before this is solid ([#3](https://github.com/Intelligent-Instruments-Lab/iil.is/issues/3)).
 
 ## Installation
 
