@@ -2,19 +2,23 @@
   import { seo } from "$lib/store";
   import Publication from "../components/Publication.svelte"
   
-  import { parseBibFile } from "bibtex";
-  import pubs from '../routes/publications/publications.bib?raw'
-  let bib = Object.values(parseBibFile(pubs).entries$)
-  // bib = bib.map(e=> Object.values(e.fields))
-  // console.log(bib)
+  import pkg from 'bibtex';
+  const { normalizeFieldValue, parseBibFile } = pkg;
+  // import { parseBibFile } from "bibtex";
+  // import pubs from '../routes/publications/publications.bib?raw'
+  
+  export let publications
+  const bib = Object.values(parseBibFile(publications).entries$)
 
-  export let title;
-  export let description;
+  let title = 'Title'
+  let description = 'Description'
 
   $seo = {
     title: title,
     description: description,
   };
+
+
 
   // TODO: generate download of .bib file
 
@@ -37,7 +41,11 @@
   }
 </style>
 
-<h1 class="font-bold text-6xl mb-4">{title}</h1>
+<h1 class="headline text-7xl leading-relaxed font-black font-display mb-4">
+  Publications
+</h1>
+<p>This page contains papers from the Intelligent Instruments Lab, organised by date. 
+Also see the latest news and events and press articles.</p>
 <div class="post">
   <slot />
 </div>
