@@ -1,0 +1,1 @@
+<p class="mb-4 py-10"><slot/></p>

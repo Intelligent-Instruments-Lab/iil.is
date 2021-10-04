@@ -2,6 +2,8 @@ import preprocess from "svelte-preprocess";
 import { mdsvex } from "mdsvex";
 import { mdsvexConfig } from "./mdsvex.config.js";
 import adapter from "@sveltejs/adapter-netlify";
+import svg from '@poppanator/sveltekit-svg'
+
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -16,6 +18,9 @@ const config = {
     adapter: adapter(),
     // hydrate the <div id="svelte"> element in src/app.html
     target: "#svelte",
+    vite: {
+      plugins: [svg()]
+    },
   },
 };
 

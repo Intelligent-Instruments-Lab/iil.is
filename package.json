@@ -7,6 +7,7 @@
     "preview": "svelte-kit preview"
   },
   "devDependencies": {
+    "@poppanator/sveltekit-svg": "^0.1.7",
     "@sveltejs/adapter-netlify": "next",
     "@sveltejs/kit": "next",
     "autoprefixer": "^10.2.5",
