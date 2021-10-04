@@ -4,8 +4,9 @@
 </script>
 
 <a
-  class="h-9 p-2 flex"
+  class="text-white"
   href={url}
   target="_blank">
   {label}
 </a>
+<br>

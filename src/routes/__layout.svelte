@@ -7,7 +7,7 @@
 </script>
 
 <Seo />
-<div class="body-wrapper max-w-screen-md mx-auto">
+<div class="">
   <Header/>
   <slot />
   <Footer/>
