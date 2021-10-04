@@ -1,4 +1,5 @@
 <script>
+  import { Layout } from '../stores/layout.js'
   import Seo from "../components/Seo.svelte";
   import Header from "../components/Header/Header.svelte"
   import Footer from "../components/Footer/Footer.svelte"
@@ -8,7 +9,9 @@
 
 <Seo />
 <div class="">
-  <Header/>
-  <slot />
+  <div class="bg-secondary">
+    <Header/>
+    <slot />
+  </div>
   <Footer/>
 </div>

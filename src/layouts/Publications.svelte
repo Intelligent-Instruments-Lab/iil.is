@@ -1,5 +1,9 @@
 <script>
   import { seo } from "../stores/seo.js";
+  import { onMount } from 'svelte'
+  import { Layout } from '../stores/layout.js'
+  import Menu from "../components/Menu/Menu.svelte"
+  
   import Publication from "../components/Publication.svelte"
   
   import * as bibtex from 'bibtex'
@@ -13,6 +17,8 @@
 
   let title = 'Title'
   let description = 'Description'
+
+  export let layout
 
   $seo = {
     title: title,
@@ -29,6 +35,11 @@
   // TODO: Separate into years
   // TODO: Sort entries by year
 
+  onMount(async () => {
+    $Layout.menu = false
+    $Layout.page = layout
+    console.log('[About]', $Layout.page, layout)
+  })
 </script>
 
 <svelte:head>
@@ -36,12 +47,10 @@
   <meta name="description" content={description} />
 </svelte:head>
 
-<style>
-  .post {
-    margin-bottom: 4rem;
-  }
-</style>
-
+{#if $Layout.menu}
+  <Menu/>
+{:else}
+  <div class="bg-primary border-dashed border-secondary border-4">
 <h1 class="headline text-7xl leading-relaxed font-black font-display mb-4">
   Publications
 </h1>
@@ -56,3 +65,6 @@ Also see the latest news and events and press articles.</p>
     <Publication pub={entry}/>
   {/each}
 </div>
+
+  </div>
+{/if}

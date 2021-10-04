@@ -1,8 +1,12 @@
 <script>
   import { paginate, PaginationNav } from "svelte-paginate";
   import { seo } from "../stores/seo.js";
-  //https://www.npmjs.com/package/svelte-paginate
+  import { onMount } from 'svelte'
+  import { Layout } from '../stores/layout.js'
+  import Menu from "../components/Menu/Menu.svelte"
 
+  // export let items
+  export let layout = "openlab"
   export let openlabs;
 
   let items = openlabs.reverse()
@@ -14,9 +18,12 @@
     title: "Hagura - Light",
     description: "Hagura is a light-weight theme/template built for sveltekit.",
   };
-
 </script>
 
+{#if $Layout.menu}
+  <Menu/>
+{:else}
+<div class="bg-primary border-dashed border-secondary border-4">
 <main>
   <article>
     <h1 class="headline text-7xl leading-relaxed font-black font-display mb-4">
@@ -52,3 +59,5 @@
     </div>
   </article>
 </main>
+</div>
+{/if}

@@ -1,12 +1,24 @@
 <script>
+
+  import { Layout } from '../../stores/layout.js'
+
   import List from './List.svelte'
   import logo from '../../assets/svg/iil_logo_white.svg?url'
   import pages from "../../routes/pages.json"
   import contact from "../../routes/contact.json"
-  
+
 </script>
 
-<div class="bg-primary-700">
+<style>
+  .menuActive {
+    @apply bg-primary-700 border-dashed border-secondary border-4;
+  }
+  .menuInactive {
+    @apply bg-primary-700;
+  }
+</style>
+
+<div class="{($Layout.menu || $Layout.page === 'home') ? 'menuActive' : 'menuInactive'}">
   <div class="pt-8 pl-6 max-w-screen-xl">
     <div class="grid grid-cols-6">
       <div class="col-span-2">
@@ -18,8 +30,8 @@
         </a>
       </div>
       <div class="grid grid-cols-8 col-span-4 py-12">
-        <div class="col-span-2"><List list={pages} name="Explore"/></div>
-        <div class="col-span-2"><List list={contact} name="Contact"/></div>
+        <div class="col-span-2"><List list={pages} name="Explore" target=""/></div>
+        <div class="col-span-2"><List list={contact} name="Contact" target="_blank"/></div>
         <div class="col-span-4">
           <h1 class="font-hauser text-white text-lg">Address</h1>
           <div class="px-2 py-3">
