@@ -1,23 +1,73 @@
 <script>
+
+  import { Layout } from '../../stores/layout.js'
+
   import List from './List.svelte'
+  import logo from '../../assets/svg/iil_logo_white.svg?url'
   import pages from "../../routes/pages.json"
   import contact from "../../routes/contact.json"
-  
+
 </script>
 
-<hr>
-<div class="flex">
-  <div class="space-x-10 flex">
-    <List list={pages} name="Explore"/>
-    <List list={contact} name="Contact"/>
-    <div>
-      <p>Address:</p>
-      <p>Intelligent Instruments Lab</p>
-      <p>Þverholt 11</p>
-      <p>105 Reykjavík</p>
-      <p>Iceland</p>
+<style>
+  .menuActive {
+    @apply bg-primary-700 border-dashed border-secondary border-4;
+  }
+  .menuInactive {
+    @apply bg-primary-700;
+  }
+</style>
+
+<div class="{($Layout.menu || $Layout.page === 'home') ? 'menuActive' : 'menuInactive'}">
+  <div class="pt-8 pl-6 max-w-screen-xl hidden md:block ">
+    <div class="grid grid-cols-6">
+      <div class="col-span-2">
+        <a href="/">
+          <img
+            class="h-72"
+            src={logo}
+            alt="Intelligent Instruments Lab"/>
+        </a>
+      </div>
+      <div class="col-span-4 py-12">
+        <div class="grid grid-cols-8">
+          <div class="col-span-2">
+            <List list={pages} name="Explore" target=""/>
+          </div>
+          <div class="col-span-2">
+            <List list={contact} name="Contact" target="_blank"/>
+          </div>
+          <div class="col-span-4">
+            <h1 class="font-hauser text-white text-lg">Address</h1>
+            <div class="px-2 py-3">
+              <a href="https://goo.gl/maps/jX1wteK9MjdMKsg28" target="_blank">
+                <div class="text-white">Intelligent Instruments Lab</div>
+                <div class="text-white">Þverholt 11</div>
+                <div class="text-white">105 Reykjavík</div>
+                <div class="text-white">Iceland</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pt-8 pl-6 py-8 max-w-screen-xl md:hidden">
+    <div class="flex flex-col">
+      <div class="">
+        <List list={contact} name="Contact" target="_blank"/>
+      </div>
+      <div class="">
+        <h1 class="font-hauser text-white text-lg">Address</h1>
+        <div class="px-2 py-3">
+          <a href="https://goo.gl/maps/jX1wteK9MjdMKsg28" target="_blank">
+            <div class="text-white">Intelligent Instruments Lab</div>
+            <div class="text-white">Þverholt 11</div>
+            <div class="text-white">105 Reykjavík</div>
+            <div class="text-white">Iceland</div>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-
-

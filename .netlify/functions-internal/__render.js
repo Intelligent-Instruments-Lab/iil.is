@@ -3743,9 +3743,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-7573b3c2.js",
+      file: assets + "/_app/start-9449e9b7.js",
       css: [assets + "/_app/assets/start-464e9d0a.css", assets + "/_app/assets/vendor-8daff541.css"],
-      js: [assets + "/_app/start-7573b3c2.js", assets + "/_app/chunks/vendor-4eb80af5.js"]
+      js: [assets + "/_app/start-9449e9b7.js", assets + "/_app/chunks/vendor-4eb80af5.js"]
     },
     fetched: void 0,
     floc: false,
@@ -3941,16 +3941,52 @@ var manifest = {
       type: "page",
       pattern: /^\/team\/?$/,
       params: empty,
-      a: ["src/routes/__layout.svelte", "src/routes/team/index.md"],
+      a: ["src/routes/__layout.svelte", "src/routes/team/index.svelte"],
       b: [".svelte-kit/build/components/error.svelte"]
     },
     {
       type: "endpoint",
-      pattern: /^\/team\/team\/?$/,
+      pattern: /^\/team\/members\.json$/,
       params: empty,
       load: () => Promise.resolve().then(function() {
-        return team$1;
+        return members_json;
       })
+    },
+    {
+      type: "page",
+      pattern: /^\/team\/esther\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/team/esther.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/team\/victor\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/team/victor.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "endpoint",
+      pattern: /^\/team\/order\/?$/,
+      params: empty,
+      load: () => Promise.resolve().then(function() {
+        return order$1;
+      })
+    },
+    {
+      type: "page",
+      pattern: /^\/team\/jack\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/team/jack.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/team\/thor\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/team/thor.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
     }
   ]
 };
@@ -4018,11 +4054,23 @@ var module_lookup = {
   "src/routes/news/thirditem.md": () => Promise.resolve().then(function() {
     return thirditem;
   }),
-  "src/routes/team/index.md": () => Promise.resolve().then(function() {
+  "src/routes/team/index.svelte": () => Promise.resolve().then(function() {
     return index;
+  }),
+  "src/routes/team/esther.md": () => Promise.resolve().then(function() {
+    return esther;
+  }),
+  "src/routes/team/victor.md": () => Promise.resolve().then(function() {
+    return victor;
+  }),
+  "src/routes/team/jack.md": () => Promise.resolve().then(function() {
+    return jack;
+  }),
+  "src/routes/team/thor.md": () => Promise.resolve().then(function() {
+    return thor;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-1d62aeec.js", "css": ["assets/pages/__layout.svelte-3030194c.css", "assets/vendor-8daff541.css"], "js": ["pages/__layout.svelte-1d62aeec.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-d2c206d9.js", "css": ["assets/vendor-8daff541.css"], "js": ["error.svelte-d2c206d9.js", "chunks/vendor-4eb80af5.js"], "styles": [] }, "src/routes/index.md": { "entry": "pages/index.md-d2e8b58f.js", "css": ["assets/pages/team/index.md-af9d6be1.css", "assets/vendor-8daff541.css"], "js": ["pages/index.md-d2e8b58f.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/publications/index.svelte": { "entry": "pages/publications/index.svelte-c30583c2.js", "css": ["assets/pages/team/index.md-af9d6be1.css", "assets/vendor-8daff541.css"], "js": ["pages/publications/index.svelte-c30583c2.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/collaborate.md": { "entry": "pages/collaborate.md-6c72b02e.js", "css": ["assets/pages/team/index.md-af9d6be1.css", "assets/vendor-8daff541.css"], "js": ["pages/collaborate.md-6c72b02e.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/research/index.svelte": { "entry": "pages/research/index.svelte-31d6f4f2.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/research/index.svelte-31d6f4f2.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/research/halldorophone.md": { "entry": "pages/research/halldorophone.md-914e2027.js", "css": ["assets/vendor-8daff541.css", "assets/pages/team/index.md-af9d6be1.css"], "js": ["pages/research/halldorophone.md-914e2027.js", "chunks/vendor-4eb80af5.js", "chunks/ResearchProject-88b8f969.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/research/secondproject.md": { "entry": "pages/research/secondproject.md-65dee07e.js", "css": ["assets/vendor-8daff541.css", "assets/pages/team/index.md-af9d6be1.css"], "js": ["pages/research/secondproject.md-65dee07e.js", "chunks/vendor-4eb80af5.js", "chunks/ResearchProject-88b8f969.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/research/firstproject.md": { "entry": "pages/research/firstproject.md-b1765ffe.js", "css": ["assets/vendor-8daff541.css", "assets/pages/team/index.md-af9d6be1.css"], "js": ["pages/research/firstproject.md-b1765ffe.js", "chunks/vendor-4eb80af5.js", "chunks/ResearchProject-88b8f969.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/openlab/index.svelte": { "entry": "pages/openlab/index.svelte-09aa406f.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/openlab/index.svelte-09aa406f.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/openlab/1.md": { "entry": "pages/openlab/1.md-79cc198f.js", "css": ["assets/vendor-8daff541.css", "assets/pages/team/index.md-af9d6be1.css"], "js": ["pages/openlab/1.md-79cc198f.js", "chunks/vendor-4eb80af5.js", "chunks/OpenLabEvent-d26796f9.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/openlab/2.md": { "entry": "pages/openlab/2.md-e6c32b76.js", "css": ["assets/vendor-8daff541.css", "assets/pages/team/index.md-af9d6be1.css"], "js": ["pages/openlab/2.md-e6c32b76.js", "chunks/vendor-4eb80af5.js", "chunks/OpenLabEvent-d26796f9.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/openlab/3.md": { "entry": "pages/openlab/3.md-463e198d.js", "css": ["assets/vendor-8daff541.css", "assets/pages/team/index.md-af9d6be1.css"], "js": ["pages/openlab/3.md-463e198d.js", "chunks/vendor-4eb80af5.js", "chunks/OpenLabEvent-d26796f9.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/openlab/4.md": { "entry": "pages/openlab/4.md-56a5f7d6.js", "css": ["assets/vendor-8daff541.css", "assets/pages/team/index.md-af9d6be1.css"], "js": ["pages/openlab/4.md-56a5f7d6.js", "chunks/vendor-4eb80af5.js", "chunks/OpenLabEvent-d26796f9.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/about.md": { "entry": "pages/about.md-f6cd3d5d.js", "css": ["assets/pages/team/index.md-af9d6be1.css", "assets/vendor-8daff541.css"], "js": ["pages/about.md-f6cd3d5d.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/news/index.svelte": { "entry": "pages/news/index.svelte-3b266df7.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/news/index.svelte-3b266df7.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/news/seconditem.md": { "entry": "pages/news/seconditem.md-a51307a1.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/news/seconditem.md-a51307a1.js", "chunks/vendor-4eb80af5.js"], "styles": [] }, "src/routes/news/firstitem.md": { "entry": "pages/news/firstitem.md-b8ff1a7c.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/news/firstitem.md-b8ff1a7c.js", "chunks/vendor-4eb80af5.js"], "styles": [] }, "src/routes/news/thirditem.md": { "entry": "pages/news/thirditem.md-29b76890.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/news/thirditem.md-29b76890.js", "chunks/vendor-4eb80af5.js"], "styles": [] }, "src/routes/team/index.md": { "entry": "pages/team/index.md-a147ebea.js", "css": ["assets/pages/team/index.md-af9d6be1.css", "assets/vendor-8daff541.css"], "js": ["pages/team/index.md-a147ebea.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-1d62aeec.js", "css": ["assets/pages/__layout.svelte-3030194c.css", "assets/vendor-8daff541.css"], "js": ["pages/__layout.svelte-1d62aeec.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-d2c206d9.js", "css": ["assets/vendor-8daff541.css"], "js": ["error.svelte-d2c206d9.js", "chunks/vendor-4eb80af5.js"], "styles": [] }, "src/routes/index.md": { "entry": "pages/index.md-d2e8b58f.js", "css": ["assets/ResearchProject-92c08b53.css", "assets/vendor-8daff541.css"], "js": ["pages/index.md-d2e8b58f.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/publications/index.svelte": { "entry": "pages/publications/index.svelte-c30583c2.js", "css": ["assets/ResearchProject-92c08b53.css", "assets/vendor-8daff541.css"], "js": ["pages/publications/index.svelte-c30583c2.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/collaborate.md": { "entry": "pages/collaborate.md-6c72b02e.js", "css": ["assets/ResearchProject-92c08b53.css", "assets/vendor-8daff541.css"], "js": ["pages/collaborate.md-6c72b02e.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/research/index.svelte": { "entry": "pages/research/index.svelte-31d6f4f2.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/research/index.svelte-31d6f4f2.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/research/halldorophone.md": { "entry": "pages/research/halldorophone.md-914e2027.js", "css": ["assets/vendor-8daff541.css", "assets/ResearchProject-92c08b53.css"], "js": ["pages/research/halldorophone.md-914e2027.js", "chunks/vendor-4eb80af5.js", "chunks/ResearchProject-88b8f969.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/research/secondproject.md": { "entry": "pages/research/secondproject.md-65dee07e.js", "css": ["assets/vendor-8daff541.css", "assets/ResearchProject-92c08b53.css"], "js": ["pages/research/secondproject.md-65dee07e.js", "chunks/vendor-4eb80af5.js", "chunks/ResearchProject-88b8f969.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/research/firstproject.md": { "entry": "pages/research/firstproject.md-b1765ffe.js", "css": ["assets/vendor-8daff541.css", "assets/ResearchProject-92c08b53.css"], "js": ["pages/research/firstproject.md-b1765ffe.js", "chunks/vendor-4eb80af5.js", "chunks/ResearchProject-88b8f969.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/openlab/index.svelte": { "entry": "pages/openlab/index.svelte-09aa406f.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/openlab/index.svelte-09aa406f.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/openlab/1.md": { "entry": "pages/openlab/1.md-79cc198f.js", "css": ["assets/vendor-8daff541.css", "assets/ResearchProject-92c08b53.css"], "js": ["pages/openlab/1.md-79cc198f.js", "chunks/vendor-4eb80af5.js", "chunks/OpenLabEvent-d26796f9.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/openlab/2.md": { "entry": "pages/openlab/2.md-e6c32b76.js", "css": ["assets/vendor-8daff541.css", "assets/ResearchProject-92c08b53.css"], "js": ["pages/openlab/2.md-e6c32b76.js", "chunks/vendor-4eb80af5.js", "chunks/OpenLabEvent-d26796f9.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/openlab/3.md": { "entry": "pages/openlab/3.md-463e198d.js", "css": ["assets/vendor-8daff541.css", "assets/ResearchProject-92c08b53.css"], "js": ["pages/openlab/3.md-463e198d.js", "chunks/vendor-4eb80af5.js", "chunks/OpenLabEvent-d26796f9.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/openlab/4.md": { "entry": "pages/openlab/4.md-56a5f7d6.js", "css": ["assets/vendor-8daff541.css", "assets/ResearchProject-92c08b53.css"], "js": ["pages/openlab/4.md-56a5f7d6.js", "chunks/vendor-4eb80af5.js", "chunks/OpenLabEvent-d26796f9.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/about.md": { "entry": "pages/about.md-f6cd3d5d.js", "css": ["assets/ResearchProject-92c08b53.css", "assets/vendor-8daff541.css"], "js": ["pages/about.md-f6cd3d5d.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/news/index.svelte": { "entry": "pages/news/index.svelte-3b266df7.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/news/index.svelte-3b266df7.js", "chunks/vendor-4eb80af5.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/news/seconditem.md": { "entry": "pages/news/seconditem.md-a51307a1.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/news/seconditem.md-a51307a1.js", "chunks/vendor-4eb80af5.js"], "styles": [] }, "src/routes/news/firstitem.md": { "entry": "pages/news/firstitem.md-b8ff1a7c.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/news/firstitem.md-b8ff1a7c.js", "chunks/vendor-4eb80af5.js"], "styles": [] }, "src/routes/news/thirditem.md": { "entry": "pages/news/thirditem.md-29b76890.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/news/thirditem.md-29b76890.js", "chunks/vendor-4eb80af5.js"], "styles": [] }, "src/routes/team/index.svelte": { "entry": "pages/team/index.svelte-c7765bfa.js", "css": ["assets/vendor-8daff541.css", "assets/ResearchProject-92c08b53.css"], "js": ["pages/team/index.svelte-c7765bfa.js", "chunks/vendor-4eb80af5.js", "chunks/Team-efb9d567.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/team/esther.md": { "entry": "pages/team/esther.md-467905ba.js", "css": ["assets/vendor-8daff541.css", "assets/ResearchProject-92c08b53.css"], "js": ["pages/team/esther.md-467905ba.js", "chunks/vendor-4eb80af5.js", "chunks/Team-efb9d567.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/team/victor.md": { "entry": "pages/team/victor.md-b3737eb3.js", "css": ["assets/vendor-8daff541.css", "assets/ResearchProject-92c08b53.css"], "js": ["pages/team/victor.md-b3737eb3.js", "chunks/vendor-4eb80af5.js", "chunks/Team-efb9d567.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/team/jack.md": { "entry": "pages/team/jack.md-2319937c.js", "css": ["assets/vendor-8daff541.css", "assets/ResearchProject-92c08b53.css"], "js": ["pages/team/jack.md-2319937c.js", "chunks/vendor-4eb80af5.js", "chunks/Team-efb9d567.js", "chunks/seo-0363ec2e.js"], "styles": [] }, "src/routes/team/thor.md": { "entry": "pages/team/thor.md-b7304951.js", "css": ["assets/vendor-8daff541.css", "assets/ResearchProject-92c08b53.css"], "js": ["pages/team/thor.md-b7304951.js", "chunks/vendor-4eb80af5.js", "chunks/Team-efb9d567.js", "chunks/seo-0363ec2e.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
@@ -4039,7 +4087,7 @@ function render(request, {
   const host = request.headers["host"];
   return respond({ ...request, host }, options, { prerender });
 }
-async function get$2() {
+async function get$3() {
   const imports = { "./firstproject.md": () => Promise.resolve().then(function() {
     return firstproject;
   }), "./halldorophone.md": () => Promise.resolve().then(function() {
@@ -4064,7 +4112,7 @@ async function get$2() {
 var projects_json = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  get: get$2
+  get: get$3
 });
 var contact = [
   {
@@ -4105,7 +4153,7 @@ var contact$1 = /* @__PURE__ */ Object.freeze({
   [Symbol.toStringTag]: "Module",
   "default": contact
 });
-async function get$1() {
+async function get$2() {
   const imports = { "./1.md": () => Promise.resolve().then(function() {
     return _1$1;
   }), "./2.md": () => Promise.resolve().then(function() {
@@ -4132,7 +4180,7 @@ async function get$1() {
 var openlabs_json = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  get: get$1
+  get: get$2
 });
 var pages = [
   {
@@ -4169,7 +4217,7 @@ var pages$1 = /* @__PURE__ */ Object.freeze({
   [Symbol.toStringTag]: "Module",
   "default": pages
 });
-async function get() {
+async function get$1() {
   const imports = { "./firstitem.md": () => Promise.resolve().then(function() {
     return firstitem;
   }), "./seconditem.md": () => Promise.resolve().then(function() {
@@ -4194,45 +4242,47 @@ async function get() {
 var items_json = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  get
+  get: get$1
 });
-var team = [
-  {
-    name: "Thor Magnusson",
-    role: "Principal Investigator",
-    bio: "A worker in rhythm, frequencies and intensities. Research and development in the areas of music and technology. I am a professor of future music in the Music Department at the University of Sussex and a research professor at the Iceland University of the Arts. In 2021 I serve as an Edgard-Var\xE8se guest professor at the Technische Universit\xE4t Berlin.",
-    email: "thor.magnusson@lhi.is",
-    image: "thor.jpg",
-    links: {
-      twitter: "thormagnusson",
-      github: "thormagnusson",
-      scholar: "cCgOZ_gAAAAJ",
-      website: "thormagnusson.github.io"
-    },
-    projects: [
-      "sonicwriting"
-    ]
-  },
-  {
-    name: "Jack Armitage",
-    role: "Postdoctoral Research Fellow",
-    bio: "Designers, researcher, technologist, musician, teacher.",
-    email: "jack@lhi.is",
-    image: "jack.jpg",
-    links: {
-      twitter: "jdkarmitage",
-      github: "jarmitage",
-      scholar: "APvoBhUAAAAJ",
-      instagram: "jdkarmitage",
-      website: "jackarmitage.com"
-    },
-    projects: []
+async function get() {
+  const imports = { "./esther.md": () => Promise.resolve().then(function() {
+    return esther;
+  }), "./jack.md": () => Promise.resolve().then(function() {
+    return jack;
+  }), "./thor.md": () => Promise.resolve().then(function() {
+    return thor;
+  }), "./victor.md": () => Promise.resolve().then(function() {
+    return victor;
+  }) };
+  let body = [];
+  for (const path in imports) {
+    body.push(imports[path]().then(({ metadata: metadata2 }) => {
+      return {
+        metadata: metadata2,
+        path
+      };
+    }));
   }
-];
-var team$1 = /* @__PURE__ */ Object.freeze({
+  const posts = await Promise.all(body);
+  return {
+    body: JSON.stringify(posts)
+  };
+}
+var members_json = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": team
+  get
+});
+var order = [
+  "thor",
+  "jack",
+  "victor",
+  "esther"
+];
+var order$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": order
 });
 var subscriber_queue = [];
 function writable(value, start = noop) {
@@ -4346,7 +4396,7 @@ var __layout = /* @__PURE__ */ Object.freeze({
   [Symbol.toStringTag]: "Module",
   "default": _layout
 });
-function load$4({ error: error2, status }) {
+function load$5({ error: error2, status }) {
   return { props: { error: error2, status } };
 }
 var Error$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -4369,7 +4419,7 @@ var error = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Error$1,
-  load: load$4
+  load: load$5
 });
 var css$6 = {
   code: ".post.svelte-5dgm73{margin-bottom:4rem}",
@@ -4392,14 +4442,14 @@ var Home = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
 ${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}`;
 });
-var metadata$d = {
+var metadata$g = {
   "layout": "home",
   "title": "IIL",
   "slug": "",
   "description": "Intelligent Instruments Lab"
 };
 var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(Home, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$d), {}, {
+  return `${validate_component(Home, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$g), {}, {
     default: () => `<p>We explore how musical instruments embedded with creative AI augments our musical performance and understanding of ourselves as users of intelligent technologies.</p>
 <p>Through developing new musical instruments we ask how people, performers and audience alike, perceive and understand technologies with musical agency.</p>
 <p><a href="${"/about"}">READ MORE ABOUT THE PROJECT</a></p>
@@ -4413,7 +4463,7 @@ var index$5 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Routes,
-  metadata: metadata$d
+  metadata: metadata$g
 });
 var Publication = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { pub } = $$props;
@@ -4458,7 +4508,7 @@ Also see the latest news and events and press articles.</p>
 
 <div class="${"space-y-6"}">${each(bib, (entry) => `${validate_component(Publication, "Publication").$$render($$result, { pub: entry }, {}, {})}`)}</div>`;
 });
-async function load$3({ fetch: fetch2 }) {
+async function load$4({ fetch: fetch2 }) {
   const res = await fetch2(`/publications.bib`);
   const publications = await res.text();
   return { props: { publications } };
@@ -4473,7 +4523,7 @@ var index$4 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Publications_1,
-  load: load$3
+  load: load$4
 });
 var css$4 = {
   code: ".post.svelte-5dgm73{margin-bottom:4rem}",
@@ -4496,14 +4546,14 @@ var Collaborate$1 = create_ssr_component(($$result, $$props, $$bindings, slots) 
 
 ${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}`;
 });
-var metadata$c = {
+var metadata$f = {
   "layout": "collaborate",
   "title": "Collaborate with us",
   "slug": "collaborate",
   "description": "Collaborate with us"
 };
 var Collaborate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(Collaborate$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$c), {}, {
+  return `${validate_component(Collaborate$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$f), {}, {
     default: () => `<p>The Intelligent Instruments Lab is open for collaborations with artists and scientists on experimental projects, equally as part of our work programme and as collaborations with other projects. We have developed a Collaboration Interaction Protocol (CIP) that makes such collaborations streamlined, easy to set up and effective. It defines all roles, timescales, experimental setups and outcomes through a simple system and we would love to hear from you if you have a reason to believe that our interests might intersect.</p>
 <p>We also have a visiting researcher scheme. We welcome people to come and work with us in our Reykjavik lab over a specified period of time. The aim with this scheme is to enable artists, composers and musicians to develop technologies for their musical expression, but in turn the collaboration will help us to answer our research questions. </p>
 <p>Please get in touch with the Principal Investigator, prof Thor Magnusson, or the relevant lab members, and the relevant contact information can be found on his LHI profile.</p>
@@ -4514,7 +4564,7 @@ var collaborate = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Collaborate,
-  metadata: metadata$c
+  metadata: metadata$f
 });
 function paginate({ items, pageSize: pageSize2, currentPage }) {
   return items.slice((currentPage - 1) * pageSize2, (currentPage - 1) * pageSize2 + pageSize2);
@@ -4701,7 +4751,7 @@ var Research = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     showStepOptions: true
   }, {}, {})}</div></article></main>`;
 });
-async function load$2({ fetch: fetch2 }) {
+async function load$3({ fetch: fetch2 }) {
   const res = await fetch2(`/research/projects.json`);
   const projects = await res.json();
   return { props: { projects } };
@@ -4716,7 +4766,7 @@ var index$3 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Research_1,
-  load: load$2
+  load: load$3
 });
 var css$3 = {
   code: ".post.svelte-5dgm73{margin-bottom:4rem}",
@@ -4739,13 +4789,13 @@ var ResearchProject = create_ssr_component(($$result, $$props, $$bindings, slots
 
 ${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}`;
 });
-var metadata$b = {
+var metadata$e = {
   "layout": "researchproject",
   "title": "Halldorophone",
   "description": "Halldorophone"
 };
 var Halldorophone = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$b), {}, {
+  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$e), {}, {
     default: () => `<p>The halldorophone (Icelandic: d\xF3r\xF3f\xF3nn) is a cello-like electronic instrument created by artist and designer Halld\xF3r \xDAlfarsson.
 The halldorophone is designed specifically to feedback the strings and the instrument gained some recognition in early 2020 when composer Hildur Gu\xF0nad\xF3ttir won the Academy Award for her original soundtrack to the movie Joker, some of which was composed with a halldorophone.</p>`
   })}`;
@@ -4754,15 +4804,15 @@ var halldorophone = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Halldorophone,
-  metadata: metadata$b
+  metadata: metadata$e
 });
-var metadata$a = {
+var metadata$d = {
   "layout": "researchproject",
   "title": "Another project",
   "description": "Another project"
 };
 var Secondproject = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$a), {}, {
+  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$d), {}, {
     default: () => `<p>This is another cool project!</p>`
   })}`;
 });
@@ -4770,15 +4820,15 @@ var secondproject = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Secondproject,
-  metadata: metadata$a
+  metadata: metadata$d
 });
-var metadata$9 = {
+var metadata$c = {
   "layout": "researchproject",
   "title": "A project",
   "description": "A project"
 };
 var Firstproject = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$9), {}, {
+  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$c), {}, {
     default: () => `<p>This is a cool project!</p>`
   })}`;
 });
@@ -4786,7 +4836,7 @@ var firstproject = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Firstproject,
-  metadata: metadata$9
+  metadata: metadata$c
 });
 var pageSize$1 = 2;
 var OpenLab = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -4821,7 +4871,7 @@ var OpenLab = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     showStepOptions: true
   }, {}, {})}</div></article></main>`;
 });
-async function load$1({ fetch: fetch2 }) {
+async function load$2({ fetch: fetch2 }) {
   const res = await fetch2(`/openlab/openlabs.json`);
   const openlabs = await res.json();
   return { props: { openlabs } };
@@ -4836,7 +4886,7 @@ var index$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Openlab,
-  load: load$1
+  load: load$2
 });
 var css$2 = {
   code: ".post.svelte-5dgm73{margin-bottom:4rem}",
@@ -4863,14 +4913,14 @@ var OpenLabEvent = create_ssr_component(($$result, $$props, $$bindings, slots) =
 
 ${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}`;
 });
-var metadata$8 = {
+var metadata$b = {
   "layout": "openlab",
   "title": "Open Lab 1",
   "description": "Open Lab 1",
   "date": "2021-09-10"
 };
 var _1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$8), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$b), {}, {
     default: () => `<p>This is what is going to happen in Open Lab 1.</p>`
   })}`;
 });
@@ -4878,16 +4928,16 @@ var _1$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _1,
-  metadata: metadata$8
+  metadata: metadata$b
 });
-var metadata$7 = {
+var metadata$a = {
   "layout": "openlab",
   "title": "Open Lab 2",
   "description": "Open Lab 2",
   "date": "2021-09-17"
 };
 var _2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$7), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$a), {}, {
     default: () => `<p>This is what is going to happen in Open Lab 2.</p>`
   })}`;
 });
@@ -4895,16 +4945,16 @@ var _2$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _2,
-  metadata: metadata$7
+  metadata: metadata$a
 });
-var metadata$6 = {
+var metadata$9 = {
   "layout": "openlab",
   "title": "Open Lab 3",
   "description": "Open Lab 3",
   "date": "2021-09-24"
 };
 var _3 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$6), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$9), {}, {
     default: () => `<p>This is what is going to happen in Open Lab 3.</p>`
   })}`;
 });
@@ -4912,16 +4962,16 @@ var _3$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _3,
-  metadata: metadata$6
+  metadata: metadata$9
 });
-var metadata$5 = {
+var metadata$8 = {
   "layout": "openlab",
   "title": "Open Lab 4",
   "description": "Open Lab 4",
   "date": "2021-10-01"
 };
 var _4 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$5), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$8), {}, {
     default: () => `<p>This is what is going to happen in Open Lab 4.</p>`
   })}`;
 });
@@ -4929,7 +4979,7 @@ var _4$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _4,
-  metadata: metadata$5
+  metadata: metadata$8
 });
 var css$1 = {
   code: ".post.svelte-5dgm73{margin-bottom:4rem}",
@@ -4952,14 +5002,14 @@ var About$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
 ${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}`;
 });
-var metadata$4 = {
+var metadata$7 = {
   "layout": "about",
   "title": "About IIL",
   "slug": "about",
   "description": "About the Intelligent Instruments Lab"
 };
 var About = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(About$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$4), {}, {
+  return `${validate_component(About$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$7), {}, {
     default: () => `<h1 id="${"about-the-intelligent-instruments-lab"}"><a href="${"#about-the-intelligent-instruments-lab"}">About the Intelligent Instruments Lab</a></h1>
 <p>Artificial Intelligence is drastically changing the world we live in. Our machines have become creative, equally extending our mind and our body. Amazing technologies are emerging where machine learning can be used to parse large and small data sets, such as music or any musical behaviour, and generate new materials from that learning. New music, new sounds, new workings of our musical tools and instruments.</p>
 <p>We have been busy focusing on the technology of AI, but an emerging problem is that our critical understanding and language are lagging behind. The Intelligent Instruments project shifts the focus and through technical development of new instruments studies how AI affects us. And here the humanities become crucial in our understanding of AI and its cultural impact.</p>
@@ -4971,7 +5021,7 @@ var about = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": About,
-  metadata: metadata$4
+  metadata: metadata$7
 });
 var pageSize = 2;
 var News = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -5002,7 +5052,7 @@ var News = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     showStepOptions: true
   }, {}, {})}</div></article></main>`;
 });
-async function load({ fetch: fetch2 }) {
+async function load$1({ fetch: fetch2 }) {
   const res = await fetch2(`/news/items.json`);
   const items = await res.json();
   return { props: { items } };
@@ -5017,9 +5067,9 @@ var index$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": News_1,
-  load
+  load: load$1
 });
-var metadata$3 = {
+var metadata$6 = {
   "layout": "news",
   "title": "Another news item",
   "description": "Another news item"
@@ -5031,9 +5081,9 @@ var seconditem = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Seconditem,
-  metadata: metadata$3
+  metadata: metadata$6
 });
-var metadata$2 = {
+var metadata$5 = {
   "layout": "news",
   "title": "A news item",
   "description": "A news item"
@@ -5045,9 +5095,9 @@ var firstitem = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Firstitem,
-  metadata: metadata$2
+  metadata: metadata$5
 });
-var metadata$1 = {
+var metadata$4 = {
   "layout": "news",
   "title": "Anotherother news item",
   "description": "Anotherother news item"
@@ -5059,7 +5109,7 @@ var thirditem = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Thirditem,
-  metadata: metadata$1
+  metadata: metadata$4
 });
 var Photo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { src: src2 } = $$props;
@@ -5114,14 +5164,18 @@ var Member = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 var css = {
   code: ".post.svelte-5dgm73{margin-bottom:4rem}",
-  map: '{"version":3,"file":"Team.svelte","sources":["Team.svelte"],"sourcesContent":["<script>\\n  import { seo } from \\"../stores/seo.js\\";\\n  import Member from \\"../components/Team/Member.svelte\\"\\n  import team from \\"../routes/team/team.json\\"\\n\\n  export let title;\\n  export let description;\\n\\n  $seo = {\\n    title: title,\\n    description: description,\\n  };\\n<\/script>\\n\\n<svelte:head>\\n  <title>{title}</title>\\n  <meta name=\\"description\\" content={description} />\\n</svelte:head>\\n\\n<style>.post{margin-bottom:4rem}</style>\\n\\n<h1 class=\\"font-bold text-6xl mb-4\\">{title}</h1>\\n\\n<div class=\\"post\\">\\n  <slot/>\\n</div>\\n\\n<div>\\n  {#each team as member, index}\\n      <Member member={member}/>\\n  {/each}\\n</div>\\n"],"names":[],"mappings":"AAmBO,mBAAK,CAAC,cAAc,IAAI,CAAC"}'
+  map: '{"version":3,"file":"Team.svelte","sources":["Team.svelte"],"sourcesContent":["<script>\\n  import { seo } from \\"../stores/seo.js\\";\\n  import Member from \\"../components/Team/Member.svelte\\"\\n  import order from \\"../routes/team/order.json\\"\\n\\n  export let members\\n\\n  // sort members using order\\n  members = order.map(i => members.filter(m=>m.path.slice(2,-3) === i)[0])\\n\\n  export let title = \\"Team\\"\\n  export let description = \\"Team\\"\\n\\n  $seo = {\\n    title: title,\\n    description: description,\\n  };\\n<\/script>\\n\\n<svelte:head>\\n  <title>{title}</title>\\n  <meta name=\\"description\\" content={description} />\\n</svelte:head>\\n\\n<style>.post{margin-bottom:4rem}</style>\\n\\n<h1 class=\\"font-bold text-6xl mb-4\\">{title}</h1>\\n<p>This is our team.</p>\\n\\n<div class=\\"post\\">\\n  <slot/>\\n</div>\\n\\n<div>\\n  {#each members as member, index}\\n      <Member member={member.metadata}/>\\n  {/each}\\n</div>\\n"],"names":[],"mappings":"AAwBO,mBAAK,CAAC,cAAc,IAAI,CAAC"}'
 };
-var Team$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+var Team = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $seo, $$unsubscribe_seo;
   $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
-  let { title: title2 } = $$props;
-  let { description: description2 } = $$props;
+  let { members } = $$props;
+  members = order.map((i) => members.filter((m) => m.path.slice(2, -3) === i)[0]);
+  let { title: title2 = "Team" } = $$props;
+  let { description: description2 = "Team" } = $$props;
   set_store_value(seo, $seo = { title: title2, description: description2 }, $seo);
+  if ($$props.members === void 0 && $$bindings.members && members !== void 0)
+    $$bindings.members(members);
   if ($$props.title === void 0 && $$bindings.title && title2 !== void 0)
     $$bindings.title(title2);
   if ($$props.description === void 0 && $$bindings.description && description2 !== void 0)
@@ -5133,26 +5187,110 @@ var Team$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
 
 <h1 class="${"font-bold text-6xl mb-4"}">${escape(title2)}</h1>
+<p>This is our team.</p>
 
 <div class="${"post svelte-5dgm73"}">${slots.default ? slots.default({}) : ``}</div>
 
-<div>${each(team, (member, index2) => `${validate_component(Member, "Member").$$render($$result, { member }, {}, {})}`)}</div>`;
+<div>${each(members, (member, index2) => `${validate_component(Member, "Member").$$render($$result, { member: member.metadata }, {}, {})}`)}</div>`;
 });
-var metadata = {
-  "layout": "team",
-  "title": "Team",
-  "slug": "team",
-  "description": "Our team"
-};
-var Team = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(Team$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata), {}, {
-    default: () => `<p>This is our team.</p>`
-  })}`;
+async function load({ fetch: fetch2 }) {
+  const res = await fetch2(`/team/members.json`);
+  const members = await res.json();
+  return { props: { members } };
+}
+var Team_1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { members } = $$props;
+  if ($$props.members === void 0 && $$bindings.members && members !== void 0)
+    $$bindings.members(members);
+  return `${validate_component(Team, "Team").$$render($$result, { members }, {}, {})}`;
 });
 var index = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": Team,
+  "default": Team_1,
+  load
+});
+var metadata$3 = {
+  "name": "Esther",
+  "role": "",
+  "email": "esther@lhi.is",
+  "image": "esther.jpg",
+  "links": { "instagram": "a" },
+  "projects": [""],
+  "bio": ""
+};
+var Esther = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(Team, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$3), {}, {})}`;
+});
+var esther = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Esther,
+  metadata: metadata$3
+});
+var metadata$2 = {
+  "name": "Victor",
+  "role": "",
+  "email": "victor@lhi.is",
+  "image": "victor.jpg",
+  "links": { "instagram": "a" },
+  "projects": [""],
+  "bio": ""
+};
+var Victor = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(Team, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$2), {}, {})}`;
+});
+var victor = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Victor,
+  metadata: metadata$2
+});
+var metadata$1 = {
+  "name": "Jack Armitage",
+  "role": "Postdoctoral Research Fellow",
+  "email": "jack@lhi.is",
+  "image": "jack.jpg",
+  "links": {
+    "twitter": "jdkarmitage",
+    "github": "jarmitage",
+    "scholar": "APvoBhUAAAAJ",
+    "instagram": "jdkarmitage",
+    "website": "jackarmitage.com"
+  },
+  "projects": [""],
+  "bio": "Designer, researcher, technologist, musician, teacher."
+};
+var Jack = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(Team, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$1), {}, {})}`;
+});
+var jack = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Jack,
+  metadata: metadata$1
+});
+var metadata = {
+  "name": "Thor Magnusson",
+  "role": "Principal Investigator",
+  "email": "thor.magnusson@lhi.is",
+  "image": "thor.jpg",
+  "links": {
+    "twitter": "thormagnusson",
+    "github": "thormagnusson",
+    "scholar": "cCgOZ_gAAAAJ",
+    "website": "thormagnusson.github.io"
+  },
+  "projects": ["sonicwriting"],
+  "bio": "I\u2019m a professor of future music in the Music Department at the University of Sussex and a research professor at the Iceland University of the Arts. I\u2019ve recently served as an Edgard-Var\xE8se guest professor at the Technische Universit\xE4t Berlin. My research interests include musical performance, improvisation, new technologies for musical expression, live coding, musical notation, artificial intelligence and computational creativity."
+};
+var Thor = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(Team, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata), {}, {})}`;
+});
+var thor = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Thor,
   metadata
 });
 

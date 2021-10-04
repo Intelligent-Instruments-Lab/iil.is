@@ -1,29 +1,39 @@
 <script>
   import { seo } from "../stores/seo.js";
+  import { onMount } from 'svelte'
+  import { Layout } from '../stores/layout.js'
+  import Menu from "../components/Menu/Menu.svelte"
 
   export let title;
   export let description;
-  export let date;
+  export let layout = "openlab"
 
   $seo = {
     title: title,
     description: description,
   };
-</script>
 
-<h1 class="font-bold text-6xl mb-4">{title}</h1>
-<p class="text-gray-400 mb-2">{date}</p>
-<div class="post">
-  <slot />
-</div>
+  onMount(async () => {
+    $Layout.menu = false
+    $Layout.page = layout
+    console.log('[NewsItem]', $Layout.page, layout)
+  })
+</script>
 
 <svelte:head>
   <title>{title}</title>
   <meta name="description" content={description} />
 </svelte:head>
 
-<style>
-  .post {
-    margin-bottom: 4rem;
-  }
-</style>
+{#if $Layout.menu}
+  <Menu/>
+{:else}
+  <div class="bg-primary border-dashed border-secondary border-4">
+    <!-- TODO: Navigate back to news -->
+    <a href="/openlab" class="font-hauser uppercase">Back to Open Lab</a>
+    <h1 class="font-bold text-6xl mb-4">{title}</h1>
+    <div class="">
+      <slot />
+    </div>
+  </div>
+{/if}
