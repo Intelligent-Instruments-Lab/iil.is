@@ -19,7 +19,7 @@
 </style>
 
 <div class="{($Layout.menu || $Layout.page === 'home') ? 'menuActive' : 'menuInactive'}">
-  <div class="pt-8 pl-6 max-w-screen-xl">
+  <div class="pt-8 pl-6 max-w-screen-xl hidden md:block ">
     <div class="grid grid-cols-6">
       <div class="col-span-2">
         <a href="/">
@@ -29,23 +29,45 @@
             alt="Intelligent Instruments Lab"/>
         </a>
       </div>
-      <div class="grid grid-cols-8 col-span-4 py-12">
-        <div class="col-span-2"><List list={pages} name="Explore" target=""/></div>
-        <div class="col-span-2"><List list={contact} name="Contact" target="_blank"/></div>
-        <div class="col-span-4">
-          <h1 class="font-hauser text-white text-lg">Address</h1>
-          <div class="px-2 py-3">
-            <a href="https://goo.gl/maps/jX1wteK9MjdMKsg28" target="_blank">
-              <div class="text-white">Intelligent Instruments Lab</div>
-              <div class="text-white">Þverholt 11</div>
-              <div class="text-white">105 Reykjavík</div>
-              <div class="text-white">Iceland</div>
-            </a>
+      <div class="col-span-4 py-12">
+        <div class="grid grid-cols-8">
+          <div class="col-span-2">
+            <List list={pages} name="Explore" target=""/>
+          </div>
+          <div class="col-span-2">
+            <List list={contact} name="Contact" target="_blank"/>
+          </div>
+          <div class="col-span-4">
+            <h1 class="font-hauser text-white text-lg">Address</h1>
+            <div class="px-2 py-3">
+              <a href="https://goo.gl/maps/jX1wteK9MjdMKsg28" target="_blank">
+                <div class="text-white">Intelligent Instruments Lab</div>
+                <div class="text-white">Þverholt 11</div>
+                <div class="text-white">105 Reykjavík</div>
+                <div class="text-white">Iceland</div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <div class="pt-8 pl-6 py-8 max-w-screen-xl md:hidden">
+    <div class="flex flex-col">
+      <div class="">
+        <List list={contact} name="Contact" target="_blank"/>
+      </div>
+      <div class="">
+        <h1 class="font-hauser text-white text-lg">Address</h1>
+        <div class="px-2 py-3">
+          <a href="https://goo.gl/maps/jX1wteK9MjdMKsg28" target="_blank">
+            <div class="text-white">Intelligent Instruments Lab</div>
+            <div class="text-white">Þverholt 11</div>
+            <div class="text-white">105 Reykjavík</div>
+            <div class="text-white">Iceland</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-

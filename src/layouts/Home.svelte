@@ -26,9 +26,12 @@
   <meta name="description" content={description} />
 </svelte:head>
 
+{#if $Layout.menu}
+  <Menu/>
+{:else}
 <div class="bg-secondary h-screen">
   <div class="grid grid-cols-6 max-w-screen-xl">
-    <div class="sm:invisible md:visible col-span-2">
+    <div class="hidden sm:hidden md:block col-span-2">
       <Menu/>
     </div>
     <div class="col-span-4 px-20 py-6">
@@ -38,3 +41,4 @@
     </div>
   </div>
 </div>
+{/if}
