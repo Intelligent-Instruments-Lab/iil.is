@@ -18,6 +18,12 @@
     title: "Hagura - Light",
     description: "Hagura is a light-weight theme/template built for sveltekit.",
   };
+
+  onMount(async () => {
+    $Layout.menu = false
+    $Layout.page = layout
+    console.log('[Home]', $Layout.page, layout)
+  })
 </script>
 
 {#if $Layout.menu}

@@ -6,7 +6,11 @@
 </script>
 
 <div class="bg-secondary h-screen">
-  <div class="flex flex-col px-20 py-6">
+  <div class="
+    flex flex-col 
+    px-12 md:px-20
+    md:py-6 
+    md:mr-4">
     {#each pages as page, index}
       <MenuItem 
         url={page.url} 

@@ -1,3 +1,9 @@
+<!-- <script context="module">
+  import p from "../components/Markdown/p.svelte"
+
+  export {p}
+</script> -->
+
 <script>
   import { seo } from "../stores/seo.js";
   import { onMount } from 'svelte'
@@ -15,8 +21,8 @@
   export let publications
   const bib = Object.values(bibtex.parseBibFile(publications).entries$)
 
-  let title = 'Title'
-  let description = 'Description'
+  let title = 'Publications'
+  let description = 'Publications'
 
   export let layout
 
@@ -51,20 +57,22 @@
   <Menu/>
 {:else}
   <div class="bg-primary border-dashed border-secondary border-4">
-<h1 class="headline text-7xl leading-relaxed font-black font-display mb-4">
-  Publications
-</h1>
-<p>This page contains papers from the Intelligent Instruments Lab, organised by date. 
-Also see the latest news and events and press articles.</p>
-<div class="post">
-  <slot />
-</div>
-
-<div class="space-y-6">
-  {#each bib as entry}
-    <Publication pub={entry}/>
-  {/each}
-</div>
-
+    <div class="
+      p-10 sm:p-12 md:p-14
+      max-w-3xl">
+      <h1 class="font-hauser text-secondary
+        text-4xl sm:text-5xl md:text-6xl 
+        mb-4">
+        {title}
+      </h1>
+      <div class="p-2 sm:p-4">
+        <p>This page contains papers from the Intelligent Instruments Lab, organised by date. Also see the latest news and events and press articles.</p>
+        <!-- <slot/> -->
+        <div class="h-6"></div>
+        {#each bib as entry}
+          <Publication pub={entry}/>
+        {/each}
+      </div>
+    </div>
   </div>
 {/if}

@@ -5,22 +5,22 @@ slug: "about"
 description: "About the Intelligent Instruments Lab"
 ---
 
-<script>
+<!-- <script>
   import CaptionedImage from "../components/Images/CaptionedImage.svelte"
-</script>
+</script> -->
 
-Artificial Intelligence is drastically changing the world we live in. Our machines have become creative, equally extending our mind and our body. Amazing technologies are emerging where machine learning can be used to parse large and small data sets, such as music or any musical behaviour, and generate new materials from that learning. New music, new sounds, new workings of our musical tools and instruments.
+The Intelligent Instruments Lab is an interdisciplinary research lab that investigates the role of artificial intelligence in new musical instruments. Music is our research base, but the reach and impact is wider and we explore how musical interfaces can be applied as scientific instruments, for example through sonification.
 
-We have been busy focusing on the technology of AI, but an emerging problem is that our critical understanding and language are lagging behind. The Intelligent Instruments project shifts the focus and through technical development of new instruments studies how AI affects us. And here the humanities become crucial in our understanding of AI and its cultural impact.
+We study creative AI from a broad humanities basis, involving musicians, computer scientists, philosophers and cognitive scientists in key international institutions. We explore the emerging language and discourse of creative AI, addressing our changed notions, such as agency, autonomy, authenticity, authorship, creativity and originality.
 
-<CaptionedImage
+<!-- <CaptionedImage
   src="./images/research/projects/halldorophone.jpg"
-  caption="The Halldorophone by Halldor Úlfarsson"/>
+  caption="The Halldorophone by Halldor Úlfarsson"/> -->
 
-The project will study the impact of creative AI, conducted in the research domain of music, with a broad humanities basis, involving musicians, computer scientists, philosophers and cognitive scientists in key international institutions. Through a streamlined research collaboration protocol, we seek to explore the language and discourse of creative AI, addressing our changed notions of, for example, agency, autonomy, authenticity, authorship, creativity and originality.
+Our technical approach is to implement new machine learning in embodied musical instruments. We invent instruments that interact, learn, and evolve in the hands of the performer. Our theoretical approach is to collaborate with researchers, artists and the public through planned studies of AI in our relationship with technology, social interaction and knowledge production.  
 
-In order to achieve this goal, the technical approach is to implement new machine learning in embodied musical instruments. We invent instruments that interact, learn, and evolve in the hands of the performer. The instruments become boundary objects, studied by collaborators from a range of sciences and the general public. In three respective work packages that are grounded in phenomenology, sociology and epistemology, we study how embodied creative AI transforms our 1) relationship with technology, 2) social interaction, and 3) knowledge production.
+The lab is located at the Iceland University of the Arts, where we work on designing, building and testing new instruments in collaboration with other researchers, music students and local artists. We have access to the advanced workshops and labs as well as the artistic infrastructure of the university. We seek to maintain a strong public engagement, for example through our Friday Open Labs.
 
-<CaptionedImage
+<!-- <CaptionedImage
   src="./images/research/projects/threnoscope.png"
-  caption="The Threnoscope by Thor Magnusson"/>
+  caption="The Threnoscope by Thor Magnusson"/> -->

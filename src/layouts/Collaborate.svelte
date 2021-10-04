@@ -26,18 +26,24 @@
   })
 </script>
 
-{#if $Layout.menu}
-  <Menu/>
-{:else}
-  <div class="bg-primary border-dashed border-secondary border-4">
-    <div class="py-16 max-w-lg ml-32">
-      <h1 class="font-hauser text-secondary text-6xl mb-4">{title}</h1>
-      <div class="p-3"><slot/></div>
-    </div>
-  </div>
-{/if}
-
 <svelte:head>
   <title>{title}</title>
   <meta name="description" content={description} />
 </svelte:head>
+
+{#if $Layout.menu}
+  <Menu/>
+{:else}
+  <div class="bg-primary border-dashed border-secondary border-4">
+    <div class="
+      p-10 sm:p-12 md:p-14
+      max-w-3xl">
+      <h1 class="font-hauser text-secondary
+        text-4xl sm:text-5xl md:text-6xl 
+        mb-4">
+        {title}
+      </h1>
+      <div class="p-2 sm:p-4"><slot/></div>
+    </div>
+  </div>
+{/if}

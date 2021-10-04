@@ -13,7 +13,11 @@
 
 <style>
   .link {
-    @apply font-hauser uppercase text-4xl py-2 tracking-wider text-primary-700;
+    @apply font-hauser uppercase 
+    text-xl sm:text-2xl lg:text-4xl 
+    py-2 
+    tracking-wider 
+    text-primary-700;
   }
 </style>
 

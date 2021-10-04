@@ -30,12 +30,15 @@
   <Menu/>
 {:else}
 <div class="bg-secondary h-screen">
-  <div class="grid grid-cols-6 max-w-screen-xl">
-    <div class="hidden sm:hidden md:block col-span-2">
+  <div class="grid grid-cols-8 max-w-screen-xl">
+    <div class="hidden md:block col-span-3">
       <Menu/>
     </div>
-    <div class="col-span-4 px-20 py-6">
-      <p class="text-xl pr-16">{pitch}</p>
+    <div class="
+      col-span-8 md:col-span-5
+      px-12 md:px-0 
+      py-0 md:py-6">
+      <p class="text-md md:text-xl md:pr-16 text-primary-700">{pitch}</p>
       <!-- TODO: Carousel -->
       <!-- TODO: CtA's -->
     </div>
