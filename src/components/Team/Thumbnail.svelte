@@ -3,11 +3,12 @@
   export let name
 </script>
 
+
 <div class="
-  hidden lg:block
-  flex-none self-center 
-  sm:w-72
-  sm:h-72
+  lg:hidden
+  self-start
+  w-32
+  h-32
   relative
   border-dashed border-primary-200 border-4 rounded-sm
   shadow-sm">
