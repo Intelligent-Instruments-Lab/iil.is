@@ -1,6 +1,6 @@
 <script>
   import { Layout } from '../stores/layout.js'
-  import Seo from "../components/Seo.svelte";
+  import Seo from "../components/SEO.svelte";
   import Header from "../components/Header/Header.svelte"
   import Footer from "../components/Footer/Footer.svelte"
   import "../app.postcss";

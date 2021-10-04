@@ -33,25 +33,27 @@
   <meta name="description" content={description} />
 </svelte:head>
 
-<style>
-  .post {
-    margin-bottom: 4rem;
-  }
-</style>
-
 {#if $Layout.menu}
   <Menu/>
 {:else}
-  <div>
-    <h1 class="font-bold text-6xl mb-4">{title}</h1>
-    <p>This is our team.</p>
-    <div class="post">
-      <slot/>
-    </div>
-    <div>
-      {#each members as member, index}
-          <Member member={member.metadata}/>
-      {/each}
+  <div class="bg-primary border-dashed border-secondary border-4 w">
+    <div class="
+      py-8 px-4 sm:p-12 md:p-14
+      max-w-6xl">
+      <h1 class="font-hauser text-secondary
+        text-4xl sm:text-5xl md:text-6xl 
+        mb-4">
+        {title}
+      </h1>
+      <div class="p-2 sm:p-4">
+        <div>
+          {#each members as member, index}
+            <div class="md:py-6 md:px-2">
+              <Member member={member.metadata}/>
+            </div>
+          {/each}
+        </div>
+      </div>
     </div>
   </div>
 {/if}
