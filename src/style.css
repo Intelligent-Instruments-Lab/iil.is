@@ -1,6 +1,14 @@
 @font-face{
   font-family: 'Friedrich-Book';
-  src: url('/fonts/Friedrich-Book.woff2') format('woff2');
+  src: url('/fonts/Friedrich-Book.woff2') format('woff2'),
+       url('/fonts/Friedrich-Book.woff') format('woff'),
+       url('/fonts/Friedrich-Book.eot') format('eot');
+}
+
+@font-face{
+  font-family: 'SMHauser-60';
+  src: url('/fonts/SMHauser-60.woff2') format('woff2'),
+       url('/fonts/SMHauser-60.woff') format('woff');
 }
 
 /*hacky*/
