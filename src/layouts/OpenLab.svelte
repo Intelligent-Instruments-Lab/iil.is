@@ -5,65 +5,153 @@
   import { Layout } from '../stores/layout.js'
   import Menu from "../components/Menu/Menu.svelte"
 
-  // export let items
   export let layout = "openlab"
-  export let openlabs;
+  export let title = "Open Lab"
+  export let description = "Open Lab"
+  export let openlabs
 
-  let items = openlabs.reverse()
-  let currentPage = 1;
-  let pageSize = 2;
-  $: paginatedItems = paginate({ items, pageSize, currentPage });
+  let items = openlabs
+  $: future = {
+    size: 2, page: 1,
+    items: items.filter(i=>new Date(i.metadata.date) > new Date())
+  }
+  $: past = {
+    size: 4, page: 1,
+    items: items.filter(i=>new Date(i.metadata.date) < new Date()).reverse()
+  }
+
+  $: futurePaginated = paginate({ items: future.items, pageSize: future.size, currentPage: future.page });
+  $: pastPaginated = paginate({ items: past.items, pageSize: past.size, currentPage: past.page });
 
   $seo = {
-    title: "Hagura - Light",
-    description: "Hagura is a light-weight theme/template built for sveltekit.",
+    title: 'Open Labs',
+    description: 'Open Labs',
   };
 
   onMount(async () => {
     $Layout.menu = false
     $Layout.page = layout
-    console.log('[Home]', $Layout.page, layout)
+    console.log('[Open Lab]', $Layout.page, layout)
   })
+
+  const methods = {
+    dayMonth: d => {
+      d = new Date(d)
+      const options = {  month: 'short', day: 'numeric' };
+      return d.toLocaleDateString('en-US', options)
+      // return (d.getDate().toString()+'.'+d.getMonth().toString())
+    },
+    dateString: d => {
+      return new Date(d).toDateString().slice(-11)
+    },
+  }
 </script>
+
+<svelte:head>
+  <title>{title}</title>
+  <meta name="description" content={description} />
+</svelte:head>
 
 {#if $Layout.menu}
   <Menu/>
 {:else}
-<div class="bg-primary border-dashed border-secondary border-4">
-<main>
-  <article>
-    <h1 class="headline text-7xl leading-relaxed font-black font-display mb-4">
-      Open Lab
-    </h1>
-    <div>
-      <p>We have developed the Collaboration Interface Protocol in order to work with other scientists and artists. Some of these collaborations are formal and focussing on specific experiments or projects, but we are also interested in a more open approach and informal exchange and collaboration.</p>
-
-      <p>We seek to maintain a critical yet playful reflection upon the lab as a performative space, where various agents interact and produce knowledge: an “aesthetics of experimentation”. We will run open lab sessions on Friday afternoons and people can follow the project via public events. We will make regular use of social media, and use podcasts, YouTube and blogging for lasting online documentation.</p>
-    </div>
-    <!-- <div>
-      <p><b>Next Open Lab</b></p>
-    </div> -->
-    <div class="article-list">
-      {#each paginatedItems as { metadata: { title, description, tags, outline, slug }, path }}
-        <div class="mb-4">
-          <a sveltekit:prefetch href={'openlab/'+path.replace(/\.[^/.]+$/, "")}
-            ><h2 class="text-3xl leading-relaxed">{title}</h2></a
-          >
-          <p>{description}</p>
+  <div class="bg-primary border-dashed border-secondary border-4">
+    <main class="p-10 sm:p-12 md:p-14 max-w-3xl">
+      <article>
+        <h1 class="font-hauser text-secondary
+          text-4xl sm:text-5xl md:text-6xl 
+          mb-4">
+          {title}
+        </h1>
+        <div class="mt-4 sm:mt-8 p-2">
+          <!-- TODO: hidden paragraphs on small -->
+          <p>Communicating and discussing our research is part of our research methodology: we are interested in how people perceive instruments that inhibit intelligence of some sort.</p>
+          <p class="hidden sm:block">We are interested in a continuous informal conversation with people, in terms of ad-hoc visits to the lab that can result in conversations that become the seeds of new developments. For this reason, we open the doors to our lab on Friday afternoons, where we present some work we are developing or invite interesting people to talk about their work, in a friendly environment with tea and biscuits.</p>
+          <p>Our lab is located in Þverholt 11 on the 4th floor. Please pop by at 2pm on Fridays. We look forward to seeing you.</p>
         </div>
-      {/each}
-    </div>
-    <div class="mx-auto">
-      <PaginationNav
-        totalItems={items.length}
-        {pageSize}
-        {currentPage}
-        limit={1}
-        showStepOptions={true}
-        on:setPage={(e) => (currentPage = e.detail.page)}
-      />
-    </div>
-  </article>
-</main>
-</div>
+        <div class="mt-2 sm:p-2">
+          <h2 class="font-hauser text-secondary
+            text-2xl sm:text-3xl md:text-4xl 
+            mb-8">Upcoming</h2>
+          <div class="grid grid-flow-row grid-cols-1 sm:grid-cols-2 gap-10">
+            {#each futurePaginated as { metadata: { edition, theme, date, description, tags }, path }}
+              <div class="
+                border-primary-100 hover:border-white border-dashed border-2
+                shadow-sm hover:shadow-md rounded-sm
+                sm:w-72">
+                <div class="bg-primary-100 hover:bg-white">
+                  <a sveltekit:prefetch href={'openlab/'+path.replace(/\.[^/.]+$/, "")}>
+                    <div class="px-4 py-4 h-64 grid grid-rows-2">
+                      <div>
+                        <h2 class="text-2xl mt-2 text-primary-700">{theme}</h2>
+                        <p class="text-sm mt-4 text-primary-600">{description}</p>
+                      </div>
+                      <div class="self-end grid grid-cols-2 text-primary-500">
+                        <div class="text-sm font-hauser uppercase">
+                          Open Lab {edition}
+                        </div>
+                        <div class="text-sm font-hauser uppercase self-end text-right">
+                          {methods.dayMonth(date)}
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            {/each}
+          </div>
+          <div class="mx-auto">
+            <!-- Defined in style.css -->
+            <PaginationNav
+              totalItems={future.items.length}
+              pageSize={future.size}
+              currentPage={future.page}
+              limit={1}
+              showStepOptions={true}
+              on:setPage={(e) => (future.page = e.detail.page)}
+            />
+          </div>
+        </div>
+        <div class="mt-4 sm:px-2 py-2 mb-12">
+          <h2 class="font-hauser text-secondary
+            text-2xl sm:text-3xl md:text-4xl 
+            mb-8">Past</h2>
+          <hr class="border-primary-500 border-dashed border-1">
+          <div class="article-list">
+            {#each pastPaginated as { metadata: { edition, theme, date, description, tags }, path }}
+              <div class="py-2 sm:p-4 hover:bg-primary-300">
+                <a sveltekit:prefetch href={'openlab/'+path.replace(/\.[^/.]+$/, "")}>
+                  <div class="grid grid-cols-10">
+                    <div class="col-span-10 sm:col-span-8">
+                      <div class="text-xl text-primary-900">{theme}</div>
+                      <div class="text-md text-primary-800 mt-2">{description}</div>
+                    </div>
+                    <div class="
+                      col-span-6 sm:col-span-2
+                      mt-2 mb-2 sm:mt-0
+                      text-xs sm:text-sm sm:text-right 
+                      font-hauser uppercase text-primary-700">
+                      <div>Open Lab {edition}</div>
+                      <div>{methods.dayMonth(date)}</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <hr class="border-primary-500 border-dashed border-1">
+            {/each}
+          </div>
+          <div class="mx-auto">
+            <PaginationNav
+              totalItems={past.items.length}
+              pageSize={past.size}
+              currentPage={past.page}
+              limit={1}
+              showStepOptions={true}
+              on:setPage={(e) => (past.page = e.detail.page)}
+            />
+          </div>
+        </div>
+      </article>
+    </main>
+  </div>
 {/if}
