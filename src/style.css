@@ -16,3 +16,21 @@ p {
   margin-bottom: 10px;
   color: #2f3635;
 }
+
+.pagination-nav {
+  @apply flex m-2 justify-center font-hauser mt-8 text-xl text-primary-900
+}
+
+.pagination-nav > span {
+  @apply grid cursor-pointer place-items-center px-4 py-2 m-2 rounded-sm bg-primary-300
+}
+
+.pagination-nav .option:not(.active) {
+  @apply text-white
+}
+.pagination-nav .option:not(.active):hover {
+  @apply text-primary-900 bg-primary-100
+}
+.option.disabled:hover {
+  background-color: transparent !important;
+}

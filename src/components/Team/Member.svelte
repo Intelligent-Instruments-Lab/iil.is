@@ -14,7 +14,12 @@
       <div class="flex flex-wrap">
         <Thumb src={member.image} name={member.name}/>
         <div class="flex flex-col sm:ml-4 lg:ml-0">
-          <h1 class="font-hauser text-secondary text-3xl mt-4">{member.name}</h1>
+          <h1 class="font-hauser text-secondary text-3xl mt-4">
+            {member.name}
+            <span class="font-sans text-secondary-500 text-lg ml-1">
+              ({member.pronouns})
+            </span>
+          </h1>
           <h3 class="text-primary-900 text-1xl px-2 mt-2">{member.role}</h3>
           <p class="text-primary-700 text-sm px-2 mt-1">
             <a href={"mailto:"+member.email} title={"Email "+member.name}>{member.email}</a>
