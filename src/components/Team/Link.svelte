@@ -3,6 +3,8 @@
   export let label
 </script>
 
+<!-- TODO: Extract into Pill Button component -->
+
 <div class="
   border-dashed border-primary-700 border-2
   rounded-lg">

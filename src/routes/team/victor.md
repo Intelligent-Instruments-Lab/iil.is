@@ -11,7 +11,7 @@ links: {
 projects: [
   ""
 ]
-pronouns: ""
-bio: "Victor Shepardson is definitely some sort of technologist and arguably some sort of artist. He is broadly interested in electronic music, digital art and machine intelligence. He has generalist programming and audio skills and knows too much about certain neural network models of sound. Victor can often be found fiddling with generative software systems, taking up the technical end of collaborative projects, musicking, and reading research papers. His current project involves building an AI augmented looping instrument and asking what AI means to people, anyway. Victor holds a B.A. in Computer Science from the University of Virginia and and M.A. in Digital Musics from Dartmouth College, and is currently pursuing a doctorate in the Intelligent Instruments Lab at the Iceland University of the Arts. He is from the Washington, DC area and currently lives in Reykjavík."
+pronouns: "he/him"
+bio: "I am a doctoral student in the Intelligent Instruments Lab at LHI. Previously I worked on neural models of speech as a machine learning engineer and data scientist. Before that I was an MA student in Digital Musics at Dartmouth College and and BA student in Computer Science at the University of Virginia. My interests include machine learning, artificial intelligence, generative art, audiovisual music and improvisation. My current project involves building an AI augmented looping instrument and asking what AI means to people, anyway."
 ---
 

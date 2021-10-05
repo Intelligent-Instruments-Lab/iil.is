@@ -4,9 +4,10 @@
   import { Layout } from '../stores/layout.js'
   import Menu from "../components/Menu/Menu.svelte"
 
-  export let title;
-  export let description;
+  export let title
+  export let description
   export let layout = "openlab"
+  export let date
 
   $seo = {
     title: title,
@@ -29,9 +30,8 @@
   <Menu/>
 {:else}
   <div class="bg-primary border-dashed border-secondary border-4">
-    <!-- TODO: Navigate back to news -->
     <a href="/openlab" class="font-hauser uppercase">Back to Open Lab</a>
-    <h1 class="font-bold text-6xl mb-4">{title}</h1>
+    <h1 class="font-bold text-6xl mb-4">{title} - {new Date(date).toDateString()}</h1>
     <div class="">
       <slot />
     </div>
