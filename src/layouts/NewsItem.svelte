@@ -3,10 +3,11 @@
   import { onMount } from 'svelte'
   import { Layout } from '../stores/layout.js'
   import Menu from "../components/Menu/Menu.svelte"
-
-  export let title;
+  
+  export let title
   export let description;
-  export let layout = "news"
+  export let layout
+  export let date
 
   $seo = {
     title: title,
@@ -16,7 +17,7 @@
   onMount(async () => {
     $Layout.menu = false
     $Layout.page = layout
-    console.log('[NewsItem]', $Layout.page, layout)
+    console.log('[News]', $Layout.page, layout)
   })
 </script>
 
@@ -29,11 +30,32 @@
   <Menu/>
 {:else}
   <div class="bg-primary border-dashed border-secondary border-4">
-    <!-- TODO: Navigate back to news -->
-    <a href="/news" class="font-hauser uppercase">Back to News</a>
-    <h1 class="font-bold text-6xl mb-4">{title}</h1>
-    <div class="">
-      <slot />
+    <div class="p-4 sm:p-6 mt-2
+      font-hauser uppercase 
+      text-md sm:text-lg text-white">
+      <a href="/news">{'<-'} Back to News</a>
+    </div>
+    <!-- p-10 sm:p-12 md:p-14 -->
+    <div class="
+      px-10 sm:px-12 md:px-14
+      max-w-3xl">
+      <h1 class="font-hauser text-secondary
+        text-4xl sm:text-5xl md:text-6xl 
+        mt-2 mb-2 sm:mb-4">
+        {title}
+      </h1>
+      <div class="px-2 sm:px-4 pt-4 pb-2 sm:pb-0
+        font-hauser uppercase 
+        text-sm sm:text-md text-primary-700
+        ">
+        {description}<br>{new Date(date).toDateString()}
+      </div>
+      <div class="p-2 sm:p-4"><slot/></div>
+    </div>
+    <div class="p-4 sm:p-6 mt-2
+      font-hauser uppercase 
+      text-md sm:text-lg text-white">
+      <a href="/news">{'<-'} Back to News</a>
     </div>
   </div>
 {/if}

@@ -5,59 +5,156 @@
   import { Layout } from '../stores/layout.js'
   import Menu from "../components/Menu/Menu.svelte"
 
-  export let projects;
   export let layout = "research"
+  export let title = "Research"
+  export let description = "Research"
+  export let projects
 
-  let items = projects;
-  let currentPage = 1;
-  let pageSize = 2;
-  $: paginatedItems = paginate({ items, pageSize, currentPage });
+  let items = projects
+
+  $: featured = {
+    size: 2, page: 1,
+    items: items.filter(i=>i.metadata.featured === true)
+  }
+  $: all = {
+    size: 4, page: 1,
+    items: items
+  }
+
+  $: featuredPaginated = paginate({ items: featured.items, pageSize: featured.size, currentPage: featured.page });
+  $: allPaginated = paginate({ items: all.items, pageSize: all.size, currentPage: all.page });
 
   $seo = {
-    title: "Hagura - Light",
-    description: "Hagura is a light-weight theme/template built for sveltekit.",
+    title: title,
+    description: description,
   };
 
   onMount(async () => {
     $Layout.menu = false
     $Layout.page = layout
-    console.log('[About]', $Layout.page, layout)
+    console.log('[Research]', $Layout.page, layout)
   })
+
+  const methods = {
+    authorString: authors => {
+      if (authors.length === 1) return authors[0]
+      let s = ''
+      for (var i = 0; i < authors.length-1; i++) {
+        if (i < authors.length-2)
+          s = s + authors[i] + ', '
+        else
+          s = s + ' and ' + authors[i]
+      }
+      return s
+    }
+  }
 </script>
+
+<svelte:head>
+  <title>{title}</title>
+  <meta name="description" content={description} />
+</svelte:head>
 
 {#if $Layout.menu}
   <Menu/>
 {:else}
-<div class="bg-primary border-dashed border-secondary border-4">
-<main>
-  <article>
-    <h1 class="headline text-7xl leading-relaxed font-black font-display mb-4">
-      Research projects
-    </h1>
-    <div>
-      <p>Research projects carried out by the IIL.</p>
-    </div>
-    <div class="article-list">
-      {#each paginatedItems as { metadata: { title, description, tags, outline, slug }, path }}
-        <div class="mb-4">
-          <a sveltekit:prefetch href={'research/'+path.replace(/\.[^/.]+$/, "")}
-            ><h2 class="text-3xl leading-relaxed">{title}</h2></a
-          >
-          <p>{description}</p>
+  <div class="bg-primary border-dashed border-secondary border-4">
+    <main class="p-10 sm:p-12 md:p-14 max-w-3xl">
+      <article>
+        <h1 class="font-hauser text-secondary
+          text-4xl sm:text-5xl md:text-6xl 
+          mb-4">
+          {title}
+        </h1>
+        <div class="mt-4 sm:mt-8 p-2">
+          <p>Here you will find our research projects.</p>
         </div>
-      {/each}
-    </div>
-    <div class="mx-auto">
-      <PaginationNav
-        totalItems={items.length}
-        {pageSize}
-        {currentPage}
-        limit={1}
-        showStepOptions={true}
-        on:setPage={(e) => (currentPage = e.detail.page)}
-      />
-    </div>
-  </article>
-</main>
-</div>
+        <div class="mt-2 sm:p-2">
+          <h2 class="font-hauser text-secondary
+            text-2xl sm:text-3xl md:text-4xl 
+            mb-8">Featured</h2>
+          <div class="grid grid-flow-row grid-cols-1 sm:grid-cols-2 gap-10">
+            {#each featuredPaginated as { metadata: { title, date, description, authors }, path }}
+              <div class="
+                border-primary-100 hover:border-white border-dashed border-2
+                shadow-sm hover:shadow-md rounded-sm
+                sm:w-72">
+                <div class="bg-primary-100 hover:bg-white">
+                  <a sveltekit:prefetch href={'research/'+path.replace(/\.[^/.]+$/, "")}>
+                    <div class="px-4 py-4 h-64 grid grid-rows-2">
+                      <div>
+                        <h2 class="text-2xl mt-2 text-primary-700">{title}</h2>
+                        <p class="text-sm mt-4 text-primary-600">{description}</p>
+                      </div>
+                      <div class="self-end grid grid-cols-1 text-primary-500">
+                        <!-- <div class="text-sm font-hauser uppercase">
+                          {title}
+                        </div> -->
+                        <div class="text-sm font-hauser uppercase self-end text-right">
+                          {methods.authorString(authors)}
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            {/each}
+          </div>
+          <div class="mx-auto">
+            <!-- Defined in style.css -->
+            {#if featured.items.length > featured.size}
+              <PaginationNav
+                totalItems={featured.items.length}
+                pageSize={featured.size}
+                currentPage={featured.page}
+                limit={1}
+                showStepOptions={true}
+                on:setPage={(e) => (featured.page = e.detail.page)}
+              />
+            {/if}
+          </div>
+        </div>
+        <div class="mt-4 sm:px-2 py-2 mb-12">
+          <h2 class="font-hauser text-secondary
+            text-2xl sm:text-3xl md:text-4xl 
+            mb-8">All Projects</h2>
+          <hr class="border-primary-500 border-dashed border-1">
+          <div class="article-list">
+            {#each allPaginated as { metadata: { title, date, description, authors }, path }}
+              <div class="py-2 sm:p-4 hover:bg-primary-300">
+                <a sveltekit:prefetch href={'research/'+path.replace(/\.[^/.]+$/, "")}>
+                  <div class="grid grid-cols-10">
+                    <div class="col-span-10 sm:col-span-10">
+                      <div class="text-xl text-primary-900">{title}</div>
+                      <div class="text-md text-primary-800 mt-2">{description}</div>
+                      <div class="
+                        col-span-6 sm:col-span-2
+                        mt-2 mb-2 sm:mt-2
+                        text-xs sm:text-sm
+                        font-hauser uppercase text-primary-700">
+                        {methods.authorString(authors)}
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <hr class="border-primary-500 border-dashed border-1">
+            {/each}
+          </div>
+          <div class="mx-auto">
+            {#if all.items.length > all.size}
+              <PaginationNav
+                totalItems={all.items.length}
+                pageSize={all.size}
+                currentPage={all.page}
+                limit={1}
+                showStepOptions={true}
+                on:setPage={(e) => (all.page = e.detail.page)}
+              />
+            {/if}
+          </div>
+        </div>
+      </article>
+    </main>
+  </div>
 {/if}
