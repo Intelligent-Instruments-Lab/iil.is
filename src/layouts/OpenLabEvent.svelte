@@ -1,4 +1,3 @@
-
 <script>
   import { seo } from "../stores/seo.js";
   import { onMount } from 'svelte'
