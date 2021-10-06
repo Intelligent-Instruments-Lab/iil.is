@@ -102,14 +102,16 @@
           </div>
           <div class="mx-auto">
             <!-- Defined in style.css -->
-            <PaginationNav
-              totalItems={future.items.length}
-              pageSize={future.size}
-              currentPage={future.page}
-              limit={1}
-              showStepOptions={true}
-              on:setPage={(e) => (future.page = e.detail.page)}
-            />
+            {#if future.items.length > future.size}
+              <PaginationNav
+                totalItems={future.items.length}
+                pageSize={future.size}
+                currentPage={future.page}
+                limit={1}
+                showStepOptions={true}
+                on:setPage={(e) => (future.page = e.detail.page)}
+              />
+            {/if}
           </div>
         </div>
         <div class="mt-4 sm:px-2 py-2 mb-12">
@@ -141,14 +143,16 @@
             {/each}
           </div>
           <div class="mx-auto">
-            <PaginationNav
-              totalItems={past.items.length}
-              pageSize={past.size}
-              currentPage={past.page}
-              limit={1}
-              showStepOptions={true}
-              on:setPage={(e) => (past.page = e.detail.page)}
-            />
+            {#if past.items.length > past.size}
+              <PaginationNav
+                totalItems={past.items.length}
+                pageSize={past.size}
+                currentPage={past.page}
+                limit={1}
+                showStepOptions={true}
+                on:setPage={(e) => (past.page = e.detail.page)}
+              />
+            {/if}
           </div>
         </div>
       </article>
