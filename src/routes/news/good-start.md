@@ -7,7 +7,7 @@ featured: true
 ---
 
 <script>
-  import CaptionedImage from "../components/Images/CaptionedImage.svelte"
+  import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
 On September 1st, our team met for the first time in real life. Thor, Halldór, Jack, Victor and Esther came together in the basement Iceland University of the Arts to plot the first steps of the five-year-long journey we have ahead of us now. 
@@ -15,14 +15,9 @@ This marks the start of the project where we will study the impact of creative A
 The university has generously provided us with two different spaces for labs. We call them the Blue Lab, which is in the basement and will serve as a recording studio, and the Yellow Lab, which is on 4th floor and is used as an office and a space for prototyping.
 
 <CaptionedImage
-  src="./images/stock/empty_lab_yellow.jpeg"
+  src="stock/empty_lab_yellow.jpg"
+  alt="A panorama photo of a large class room what only has one table and a few blue chairs scattered around in a disorganised way. In the middle, a young man sitting in a corner with a laptop."
   caption="The first picture taken at the Yellow Lab. In the middle you'll see Victor. Photo by Jack."/>
-
-**PHOTO OF EMPTY YELLOW LAB**
-
-Alt text: A panorama photo of a large class room what only has one table and a few blue chairs scattered around in a disorganised way. In the middle, a young man sitting in a corner with a laptop. 
-
-*The first picture taken at the Yellow Lab. In the middle you'll see Victor. Photo by Jack.* 
 
 Through a streamlined research collaboration protocol, we seek to explore the language and discourse of creative AI, addressing our changed notions of, for example, agency, autonomy, authenticity, authorship, creativity and originality.
 
