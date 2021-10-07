@@ -6,9 +6,17 @@ description: "What we have been up to in the first month."
 featured: true
 ---
 
+<script>
+  import CaptionedImage from "../components/Images/CaptionedImage.svelte"
+</script>
+
 On September 1st, our team met for the first time in real life. Thor, Halldór, Jack, Victor and Esther came together in the basement Iceland University of the Arts to plot the first steps of the five-year-long journey we have ahead of us now. 
 This marks the start of the project where we will study the impact of creative AI, conducted in the research domain of music, with a broad humanities basis, involving musicians, computer scientists, philosophers and cognitive scientists. 
 The university has generously provided us with two different spaces for labs. We call them the Blue Lab, which is in the basement and will serve as a recording studio, and the Yellow Lab, which is on 4th floor and is used as an office and a space for prototyping.
+
+<CaptionedImage
+  src="./images/stock/empty_lab_yellow.jpeg"
+  caption="The first picture taken at the Yellow Lab. In the middle you'll see Victor. Photo by Jack."/>
 
 **PHOTO OF EMPTY YELLOW LAB**
 
