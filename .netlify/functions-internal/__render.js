@@ -3746,9 +3746,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-cbfb379a.js",
+      file: assets + "/_app/start-73d8a9ca.js",
       css: [assets + "/_app/assets/start-464e9d0a.css", assets + "/_app/assets/vendor-8daff541.css"],
-      js: [assets + "/_app/start-cbfb379a.js", assets + "/_app/chunks/vendor-18fa7eb7.js"]
+      js: [assets + "/_app/start-73d8a9ca.js", assets + "/_app/chunks/vendor-18fa7eb7.js"]
     },
     fetched: void 0,
     floc: false,
@@ -3777,7 +3777,7 @@ function init(settings = default_settings) {
 }
 var empty = () => ({});
 var manifest = {
-  assets: [{ "file": ".DS_Store", "size": 6148, "type": null }, { "file": "fonts/Friedrich-Book.woff2", "size": 55112, "type": "font/woff2" }, { "file": "fonts/SMHauser-60.woff2", "size": 14532, "type": "font/woff2" }, { "file": "images/.DS_Store", "size": 6148, "type": null }, { "file": "images/research/.DS_Store", "size": 6148, "type": null }, { "file": "images/research/projects/halldorophone.jpg", "size": 265169, "type": "image/jpeg" }, { "file": "images/research/projects/threnoscope.png", "size": 547355, "type": "image/png" }, { "file": "images/team/esther.jpg", "size": 167801, "type": "image/jpeg" }, { "file": "images/team/halldor.jpg", "size": 299460, "type": "image/jpeg" }, { "file": "images/team/jack.jpg", "size": 175973, "type": "image/jpeg" }, { "file": "images/team/thor.jpg", "size": 230590, "type": "image/jpeg" }, { "file": "images/team/victor.jpg", "size": 160655, "type": "image/jpeg" }, { "file": "publications.bib", "size": 6618, "type": null }],
+  assets: [{ "file": ".DS_Store", "size": 6148, "type": null }, { "file": "fonts/Friedrich-Book.eot", "size": 62527, "type": "application/vnd.ms-fontobject" }, { "file": "fonts/Friedrich-Book.woff", "size": 60232, "type": "font/woff" }, { "file": "fonts/Friedrich-Book.woff2", "size": 55112, "type": "font/woff2" }, { "file": "fonts/SMHauser-60.woff", "size": 21028, "type": "font/woff" }, { "file": "fonts/SMHauser-60.woff2", "size": 14532, "type": "font/woff2" }, { "file": "images/.DS_Store", "size": 6148, "type": null }, { "file": "images/research/.DS_Store", "size": 6148, "type": null }, { "file": "images/research/projects/halldorophone.jpg", "size": 265169, "type": "image/jpeg" }, { "file": "images/research/projects/threnoscope.png", "size": 547355, "type": "image/png" }, { "file": "images/stock/empty_lab_yellow.jpg", "size": 497742, "type": "image/jpeg" }, { "file": "images/stock/hlci_sq_1.jpg", "size": 1494161, "type": "image/jpeg" }, { "file": "images/stock/hlci_sq_2.jpg", "size": 1391308, "type": "image/jpeg" }, { "file": "images/stock/prototype_langspil_cardboard.jpg", "size": 150261, "type": "image/jpeg" }, { "file": "images/stock/prototype_langspil_plywood_1.jpg", "size": 151129, "type": "image/jpeg" }, { "file": "images/stock/prototype_langspil_plywood_2_electrical_chords.jpg", "size": 140377, "type": "image/jpeg" }, { "file": "images/team/esther.jpg", "size": 167801, "type": "image/jpeg" }, { "file": "images/team/halldor.jpg", "size": 299460, "type": "image/jpeg" }, { "file": "images/team/jack.jpg", "size": 175973, "type": "image/jpeg" }, { "file": "images/team/thor.jpg", "size": 230590, "type": "image/jpeg" }, { "file": "images/team/victor.jpg", "size": 160655, "type": "image/jpeg" }, { "file": "publications.bib", "size": 6618, "type": null }],
   layout: "src/routes/__layout.svelte",
   error: ".svelte-kit/build/components/error.svelte",
   routes: [
@@ -3891,6 +3891,41 @@ var manifest = {
     },
     {
       type: "page",
+      pattern: /^\/openlab\/5\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/openlab/5.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/openlab\/6\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/openlab/6.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/openlab\/7\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/openlab/7.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/openlab\/8\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/openlab/8.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/events\/moving-strings\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/events/moving-strings.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
       pattern: /^\/about\/?$/,
       params: empty,
       a: ["src/routes/__layout.svelte", "src/routes/about.md"],
@@ -3909,6 +3944,20 @@ var manifest = {
       pattern: /^\/news\/?$/,
       params: empty,
       a: ["src/routes/__layout.svelte", "src/routes/news/index.svelte"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/news\/fourthitem\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/news/fourthitem.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/news\/good-start\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/news/good-start.md"],
       b: [".svelte-kit/build/components/error.svelte"]
     },
     {
@@ -4049,11 +4098,32 @@ var module_lookup = {
   "src/routes/openlab/4.md": () => Promise.resolve().then(function() {
     return _4$1;
   }),
+  "src/routes/openlab/5.md": () => Promise.resolve().then(function() {
+    return _5$1;
+  }),
+  "src/routes/openlab/6.md": () => Promise.resolve().then(function() {
+    return _6$1;
+  }),
+  "src/routes/openlab/7.md": () => Promise.resolve().then(function() {
+    return _7$1;
+  }),
+  "src/routes/openlab/8.md": () => Promise.resolve().then(function() {
+    return _8$1;
+  }),
+  "src/routes/events/moving-strings.md": () => Promise.resolve().then(function() {
+    return movingStrings;
+  }),
   "src/routes/about.md": () => Promise.resolve().then(function() {
     return about;
   }),
   "src/routes/news/index.svelte": () => Promise.resolve().then(function() {
     return index$1;
+  }),
+  "src/routes/news/fourthitem.md": () => Promise.resolve().then(function() {
+    return fourthitem;
+  }),
+  "src/routes/news/good-start.md": () => Promise.resolve().then(function() {
+    return goodStart;
   }),
   "src/routes/news/seconditem.md": () => Promise.resolve().then(function() {
     return seconditem;
@@ -4083,7 +4153,7 @@ var module_lookup = {
     return thor;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-0316047c.js", "css": ["assets/pages/__layout.svelte-b0665274.css", "assets/vendor-8daff541.css"], "js": ["pages/__layout.svelte-0316047c.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-5b1f2da2.js", "css": ["assets/vendor-8daff541.css"], "js": ["error.svelte-5b1f2da2.js", "chunks/vendor-18fa7eb7.js"], "styles": [] }, "src/routes/index.md": { "entry": "pages/index.md-98f1e908.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/index.md-98f1e908.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/publications/index.svelte": { "entry": "pages/publications/index.svelte-c5ea65c8.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/publications/index.svelte-c5ea65c8.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/collaborate.md": { "entry": "pages/collaborate.md-0594fc10.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/collaborate.md-0594fc10.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/research/index.svelte": { "entry": "pages/research/index.svelte-5fd0b0ee.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/research/index.svelte-5fd0b0ee.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/research/halldorophone.md": { "entry": "pages/research/halldorophone.md-7bff9fa8.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/research/halldorophone.md-7bff9fa8.js", "chunks/vendor-18fa7eb7.js", "chunks/ResearchProject-42d2e1db.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/research/secondproject.md": { "entry": "pages/research/secondproject.md-cdde7dbb.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/research/secondproject.md-cdde7dbb.js", "chunks/vendor-18fa7eb7.js", "chunks/ResearchProject-42d2e1db.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/research/firstproject.md": { "entry": "pages/research/firstproject.md-794ef58b.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/research/firstproject.md-794ef58b.js", "chunks/vendor-18fa7eb7.js", "chunks/ResearchProject-42d2e1db.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/openlab/index.svelte": { "entry": "pages/openlab/index.svelte-477efbcd.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/openlab/index.svelte-477efbcd.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/openlab/1.md": { "entry": "pages/openlab/1.md-058c8741.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/openlab/1.md-058c8741.js", "chunks/vendor-18fa7eb7.js", "chunks/OpenLabEvent-964ce955.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/openlab/2.md": { "entry": "pages/openlab/2.md-4d060aea.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/openlab/2.md-4d060aea.js", "chunks/vendor-18fa7eb7.js", "chunks/OpenLabEvent-964ce955.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/openlab/3.md": { "entry": "pages/openlab/3.md-24345c23.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/openlab/3.md-24345c23.js", "chunks/vendor-18fa7eb7.js", "chunks/OpenLabEvent-964ce955.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/openlab/4.md": { "entry": "pages/openlab/4.md-c1fad8ed.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/openlab/4.md-c1fad8ed.js", "chunks/vendor-18fa7eb7.js", "chunks/OpenLabEvent-964ce955.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/about.md": { "entry": "pages/about.md-deca944a.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/about.md-deca944a.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/news/index.svelte": { "entry": "pages/news/index.svelte-2a29d699.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/news/index.svelte-2a29d699.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/news/seconditem.md": { "entry": "pages/news/seconditem.md-34eb7689.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/news/seconditem.md-34eb7689.js", "chunks/vendor-18fa7eb7.js", "chunks/NewsItem-e69c789c.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/news/firstitem.md": { "entry": "pages/news/firstitem.md-33c55c68.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/news/firstitem.md-33c55c68.js", "chunks/vendor-18fa7eb7.js", "chunks/NewsItem-e69c789c.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/news/thirditem.md": { "entry": "pages/news/thirditem.md-e834e89f.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/news/thirditem.md-e834e89f.js", "chunks/vendor-18fa7eb7.js", "chunks/NewsItem-e69c789c.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/team/index.svelte": { "entry": "pages/team/index.svelte-75836410.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/team/index.svelte-75836410.js", "chunks/vendor-18fa7eb7.js", "chunks/Team-1f513841.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/team/halldor.md": { "entry": "pages/team/halldor.md-ecad9509.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/team/halldor.md-ecad9509.js", "chunks/vendor-18fa7eb7.js", "chunks/Team-1f513841.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/team/esther.md": { "entry": "pages/team/esther.md-1398312b.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/team/esther.md-1398312b.js", "chunks/vendor-18fa7eb7.js", "chunks/Team-1f513841.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/team/victor.md": { "entry": "pages/team/victor.md-a44c43de.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/team/victor.md-a44c43de.js", "chunks/vendor-18fa7eb7.js", "chunks/Team-1f513841.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/team/jack.md": { "entry": "pages/team/jack.md-a31d7748.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/team/jack.md-a31d7748.js", "chunks/vendor-18fa7eb7.js", "chunks/Team-1f513841.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/team/thor.md": { "entry": "pages/team/thor.md-a83ad49a.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/team/thor.md-a83ad49a.js", "chunks/vendor-18fa7eb7.js", "chunks/Team-1f513841.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-098e0dc9.js", "css": ["assets/pages/__layout.svelte-f92e1cc3.css", "assets/vendor-8daff541.css"], "js": ["pages/__layout.svelte-098e0dc9.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-5b1f2da2.js", "css": ["assets/vendor-8daff541.css"], "js": ["error.svelte-5b1f2da2.js", "chunks/vendor-18fa7eb7.js"], "styles": [] }, "src/routes/index.md": { "entry": "pages/index.md-f79c7df5.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/index.md-f79c7df5.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/publications/index.svelte": { "entry": "pages/publications/index.svelte-c5ea65c8.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/publications/index.svelte-c5ea65c8.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/collaborate.md": { "entry": "pages/collaborate.md-0594fc10.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/collaborate.md-0594fc10.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/research/index.svelte": { "entry": "pages/research/index.svelte-8a380a1a.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/research/index.svelte-8a380a1a.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/research/halldorophone.md": { "entry": "pages/research/halldorophone.md-1921513b.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/research/halldorophone.md-1921513b.js", "chunks/vendor-18fa7eb7.js", "chunks/ResearchProject-01ce947a.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/research/secondproject.md": { "entry": "pages/research/secondproject.md-01cf90d5.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/research/secondproject.md-01cf90d5.js", "chunks/vendor-18fa7eb7.js", "chunks/ResearchProject-01ce947a.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/research/firstproject.md": { "entry": "pages/research/firstproject.md-b782358f.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/research/firstproject.md-b782358f.js", "chunks/vendor-18fa7eb7.js", "chunks/ResearchProject-01ce947a.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/openlab/index.svelte": { "entry": "pages/openlab/index.svelte-b2edd16e.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/openlab/index.svelte-b2edd16e.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/openlab/1.md": { "entry": "pages/openlab/1.md-feb9762c.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/openlab/1.md-feb9762c.js", "chunks/vendor-18fa7eb7.js", "chunks/OpenLabEvent-f921ec37.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/openlab/2.md": { "entry": "pages/openlab/2.md-d1b70104.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/openlab/2.md-d1b70104.js", "chunks/vendor-18fa7eb7.js", "chunks/OpenLabEvent-f921ec37.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/openlab/3.md": { "entry": "pages/openlab/3.md-85e667a6.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/openlab/3.md-85e667a6.js", "chunks/vendor-18fa7eb7.js", "chunks/OpenLabEvent-f921ec37.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/openlab/4.md": { "entry": "pages/openlab/4.md-d42873af.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/openlab/4.md-d42873af.js", "chunks/vendor-18fa7eb7.js", "chunks/OpenLabEvent-f921ec37.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/openlab/5.md": { "entry": "pages/openlab/5.md-dbd0f2d9.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/openlab/5.md-dbd0f2d9.js", "chunks/vendor-18fa7eb7.js", "chunks/OpenLabEvent-f921ec37.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/openlab/6.md": { "entry": "pages/openlab/6.md-7949c2a5.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/openlab/6.md-7949c2a5.js", "chunks/vendor-18fa7eb7.js", "chunks/OpenLabEvent-f921ec37.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/openlab/7.md": { "entry": "pages/openlab/7.md-e8f914cc.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/openlab/7.md-e8f914cc.js", "chunks/vendor-18fa7eb7.js", "chunks/OpenLabEvent-f921ec37.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/openlab/8.md": { "entry": "pages/openlab/8.md-9026ca73.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/openlab/8.md-9026ca73.js", "chunks/vendor-18fa7eb7.js", "chunks/OpenLabEvent-f921ec37.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/events/moving-strings.md": { "entry": "pages/events/moving-strings.md-6fab047f.js", "css": ["assets/vendor-8daff541.css"], "js": ["pages/events/moving-strings.md-6fab047f.js", "chunks/vendor-18fa7eb7.js"], "styles": [] }, "src/routes/about.md": { "entry": "pages/about.md-deca944a.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/about.md-deca944a.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/news/index.svelte": { "entry": "pages/news/index.svelte-bbce0525.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/news/index.svelte-bbce0525.js", "chunks/vendor-18fa7eb7.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/news/fourthitem.md": { "entry": "pages/news/fourthitem.md-02710be2.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/news/fourthitem.md-02710be2.js", "chunks/vendor-18fa7eb7.js", "chunks/NewsItem-27d9fa1c.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/news/good-start.md": { "entry": "pages/news/good-start.md-fbffd9cf.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/news/good-start.md-fbffd9cf.js", "chunks/vendor-18fa7eb7.js", "chunks/NewsItem-27d9fa1c.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/news/seconditem.md": { "entry": "pages/news/seconditem.md-aa389b1d.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/news/seconditem.md-aa389b1d.js", "chunks/vendor-18fa7eb7.js", "chunks/NewsItem-27d9fa1c.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/news/firstitem.md": { "entry": "pages/news/firstitem.md-c165ff66.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/news/firstitem.md-c165ff66.js", "chunks/vendor-18fa7eb7.js", "chunks/NewsItem-27d9fa1c.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/news/thirditem.md": { "entry": "pages/news/thirditem.md-5bcf89cc.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/news/thirditem.md-5bcf89cc.js", "chunks/vendor-18fa7eb7.js", "chunks/NewsItem-27d9fa1c.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/team/index.svelte": { "entry": "pages/team/index.svelte-4594c6f2.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/team/index.svelte-4594c6f2.js", "chunks/vendor-18fa7eb7.js", "chunks/Team-c73d4560.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/team/halldor.md": { "entry": "pages/team/halldor.md-9fc94af9.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/team/halldor.md-9fc94af9.js", "chunks/vendor-18fa7eb7.js", "chunks/Team-c73d4560.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/team/esther.md": { "entry": "pages/team/esther.md-7bb5af9f.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/team/esther.md-7bb5af9f.js", "chunks/vendor-18fa7eb7.js", "chunks/Team-c73d4560.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/team/victor.md": { "entry": "pages/team/victor.md-61366223.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/team/victor.md-61366223.js", "chunks/vendor-18fa7eb7.js", "chunks/Team-c73d4560.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/team/jack.md": { "entry": "pages/team/jack.md-988b381f.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/team/jack.md-988b381f.js", "chunks/vendor-18fa7eb7.js", "chunks/Team-c73d4560.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] }, "src/routes/team/thor.md": { "entry": "pages/team/thor.md-a2cd498d.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-8ed5bf27.css"], "js": ["pages/team/thor.md-a2cd498d.js", "chunks/vendor-18fa7eb7.js", "chunks/Team-c73d4560.js", "chunks/pages-94ef62d9.js", "chunks/Menu-ce3dd458.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
@@ -4175,6 +4245,14 @@ async function get$2() {
     return _3$1;
   }), "./4.md": () => Promise.resolve().then(function() {
     return _4$1;
+  }), "./5.md": () => Promise.resolve().then(function() {
+    return _5$1;
+  }), "./6.md": () => Promise.resolve().then(function() {
+    return _6$1;
+  }), "./7.md": () => Promise.resolve().then(function() {
+    return _7$1;
+  }), "./8.md": () => Promise.resolve().then(function() {
+    return _8$1;
   }) };
   let body = [];
   for (const path in imports) {
@@ -4233,6 +4311,10 @@ var pages$1 = /* @__PURE__ */ Object.freeze({
 async function get$1() {
   const imports = { "./firstitem.md": () => Promise.resolve().then(function() {
     return firstitem;
+  }), "./fourthitem.md": () => Promise.resolve().then(function() {
+    return fourthitem;
+  }), "./good-start.md": () => Promise.resolve().then(function() {
+    return goodStart;
   }), "./seconditem.md": () => Promise.resolve().then(function() {
     return seconditem;
   }), "./thirditem.md": () => Promise.resolve().then(function() {
@@ -4519,6 +4601,18 @@ var Menu = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     active: page.url.slice(1) === $Layout.page
   }, {}, {})}`)}</div></div>`;
 });
+var PillDashed = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { link } = $$props;
+  if ($$props.link === void 0 && $$bindings.link && link !== void 0)
+    $$bindings.link(link);
+  return `${link.theme === "dark" ? `<div class="${"border-dashed border-primary-500 border-2 hover:border-primary-600 rounded-md"}"><a class="${"pl-7 pr-7 pt-2 pb-2 bg-primary-500 hover:bg-primary-600 h-9 flex items-center justify-center text-white font-hauser uppercase"}"${add_attribute("href", link.url, 0)} target="${"_blank"}">${escape(link.label)}</a></div>` : `${link.theme === "light" ? `<div class="${"border-dashed border-primary-500 border-2 rounded-md"}"><a class="${"pl-7 pr-7 pt-2 pb-2 h-9 flex items-center justify-center hover:bg-primary-400 text-primary-500 hover:text-white font-hauser uppercase"}"${add_attribute("href", link.url, 0)} target="${"_blank"}">${escape(link.label)}</a></div>` : ``}`}`;
+});
+var CTARow = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { links } = $$props;
+  if ($$props.links === void 0 && $$bindings.links && links !== void 0)
+    $$bindings.links(links);
+  return `<div class="${"flex flex-wrap gap-4 sm:gap-10"}">${each(links, (link) => `${validate_component(PillDashed, "PillDashed").$$render($$result, { link }, {}, {})}`)}</div>`;
+});
 var Home = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $Layout, $$unsubscribe_Layout;
   let $seo, $$unsubscribe_seo;
@@ -4528,6 +4622,20 @@ var Home = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { description: description2 } = $$props;
   let { pitch } = $$props;
   let { layout } = $$props;
+  let { hero_image } = $$props;
+  let { hero_caption } = $$props;
+  let cta_links = [
+    {
+      url: "/about",
+      label: "Learn More",
+      theme: "light"
+    },
+    {
+      url: "/collaborate",
+      label: "Contact Us",
+      theme: "dark"
+    }
+  ];
   set_store_value(seo, $seo = { title: title2, description: description2 }, $seo);
   if ($$props.title === void 0 && $$bindings.title && title2 !== void 0)
     $$bindings.title(title2);
@@ -4537,24 +4645,31 @@ var Home = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     $$bindings.pitch(pitch);
   if ($$props.layout === void 0 && $$bindings.layout && layout !== void 0)
     $$bindings.layout(layout);
+  if ($$props.hero_image === void 0 && $$bindings.hero_image && hero_image !== void 0)
+    $$bindings.hero_image(hero_image);
+  if ($$props.hero_caption === void 0 && $$bindings.hero_caption && hero_caption !== void 0)
+    $$bindings.hero_caption(hero_caption);
   $$unsubscribe_Layout();
   $$unsubscribe_seo();
   return `${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}
 
 ${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-secondary h-screen"}"><div class="${"grid grid-cols-8 max-w-screen-xl"}"><div class="${"hidden md:block col-span-3"}">${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}</div>
-    <div class="${"col-span-8 md:col-span-5 px-12 md:px-0 py-0 md:py-6"}"><p class="${"text-md md:text-xl md:pr-16 text-primary-700"}">${escape(pitch)}</p>
-      
-      </div></div></div>`}`;
+    <div class="${"sm:ml-4 md:ml-12 max-w-xl col-span-8 md:col-span-5 px-12 md:px-0 py-0 md:py-6"}"><p class="${"text-md md:text-xl md:pr-16 text-primary-700"}">${escape(pitch)}</p>
+      <div class="${"w-5/6 mt-8"}"><img class="${"shadow-sm"}"${add_attribute("src", "./images/" + hero_image, 0)}${add_attribute("alt", hero_caption, 0)}>
+        <p class="${"text-sm text-primary-500 mt-4"}">${escape(hero_caption)}</p></div>
+      <div class="${"mt-10"}">${validate_component(CTARow, "CTARow").$$render($$result, { links: cta_links }, {}, {})}</div></div></div></div>`}`;
 });
-var metadata$h = {
+var metadata$o = {
   "layout": "home",
   "title": "IIL",
   "slug": "",
   "description": "Intelligent Instruments Lab",
-  "pitch": "We design musical instruments embedded with creative AI. We explore our instruments in musical performance and how we understand ourselves as users of intelligent technologies."
+  "pitch": "We design musical instruments embedded with creative AI. We explore our instruments in musical performance and how we understand ourselves as users of intelligent technologies.",
+  "hero_image": "research/projects/halldorophone.jpg",
+  "hero_caption": "The Halldorophone by Halldor \xDAlfarsson."
 };
 var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(Home, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$h), {}, {
+  return `${validate_component(Home, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$o), {}, {
     default: () => `
 
 
@@ -4566,7 +4681,7 @@ var index$5 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Routes,
-  metadata: metadata$h
+  metadata: metadata$o
 });
 var Publication = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { pub } = $$props;
@@ -4655,14 +4770,14 @@ ${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<m
 ${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}"><div class="${"p-10 sm:p-12 md:p-14 max-w-3xl"}"><h1 class="${"font-hauser text-secondary text-4xl sm:text-5xl md:text-6xl mb-4"}">${escape(title2)}</h1>
       <div class="${"p-2 sm:p-4"}">${slots.default ? slots.default({}) : ``}</div></div></div>`}`;
 });
-var metadata$g = {
+var metadata$n = {
   "layout": "collaborate",
   "title": "Collaborate with us",
   "slug": "collaborate",
   "description": "Collaborate with us"
 };
 var Collaborate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(Collaborate$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$g), {}, {
+  return `${validate_component(Collaborate$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$n), {}, {
     default: () => `<p>The Intelligent Instruments Lab is open for collaborations with artists and scientists on experimental projects, equally as part of our work programme and as collaborations with other projects. We have developed a Collaboration Interaction Protocol (CIP) that makes such collaborations streamlined, easy to set up and effective. It defines all roles, timescales, experimental setups and outcomes through a simple system and we would love to hear from you if you have a reason to believe that our interests might intersect.</p>
 <p>We also have a visiting researcher scheme. We welcome people to come and work with us in our Reykjavik lab over a specified period of time. The aim with this scheme is to enable artists, composers and musicians to develop technologies for their musical expression, but in turn the collaboration will help us to answer our research questions. </p>
 <p>Please get in touch with the Principal Investigator, prof Thor Magnusson, or the relevant lab members, and the relevant contact information can be found on his LHI profile.</p>
@@ -4673,16 +4788,16 @@ var collaborate = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Collaborate,
-  metadata: metadata$g
+  metadata: metadata$n
 });
-function paginate({ items, pageSize: pageSize2, currentPage }) {
-  return items.slice((currentPage - 1) * pageSize2, (currentPage - 1) * pageSize2 + pageSize2);
+function paginate({ items, pageSize, currentPage }) {
+  return items.slice((currentPage - 1) * pageSize, (currentPage - 1) * pageSize + pageSize);
 }
 var PREVIOUS_PAGE = "PREVIOUS_PAGE";
 var NEXT_PAGE = "NEXT_PAGE";
 var ELLIPSIS = "ELLIPSIS";
-function generateNavigationOptions({ totalItems, pageSize: pageSize2, currentPage, limit = null, showStepOptions = false }) {
-  const totalPages = Math.ceil(totalItems / pageSize2);
+function generateNavigationOptions({ totalItems, pageSize, currentPage, limit = null, showStepOptions = false }) {
+  const totalPages = Math.ceil(totalItems / pageSize);
   const limitThreshold = getLimitThreshold({ limit });
   const limited = limit && totalPages > limitThreshold;
   let options2 = limited ? generateLimitedOptions({ totalPages, limit, currentPage }) : generateUnlimitedOptions({ totalPages });
@@ -4794,14 +4909,14 @@ var PaginationNav = create_ssr_component(($$result, $$props, $$bindings, slots) 
   let totalPages;
   createEventDispatcher();
   let { totalItems = 0 } = $$props;
-  let { pageSize: pageSize2 = 1 } = $$props;
+  let { pageSize = 1 } = $$props;
   let { currentPage = 1 } = $$props;
   let { limit = null } = $$props;
   let { showStepOptions = false } = $$props;
   if ($$props.totalItems === void 0 && $$bindings.totalItems && totalItems !== void 0)
     $$bindings.totalItems(totalItems);
-  if ($$props.pageSize === void 0 && $$bindings.pageSize && pageSize2 !== void 0)
-    $$bindings.pageSize(pageSize2);
+  if ($$props.pageSize === void 0 && $$bindings.pageSize && pageSize !== void 0)
+    $$bindings.pageSize(pageSize);
   if ($$props.currentPage === void 0 && $$bindings.currentPage && currentPage !== void 0)
     $$bindings.currentPage(currentPage);
   if ($$props.limit === void 0 && $$bindings.limit && limit !== void 0)
@@ -4810,12 +4925,12 @@ var PaginationNav = create_ssr_component(($$result, $$props, $$bindings, slots) 
     $$bindings.showStepOptions(showStepOptions);
   options2 = generateNavigationOptions({
     totalItems,
-    pageSize: pageSize2,
+    pageSize,
     currentPage,
     limit,
     showStepOptions
   });
-  totalPages = Math.ceil(totalItems / pageSize2);
+  totalPages = Math.ceil(totalItems / pageSize);
   return `<div class="${"pagination-nav"}">${each(options2, (option) => `<span class="${[
     "option",
     (option.type === "number" ? "number" : "") + " " + (option.type === "symbol" && option.symbol === PREVIOUS_PAGE ? "prev" : "") + " " + (option.type === "symbol" && option.symbol === NEXT_PAGE ? "next" : "") + " " + (option.type === "symbol" && option.symbol === NEXT_PAGE && currentPage >= totalPages || option.type === "symbol" && option.symbol === PREVIOUS_PAGE && currentPage <= 1 ? "disabled" : "") + " " + (option.type === "symbol" && option.symbol === ELLIPSIS ? "ellipsis" : "") + " " + (option.type === "number" && option.value === currentPage ? "active" : "")
@@ -4830,41 +4945,96 @@ var PaginationNav = create_ssr_component(($$result, $$props, $$bindings, slots) 
         `}` : ``}`}`}`}
     </span>`)}</div>`;
 });
-var pageSize$2 = 2;
 var Research = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  let paginatedItems;
+  let featured;
+  let all;
+  let featuredPaginated;
+  let allPaginated;
   let $Layout, $$unsubscribe_Layout;
   let $seo, $$unsubscribe_seo;
   $$unsubscribe_Layout = subscribe(Layout, (value) => $Layout = value);
   $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
-  let { projects } = $$props;
   let { layout = "research" } = $$props;
+  let { title: title2 = "Research" } = $$props;
+  let { description: description2 = "Research" } = $$props;
+  let { projects } = $$props;
   let items = projects;
-  let currentPage = 1;
-  set_store_value(seo, $seo = {
-    title: "Hagura - Light",
-    description: "Hagura is a light-weight theme/template built for sveltekit."
-  }, $seo);
-  if ($$props.projects === void 0 && $$bindings.projects && projects !== void 0)
-    $$bindings.projects(projects);
+  set_store_value(seo, $seo = { title: title2, description: description2 }, $seo);
+  const methods = {
+    authorString: (authors) => {
+      if (authors.length === 1)
+        return authors[0];
+      let s2 = "";
+      for (var i = 0; i < authors.length - 1; i++) {
+        if (i < authors.length - 2)
+          s2 = s2 + authors[i] + ", ";
+        else
+          s2 = s2 + " and " + authors[i];
+      }
+      return s2;
+    }
+  };
   if ($$props.layout === void 0 && $$bindings.layout && layout !== void 0)
     $$bindings.layout(layout);
-  paginatedItems = paginate({ items, pageSize: pageSize$2, currentPage });
+  if ($$props.title === void 0 && $$bindings.title && title2 !== void 0)
+    $$bindings.title(title2);
+  if ($$props.description === void 0 && $$bindings.description && description2 !== void 0)
+    $$bindings.description(description2);
+  if ($$props.projects === void 0 && $$bindings.projects && projects !== void 0)
+    $$bindings.projects(projects);
+  featured = {
+    size: 2,
+    page: 1,
+    items: items.filter((i) => i.metadata.featured === true)
+  };
+  all = { size: 4, page: 1, items };
+  featuredPaginated = paginate({
+    items: featured.items,
+    pageSize: featured.size,
+    currentPage: featured.page
+  });
+  allPaginated = paginate({
+    items: all.items,
+    pageSize: all.size,
+    currentPage: all.page
+  });
   $$unsubscribe_Layout();
   $$unsubscribe_seo();
-  return `${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}"><main><article><h1 class="${"headline text-7xl leading-relaxed font-black font-display mb-4"}">Research projects
-    </h1>
-    <div><p>Research projects carried out by the IIL.</p></div>
-    <div class="${"article-list"}">${each(paginatedItems, ({ metadata: { title: title2, description: description2, tags, outline, slug }, path }) => `<div class="${"mb-4"}"><a sveltekit:prefetch${add_attribute("href", "research/" + path.replace(/\.[^/.]+$/, ""), 0)}><h2 class="${"text-3xl leading-relaxed"}">${escape(title2)}</h2></a>
-          <p>${escape(description2)}</p>
-        </div>`)}</div>
-    <div class="${"mx-auto"}">${validate_component(PaginationNav, "PaginationNav").$$render($$result, {
-    totalItems: items.length,
-    pageSize: pageSize$2,
-    currentPage,
+  return `${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}
+
+${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}"><main class="${"p-10 sm:p-12 md:p-14 max-w-3xl"}"><article><h1 class="${"font-hauser text-secondary text-4xl sm:text-5xl md:text-6xl mb-4"}">${escape(title2)}</h1>
+        <div class="${"mt-4 sm:mt-8 p-2"}"><p>Here you will find our research projects.</p></div>
+        <div class="${"mt-2 sm:p-2"}"><h2 class="${"font-hauser text-secondary text-2xl sm:text-3xl md:text-4xl mb-8"}">Featured</h2>
+          <div class="${"grid grid-flow-row grid-cols-1 sm:grid-cols-2 gap-10"}">${each(featuredPaginated, ({ metadata: { title: title3, date, description: description3, authors }, path }) => `<div class="${"border-primary-100 hover:border-white border-dashed border-2 shadow-sm hover:shadow-md rounded-sm sm:w-72"}"><div class="${"bg-primary-100 hover:bg-white"}"><a sveltekit:prefetch${add_attribute("href", "research/" + path.replace(/\.[^/.]+$/, ""), 0)}><div class="${"px-4 py-4 h-64 grid grid-rows-2"}"><div><h2 class="${"text-2xl mt-2 text-primary-700"}">${escape(title3)}</h2>
+                        <p class="${"text-sm mt-4 text-primary-600"}">${escape(description3)}</p></div>
+                      <div class="${"self-end grid grid-cols-1 text-primary-500"}">
+                        <div class="${"text-sm font-hauser uppercase self-end text-right"}">${escape(methods.authorString(authors))}</div>
+                      </div></div>
+                  </a></div>
+              </div>`)}</div>
+          <div class="${"mx-auto"}">
+            ${featured.items.length > featured.size ? `${validate_component(PaginationNav, "PaginationNav").$$render($$result, {
+    totalItems: featured.items.length,
+    pageSize: featured.size,
+    currentPage: featured.page,
     limit: 1,
     showStepOptions: true
-  }, {}, {})}</div></article></main></div>`}`;
+  }, {}, {})}` : ``}</div></div>
+        <div class="${"mt-4 sm:px-2 py-2 mb-12"}"><h2 class="${"font-hauser text-secondary text-2xl sm:text-3xl md:text-4xl mb-8"}">All Projects</h2>
+          <hr class="${"border-primary-500 border-dashed border-1"}">
+          <div class="${"article-list"}">${each(allPaginated, ({ metadata: { title: title3, date, description: description3, authors }, path }) => `<div class="${"py-2 sm:p-4 hover:bg-primary-300"}"><a sveltekit:prefetch${add_attribute("href", "research/" + path.replace(/\.[^/.]+$/, ""), 0)}><div class="${"grid grid-cols-10"}"><div class="${"col-span-10 sm:col-span-10"}"><div class="${"text-xl text-primary-900"}">${escape(title3)}</div>
+                      <div class="${"text-md text-primary-800 mt-2"}">${escape(description3)}</div>
+                      <div class="${"col-span-6 sm:col-span-2 mt-2 mb-2 sm:mt-2 text-xs sm:text-sm font-hauser uppercase text-primary-700"}">${escape(methods.authorString(authors))}</div>
+                    </div></div>
+                </a></div>
+              <hr class="${"border-primary-500 border-dashed border-1"}">`)}</div>
+          <div class="${"mx-auto"}">${all.items.length > all.size ? `${validate_component(PaginationNav, "PaginationNav").$$render($$result, {
+    totalItems: all.items.length,
+    pageSize: all.size,
+    currentPage: all.page,
+    limit: 1,
+    showStepOptions: true
+  }, {}, {})}` : ``}</div></div></article></main></div>`}`;
 });
 async function load$3({ fetch: fetch2 }) {
   const res = await fetch2(`/research/projects.json`);
@@ -4890,30 +5060,54 @@ var ResearchProject = create_ssr_component(($$result, $$props, $$bindings, slots
   $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
   let { title: title2 } = $$props;
   let { description: description2 } = $$props;
-  let { layout = "research" } = $$props;
+  let { layout } = $$props;
+  let { date } = $$props;
+  let { authors } = $$props;
   set_store_value(seo, $seo = { title: title2, description: description2 }, $seo);
+  const methods = {
+    authorString: (authors2) => {
+      let s2 = "";
+      if (authors2.length === 1)
+        return authors2[0];
+      for (var i = 0; i < authors2.length - 1; i++) {
+        if (i < authors2.length - 2)
+          s2 = s2 + authors2[i] + ", ";
+        else
+          s2 = s2 + " and " + authors2[i];
+      }
+      return s2;
+    }
+  };
   if ($$props.title === void 0 && $$bindings.title && title2 !== void 0)
     $$bindings.title(title2);
   if ($$props.description === void 0 && $$bindings.description && description2 !== void 0)
     $$bindings.description(description2);
   if ($$props.layout === void 0 && $$bindings.layout && layout !== void 0)
     $$bindings.layout(layout);
+  if ($$props.date === void 0 && $$bindings.date && date !== void 0)
+    $$bindings.date(date);
+  if ($$props.authors === void 0 && $$bindings.authors && authors !== void 0)
+    $$bindings.authors(authors);
   $$unsubscribe_Layout();
   $$unsubscribe_seo();
   return `${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}
 
-${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}">
-    <a href="${"/research"}" class="${"font-hauser uppercase"}">Back to Research</a>
-    <h1 class="${"font-bold text-6xl mb-4"}">${escape(title2)}</h1>
-    <div class="${""}">${slots.default ? slots.default({}) : ``}</div></div>`}`;
+${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}"><div class="${"p-4 sm:p-6 mt-2 font-hauser uppercase text-md sm:text-lg text-white"}"><a href="${"/research"}">${escape("<-")} Back to Research</a></div>
+    <div class="${"px-10 sm:px-12 md:px-14 max-w-3xl"}"><h1 class="${"font-hauser text-secondary text-4xl sm:text-5xl md:text-6xl mt-2 mb-2 sm:mb-4"}">${escape(title2)}</h1>
+      <div class="${"px-2 sm:px-4 pt-4 pb-2 sm:pb-0 font-hauser uppercase text-sm sm:text-md text-primary-700 "}">${escape(description2)}<br>
+        ${escape(methods.authorString(authors))}</div>
+      <div class="${"p-2 sm:p-4"}">${slots.default ? slots.default({}) : ``}</div></div>
+    <div class="${"p-4 sm:p-6 mt-2 font-hauser uppercase text-md sm:text-lg text-white"}"><a href="${"/research"}">${escape("<-")} Back to Research</a></div></div>`}`;
 });
-var metadata$f = {
+var metadata$m = {
   "layout": "researchproject",
   "title": "Halldorophone",
-  "description": "Halldorophone"
+  "description": "The Halldorophone is a musical instrument.",
+  "featured": true,
+  "authors": ["Halldor \xDAlfarsson"]
 };
 var Halldorophone = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$f), {}, {
+  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$m), {}, {
     default: () => `<p>The halldorophone (Icelandic: d\xF3r\xF3f\xF3nn) is a cello-like electronic instrument created by artist and designer Halld\xF3r \xDAlfarsson.
 The halldorophone is designed specifically to feedback the strings and the instrument gained some recognition in early 2020 when composer Hildur Gu\xF0nad\xF3ttir won the Academy Award for her original soundtrack to the movie Joker, some of which was composed with a halldorophone.</p>`
   })}`;
@@ -4922,15 +5116,17 @@ var halldorophone = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Halldorophone,
-  metadata: metadata$f
+  metadata: metadata$m
 });
-var metadata$e = {
+var metadata$l = {
   "layout": "researchproject",
   "title": "Another project",
-  "description": "Another project"
+  "description": "Another project called another project.",
+  "featured": false,
+  "authors": ["Thor Magnusson", "Victor Shepardson"]
 };
 var Secondproject = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$e), {}, {
+  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$l), {}, {
     default: () => `<p>This is another cool project!</p>`
   })}`;
 });
@@ -4938,15 +5134,17 @@ var secondproject = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Secondproject,
-  metadata: metadata$e
+  metadata: metadata$l
 });
-var metadata$d = {
+var metadata$k = {
   "layout": "researchproject",
   "title": "A project",
-  "description": "A project"
+  "description": "A project called first project.",
+  "featured": true,
+  "authors": ["Thor Magnusson", "Victor Shepardson", "Jack Armitage", "Halldor \xDAlfarsson"]
 };
 var Firstproject = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$d), {}, {
+  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$k), {}, {
     default: () => `<p>This is a cool project!</p>`
   })}`;
 });
@@ -4954,46 +5152,105 @@ var firstproject = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Firstproject,
-  metadata: metadata$d
+  metadata: metadata$k
 });
-var pageSize$1 = 2;
 var OpenLab = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  let paginatedItems;
+  let future;
+  let past;
+  let futurePaginated;
+  let pastPaginated;
   let $Layout, $$unsubscribe_Layout;
   let $seo, $$unsubscribe_seo;
   $$unsubscribe_Layout = subscribe(Layout, (value) => $Layout = value);
   $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
   let { layout = "openlab" } = $$props;
+  let { title: title2 = "Open Lab" } = $$props;
+  let { description: description2 = "Open Lab" } = $$props;
   let { openlabs } = $$props;
-  let items = openlabs.reverse();
-  let currentPage = 1;
+  let items = openlabs;
   set_store_value(seo, $seo = {
-    title: "Hagura - Light",
-    description: "Hagura is a light-weight theme/template built for sveltekit."
+    title: "Open Labs",
+    description: "Open Labs"
   }, $seo);
+  const methods = {
+    dayMonth: (d) => {
+      d = new Date(d);
+      const options2 = { month: "short", day: "numeric" };
+      return d.toLocaleDateString("en-US", options2);
+    },
+    dateString: (d) => {
+      return new Date(d).toDateString().slice(-11);
+    }
+  };
   if ($$props.layout === void 0 && $$bindings.layout && layout !== void 0)
     $$bindings.layout(layout);
+  if ($$props.title === void 0 && $$bindings.title && title2 !== void 0)
+    $$bindings.title(title2);
+  if ($$props.description === void 0 && $$bindings.description && description2 !== void 0)
+    $$bindings.description(description2);
   if ($$props.openlabs === void 0 && $$bindings.openlabs && openlabs !== void 0)
     $$bindings.openlabs(openlabs);
-  paginatedItems = paginate({ items, pageSize: pageSize$1, currentPage });
+  future = {
+    size: 2,
+    page: 1,
+    items: items.filter((i) => new Date(i.metadata.date) > new Date())
+  };
+  past = {
+    size: 4,
+    page: 1,
+    items: items.filter((i) => new Date(i.metadata.date) < new Date()).reverse()
+  };
+  futurePaginated = paginate({
+    items: future.items,
+    pageSize: future.size,
+    currentPage: future.page
+  });
+  pastPaginated = paginate({
+    items: past.items,
+    pageSize: past.size,
+    currentPage: past.page
+  });
   $$unsubscribe_Layout();
   $$unsubscribe_seo();
-  return `${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}"><main><article><h1 class="${"headline text-7xl leading-relaxed font-black font-display mb-4"}">Open Lab
-    </h1>
-    <div><p>We have developed the Collaboration Interface Protocol in order to work with other scientists and artists. Some of these collaborations are formal and focussing on specific experiments or projects, but we are also interested in a more open approach and informal exchange and collaboration.</p>
+  return `${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}
 
-      <p>We seek to maintain a critical yet playful reflection upon the lab as a performative space, where various agents interact and produce knowledge: an \u201Caesthetics of experimentation\u201D. We will run open lab sessions on Friday afternoons and people can follow the project via public events. We will make regular use of social media, and use podcasts, YouTube and blogging for lasting online documentation.</p></div>
-    
-    <div class="${"article-list"}">${each(paginatedItems, ({ metadata: { title: title2, description: description2, tags, outline, slug }, path }) => `<div class="${"mb-4"}"><a sveltekit:prefetch${add_attribute("href", "openlab/" + path.replace(/\.[^/.]+$/, ""), 0)}><h2 class="${"text-3xl leading-relaxed"}">${escape(title2)}</h2></a>
-          <p>${escape(description2)}</p>
-        </div>`)}</div>
-    <div class="${"mx-auto"}">${validate_component(PaginationNav, "PaginationNav").$$render($$result, {
-    totalItems: items.length,
-    pageSize: pageSize$1,
-    currentPage,
+${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}"><main class="${"p-10 sm:p-12 md:p-14 max-w-3xl"}"><article><h1 class="${"font-hauser text-secondary text-4xl sm:text-5xl md:text-6xl mb-4"}">${escape(title2)}</h1>
+        <div class="${"mt-4 sm:mt-8 p-2"}">
+          <p>Communicating and discussing our research is part of our research methodology: we are interested in how people perceive instruments that inhibit intelligence of some sort.</p>
+          <p class="${"hidden sm:block"}">We are interested in a continuous informal conversation with people, in terms of ad-hoc visits to the lab that can result in conversations that become the seeds of new developments. For this reason, we open the doors to our lab on Friday afternoons, where we present some work we are developing or invite interesting people to talk about their work, in a friendly environment with tea and biscuits.</p>
+          <p>Our lab is located in \xDEverholt 11 on the 4th floor. Please pop by at 2pm on Fridays. We look forward to seeing you.</p></div>
+        <div class="${"mt-2 sm:p-2"}"><h2 class="${"font-hauser text-secondary text-2xl sm:text-3xl md:text-4xl mb-8"}">Upcoming</h2>
+          <div class="${"grid grid-flow-row grid-cols-1 sm:grid-cols-2 gap-10"}">${each(futurePaginated, ({ metadata: { edition, theme, date, description: description3, tags }, path }) => `<div class="${"border-primary-100 hover:border-white border-dashed border-2 shadow-sm hover:shadow-md rounded-sm sm:w-72"}"><div class="${"bg-primary-100 hover:bg-white"}"><a sveltekit:prefetch${add_attribute("href", "openlab/" + path.replace(/\.[^/.]+$/, ""), 0)}><div class="${"px-4 py-4 h-64 grid grid-rows-2"}"><div><h2 class="${"text-2xl mt-2 text-primary-700"}">${escape(theme)}</h2>
+                        <p class="${"text-sm mt-4 text-primary-600"}">${escape(description3)}</p></div>
+                      <div class="${"self-end grid grid-cols-2 text-primary-500"}"><div class="${"text-sm font-hauser uppercase"}">Open Lab ${escape(edition)}</div>
+                        <div class="${"text-sm font-hauser uppercase self-end text-right"}">${escape(methods.dayMonth(date))}</div>
+                      </div></div>
+                  </a></div>
+              </div>`)}</div>
+          <div class="${"mx-auto"}">
+            ${future.items.length > future.size ? `${validate_component(PaginationNav, "PaginationNav").$$render($$result, {
+    totalItems: future.items.length,
+    pageSize: future.size,
+    currentPage: future.page,
     limit: 1,
     showStepOptions: true
-  }, {}, {})}</div></article></main></div>`}`;
+  }, {}, {})}` : ``}</div></div>
+        <div class="${"mt-4 sm:px-2 py-2 mb-12"}"><h2 class="${"font-hauser text-secondary text-2xl sm:text-3xl md:text-4xl mb-8"}">Past</h2>
+          <hr class="${"border-primary-500 border-dashed border-1"}">
+          <div class="${"article-list"}">${each(pastPaginated, ({ metadata: { edition, theme, date, description: description3, tags }, path }) => `<div class="${"py-2 sm:p-4 hover:bg-primary-300"}"><a sveltekit:prefetch${add_attribute("href", "openlab/" + path.replace(/\.[^/.]+$/, ""), 0)}><div class="${"grid grid-cols-10"}"><div class="${"col-span-10 sm:col-span-8"}"><div class="${"text-xl text-primary-900"}">${escape(theme)}</div>
+                      <div class="${"text-md text-primary-800 mt-2"}">${escape(description3)}</div></div>
+                    <div class="${"col-span-6 sm:col-span-2 mt-2 mb-2 sm:mt-0 text-xs sm:text-sm sm:text-right font-hauser uppercase text-primary-700"}"><div>Open Lab ${escape(edition)}</div>
+                      <div>${escape(methods.dayMonth(date))}</div>
+                    </div></div>
+                </a></div>
+              <hr class="${"border-primary-500 border-dashed border-1"}">`)}</div>
+          <div class="${"mx-auto"}">${past.items.length > past.size ? `${validate_component(PaginationNav, "PaginationNav").$$render($$result, {
+    totalItems: past.items.length,
+    pageSize: past.size,
+    currentPage: past.page,
+    limit: 1,
+    showStepOptions: true
+  }, {}, {})}` : ``}</div></div></article></main></div>`}`;
 });
 async function load$2({ fetch: fetch2 }) {
   const res = await fetch2(`/openlab/openlabs.json`);
@@ -5017,33 +5274,43 @@ var OpenLabEvent = create_ssr_component(($$result, $$props, $$bindings, slots) =
   let $seo, $$unsubscribe_seo;
   $$unsubscribe_Layout = subscribe(Layout, (value) => $Layout = value);
   $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
-  let { title: title2 } = $$props;
+  let { edition } = $$props;
+  let { theme } = $$props;
   let { description: description2 } = $$props;
-  let { layout = "openlab" } = $$props;
+  let { layout } = $$props;
+  let { date } = $$props;
+  let title2 = theme;
   set_store_value(seo, $seo = { title: title2, description: description2 }, $seo);
-  if ($$props.title === void 0 && $$bindings.title && title2 !== void 0)
-    $$bindings.title(title2);
+  if ($$props.edition === void 0 && $$bindings.edition && edition !== void 0)
+    $$bindings.edition(edition);
+  if ($$props.theme === void 0 && $$bindings.theme && theme !== void 0)
+    $$bindings.theme(theme);
   if ($$props.description === void 0 && $$bindings.description && description2 !== void 0)
     $$bindings.description(description2);
   if ($$props.layout === void 0 && $$bindings.layout && layout !== void 0)
     $$bindings.layout(layout);
+  if ($$props.date === void 0 && $$bindings.date && date !== void 0)
+    $$bindings.date(date);
   $$unsubscribe_Layout();
   $$unsubscribe_seo();
   return `${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}
 
-${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}">
-    <a href="${"/openlab"}" class="${"font-hauser uppercase"}">Back to Open Lab</a>
-    <h1 class="${"font-bold text-6xl mb-4"}">${escape(title2)}</h1>
-    <div class="${""}">${slots.default ? slots.default({}) : ``}</div></div>`}`;
+${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}"><div class="${"p-4 sm:p-6 mt-2 font-hauser uppercase text-md sm:text-lg text-white"}"><a href="${"/openlab"}">${escape("<-")} Back to Open Labs</a></div>
+    
+    <div class="${"px-10 sm:px-12 md:px-14 max-w-3xl"}"><h1 class="${"font-hauser text-secondary text-4xl sm:text-5xl md:text-6xl mt-2 mb-2 sm:mb-4"}">${escape(theme)}</h1>
+      <div class="${"px-2 sm:px-4 pt-4 pb-2 sm:pb-0 font-hauser uppercase text-sm sm:text-md text-primary-700 "}">Open Lab ${escape(edition)}, ${escape(new Date(date).toDateString())}</div>
+      <div class="${"p-2 sm:p-4"}">${slots.default ? slots.default({}) : ``}</div></div>
+    <div class="${"p-4 sm:p-6 mt-2 font-hauser uppercase text-md sm:text-lg text-white"}"><a href="${"/openlab"}">${escape("<-")} Back to Open Labs</a></div></div>`}`;
 });
-var metadata$c = {
+var metadata$j = {
   "layout": "openlab",
-  "title": "Open Lab 1",
-  "description": "Open Lab 1",
+  "edition": 1,
+  "theme": "The Thranophone",
+  "description": "\xDEr\xE1inn Hj\xE1lmarsson and Ingi Gar\xF0ar present the Thranophone.",
   "date": "2021-09-10"
 };
 var _1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$c), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$j), {}, {
     default: () => `<p>This is what is going to happen in Open Lab 1.</p>`
   })}`;
 });
@@ -5051,16 +5318,17 @@ var _1$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _1,
-  metadata: metadata$c
+  metadata: metadata$j
 });
-var metadata$b = {
+var metadata$i = {
   "layout": "openlab",
-  "title": "Open Lab 2",
-  "description": "Open Lab 2",
+  "edition": 2,
+  "theme": "Feedback Musicianship",
+  "description": "Feedback Musicianship Network live stream.",
   "date": "2021-09-17"
 };
 var _2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$b), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$i), {}, {
     default: () => `<p>This is what is going to happen in Open Lab 2.</p>`
   })}`;
 });
@@ -5068,16 +5336,17 @@ var _2$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _2,
-  metadata: metadata$b
+  metadata: metadata$i
 });
-var metadata$a = {
+var metadata$h = {
   "layout": "openlab",
-  "title": "Open Lab 3",
-  "description": "Open Lab 3",
+  "edition": 3,
+  "theme": "Acoustic and Sonic Heritages",
+  "description": "Barcelona Patrimoni Acoustic collective and Ragnar \xC1rni \xD3lafsson.",
   "date": "2021-09-24"
 };
 var _3 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$a), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$h), {}, {
     default: () => `<p>This is what is going to happen in Open Lab 3.</p>`
   })}`;
 });
@@ -5085,16 +5354,17 @@ var _3$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _3,
-  metadata: metadata$a
+  metadata: metadata$h
 });
-var metadata$9 = {
+var metadata$g = {
   "layout": "openlab",
-  "title": "Open Lab 4",
-  "description": "Open Lab 4",
+  "edition": 4,
+  "theme": "Digital Control of Church Organs",
+  "description": "\xC1ki \xC1sgeirsson presents on MIDI control of church organs.",
   "date": "2021-10-01"
 };
 var _4 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$9), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$g), {}, {
     default: () => `<p>This is what is going to happen in Open Lab 4.</p>`
   })}`;
 });
@@ -5102,7 +5372,104 @@ var _4$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _4,
-  metadata: metadata$9
+  metadata: metadata$g
+});
+var metadata$f = {
+  "layout": "openlab",
+  "edition": 5,
+  "theme": "Speaking Loudly",
+  "description": "Discussion on loudspeakers.",
+  "date": "2021-10-08"
+};
+var _5 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$f), {}, {
+    default: () => `<p>This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. </p>
+<p>This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. </p>
+<p>This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. This is what is going to happen in Open Lab 5. </p>`
+  })}`;
+});
+var _5$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _5,
+  metadata: metadata$f
+});
+var metadata$e = {
+  "layout": "openlab",
+  "edition": 6,
+  "theme": "Unusual Instruments and Usual Suspects",
+  "description": "Thor Magnusson and Halldor Ulfarsson present something cool.",
+  "date": "2021-10-15"
+};
+var _6 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$e), {}, {
+    default: () => `<p>This is what is going to happen in Open Lab 6.</p>`
+  })}`;
+});
+var _6$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _6,
+  metadata: metadata$e
+});
+var metadata$d = {
+  "layout": "openlab",
+  "edition": 7,
+  "theme": "Unusual Instruments and Usual Suspects",
+  "description": "Thor Magnusson and Halldor Ulfarsson present something cool.",
+  "date": "2021-10-22"
+};
+var _7 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$d), {}, {
+    default: () => `<p>This is what is going to happen in Open Lab 7.</p>`
+  })}`;
+});
+var _7$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _7,
+  metadata: metadata$d
+});
+var metadata$c = {
+  "layout": "openlab",
+  "edition": 8,
+  "theme": "Unusual Instruments and Usual Suspects",
+  "description": "Thor Magnusson and Halldor Ulfarsson present something cool.",
+  "date": "2021-10-29"
+};
+var _8 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$c), {}, {
+    default: () => `<p>This is what is going to happen in Open Lab 8.</p>`
+  })}`;
+});
+var _8$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _8,
+  metadata: metadata$c
+});
+var MovingStrings = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `<h1>Moving Strings</h1>`;
+});
+var metadata$b = {
+  "layout": "movingstrings",
+  "date": "2021-12-06",
+  "title": "Moving Strings",
+  "description": "A symposium on strings and feedback.",
+  "featured": true
+};
+var Moving_strings = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(MovingStrings, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$b), {}, {
+    default: () => `<p>A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. </p>
+<p>A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. </p>
+<p>A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. A symposium on strings and feedback. </p>`
+  })}`;
+});
+var movingStrings = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Moving_strings,
+  metadata: metadata$b
 });
 var About$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $Layout, $$unsubscribe_Layout;
@@ -5130,14 +5497,14 @@ ${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<m
 ${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}"><div class="${"p-10 sm:p-12 md:p-14 max-w-3xl"}"><h1 class="${"font-hauser text-secondary text-4xl sm:text-5xl md:text-6xl mb-4"}">${escape(title2)}</h1>
       <div class="${"p-2 sm:p-4"}">${slots.default ? slots.default({}) : ``}</div></div></div>`}`;
 });
-var metadata$8 = {
+var metadata$a = {
   "layout": "about",
   "title": "About",
   "slug": "about",
   "description": "About the Intelligent Instruments Lab"
 };
 var About = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(About$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$8), {}, {
+  return `${validate_component(About$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$a), {}, {
     default: () => `
 <p>The Intelligent Instruments Lab is an interdisciplinary research lab that investigates the role of artificial intelligence in new musical instruments. Music is our research base, but the reach and impact is wider and we explore how musical interfaces can be applied as scientific instruments, for example through sonification.</p>
 <p>We study creative AI from a broad humanities basis, involving musicians, computer scientists, philosophers and cognitive scientists in key international institutions. We explore the emerging language and discourse of creative AI, addressing our changed notions, such as agency, autonomy, authenticity, authorship, creativity and originality.</p>
@@ -5151,42 +5518,93 @@ var about = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": About,
-  metadata: metadata$8
+  metadata: metadata$a
 });
-var pageSize = 2;
 var News = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  let paginatedItems;
+  let featured;
+  let all;
+  let featuredPaginated;
+  let allPaginated;
   let $Layout, $$unsubscribe_Layout;
   let $seo, $$unsubscribe_seo;
   $$unsubscribe_Layout = subscribe(Layout, (value) => $Layout = value);
   $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
-  let { items } = $$props;
   let { layout = "news" } = $$props;
-  let currentPage = 1;
-  set_store_value(seo, $seo = {
-    title: "Hagura - Light",
-    description: "Hagura is a light-weight theme/template built for sveltekit."
-  }, $seo);
-  if ($$props.items === void 0 && $$bindings.items && items !== void 0)
-    $$bindings.items(items);
+  let { title: title2 = "News" } = $$props;
+  let { description: description2 = "News" } = $$props;
+  let { items } = $$props;
+  set_store_value(seo, $seo = { title: title2, description: description2 }, $seo);
+  const methods = {
+    dayMonth: (d) => {
+      d = new Date(d);
+      const options2 = { month: "short", day: "numeric" };
+      return d.toLocaleDateString("en-US", options2);
+    },
+    dateString: (d) => {
+      return new Date(d).toDateString().slice(-11);
+    }
+  };
   if ($$props.layout === void 0 && $$bindings.layout && layout !== void 0)
     $$bindings.layout(layout);
-  paginatedItems = paginate({ items, pageSize, currentPage });
+  if ($$props.title === void 0 && $$bindings.title && title2 !== void 0)
+    $$bindings.title(title2);
+  if ($$props.description === void 0 && $$bindings.description && description2 !== void 0)
+    $$bindings.description(description2);
+  if ($$props.items === void 0 && $$bindings.items && items !== void 0)
+    $$bindings.items(items);
+  featured = {
+    size: 2,
+    page: 1,
+    items: items.filter((i) => i.metadata.featured === true)
+  };
+  all = { size: 4, page: 1, items };
+  featuredPaginated = paginate({
+    items: featured.items,
+    pageSize: featured.size,
+    currentPage: featured.page
+  });
+  allPaginated = paginate({
+    items: all.items,
+    pageSize: all.size,
+    currentPage: all.page
+  });
   $$unsubscribe_Layout();
   $$unsubscribe_seo();
-  return `${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}"><main><article><h1 class="${"headline text-7xl leading-relaxed font-black font-display mb-4"}">News
-    </h1>
-    <p>Here&#39;s some text that comes before the news</p>
-    <div class="${"article-list"}">${each(paginatedItems, ({ metadata: { title: title2, description: description2, tags, outline, slug }, path }) => `<div class="${"mb-4"}"><a sveltekit:prefetch${add_attribute("href", "news/" + path.replace(/\.[^/.]+$/, ""), 0)}><h2 class="${"text-3xl leading-relaxed"}">${escape(title2)}</h2></a>
-          <p>${escape(description2)}</p>
-        </div>`)}</div>
-    <div class="${"mx-auto"}">${validate_component(PaginationNav, "PaginationNav").$$render($$result, {
-    totalItems: items.length,
-    pageSize,
-    currentPage,
+  return `${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}
+
+${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}"><main class="${"p-10 sm:p-12 md:p-14 max-w-3xl"}"><article><h1 class="${"font-hauser text-secondary text-4xl sm:text-5xl md:text-6xl mb-4"}">${escape(title2)}</h1>
+        <div class="${"mt-4 sm:mt-8 p-2"}"><p>Here you will find the latest news about the lab.</p></div>
+        <div class="${"mt-2 sm:p-2"}"><h2 class="${"font-hauser text-secondary text-2xl sm:text-3xl md:text-4xl mb-8"}">Featured</h2>
+          <div class="${"grid grid-flow-row grid-cols-1 sm:grid-cols-2 gap-10"}">${each(featuredPaginated, ({ metadata: { title: title3, date, description: description3 }, path }) => `<div class="${"border-primary-100 hover:border-white border-dashed border-2 shadow-sm hover:shadow-md rounded-sm sm:w-72"}"><div class="${"bg-primary-100 hover:bg-white"}"><a sveltekit:prefetch${add_attribute("href", "news/" + path.replace(/\.[^/.]+$/, ""), 0)}><div class="${"px-4 py-4 h-64 grid grid-rows-2"}"><div><h2 class="${"text-2xl mt-2 text-primary-700"}">${escape(title3)}</h2>
+                        <p class="${"text-sm mt-4 text-primary-600"}">${escape(description3)}</p></div>
+                      <div class="${"self-end grid grid-cols-1 text-primary-500"}">
+                        <div class="${"text-sm font-hauser uppercase self-end text-right"}">${escape(methods.dayMonth(date))}</div>
+                      </div></div>
+                  </a></div>
+              </div>`)}</div>
+          <div class="${"mx-auto"}">
+            ${featured.items.length > featured.size ? `${validate_component(PaginationNav, "PaginationNav").$$render($$result, {
+    totalItems: featured.items.length,
+    pageSize: featured.size,
+    currentPage: featured.page,
     limit: 1,
     showStepOptions: true
-  }, {}, {})}</div></article></main></div>`}`;
+  }, {}, {})}` : ``}</div></div>
+        <div class="${"mt-4 sm:px-2 py-2 mb-12"}"><h2 class="${"font-hauser text-secondary text-2xl sm:text-3xl md:text-4xl mb-8"}">All News</h2>
+          <hr class="${"border-primary-500 border-dashed border-1"}">
+          <div class="${"article-list"}">${each(allPaginated, ({ metadata: { title: title3, date, description: description3, tags }, path }) => `<div class="${"py-2 sm:p-4 hover:bg-primary-300"}"><a sveltekit:prefetch${add_attribute("href", "news/" + path.replace(/\.[^/.]+$/, ""), 0)}><div class="${"grid grid-cols-10"}"><div class="${"col-span-10 sm:col-span-8"}"><div class="${"text-xl text-primary-900"}">${escape(title3)}</div>
+                      <div class="${"text-md text-primary-800 mt-2"}">${escape(description3)}</div></div>
+                    <div class="${"col-span-6 sm:col-span-2 mt-2 mb-2 sm:mt-0 text-xs sm:text-sm sm:text-right font-hauser uppercase text-primary-700"}"><div>${escape(methods.dayMonth(date))}</div>
+                    </div></div>
+                </a></div>
+              <hr class="${"border-primary-500 border-dashed border-1"}">`)}</div>
+          <div class="${"mx-auto"}">${all.items.length > all.size ? `${validate_component(PaginationNav, "PaginationNav").$$render($$result, {
+    totalItems: all.items.length,
+    pageSize: all.size,
+    currentPage: all.page,
+    limit: 1,
+    showStepOptions: true
+  }, {}, {})}` : ``}</div></div></article></main></div>`}`;
 });
 async function load$1({ fetch: fetch2 }) {
   const res = await fetch2(`/news/items.json`);
@@ -5212,7 +5630,8 @@ var NewsItem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
   let { title: title2 } = $$props;
   let { description: description2 } = $$props;
-  let { layout = "news" } = $$props;
+  let { layout } = $$props;
+  let { date } = $$props;
   set_store_value(seo, $seo = { title: title2, description: description2 }, $seo);
   if ($$props.title === void 0 && $$bindings.title && title2 !== void 0)
     $$bindings.title(title2);
@@ -5220,19 +5639,91 @@ var NewsItem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     $$bindings.description(description2);
   if ($$props.layout === void 0 && $$bindings.layout && layout !== void 0)
     $$bindings.layout(layout);
+  if ($$props.date === void 0 && $$bindings.date && date !== void 0)
+    $$bindings.date(date);
   $$unsubscribe_Layout();
   $$unsubscribe_seo();
   return `${$$result.head += `${$$result.title = `<title>${escape(title2)}</title>`, ""}<meta name="${"description"}"${add_attribute("content", description2, 0)} data-svelte="svelte-1law5hj">`, ""}
 
-${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}">
-    <a href="${"/news"}" class="${"font-hauser uppercase"}">Back to News</a>
-    <h1 class="${"font-bold text-6xl mb-4"}">${escape(title2)}</h1>
-    <div class="${""}">${slots.default ? slots.default({}) : ``}</div></div>`}`;
+${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}"><div class="${"p-4 sm:p-6 mt-2 font-hauser uppercase text-md sm:text-lg text-white"}"><a href="${"/news"}">${escape("<-")} Back to News</a></div>
+    
+    <div class="${"px-10 sm:px-12 md:px-14 max-w-3xl"}"><h1 class="${"font-hauser text-secondary text-4xl sm:text-5xl md:text-6xl mt-2 mb-2 sm:mb-4"}">${escape(title2)}</h1>
+      <div class="${"px-2 sm:px-4 pt-4 pb-2 sm:pb-0 font-hauser uppercase text-sm sm:text-md text-primary-700 "}">${escape(description2)}<br>${escape(new Date(date).toDateString())}</div>
+      <div class="${"p-2 sm:p-4"}">${slots.default ? slots.default({}) : ``}</div></div>
+    <div class="${"p-4 sm:p-6 mt-2 font-hauser uppercase text-md sm:text-lg text-white"}"><a href="${"/news"}">${escape("<-")} Back to News</a></div></div>`}`;
+});
+var metadata$9 = {
+  "layout": "news",
+  "date": "2021-10-01",
+  "title": "Anotherother news item",
+  "description": "Anotherother news item",
+  "featured": false
+};
+var Fourthitem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$9), {}, {
+    default: () => `<p>This is anotherother news item.</p>`
+  })}`;
+});
+var fourthitem = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Fourthitem,
+  metadata: metadata$9
+});
+var CaptionedImage = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { src: src2 } = $$props;
+  let { caption } = $$props;
+  let { alt } = $$props;
+  if ($$props.src === void 0 && $$bindings.src && src2 !== void 0)
+    $$bindings.src(src2);
+  if ($$props.caption === void 0 && $$bindings.caption && caption !== void 0)
+    $$bindings.caption(caption);
+  if ($$props.alt === void 0 && $$bindings.alt && alt !== void 0)
+    $$bindings.alt(alt);
+  return `<div class="${"py-2 my-4"}"><img class="${"h-64 object-cover object-center"}"${add_attribute("src", src2, 0)}${add_attribute("alt", alt, 0)}>
+  <p class="${"text-primary-800 mt-2 text-sm"}">${escape(caption)}</p></div>`;
+});
+var metadata$8 = {
+  "layout": "news",
+  "date": "2021-10-07",
+  "title": "Off to a good start...",
+  "description": "What we have been up to in the first month.",
+  "featured": true
+};
+var Good_start = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$8), {}, {
+    default: () => `<p>On September 1st, our team met for the first time in real life. Thor, Halld\xF3r, Jack, Victor and Esther came together in the basement Iceland University of the Arts to plot the first steps of the five-year-long journey we have ahead of us now.
+This marks the start of the project where we will study the impact of creative AI, conducted in the research domain of music, with a broad humanities basis, involving musicians, computer scientists, philosophers and cognitive scientists.
+The university has generously provided us with two different spaces for labs. We call them the Blue Lab, which is in the basement and will serve as a recording studio, and the Yellow Lab, which is on 4th floor and is used as an office and a space for prototyping.</p>
+${validate_component(CaptionedImage, "CaptionedImage").$$render($$result, {
+      src: "./images/stock/empty_lab_yellow.jpg",
+      alt: "A panorama photo of a large class room what only has one table and a few blue chairs scattered around in a disorganised way. In the middle, a young man sitting in a corner with a laptop.",
+      caption: "The first picture taken at the Yellow Lab. In the middle you'll see Victor. Photo by Jack."
+    }, {}, {})}
+<p>Through a streamlined research collaboration protocol, we seek to explore the language and discourse of creative AI, addressing our changed notions of, for example, agency, autonomy, authenticity, authorship, creativity and originality.</p>
+<p>In order to achieve this goal, the technical approach is to implement new machine learning in embodied musical instruments. We invent instruments that interact, learn, and evolve in the hands of the performer. The instruments become boundary objects, studied by collaborators from a range of sciences and the general public.</p>
+<p>We used September to prototype a monochord (Icelandic <em>langspil</em>) \u2026 which by the end of the month had ended up with three chords. </p>
+<p><strong>PHOTOS OF PROTOTYPES</strong></p>
+<p>Alt 1: A simple cardboard prototype of a long box-shaped instrument.</p>
+<p>Alt 2: A plywood prototype of a long box-shaped instrument.</p>
+<p>Alt 3: A complex prototype of a long box-shaped instrument with audio and electric cables connected.</p>
+<p>Through technology development we will create the conditions to study higher level theoretical questions on the meaning of creative AI in contemporary culture. This project takes a pioneering leap in research about AI by answering how new creative AI transforms our relationships with technology and other people. Grounded equally in technology development and the humanities, the project will benefit diverse disciplines by developing a theoretical framework of creative AI, initiating a discourse around human-centred creative AI, and defining principles of human-AI relations in services and products.</p>
+<p>Our next steps include summoning artists to experiment with the prototype and researchers from diverse disciplines to conduct frontier science on intelligent instruments as boundary objects. </p>
+<p>So stay tuned!</p>`
+  })}`;
+});
+var goodStart = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Good_start,
+  metadata: metadata$8
 });
 var metadata$7 = {
   "layout": "news",
+  "date": "2021-10-01",
   "title": "Another news item",
-  "description": "Another news item"
+  "description": "Another news item",
+  "featured": true
 };
 var Seconditem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$7), {}, {
@@ -5247,13 +5738,14 @@ var seconditem = /* @__PURE__ */ Object.freeze({
 });
 var metadata$6 = {
   "layout": "news",
+  "date": "2021-10-01",
   "title": "A news item",
-  "description": "A news item"
+  "description": "A news item",
+  "featured": true
 };
 var Firstitem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$6), {}, {
-    default: () => `<h1 id="${"news-item"}"><a href="${"#news-item"}">News item</a></h1>
-<p>This is a news item.</p>`
+    default: () => `<p>This is a news item.</p>`
   })}`;
 });
 var firstitem = /* @__PURE__ */ Object.freeze({
@@ -5264,8 +5756,10 @@ var firstitem = /* @__PURE__ */ Object.freeze({
 });
 var metadata$5 = {
   "layout": "news",
+  "date": "2021-10-01",
   "title": "Anotherother news item",
-  "description": "Anotherother news item"
+  "description": "Anotherother news item",
+  "featured": false
 };
 var Thirditem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$5), {}, {
@@ -5303,29 +5797,34 @@ var Link = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     $$bindings.url(url);
   if ($$props.label === void 0 && $$bindings.label && label !== void 0)
     $$bindings.label(label);
-  return `<div class="${"border-dashed border-primary-700 border-2 rounded-lg"}"><a class="${"h-9 flex items-center justify-center bg-primary-700 p-3 text-white"}"${add_attribute("href", url, 0)} target="${"_blank"}">${escape(label)}</a></div>`;
+  return `
+
+<div class="${"border-dashed border-primary-700 border-2 rounded-lg"}"><a class="${"h-9 flex items-center justify-center bg-primary-700 p-3 text-white"}"${add_attribute("href", url, 0)} target="${"_blank"}">${escape(label)}</a></div>`;
 });
 var Links = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { links } = $$props;
   if ($$props.links === void 0 && $$bindings.links && links !== void 0)
     $$bindings.links(links);
-  return `<div class="${"flex flex-wrap gap-2 mt-4 "}">${links.twitter ? `${validate_component(Link, "Link").$$render($$result, {
+  return `<div class="${"flex flex-wrap gap-2 mt-4 "}">${links.website ? `${validate_component(Link, "Link").$$render($$result, {
+    url: "http://" + links.website,
+    label: "Website"
+  }, {}, {})}` : ``}
+  ${links.twitter ? `${validate_component(Link, "Link").$$render($$result, {
     url: "https://twitter.com/" + links.twitter,
     label: "Twitter"
-  }, {}, {})}` : ``}
-  ${links.scholar ? `${validate_component(Link, "Link").$$render($$result, {
-    url: "https://scholar.google.com/citations?user=" + links.scholar,
-    label: "Scholar"
-  }, {}, {})}` : ``}
-  ${links.github ? `${validate_component(Link, "Link").$$render($$result, {
-    url: "https://github.com/" + links.github,
-    label: "GitHub"
   }, {}, {})}` : ``}
   ${links.instagram ? `${validate_component(Link, "Link").$$render($$result, {
     url: "https://instagram.com/" + links.instagram,
     label: "Instagram"
   }, {}, {})}` : ``}
-  ${links.website ? `${validate_component(Link, "Link").$$render($$result, { url: links.website, label: "Website" }, {}, {})}` : ``}</div>`;
+  ${links.github ? `${validate_component(Link, "Link").$$render($$result, {
+    url: "https://github.com/" + links.github,
+    label: "GitHub"
+  }, {}, {})}` : ``}
+  ${links.scholar ? `${validate_component(Link, "Link").$$render($$result, {
+    url: "https://scholar.google.com/citations?user=" + links.scholar,
+    label: "Scholar"
+  }, {}, {})}` : ``}</div>`;
 });
 var Member = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { member } = $$props;
@@ -5333,7 +5832,9 @@ var Member = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     $$bindings.member(member);
   return `<div class="${"flex"}"><div class="${"flex lg:space-x-10"}">${validate_component(Photo, "Photo").$$render($$result, { src: member.image, name: member.name }, {}, {})}
     <div><div class="${"flex flex-wrap"}">${validate_component(Thumbnail, "Thumb").$$render($$result, { src: member.image, name: member.name }, {}, {})}
-        <div class="${"flex flex-col sm:ml-4 lg:ml-0"}"><h1 class="${"font-hauser text-secondary text-3xl mt-4"}">${escape(member.name)}</h1>
+        <div class="${"flex flex-col sm:ml-4 lg:ml-0"}"><h1 class="${"font-hauser text-secondary text-3xl mt-4"}">${escape(member.name)}
+            <span class="${"font-sans text-secondary-500 text-lg ml-1"}">(${escape(member.pronouns)})
+            </span></h1>
           <h3 class="${"text-primary-900 text-1xl px-2 mt-2"}">${escape(member.role)}</h3>
           <p class="${"text-primary-700 text-sm px-2 mt-1"}"><a${add_attribute("href", "mailto:" + member.email, 0)}${add_attribute("title", "Email " + member.name, 0)}>${escape(member.email)}</a></p></div></div>
       <div class="${"px-2 mb-16 "}"><p class="${"mt-2 sm:mt-4 mb-6 md:max-w-xl lg:max-w-1xl "}">${escape(member.bio)}</p>
@@ -5393,8 +5894,8 @@ var metadata$4 = {
     "website": "halldorophone.info"
   },
   "projects": [""],
-  "pronouns": "",
-  "bio": "I am the inventor of the halldorophone, an electro acoustic string instrument intended for working with string based feedback. For the past decade I have been seeking out and working with musicians to make music with halldorophones and noting their thoughts and feelings on the process to inform further development. I am currently working on a PhD documenting and expanding on this work under the supervision of Thor Magnusson and Chris Kiefer at the University of Sussex. Besides working on the Intent project I am currently funded by an innovation grant from the Icelandic Technology Development Fund on further development of halldorophones. I enjoy using my skills as a fabricator to collaborate with musicians and instrument makers in the NIME context."
+  "pronouns": "he/him",
+  "bio": "I am the inventor of the halldorophone, an electro acoustic string instrument intended for working with string based feedback. For the past decade I have been seeking out and working with musicians to make music with halldorophones and noting their thoughts and feelings on the process to inform further development. I am currently working on a PhD documenting and expanding on this work under the supervision of Thor Magnusson and Chris Kiefer at the University of Sussex. Besides working on this project I am currently funded by an innovation grant from the Icelandic Technology Development Fund on further development of halldorophones. I enjoy using my skills as a fabricator to collaborate with musicians and instrument makers in the NIME context."
 };
 var Halldor = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Team, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$4), {}, {})}`;
@@ -5414,7 +5915,7 @@ var metadata$3 = {
     "instagram": "estherthorvalds",
     "twitter": "estherthorvalds"
   },
-  "pronouns": "She/her",
+  "pronouns": "she/her",
   "bio": "I\u2019m a long-term Uni. Iceland student with degrees in culture and communication, creative writing and comparative literature. I have been working in the music and culture industry for a decade; managing, planning and promoting all sorts of music projects, artists, festivals and conferences in Iceland as well as abroad. I'm passionate about connecting with and designing for all sorts of users and promoting equality and diversity."
 };
 var Esther = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -5437,8 +5938,8 @@ var metadata$2 = {
     "website": "victor-shepardson.github.io"
   },
   "projects": [""],
-  "pronouns": "",
-  "bio": "Victor Shepardson is definitely some sort of technologist and arguably some sort of artist. He is broadly interested in electronic music, digital art and machine intelligence. He has generalist programming and audio skills and knows too much about certain neural network models of sound. Victor can often be found fiddling with generative software systems, taking up the technical end of collaborative projects, musicking, and reading research papers. His current project involves building an AI augmented looping instrument and asking what AI means to people, anyway. Victor holds a B.A. in Computer Science from the University of Virginia and and M.A. in Digital Musics from Dartmouth College, and is currently pursuing a doctorate in the Intelligent Instruments Lab at the Iceland University of the Arts. He is from the Washington, DC area and currently lives in Reykjav\xEDk."
+  "pronouns": "he/him",
+  "bio": "I am a doctoral student in the Intelligent Instruments Lab at LHI. Previously I worked on neural models of speech as a machine learning engineer and data scientist. Before that I was an MA student in Digital Musics at Dartmouth College and and BA student in Computer Science at the University of Virginia. My interests include machine learning, artificial intelligence, generative art, audiovisual music and improvisation. My current project involves building an AI augmented looping instrument and asking what AI means to people, anyway."
 };
 var Victor = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Team, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$2), {}, {})}`;
@@ -5462,7 +5963,7 @@ var metadata$1 = {
     "website": "jackarmitage.com"
   },
   "projects": [""],
-  "pronouns": "He/him/they",
+  "pronouns": "he/him, they/them",
   "bio": "I have a doctorate in Media and Arts Technologies from Queen Mary University of London, where I studied in Prof. Andrew McPherson's Augmented Instruments Lab. During my PhD I was a Visiting Scholar at Georgia Tech under Prof. Jason Freeman. Before then, I was a Research Engineer at ROLI after graduating with a BSc in Music, Multimedia & Electronics from the University of Leeds. My research interests include embodied interaction, craft practice and design cognition. I also produce, perform and live code music as Lil Data, as part of the PC Music record label."
 };
 var Jack = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -5486,7 +5987,7 @@ var metadata = {
     "website": "thormagnusson.github.io"
   },
   "projects": ["sonicwriting"],
-  "pronouns": "",
+  "pronouns": "he/him",
   "bio": "I\u2019m a professor of future music in the Music Department at the University of Sussex and a research professor at the Iceland University of the Arts. I\u2019ve recently served as an Edgard-Var\xE8se guest professor at the Technische Universit\xE4t Berlin. My research interests include musical performance, improvisation, new technologies for musical expression, live coding, musical notation, artificial intelligence and computational creativity."
 };
 var Thor = create_ssr_component(($$result, $$props, $$bindings, slots) => {
