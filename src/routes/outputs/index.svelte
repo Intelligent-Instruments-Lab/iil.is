@@ -15,8 +15,8 @@
 </script>
 
 <script>
-  import Publications from '../../layouts/Publications.svelte'
+  import Outputs from '../../layouts/Outputs.svelte'
   export let publications
 </script>
 
-<Publications publications={publications}/>
+<Outputs publications={publications}/>
