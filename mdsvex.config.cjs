@@ -28,7 +28,7 @@ module.exports = {
     home: "./src/layouts/Home.svelte",
     news: "./src/layouts/NewsItem.svelte",
     openlab: "./src/layouts/OpenLabEvent.svelte",
-    publications: "./src/layouts/Publications.svelte",
+    outputs: "./src/layouts/Outputs.svelte",
     researchproject: "./src/layouts/ResearchProject.svelte",
     team: "./src/layouts/Team.svelte",
     events: "./src/layouts/Events/Events.svelte",

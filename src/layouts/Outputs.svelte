@@ -21,8 +21,8 @@
   export let publications
   const bib = Object.values(bibtex.parseBibFile(publications).entries$)
 
-  let title = 'Publications'
-  let description = 'Publications'
+  let title = 'Outputs'
+  let description = 'Outputs'
 
   export let layout
 
@@ -44,7 +44,7 @@
   onMount(async () => {
     $Layout.menu = false
     $Layout.page = layout
-    console.log('[About]', $Layout.page, layout)
+    console.log('[Outputs]', $Layout.page, layout)
   })
 </script>
 
@@ -66,9 +66,14 @@
         {title}
       </h1>
       <div class="p-2 sm:p-4">
-        <p>This page contains papers from the Intelligent Instruments Lab, organised by date. Also see the latest news and events and press articles.</p>
+        <p>This page contains outputs from the Intelligent Instruments Lab, organised by date. Also see the latest news and events and press articles.</p>
         <!-- <slot/> -->
         <div class="h-6"></div>
+        <h2 class="font-hauser text-secondary
+          text-2xl sm:text-3xl md:text-4xl 
+          mb-4">
+          Publications
+        </h2>
         {#each bib as entry}
           <Publication pub={entry}/>
         {/each}

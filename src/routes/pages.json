@@ -3,7 +3,7 @@
   { "label": "Team", "url": "/team" },
   { "label": "News", "url": "/news" },
   { "label": "Research", "url": "/research" },
-  { "label": "Publications", "url": "/publications" },
+  { "label": "Outputs", "url": "/outputs" },
   { "label": "Open Lab", "url": "/openlab" },
   { "label": "Collaborate", "url": "/collaborate" }
 ]
