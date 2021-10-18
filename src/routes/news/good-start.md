@@ -25,13 +25,20 @@ In order to achieve this goal, the technical approach is to implement new machin
 
 We used September to prototype a monochord (Icelandic *langspil*) ... which by the end of the month had ended up with three chords. 
 
-**PHOTOS OF PROTOTYPES**
+<CaptionedImage
+  src="stock/prototype_langspil_cardboard.jpg"
+  alt="A simple cardboard prototype of a long box-shaped instrument."
+  caption="Our first prototype."/>
 
-Alt 1: A simple cardboard prototype of a long box-shaped instrument.
+<CaptionedImage
+  src="stock/prototype_langspil_cardboard.jpg"
+  alt="A plywood prototype of a long box-shaped instrument."
+  caption="Our second prototype."/>
 
-Alt 2: A plywood prototype of a long box-shaped instrument.
-
-Alt 3: A complex prototype of a long box-shaped instrument with audio and electric cables connected.
+<CaptionedImage
+  src="stock/prototype_langspil_cardboard.jpg"
+  alt="A complex prototype of a long box-shaped instrument with audio and electric cables connected."
+  caption="And our third prototype."/>
 
 Through technology development we will create the conditions to study higher level theoretical questions on the meaning of creative AI in contemporary culture. This project takes a pioneering leap in research about AI by answering how new creative AI transforms our relationships with technology and other people. Grounded equally in technology development and the humanities, the project will benefit diverse disciplines by developing a theoretical framework of creative AI, initiating a discourse around human-centred creative AI, and defining principles of human-AI relations in services and products.
 
