@@ -13,8 +13,8 @@
   let items = projects
 
   $: featured = {
-    size: 2, page: 1,
-    items: items.filter(i=>i.metadata.featured === true)
+    size: 100, page: 1,
+    items: items//.filter(i=>i.metadata.featured === true)
   }
   $: all = {
     size: 4, page: 1,
@@ -70,9 +70,9 @@
           <p>Here you will find our research projects.</p>
         </div>
         <div class="mt-2 sm:p-2">
-          <h2 class="font-hauser text-secondary
+          <!-- <h2 class="font-hauser text-secondary
             text-2xl sm:text-3xl md:text-4xl 
-            mb-8">Featured</h2>
+            mb-8">Featured</h2> -->
           <div class="grid grid-flow-row grid-cols-1 sm:grid-cols-2 gap-10">
             {#each featuredPaginated as { metadata: { title, date, description, authors }, path }}
               <div class="
@@ -114,7 +114,7 @@
             {/if}
           </div>
         </div>
-        <div class="mt-4 sm:px-2 py-2 mb-12">
+        <!-- <div class="mt-4 sm:px-2 py-2 mb-12">
           <h2 class="font-hauser text-secondary
             text-2xl sm:text-3xl md:text-4xl 
             mb-8">All Projects</h2>
@@ -153,7 +153,7 @@
               />
             {/if}
           </div>
-        </div>
+        </div> -->
       </article>
     </main>
   </div>
