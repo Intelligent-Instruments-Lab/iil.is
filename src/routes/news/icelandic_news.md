@@ -6,7 +6,7 @@ description: "Introductions to the project in Icelandic"
 featured: true
 ---
 
-Primary investigator, Thor Magnusson, has been asked on several occasions to present the project in the Icelandic media. These are some of our favourite moments, but keep in mind that all of the interviews are in his native tongue, Icelandic. 
+Primary investigator Thor Magnusson, has been asked on several occasions to present the project in the Icelandic media. These are some of our favourite moments, but keep in mind that all of the interviews are in his native tongue, Icelandic. 
 
 <h2>An Article in Þræðir by Iceland University of Arts </h2>
 
@@ -42,3 +42,14 @@ On September 24th, mainstream media Fréttablaðið posted an interview with Tho
   caption=“Photo by EYÞÓR/Fréttablaðið.”/>
 
 <a href="https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/">Read the full interview here. </a>
+
+<h2>An Interview on the National Radio Broadcast Iceland </h2>
+
+Shortly after receiving the ERC grant, on December 10th 2020, the Lestin program of the National Radio Broadcast Services in Iceland (RÚV), interviewed Þórhallur about what this means for the science behind AI and instruments. 
+
+<CaptionedImage
+  src="stock/lestin2020.png”
+  alt=“A screen grab from RUV’s website. Man in the background on the left, on the right a silhouette of a man coding, a play button in the middle. Text at the bottom saying Tímamótastyrkur til rannsóknarverkefnis á velum LHÍ.”
+  caption=“A screenshot of RÚV’s website.”/>
+
+<a href="https://www.ruv.is/frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi">Listen and read the full interview here. </a>
