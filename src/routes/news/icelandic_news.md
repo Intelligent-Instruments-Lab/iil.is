@@ -23,7 +23,7 @@ Thor wrote an article for a publication by the Musical Department of the Univers
 
 In short, it’s about the baseline of the IIL research questions. The title in English is: Smart Instruments - Understanding 21st Century AI Through Creative Music Technologies. 
 
-<a href="https://www.lhi.is/en/node/15311">Read full article here. </a>
+<a href="https://www.lhi.is/en/node/15311">Read full article here. </a> </p>
 
 <h2>An Interview in Hugarflug at the Start of the Project </h2>
 
