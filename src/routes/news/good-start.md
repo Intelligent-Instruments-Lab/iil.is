@@ -31,12 +31,12 @@ We used September to prototype a monochord (Icelandic *langspil*) ... which by t
   caption="Our first prototype."/>
 
 <CaptionedImage
-  src="stock/prototype_langspil_cardboard.jpg"
+  src="stock/prototype_langspil_plywood_1.jpg"
   alt="A plywood prototype of a long box-shaped instrument."
   caption="Our second prototype."/>
 
 <CaptionedImage
-  src="stock/prototype_langspil_cardboard.jpg"
+  src="stock/prototype_langspil_plywood_2_electrical_chords.jpg"
   alt="A complex prototype of a long box-shaped instrument with audio and electric cables connected."
   caption="And our third prototype."/>
 
