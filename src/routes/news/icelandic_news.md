@@ -6,7 +6,7 @@ description: "Introductions to the project in Icelandic"
 featured: true
 ---
 
-Primary investigator Thor Magnusson, has been asked on several occasions to present the project in the Icelandic media. These are some of our favourite moments, but keep in mind that all of the interviews are in his native tongue, Icelandic. 
+Primary investigator, Thor Magnusson, has been asked on several occasions to present the project in the Icelandic media. These are some of our favourite moments, but keep in mind that all of the interviews are in his native tongue, Icelandic. 
 
 <h2>An Article in Þræðir by Iceland University of Arts </h2>
 
