@@ -8,7 +8,7 @@ featured: true
 
 Primary investigator Thor Magnusson, has been asked on several occasions to present the project in the Icelandic media. These are some of our favourite moments, but keep in mind that all of the interviews are in his native tongue, Icelandic. 
 
-<h2>An Article in Þræðir by Iceland University of Arts <h2/>
+<h2>An Article in Þræðir by Iceland University of Arts </h2>
 
 Thor wrote an article for a publication by the Musical Department of the University of Iceland. This publication is called Þræðir and the article is written in Icelandic. Thor was asked by editor Atli Ingólfsson of Þræðir to provide him with a page or two about this topic and Thor was unable to find anything in Icelandic so he decided to write a short and interesting article himself.
 
@@ -21,7 +21,7 @@ In short, it’s about the baseline of the IIL research questions. The title in 
 
 <a href="https://www.lhi.is/en/node/15311">Read full article here. </a>
 
-<h2>An Interview in Hugarflug at the Start of the Project <h2/>
+<h2>An Interview in Hugarflug at the Start of the Project </h2>
 
 On February 12th 2021, Thor did a 60 minute live stream with the Hugarflug mini-conference hosted by the Iceland University of Arts. His aim was to answer the question of what meaning AI has for creative processes. 
 
@@ -32,7 +32,7 @@ On February 12th 2021, Thor did a 60 minute live stream with the Hugarflug mini-
 
 <a href="https://hugarflug.lhi.is/Torhallur-Magnusson">Watch the Interview here. </a>
 
-<h2>An Introduction in Fréttablaðið <h2/>
+<h2>An Introduction in Fréttablaðið </h2>
 
 On September 24th, mainstream media Fréttablaðið posted an interview with Thor about the project. There he explained the terms we’re working with and answered questions such as “what is a smart-instrument”, “do composers use AI in their creations?” and “how is the funding important for the topic?”
 
