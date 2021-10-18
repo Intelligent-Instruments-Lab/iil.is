@@ -1,9 +1,9 @@
 ---
 layout: home
 title: "IIL"
-slug: ""
+slug: "index"
 description: "Intelligent Instruments Lab"
-pitch: "We design musical instruments embedded with creative AI. We explore our instruments in musical performance and how we understand ourselves as users of intelligent technologies."
+pitch: "We design instruments embedded with creative AI for musical performance. New instruments for new music! Our aim is to understand ourselves as users of intelligent technologies. "
 hero_image: "research/projects/halldorophone.jpg"
 hero_caption: "The Halldorophone by Halldor Úlfarsson."
 ---
