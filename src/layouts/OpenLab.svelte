@@ -65,9 +65,8 @@
         </h1>
         <div class="mt-4 sm:mt-8 p-2">
           <!-- TODO: hidden paragraphs on small -->
-          <p>Communicating and discussing our research is part of our research methodology: we are interested in how people perceive instruments that inhibit intelligence of some sort.</p>
-          <p class="hidden sm:block">We are interested in a continuous informal conversation with people, in terms of ad-hoc visits to the lab that can result in conversations that become the seeds of new developments. For this reason, we open the doors to our lab on Friday afternoons, where we present some work we are developing or invite interesting people to talk about their work, in a friendly environment with tea and biscuits.</p>
-          <p>Our lab is located in Þverholt 11 on the 4th floor. Please pop by at 2pm on Fridays. We look forward to seeing you.</p>
+          <p>Communicating and discussing our research is part of our research methodology. We are interested in a continuous informal conversation with people, in terms of ad-hoc visits to the lab that can result in conversations that become the seeds of new developments. For this reason, we open the doors to our lab on Friday afternoons, where we present some work we are developing or invite interesting people to talk about their work, in a friendly environment with tea and biscuits.</p>
+          <p>Our lab is located in Þverholt 11 on the 4th floor. Please pop by at <b>3pm on Fridays</b>. We look forward to seeing you.</p>
         </div>
         <div class="mt-2 sm:p-2">
           <h2 class="font-hauser text-secondary
