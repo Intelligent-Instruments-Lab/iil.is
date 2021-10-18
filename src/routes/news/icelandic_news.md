@@ -23,7 +23,8 @@ Thor wrote an article for a publication by the Musical Department of the Univers
 
 In short, it’s about the baseline of the IIL research questions. The title in English is: Smart Instruments - Understanding 21st Century AI Through Creative Music Technologies. 
 
-<a href="https://www.lhi.is/en/node/15311">Read full article here. </a>
+<p><a href="https://www.lhi.is/en/node/15311">Read full article here. </a> </p>
+
 
 <h2>An Interview in Hugarflug at the Start of the Project </h2>
 
@@ -34,7 +35,8 @@ On February 12th 2021, Thor did a 60 minute live stream with the Hugarflug mini-
   alt="Two men sitting in chairs by a table, having a discussion."
   caption="Thor being interviewed in the Hugarflug series."/>
 
-<a href="https://hugarflug.lhi.is/Torhallur-Magnusson">Watch the Interview here. </a>
+<p><a href="https://hugarflug.lhi.is/Torhallur-Magnusson">Watch the Interview here. </a></p>
+
 
 <h2>An Introduction in Fréttablaðið </h2>
 
@@ -46,6 +48,7 @@ On September 24th, mainstream media Fréttablaðið posted an interview with Tho
   caption="Photo by EYÞÓR/Fréttablaðið."/>
 
 <a href="https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/">Read the full interview here. </a>
+
 
 <h2>An Interview on the National Radio Broadcast Iceland </h2>
 
