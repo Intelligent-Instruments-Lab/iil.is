@@ -37,6 +37,7 @@ On February 12th 2021, Thor did a 60 minute live stream with the Hugarflug mini-
 
 <a href="https://hugarflug.lhi.is/Torhallur-Magnusson">Watch the Interview here. </a>
 
+
 <h2>An Introduction in Fréttablaðið </h2>
 
 On September 24th, mainstream media Fréttablaðið posted an interview with Thor about the project. There he explained the terms we’re working with and answered questions such as "what is a smart-instrument", "do composers use AI in their creations?" and "how is the funding important for the topic?"
@@ -47,6 +48,7 @@ On September 24th, mainstream media Fréttablaðið posted an interview with Tho
   caption="Photo by EYÞÓR/Fréttablaðið."/>
 
 <a href="https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/">Read the full interview here. </a>
+
 
 <h2>An Interview on the National Radio Broadcast Iceland </h2>
 
