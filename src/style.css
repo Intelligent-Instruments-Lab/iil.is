@@ -17,6 +17,11 @@ p {
   color: #2f3635;
 }
 
+a {
+  /*text-decoration: underline #fff133;*/
+  color: #fff133;
+}
+
 .pagination-nav {
   @apply flex m-2 justify-center font-hauser mt-8 text-xl text-primary-900
 }
