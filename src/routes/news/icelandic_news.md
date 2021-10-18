@@ -35,7 +35,7 @@ On February 12th 2021, Thor did a 60 minute live stream with the Hugarflug mini-
   alt="Two men sitting in chairs by a table, having a discussion."
   caption="Thor being interviewed in the Hugarflug series."/>
 
-<a href="https://hugarflug.lhi.is/Torhallur-Magnusson">Watch the Interview here. </a>
+<p><a href="https://hugarflug.lhi.is/Torhallur-Magnusson">Watch the Interview here. </a></p>
 
 
 <h2>An Introduction in Fréttablaðið </h2>
