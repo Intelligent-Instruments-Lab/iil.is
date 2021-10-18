@@ -47,7 +47,7 @@ On September 24th, mainstream media Fréttablaðið posted an interview with Tho
   alt="A man standing with a part of a speaker. Shelves in the background."
   caption="Photo by EYÞÓR/Fréttablaðið."/>
 
-<a href="https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/">Read the full interview here. </a>
+<p><a href="https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/">Read the full interview here. </a></p>
 
 
 <h2>An Interview on the National Radio Broadcast Iceland </h2>
@@ -59,4 +59,4 @@ Shortly after receiving the ERC grant, on December 10th 2020, the Lestin program
   alt="A screen grab from RUV’s website. Man in the background on the left, on the right a silhouette of a man coding, a play button in the middle. Text at the bottom saying Tímamótastyrkur til rannsóknarverkefnis á velum LHÍ."
   caption="A screenshot of RÚV’s website."/>
 
-<a href="https://www.ruv.is/frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi">Listen and read the full interview here. </a>
+<p><a href="https://www.ruv.is/frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi">Listen and read the full interview here. </a></p>
