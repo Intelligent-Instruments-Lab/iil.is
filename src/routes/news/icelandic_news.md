@@ -25,6 +25,7 @@ In short, it’s about the baseline of the IIL research questions. The title in 
 
 <p><a href="https://www.lhi.is/en/node/15311">Read full article here. </a> </p>
 
+
 <h2>An Interview in Hugarflug at the Start of the Project </h2>
 
 On February 12th 2021, Thor did a 60 minute live stream with the Hugarflug mini-conference hosted by the Iceland University of Arts. His aim was to answer the question of what meaning AI has for creative processes. 
