@@ -5,10 +5,14 @@
   import { Layout } from '../stores/layout.js'
   import Menu from "../components/Menu/Menu.svelte"
 
-  export let layout = "news"
-  export let title = "News"
-  export let description = "News"
   export let items
+
+  let layout = "news"
+  let title = "News"
+  let description = "News about the Intelligent Instruments Lab"
+  $seo.title = title
+  $seo.description = description
+  $seo.url = "/news"
 
   $: featured = {
     size: 2, page: 1,
@@ -22,10 +26,6 @@
   $: featuredPaginated = paginate({ items: featured.items, pageSize: featured.size, currentPage: featured.page });
   $: allPaginated = paginate({ items: all.items, pageSize: all.size, currentPage: all.page });
 
-  $seo = {
-    title: title,
-    description: description,
-  };
 
   onMount(async () => {
     $Layout.menu = false
@@ -45,11 +45,6 @@
     },
   }
 </script>
-
-<svelte:head>
-  <title>{title}</title>
-  <meta name="description" content={description} />
-</svelte:head>
 
 {#if $Layout.menu}
   <Menu/>

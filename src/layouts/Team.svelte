@@ -12,14 +12,12 @@
   // sort members using order
   members = order.map(i => members.filter(m=>m.path.slice(2,-3) === i)[0])
 
-  export let title = "Team"
-  export let description = "Team"
-  export let layout = "team"
-
-  $seo = {
-    title: title,
-    description: description,
-  };
+  let title = "Team"
+  let description = "Meet the Intelligent Instruments Lab team!"
+  let layout = "team"
+  $seo.title = title
+  $seo.description = description
+  $seo.url = '/team'
   
   onMount(async () => {
     $Layout.menu = false

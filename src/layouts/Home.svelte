@@ -1,6 +1,5 @@
 <script>
-  import {onMount} from 'svelte'
-  import { seo } from "../stores/seo.js";
+  import { onMount } from 'svelte'
   import { Layout } from '../stores/layout.js'
   import Menu from "../components/Menu/Menu.svelte"
   import CTARow from "../components/Buttons/CTARow.svelte"
@@ -13,14 +12,9 @@
   export let hero_caption  
 
   let cta_links = [
-    { url: "/about", label: "Learn More", theme: "light" },
-    { url: "/collaborate", label: "Contact Us", theme: "dark" },
+    { url: "/about", label: "Learn More", theme: "light", target: "_self" },
+    { url: "/collaborate", label: "Contact Us", theme: "dark", target: "_self" },
   ]
-
-  $seo = {
-    title: title,
-    description: description,
-  };
 
   onMount(async () => {
     $Layout.menu = false

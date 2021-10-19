@@ -7,8 +7,11 @@
 
   export let layout = "openlab"
   export let title = "Open Lab"
-  export let description = "Open Lab"
+  export let description = "The Intelligent Instruments Lab opens its doors on Friday afternoons, where we present some work we are developing or invite interesting people to talk about their work, in a friendly environment with tea and biscuits."
   export let openlabs
+  $seo.title = title
+  $seo.description = description
+  $seo.url = '/openlab'
 
   let items = openlabs
   $: future = {
@@ -46,11 +49,6 @@
     },
   }
 </script>
-
-<svelte:head>
-  <title>{title}</title>
-  <meta name="description" content={description} />
-</svelte:head>
 
 {#if $Layout.menu}
   <Menu/>

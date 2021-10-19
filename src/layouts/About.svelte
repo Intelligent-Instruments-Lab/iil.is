@@ -10,14 +10,12 @@
   import { Layout } from '../stores/layout.js'
   import Menu from "../components/Menu/Menu.svelte"
   
-  export let title;
-  export let description;
+  export let title
+  export let description
   export let layout
-
-  $seo = {
-    title: title,
-    description: description,
-  };
+  $seo.title = title
+  $seo.description = description
+  $seo.url = '/about'
 
   onMount(async () => {
     $Layout.menu = false
