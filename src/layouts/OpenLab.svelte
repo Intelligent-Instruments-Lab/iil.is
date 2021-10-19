@@ -24,8 +24,8 @@
   $: pastPaginated = paginate({ items: past.items, pageSize: past.size, currentPage: past.page });
 
   $seo = {
-    title: 'Open Labs',
-    description: 'Open Labs',
+    title: title,
+    description: description,
   };
 
   onMount(async () => {
