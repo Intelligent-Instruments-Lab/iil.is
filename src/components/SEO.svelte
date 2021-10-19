@@ -13,7 +13,7 @@
   <meta property="og:url" content="https://iil.is/">
   <meta property="og:title" content="Intelligent Instruments Lab">
   <meta property="og:description" content={$seo.description}>
-  <meta property="og:image" content="/ogimage.jpg">
+  <meta property="og:image" content="/seo/ogimage.jpg">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
@@ -21,6 +21,6 @@
   <meta property="twitter:title" content="Intelligent Instruments Lab">
   <meta property="twitter:description" content={$seo.description}>
   <meta name="twitter:site" content="@_iil_is">
-  <meta property="twitter:image" content="https:/iil.is/ogimage.jpg">
+  <meta property="twitter:image" content="https:/iil.is/seo/ogimage.jpg">
 
 </svelte:head>
