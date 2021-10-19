@@ -3,9 +3,12 @@
   import { Layout } from '../../stores/layout.js'
 
   import List from './List.svelte'
-  import logo from '../../assets/svg/iil_logo_white.svg?url'
+  import logo from '../../assets/svg/iil_logo_white_fit.svg?url'
   import pages from "../../routes/pages.json"
   import contact from "../../routes/contact.json"
+
+  import ERC from './ERC.svelte'
+  import ERC_Mobile from './ERC_Mobile.svelte'
 
 </script>
 
@@ -19,17 +22,27 @@
 </style>
 
 <div class="{($Layout.menu || $Layout.page === 'home') ? 'menuActive' : 'menuInactive'}">
-  <div class="pt-8 pl-6 max-w-screen-xl hidden md:block ">
-    <div class="grid grid-cols-6">
-      <div class="col-span-2">
-        <a href="/">
-          <img
-            class="h-72"
-            src={logo}
-            alt="Intelligent Instruments Lab"/>
-        </a>
+  <div class="pt-8 pl-6 max-w-screen-xl hidden md:block mb-4">
+    <div class="grid grid-cols-8">
+      <div class="col-span-2 m-4">
+        <div class="mt-8 mb-8">
+          <a href="/">
+            <img
+              class="h-24 lg:h-36"
+              src={logo}
+              alt="Intelligent Instruments Lab"/>
+          </a>
+        </div>
+        <div class="text-sm">
+          <a href="https://goo.gl/maps/jX1wteK9MjdMKsg28" target="_blank">
+            <div class="text-white">Intelligent Instruments Lab</div>
+            <div class="text-white">Þverholt 11</div>
+            <div class="text-white">105 Reykjavík</div>
+            <div class="text-white">Iceland</div>
+          </a>
+        </div>
       </div>
-      <div class="col-span-4 py-12">
+      <div class="col-span-6 py-12">
         <div class="grid grid-cols-8">
           <div class="col-span-2">
             <List list={pages} name="Explore" target=""/>
@@ -38,15 +51,7 @@
             <List list={contact} name="Contact" target="_blank"/>
           </div>
           <div class="col-span-4">
-            <h1 class="font-hauser text-white text-lg">Address</h1>
-            <div class="px-2 py-3">
-              <a href="https://goo.gl/maps/jX1wteK9MjdMKsg28" target="_blank">
-                <div class="text-white">Intelligent Instruments Lab</div>
-                <div class="text-white">Þverholt 11</div>
-                <div class="text-white">105 Reykjavík</div>
-                <div class="text-white">Iceland</div>
-              </a>
-            </div>
+            <ERC/>
           </div>
         </div>
       </div>
@@ -67,6 +72,9 @@
             <div class="text-white">Iceland</div>
           </a>
         </div>
+      </div>
+      <div>
+        <ERC_Mobile/>
       </div>
     </div>
   </div>
