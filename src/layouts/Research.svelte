@@ -37,15 +37,21 @@
 
   const methods = {
     authorString: authors => {
-      if (authors.length === 1) return authors[0]
-      let s = ''
-      for (var i = 0; i < authors.length-1; i++) {
-        if (i < authors.length-2)
-          s = s + authors[i] + ', '
-        else
-          s = s + ' and ' + authors[i]
+      if (authors.length === 1)
+        return authors[0]
+      else if (authors.length === 2)
+        return authors[0] + ' and ' + authors[1]
+      else {
+        let s = ''
+        for (var i = 0; i < authors.length-1; i++) {
+          if (i < authors.length-2)
+            s = s + authors[i] + ', '
+          else
+            s = s + ' and ' + authors[i]
+        }
+        return s
       }
-      return s
+
     }
   }
 </script>
