@@ -16,7 +16,7 @@
         font-hauser
         uppercase"
       href={link.url}
-      target="_blank">
+      target={link.target}>
       {link.label}
     </a>
   </div>
@@ -33,7 +33,7 @@
         font-hauser
         uppercase"
       href={link.url}
-      target="_blank">
+      target={link.target}>
       {link.label}
     </a>
   </div>
