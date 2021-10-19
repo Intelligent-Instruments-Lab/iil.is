@@ -1,6 +1,6 @@
 ---
 layout: collaborate
-title: "Collaborate with us"
+title: "Collaborate"
 slug: "collaborate"
 description: "Collaborate with us"
 ---
