@@ -18,20 +18,15 @@
   // import { parseBibFile } from "../lib/bibtex/index/";
   // import pubs from '../routes/publications/publications.bib?raw'
   
+  export let layout
   export let publications
   const bib = Object.values(bibtex.parseBibFile(publications).entries$)
 
   let title = 'Outputs'
-  let description = 'Outputs'
-
-  export let layout
-
-  $seo = {
-    title: title,
-    description: description,
-  };
-
-
+  let description = "This page contains outputs from the Intelligent Instruments Lab."
+  $seo.title = title
+  $seo.description = description
+  $seo.url = '/outputs'
 
   // TODO: generate download of .bib file
 
@@ -66,7 +61,7 @@
         {title}
       </h1>
       <div class="p-2 sm:p-4">
-        <p>This page contains outputs from the Intelligent Instruments Lab, organised by date. Also see the latest news and events and press articles.</p>
+        <p>{description}</p>
         <!-- <slot/> -->
         <div class="h-6"></div>
         <h2 class="font-hauser text-secondary

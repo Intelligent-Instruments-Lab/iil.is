@@ -9,11 +9,9 @@
   export let layout
   export let date
   export let authors
-
-  $seo = {
-    title: title,
-    description: description,
-  };
+  $seo.title = title
+  $seo.description = description
+  $seo.url = '/research'
 
   const methods = {
     authorString: authors => {
@@ -40,11 +38,6 @@
     console.log('[Research]', $Layout.page, layout)
   })
 </script>
-
-<svelte:head>
-  <title>{title}</title>
-  <meta name="description" content={description} />
-</svelte:head>
 
 {#if $Layout.menu}
   <Menu/>

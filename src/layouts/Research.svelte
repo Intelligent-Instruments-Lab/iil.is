@@ -7,8 +7,11 @@
 
   export let layout = "research"
   export let title = "Research"
-  export let description = "Research"
+  export let description = "Research Projects from the Intelligent Instruments Lab."
   export let projects
+  $seo.title = title
+  $seo.description = description
+  $seo.url = '/research'
 
   let items = projects
 
@@ -23,11 +26,6 @@
 
   $: featuredPaginated = paginate({ items: featured.items, pageSize: featured.size, currentPage: featured.page });
   $: allPaginated = paginate({ items: all.items, pageSize: all.size, currentPage: all.page });
-
-  $seo = {
-    title: title,
-    description: description,
-  };
 
   onMount(async () => {
     $Layout.menu = false
@@ -54,11 +52,6 @@
     }
   }
 </script>
-
-<svelte:head>
-  <title>{title}</title>
-  <meta name="description" content={description} />
-</svelte:head>
 
 {#if $Layout.menu}
   <Menu/>

@@ -9,13 +9,11 @@
   export let description;
   export let layout
   export let date
+  $seo.title = title
+  $seo.description = description
+  $seo.url = '/openlab'
 
   let title = theme
-
-  $seo = {
-    title: title,
-    description: description,
-  };
 
   onMount(async () => {
     $Layout.menu = false
@@ -23,11 +21,6 @@
     console.log('[About]', $Layout.page, layout)
   })
 </script>
-
-<svelte:head>
-  <title>{title}</title>
-  <meta name="description" content={description} />
-</svelte:head>
 
 {#if $Layout.menu}
   <Menu/>
