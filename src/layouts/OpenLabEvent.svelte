@@ -9,7 +9,7 @@
   export let description;
   export let layout
   export let date
-  $seo.title = title
+  $seo.title = theme
   $seo.description = description
   $seo.url = '/openlab'
 
