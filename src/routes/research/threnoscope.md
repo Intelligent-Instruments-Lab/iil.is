@@ -4,6 +4,8 @@ title: "Threnoscope"
 description: "The Threnoscope is a live coding environment for long durations."
 featured: true
 authors: ["Thor Magnusson"]
+highlight_image: "research/projects/threnoscope.png"
+highlight_caption: "The Threnoscope by Thor Magnusson."
 ---
 
 The <a href="https://thormagnusson.github.io/threnoscope/" title="Threnoscope">Threnoscope</a> is a live coding system focusing on three key areas of music: spatial sound, timbre and texture, and tunings and scales. It has affordances that result in long durational notes that can move around in space, change timbre (through filtering, resonance frequencies and waveforms) and pitch according to implementation of numerous tunings and scales.

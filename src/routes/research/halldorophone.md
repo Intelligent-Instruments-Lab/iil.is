@@ -4,6 +4,8 @@ title: "Halldorophone"
 description: "The Halldorophone is a musical instrument."
 featured: true
 authors: ["Halldor Úlfarsson"]
+highlight_image: "research/projects/halldorophone.jpg"
+highlight_caption: "The Halldorophone by Halldor Úlfarsson."
 ---
 
 The halldorophone (Icelandic: dórófónn) is a cello-like electronic instrument created by artist and designer Halldór Úlfarsson.

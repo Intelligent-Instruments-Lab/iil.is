@@ -4,6 +4,8 @@ title: "Living Looper"
 description: "The musical looper as a network of intelligent processes."
 featured: true
 authors: ["Victor Shepardson"]
+highlight_image: "research/projects/supercollider.png"
+highlight_caption: "Living Looper by Victor Shepardson."
 ---
 
 A looper records a short segment of audio and plays it back in a loop. This can be used to set up a background drone or texture, or allow one musician to perform multiple parts. A multi-channel looper can hold the layers of a rich texture or a complex composition.

@@ -4,6 +4,8 @@ title: "Stenophone"
 description: "The Stenophone is a musical instrument for live coding."
 featured: true
 authors: ["Jack Armitage"]
+highlight_image: "research/projects/stenophone.jpg"
+highlight_caption: "The Stenophone by Jack Armitage."
 ---
 
 The <a href="https://github.com/jarmitage/Stenophone" target="_blank" title="Stenophone">Stenophone</a> is a musical instrument combining stenotype and live coding.
