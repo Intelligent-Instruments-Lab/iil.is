@@ -14,13 +14,21 @@
   $seo.url = '/openlab'
 
   let items = openlabs
+
   $: future = {
-    size: 2, page: 1,
-    items: items.filter(i=>new Date(i.metadata.date) > new Date())
+    size: 100, page: 1,
+    items:
+      items
+        .filter(i=>new Date(i.metadata.date) > new Date())
+        .sort((fst,snd)=>fst.metadata.edition - snd.metadata.edition)
   }
   $: past = {
     size: 4, page: 1,
-    items: items.filter(i=>new Date(i.metadata.date) < new Date()).reverse()
+    items:
+      items
+        .filter(i=>new Date(i.metadata.date) < new Date())
+        .sort((fst,snd)=>fst.metadata.edition - snd.metadata.edition)
+        .reverse()
   }
 
   $: futurePaginated = paginate({ items: future.items, pageSize: future.size, currentPage: future.page });
