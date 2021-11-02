@@ -9,7 +9,8 @@
   export let pitch
   export let layout
   export let hero_image
-  export let hero_caption  
+  export let hero_caption
+  export let hero_slug
 
   let cta_links = [
     { url: "/about", label: "Learn More", theme: "light", target: "_self" },
@@ -39,8 +40,10 @@
       py-0 md:py-6">
       <p class="text-md md:text-xl md:pr-16 text-primary-700">{pitch}</p>
       <div class=" w-5/6 mt-8">
-        <img class="shadow-sm" src={'./images/'+hero_image} alt={hero_caption}>
-        <p class="text-sm text-primary-500 mt-4">{hero_caption}</p>
+        <a href={hero_slug} title={hero_caption}>
+          <img class="shadow-sm" src={'./images/'+hero_image} alt={hero_caption}>
+          <p class="text-sm text-primary-500 mt-4">{hero_caption}</p>
+        </a>
       </div>
       <div class="mt-10">
         <CTARow links={cta_links}/>
