@@ -70,6 +70,17 @@ module.exports = {
       red: colors.rose,
       yellow: colors.amber,
     },
+    minHeight: {
+      '0': '0',
+      '1/16': '6.25%',
+      '1/12': '8.33%',
+      '1/8': '12.5%',
+      '1/6': '16.66%',
+      '1/4': '25%',
+      '1/2': '50%',
+      '3/4': '75%',
+      'full': '100%',
+    },
   },
   variants: {
     extend: {},
