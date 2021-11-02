@@ -3,12 +3,15 @@
   import { onMount } from 'svelte'
   import { Layout } from '../stores/layout.js'
   import Menu from "../components/Menu/Menu.svelte"
+  import CaptionedImage from "../components/Images/CaptionedImage.svelte"
   
   export let title
   export let description;
   export let layout
   export let date
   export let authors
+  export let highlight_image
+  export let highlight_caption
   $seo.title = title
   $seo.description = description
   $seo.url = '/research'
@@ -49,7 +52,7 @@
       <a href="/research">{'<-'} Back to Research</a>
     </div>
     <div class="
-      px-10 sm:px-12 md:px-14
+      px-4 md:px-10 sm:px-12 md:px-14
       max-w-3xl">
       <h1 class="font-hauser text-secondary
         text-4xl sm:text-5xl md:text-6xl 
@@ -57,11 +60,16 @@
         {title}
       </h1>
       <div class="px-2 sm:px-4 pt-4 pb-2 sm:pb-0
-        font-hauser uppercase 
-        text-sm sm:text-md text-primary-700
-        ">
-        {description}<br>
-        {methods.authorString(authors)}
+        text-primary-700">
+        <CaptionedImage src={highlight_image} alt={highlight_caption} caption={highlight_caption}/>
+        <div class="font-hauser uppercase">
+          <div class="text-md sm:text-lg md:text-xl">
+            {description}<br>
+          </div>
+          <div class="text-sm sm:text-md md:text-lg mt-2">
+            By {methods.authorString(authors)}
+          </div>
+        </div>
       </div>
       <div class="p-2 sm:p-4"><slot/></div>
     </div>
