@@ -10,18 +10,18 @@ featured: true
   import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-Primary investigator Thor Magnusson, has been asked on several occasions to present the project in the Icelandic media. These are some of our favourite moments, but keep in mind that all of the interviews are in his native tongue, Icelandic. 
+Primary Investigator Thor Magnusson, has been asked on several occasions to present the Intelligen Instruments project in the Icelandic media. These are some of our favourite moments, but note that all of the interviews are in Icelandic. 
 
-<h2>An Article in Þræðir by Iceland University of Arts </h2>
+<h2>An Article in Þræðir</h2>
 
-Thor wrote an article for a publication by the Musical Department of the University of Iceland. This publication is called Þræðir and the article is written in Icelandic. Thor was asked by editor Atli Ingólfsson of Þræðir to provide him with a page or two about this topic and Thor was unable to find anything in Icelandic so he decided to write a short and interesting article himself.
+Atli Ingólfsson, an editor of Þræðir - the research journal of the Iceland University of the Arts Music Department - invited us to write an article on the Intelligent Instruments project.
 
 <CaptionedImage
   src="stock/thraedir.png"
   alt="A photo of graphics from Thraedir web page. At the top it says Listaháskóli Íslands Iceland University of the Arts and at the bottom it says Þræðir. In the background, chaotic threads with motion blur."
   caption="A screen grab from the Thraedir website."/>
 
-In short, it’s about the baseline of the IIL research questions. The title in English is: Smart Instruments - Understanding 21st Century AI Through Creative Music Technologies. 
+The article discusses the baseline of the IIL research questions. The title in English is: Smart Instruments - Understanding 21st Century AI Through Creative Music Technologies. 
 
 <p><a href="https://www.lhi.is/en/node/15311">Read full article here. </a> </p>
 
@@ -40,7 +40,7 @@ On February 12th 2021, Thor did a 60 minute live stream with the Hugarflug mini-
 
 <h2>An Introduction in Fréttablaðið </h2>
 
-On September 24th, mainstream media Fréttablaðið posted an interview with Thor about the project. There he explained the terms we’re working with and answered questions such as "what is a smart-instrument", "do composers use AI in their creations?" and "how is the funding important for the topic?"
+On September 24th, mainstream media Fréttablaðið published an interview with Thor about the project. There he explained the terms we’re working with and answered questions such as "what is a smart-instrument", "do composers use AI in their creations?" and "how is the funding important for the topic?"
 
 <CaptionedImage
   src="stock/frettabladid21.jpg"
@@ -52,7 +52,7 @@ On September 24th, mainstream media Fréttablaðið posted an interview with Tho
 
 <h2>An Interview on the National Radio Broadcast Iceland </h2>
 
-Shortly after receiving the ERC grant, on December 10th 2020, the Lestin program of the National Radio Broadcast Services in Iceland (RÚV), interviewed Þórhallur about what this means for the science behind AI and instruments. 
+Shortly after receiving the ERC grant, on December 10th 2020, Lestin, a cultural program of the National Radio Broadcast Services in Iceland (RÚV), interviewed Thor about what this means for the science behind AI and instruments. 
 
 <CaptionedImage
   src="stock/lestin2020.png"
