@@ -57,7 +57,7 @@
   <Menu/>
 {:else}
   <div class="bg-primary border-dashed border-secondary border-4">
-    <main class="p-10 sm:p-12 md:p-14 max-w-3xl">
+    <main class="p-6 sm:p-12 md:p-14 max-w-5xl">
       <article>
         <h1 class="font-hauser text-secondary
           text-4xl sm:text-5xl md:text-6xl 
@@ -71,26 +71,51 @@
           <!-- <h2 class="font-hauser text-secondary
             text-2xl sm:text-3xl md:text-4xl 
             mb-8">Featured</h2> -->
-          <div class="grid grid-flow-row grid-cols-1 sm:grid-cols-2 gap-10">
-            {#each featuredPaginated as { metadata: { title, date, description, authors }, path }}
+          <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2">
+            {#each featuredPaginated as {
+              metadata: {
+                title, 
+                date, 
+                description, 
+                authors,
+                highlight_image,
+                highlight_caption
+              },
+              path
+            }}
+              <!-- border-dashed border-2 -->
               <div class="
-                border-primary-100 hover:border-white border-dashed border-2
+                border-primary-100 hover:border-white
                 shadow-sm hover:shadow-md rounded-sm
-                sm:w-72">
-                <div class="bg-primary-100 hover:bg-white">
+                w-64 sm:w-72 lg:w-96 
+                h-64 sm:h-72 lg:h-96
+                mb-8 sm:mb-12 lg:mb-16">
+                <div class="bg-primary-100">
                   <a sveltekit:prefetch href={'research/'+path.replace(/\.[^/.]+$/, "")}>
-                    <div class="px-4 py-4 h-64 grid grid-rows-2">
-                      <div>
-                        <h2 class="text-2xl mt-2 text-primary-700">{title}</h2>
-                        <p class="text-sm mt-4 text-primary-600">{description}</p>
-                      </div>
-                      <div class="self-end grid grid-cols-1 text-primary-500">
-                        <!-- <div class="text-sm font-hauser uppercase">
-                          {title}
-                        </div> -->
-                        <div class="text-sm font-hauser uppercase self-end text-right">
-                          {methods.authorString(authors)}
+                    <div
+                      class="bg-cover bg-no-repeat bg-center
+                      h-64 sm:h-72 lg:h-96
+                      flex flex-wrap content-end"
+                      style={"background-image: url(images/"+highlight_image+");"}>
+                      <div class="
+                        px-4 py-4
+                        w-64 sm:w-72 lg:w-96
+                        grid grid-rows-1 pb-8
+                        bg-primary-900 bg-opacity-75
+                        hover:bg-primary-800 hover:bg-opacity-50
+                        ">
+                        <div>
+                          <h2 class="text-2xl mt-2 text-white">{title}</h2>
+                          <div class="text-sm font-hauser text-white uppercase mt-4">
+                            {methods.authorString(authors)}
+                          </div>
+                          <p class="text-sm mt-2 text-white">{description}</p>
                         </div>
+                        <!-- <div class="self-end grid grid-cols-1 text-white">
+                          <div class="text-sm font-hauser uppercase self-end text-right">
+                            {methods.authorString(authors)}
+                          </div>
+                        </div> -->
                       </div>
                     </div>
                   </a>
