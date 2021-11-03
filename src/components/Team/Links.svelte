@@ -22,4 +22,7 @@
   {#if links.scholar}
     <Link url={"https://scholar.google.com/citations?user="+links.scholar} label="Scholar"/>
   {/if}
+  {#if links.website2}
+    <Link url={'http://'+links.website2} label={links.website2}/>
+  {/if}
 </div>
