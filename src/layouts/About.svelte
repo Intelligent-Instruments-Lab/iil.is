@@ -24,11 +24,6 @@
   })
 </script>
 
-<svelte:head>
-  <title>{title}</title>
-  <meta name="description" content={description} />
-</svelte:head>
-
 {#if $Layout.menu}
   <Menu/>
 {:else}
