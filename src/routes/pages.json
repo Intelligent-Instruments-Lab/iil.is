@@ -5,6 +5,5 @@
   { "label": "Research", "url": "/research" },
   { "label": "Outputs", "url": "/outputs" },
   { "label": "Open Lab", "url": "/openlab" },
-  { "label": "Collaborate", "url": "/collaborate" },
-  { "label": "Moving Strings", "url": "/events/moving-strings" }
+  { "label": "Collaborate", "url": "/collaborate" }
 ]
