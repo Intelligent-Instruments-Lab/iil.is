@@ -3,7 +3,7 @@ layout: researchproject
 title: "Proto-Langspil"
 description: "The Proto-Langspil is a feedback instrument with intelligent behaviour."
 featured: true
-authors: ["Thor Magnusson"]
+authors: ["Thor Magnusson", "Jack Armitage", "Halldor Ulfarsson", "Victor Shepardson"]
 highlight_image: "research/projects/protolangspil.jpg"
 highlight_caption: "The ii lab Proto-Langspil"
 ---
