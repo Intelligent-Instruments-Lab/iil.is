@@ -2,7 +2,7 @@
 name: "Esther Thorvalds"
 role: "Project Manager"
 email: "esther@lhi.is"
-image: "esther.jpg"
+image: "images/team/esther.jpg"
 links: {
   instagram: "estherthorvalds",
   twitter: "estherthorvalds"

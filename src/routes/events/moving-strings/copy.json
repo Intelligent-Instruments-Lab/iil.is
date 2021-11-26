@@ -1,0 +1,211 @@
+{
+  "top": {
+    "info": {
+      "tagline": "New and modified, electronically actuated string instruments, augmented with code and AI.",
+      "details": "6-10 Dec, Reykjavík, Iceland",
+      "description": [
+        "In the first international gathering hosted by the newly formed Intelligent Instruments Lab, at the Iceland University of the Arts, we bring together musicians and instrument makers who are using contemporary technologies to rethink how we play strings.",
+        "The symposium will focus on how digital processing, including dynamical systems and AI, can augment the nature of the string, a technical element we have used in our instruments for thousands of years. We seek to ask how new digital technologies change our interaction with strings and string instruments in general."
+      ]
+    },
+    "buttons": [{
+        "url": "#symposium",
+        "label": "Symposium",
+        "theme": "dark_alt",
+        "target": "_self"
+      },
+      {
+        "url": "#concert",
+        "label": "Concert",
+        "theme": "dark_alt",
+        "target": "_self"
+      },
+      {
+        "url": "#mrp",
+        "label": "Magnetic Resonator Piano",
+        "theme": "dark_alt",
+        "target": "_self"
+      }
+    ]
+  },
+  "symposium": {
+    "info": {
+      "title": "Moving Strings Symposium",
+      "details": "Tuesday 7, Þverholt, Room A, Free",
+      "description": "The Intelligent Instruments Lab invites everyone interested in new musical instruments to come to an open symposium where practicing musicians and instrument inventors present and discuss their work. The presentations are short 10-minute talks, followed by 5-minute Q&A. After the presentations we will have a panel discussing common themes, opening up for further interaction by the audience."
+    },
+    "programme": {
+      "presentations": {
+        "starttime": "14:00",
+        "chair": "Jack Armitage",
+        "presenters": [
+          {
+            "duration": "10",
+            "name": "Thor Magnusson",
+            "title": "Introduction",
+            "url": "#"
+          },
+          {
+            "duration": "15",
+            "name": "Andrew McPherson",
+            "title": "The Magnetic Resonator Piano so far",
+            "url": "#"
+          },
+          {
+            "duration": "15",
+            "name": "Chris Kiefer",
+            "title": "Feedback Cellos",
+            "url": "#"
+          },
+          {
+            "duration": "15",
+            "name": "Adam Pultz",
+            "title": "The Feedback Actuated Augmented Double Bass",
+            "url": "#"
+          },
+          {
+            "duration": "15",
+            "name": "Tabita Cargnel",
+            "title": "Venus smiles in nature",
+            "url": "#"
+          },
+          {
+            "duration": "15",
+            "name": "Davíð Brynjar Franzson",
+            "title": "Drone box",
+            "url": "#"
+          },
+          {
+            "duration": "15",
+            "name": "Halldór and Guðmundur Steinn Gunnarsson",
+            "title": "Composing for halldorophone",
+            "url": "#"
+          },
+          {
+            "duration": "15",
+            "name": "Victor Shepardsson",
+            "title": "No input mixer and Looper",
+            "url": "#"
+          }
+        ]
+      },
+      "panel": {
+        "chair": "Thor Magnusson",
+        "speakers": [
+          { "name": "Andrew McPherson", "url": "#" },
+          { "name": "Chris Kiefer", "url": "#" },
+          { "name": "Adam Pultz", "url": "#" },
+          { "name": "Tabita Cargnel", "url": "#" },
+          { "name": "Davíð Brynjar Franzson", "url": "#" }
+        ]
+      }
+    },
+    "buttons": [
+      {
+        "url": "https://www.facebook.com/events/584294452831227",
+        "label": "Event Page",
+        "theme": "dark_alt",
+        "target": "_blank"
+      }
+    ]
+  },
+  "concert": {
+    "info": {
+      "title": "Moving Strings Concert",
+      "details": "Thursday 9, Mengi, 2000 ISK",
+      "description": "As part of the Moving String symposium (URL) we are organising a concert in Mengi with some of our guests. The theme of the evening will be feedback instruments and resonating strings. There will be three performances by Tabita Kargnel (DE), Chris Kiefer (UK) and Adam Pultz (DK) all focusing on new ways of treating string instruments."
+    },
+    "buttons": [{
+        "url": "https://www.facebook.com/events/1003688887028231",
+        "label": "Event Page",
+        "theme": "dark_alt",
+        "target": "_blank"
+      },
+      {
+        "url": "https://www.mengi.net/events",
+        "label": "Buy Tickets",
+        "theme": "dark_alt",
+        "target": "_blank"
+      }
+    ],
+    "performers": [{
+        "name": "Tabita Cargnel",
+        "image": "/images/events/moving-strings/tabita.jpg",
+        "links": {
+          "instagram": "singing_tensegrity",
+          "video": "https://www.youtube.com/watch?v=KIy9Hm1NsaU",
+          "website": "tabitacargnel.com/work"
+        },
+        "description": "Venus Smiles is a sound sculpture for communal performance. Ringing copper tubes, suspended in an architectural tensegrity system, can be played as a musical instrument by using your hands, a bow or your voice. Every element of the Venus Smiles instrument is tuned the tubes main resonance note. The highly resonant and reverby sound creates an intense, immersive experience."
+      },
+      {
+        "name": "Chris Kiefer",
+        "image": "/images/events/moving-strings/chris.jpg",
+        "links": {
+          "website": "luuma.net",
+          "scholar": "66uLtDEAAAAJ",
+          "twitter": "luuma"
+        },
+        "description": "Chris Kiefer is an instrument designer and experimental musician from Brighton, UK. He will be playing an improvised piece with a new feedback string instrument, the Xiasri, The piece will explore two coupled feedback systems, one within the physical materials of the instrument, and one within software, using self-concatenative synthesis, where new sound is resynthesised from the instruments recent past."
+      },
+      {
+        "name": "Adam Pultz",
+        "image": "/images/events/moving-strings/adam.jpg",
+        "links": {
+          "website": "adampultz.com",
+          "video": "https://vimeo.com/adampultz",
+          "twitter": "AdamPultz",
+          "scholar": "ZwIT6hgAAAAJ"
+        },
+        "description": "Adam Pultz Melbye is a Berlin-based composer, musician and researcher He has released three double bass solo albums, appears on an additional 40+ releases and has toured Europe, the US, Australia and Japan. Adam has created fixed media pieces and sound installations for festivals, galleries and museums in Denmark, Australia, Germany and Austria. His writing has been published in international journals and conferences and he is currently guest editing an issue on feedback practices for the ECHO Journal at Orpheus Instituut, Gent."
+      }
+    ]
+  },
+  "mrp": {
+    "info": {
+      "title": "Magnetic Resonator Piano (MRP)",
+      "details": "Various dates, Fræðastofa 1, Skipholt, Free",
+      "description": "The magnetic resonator piano (MRP) is an augmented piano which uses electromagnets to elicit new sounds from the strings of a grand piano. The MRP extends the sonic vocabulary of the piano to include infinite sustain, crescendos from silence, harmonics, pitch bends and new timbres, all produced acoustically without the use of speakers."
+    },
+    "videos": [{
+        "url": "https://www.youtube.com/watch?list=PL0HKnypdS9i9DNlk-pOr7M1zrDX06o1Xg&v=f79d_oVqv4Y"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=GAb8RRKg8oo"
+      }
+    ],
+    "events": [{
+        "name": "Andrew McPherson Lecture",
+        "details": "Weds 8, 11:00-12:00, Fræðastofa 1, Skipholt",
+        "image": "/images/events/moving-strings/mrp_andrew.jpg",
+        "description": "In this talk Andrew will present the functionality of the Magnetic Resonator Piano. He will talk about how the instrument has been received by composers, performers and the public, and how the innovation of the instrument has happened. Andrew will also discuss how composers have rethought their relationship with the piano when encountering the instrument, for example through new notational practices.",
+        "links": {
+          "event": "https://www.facebook.com/events/596517608339693",
+          "website": "andrewmcpherson.org",
+          "website2": "instrumentslab.org",
+          "scholar": "9Je-3c4AAAAJ",
+          "twitter": "instrumentslab"
+        }
+      },
+      {
+        "name": "MRP Workshops",
+        "details": "Tue 7 - Thu 9, Fræðastofa 1, Skipholt (Sign-up required)",
+        "image": "/images/events/moving-strings/mrp_workshops.jpg",
+        "description": "We are excited to invite people interested in the Magnetic Resonator Piano to a workshop with the instrument. This new instrument will be located at the Music Department for years to come, and there will be plenty of opportunities to compose and perform with the instrument. The workshop will be lead by Tinna Þorsteinsdóttir who will introduce you to the instrument and give support, but equally give you time to spend alone with the instrument. People can sign up for the workshop as individuals or groups (e.g. composer-performer duo).",
+        "links": {
+          "event": "https://www.facebook.com/events/459429968869963",
+          "signup": "https://forms.office.com/r/5kE6JXerJf"
+        }
+      },
+      {
+        "name": "MRP Concert",
+        "details": "Fri 10, 17:00-18:30, Fræðastofa 1, Skipholt",
+        "image": "/images/events/moving-strings/mrp_concert.jpg",
+        "description": "The Intelligent Instruments Lab is happy to present the results of the workshop in the Magnetic Resonator Piano. Here Tinna Þorsteinsdóttir has been leading sessions with composers and performers who have been getting to know the MRP for a short time. The concert is a showcase of work-in-progress pieces, and it should be interesting to anyone who is interested in new music and how the piano can be expanded into future sounds.",
+        "links": {
+          "event": "https://www.facebook.com/events/3007719246107553"
+        }
+      }
+    ]
+  }
+}

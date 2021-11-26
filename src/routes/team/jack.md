@@ -2,7 +2,7 @@
 name: "Jack Armitage"
 role: "Postdoctoral Research Fellow"
 email: "jack@lhi.is"
-image: "jack.jpg"
+image: "images/team/jack.jpg"
 links: {
   twitter: "jdkarmitage",
   github: "jarmitage",
