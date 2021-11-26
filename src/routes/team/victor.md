@@ -2,7 +2,7 @@
 name: "Victor Shepardson"
 role: "PhD Student"
 email: "victor@lhi.is"
-image: "victor.jpg"
+image: "images/team/victor.jpg"
 links: {
   instagram: "victorrileys",
   twitter: "victorrileys",

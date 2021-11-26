@@ -2,7 +2,7 @@
 name: "Halldor Úlfarsson"
 role: "Fabricator"
 email: "hau@lhi.is"
-image: "halldor.jpg"
+image: "images/team/halldor.jpg"
 links: {
   instagram: "halldorophone",
   website: "halldorophone.info"

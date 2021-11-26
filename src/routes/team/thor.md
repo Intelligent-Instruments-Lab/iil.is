@@ -2,7 +2,7 @@
 name: "Thor Magnusson"
 role: "Principal Investigator"
 email: "thor.magnusson@lhi.is"
-image: "thor.jpg"
+image: "images/team/thor.jpg"
 links: {
   twitter: "thormagnusson",
   github: "thormagnusson",
