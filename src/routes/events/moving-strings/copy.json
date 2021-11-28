@@ -2,7 +2,7 @@
   "top": {
     "info": {
       "tagline": "New and modified, electronically actuated string instruments, augmented with code and AI.",
-      "details": "6-10 Dec, Reykjavík, Iceland",
+      "details": "7-10 Dec, Reykjavík, Iceland",
       "description": [
         "In the first international gathering hosted by the newly formed Intelligent Instruments Lab, at the Iceland University of the Arts, we bring together musicians and instrument makers who are using contemporary technologies to rethink how we play strings.",
         "The symposium will focus on how digital processing, including dynamical systems and AI, can augment the nature of the string, a technical element we have used in our instruments for thousands of years. We seek to ask how new digital technologies change our interaction with strings and string instruments in general."
@@ -30,7 +30,7 @@
   },
   "symposium": {
     "info": {
-      "title": "Moving Strings Symposium",
+      "title": "Symposium",
       "details": "Tuesday 7, Þverholt, Room A, Free",
       "description": "The Intelligent Instruments Lab invites everyone interested in new musical instruments to come to an open symposium where practicing musicians and instrument inventors present and discuss their work. The presentations are short 10-minute talks, followed by 5-minute Q&A. After the presentations we will have a panel discussing common themes, opening up for further interaction by the audience."
     },
@@ -111,7 +111,7 @@
   },
   "concert": {
     "info": {
-      "title": "Moving Strings Concert",
+      "title": "Concert",
       "details": "Thursday 9, Mengi, 2000 ISK",
       "description": "As part of the Moving String symposium (URL) we are organising a concert in Mengi with some of our guests. The theme of the evening will be feedback instruments and resonating strings. There will be three performances by Tabita Kargnel (DE), Chris Kiefer (UK) and Adam Pultz (DK) all focusing on new ways of treating string instruments."
     },

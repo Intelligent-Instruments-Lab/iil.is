@@ -12,7 +12,7 @@
   </h1>
   <div class="px-2 sm:px-4 pt-4 pb-2 sm:pb-0
     font-hauser uppercase 
-    text-sm sm:text-md text-primary-700
+    text-md sm:text-lg text-primary-700
     ">
     {details}<br>
   </div>

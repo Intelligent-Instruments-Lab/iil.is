@@ -32,9 +32,11 @@
       let start = methods.parseTime(starttime)
       let elapsed = 0
       for (var i = 0; i < presenters.length; i++) {
-        let p = presenters[i]
-        p.starttime = methods.addMins(start, elapsed + parseInt(p.duration))
-        elapsed += parseInt(p.duration)
+        let p = presenters
+        if (i>0) {
+          p[i].starttime = methods.addMins(start, elapsed + parseInt(p[i-1].duration))
+          elapsed += parseInt(p[i-1].duration)
+        } else p[i].starttime = starttime
       }
       console.log()
     },
@@ -67,91 +69,91 @@
   <Menu/>
 {:else}
   <!-- Content container -->
-  <div class="bg-primary-700">
+  <div class="bg-primary border-dashed border-secondary border-4 pt-4 pb-4">
     <!-- Top section -->
-    <div id="top" class="bg-primary-700
-      relative flex h-screen overflow-hidden"
-      >
-      <video loop muted
-        class="absolute z-10
-          w-auto min-w-full  max-w-none"
-        >
-        <source src="/vid/moving_strings.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      <div class="relative z-30 p-10">
-        <div class="mt-6 mb-12">
+    <div id="top">
+      <div class="
+        py-8 px-4 sm:p-12 md:p-14
+        max-w-6xl">
+        <div class="mb-8">
           <img class="" src={title_graphic} alt="Moving Strings"/>
         </div>
-        <div class="mb-8">
+        <div class="mb-8 px-4">
           <p class="font-hauser uppercase text-white text-xl">
             {copy.top.info.details}
           </p>
         </div>
-        <div class="max-w-lg">
-          <p class="text-white text-lg">{copy.top.info.tagline}</p>
+        <div class="grid grid-flow-row grid-cols-1 lg:grid-cols-2
+          px-2 sm:px-4 mt-4 mb-4">
+          <YT scale="1" id="aVMfArmsBag"/>
+        </div>
+        <div class="max-w-6xl px-4">
+          <p class="text-lg">{copy.top.info.tagline}</p>
           {#each copy.top.info.description as d}
-            <p class="text-white text-md">{d}</p>
+            <p class="text-md">{d}</p>
           {/each}
         </div>
-        <div class="mt-10 mb-10">
+        <div class="mt-10 mb-10 px-4">
           <CTARow links={copy.top.buttons}/>
         </div>
       </div>
     </div>
     <!-- Symposium -->
-    <div id="symposium" class="bg-primary border-dashed border-secondary border-4 pt-10 pb-10">
-      <!-- p-10 sm:p-12 md:p-14 -->
+    <div id="symposium">
       <div class="
-        px-10 sm:px-12 md:px-14
+        px-4 sm:p-12 md:p-14
         max-w-6xl">
         <Section
           title={copy.symposium.info.title}
           details={copy.symposium.info.details}
           description={copy.symposium.info.description}/>
+        <!-- CTA -->
+        <div class="p-4 pt-0">
+          <CTARow links={copy.symposium.buttons}/>
+        </div>
         <!-- Programme -->
         <div>
           <!-- Column 1 -->
           <div>
-            <div>Presentations</div>
-            <ul>
+            <div class="px-2 sm:px-4 pt-4 pb-2 sm:pb-0
+              font-hauser uppercase 
+              text-md sm:text-lg text-primary-700
+              ">Presentations (Chair: {copy.symposium.programme.presentations.chair})</div>
+            <ul class="p-2 sm:p-4 text-primary-900">
               {#each copy.symposium.programme.presentations.presenters as p, i}
                 <li>{p.starttime}: <a href={p.url}>{p.name}</a> - {p.title}</li>
               {/each}
             </ul> 
-            <div>Chair: {copy.symposium.programme.presentations.chair}</div>
           </div>
           <!-- Column 2 -->
           <div>
-            <div>Panel</div>
-            <ul>
+            <div class="px-2 sm:px-4 pt-4 pb-2 sm:pb-0
+              font-hauser uppercase 
+              text-md sm:text-lg text-primary-700
+              ">Panel (Chair: {copy.symposium.programme.panel.chair})</div>
+            <ul class="p-2 sm:p-4">
               {#each copy.symposium.programme.panel.speakers as s}
                 <li><a href={s.url}>{s.name}</a></li>
               {/each}
             </ul> 
-            <div>Chair: {copy.symposium.programme.panel.chair}</div>
           </div>
-        </div>
-        <!-- CTA -->
-        <div>
-          <CTARow links={copy.symposium.buttons}/>
         </div>
       </div>
     </div>
     <!-- Concert -->
-    <div id="concert" class="bg-primary border-dashed border-secondary border-4 w">
+    <div id="concert">
       <div class="
-        py-8 px-4 sm:p-12 md:p-14
+        px-4 sm:p-12 md:p-14
         max-w-6xl">
         <Section
           title={copy.concert.info.title}
           details={copy.concert.info.details}
           description={copy.concert.info.description}/>
         <!-- CTA -->
-        <div>
+        <div class="px-4">
           <CTARow links={copy.concert.buttons}/>
         </div>
-        <div class="p-2 sm:p-4">
+        <div class="p-2 sm:p-4 mt-8">
           <div>
             {#each copy.concert.performers as performer, index}
               <div class="md:py-6 md:px-2">
@@ -163,20 +165,19 @@
       </div>
     </div>  
     <!-- MRP -->
-    <div id="mrp" class="bg-primary border-dashed border-secondary border-4 w">
+    <div id="mrp">
       <div class="
-        py-8 px-4 sm:p-12 md:p-14
+        px-4 sm:p-12 md:p-14
         max-w-6xl">
         <Section
           title={copy.mrp.info.title}
           details={copy.mrp.info.details}
           description={copy.mrp.info.description}/>
         <!-- Videos -->
-        <div class="grid grid-flow-row grid-cols-1 lg:grid-cols-2
-        px-2 sm:px-4
-        mt-4 mb-4">
-          <YTP class="mt-20" scale="0.75" id="PL0HKnypdS9i9DNlk-pOr7M1zrDX06o1Xg"/>
-          <YT  class="mt-20" scale="0.75" id="GAb8RRKg8oo"/>
+        <div class="grid grid-flow-row grid-cols-1 lg:grid-cols-2 gap-10
+          px-2 sm:px-4 mt-4 mb-4">
+          <YTP scale="0.75" id="PL0HKnypdS9i9DNlk-pOr7M1zrDX06o1Xg"/>
+          <YT  scale="0.75" id="GAb8RRKg8oo"/>
         </div>
         <div class="p-2 sm:p-4">
           <div>
