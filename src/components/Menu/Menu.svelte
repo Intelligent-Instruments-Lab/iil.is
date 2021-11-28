@@ -8,14 +8,11 @@
 <div class="bg-secondary h-screen">
   <div class="
     flex flex-col 
-    px-12 md:px-20
     md:py-6 
-    md:mr-4">
+    md:mr-4
+    ml-8 sm:ml-12 md:ml-16">
     {#each pages as page, index}
-      <MenuItem 
-        url={page.url} 
-        label={page.label}
-        active={page.url.slice(1) === $Layout.page}/>
+      <MenuItem page={page}/>
     {/each}
   </div>
 </div>

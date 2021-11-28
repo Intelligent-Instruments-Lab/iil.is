@@ -3,6 +3,7 @@
   import { Layout } from '../stores/layout.js'
   import Menu from "../components/Menu/Menu.svelte"
   import CTARow from "../components/Buttons/CTARow.svelte"
+  import YT from '../components/Video/EmbedYouTube.svelte'
 
   export let title
   export let description
@@ -13,8 +14,7 @@
   export let hero_slug
 
   let cta_links = [
-    { url: "/about", label: "Learn More", theme: "light", target: "_self" },
-    { url: "/collaborate", label: "Contact Us", theme: "dark", target: "_self" },
+    { url: "/events/moving-strings", label: "Learn More", theme: "dark", target: "_self" }
   ]
 
   onMount(async () => {
@@ -32,7 +32,7 @@
     <div class="hidden md:block col-span-3">
       <Menu/>
     </div>
-    <div class="
+    <!-- <div class="
       sm:ml-4 md:ml-12
       max-w-xl
       col-span-8 md:col-span-5
@@ -44,6 +44,27 @@
           <img class="shadow-sm" src={'./images/'+hero_image} alt={hero_caption}>
           <p class="text-sm text-primary-500 mt-4">{hero_caption}</p>
         </a>
+      </div>
+      <div class="mt-10">
+        <CTARow links={cta_links}/>
+      </div>
+    </div> -->
+    <div class="
+      sm:ml-4 md:ml-12
+      max-w-xl
+      col-span-8 md:col-span-5
+      px-12 md:px-0 
+      py-0 md:py-6">
+      <div class="text-md md:text-xl md:pr-16 text-primary-700">
+        <p>{pitch}</p>
+        <p>
+          NEW! Our first event Moving Strings will take place in Reyjkavík from 7-10 December:
+        </p>
+      </div>
+      <div class=" w-5/6 mt-8">
+        <div class="">
+          <YT scale="1" id="aVMfArmsBag"/>
+        </div>
       </div>
       <div class="mt-10">
         <CTARow links={cta_links}/>

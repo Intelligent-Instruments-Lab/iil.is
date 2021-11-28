@@ -1,9 +1,7 @@
 <script>
   import { Layout } from '../../stores/layout.js'
 
-  export let url
-  export let label
-  export let active
+  export let page
 
   const onclick = e => {
     $Layout.menu = false
@@ -12,25 +10,48 @@
 </script>
 
 <style>
-  .link {
+  .default {
     @apply font-hauser uppercase 
-    text-xl sm:text-2xl lg:text-4xl 
+    text-xl sm:text-xl lg:text-3xl 
+    py-2 
+    tracking-wider 
+    text-primary-700;
+  }
+  .special {
+    @apply font-hauser uppercase 
+    text-xl sm:text-xl lg:text-3xl 
     py-2 
     tracking-wider 
     text-primary-700;
   }
 </style>
 
-{#if active}
-<a class="link"
-  href='#'
-  on:click|preventDefault={onclick}>
-  {label}
-</a>
-{:else}
-<a
-  class="link"
-  href={url}>
-  {label}
-</a>
+{#if page.style === "default"}
+  {#if page.url.slice(1) === $Layout.page}
+    <a class="default"
+      href='#'
+      on:click|preventDefault={onclick}>
+      {page.label}
+    </a>
+  {:else}
+    <a
+      class="default"
+      href={page.url}>
+      {page.label}
+    </a>
+  {/if}
+{:else if page.style === "special"}
+  {#if page.url.slice(1) === $Layout.page}
+    <a class="special"
+      href='#'
+      on:click|preventDefault={onclick}>
+      {page.label}
+    </a>
+  {:else}
+    <a
+      class="special"
+      href={page.url}>
+      {page.label}
+    </a>
+  {/if}  
 {/if}
