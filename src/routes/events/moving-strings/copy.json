@@ -43,60 +43,60 @@
             "duration": "10",
             "name": "Thor Magnusson",
             "title": "Introduction",
-            "url": "#"
+            "url": "https://thormagnusson.github.io/"
           },
           {
             "duration": "15",
             "name": "Andrew McPherson",
             "title": "The Magnetic Resonator Piano so far",
-            "url": "#"
+            "url": "http://andrewmcpherson.org"
           },
           {
             "duration": "15",
             "name": "Chris Kiefer",
             "title": "Feedback Cellos",
-            "url": "#"
+            "url": "https://luuma.net/"
           },
           {
             "duration": "15",
             "name": "Adam Pultz",
             "title": "The Feedback Actuated Augmented Double Bass",
-            "url": "#"
+            "url": "http://adampultz.com/"
           },
           {
             "duration": "15",
             "name": "Tabita Cargnel",
             "title": "Venus smiles in nature",
-            "url": "#"
+            "url": "https://tabitacargnel.com/work"
           },
           {
             "duration": "15",
             "name": "Davíð Brynjar Franzson",
             "title": "Drone box",
-            "url": "#"
+            "url": "http://franzson.com/"
           },
           {
             "duration": "15",
             "name": "Halldór and Guðmundur Steinn Gunnarsson",
             "title": "Composing for halldorophone",
-            "url": "#"
+            "url": "https://www.halldorophone.info/"
           },
           {
             "duration": "15",
-            "name": "Victor Shepardsson",
+            "name": "Victor Shepardson",
             "title": "No input mixer and Looper",
-            "url": "#"
+            "url": "https://victor-shepardson.github.io/"
           }
         ]
       },
       "panel": {
         "chair": "Thor Magnusson",
         "speakers": [
-          { "name": "Andrew McPherson", "url": "#" },
-          { "name": "Chris Kiefer", "url": "#" },
-          { "name": "Adam Pultz", "url": "#" },
-          { "name": "Tabita Cargnel", "url": "#" },
-          { "name": "Davíð Brynjar Franzson", "url": "#" }
+          { "name": "Andrew McPherson", "url": "http://andrewmcpherson.org" },
+          { "name": "Chris Kiefer", "url": "https://luuma.net/" },
+          { "name": "Adam Pultz", "url": "http://adampultz.com/" },
+          { "name": "Tabita Cargnel", "url": "https://tabitacargnel.com/work" },
+          { "name": "Davíð Brynjar Franzson", "url":"http://franzson.com/" }
         ]
       }
     },

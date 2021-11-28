@@ -121,7 +121,7 @@
               ">Presentations (Chair: {copy.symposium.programme.presentations.chair})</div>
             <ul class="p-2 sm:p-4 text-primary-900">
               {#each copy.symposium.programme.presentations.presenters as p, i}
-                <li>{p.starttime}: <a href={p.url}>{p.name}</a> - {p.title}</li>
+                <li>{p.starttime}: <a href={p.url} target="_blank">{p.name}</a> - {p.title}</li>
               {/each}
             </ul> 
           </div>
