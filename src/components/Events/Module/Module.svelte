@@ -8,12 +8,12 @@
 </script>
 
 <div class="flex">
-  <div class="flex lg:space-x-10">
+  <div class="flex lg:space-x-10 space-y-8">
     <Photo src={content.image} name={content.name}/>
     <div>
       <div class="flex flex-wrap">
         <Thumb src={content.image} name={content.name}/>
-        <div class="flex flex-col sm:ml-4 lg:ml-0">
+        <div class="flex flex-col ml-4 lg:ml-0">
           <h1 class="font-hauser text-secondary text-3xl mt-4">
             {content.name}
           </h1>
@@ -22,7 +22,7 @@
           {/if}
         </div>
       </div>
-      <div class="px-2 mb-16 ">
+      <div class="px-2">
         <p class="
           mt-2 sm:mt-4 mb-6 
           md:max-w-xl lg:max-w-1xl
