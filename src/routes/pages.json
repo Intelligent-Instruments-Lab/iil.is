@@ -1,9 +1,42 @@
 [
-  { "label": "About", "url": "/about" },
-  { "label": "Team", "url": "/team" },
-  { "label": "News", "url": "/news" },
-  { "label": "Research", "url": "/research" },
-  { "label": "Outputs", "url": "/outputs" },
-  { "label": "Open Lab", "url": "/openlab" },
-  { "label": "Collaborate", "url": "/collaborate" }
+  {
+    "label": "Moving Strings",
+    "url": "/events/moving-strings", 
+    "style": "special"
+  },
+  {
+    "label": "About", 
+    "url": "/about" , 
+    "style": "default"
+  },
+  {
+    "label": "Team", 
+    "url": "/team" , 
+    "style": "default"
+  },
+  {
+    "label": "News", 
+    "url": "/news", 
+    "style": "default"
+  },
+  {
+    "label": "Research", 
+    "url": "/research" , 
+    "style": "default"
+  },
+  {
+    "label": "Outputs", 
+    "url": "/outputs" , 
+    "style": "default"
+  },
+  {
+    "label": "Open Lab",
+    "url": "/openlab" , 
+    "style": "default"
+  },
+  {
+    "label": "Collaborate", 
+    "url": "/collaborate",
+    "style": "default"
+  }
 ]
