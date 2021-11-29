@@ -1,11 +1,11 @@
 {
   "top": {
     "info": {
-      "tagline": "New and modified, electronically actuated string instruments, augmented with code and AI.",
+      "tagline": "Events on new and modified, electronically actuated string instruments, augmented with code and AI.",
       "details": "7-10 Dec, Reykjavík, Iceland",
       "description": [
         "In the first international gathering hosted by the newly formed Intelligent Instruments Lab, at the Iceland University of the Arts, we bring together musicians and instrument makers who are using contemporary technologies to rethink how we play strings.",
-        "The symposium will focus on how digital processing, including dynamical systems and AI, can augment the nature of the string, a technical element we have used in our instruments for thousands of years. We seek to ask how new digital technologies change our interaction with strings and string instruments in general."
+        "How can digital processing, including dynamical systems and AI, augment the nature of the string, a technical element we have used in our instruments for thousands of years? How do new digital technologies change our interaction with strings and string instruments in general?"
       ]
     },
     "buttons": [{
@@ -32,7 +32,7 @@
     "info": {
       "title": "Symposium",
       "details": "Tuesday 7, Þverholt, Room A, Free",
-      "description": "The Intelligent Instruments Lab invites everyone interested in new musical instruments to come to an open symposium where practicing musicians and instrument inventors present and discuss their work. The presentations are short 10-minute talks, followed by 5-minute Q&A. After the presentations we will have a panel discussing common themes, opening up for further interaction by the audience."
+      "description": "The Intelligent Instruments Lab invites everyone interested in new musical instruments to come to an open symposium where practicing musicians and instrument inventors present and discuss their work. The presentations consist of short talks followed by Q&A. After the presentations we will have a panel discussing common themes, opening up for further interaction by the audience."
     },
     "programme": {
       "presentations": {
@@ -141,7 +141,7 @@
       }
     ],
     "performers": [{
-        "name": "Tabita Cargnel",
+        "name": "Tabita Cargnel (DE)",
         "image": "/images/events/moving-strings/tabita.jpg",
         "links": {
           "instagram": "singing_tensegrity",
@@ -151,7 +151,7 @@
         "description": "Venus Smiles is a sound sculpture for communal performance. Ringing copper tubes, suspended in an architectural tensegrity system, can be played as a musical instrument by using your hands, a bow or your voice. Every element of the Venus Smiles instrument is tuned to the tubes main resonance note. The highly resonant and reverby sound creates an intense, immersive experience."
       },
       {
-        "name": "Chris Kiefer",
+        "name": "Chris Kiefer (UK)",
         "image": "/images/events/moving-strings/chris.jpg",
         "links": {
           "website": "luuma.net",
@@ -161,7 +161,7 @@
         "description": "Chris Kiefer is an instrument designer and experimental musician from Brighton, UK. He will be playing an improvised piece with a new feedback string instrument, the Xiasri, The piece will explore two coupled feedback systems, one within the physical materials of the instrument, and one within software, using self-concatenative synthesis, where new sound is resynthesised from the instruments recent past."
       },
       {
-        "name": "Adam Pultz",
+        "name": "Adam Pultz (DK/DE)",
         "image": "/images/events/moving-strings/adam.jpg",
         "links": {
           "website": "adampultz.com",
