@@ -131,9 +131,10 @@
               font-hauser uppercase 
               text-md sm:text-lg text-primary-700
               ">Panel (Chair: {copy.symposium.programme.panel.chair})</div>
+            <div class="pl-2 sm:pl-4 text-primary-700">16:25-17:00</div>
             <ul class="p-2 sm:p-4">
               {#each copy.symposium.programme.panel.speakers as s}
-                <li><a href={s.url}>{s.name}</a></li>
+                <li class="text-primary-700"><a href={s.url}>{s.name}</a></li>
               {/each}
             </ul> 
           </div>
