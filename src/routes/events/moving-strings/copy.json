@@ -41,31 +41,31 @@
         "presenters": [
           {
             "duration": "10",
-            "name": "Thor Magnusson",
+            "name": "Thor Magnusson (IS)",
             "title": "Introduction",
             "url": "https://thormagnusson.github.io/"
           },
           {
             "duration": "15",
-            "name": "Andrew McPherson",
+            "name": "Andrew McPherson (US/UK)",
             "title": "The Magnetic Resonator Piano so far",
             "url": "http://andrewmcpherson.org"
           },
           {
             "duration": "15",
-            "name": "Chris Kiefer",
+            "name": "Chris Kiefer (UK)",
             "title": "Feedback Cellos",
             "url": "https://luuma.net/"
           },
           {
             "duration": "15",
-            "name": "Adam Pultz",
+            "name": "Adam Pultz (DK/DE)",
             "title": "The Feedback Actuated Augmented Double Bass",
             "url": "http://adampultz.com/"
           },
           {
             "duration": "15",
-            "name": "Tabita Cargnel",
+            "name": "Tabita Cargnel (DE)",
             "title": "Venus smiles in nature",
             "url": "https://tabitacargnel.com/work"
           },
@@ -77,19 +77,19 @@
           },
           {
             "duration": "15",
-            "name": "Halldór and Guðmundur Steinn Gunnarsson",
+            "name": "Halldór and Guðmundur Steinn Gunnarsson (IS)",
             "title": "Composing for halldorophone",
             "url": "https://www.halldorophone.info/"
           },
           {
             "duration": "15",
-            "name": "Davíð Brynjar Franzson",
+            "name": "Davíð Brynjar Franzson (IS/US)",
             "title": "Drone box",
             "url": "http://franzson.com/"
           },
           {
             "duration": "15",
-            "name": "Victor Shepardson",
+            "name": "Victor Shepardson (US/IS)",
             "title": "No input mixer and Living Looper",
             "url": "https://victor-shepardson.github.io/"
           },
@@ -104,11 +104,11 @@
       "panel": {
         "chair": "Thor Magnusson",
         "speakers": [
-          { "name": "Andrew McPherson", "url": "http://andrewmcpherson.org" },
-          { "name": "Chris Kiefer", "url": "https://luuma.net/" },
-          { "name": "Adam Pultz", "url": "http://adampultz.com/" },
-          { "name": "Tabita Cargnel", "url": "https://tabitacargnel.com/work" },
-          { "name": "Davíð Brynjar Franzson", "url":"http://franzson.com/" }
+          { "name": "Andrew McPherson (US/UK)", "url": "http://andrewmcpherson.org" },
+          { "name": "Chris Kiefer (UK)", "url": "https://luuma.net/" },
+          { "name": "Adam Pultz (DK/DE)", "url": "http://adampultz.com/" },
+          { "name": "Tabita Cargnel (DE)", "url": "https://tabitacargnel.com/work" },
+          { "name": "Davíð Brynjar Franzson (IS)", "url":"http://franzson.com/" }
         ]
       }
     },
