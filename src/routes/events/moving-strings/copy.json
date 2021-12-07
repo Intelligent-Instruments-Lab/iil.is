@@ -31,7 +31,7 @@
   "symposium": {
     "info": {
       "title": "Symposium",
-      "details": "Tuesday 7, Þverholt, Room A, Free",
+      "details": "Wednesday, Online - Zoom, Free",
       "description": "The Intelligent Instruments Lab invites everyone interested in new musical instruments to come to an open symposium where practicing musicians and instrument inventors present and discuss their work. The presentations consist of short talks followed by Q&A. After the presentations we will have a panel discussing common themes, opening up for further interaction by the audience."
     },
     "programme": {
@@ -123,9 +123,9 @@
   },
   "concert": {
     "info": {
-      "title": "Concert",
+      "title": "Concert CANCELLED",
       "details": "Thursday 9, Mengi, 2000 ISK",
-      "description": "We are happy to announce the Moving Strings Concert at Mengi where some of our guests will perform. The theme of the evening will be feedback instruments and resonating strings. Performers are Tabita Cargnel (DE) with her singing tensegrity sculpture, Chris Kiefer (UK) with his new feedback instrument and Adam Pultz (DK) with his feedback-actuated bass. All are focusing on new ways of treating string instruments."
+      "description": "Unfortunately, due to a COVID related incident, we must cancel the Moving Strings Concert. Some of our guests were scheduled to perform. The theme of the evening was meant to be feedback instruments and resonating strings. Performers: Tabita Cargnel (DE) with her singing tensegrity sculpture, Chris Kiefer (UK) with his new feedback instrument and Adam Pultz (DK) with his feedback-actuated bass. All are focusing on new ways of treating string instruments. This event is cancelled."
     },
     "buttons": [{
         "url": "https://www.facebook.com/events/1003688887028231",
@@ -188,9 +188,9 @@
     ],
     "events": [{
         "name": "Andrew McPherson Lecture",
-        "details": "Weds 8, 11:00-12:00, Fræðastofa 1, Skipholt",
+        "details": "Weds 8, 11:00-12:00, Online - Zoom",
         "image": "/images/events/moving-strings/mrp_andrew.jpg",
-        "description": "In this talk Andrew will present the functionality of the Magnetic Resonator Piano. He will talk about how the instrument has been received by composers, performers and the public, and how the innovation of the instrument has happened. Andrew will also discuss how composers have rethought their relationship with the piano when encountering the instrument, for example through new notational practices.",
+        "description": "In this online talk Andrew will present the functionality of the Magnetic Resonator Piano. He will talk about how the instrument has been received by composers, performers and the public, and how the innovation of the instrument has happened. Andrew will also discuss how composers have rethought their relationship with the piano when encountering the instrument, for example through new notational practices.",
         "links": {
           "event": "https://www.facebook.com/events/596517608339693",
           "website": "andrewmcpherson.org",
