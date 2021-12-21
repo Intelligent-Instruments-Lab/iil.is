@@ -1,8 +1,8 @@
 ---
 layout: news
-date: "2021-10-18"
+date: "2021-12-18"
 title: "Moving String Symposium"
-description: "New and modified, electronically actuated string instruments, augmented with code and AI"
+description: "An International Symposium in Reykjavik on New ways of Moving Strings"
 featured: true
 ---
 
