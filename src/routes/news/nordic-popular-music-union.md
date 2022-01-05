@@ -3,7 +3,7 @@ layout: news
 date: "2021-11-02"
 title: "Nordic Popular Music Union"
 description: "Talk: AI in pop music"
-featured: true
+featured: false
 ---
 
 <script>
