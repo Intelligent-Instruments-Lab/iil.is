@@ -16,11 +16,17 @@
 
   $: featured = {
     size: 2, page: 1,
-    items: items.filter(i=>i.metadata.featured === true)
+    items:
+      items
+        .filter(i=>i.metadata.featured === true)
+        .sort((fst,snd)=>new Date(fst.metadata.date) - new Date(snd.metadata.date))
+        .reverse()
   }
   $: all = {
     size: 4, page: 1,
-    items: items
+    items:
+      items.sort((fst,snd)=>new Date(fst.metadata.date) - new Date(snd.metadata.date))
+      .reverse()
   }
 
   $: featuredPaginated = paginate({ items: featured.items, pageSize: featured.size, currentPage: featured.page });

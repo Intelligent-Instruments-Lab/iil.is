@@ -3,7 +3,7 @@ layout: news
 date: "2021-12-18"
 title: "Moving String Symposium"
 description: "An International Symposium in Reykjavik on New ways of Moving Strings"
-featured: true
+featured: false
 ---
 
 <script>
