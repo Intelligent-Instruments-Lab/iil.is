@@ -10,7 +10,7 @@ featured: true
   import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-Primary Investigator Thor Magnusson, has been asked on several occasions to present the Intelligen Instruments project in the Icelandic media. These are some of our favourite moments, but note that all of the interviews are in Icelandic. 
+Primary Investigator Thor Magnusson, has been asked on several occasions to present the Intelligent Instruments project in the Icelandic media. These are some of our favourite moments, note that all of the interviews are in Icelandic. 
 
 <h2>An Article in Þræðir</h2>
 
