@@ -32,7 +32,7 @@ Information: [https://en.rannis.is/funding/research/icelandic-student-innovation
 
 **How to apply:**
 
-If you think your idea is a good fit for the IIL lab, don’t hesitate to contact us! Please send us an email with a paragraph that includes the following information: university, course of studies, current degree, musical background and project idea. We look forward to hearing from you.
+If you think your idea is a good fit for the IIL lab, don’t hesitate to contact us! Please send us an email (thor.magnusson@lhi.is) with a paragraph that includes the following information: university, course of studies, current degree, musical background and project idea. We look forward to hearing from you.
 
 
 <CaptionedImage
@@ -65,6 +65,6 @@ Nánar: [https://www.rannis.is/sjodir/menntun/nyskopunarsjodur-namsmanna/nr/19](
 
 Hvernig á að sækja um:
 
-Ef þú heldur að þín hugmynd eigi heima á IIL rannsóknarstofunni skaltu ekki hika við að hafa samband! Vinsamlegast sendu okkur tölvupóst með stuttum texta sem inniheldur eftirfarandi atriði: háskóli, fag, núverandi gráða, tónlistarbakgrunn og hugmynd að verkefni. Við hlökkum til að heyra frá ykkur!
+Ef þú heldur að þín hugmynd eigi heima á IIL rannsóknarstofunni skaltu ekki hika við að hafa samband! Vinsamlegast sendu okkur tölvupóst (thor.magnusson@lhi.is) með stuttum texta sem inniheldur eftirfarandi atriði: háskóli, fag, núverandi gráða, tónlistarbakgrunn og hugmynd að verkefni. Við hlökkum til að heyra frá ykkur!
 
 
