@@ -36,9 +36,9 @@ If you think your idea is a good fit for the IIL lab, don’t hesitate to contac
 
 
 <CaptionedImage
-  src="stock/student_IIL.png"
+  src="stock/student_IIL.jpeg"
   alt="A young man sitting with an intelligent string instrument in front of blue and yellow shelves."
-  caption="Doctoral student Victor studying the langspil at our offices in IUA Þverholt."/>
+  caption="Doctoral student Victor studying the langspil at our lab in IUA Þverholt."/>
 
 
 **Sumarstörf fyrir nemendur við Intelligent Instruments Lab**
