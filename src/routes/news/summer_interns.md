@@ -6,7 +6,7 @@ description: "Opportunities for students to join the IIL"
 featured: true
 ---
 
-<script> import CaptionedImage from "../../components/Images/student_IIL.svelte" </script>
+<script> import CaptionedImage from "../../components/Images/CaptionedImage.svelte" </script>
 
 -Icelandic text below-
 
