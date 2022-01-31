@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2021-01-31"
+date: "2022-01-31"
 title: "Summer Internships at the IIL"
 description: "Opportunities for students to join the IIL"
 featured: true
