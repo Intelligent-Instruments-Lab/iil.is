@@ -19,6 +19,11 @@ In the news segment we take a look at the halldorophone, a built-to-feedback, el
 
 The halldorophone has recently received support from Technology Development Fund Iceland. In a project called “Evolution of halldorophones” select musical institutions will receive halldorophone on loan in for a period of two years, allowing musicians and students access to the instrument and collecting data for Halldór to further development of the project. 
 
+<CaptionedImage
+  src="stock/halldorophone3.png"
+  alt="A wooden cello like instrument embedded with electronic parts."
+  caption="The halldorophone that is now in the possession of IUA."/>
+
 Sigurður Halldórsson, professor and head of musical department at Iceland University of the Arts, demonstrated the halldorophone for those present and told us about his feelings about the instrument. He said he had expected something familiar to a trained cellist, but coming to understand that this was a fundamentally different musical tool with a mind of its own. He expressed an understanding to have to put aside his training in order to be able embrace the new adventures this instrument offers.
 
 The halldorophone has become somewhat known after composer Hildur Guðnadóttir was awarded the Academy Awards for her music in the film Joker, as she used the instrument to write and perform music in the film. Particularly in a scene called Bathroom Dance, where the main character transforms from a victim to perpetrator. Halldór is grateful for her contribution to the instrument’s recognition, as she has regularly mentioned the halldorophone when interviewed about her work.
