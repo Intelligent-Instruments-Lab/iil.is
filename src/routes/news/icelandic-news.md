@@ -3,7 +3,7 @@ layout: news
 date: "2021-10-18"
 title: "In the Icelandic Media"
 description: "Introductions to the project in Icelandic"
-featured: true
+featured: false
 ---
 
 <script>
