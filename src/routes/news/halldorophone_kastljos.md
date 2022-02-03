@@ -36,5 +36,5 @@ Futhermore, Halldór adds how pleasing it is that the halldorophone will now be 
 
 Guðrún Sóley dropped by at the Yellow Lab after the ceremony and Thor Magnusson, our primary investigator, showed her some of the instruments we are studying, making and playing. He explained how this lab seeks to understand how artificial intelligence becomes a part of music. Among the instruments we saw were the Linnstrument, AI embedded traditional Icelandic Langspil and the Basque Txalaparta. Thor explains how instruments have a close relationship with the players and how embedding AI can allow the instrument to suggest new ways of playing and composing.
 
-Watch the segment here:
+Watch the segment from RÚV here:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LFDXomBusRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
