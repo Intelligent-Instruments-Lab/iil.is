@@ -2,7 +2,7 @@
 layout: news
 date: "2022-02-03"
 title: "Iceland Univeristy of the Arts receives its very own halldorophone"
-description: "Kastljós interview about the halldorophone"
+description: "Kastljos news segment about the halldorophone"
 featured: true
 ---
 
@@ -20,7 +20,7 @@ In the news segment we take a look at the halldorophone, a built-to-feedback, el
 The halldorophone has recently received support from Technology Development Fund Iceland. In a project called “Evolution of halldorophones” select musical institutions will receive halldorophone on loan in for a period of two years, allowing musicians and students access to the instrument and collecting data for Halldór to further development of the project. 
 
 <CaptionedImage
-  src="stock/halldorophone3.jpg"
+  src="stock/halldorophone.jpeg"
   alt="A wooden cello like instrument embedded with electronic parts."
   caption="The halldorophone that is now in the possession of IUA."/>
 
