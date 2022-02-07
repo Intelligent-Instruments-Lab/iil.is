@@ -10,7 +10,7 @@ featured: true
 
 Thor Magnusson's text <i>Designing the Threnoscope, or, How I Wrote One of My Pieces</i> has just been published in a new Orpheus Institute Publicaton called <a href="https://orpheusinstituut.be/en/publications/sound-work" target="_blank">Sound Work</a>. 
 
-Download the chapter here:<a href="pdfs/Magnusson_SoundWork.pdf" target="_blank"> PDF</a>]</p> 
+Download the chapter here:<a href="pdfs/Magnusson_SoundWork.pdf" target="_blank"> PDF</a>
 
 <CaptionedImage
   src="news/soundwork.png"
