@@ -3647,7 +3647,7 @@ function create_ssr_component(fn) {
     const parent_component = current_component;
     const $$ = {
       on_destroy,
-      context: new Map(parent_component ? parent_component.$$.context : context || []),
+      context: new Map(context || (parent_component ? parent_component.$$.context : [])),
       on_mount: [],
       before_update: [],
       after_update: [],
@@ -3746,9 +3746,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-a5d6c170.js",
+      file: assets + "/_app/start-c65f2e16.js",
       css: [assets + "/_app/assets/start-464e9d0a.css", assets + "/_app/assets/vendor-8daff541.css"],
-      js: [assets + "/_app/start-a5d6c170.js", assets + "/_app/chunks/vendor-e883ef3a.js"]
+      js: [assets + "/_app/start-c65f2e16.js", assets + "/_app/chunks/vendor-86cba66e.js"]
     },
     fetched: void 0,
     floc: false,
@@ -3770,14 +3770,14 @@ function init(settings = default_settings) {
     service_worker: null,
     router: true,
     ssr: true,
-    target: "#svelte",
+    target: null,
     template,
     trailing_slash: "never"
   };
 }
 var empty = () => ({});
 var manifest = {
-  assets: [{ "file": ".DS_Store", "size": 6148, "type": null }, { "file": "favicon/browserconfig.xml", "size": 315, "type": "application/xml" }, { "file": "favicon/favicon-114.png", "size": 1557, "type": "image/png" }, { "file": "favicon/favicon-120.png", "size": 1616, "type": "image/png" }, { "file": "favicon/favicon-144.png", "size": 2020, "type": "image/png" }, { "file": "favicon/favicon-150.png", "size": 2118, "type": "image/png" }, { "file": "favicon/favicon-152.png", "size": 2156, "type": "image/png" }, { "file": "favicon/favicon-16.png", "size": 408, "type": "image/png" }, { "file": "favicon/favicon-160.png", "size": 2292, "type": "image/png" }, { "file": "favicon/favicon-180.png", "size": 2540, "type": "image/png" }, { "file": "favicon/favicon-192.png", "size": 2691, "type": "image/png" }, { "file": "favicon/favicon-310.png", "size": 3294, "type": "image/png" }, { "file": "favicon/favicon-32.png", "size": 503, "type": "image/png" }, { "file": "favicon/favicon-57.png", "size": 758, "type": "image/png" }, { "file": "favicon/favicon-60.png", "size": 760, "type": "image/png" }, { "file": "favicon/favicon-64.png", "size": 760, "type": "image/png" }, { "file": "favicon/favicon-70.png", "size": 838, "type": "image/png" }, { "file": "favicon/favicon-72.png", "size": 809, "type": "image/png" }, { "file": "favicon/favicon-76.png", "size": 827, "type": "image/png" }, { "file": "favicon/favicon-96.png", "size": 1006, "type": "image/png" }, { "file": "favicon/favicon.ico", "size": 9326, "type": "image/vnd.microsoft.icon" }, { "file": "fonts/Friedrich-Book.eot", "size": 62527, "type": "application/vnd.ms-fontobject" }, { "file": "fonts/Friedrich-Book.woff", "size": 60232, "type": "font/woff" }, { "file": "fonts/Friedrich-Book.woff2", "size": 55112, "type": "font/woff2" }, { "file": "fonts/SMHauser-60.woff", "size": 21028, "type": "font/woff" }, { "file": "fonts/SMHauser-60.woff2", "size": 14532, "type": "font/woff2" }, { "file": "icons/.DS_Store", "size": 6148, "type": null }, { "file": "icons/png/discord.png", "size": 10572, "type": "image/png" }, { "file": "icons/png/facebook.png", "size": 3354, "type": "image/png" }, { "file": "icons/png/github.png", "size": 12260, "type": "image/png" }, { "file": "icons/png/instagram.png", "size": 12090, "type": "image/png" }, { "file": "icons/png/link.png", "size": 12247, "type": "image/png" }, { "file": "icons/png/twitter.png", "size": 9086, "type": "image/png" }, { "file": "icons/svg/discord.svg", "size": 1393, "type": "image/svg+xml" }, { "file": "icons/svg/facebook.svg", "size": 392, "type": "image/svg+xml" }, { "file": "icons/svg/github.svg", "size": 1533, "type": "image/svg+xml" }, { "file": "icons/svg/instagram.svg", "size": 1147, "type": "image/svg+xml" }, { "file": "icons/svg/twitter.svg", "size": 923, "type": "image/svg+xml" }, { "file": "images/.DS_Store", "size": 8196, "type": null }, { "file": "images/events/.DS_Store", "size": 6148, "type": null }, { "file": "images/events/moving-strings/.DS_Store", "size": 6148, "type": null }, { "file": "images/events/moving-strings/adam.jpg", "size": 245569, "type": "image/jpeg" }, { "file": "images/events/moving-strings/chris.jpg", "size": 268684, "type": "image/jpeg" }, { "file": "images/events/moving-strings/mrp_andrew.jpg", "size": 132040, "type": "image/jpeg" }, { "file": "images/events/moving-strings/mrp_concert.jpg", "size": 249743, "type": "image/jpeg" }, { "file": "images/events/moving-strings/mrp_workshops.jpg", "size": 203784, "type": "image/jpeg" }, { "file": "images/events/moving-strings/tabita.jpg", "size": 451525, "type": "image/jpeg" }, { "file": "images/openlabs/ol4a.jpeg", "size": 192997, "type": "image/jpeg" }, { "file": "images/openlabs/ol6a.JPG", "size": 1376906, "type": "image/jpeg" }, { "file": "images/openlabs/ol6b.JPG", "size": 1071250, "type": "image/jpeg" }, { "file": "images/openlabs/ol6c.JPG", "size": 1131994, "type": "image/jpeg" }, { "file": "images/research/.DS_Store", "size": 6148, "type": null }, { "file": "images/research/projects/halldorophone.jpg", "size": 265169, "type": "image/jpeg" }, { "file": "images/research/projects/protolangspil.jpg", "size": 143068, "type": "image/jpeg" }, { "file": "images/research/projects/stenophone.jpg", "size": 539590, "type": "image/jpeg" }, { "file": "images/research/projects/supercollider.png", "size": 502848, "type": "image/png" }, { "file": "images/research/projects/threnoscope.png", "size": 488188, "type": "image/png" }, { "file": "images/stock/empty_lab_yellow.jpg", "size": 491163, "type": "image/jpeg" }, { "file": "images/stock/frettabladid21.jpg", "size": 95799, "type": "image/jpeg" }, { "file": "images/stock/hlci_sq_1.jpg", "size": 1346288, "type": "image/jpeg" }, { "file": "images/stock/hlci_sq_2.jpg", "size": 1257751, "type": "image/jpeg" }, { "file": "images/stock/hugarflug.png", "size": 2298311, "type": "image/png" }, { "file": "images/stock/lestin2020.png", "size": 373032, "type": "image/png" }, { "file": "images/stock/openlab_5_roundtable.jpeg", "size": 192997, "type": "image/jpeg" }, { "file": "images/stock/prototype_langspil_cardboard.jpg", "size": 142284, "type": "image/jpeg" }, { "file": "images/stock/prototype_langspil_plywood_1.jpg", "size": 143068, "type": "image/jpeg" }, { "file": "images/stock/prototype_langspil_plywood_2_electrical_chords.jpg", "size": 134757, "type": "image/jpeg" }, { "file": "images/stock/thraedir.png", "size": 299284, "type": "image/png" }, { "file": "images/team/esther.jpg", "size": 124318, "type": "image/jpeg" }, { "file": "images/team/halldor.jpg", "size": 234815, "type": "image/jpeg" }, { "file": "images/team/jack.jpg", "size": 127213, "type": "image/jpeg" }, { "file": "images/team/kit.jpg", "size": 244358, "type": "image/jpeg" }, { "file": "images/team/thor.jpg", "size": 178805, "type": "image/jpeg" }, { "file": "images/team/victor.jpg", "size": 115718, "type": "image/jpeg" }, { "file": "manifest.json", "size": 417, "type": "application/json" }, { "file": "publications.bib", "size": 6618, "type": null }, { "file": "seo/ogimage.jpg", "size": 265169, "type": "image/jpeg" }, { "file": "vid/moving_strings.mp4", "size": 7874707, "type": "video/mp4" }],
+  assets: [{ "file": ".DS_Store", "size": 6148, "type": null }, { "file": "favicon/browserconfig.xml", "size": 315, "type": "application/xml" }, { "file": "favicon/favicon-114.png", "size": 1557, "type": "image/png" }, { "file": "favicon/favicon-120.png", "size": 1616, "type": "image/png" }, { "file": "favicon/favicon-144.png", "size": 2020, "type": "image/png" }, { "file": "favicon/favicon-150.png", "size": 2118, "type": "image/png" }, { "file": "favicon/favicon-152.png", "size": 2156, "type": "image/png" }, { "file": "favicon/favicon-16.png", "size": 408, "type": "image/png" }, { "file": "favicon/favicon-160.png", "size": 2292, "type": "image/png" }, { "file": "favicon/favicon-180.png", "size": 2540, "type": "image/png" }, { "file": "favicon/favicon-192.png", "size": 2691, "type": "image/png" }, { "file": "favicon/favicon-310.png", "size": 3294, "type": "image/png" }, { "file": "favicon/favicon-32.png", "size": 503, "type": "image/png" }, { "file": "favicon/favicon-57.png", "size": 758, "type": "image/png" }, { "file": "favicon/favicon-60.png", "size": 760, "type": "image/png" }, { "file": "favicon/favicon-64.png", "size": 760, "type": "image/png" }, { "file": "favicon/favicon-70.png", "size": 838, "type": "image/png" }, { "file": "favicon/favicon-72.png", "size": 809, "type": "image/png" }, { "file": "favicon/favicon-76.png", "size": 827, "type": "image/png" }, { "file": "favicon/favicon-96.png", "size": 1006, "type": "image/png" }, { "file": "favicon/favicon.ico", "size": 9326, "type": "image/vnd.microsoft.icon" }, { "file": "fonts/Friedrich-Book.eot", "size": 62527, "type": "application/vnd.ms-fontobject" }, { "file": "fonts/Friedrich-Book.woff", "size": 60232, "type": "font/woff" }, { "file": "fonts/Friedrich-Book.woff2", "size": 55112, "type": "font/woff2" }, { "file": "fonts/SMHauser-60.woff", "size": 21028, "type": "font/woff" }, { "file": "fonts/SMHauser-60.woff2", "size": 14532, "type": "font/woff2" }, { "file": "icons/.DS_Store", "size": 6148, "type": null }, { "file": "icons/png/discord.png", "size": 10572, "type": "image/png" }, { "file": "icons/png/facebook.png", "size": 3354, "type": "image/png" }, { "file": "icons/png/github.png", "size": 12260, "type": "image/png" }, { "file": "icons/png/instagram.png", "size": 12090, "type": "image/png" }, { "file": "icons/png/link.png", "size": 12247, "type": "image/png" }, { "file": "icons/png/twitter.png", "size": 9086, "type": "image/png" }, { "file": "icons/svg/discord.svg", "size": 1393, "type": "image/svg+xml" }, { "file": "icons/svg/facebook.svg", "size": 392, "type": "image/svg+xml" }, { "file": "icons/svg/github.svg", "size": 1533, "type": "image/svg+xml" }, { "file": "icons/svg/instagram.svg", "size": 1147, "type": "image/svg+xml" }, { "file": "icons/svg/twitter.svg", "size": 923, "type": "image/svg+xml" }, { "file": "images/.DS_Store", "size": 8196, "type": null }, { "file": "images/events/.DS_Store", "size": 6148, "type": null }, { "file": "images/events/moving-strings/.DS_Store", "size": 6148, "type": null }, { "file": "images/events/moving-strings/adam.jpg", "size": 245569, "type": "image/jpeg" }, { "file": "images/events/moving-strings/chris.jpg", "size": 268684, "type": "image/jpeg" }, { "file": "images/events/moving-strings/mrp_andrew.jpg", "size": 132040, "type": "image/jpeg" }, { "file": "images/events/moving-strings/mrp_concert.jpg", "size": 249743, "type": "image/jpeg" }, { "file": "images/events/moving-strings/mrp_workshops.jpg", "size": 203784, "type": "image/jpeg" }, { "file": "images/events/moving-strings/tabita.jpg", "size": 451525, "type": "image/jpeg" }, { "file": "images/news/soundwork.png", "size": 2042232, "type": "image/png" }, { "file": "images/openlabs/ol4a.jpeg", "size": 192997, "type": "image/jpeg" }, { "file": "images/openlabs/ol6a.JPG", "size": 1376906, "type": "image/jpeg" }, { "file": "images/openlabs/ol6b.JPG", "size": 1071250, "type": "image/jpeg" }, { "file": "images/openlabs/ol6c.JPG", "size": 1131994, "type": "image/jpeg" }, { "file": "images/research/.DS_Store", "size": 6148, "type": null }, { "file": "images/research/projects/halldorophone.jpg", "size": 265169, "type": "image/jpeg" }, { "file": "images/research/projects/protolangspil.jpg", "size": 143068, "type": "image/jpeg" }, { "file": "images/research/projects/stenophone.jpg", "size": 539590, "type": "image/jpeg" }, { "file": "images/research/projects/supercollider.png", "size": 502848, "type": "image/png" }, { "file": "images/research/projects/threnoscope.png", "size": 488188, "type": "image/png" }, { "file": "images/stock/empty_lab_yellow.jpg", "size": 491163, "type": "image/jpeg" }, { "file": "images/stock/frettabladid21.jpg", "size": 95799, "type": "image/jpeg" }, { "file": "images/stock/halldor_kastljos.png", "size": 319837, "type": "image/png" }, { "file": "images/stock/halldorophone.jpeg", "size": 1577789, "type": "image/jpeg" }, { "file": "images/stock/halldorophone3.jpg", "size": 69891, "type": "image/jpeg" }, { "file": "images/stock/hlci_sq_1.jpg", "size": 1346288, "type": "image/jpeg" }, { "file": "images/stock/hlci_sq_2.jpg", "size": 1257751, "type": "image/jpeg" }, { "file": "images/stock/hugarflug.png", "size": 2298311, "type": "image/png" }, { "file": "images/stock/lestin2020.png", "size": 373032, "type": "image/png" }, { "file": "images/stock/openlab_5_roundtable.jpeg", "size": 192997, "type": "image/jpeg" }, { "file": "images/stock/prototype_langspil_cardboard.jpg", "size": 142284, "type": "image/jpeg" }, { "file": "images/stock/prototype_langspil_plywood_1.jpg", "size": 143068, "type": "image/jpeg" }, { "file": "images/stock/prototype_langspil_plywood_2_electrical_chords.jpg", "size": 134757, "type": "image/jpeg" }, { "file": "images/stock/student_IIL.jpeg", "size": 1310844, "type": "image/jpeg" }, { "file": "images/stock/thraedir.png", "size": 299284, "type": "image/png" }, { "file": "images/team/esther.jpg", "size": 124318, "type": "image/jpeg" }, { "file": "images/team/halldor.jpg", "size": 234815, "type": "image/jpeg" }, { "file": "images/team/jack.jpg", "size": 127213, "type": "image/jpeg" }, { "file": "images/team/kit.jpg", "size": 244358, "type": "image/jpeg" }, { "file": "images/team/thor.jpg", "size": 178805, "type": "image/jpeg" }, { "file": "images/team/victor.jpg", "size": 115718, "type": "image/jpeg" }, { "file": "manifest.json", "size": 417, "type": "application/json" }, { "file": "publications.bib", "size": 6618, "type": null }, { "file": "seo/ogimage.jpg", "size": 265169, "type": "image/jpeg" }, { "file": "vid/moving_strings.mp4", "size": 7874707, "type": "video/mp4" }],
   layout: "src/routes/__layout.svelte",
   error: ".svelte-kit/build/components/error.svelte",
   routes: [
@@ -3905,6 +3905,27 @@ var manifest = {
     },
     {
       type: "page",
+      pattern: /^\/openlab\/15\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/openlab/15.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/openlab\/16\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/openlab/16.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/openlab\/17\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/openlab/17.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
       pattern: /^\/openlab\/1\/?$/,
       params: empty,
       a: ["src/routes/__layout.svelte", "src/routes/openlab/1.md"],
@@ -4019,9 +4040,30 @@ var manifest = {
     },
     {
       type: "page",
+      pattern: /^\/news\/halldorophone_kastljos\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/news/halldorophone_kastljos.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
       pattern: /^\/news\/icelandic-news\/?$/,
       params: empty,
       a: ["src/routes/__layout.svelte", "src/routes/news/icelandic-news.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/news\/moving-strings\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/news/moving-strings.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/news\/summer_interns\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/news/summer_interns.md"],
       b: [".svelte-kit/build/components/error.svelte"]
     },
     {
@@ -4038,6 +4080,20 @@ var manifest = {
       load: () => Promise.resolve().then(function() {
         return items_json;
       })
+    },
+    {
+      type: "page",
+      pattern: /^\/news\/soundworks\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/news/soundworks.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
+    },
+    {
+      type: "page",
+      pattern: /^\/news\/ICLC2021\/?$/,
+      params: empty,
+      a: ["src/routes/__layout.svelte", "src/routes/news/ICLC2021.md"],
+      b: [".svelte-kit/build/components/error.svelte"]
     },
     {
       type: "page",
@@ -4161,6 +4217,15 @@ var module_lookup = {
   "src/routes/openlab/14.md": () => Promise.resolve().then(function() {
     return _14$1;
   }),
+  "src/routes/openlab/15.md": () => Promise.resolve().then(function() {
+    return _15$1;
+  }),
+  "src/routes/openlab/16.md": () => Promise.resolve().then(function() {
+    return _16$1;
+  }),
+  "src/routes/openlab/17.md": () => Promise.resolve().then(function() {
+    return _17$1;
+  }),
   "src/routes/openlab/1.md": () => Promise.resolve().then(function() {
     return _1$1;
   }),
@@ -4203,11 +4268,26 @@ var module_lookup = {
   "src/routes/news/nordic-popular-music-union.md": () => Promise.resolve().then(function() {
     return nordicPopularMusicUnion;
   }),
+  "src/routes/news/halldorophone_kastljos.md": () => Promise.resolve().then(function() {
+    return halldorophone_kastljos;
+  }),
   "src/routes/news/icelandic-news.md": () => Promise.resolve().then(function() {
     return icelandicNews;
   }),
+  "src/routes/news/moving-strings.md": () => Promise.resolve().then(function() {
+    return movingStrings;
+  }),
+  "src/routes/news/summer_interns.md": () => Promise.resolve().then(function() {
+    return summer_interns;
+  }),
   "src/routes/news/good-start.md": () => Promise.resolve().then(function() {
     return goodStart;
+  }),
+  "src/routes/news/soundworks.md": () => Promise.resolve().then(function() {
+    return soundworks;
+  }),
+  "src/routes/news/ICLC2021.md": () => Promise.resolve().then(function() {
+    return ICLC2021$1;
   }),
   "src/routes/team/index.svelte": () => Promise.resolve().then(function() {
     return index;
@@ -4231,7 +4311,7 @@ var module_lookup = {
     return kit;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-78fa9e6a.js", "css": ["assets/pages/__layout.svelte-ad60a2b9.css", "assets/vendor-8daff541.css"], "js": ["pages/__layout.svelte-78fa9e6a.js", "chunks/vendor-e883ef3a.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-4b5d4adb.js", "css": ["assets/vendor-8daff541.css"], "js": ["error.svelte-4b5d4adb.js", "chunks/vendor-e883ef3a.js"], "styles": [] }, "src/routes/index.md": { "entry": "pages/index.md-22aa4939.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css", "assets/pages/events/moving-strings/index.md-f79e1562.css"], "js": ["pages/index.md-22aa4939.js", "chunks/vendor-e883ef3a.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js", "chunks/EmbedYouTube-98cebb38.js"], "styles": [] }, "src/routes/collaborate.md": { "entry": "pages/collaborate.md-ad13e63c.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/collaborate.md-ad13e63c.js", "chunks/vendor-e883ef3a.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/research/index.svelte": { "entry": "pages/research/index.svelte-ce34582e.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/research/index.svelte-ce34582e.js", "chunks/vendor-e883ef3a.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/research/halldorophone.md": { "entry": "pages/research/halldorophone.md-896e75a6.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/research/halldorophone.md-896e75a6.js", "chunks/vendor-e883ef3a.js", "chunks/ResearchProject-ff54a493.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js", "chunks/CaptionedImage-081b00b2.js"], "styles": [] }, "src/routes/research/livinglooper.md": { "entry": "pages/research/livinglooper.md-be21b7fd.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/research/livinglooper.md-be21b7fd.js", "chunks/vendor-e883ef3a.js", "chunks/ResearchProject-ff54a493.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js", "chunks/CaptionedImage-081b00b2.js"], "styles": [] }, "src/routes/research/threnoscope.md": { "entry": "pages/research/threnoscope.md-ac80ef35.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/research/threnoscope.md-ac80ef35.js", "chunks/vendor-e883ef3a.js", "chunks/ResearchProject-ff54a493.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js", "chunks/CaptionedImage-081b00b2.js"], "styles": [] }, "src/routes/research/stenophone.md": { "entry": "pages/research/stenophone.md-3c971862.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/research/stenophone.md-3c971862.js", "chunks/vendor-e883ef3a.js", "chunks/ResearchProject-ff54a493.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js", "chunks/CaptionedImage-081b00b2.js"], "styles": [] }, "src/routes/research/langspil.md": { "entry": "pages/research/langspil.md-e8728a49.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/research/langspil.md-e8728a49.js", "chunks/vendor-e883ef3a.js", "chunks/ResearchProject-ff54a493.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js", "chunks/CaptionedImage-081b00b2.js"], "styles": [] }, "src/routes/openlab/index.svelte": { "entry": "pages/openlab/index.svelte-a56f4191.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/index.svelte-a56f4191.js", "chunks/vendor-e883ef3a.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/openlab/10.md": { "entry": "pages/openlab/10.md-02fd8127.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/10.md-02fd8127.js", "chunks/vendor-e883ef3a.js", "chunks/OpenLabEvent-07d134f9.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/openlab/11.md": { "entry": "pages/openlab/11.md-66311183.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/11.md-66311183.js", "chunks/vendor-e883ef3a.js", "chunks/OpenLabEvent-07d134f9.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/openlab/12.md": { "entry": "pages/openlab/12.md-7e23671c.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/12.md-7e23671c.js", "chunks/vendor-e883ef3a.js", "chunks/OpenLabEvent-07d134f9.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/openlab/13.md": { "entry": "pages/openlab/13.md-18d9aa8c.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/13.md-18d9aa8c.js", "chunks/vendor-e883ef3a.js", "chunks/OpenLabEvent-07d134f9.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/openlab/14.md": { "entry": "pages/openlab/14.md-ceeddffd.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/14.md-ceeddffd.js", "chunks/vendor-e883ef3a.js", "chunks/OpenLabEvent-07d134f9.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/openlab/1.md": { "entry": "pages/openlab/1.md-0e5190d0.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/1.md-0e5190d0.js", "chunks/vendor-e883ef3a.js", "chunks/OpenLabEvent-07d134f9.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/openlab/2.md": { "entry": "pages/openlab/2.md-81298048.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/2.md-81298048.js", "chunks/vendor-e883ef3a.js", "chunks/OpenLabEvent-07d134f9.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/openlab/3.md": { "entry": "pages/openlab/3.md-090b3f63.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/3.md-090b3f63.js", "chunks/vendor-e883ef3a.js", "chunks/OpenLabEvent-07d134f9.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/openlab/4.md": { "entry": "pages/openlab/4.md-e25d00ff.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/4.md-e25d00ff.js", "chunks/vendor-e883ef3a.js", "chunks/OpenLabEvent-07d134f9.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/openlab/5.md": { "entry": "pages/openlab/5.md-d71ba366.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/5.md-d71ba366.js", "chunks/vendor-e883ef3a.js", "chunks/OpenLabEvent-07d134f9.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js", "chunks/CaptionedImage-081b00b2.js"], "styles": [] }, "src/routes/openlab/6.md": { "entry": "pages/openlab/6.md-3803c419.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/6.md-3803c419.js", "chunks/vendor-e883ef3a.js", "chunks/OpenLabEvent-07d134f9.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js", "chunks/CaptionedImage-081b00b2.js"], "styles": [] }, "src/routes/openlab/7.md": { "entry": "pages/openlab/7.md-496b4c8b.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/7.md-496b4c8b.js", "chunks/vendor-e883ef3a.js", "chunks/OpenLabEvent-07d134f9.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/openlab/8.md": { "entry": "pages/openlab/8.md-9172e525.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/8.md-9172e525.js", "chunks/vendor-e883ef3a.js", "chunks/OpenLabEvent-07d134f9.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/openlab/9.md": { "entry": "pages/openlab/9.md-3f736f8b.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/9.md-3f736f8b.js", "chunks/vendor-e883ef3a.js", "chunks/OpenLabEvent-07d134f9.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/outputs/index.svelte": { "entry": "pages/outputs/index.svelte-b4af6cb0.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/outputs/index.svelte-b4af6cb0.js", "chunks/vendor-e883ef3a.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/events/moving-strings/index.md": { "entry": "pages/events/moving-strings/index.md-4880b569.js", "css": ["assets/pages/events/moving-strings/index.md-f79e1562.css", "assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/events/moving-strings/index.md-4880b569.js", "chunks/vendor-e883ef3a.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js", "chunks/EmbedYouTube-98cebb38.js"], "styles": [] }, "src/routes/about.md": { "entry": "pages/about.md-823ac566.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/about.md-823ac566.js", "chunks/vendor-e883ef3a.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/news/index.svelte": { "entry": "pages/news/index.svelte-9a578a14.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/news/index.svelte-9a578a14.js", "chunks/vendor-e883ef3a.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/news/nordic-popular-music-union.md": { "entry": "pages/news/nordic-popular-music-union.md-6fe4eb2f.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/news/nordic-popular-music-union.md-6fe4eb2f.js", "chunks/vendor-e883ef3a.js", "chunks/NewsItem-fcf73034.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/news/icelandic-news.md": { "entry": "pages/news/icelandic-news.md-921a237b.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/news/icelandic-news.md-921a237b.js", "chunks/vendor-e883ef3a.js", "chunks/NewsItem-fcf73034.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js", "chunks/CaptionedImage-081b00b2.js"], "styles": [] }, "src/routes/news/good-start.md": { "entry": "pages/news/good-start.md-5c79ca2c.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/news/good-start.md-5c79ca2c.js", "chunks/vendor-e883ef3a.js", "chunks/NewsItem-fcf73034.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js", "chunks/CaptionedImage-081b00b2.js"], "styles": [] }, "src/routes/team/index.svelte": { "entry": "pages/team/index.svelte-4b73ea24.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/team/index.svelte-4b73ea24.js", "chunks/vendor-e883ef3a.js", "chunks/Team-e4de56df.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/team/halldor.md": { "entry": "pages/team/halldor.md-898a849c.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/team/halldor.md-898a849c.js", "chunks/vendor-e883ef3a.js", "chunks/Team-e4de56df.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/team/esther.md": { "entry": "pages/team/esther.md-3505fdd9.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/team/esther.md-3505fdd9.js", "chunks/vendor-e883ef3a.js", "chunks/Team-e4de56df.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/team/victor.md": { "entry": "pages/team/victor.md-a1f8d12e.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/team/victor.md-a1f8d12e.js", "chunks/vendor-e883ef3a.js", "chunks/Team-e4de56df.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/team/jack.md": { "entry": "pages/team/jack.md-16f3256a.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/team/jack.md-16f3256a.js", "chunks/vendor-e883ef3a.js", "chunks/Team-e4de56df.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/team/thor.md": { "entry": "pages/team/thor.md-2d35b79c.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/team/thor.md-2d35b79c.js", "chunks/vendor-e883ef3a.js", "chunks/Team-e4de56df.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] }, "src/routes/team/kit.md": { "entry": "pages/team/kit.md-2f4eec34.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/team/kit.md-2f4eec34.js", "chunks/vendor-e883ef3a.js", "chunks/Team-e4de56df.js", "chunks/seo-ce33afbc.js", "chunks/pages-a3f7673b.js", "chunks/Menu-fd6b29b5.js"], "styles": [] } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-274d86af.js", "css": ["assets/pages/__layout.svelte-ad60a2b9.css", "assets/vendor-8daff541.css"], "js": ["pages/__layout.svelte-274d86af.js", "chunks/vendor-86cba66e.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-b8d31350.js", "css": ["assets/vendor-8daff541.css"], "js": ["error.svelte-b8d31350.js", "chunks/vendor-86cba66e.js"], "styles": [] }, "src/routes/index.md": { "entry": "pages/index.md-982a2a5b.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css", "assets/EmbedYouTube-13b5ba39.css"], "js": ["pages/index.md-982a2a5b.js", "chunks/vendor-86cba66e.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/EmbedYouTube-0fdf949c.js"], "styles": [] }, "src/routes/collaborate.md": { "entry": "pages/collaborate.md-c2a8f9c0.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/collaborate.md-c2a8f9c0.js", "chunks/vendor-86cba66e.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/research/index.svelte": { "entry": "pages/research/index.svelte-8cc40eb3.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/research/index.svelte-8cc40eb3.js", "chunks/vendor-86cba66e.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/research/halldorophone.md": { "entry": "pages/research/halldorophone.md-e87d585b.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/research/halldorophone.md-e87d585b.js", "chunks/vendor-86cba66e.js", "chunks/ResearchProject-b50dcf93.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/CaptionedImage-dd85bbc1.js"], "styles": [] }, "src/routes/research/livinglooper.md": { "entry": "pages/research/livinglooper.md-52df4151.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/research/livinglooper.md-52df4151.js", "chunks/vendor-86cba66e.js", "chunks/ResearchProject-b50dcf93.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/CaptionedImage-dd85bbc1.js"], "styles": [] }, "src/routes/research/threnoscope.md": { "entry": "pages/research/threnoscope.md-37cf8678.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/research/threnoscope.md-37cf8678.js", "chunks/vendor-86cba66e.js", "chunks/ResearchProject-b50dcf93.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/CaptionedImage-dd85bbc1.js"], "styles": [] }, "src/routes/research/stenophone.md": { "entry": "pages/research/stenophone.md-841fa4c4.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/research/stenophone.md-841fa4c4.js", "chunks/vendor-86cba66e.js", "chunks/ResearchProject-b50dcf93.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/CaptionedImage-dd85bbc1.js"], "styles": [] }, "src/routes/research/langspil.md": { "entry": "pages/research/langspil.md-f9990e04.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/research/langspil.md-f9990e04.js", "chunks/vendor-86cba66e.js", "chunks/ResearchProject-b50dcf93.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/CaptionedImage-dd85bbc1.js"], "styles": [] }, "src/routes/openlab/index.svelte": { "entry": "pages/openlab/index.svelte-937a859c.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/index.svelte-937a859c.js", "chunks/vendor-86cba66e.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/10.md": { "entry": "pages/openlab/10.md-adc07aae.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/10.md-adc07aae.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/11.md": { "entry": "pages/openlab/11.md-8c82c449.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/11.md-8c82c449.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/12.md": { "entry": "pages/openlab/12.md-bee179ef.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/12.md-bee179ef.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/13.md": { "entry": "pages/openlab/13.md-ae43208f.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/13.md-ae43208f.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/14.md": { "entry": "pages/openlab/14.md-897f6a5a.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/14.md-897f6a5a.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/15.md": { "entry": "pages/openlab/15.md-d2f72d55.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/15.md-d2f72d55.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/16.md": { "entry": "pages/openlab/16.md-75473b98.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/16.md-75473b98.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/17.md": { "entry": "pages/openlab/17.md-a8fd3c62.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/17.md-a8fd3c62.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/1.md": { "entry": "pages/openlab/1.md-fb2bac26.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/1.md-fb2bac26.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/2.md": { "entry": "pages/openlab/2.md-7a71b803.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/2.md-7a71b803.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/3.md": { "entry": "pages/openlab/3.md-2cdc5c33.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/3.md-2cdc5c33.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/4.md": { "entry": "pages/openlab/4.md-02947796.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/4.md-02947796.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/5.md": { "entry": "pages/openlab/5.md-0f03f467.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/5.md-0f03f467.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/CaptionedImage-dd85bbc1.js"], "styles": [] }, "src/routes/openlab/6.md": { "entry": "pages/openlab/6.md-ba90c43e.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/6.md-ba90c43e.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/CaptionedImage-dd85bbc1.js"], "styles": [] }, "src/routes/openlab/7.md": { "entry": "pages/openlab/7.md-e9c33912.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/7.md-e9c33912.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/8.md": { "entry": "pages/openlab/8.md-2f0a85da.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/8.md-2f0a85da.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/openlab/9.md": { "entry": "pages/openlab/9.md-8d190401.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/openlab/9.md-8d190401.js", "chunks/vendor-86cba66e.js", "chunks/OpenLabEvent-4c44e734.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/outputs/index.svelte": { "entry": "pages/outputs/index.svelte-f77176bd.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/outputs/index.svelte-f77176bd.js", "chunks/vendor-86cba66e.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/events/moving-strings/index.md": { "entry": "pages/events/moving-strings/index.md-bd325f50.js", "css": ["assets/EmbedYouTube-13b5ba39.css", "assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/events/moving-strings/index.md-bd325f50.js", "chunks/vendor-86cba66e.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/EmbedYouTube-0fdf949c.js"], "styles": [] }, "src/routes/about.md": { "entry": "pages/about.md-eacf4745.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/about.md-eacf4745.js", "chunks/vendor-86cba66e.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/news/index.svelte": { "entry": "pages/news/index.svelte-a617f485.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/news/index.svelte-a617f485.js", "chunks/vendor-86cba66e.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/news/nordic-popular-music-union.md": { "entry": "pages/news/nordic-popular-music-union.md-4bfafbd4.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/news/nordic-popular-music-union.md-4bfafbd4.js", "chunks/vendor-86cba66e.js", "chunks/NewsItem-5f44e064.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/news/halldorophone_kastljos.md": { "entry": "pages/news/halldorophone_kastljos.md-81ac9413.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/news/halldorophone_kastljos.md-81ac9413.js", "chunks/vendor-86cba66e.js", "chunks/NewsItem-5f44e064.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/CaptionedImage-dd85bbc1.js"], "styles": [] }, "src/routes/news/icelandic-news.md": { "entry": "pages/news/icelandic-news.md-fb15c451.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/news/icelandic-news.md-fb15c451.js", "chunks/vendor-86cba66e.js", "chunks/NewsItem-5f44e064.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/CaptionedImage-dd85bbc1.js"], "styles": [] }, "src/routes/news/moving-strings.md": { "entry": "pages/news/moving-strings.md-397d3ebb.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/news/moving-strings.md-397d3ebb.js", "chunks/vendor-86cba66e.js", "chunks/NewsItem-5f44e064.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/CaptionedImage-dd85bbc1.js"], "styles": [] }, "src/routes/news/summer_interns.md": { "entry": "pages/news/summer_interns.md-ed5dbd9e.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/news/summer_interns.md-ed5dbd9e.js", "chunks/vendor-86cba66e.js", "chunks/NewsItem-5f44e064.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/CaptionedImage-dd85bbc1.js"], "styles": [] }, "src/routes/news/good-start.md": { "entry": "pages/news/good-start.md-d25a0de0.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/news/good-start.md-d25a0de0.js", "chunks/vendor-86cba66e.js", "chunks/NewsItem-5f44e064.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/CaptionedImage-dd85bbc1.js"], "styles": [] }, "src/routes/news/soundworks.md": { "entry": "pages/news/soundworks.md-63474b30.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/news/soundworks.md-63474b30.js", "chunks/vendor-86cba66e.js", "chunks/NewsItem-5f44e064.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js", "chunks/CaptionedImage-dd85bbc1.js"], "styles": [] }, "src/routes/news/ICLC2021.md": { "entry": "pages/news/ICLC2021.md-08e2bf72.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/news/ICLC2021.md-08e2bf72.js", "chunks/vendor-86cba66e.js", "chunks/NewsItem-5f44e064.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/team/index.svelte": { "entry": "pages/team/index.svelte-7cd9cc1e.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/team/index.svelte-7cd9cc1e.js", "chunks/vendor-86cba66e.js", "chunks/Team-86172e61.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/team/halldor.md": { "entry": "pages/team/halldor.md-12f6c1c9.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/team/halldor.md-12f6c1c9.js", "chunks/vendor-86cba66e.js", "chunks/Team-86172e61.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/team/esther.md": { "entry": "pages/team/esther.md-09a23e43.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/team/esther.md-09a23e43.js", "chunks/vendor-86cba66e.js", "chunks/Team-86172e61.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/team/victor.md": { "entry": "pages/team/victor.md-a476e7db.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/team/victor.md-a476e7db.js", "chunks/vendor-86cba66e.js", "chunks/Team-86172e61.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/team/jack.md": { "entry": "pages/team/jack.md-ab82ec02.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/team/jack.md-ab82ec02.js", "chunks/vendor-86cba66e.js", "chunks/Team-86172e61.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/team/thor.md": { "entry": "pages/team/thor.md-7cdee5ee.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/team/thor.md-7cdee5ee.js", "chunks/vendor-86cba66e.js", "chunks/Team-86172e61.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] }, "src/routes/team/kit.md": { "entry": "pages/team/kit.md-bae09dbc.js", "css": ["assets/vendor-8daff541.css", "assets/Menu-a215ead7.css"], "js": ["pages/team/kit.md-bae09dbc.js", "chunks/vendor-86cba66e.js", "chunks/Team-86172e61.js", "chunks/seo-5b1a4992.js", "chunks/pages-d3bc3669.js", "chunks/Menu-c81470be.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
@@ -4323,6 +4403,12 @@ async function get$2() {
     return _13$1;
   }), "./14.md": () => Promise.resolve().then(function() {
     return _14$1;
+  }), "./15.md": () => Promise.resolve().then(function() {
+    return _15$1;
+  }), "./16.md": () => Promise.resolve().then(function() {
+    return _16$1;
+  }), "./17.md": () => Promise.resolve().then(function() {
+    return _17$1;
   }), "./2.md": () => Promise.resolve().then(function() {
     return _2$1;
   }), "./3.md": () => Promise.resolve().then(function() {
@@ -4392,7 +4478,7 @@ var top = {
 var symposium = {
   info: {
     title: "Symposium",
-    details: "Tuesday 7, \xDEverholt, Room A, Free",
+    details: "Wednesday, Online - Zoom, Free",
     description: "The Intelligent Instruments Lab invites everyone interested in new musical instruments to come to an open symposium where practicing musicians and instrument inventors present and discuss their work. The presentations consist of short talks followed by Q&A. After the presentations we will have a panel discussing common themes, opening up for further interaction by the audience."
   },
   programme: {
@@ -4499,9 +4585,9 @@ var symposium = {
 };
 var concert = {
   info: {
-    title: "Concert",
+    title: "Concert CANCELLED",
     details: "Thursday 9, Mengi, 2000 ISK",
-    description: "We are happy to announce the Moving Strings Concert at Mengi where some of our guests will perform. The theme of the evening will be feedback instruments and resonating strings. Performers are Tabita Cargnel (DE) with her singing tensegrity sculpture, Chris Kiefer (UK) with his new feedback instrument and Adam Pultz (DK) with his feedback-actuated bass. All are focusing on new ways of treating string instruments."
+    description: "Unfortunately, due to a COVID related incident, we must cancel the Moving Strings Concert. Some of our guests were scheduled to perform. The theme of the evening was meant to be feedback instruments and resonating strings. Performers: Tabita Cargnel (DE) with her singing tensegrity sculpture, Chris Kiefer (UK) with his new feedback instrument and Adam Pultz (DK) with his feedback-actuated bass. All are focusing on new ways of treating string instruments. This event is cancelled."
   },
   buttons: [
     {
@@ -4568,9 +4654,9 @@ var mrp = {
   events: [
     {
       name: "Andrew McPherson Lecture",
-      details: "Weds 8, 11:00-12:00, Fr\xE6\xF0astofa 1, Skipholt",
+      details: "Weds 8, 11:00-12:00, Online - Zoom",
       image: "/images/events/moving-strings/mrp_andrew.jpg",
-      description: "In this talk Andrew will present the functionality of the Magnetic Resonator Piano. He will talk about how the instrument has been received by composers, performers and the public, and how the innovation of the instrument has happened. Andrew will also discuss how composers have rethought their relationship with the piano when encountering the instrument, for example through new notational practices.",
+      description: "In this online talk Andrew will present the functionality of the Magnetic Resonator Piano. He will talk about how the instrument has been received by composers, performers and the public, and how the innovation of the instrument has happened. Andrew will also discuss how composers have rethought their relationship with the piano when encountering the instrument, for example through new notational practices.",
       links: {
         event: "https://www.facebook.com/events/596517608339693",
         website: "andrewmcpherson.org",
@@ -4663,12 +4749,22 @@ var pages$1 = /* @__PURE__ */ Object.freeze({
   "default": pages
 });
 async function get$1() {
-  const imports = { "./good-start.md": () => Promise.resolve().then(function() {
+  const imports = { "./ICLC2021.md": () => Promise.resolve().then(function() {
+    return ICLC2021$1;
+  }), "./good-start.md": () => Promise.resolve().then(function() {
     return goodStart;
+  }), "./halldorophone_kastljos.md": () => Promise.resolve().then(function() {
+    return halldorophone_kastljos;
   }), "./icelandic-news.md": () => Promise.resolve().then(function() {
     return icelandicNews;
+  }), "./moving-strings.md": () => Promise.resolve().then(function() {
+    return movingStrings;
   }), "./nordic-popular-music-union.md": () => Promise.resolve().then(function() {
     return nordicPopularMusicUnion;
+  }), "./soundworks.md": () => Promise.resolve().then(function() {
+    return soundworks;
+  }), "./summer_interns.md": () => Promise.resolve().then(function() {
+    return summer_interns;
   }) };
   let body = [];
   for (const path in imports) {
@@ -5023,7 +5119,7 @@ var Home = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       <div class="${"w-5/6 mt-8"}"><div class="${""}">${validate_component(EmbedYouTube, "YT").$$render($$result, { scale: "1", id: "B0UIsDUzrD4" }, {}, {})}</div></div>
       <div class="${"mt-10"}">${validate_component(CTARow, "CTARow").$$render($$result, { links: cta_links }, {}, {})}</div></div></div></div>`}`;
 });
-var metadata$v = {
+var metadata$D = {
   "layout": "home",
   "title": "Intelligent Instruments Lab",
   "slug": "",
@@ -5033,13 +5129,13 @@ var metadata$v = {
   "hero_slug": "research/halldorophone"
 };
 var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(Home, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$v), {}, {})}`;
+  return `${validate_component(Home, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$D), {}, {})}`;
 });
 var index$6 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Routes,
-  metadata: metadata$v
+  metadata: metadata$D
 });
 var Collaborate$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $Layout, $$unsubscribe_Layout;
@@ -5065,14 +5161,14 @@ var Collaborate$1 = create_ssr_component(($$result, $$props, $$bindings, slots) 
 ${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}"><div class="${"p-10 sm:p-12 md:p-14 max-w-3xl"}"><h1 class="${"font-hauser text-secondary text-4xl sm:text-5xl md:text-6xl mb-4"}">${escape(title2)}</h1>
       <div class="${"p-2 sm:p-4"}">${slots.default ? slots.default({}) : ``}</div></div></div>`}`;
 });
-var metadata$u = {
+var metadata$C = {
   "layout": "collaborate",
   "title": "Collaborate",
   "slug": "collaborate",
   "description": "Collaborate with us"
 };
 var Collaborate = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(Collaborate$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$u), {}, {
+  return `${validate_component(Collaborate$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$C), {}, {
     default: () => `<p>The Intelligent Instruments Lab is open for collaborations with artists and scientists on experimental projects, equally as part of our work programme and as collaborations with other projects. We work with various research institutions around the world.</p>
 <p>We also run a visiting researcher scheme. We welcome people to come and work with us in our wonderful Reykjavik lab over a specified period of time. The aim with this scheme is to enable artists, composers and musicians to develop technologies for their musical expression, but in turn the collaboration will help us answer our research questions. </p>
 <p>Please get in touch with the Principal Investigator, Thor Magnusson, or the lab members you\u2019d like to work with - all the relevant contact information can be found in our <a href="${"/team"}">Team Page</a>.</p>
@@ -5083,7 +5179,7 @@ var collaborate = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Collaborate,
-  metadata: metadata$u
+  metadata: metadata$C
 });
 function paginate({ items, pageSize, currentPage }) {
   return items.slice((currentPage - 1) * pageSize, (currentPage - 1) * pageSize + pageSize);
@@ -5412,7 +5508,7 @@ var ResearchProject = create_ssr_component(($$result, $$props, $$bindings, slots
       <div class="${"p-2 sm:p-4"}">${slots.default ? slots.default({}) : ``}</div></div>
     <div class="${"p-4 sm:p-6 mt-2 font-hauser uppercase text-md sm:text-lg text-white"}"><a href="${"/research"}">${escape("<-")} Back to Research</a></div></div>`}`;
 });
-var metadata$t = {
+var metadata$B = {
   "layout": "researchproject",
   "title": "Halldorophone",
   "description": "The Halldorophone is a musical instrument.",
@@ -5422,7 +5518,7 @@ var metadata$t = {
   "highlight_caption": "The Halldorophone by Halldor \xDAlfarsson."
 };
 var Halldorophone = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$t), {}, {
+  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$B), {}, {
     default: () => `<p>The halldorophone (Icelandic: d\xF3r\xF3f\xF3nn) is a cello-like electronic instrument created by artist and designer Halld\xF3r \xDAlfarsson.
 The halldorophone is designed specifically to feedback the strings and the instrument gained some recognition in early 2020 when composer Hildur Gu\xF0nad\xF3ttir won the Academy Award for her original soundtrack to the movie Joker, some of which was composed with a halldorophone.</p>`
   })}`;
@@ -5431,9 +5527,9 @@ var halldorophone = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Halldorophone,
-  metadata: metadata$t
+  metadata: metadata$B
 });
-var metadata$s = {
+var metadata$A = {
   "layout": "researchproject",
   "title": "Living Looper",
   "description": "The musical looper as a network of intelligent processes.",
@@ -5443,7 +5539,7 @@ var metadata$s = {
   "highlight_caption": "Living Looper by Victor Shepardson."
 };
 var Livinglooper = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$s), {}, {
+  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$A), {}, {
     default: () => `<p>A looper records a short segment of audio and plays it back in a loop. This can be used to set up a background drone or texture, or allow one musician to perform multiple parts. A multi-channel looper can hold the layers of a rich texture or a complex composition.</p>
 <p>An intelligent looper might do more than repeat verbatim. It might loop without disruption at the loop boundary, or continue as a never-precisely-repeating texture, or as what might have sounded next. It might control itself, unburdening but surprising the musician. Multiple loops might become sensitive to one another, entraining rhythmically or modulating timbres. One loop might reference to the events of an another loop as well as its own memory when it decides how to continue. The looper would be elevated from an effect or tool to an intelligent instrument in itself. The musician would not direct the looper to achieve a particular effect, but listen to it, garden it, negotiate with it. </p>
 <p>My project, the \u201Cliving looper\u201D, will explore these ideas. Performing with a looper involves carefully choosing the sounds in a loop and aligning loops precisely. With the living looper, instead the processes and interconnections between loops will be carefully assembled into a performance. Within the IIL, the living looper will be a point of convergence for machine listening, generative models, instruments and musicians. It will compose with our other instruments, and its intelligent modules will find other lives in other instruments.</p>`
@@ -5453,9 +5549,9 @@ var livinglooper = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Livinglooper,
-  metadata: metadata$s
+  metadata: metadata$A
 });
-var metadata$r = {
+var metadata$z = {
   "layout": "researchproject",
   "title": "Threnoscope",
   "description": "The Threnoscope is a live coding environment for long durations.",
@@ -5465,7 +5561,7 @@ var metadata$r = {
   "highlight_caption": "The Threnoscope by Thor Magnusson."
 };
 var Threnoscope = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$r), {}, {
+  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$z), {}, {
     default: () => `<p>The <a href="${"https://thormagnusson.github.io/threnoscope/"}" title="${"Threnoscope"}">Threnoscope</a> is a live coding system focusing on three key areas of music: spatial sound, timbre and texture, and tunings and scales. It has affordances that result in long durational notes that can move around in space, change timbre (through filtering, resonance frequencies and waveforms) and pitch according to implementation of numerous tunings and scales.</p>
 <p>The Threnoscope was intitially intended to be a musical piece, but became an expressive system, an investigation into spatial sound, wave interferences and the relationship of harmonic ratios and tuning systems from the world\u2019s various musical systems.</p>
 <p>Implementing the Scala tuning library standard, the Thrensocope has access over 5000 tuning systems and scales, and it contains an application for creating your own microtonal tunings and scales.</p>`
@@ -5475,9 +5571,9 @@ var threnoscope = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Threnoscope,
-  metadata: metadata$r
+  metadata: metadata$z
 });
-var metadata$q = {
+var metadata$y = {
   "layout": "researchproject",
   "title": "Stenophone",
   "description": "The Stenophone is a musical instrument for live coding.",
@@ -5487,7 +5583,7 @@ var metadata$q = {
   "highlight_caption": "The Stenophone by Jack Armitage."
 };
 var Stenophone = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$q), {}, {
+  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$y), {}, {
     default: () => `<p>The <a href="${"https://github.com/jarmitage/Stenophone"}" target="${"_blank"}" title="${"Stenophone"}">Stenophone</a> is a musical instrument combining stenotype and live coding.</p>
 <p>Though laptop live coders are known to use other devices and instruments and play with other musicians, laptop live coding generally shares the common physical interface of the QWERTY keyboard. This project seeks to provide a means to explore alternatives to the QWERTY keyboard as a physical interface to laptop live coding. This project proposes a live coding keyboard which is also a digital musical instrument, called the Stenophone. </p>
 <p>The Stenophone is an augmented stenotype or chorded keyboard, which permits continuous gestural control of keys and features an ergonomic design. These capabilities are exploited to enable the manipulation of algorithms and their parameterisation simultaneously.</p>`
@@ -5497,9 +5593,9 @@ var stenophone = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Stenophone,
-  metadata: metadata$q
+  metadata: metadata$y
 });
-var metadata$p = {
+var metadata$x = {
   "layout": "researchproject",
   "title": "Proto-Langspil",
   "description": "The Proto-Langspil is a feedback instrument with intelligent behaviour.",
@@ -5509,7 +5605,7 @@ var metadata$p = {
   "highlight_caption": "The ii lab Proto-Langspil"
 };
 var Langspil = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$p), {}, {
+  return `${validate_component(ResearchProject, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$x), {}, {
     default: () => `<p>The Proto-Langspil is our first prototype instrument, made in the first week of the lab, made out of plywood, cut out in the lasercutter in the LHI lab downstairs. We experimented with some versions and are in collaboration with performers who are interested in working with the instrument.</p>
 <p>The Langspil is a traditional Icelandic instrument with an interesting, albeit vague history. We are interested in exploring the cultural connotations of the instrument, studying the cultural reception of it as it becomes used and played as part of musical practice. It also extends the millennia old practice - perhaps first documented in the work of Greek philosopher Pythagoras - of using a monochord to study acoustics and music theory.</p>
 <p>The Proto-Langspil is an ongoing work in progress where we implement various types of adaptive behaviour in the instrument, ranging from feedback to user gestures, and where we investigate how performers interact with the instrument. A simple object that has triggered a lot of interesting conversations and ideas!</p>`
@@ -5519,7 +5615,7 @@ var langspil = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Langspil,
-  metadata: metadata$p
+  metadata: metadata$x
 });
 var OpenLab = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let future;
@@ -5665,33 +5761,33 @@ var OpenLabEvent = create_ssr_component(($$result, $$props, $$bindings, slots) =
       <div class="${"p-2 sm:p-4"}">${slots.default ? slots.default({}) : ``}</div></div>
     <div class="${"p-4 sm:p-6 mt-2 font-hauser uppercase text-md sm:text-lg text-white"}"><a href="${"/openlab"}">${escape("<-")} Back to Open Labs</a></div></div>`}`;
 });
-var metadata$o = {
+var metadata$w = {
   "layout": "openlab",
   "edition": 10,
-  "theme": "Open Lab 10",
+  "theme": "Genki Wave Ring and Hjalti",
   "description": "Genki and Hjalti Nor\xF0dal",
   "date": "2021-11-12"
 };
 var _10 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$o), {}, {
-    default: () => `<p>In this lab Genki will pay us a visit and show us their technologies, and Hjalti showed us his three person sax.</p>`
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$w), {}, {
+    default: () => `<p>In this lab Genki paid us a visit with a great demo of their technologies, and Hjalti showed us his three person sax.</p>`
   })}`;
 });
 var _10$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _10,
-  metadata: metadata$o
+  metadata: metadata$w
 });
-var metadata$n = {
+var metadata$v = {
   "layout": "openlab",
   "edition": 11,
-  "theme": "Open Discussion",
+  "theme": "Creative AI discussion",
   "description": "An open session discussing creative AI",
   "date": "2021-11-19"
 };
 var _11 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$n), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$v), {}, {
     default: () => `<p>In this lab we discussed the theories of Maggie Boden, looked at some works and had a generally good time.</p>`
   })}`;
 });
@@ -5699,27 +5795,27 @@ var _11$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _11,
-  metadata: metadata$n
+  metadata: metadata$v
 });
-var metadata$m = {
+var metadata$u = {
   "layout": "openlab",
-  "edition": 11,
+  "edition": 12,
   "theme": "Gar\xF0ar Eyj\xF3lfsson and furniture music",
   "description": "Gar\xF0ar and social robots and we will explore our string furniture",
   "date": "2021-11-26"
 };
 var _12 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$m), {}, {
-    default: () => `<p>In this lab Gar\xF0ar Eyj\xF3lfsson will present his social robots. We will also present and discuss our new furniture that can be turned into string instruments.</p>`
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$u), {}, {
+    default: () => `<p>In this lab Gar\xF0ar Eyj\xF3lfsson presented his social robots. We also presented and discussed our new furniture that can be turned into string instruments. A nice brain storm with our friendly visitors.</p>`
   })}`;
 });
 var _12$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _12,
-  metadata: metadata$m
+  metadata: metadata$u
 });
-var metadata$l = {
+var metadata$t = {
   "layout": "openlab",
   "edition": 13,
   "theme": "Proto-Langspil Pilot Study 1",
@@ -5727,7 +5823,7 @@ var metadata$l = {
   "date": "2021-12-03"
 };
 var _13 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$l), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$t), {}, {
     default: () => `<p>Call for study participants during Open Lab tomorrow (Dec 3rd) 15:00-17:00.</p>
 <ul><li>Spend time with the Proto-Langspil and answer a brief survey</li>
 <li>4x 30 minute slots available between 15:00-17:00</li>
@@ -5739,9 +5835,9 @@ var _13$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _13,
-  metadata: metadata$l
+  metadata: metadata$t
 });
-var metadata$k = {
+var metadata$s = {
   "layout": "openlab",
   "edition": 14,
   "theme": "Moving Strings reflections",
@@ -5749,17 +5845,73 @@ var metadata$k = {
   "date": "2021-12-10"
 };
 var _14 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$k), {}, {
-    default: () => `<p>This week we will discuss Moving Strings: <a href="${"https://iil.is/events/moving-strings"}" rel="${"nofollow"}">https://iil.is/events/moving-strings</a></p>`
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$s), {}, {
+    default: () => `<p>This week we will discuss Moving Strings: <a href="${"https://iil.is/events/moving-strings"}" rel="${"nofollow"}">https://iil.is/events/moving-strings</a></p>
+<p>Followed by a Magnetic Resonator Piano workshop in Skipholt.</p>`
   })}`;
 });
 var _14$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _14,
-  metadata: metadata$k
+  metadata: metadata$s
 });
-var metadata$j = {
+var metadata$r = {
+  "layout": "openlab",
+  "edition": 15,
+  "theme": "Halldorophone and Linnstrument",
+  "description": "Open discussion about the Halldorophone and the Linnstrument",
+  "date": "2021-12-17"
+};
+var _15 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$r), {}, {
+    default: () => `<p>In this open lab, Halldor received guests and discussed the Halldorophone and Linnstrument developments. The rest of the team were en route to the US and in writing residencies. </p>`
+  })}`;
+});
+var _15$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _15,
+  metadata: metadata$r
+});
+var metadata$q = {
+  "layout": "openlab",
+  "edition": 16,
+  "theme": "New year and new instruments",
+  "description": "Discussion about future developments at the ii lab",
+  "date": "2022-01-07"
+};
+var _16 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$q), {}, {
+    default: () => `<p>In this open lab we welcome people to discuss the work we will be doing in 2022, seeking input and conversation with people and brainstorming future developments.</p>`
+  })}`;
+});
+var _16$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _16,
+  metadata: metadata$q
+});
+var metadata$p = {
+  "layout": "openlab",
+  "edition": 17,
+  "theme": "Omicron",
+  "description": "The open lab is a closed lab this week",
+  "date": "2022-01-14"
+};
+var _17 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$p), {}, {
+    default: () => `<p>Unfortunately, because of the rise of the Covid Omicron variant in Iceland we are not running an open lab this week. Looking forward to start again soon. </p>
+<p>If anyone wants to make an appointment with us on an individual basis on anything, please reach out to us. You might want to look into some of our instruments or you have your own idea.</p>`
+  })}`;
+});
+var _17$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _17,
+  metadata: metadata$p
+});
+var metadata$o = {
   "layout": "openlab",
   "edition": 1,
   "theme": "The Thranophone",
@@ -5767,7 +5919,7 @@ var metadata$j = {
   "date": "2021-09-10"
 };
 var _1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$j), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$o), {}, {
     default: () => `<p>In our first open lab we had a visit from long time collaborators, \xDEr\xE1inn Hj\xE1lmarsson and Ingi Gar\xF0ar Erlendsson. They presented the Thranophone, a feedback tuba instrument. We got a performance by Ingi Gar\xF0ar leading to an interesting discussion. We also had a presentation by Hjalti, discussing his new metal collaborative sax sculpture/instrument. More about that later.</p>
 <p>There is further info on Thranophones <a href="${"http://thrainnhjalmarsson.info/thranophones"}" rel="${"nofollow"}">here</a>.
 A performance with Eirikur Orri at <a href="${"http://www.liveinterfaces.org/2016"}" rel="${"nofollow"}">2016 Live Interfaces</a> can be seen <a href="${"https://youtu.be/l5vDKEZsJjY?t=718"}" rel="${"nofollow"}">here</a>.</p>`
@@ -5777,9 +5929,9 @@ var _1$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _1,
-  metadata: metadata$j
+  metadata: metadata$o
 });
-var metadata$i = {
+var metadata$n = {
   "layout": "openlab",
   "edition": 2,
   "theme": "Feedback Musicianship",
@@ -5787,7 +5939,7 @@ var metadata$i = {
   "date": "2021-09-17"
 };
 var _2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$i), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$n), {}, {
     default: () => `<p>In this session our own Victor Shepardson gave an introduction to techniques in machine learning in the are of music. We then participated in a streamed session organised by the <a href="${"https://feedback-musicianship.pubpub.org"}" rel="${"nofollow"}">Feedback Musicianship Network</a>.</p>
 <p>Here is a recording of a live performance by <a href="${"https://feedback-musicianship.pubpub.org/pub/events/release/17"}" rel="${"nofollow"}">\xD8yvind Brandtsegg</a>.</p>`
   })}`;
@@ -5796,9 +5948,9 @@ var _2$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _2,
-  metadata: metadata$i
+  metadata: metadata$n
 });
-var metadata$h = {
+var metadata$m = {
   "layout": "openlab",
   "edition": 3,
   "theme": "Acoustic and Sonic Heritages",
@@ -5806,7 +5958,7 @@ var metadata$h = {
   "date": "2021-09-24"
 };
 var _3 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$h), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$m), {}, {
     default: () => `<p>We had a visit from the Barcelona Patrimoni Acoustic collective. They presented their interesting work. After that Ragnar Arni presented his machine learning work with Jennifer Walshe on her text scores.</p>
 <p>Info:</p>
 <p><a href="${"http://patrimoniacustic.cat"}" rel="${"nofollow"}">Patrimoni Acustic</a>
@@ -5817,9 +5969,9 @@ var _3$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _3,
-  metadata: metadata$h
+  metadata: metadata$m
 });
-var metadata$g = {
+var metadata$l = {
   "layout": "openlab",
   "edition": 4,
   "theme": "Digital Control of Church Organs",
@@ -5827,7 +5979,7 @@ var metadata$g = {
   "date": "2021-10-01"
 };
 var _4 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$g), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$l), {}, {
     default: () => `<p>In this lab \xC1ki \xC1sgeirsson presented his work with church organs in both Hallgrimskirkja and Frikirkjan. How the MIDI protocol has been implemented in these old style instruments. </p>
 <p>Aki\u2019s <a href="${"http://www.aki.is"}" rel="${"nofollow"}">website</a></p>`
   })}`;
@@ -5836,9 +5988,9 @@ var _4$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _4,
-  metadata: metadata$g
+  metadata: metadata$l
 });
-var metadata$f = {
+var metadata$k = {
   "layout": "openlab",
   "edition": 5,
   "theme": "The gonzo guide to loudspeaker systems",
@@ -5846,7 +5998,7 @@ var metadata$f = {
   "date": "2021-10-08"
 };
 var _5 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$f), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$k), {}, {
     default: () => `<p>In this open lab we had two presentations by people building loudspeakers. </p>
 <a href="${"http://joshuawilkinsonsd.com/"}" target="${"_blank"}">Josh Wilkinson</a> offered his &quot;gonzo guide&quot; to building efficient and portable sound systems ready for festivals in the middle of the desert.
 <br>
@@ -5864,9 +6016,9 @@ var _5$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _5,
-  metadata: metadata$f
+  metadata: metadata$k
 });
-var metadata$e = {
+var metadata$j = {
   "layout": "openlab",
   "edition": 6,
   "theme": "Electric Langspil and Sea weed instrument",
@@ -5874,7 +6026,7 @@ var metadata$e = {
   "date": "2021-10-15"
 };
 var _6 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$e), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$j), {}, {
     default: () => `<p>Folk music expert, Linus Orri presented his electric Langspil and LHI product design students, Arngr\xEDmur Gu\xF0mundsson, Birna S\xEDs\xED J\xF3hannsd\xF3ttir og J\xF3n S\xF6lvi Walderhaug Eir\xEDksson demonstrating their new instrument based on 3D scanning sea weed.</p>
 ${validate_component(CaptionedImage, "CaptionedImage").$$render($$result, {
       src: "openlabs/ol6a.jpg",
@@ -5897,9 +6049,9 @@ var _6$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _6,
-  metadata: metadata$e
+  metadata: metadata$j
 });
-var metadata$d = {
+var metadata$i = {
   "layout": "openlab",
   "edition": 7,
   "theme": "Halla Steinunn and David Brynjar Franzson",
@@ -5907,7 +6059,7 @@ var metadata$d = {
   "date": "2021-10-22"
 };
 var _7 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$d), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$i), {}, {
     default: () => `<p>Halla Steinunn presents her collaboration with David Brynjar Franzson. </p>
 <p>Websites:</p>
 <p><a href="${"https://www.hallasteinunn.com"}" rel="${"nofollow"}">Halla Steinunn</a></p>
@@ -5918,35 +6070,35 @@ var _7$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _7,
-  metadata: metadata$d
+  metadata: metadata$i
 });
-var metadata$c = {
+var metadata$h = {
   "layout": "openlab",
   "edition": 8,
-  "theme": "Open Lab 8",
+  "theme": "Jack Armitage with coffee",
   "description": "Jack",
   "date": "2021-10-29"
 };
 var _8 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$c), {}, {
-    default: () => `<p>Jack discussing stuff and making coffee.</p>`
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$h), {}, {
+    default: () => `<p>Jack discussing current work, his research, stuff and making coffee.</p>`
   })}`;
 });
 var _8$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _8,
-  metadata: metadata$c
+  metadata: metadata$h
 });
-var metadata$b = {
+var metadata$g = {
   "layout": "openlab",
   "edition": 9,
-  "theme": "Open Lab 9",
+  "theme": "Screen harp and hyper sax",
   "description": "Tom Manoury and \xC1ki \xC1sgeirsson",
   "date": "2021-11-05"
 };
 var _9 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$b), {}, {
+  return `${validate_component(OpenLabEvent, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$g), {}, {
     default: () => `<p>In this open lab we will have Tom Manoury demonstrating his hyper sax and creative AI application and \xC1ki \xC1sgeirsson will bring his screen harp for discussion.</p>`
   })}`;
 });
@@ -5954,7 +6106,7 @@ var _9$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _9,
-  metadata: metadata$b
+  metadata: metadata$g
 });
 var Publication = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { pub } = $$props;
@@ -6231,21 +6383,21 @@ var MovingStrings = create_ssr_component(($$result, $$props, $$bindings, slots) 
         <div class="${"p-2 sm:p-4"}"><div>${each(copy.mrp.events, (event, index2) => `<div class="${"md:py-6 md:px-2"}">${validate_component(Module, "Module").$$render($$result, { content: event }, {}, {})}
               </div>`)}</div></div></div></div></div>`}`;
 });
-var metadata$a = {
+var metadata$f = {
   "layout": "movingstrings",
   "date": "2021-12-06",
   "title": "Moving Strings",
   "description": "Moving Strings: A symposium on strings and feedback. Dec 6-10, Reykjav\xEDk, Iceland.",
   "featured": true
 };
-var Moving_strings = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(MovingStrings, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$a), {}, {})}`;
+var Moving_strings$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(MovingStrings, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$f), {}, {})}`;
 });
 var index$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": Moving_strings,
-  metadata: metadata$a
+  "default": Moving_strings$1,
+  metadata: metadata$f
 });
 var About$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $Layout, $$unsubscribe_Layout;
@@ -6273,14 +6425,14 @@ var About$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 ${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-primary border-dashed border-secondary border-4"}"><div class="${"p-10 sm:p-12 md:p-14 max-w-3xl"}"><h1 class="${"font-hauser text-secondary text-4xl sm:text-5xl md:text-6xl mb-4"}">${escape(title2)}</h1>
       <div class="${"p-2 sm:p-4"}">${slots.default ? slots.default({}) : ``}</div></div></div>`}`;
 });
-var metadata$9 = {
+var metadata$e = {
   "layout": "about",
   "title": "About",
   "slug": "about",
   "description": "About the Intelligent Instruments Lab"
 };
 var About = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(About$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$9), {}, {
+  return `${validate_component(About$1, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$e), {}, {
     default: () => `
 <p>The Intelligent Instruments Lab is an interdisciplinary research lab that investigates the role of artificial intelligence in new musical instruments. Music is our research base, but the reach and impact is wider and we explore how musical interfaces can be applied as scientific instruments, for example through sonification.</p>
 <p>We study creative AI from a broad humanities basis, involving musicians, computer scientists, philosophers and cognitive scientists in key international institutions. We explore the emerging language and discourse of creative AI, addressing how notions such as agency, autonomy, authenticity, authorship, creativity and originality change with these new technologies.</p>
@@ -6294,7 +6446,7 @@ var about = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": About,
-  metadata: metadata$9
+  metadata: metadata$e
 });
 var title$1 = "News";
 var description$1 = "News about the Intelligent Instruments Lab";
@@ -6326,9 +6478,13 @@ var News = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   featured = {
     size: 2,
     page: 1,
-    items: items.filter((i) => i.metadata.featured === true)
+    items: items.filter((i) => i.metadata.featured === true).sort((fst, snd) => new Date(fst.metadata.date) - new Date(snd.metadata.date)).reverse()
   };
-  all = { size: 4, page: 1, items };
+  all = {
+    size: 4,
+    page: 1,
+    items: items.sort((fst, snd) => new Date(fst.metadata.date) - new Date(snd.metadata.date)).reverse()
+  };
   featuredPaginated = paginate({
     items: featured.items,
     pageSize: featured.size,
@@ -6421,15 +6577,15 @@ var NewsItem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       <div class="${"p-2 sm:p-4"}">${slots.default ? slots.default({}) : ``}</div></div>
     <div class="${"p-4 sm:p-6 mt-2 font-hauser uppercase text-md sm:text-lg text-white"}"><a href="${"/news"}">${escape("<-")} Back to News</a></div></div>`}`;
 });
-var metadata$8 = {
+var metadata$d = {
   "layout": "news",
   "date": "2021-11-02",
   "title": "Nordic Popular Music Union",
   "description": "Talk: AI in pop music",
-  "featured": true
+  "featured": false
 };
 var Nordic_popular_music_union = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$8), {}, {
+  return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$d), {}, {
     default: () => `<p>Thor Magnusson will give a talk on Creative AI in music for the Nordic Union of Popular Music. </p>
 <p>This will take place in Reykjavik, in the Center Hotel, Laugarvegur, Nov 4th, 2021.</p>
 <h2>Music and AI: an Auspicious Relationship?</h2>
@@ -6442,18 +6598,56 @@ var nordicPopularMusicUnion = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Nordic_popular_music_union,
-  metadata: metadata$8
+  metadata: metadata$d
 });
-var metadata$7 = {
+var metadata$c = {
+  "layout": "news",
+  "date": "2022-02-03",
+  "title": "Iceland Univeristy of the Arts receives its very own halldorophone",
+  "description": "Kastljos news segment about the halldorophone",
+  "featured": true
+};
+var Halldorophone_kastljos = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$c), {}, {
+    default: () => `${validate_component(CaptionedImage, "CaptionedImage").$$render($$result, {
+      src: "stock/halldor_kastljos.png",
+      alt: "A man speaking to camera. Behind him another man is playing the halldorophone, an intelligent string instrument.",
+      caption: "Halld\xF3r \xDAlfarsson, the creator of the halldorophone."
+    }, {}, {})}
+<p>On January 17th, news reporter Gu\xF0r\xFAn S\xF3ley and the good people of Kastlj\xF3s, one of Iceland\u2019s most prestigious news and culture comment programme, paid us a visit at the Intelligent Instruments Lab. The occasion was the gifting of a halldorophone (Icelandic: d\xF3r\xF3f\xF3nn) to the Iceland University of the Arts, with the support Design Fund Iceland. A ceremony was held at the IUA and rector Fr\xED\xF0a Bj\xF6rk Ingvarsd\xF3ttir received the instrument on behalf of the school. </p>
+<p>In the news segment we take a look at the halldorophone, a built-to-feedback, electro-acoustic string instrument invented by Halld\xF3r \xDAlfarsson (our technician at the IIL). Halld\xF3r goes on to tell the story of how the project came to be, originally conceived of as a prop for performance art during his time as a visual arts student. Starting out as kind of a joke, he says, but in time developed into a functional string instrument for string players interested in working with feedback.</p>
+<p>The halldorophone has recently received support from Technology Development Fund Iceland. In a project called \u201CEvolution of halldorophones\u201D select musical institutions will receive halldorophone on loan in for a period of two years, allowing musicians and students access to the instrument and collecting data for Halld\xF3r to further development of the project. </p>
+${validate_component(CaptionedImage, "CaptionedImage").$$render($$result, {
+      src: "stock/halldorophone.jpeg",
+      alt: "A wooden cello like instrument embedded with electronic parts.",
+      caption: "The halldorophone that is now in the possession of IUA."
+    }, {}, {})}
+<p>Sigur\xF0ur Halld\xF3rsson, professor and head of musical department at Iceland University of the Arts, demonstrated the halldorophone for those present and told us about his feelings about the instrument. He said he had expected something familiar to a trained cellist, but coming to understand that this was a fundamentally different musical tool with a mind of its own. He expressed an understanding to have to put aside his training in order to be able embrace the new adventures this instrument offers.</p>
+<p>The halldorophone has become somewhat known after composer Hildur Gu\xF0nad\xF3ttir was awarded the Academy Awards for her music in the film Joker, as she used the instrument to write and perform music in the film. Particularly in a scene called Bathroom Dance, where the main character transforms from a victim to perpetrator. Halld\xF3r is grateful for her contribution to the instrument\u2019s recognition, as she has regularly mentioned the halldorophone when interviewed about her work.</p>
+<p>See Bathroom Dance:</p>
+<iframe width="${"560"}" height="${"315"}" src="${"https://www.youtube.com/embed/VdfgiEQeceM"}" title="${"YouTube video player"}" frameborder="${"0"}" allow="${"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"}" allowfullscreen></iframe>
+<p>Futhermore, Halld\xF3r adds how pleasing it is that the halldorophone will now be available to the staff and students of the Iceland Academy of the Arts, suggesting that a musical instrument doesn\u2019t really exist if no one makes music with it. </p>
+<p>Gu\xF0r\xFAn S\xF3ley dropped by at the Yellow Lab after the ceremony and Thor Magnusson, our primary investigator, showed her some of the instruments we are studying, making and playing. He explained how this lab seeks to understand how artificial intelligence becomes a part of music. Among the instruments we saw were the Linnstrument, AI embedded traditional Icelandic Langspil and the Basque Txalaparta. Thor explains how instruments have a close relationship with the players and how embedding AI can allow the instrument to suggest new ways of playing and composing.</p>
+<p>Watch the segment from R\xDAV here:</p>
+<iframe width="${"560"}" height="${"315"}" src="${"https://www.youtube.com/embed/LFDXomBusRQ"}" title="${"YouTube video player"}" frameborder="${"0"}" allow="${"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"}" allowfullscreen></iframe>`
+  })}`;
+});
+var halldorophone_kastljos = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Halldorophone_kastljos,
+  metadata: metadata$c
+});
+var metadata$b = {
   "layout": "news",
   "date": "2021-10-18",
   "title": "In the Icelandic Media",
   "description": "Introductions to the project in Icelandic",
-  "featured": true
+  "featured": false
 };
 var Icelandic_news = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$7), {}, {
-    default: () => `<p>Primary Investigator Thor Magnusson, has been asked on several occasions to present the Intelligen Instruments project in the Icelandic media. These are some of our favourite moments, but note that all of the interviews are in Icelandic. </p>
+  return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$b), {}, {
+    default: () => `<p>Primary Investigator Thor Magnusson, has been asked on several occasions to present the Intelligent Instruments project in the Icelandic media. These are some of our favourite moments, note that all of the interviews are in Icelandic. </p>
 <h2>An Article in \xDEr\xE6\xF0ir</h2>
 <p>Atli Ing\xF3lfsson, an editor of \xDEr\xE6\xF0ir - the research journal of the Iceland University of the Arts Music Department - invited us to write an article on the Intelligent Instruments project.</p>
 ${validate_component(CaptionedImage, "CaptionedImage").$$render($$result, {
@@ -6493,17 +6687,94 @@ var icelandicNews = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Icelandic_news,
-  metadata: metadata$7
+  metadata: metadata$b
 });
-var metadata$6 = {
+var metadata$a = {
+  "layout": "news",
+  "date": "2021-12-18",
+  "title": "Moving String Symposium",
+  "description": "An International Symposium in Reykjavik on New ways of Moving Strings",
+  "featured": false
+};
+var Moving_strings = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$a), {}, {
+    default: () => `<p>We ran the Moving String Symposium in Reykjavik in December 2021. The event included workshops in the Magnetic Resonator Piano, symposium with feedback musicians, and a keynote from Andrew McPherson. </p>
+${validate_component(CaptionedImage, "CaptionedImage").$$render($$result, {
+      src: "events/moving-strings/tabita.jpg",
+      alt: "A photo of Tabita with her Tensegrity instrument. The picture is of the instrument with her in the centre performing on it."
+    }, {}, {})}
+<p>Tinna Thorsteinsdottir ran the MRP workshops, and we are pleased to present the result of those workshops here:</p>
+<iframe width="${"560"}" height="${"315"}" src="${"https://www.youtube.com/embed/he4wBSFEl18"}" title="${"YouTube video player"}" frameborder="${"0"}" allow="${"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"}" allowfullscreen></iframe>
+<p>Andrew McPherson\u2019s talk is here:</p>
+<iframe width="${"560"}" height="${"315"}" src="${"https://www.youtube.com/embed/8pfybzsT4tY"}" title="${"YouTube video player"}" frameborder="${"0"}" allow="${"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"}" allowfullscreen></iframe>
+<p>And our Symposium day can be found here:</p>
+<iframe width="${"560"}" height="${"315"}" src="${"https://www.youtube.com/embed/FQpg06Imiao"}" title="${"YouTube video player"}" frameborder="${"0"}" allow="${"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"}" allowfullscreen></iframe>`
+  })}`;
+});
+var movingStrings = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Moving_strings,
+  metadata: metadata$a
+});
+var metadata$9 = {
+  "layout": "news",
+  "date": "2022-01-31",
+  "title": "Summer Internships at the IIL",
+  "description": "Opportunities for students to join the IIL",
+  "featured": true
+};
+var Summer_interns = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$9), {}, {
+    default: () => `<p>-Icelandic text below-</p>
+<p><strong>Summer Research Internship at the Intelligent Instruments Lab</strong></p>
+<p>We are now seeking letters of interest from students based in Iceland who would like to work with us in the summer of 2022 in our Reykjavik lab. </p>
+<p><strong>Who we are:</strong>
+The Intelligent Instruments Lab is an interdisciplinary research lab that investigates the role of artificial intelligence in new musical instruments. Music is our research base, but the reach and impact is wider and we explore how musical interfaces can be applied as scientific instruments, for example through sonification. </p>
+<p><strong>What we do:</strong></p>
+<p>We work equally with actual instrument design and writing software, and musical performance is an important part of what we do. Our focus is to understand how AI changes the way we think, talk and reflect upon the role of new creative AI.</p>
+<p><strong>Where do you come in?</strong>
+We can offer two possible paths for working with us, in both cases we expect students to choose a topic for their research and discuss it with our team. </p>
+<p>1) Our masters summer programme. Here, a master\u2019s student in any of the Icelandic universities can apply to work with us for a period of maximum two months. </p>
+<p>2) The Icelandic Innovation Fund. Here students apply via Rannis, but in collaboration with us. Note the deadline is close!</p>
+<p>Information: <a href="${"https://en.rannis.is/funding/research/icelandic-student-innovation-fund/nr/570"}" rel="${"nofollow"}">https://en.rannis.is/funding/research/icelandic-student-innovation-fund/nr/570</a></p>
+<p><strong>How to apply:</strong></p>
+<p>If you think your idea is a good fit for the IIL lab, don\u2019t hesitate to contact us! Please send us an email (<a href="${"mailto:thor.magnusson@lhi.is"}">thor.magnusson@lhi.is</a>) with a paragraph that includes the following information: university, course of studies, current degree, musical background and project idea. We look forward to hearing from you.</p>
+${validate_component(CaptionedImage, "CaptionedImage").$$render($$result, {
+      src: "stock/student_IIL.jpeg",
+      alt: "A young man sitting with an intelligent string instrument in front of blue and yellow shelves.",
+      caption: "Doctoral student Victor studying the langspil at our lab in IUA \xDEverholt."
+    }, {}, {})}
+<p><strong>Sumarst\xF6rf fyrir nemendur vi\xF0 Intelligent Instruments Lab</strong></p>
+<p>Vi\xF0 k\xF6llum eftir ums\xF3knum um samstarf vi\xF0 nemendur sem b\xFAsettir eru \xE1 \xCDslandi og hafa \xE1huga \xE1 a\xF0 starfa \xE1 ranns\xF3knarstofunni okkar \xED Reykjav\xEDk sumari\xF0 2022. </p>
+<p><strong>Hver vi\xF0 erum:</strong></p>
+<p>Intelligent Instruments ranns\xF3knarstofan er \xFEverfr\xE6\xF0ileg ranns\xF3knarstofa sem rannsakar hlutverk gervigreindar \xED n\xFDjum hlj\xF3\xF0f\xE6rum. T\xF3nlist er undirsta\xF0a ranns\xF3knarefna en umfang og \xE1hrif eru mun v\xED\xF0t\xE6kari og vi\xF0 sko\xF0um hvernig h\xE6gt er a\xF0 \xFAtf\xE6ra vi\xF0m\xF3t \xED t\xF3nlist sem v\xEDsindaleg t\xF3l, til d\xE6mis me\xF0 \xFEv\xED a\xF0 nota hlj\xF3\xF0ferla til a\xF0 vinna \xFAr annars konar g\xF6gnum.</p>
+<p><strong>\xDEa\xF0 sem vi\xF0 gerum:</strong></p>
+<p>Vi\xF0 vinnum jafnmiki\xF0 me\xF0 hlj\xF3\xF0f\xE6rah\xF6nnun og hugb\xFAna\xF0arger\xF0, einnig er t\xF3nlistarflutningur mikilv\xE6gur \xFE\xE1ttur \xED okkar starfi. Vi\xF0 viljum skilja hvernig gervigreind breytir \xFEv\xED hvernig vi\xF0 hugsum og t\xF6lum og hvernig vi\xF0 skynjum hlutverk hinnar n\xFDju skapandi gervigreindar. </p>
+<p><strong>Hvar kemur \xFE\xFA inn \xED myndina?</strong></p>
+<p>Vi\xF0 bj\xF3\xF0um upp \xE1 tv\xE6r lei\xF0ir fyrir nemendur a\xF0 starfa me\xF0 okkur, \xED b\xE1\xF0um tilfellum vinnur nemandinn a\xF0 eigin hugmynd sem er \xFEr\xF3u\xF0 me\xF0 teyminu okkar.</p>
+<p>1) Sumarst\xF6rf meistaranema. Hva\xF0a meistaranemi sem er, sem stundar n\xE1m vi\xF0 \xEDslensku h\xE1sk\xF3lana, getur s\xF3tt um a\xF0 vinna me\xF0 okkur \xED tvo m\xE1nu\xF0i. </p>
+<p>2) N\xFDsk\xF6punarsj\xF3\xF0ur n\xE1msmanna. \xCD samstarfi vi\xF0 okkur s\xE6kja nemendur milli anna um styrk hj\xE1 Rann\xEDs. Athugi\xF0 a\xF0 ums\xF3knarfrestur n\xE1lgast!</p>
+<p>N\xE1nar: <a href="${"https://www.rannis.is/sjodir/menntun/nyskopunarsjodur-namsmanna/nr/19"}" rel="${"nofollow"}">https://www.rannis.is/sjodir/menntun/nyskopunarsjodur-namsmanna/nr/19</a></p>
+<p>Hvernig \xE1 a\xF0 s\xE6kja um:</p>
+<p>Ef \xFE\xFA heldur a\xF0 \xFE\xEDn hugmynd eigi heima \xE1 IIL ranns\xF3knarstofunni skaltu ekki hika vi\xF0 a\xF0 hafa samband! Vinsamlegast sendu okkur t\xF6lvup\xF3st (<a href="${"mailto:thor.magnusson@lhi.is"}">thor.magnusson@lhi.is</a>) me\xF0 stuttum texta sem inniheldur eftirfarandi atri\xF0i: h\xE1sk\xF3li, fag, n\xFAverandi gr\xE1\xF0a, t\xF3nlistarbakgrunn og hugmynd a\xF0 verkefni. Vi\xF0 hl\xF6kkum til a\xF0 heyra fr\xE1 ykkur!</p>`
+  })}`;
+});
+var summer_interns = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Summer_interns,
+  metadata: metadata$9
+});
+var metadata$8 = {
   "layout": "news",
   "date": "2021-10-07",
   "title": "Off to a good start...",
   "description": "What we have been up to in the first month.",
-  "featured": true
+  "featured": false
 };
 var Good_start = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$6), {}, {
+  return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$8), {}, {
     default: () => `<p>On September 1st, our team met for the first time in real life. Thor, Halld\xF3r, Jack, Victor and Esther came together in the basement Iceland University of the Arts to plot the first steps of the five-year-long journey we have ahead of us now.
 This marks the start of the project where we will study the impact of creative AI, conducted in the research domain of music, with a broad humanities basis, involving musicians, computer scientists, philosophers and cognitive scientists.
 The university has generously provided us with two different spaces for labs. We call them the Blue Lab, which is in the basement and will serve as a recording studio, and the Yellow Lab, which is on 4th floor and is used as an office and a space for prototyping.</p>
@@ -6539,6 +6810,59 @@ var goodStart = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": Good_start,
+  metadata: metadata$8
+});
+var metadata$7 = {
+  "layout": "news",
+  "date": "2022-02-04",
+  "title": "Sound Works: An Orpheus Institute Publication",
+  "description": "Opportunities for students to join the IIL",
+  "featured": true
+};
+var Soundworks = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$7), {}, {
+    default: () => `<p>Thor Magnusson\u2019s text <i>Designing the Threnoscope, or, How I Wrote One of My Pieces</i> has just been published in a new Orpheus Institute Publicaton called <a href="${"https://orpheusinstituut.be/en/publications/sound-work"}" target="${"_blank"}">Sound Work</a>. </p>
+<p>Download the chapter here:<a href="${"pdfs/Magnusson_SoundWork.pdf"}" target="${"_blank"}">PDF</a></p>
+${validate_component(CaptionedImage, "CaptionedImage").$$render($$result, {
+      src: "news/soundwork.png",
+      alt: "The front cover of the Sound Works book",
+      caption: "A picture of medieval musicians"
+    }, {}, {})}
+<p>The Threnoscope live coding system started as a musical piece exploring ideas of microtonal music, surround sound, and long duration time frames. During its compositional design process the piece evolved into a live coding performance system, a hybrid of an instrument and a compositional system. The unfolding of the work took place in a context of live performances, audience feedback, user comments, and ideas that developed in concert with how the body of code grew and stabilised.</p>
+<p>This chapter introduces the system, the research underpinning it, and describes how the bricoleur approach to programming served as a platform for asking questions that materialised in the engagement with the code, the physical properties of sound, and compositional ideas. The piece is a good example of a practice-based research, involving questions in the fields of music, human-computer interaction, programming language design, and user studies. </p>
+<p>The chapter reflects on the nature of artistic research and how music software development goes hand in hand with music research. I demonstrate how the digital system\u2019s requirements for specifications and completeness inevitably forces a strong understanding of the source domain, namely the physical nature of sound. Such musical practice, when expressed through performance or composition, derives from a rigid research process, yet exists separately from it. </p>`
+  })}`;
+});
+var soundworks = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": Soundworks,
+  metadata: metadata$7
+});
+var metadata$6 = {
+  "layout": "news",
+  "date": "2021-12-21",
+  "title": "ICLC 2021 Panel",
+  "description": "Thor Magnusson presents work at a panel session at ICLC 2021",
+  "featured": false
+};
+var ICLC2021 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata$6), {}, {
+    default: () => `<p>The International Conference on Live Coding took place in Chile this year, but was held primarily online. The programme was diverse and excting with participants around the globe and can be found <a href="${"https://iclc.toplap.org/2021/"}">here</a>.</p>
+<p>The panel with Iris Saladino and Thor Magnusson</p>
+<iframe width="${"560"}" height="${"315"}" src="${"https://www.youtube.com/embed/4GVMkly5QUk?start=10881"}" title="${"YouTube video player"}" frameborder="${"0"}" allow="${"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"}" allowfullscreen></iframe>
+<p>The ICLC conferences have been running since 2015, the first one being part of an AHRC network that was run by Alex McLean (Leeds) and Thor Magnusson (Sussex). It\u2019s been great to see the conference developing and maturing as the field of live coding does. More on this later, but the MIT Press will soon publish a book which Alex and Thor co-wrote with Emma Cocker, Alan Blackwell and Geoff Cox, on live coding. </p>
+<p>At the Intelligent Instruments Lab, we don\u2019t focus on live coding, but it has become an integral part of everything we do. The philosophy of modularity, liveness, resistance to definitions, and redesinging things whilst they are in operation are part of our core thinking. There is no question how deeply live coding philosophy underpins this mindset, and indeed it perhaps supports the statement Thor wrote in his Herding Cats article:</p>
+<quote>Considering that live coding as a performance method represents a propitious and natural way
+of engaging with notation or instructions in real time, we might question whether the approach
+of defining live coding as a specific category is necessary from a longer-term perspective. At least we might rethink in which contexts it might be beneficial to maintain the category, because when the novelty wears off and the naturalization process has fully taken place, we may find the method blends so effortlessly into the diverse art forms that we don\u2019t need to talk about live coding anymore. In this future scenario, live coding simply becomes one of the most pertinent approaches among avail- able performance techniques that allow for real-time composition and improvisation.</quote>
+<p>REF: <a href="${"https://direct.mit.edu/comj/article/38/1/8/94447/Herding-Cats-Observing-Live-Coding-in-the-Wild"}" rel="${"nofollow"}">https://direct.mit.edu/comj/article/38/1/8/94447/Herding-Cats-Observing-Live-Coding-in-the-Wild</a></p>`
+  })}`;
+});
+var ICLC2021$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": ICLC2021,
   metadata: metadata$6
 });
 var Photo = create_ssr_component(($$result, $$props, $$bindings, slots) => {

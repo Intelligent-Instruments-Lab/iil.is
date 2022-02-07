@@ -6,7 +6,9 @@ description: "Kastljos news segment about the halldorophone"
 featured: true
 ---
 
-<script> import CaptionedImage from "../../components/Images/student_IIL.svelte" </script>
+<script>
+  import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
+</script>
 
 <CaptionedImage
   src="stock/halldor_kastljos.png"
