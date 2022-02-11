@@ -1,7 +1,7 @@
 ---
 name: "Kit Braybrooke"
 role: "Postdoctoral Research Fellow (2023-onwards)"
-email: "krill.xiu@gmail.com"
+email: "k.braybrooke@tu-berlin.de"
 image: "images/team/kit.jpg"
 links: {
   twitter: "codekat",
