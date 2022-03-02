@@ -41,7 +41,7 @@
         return authors[0] + ' and ' + authors[1]
       else {
         let s = ''
-        for (var i = 0; i < authors.length-1; i++) {
+        for (var i = 0; i < authors.length; i++) {
           if (i < authors.length-2)
             s = s + authors[i] + ', '
           else
