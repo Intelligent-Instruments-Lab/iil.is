@@ -14,7 +14,7 @@
   export let hero_slug
 
   let cta_links = [
-    { url: "/events/moving-strings", label: "Learn More", theme: "dark", target: "_self" }
+    { url: "/news/phd2", label: "Learn More", theme: "dark", target: "_self" }
   ]
 
   onMount(async () => {
@@ -58,13 +58,14 @@
       <div class="text-md md:text-xl md:pr-16 text-primary-700">
         <p>{pitch}</p>
         <p>
-          NEW! Our first event Moving Strings will take place in Reyjkavík from 7-10 December:
+          We are advertising for a PhD student to join us in September 2022. Could it be you? Click below to apply.
         </p>
       </div>
       <div class=" w-5/6 mt-8">
-        <div class="">
-          <YT scale="1" id="B0UIsDUzrD4"/>
-        </div>
+        <a href={hero_slug} title={hero_caption}>
+          <img class="shadow-sm" src={'./images/'+hero_image} alt={hero_caption}>
+          <p class="text-sm text-primary-500 mt-4">{hero_caption}</p>
+        </a>
       </div>
       <div class="mt-10">
         <CTARow links={cta_links}/>
