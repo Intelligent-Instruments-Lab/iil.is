@@ -1,5 +1,6 @@
 ---
 name: "Thor Magnusson"
+type: "Member"
 role: "Principal Investigator"
 email: "thor.magnusson@lhi.is"
 image: "images/team/thor.jpg"

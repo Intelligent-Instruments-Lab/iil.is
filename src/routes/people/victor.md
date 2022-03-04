@@ -1,5 +1,6 @@
 ---
 name: "Victor Shepardson"
+type: "Member"
 role: "PhD Student"
 email: "victor@lhi.is"
 image: "images/team/victor.jpg"

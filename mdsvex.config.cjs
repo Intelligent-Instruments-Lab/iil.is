@@ -30,7 +30,7 @@ module.exports = {
     openlab: "./src/layouts/OpenLabEvent.svelte",
     outputs: "./src/layouts/Outputs.svelte",
     researchproject: "./src/layouts/ResearchProject.svelte",
-    team: "./src/layouts/Team.svelte",
+    people: "./src/layouts/People.svelte",
     events: "./src/layouts/Events/Events.svelte",
     movingstrings: "./src/layouts/Events/MovingStrings.svelte"
   },
