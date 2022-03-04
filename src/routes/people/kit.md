@@ -1,5 +1,6 @@
 ---
 name: "Kit Braybrooke"
+type: "Member"
 role: "Postdoctoral Research Fellow (2023-onwards)"
 email: "k.braybrooke@tu-berlin.de"
 image: "images/team/kit.jpg"

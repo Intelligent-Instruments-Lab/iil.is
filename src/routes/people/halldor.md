@@ -1,5 +1,6 @@
 ---
 name: "Halldor Úlfarsson"
+type: "Member"
 role: "Fabricator"
 email: "hau@lhi.is"
 image: "images/team/halldor.jpg"

@@ -1,5 +1,6 @@
 ---
 name: "Esther Thorvalds"
+type: "Member"
 role: "Project Manager"
 email: "esther@lhi.is"
 image: "images/team/esther.jpg"

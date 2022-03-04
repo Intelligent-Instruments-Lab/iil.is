@@ -3,20 +3,20 @@
    * @type {import('@sveltejs/kit').Load}
    */
   export async function load({ fetch }) {
-    const res = await fetch(`/team/members.json`);
-    const members = await res.json();
+    const res = await fetch(`/people/people.json`);
+    const people = await res.json();
     
     return {
       props: {
-        members,
+        people,
       },
     };
   }
 </script>
 
 <script>
-  import Team from '../../layouts/Team.svelte'
-  export let members
+  import People from '../../layouts/People.svelte'
+  export let people
 </script>
 
-<Team members={members}/>
+<People people={people}/>

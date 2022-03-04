@@ -15,7 +15,7 @@ export async function get() {
 
     const posts = await Promise.all(body);
 
-    console.log(posts)
+    // console.log(posts)
 
     return {
         body: JSON.stringify(posts)
