@@ -3,7 +3,7 @@ name: "Halldor Úlfarsson"
 type: "Member"
 role: "Fabricator"
 email: "hau@lhi.is"
-image: "images/team/halldor.jpg"
+image: "images/people/halldor.jpg"
 links: {
   instagram: "halldorophone",
   website: "halldorophone.info"

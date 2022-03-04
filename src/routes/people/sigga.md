@@ -3,7 +3,7 @@ name: "Sigríður Birna Matthíasdóttir"
 type: "Associate"
 role: "Research Intern"
 email: "sigridurbirna@lhi.is"
-image: "images/team/sigga.jpg"
+image: "images/people/sigga.jpg"
 links: {
   twitter: "DigitalSigga",
   instagram: "digitalsigga",
