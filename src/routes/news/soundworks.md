@@ -2,7 +2,7 @@
 layout: news
 date: "2022-02-04"
 title: "Sound Works: An Orpheus Institute Publication"
-description: "Opportunities for students to join the IIL"
+description: "A research article about the Threnoscope"
 featured: true
 ---
 
