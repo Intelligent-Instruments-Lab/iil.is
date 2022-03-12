@@ -12,6 +12,13 @@ As part of the residency, Jack will be performing at the <a href="https://aaasse
 
 https://hangar.org/es/residents/activitats-dels-residents/espanol-algorithmic-art-assembly-aaa/
 
+<script> import CaptionedImage from "../../components/Images/CaptionedImage.svelte" </script>
+
+<CaptionedImage
+  src="news/aaabcn.png"
+  alt="Flyer for the Algorithmic Art Assembly Barcelona node."
+  caption="Flyer for AAA BCN."/>
+
 From March 24 to 27, Jack will be participating in the VIU Festival 2022. Full details about the festival programme can be found here:
 
 https://hangar.org/es/residents/activitats-dels-residents/espanol-viu-2022-encuentro-de-live-coding/
