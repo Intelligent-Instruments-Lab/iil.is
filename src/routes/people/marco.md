@@ -10,7 +10,7 @@ links: {
   instagram: "body_sound_machine",
   vimeo: "marcodonnarumma",
   scholar: "MV5UIAAAAAJ",
-  website: "marcodonnarumma.com",
+  website: "marcodonnarumma.com"
 }
 projects: [
   ""
