@@ -2,7 +2,7 @@
 layout: news
 date: "2022-02-04"
 title: "Sound Works: An Orpheus Institute Publication"
-description: "Opportunities for students to join the IIL"
+description: "A research article about the Threnoscope"
 featured: true
 ---
 
@@ -10,7 +10,7 @@ featured: true
 
 Thor Magnusson's text <i>Designing the Threnoscope, or, How I Wrote One of My Pieces</i> has just been published in a new Orpheus Institute Publicaton called <a href="https://orpheusinstituut.be/en/publications/sound-work" target="_blank">Sound Work</a>. 
 
-Download the chapter here:<a href="pdfs/Magnusson_SoundWork.pdf" target="_blank"> PDF</a>
+Download the chapter here: <a href="http://users.sussex.ac.uk/~thm21/thor/pdfs/Magnusson_SoundWork.pdf" target="_blank">PDF</a>
 
 <CaptionedImage
   src="news/soundwork.png"
