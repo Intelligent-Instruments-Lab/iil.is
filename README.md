@@ -38,7 +38,7 @@ Run the following commands.
 
 `git clone https://github.com/intelligent-instruments-lab/iil/is`
 
-Use node 16
+Use node 16 (install `node` if you don't already have it)
 
 `npm install` to install
 
