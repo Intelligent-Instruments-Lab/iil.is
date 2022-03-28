@@ -29,14 +29,17 @@
 {:else}
   <div class="bg-primary border-dashed border-secondary border-4">
     <div class="
-      p-10 sm:p-12 md:p-14
-      max-w-3xl">
-      <h1 class="font-hauser text-secondary
-        text-4xl sm:text-5xl md:text-6xl 
-        mb-4">
-        {title}
-      </h1>
-      <div class="p-2 sm:p-4"><slot/></div>
+      pt-10 sm:pt-12 md:pt-14
+      pb-24
+      grid grid-cols-12">
+      <div class="col-span-1  md:col-span-2 lg:col-span-3"></div>
+      <div class="col-span-10 md:col-span-8 lg:col-span-6">
+        <h1 class="font-hauser text-secondary
+          text-4xl sm:text-5xl md:text-6xl 
+          mb-4">{title}</h1>
+        <div class="p-2 sm:p-4"><slot/></div>
+      </div>
+      <div class="col-span-1  md:col-span-2 lg:col-span-3"></div>
     </div>
   </div>
 {/if}
