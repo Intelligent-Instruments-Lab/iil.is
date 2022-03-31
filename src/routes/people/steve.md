@@ -6,7 +6,8 @@ email: "S.Symons@sussex.ac.uk"
 image: "images/people/steve_1500.jpg"
 links: {
   twitter: "stevemuio",
-  website: "http://muio.org"
+  website: "http://muio.org",
+  website2: "http://owlproject.com"
 }
 projects: [
   ""
