@@ -5,7 +5,7 @@ role: "Associate"
 email: "enrique.hurtado@ehu.eus"
 image: "images/people/enrike_1500.jpg"
 links: {
-  github: "github.com/enrike",
+  github: "enrike",
   website: "enrike.ixi-audio.net"
 }
 projects: [
