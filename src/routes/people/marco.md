@@ -11,7 +11,7 @@ links: {
   vimeo: "marcodonnarumma",
   scholar: "MV5UIAAAAAJ",
   website: "marcodonnarumma.com",
-  website: "frontevacuo.com"
+  website2: "frontevacuo.com"
 }
 projects: [
   ""
