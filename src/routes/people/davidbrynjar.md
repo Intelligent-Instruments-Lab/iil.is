@@ -5,7 +5,7 @@ role: "Associate"
 email: "david.brynjar@gmail.com"
 image: "images/people/davidbrynjar.JPG"
 links: {
-  github: "github.com/franzson",
+  github: "franzson",
   website: "franzson.com"
 }
 projects: [
