@@ -3,7 +3,7 @@ name: "David Brynjar Franzson"
 type: "Associate"
 role: "Associate"
 email: "david.brynjar@gmail.com"
-image: "images/people/davidbynjar.JPG"
+image: "images/people/davidbrynjar.JPG"
 links: {
   github: "github.com/franzson",
   website: "franzson.com"
