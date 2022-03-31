@@ -7,7 +7,7 @@ image: "images/people/steve_1500.jpg"
 links: {
   twitter: "stevemuio",
   website: "http://muio.org",
-  website2: "http://owlproject.com"
+  website2: "owlproject.com"
 }
 projects: [
   ""
