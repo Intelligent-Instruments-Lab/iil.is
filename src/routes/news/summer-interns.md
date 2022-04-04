@@ -3,7 +3,7 @@ layout: news
 date: "2022-01-31"
 title: "Summer Internships at the IIL"
 description: "Opportunities for students to join the IIL"
-featured: true
+featured: false
 ---
 
 <script> import CaptionedImage from "../../components/Images/CaptionedImage.svelte" </script>
