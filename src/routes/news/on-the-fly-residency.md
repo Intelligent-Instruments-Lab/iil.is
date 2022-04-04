@@ -3,7 +3,7 @@ layout: news
 date: "2022-03-01"
 title: "On-the-fly Residency in Barcelona"
 description: "Dr. Jack Armitage spends one month with Hangar.org."
-featured: true
+featured: false
 ---
 
 Lab member Jack Armitage is spending this month in Barcelona taking part in a one month residency called <a href="https://onthefly.space/" target="_blank">On-the-Fly</a>, which promotes Live Coding practice by supporting knowledge exchange between communities, engaging with critical reflections, promoting free and open source tools and approaching live coding to new audiences.
