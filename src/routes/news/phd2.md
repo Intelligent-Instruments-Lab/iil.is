@@ -3,7 +3,7 @@ layout: news
 date: "2022-03-03"
 title: "PhD Scholarship Opportunity"
 description: "Open for applications"
-featured: true
+featured: false
 ---
 
 <script> import CaptionedImage from "../../components/Images/CaptionedImage.svelte" </script>
