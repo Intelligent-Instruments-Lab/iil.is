@@ -14,7 +14,7 @@ Last week, the Intelligent Instruments Lab welcomed visiting researcher Steve Sy
 
 <CaptionedImage
 src="stock/steve.jpg"
-alt="A man using a Gametrak control system with black strings tied to his hands. Standing in front of a yellow and blue shelving system. In the foreground, a large instrument."
+alt="A man using a Gametrak control system with strings tied to his hands. Standing in front of a yellow and blue shelving system. In the foreground, a large instrument."
 caption="Steve Symons using the Gametrak at the IIL."/>
 
 Steve is mostly known for his interactive sound systems and instruments that he improvises with or exhibits for the public to play. He has also gained recognition for his involvement in the Owl Project, a sculptural collective with sound art.
