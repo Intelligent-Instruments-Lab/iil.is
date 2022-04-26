@@ -2,20 +2,18 @@
 layout: news
 date: "2022-04-26"
 title: "Residency at the IIL: Steve Symons"
-description: "Enactive metaphors for collaborative musical instruments."
+description: "Enactive metaphors for collaborative musical instruments"
 featured: true
 ---
 
-<script>
-import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
-</script>
-
 Last week, the Intelligent Instruments Lab welcomed visiting researcher Steve Symons! Over the years, Steve has been making sound sculptures and art in the field of creative technology. He is currently a music technology doctoral researcher at the Leverhulme Trust funded [be.AI](http://be.ai/) Centre (University of Sussex, Brighton, UK). There he explores enactive metaphors for collaborative musical instruments that enhance intra-dependant actions between human and non-human agents.
 
+<script> import CaptionedImage from "../../components/Images/CaptionedImage.svelte" </script>
+
 <CaptionedImage
-src="stock/news/steve.jpg"
-alt="A man using a Gametrak control system with strings tied to his hands. Standing in front of a yellow and blue shelving system. In the foreground, a large instrument."
-caption="Steve Symons using the Gametrak at the IIL."/>
+  src="news/steve.jpg"
+  alt="A man using a Gametrak control system with strings tied to his hands. Standing in front of a yellow and blue shelving system. In the foreground, a large instrument."
+  caption="Steve Symons using the Gametrak at the IIL."/>
 
 Steve is mostly known for his interactive sound systems and instruments that he improvises with or exhibits for the public to play. He has also gained recognition for his involvement in the Owl Project, a sculptural collective with sound art.
 
