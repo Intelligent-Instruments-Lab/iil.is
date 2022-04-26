@@ -13,7 +13,7 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 Last week, the Intelligent Instruments Lab welcomed visiting researcher Steve Symons! Over the years, Steve has been making sound sculptures and art in the field of creative technology. He is currently a music technology doctoral researcher at the Leverhulme Trust funded [be.AI](http://be.ai/) Centre (University of Sussex, Brighton, UK). There he explores enactive metaphors for collaborative musical instruments that enhance intra-dependant actions between human and non-human agents.
 
 <CaptionedImage
-src="stock/steve.jpg"
+src="stock/news/steve.jpg"
 alt="A man using a Gametrak control system with strings tied to his hands. Standing in front of a yellow and blue shelving system. In the foreground, a large instrument."
 caption="Steve Symons using the Gametrak at the IIL."/>
 
