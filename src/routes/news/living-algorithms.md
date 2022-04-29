@@ -41,7 +41,9 @@ The full programme is as follows:
 
 <br>
 
-Sign-up is now live with a deadline of Friday 6th May: https://forms.office.com/r/pi6rTBKKgM
+Sign-up is now live with a deadline of Friday 6th May: https://forms.office.com/r/pi6rTBKKgM.
+
+Event page on Facebook: https://www.facebook.com/events/1116271868942780.
 
 Places are limited and will be allocated on a first-come first-serve basis.
 
