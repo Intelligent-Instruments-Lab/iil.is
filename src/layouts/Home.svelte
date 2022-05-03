@@ -14,7 +14,7 @@
   export let hero_slug
 
   let cta_links = [
-    { url: "/news/phd2", label: "Learn More", theme: "dark", target: "_self" }
+    { url: "/news/nime-2022-workshop", label: "Learn More", theme: "dark", target: "_self" }
   ]
 
   onMount(async () => {
@@ -58,7 +58,7 @@
       <div class="text-md md:text-xl md:pr-16 text-primary-700">
         <p>{pitch}</p>
         <p>
-          We are advertising for a PhD student to join us in September 2022. Could it be you? Click below to apply.
+          The call for abstracts is now live for our NIME 2022 workshop on <em>Embedded AI for NIME: Challenges and Opportunities</em>:
         </p>
       </div>
       <div class=" w-5/6 mt-8">

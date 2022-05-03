@@ -3,7 +3,7 @@ layout: news
 date: "2022-02-04"
 title: "Sound Works: An Orpheus Institute Publication"
 description: "A research article about the Threnoscope"
-featured: true
+featured: false
 ---
 
 <script> import CaptionedImage from "../../components/Images/CaptionedImage.svelte" </script>
