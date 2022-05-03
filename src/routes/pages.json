@@ -1,10 +1,5 @@
 [
   {
-    "label": "Apply to PhD", 
-    "url": "/news/phd2" , 
-    "style": "default"
-  },
-  {
     "label": "About", 
     "url": "/about" , 
     "style": "default"

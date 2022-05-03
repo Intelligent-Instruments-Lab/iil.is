@@ -3,7 +3,7 @@ layout: news
 date: "2022-04-04"
 title: "The Google Summer of Code"
 description: "Mentorship opportunity for students"
-featured: true
+featured: false
 ---
 
 <script> import CaptionedImage from "../../components/Images/CaptionedImage.svelte" </script>
