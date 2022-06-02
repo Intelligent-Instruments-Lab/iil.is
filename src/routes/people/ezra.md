@@ -4,7 +4,9 @@ type: "Associate"
 role: "Google Summer of Code Contributor"
 email: "ezrapierce@cmail.carleton.ca"
 image: "images/people/ezra.jpeg"
-
+links: {
+  ""
+}
 projects: [
   ""
 ]
