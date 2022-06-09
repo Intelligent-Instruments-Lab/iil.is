@@ -2,7 +2,7 @@
 name: "Steve Symons"
 type: "Associate"
 role: "Associate"
-email: "S.Symons@sussex.ac.uk"
+email: "s.symons@sussex.ac.uk"
 image: "images/people/steve_1500.jpg"
 links: {
   twitter: "stevemuio",
