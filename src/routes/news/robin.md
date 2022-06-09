@@ -22,7 +22,7 @@ I'm Robin, recently graduated from Composition - New Media at the Iceland Univer
 I did some experiments with real-time Icelandic weather data during the past couple of years, culminating in two pieces: Veðurhornið (an interactive performance using weather data and Facebook reactions in real-time to generate an extended French horn score) and Veðurgítarar (a Max patch using real-time weather data to produce generative music). 
 
 Veðurhornið
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=B3oXS7LfJ2I&t=24s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/B3oXS7LfJ2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Veðurgítarar
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=vr4iij3tnBw&t=9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
