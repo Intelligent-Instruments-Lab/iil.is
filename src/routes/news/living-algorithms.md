@@ -3,7 +3,7 @@ layout: news
 date: "2022-04-29"
 title: "Living Algorithms at RAFLOST Festival"
 description: "Living Algorithms at RAFLOST Festival"
-featured: true
+featured: false
 ---
 
 <script>
