@@ -21,14 +21,16 @@ I'm Robin, recently graduated from Composition - New Media at the Iceland Univer
 
 I did some experiments with real-time Icelandic weather data during the past couple of years, culminating in two pieces: Veðurhornið (an interactive performance using weather data and Facebook reactions in real-time to generate an extended French horn score) and Veðurgítarar (a Max patch using real-time weather data to produce generative music). 
 
-Veðurhornið
+Veðurhornið:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B3oXS7LfJ2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Veðurgítarar
+
+Veðurgítarar:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vr4iij3tnBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 In my last piece, presented on May the 17th in Reykjavík (Dynjandi hall), I used a Bela sensor board to embed a generative Pure Data music patch inside of a sculpture suspended in the middle of the air; audience could interact with the object and the soundscape produced via 6 sensors placed on the body of the sculpture. This interactive sound installation, obscurely titled "The only object they could retrieve from Earth's lost civilization", anticipates the project I hope to keep developing at the Intelligent Instrument Lab: an interactive sonification instrument, capable of adapting to the person using it and to the kind of dataset chosen. 
+
 
 The Only Object They Could Retrieve from Earth's Lost Civilization
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nAro0fELOv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
