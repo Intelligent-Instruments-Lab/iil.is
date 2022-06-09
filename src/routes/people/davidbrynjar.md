@@ -1,5 +1,5 @@
 ---
-name: "David Brynjar Franzson"
+name: "Davíð Brynjar Franzson"
 type: "Associate"
 role: "Associate"
 email: "david.brynjar@gmail.com"
