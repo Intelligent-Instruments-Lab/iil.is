@@ -3,7 +3,7 @@ layout: news
 date: "2022-05-11"
 title: "Celebrating International Synthesizer Day"
 description: "See you down at Reykjavik City Library's Den of Synth!"
-featured: true
+featured: false
 ---
 
 <script>
