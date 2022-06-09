@@ -15,7 +15,7 @@ We're happy to have Robin Morabito join us this summer for an internship support
 <CaptionedImage
   src="news/robin_device.jpeg"
   alt="A young man holding an unusual device. Yellow shelving system in the background."
-  caption="Robin Morabito designed in interactive sonification instrument."/>
+  caption="Robin Morabito designed an interactive sonification instrument."/>
 
 I'm Robin, recently graduated from Composition - New Media at the Iceland University of the Arts. I've played music since I was a kid, starting with guitar and slowly extending to violin, vocal studies, computer music and sound engineering. These last few years I got increasingly interested in sonification, which is an awesome way to make music out of raw data and learn what information those data contain. 
 
