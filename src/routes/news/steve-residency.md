@@ -3,7 +3,7 @@ layout: news
 date: "2022-04-26"
 title: "Residency at the IIL: Steve Symons"
 description: "Enactive metaphors for collaborative musical instruments"
-featured: true
+featured: false
 ---
 
 Last week, the Intelligent Instruments Lab welcomed visiting researcher Steve Symons! Over the years, Steve has been making sound sculptures and art in the field of creative technology. He is currently a music technology doctoral researcher at the Leverhulme Trust funded [be.AI](http://be.ai/) Centre (University of Sussex, Brighton, UK). There he explores enactive metaphors for collaborative musical instruments that enhance intra-dependant actions between human and non-human agents.
