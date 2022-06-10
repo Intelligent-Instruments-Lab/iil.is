@@ -38,3 +38,8 @@ The Only Object They Could Retrieve from Earth's Lost Civilization
 &nbsp;
 
 Sonification is becoming more and more popular to portray large multidimensional datasets, which can be perfectly represented with music. While our technology becomes increasingly complex, we have to find instruments to relate to the data that we produce and study: that's why sonification is so exciting, and why I wanted to spend three months in the lab learning more about it while learning how to perfect this process, to ultimately provide the community of people interested with additional resources for augmented sonification and sonification tools.
+
+<CaptionedImage
+  src="stock/schermata2.png"
+  alt="A strange metalic instrument, a hand close to it."
+  caption="Robin's instrument."/>
