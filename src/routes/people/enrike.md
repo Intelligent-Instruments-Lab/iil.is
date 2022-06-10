@@ -1,5 +1,5 @@
 ---
-name: "Enrike"
+name: "Enrique Hurtado"
 type: "Associate"
 role: "Associate"
 email: "enrique.hurtado@ehu.eus"
