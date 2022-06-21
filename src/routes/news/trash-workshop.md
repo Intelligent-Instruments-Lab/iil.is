@@ -38,6 +38,7 @@ Areas we will look at:
 - Speculative design 
 
 &nbsp;
+
 Interested in any of these areas? You don't have to learn all if it or use all your new skills for your musical instrument. Simply pick the fields you're most interested in. This is a relaxed setting where each participants can choose their own learning path. The instructors will be there with you, building their own stuff and helping others out with theirs. 
 
 <CaptionedImage
