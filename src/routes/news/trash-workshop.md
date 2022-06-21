@@ -26,12 +26,14 @@ Trash Sounds, a week-long workshop on designing and performing with intelligent 
 Dates are: 27.06 - 02.07 2022
 
 Areas we will look at:
+&nbsp;
 - Musical instrument design
 - Techniques for real-time audio programming (from scratch)
 - Creative AI for gesture-sound mapping
 - Sonic interaction design
 - Physical instrument craft
-- Speculative design
+- Speculative design 
+&nbsp;
 
 Interested in any of these areas? You don't have to learn all if it or use all your new skills for your musical instrument. Simply pick the fields you're most interested in. This is a relaxed setting where each participants can choose their own learning path. The instructors will be there with you, building their own stuff and helping others out with theirs. 
 
@@ -56,7 +58,9 @@ The schedule is as follows:
   alt="MON 27, Welcome, Free Lunch!, Workshop, Lecture, Warm Up Party, TUE 28, Workshop, Free Lunch!, Workshop, Lecture, Movie Screening, WED 29 Workshop, Free Lunch!, Workshop, Lecture, , Exp. and Trash Music, THU 30, Workshop Free Lunch!, Workshop, Lecture, , Radio and Massage Party, FRI 01, Optional Workshop, Free Lunch!, Workshop, Dinner, Fúsk Folk Vibe, SAT 02, Presentaiton, Buxur Party."
   caption="The Schedule for the Festival"/>
 
-Included in the price of the ticket is not only the Trash Sounds workshop itself but also tickets to some of RUSL FEST's most popular events, such as parties and concerts like Massage and Buxur. Furthermore, the festival provides vegan food for lunch and dinner each day of the workshop so you won't go hungry! 
+Included in the price of the ticket is not only the Trash Sounds workshop itself but also tickets to some of RUSL FEST's most popular events, such as parties and concerts like Massage and Buxur. 
+
+Furthermore, the festival provides vegan food for lunch and dinner each day of the workshop so you won't go hungry! 
 
 <CaptionedImage
   src="news/trash-stuff2.jpg"
