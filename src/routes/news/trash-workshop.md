@@ -24,8 +24,11 @@ If you want to learn how to build your very own instrument, using "trash", then 
 Trash Sounds, a week-long workshop on designing and performing with intelligent musical instruments made from discarded materials.
 
 Dates: 27.06. - 02.07. 2022
+
 Age limit: 20
+
 Location: Fúsk, Gufunes, 112 Reykjavík (Iceland) a.k.a. Grafarvogur
+
 Language: Our instructors speak both Icelandic and English but we will mostly use English
 
 Areas we will look at:
@@ -39,7 +42,9 @@ Areas we will look at:
 
 &nbsp;
 
-Interested in any of these areas? You don't have to learn all if it or use all your new skills for your musical instrument. Simply pick the fields you're most interested in. This is a relaxed setting where each participants can choose their own learning path. The instructors will be there with you, building their own stuff and helping others out with theirs. 
+Interested in any of these areas? 
+
+You don't have to learn all if it or use all your new skills for your musical instrument. Simply pick the fields you're most interested in. This is a relaxed setting where each participants can choose their own learning path. The instructors will be there with you, building their own stuff and helping others out with theirs. 
 
 <CaptionedImage
   src="news/trash-stuff1.jpg"
