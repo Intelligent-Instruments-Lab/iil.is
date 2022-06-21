@@ -10,7 +10,7 @@ featured: true
   import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-RUSL FEST is just around the corner and we're working hard prepping our Trash Sounds workshop. Here you'll find all you need to know about the workshop and what is included in the ticket. 
+RUSL FEST 2022 is just around the corner and we're working hard prepping our Trash Sounds workshop. Here you'll find all you need to know about the workshop and what is included in the ticket. 
 
 First off, the workshop is designed to support individual needs and interests. We welcome people who want to learn something new and also people who already have something in mind they want to build. 
 
@@ -22,6 +22,8 @@ If you want to learn how to build your very own instrument, using "trash", then 
   caption="The workshop leaders: Robin, Karl, Sean, Sigga and Jack."/>
 
 Trash Sounds, a week-long workshop on designing and performing with intelligent musical instruments made from discarded materials.
+
+Dates are: 27.06 - 02.07 2022
 
 Areas we will look at:
 - Musical instrument design
