@@ -70,5 +70,5 @@ Furthermore, the festival provides vegan food for lunch and dinner each day of t
 Tickets are available at:
 https://tix.is/is/event/13336/rusl-fest/
 
-About RUSL FEST:
+Full RUSL FEST program is available here. Note that all the lectures are free for all!
 https://ruslfest.is/Home
