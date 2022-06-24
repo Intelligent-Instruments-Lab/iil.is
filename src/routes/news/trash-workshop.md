@@ -68,6 +68,8 @@ Included in the price of the ticket is not only the Trash Sounds workshop itself
 
 Furthermore, the festival provides vegan food for lunch and dinner each day of the workshop so you won't go hungry! 
 
+To bring discarded materials to life, participants will use a kit loaned by the Intelligent Instruments Lab for the duration of the workshop. Central to this kit is the Bela high performance interactive audio and sensor platform (http://bela.io/). The kit also includes various sensors and actuators allowing participants' creations to perceive motion, vibration and light, and in turn vibrate and resonate objects and materials of choice.
+
 <CaptionedImage
   src="news/trash-stuff2.jpg"
   alt="Various things on a yellow table, including boxes with electronics and string cases, a Moog theramin, drum sticks, an empty drinking bottle and electronic cables. In the background, a man holding an interesting wooeden instrument."
