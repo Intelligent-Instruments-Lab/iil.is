@@ -23,7 +23,7 @@ My name is Karl and I am a MSc student in Computer Science at Reykjavík Univers
 
 My main project this summer will be teaching a computer to play an ancient Basque percussion instrument named txalaparta. It is typically played simultaneously by two players improvising in a call-and-response fashion and the goal is to get a computer to play along with a human txalaparta player. The instrument consists of a few long wooden planks that are beaten by special batons, which we have placed sensors on to abstract the human playing into data. The data is then fed into a system that processes it, learns its patterns, and responds with a prediction of when the next hit should be and which player will perform it. If all goes well, the computer will play along with a human txalaparta player in a convincing manner.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=XaSYiBaqLwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XaSYiBaqLwA?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 &nbsp;
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qwnAnB57H2k?start=485" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
