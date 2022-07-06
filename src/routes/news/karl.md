@@ -15,7 +15,7 @@ A warm welcome to Karl Jóhannsson who is working with us this summer researchin
 <CaptionedImage
 src="news/karl.jpeg"
 alt="Man sitting in front of a wooden percussion instrument, holding large wooden sticks. Yellow and blue shelving system in the background."
-caption="Karl Jóhannsson with the txalaparta."/>
+caption="Karl Jóhannsson with his work in progress."/>
 
 Here you can read a little bit about Karl and his project, in his own words:
 
