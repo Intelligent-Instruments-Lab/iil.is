@@ -3,7 +3,7 @@ layout: news
 date: "2022-06-21"
 title: "Trash Sounds"
 description: "Everything you need to know about the workshop"
-featured: true
+featured: false
 ---
 
 <script>
