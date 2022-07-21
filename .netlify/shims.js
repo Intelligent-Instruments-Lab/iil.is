@@ -1,36 +1,18 @@
-'use strict';
-
-var require$$0$1 = require('assert');
-var require$$4 = require('net');
-var require$$2 = require('http');
-var require$$0$2 = require('stream');
-var require$$6 = require('buffer');
-var require$$0 = require('util');
-var require$$10 = require('stream/web');
-var require$$1 = require('perf_hooks');
-var require$$9 = require('util/types');
-var require$$0$3 = require('events');
-var require$$4$1 = require('tls');
-var require$$3 = require('async_hooks');
-require('console');
-var require$$3$1 = require('zlib');
-var crypto = require('crypto');
-
-function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
-
-var require$$0$1__default = /*#__PURE__*/_interopDefaultLegacy(require$$0$1);
-var require$$4__default = /*#__PURE__*/_interopDefaultLegacy(require$$4);
-var require$$2__default = /*#__PURE__*/_interopDefaultLegacy(require$$2);
-var require$$0$2__default = /*#__PURE__*/_interopDefaultLegacy(require$$0$2);
-var require$$6__default = /*#__PURE__*/_interopDefaultLegacy(require$$6);
-var require$$0__default = /*#__PURE__*/_interopDefaultLegacy(require$$0);
-var require$$10__default = /*#__PURE__*/_interopDefaultLegacy(require$$10);
-var require$$1__default = /*#__PURE__*/_interopDefaultLegacy(require$$1);
-var require$$9__default = /*#__PURE__*/_interopDefaultLegacy(require$$9);
-var require$$0$3__default = /*#__PURE__*/_interopDefaultLegacy(require$$0$3);
-var require$$4$1__default = /*#__PURE__*/_interopDefaultLegacy(require$$4$1);
-var require$$3__default = /*#__PURE__*/_interopDefaultLegacy(require$$3);
-var require$$3$1__default = /*#__PURE__*/_interopDefaultLegacy(require$$3$1);
+import require$$0$1 from 'assert';
+import require$$4 from 'net';
+import require$$2 from 'http';
+import require$$0$2 from 'stream';
+import require$$6 from 'buffer';
+import require$$0 from 'util';
+import require$$10, { ReadableStream as ReadableStream$1, TransformStream, WritableStream } from 'stream/web';
+import require$$1 from 'perf_hooks';
+import require$$9 from 'util/types';
+import require$$0$3 from 'events';
+import require$$4$1 from 'tls';
+import require$$3 from 'async_hooks';
+import 'console';
+import require$$3$1 from 'zlib';
+import { webcrypto } from 'crypto';
 
 var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
@@ -291,14 +273,14 @@ var errors$1 = {
   BalancedPoolMissingUpstreamError
 };
 
-const assert$7 = require$$0$1__default["default"];
+const assert$7 = require$$0$1;
 const { kDestroyed: kDestroyed$1, kBodyUsed: kBodyUsed$1 } = symbols$1;
-const { IncomingMessage } = require$$2__default["default"];
-const stream$1 = require$$0$2__default["default"];
-const net$2 = require$$4__default["default"];
+const { IncomingMessage } = require$$2;
+const stream$1 = require$$0$2;
+const net$2 = require$$4;
 const { InvalidArgumentError: InvalidArgumentError$e } = errors$1;
-const { Blob: Blob$1 } = require$$6__default["default"];
-const nodeUtil = require$$0__default["default"];
+const { Blob: Blob$1 } = require$$6;
+const nodeUtil = require$$0;
 
 function nop () {}
 
@@ -626,7 +608,7 @@ function getSocketInfo (socket) {
 let ReadableStream;
 function ReadableStreamFrom$1 (iterable) {
   if (!ReadableStream) {
-    ReadableStream = require$$10__default["default"].ReadableStream;
+    ReadableStream = require$$10.ReadableStream;
   }
 
   if (ReadableStream.from) {
@@ -818,7 +800,7 @@ function requireWebidl () {
 	if (hasRequiredWebidl) return webidl_1;
 	hasRequiredWebidl = 1;
 
-	const { toUSVString, types } = require$$0__default["default"];
+	const { toUSVString, types } = require$$0;
 
 	const webidl = {};
 	webidl.converters = {};
@@ -1420,8 +1402,8 @@ function requireFile () {
 	if (hasRequiredFile) return file;
 	hasRequiredFile = 1;
 
-	const { Blob } = require$$6__default["default"];
-	const { types } = require$$0__default["default"];
+	const { Blob } = require$$6;
+	const { types } = require$$0;
 	const { kState } = requireSymbols();
 	const { isBlobLike } = requireUtil();
 	const { webidl } = requireWebidl();
@@ -1742,9 +1724,9 @@ function requireUtil () {
 	hasRequiredUtil = 1;
 
 	const { redirectStatus } = requireConstants$1();
-	const { performance } = require$$1__default["default"];
+	const { performance } = require$$1;
 	const { isBlobLike, toUSVString, ReadableStreamFrom } = util$e;
-	const assert = require$$0$1__default["default"];
+	const assert = require$$0$1;
 
 	let File;
 
@@ -2206,7 +2188,7 @@ function requireFormdata () {
 	const { kState } = requireSymbols();
 	const { File, FileLike } = requireFile();
 	const { webidl } = requireWebidl();
-	const { Blob } = require$$6__default["default"];
+	const { Blob } = require$$6;
 
 	// https://xhr.spec.whatwg.org/#formdata
 	class FormData {
@@ -2536,12 +2518,12 @@ function requireBody () {
 	const { FormData } = requireFormdata();
 	const { kState } = requireSymbols();
 	const { webidl } = requireWebidl();
-	const { Blob } = require$$6__default["default"];
+	const { Blob } = require$$6;
 	const { kBodyUsed } = symbols$1;
-	const assert = require$$0$1__default["default"];
+	const assert = require$$0$1;
 	const { NotSupportedError } = errors$1;
 	const { isErrored } = util$e;
-	const { isUint8Array, isArrayBuffer } = require$$9__default["default"];
+	const { isUint8Array, isArrayBuffer } = require$$9;
 
 	let ReadableStream;
 
@@ -2557,7 +2539,7 @@ function requireBody () {
 	// https://fetch.spec.whatwg.org/#concept-bodyinit-extract
 	function extractBody (object, keepalive = false) {
 	  if (!ReadableStream) {
-	    ReadableStream = require$$10__default["default"].ReadableStream;
+	    ReadableStream = require$$10.ReadableStream;
 	  }
 
 	  // 1. Let stream be object if object is a ReadableStream object.
@@ -2753,7 +2735,7 @@ function requireBody () {
 	function safelyExtractBody (object, keepalive = false) {
 	  if (!ReadableStream) {
 	    // istanbul ignore next
-	    ReadableStream = require$$10__default["default"].ReadableStream;
+	    ReadableStream = require$$10.ReadableStream;
 	  }
 
 	  // To safely extract a body and a `Content-Type` value from
@@ -2935,7 +2917,7 @@ const {
   InvalidArgumentError: InvalidArgumentError$d,
   NotSupportedError: NotSupportedError$1
 } = errors$1;
-const assert$6 = require$$0$1__default["default"];
+const assert$6 = require$$0$1;
 const util$c = util$e;
 
 const kHandler = Symbol('handler');
@@ -3239,7 +3221,7 @@ function processHeader (request, key, val) {
 
 var request$2 = Request$2;
 
-const EventEmitter = require$$0$3__default["default"];
+const EventEmitter = require$$0$3;
 
 class Dispatcher$2 extends EventEmitter {
   dispatch () {
@@ -3417,9 +3399,9 @@ var dispatcherBase = DispatcherBase$3;
 
 const util$b = util$e;
 const { kBodyUsed } = symbols$1;
-const assert$5 = require$$0$1__default["default"];
+const assert$5 = require$$0$1;
 const { InvalidArgumentError: InvalidArgumentError$b } = errors$1;
-const EE = require$$0$3__default["default"];
+const EE = require$$0$3;
 
 const redirectableStatusCodes = [300, 301, 302, 303, 307, 308];
 
@@ -3610,8 +3592,8 @@ function cleanRequestHeaders (headers, removeContent, unknownOrigin) {
 
 var redirect = RedirectHandler$2;
 
-const net$1 = require$$4__default["default"];
-const assert$4 = require$$0$1__default["default"];
+const net$1 = require$$4;
+const assert$4 = require$$0$1;
 const util$a = util$e;
 const { InvalidArgumentError: InvalidArgumentError$a, ConnectTimeoutError } = errors$1;
 let tls; // include tls conditionally since it is not always available
@@ -3635,7 +3617,7 @@ function buildConnector$2 ({ maxCachedSessions, socketPath, timeout, ...opts }) 
     let socket;
     if (protocol === 'https:') {
       if (!tls) {
-        tls = require$$4$1__default["default"];
+        tls = require$$4$1;
       }
       servername = servername || options.servername || util$a.getServerName(host) || null;
 
@@ -4049,8 +4031,8 @@ function requireLlhttp_simd_wasm () {
 
 /* global WebAssembly */
 
-const assert$3 = require$$0$1__default["default"];
-const net = require$$4__default["default"];
+const assert$3 = require$$0$1;
+const net = require$$4;
 const util$9 = util$e;
 const Request$1 = request$2;
 const DispatcherBase$2 = dispatcherBase;
@@ -6371,8 +6353,8 @@ var agent = Agent$1;
 
 var api$1 = {};
 
-const assert$2 = require$$0$1__default["default"];
-const { Readable: Readable$2 } = require$$0$2__default["default"];
+const assert$2 = require$$0$1;
+const { Readable: Readable$2 } = require$$0$2;
 const { RequestAbortedError: RequestAbortedError$6, NotSupportedError } = errors$1;
 const util$6 = util$e;
 const { ReadableStreamFrom, toUSVString } = util$e;
@@ -6716,7 +6698,7 @@ const {
   ResponseStatusCodeError
 } = errors$1;
 const util$5 = util$e;
-const { AsyncResource: AsyncResource$4 } = require$$3__default["default"];
+const { AsyncResource: AsyncResource$4 } = require$$3;
 const { addSignal: addSignal$4, removeSignal: removeSignal$4 } = abortSignal;
 
 class RequestHandler extends AsyncResource$4 {
@@ -6911,14 +6893,14 @@ function request$1 (opts, callback) {
 
 var apiRequest = request$1;
 
-const { finished } = require$$0$2__default["default"];
+const { finished } = require$$0$2;
 const {
   InvalidArgumentError: InvalidArgumentError$5,
   InvalidReturnValueError: InvalidReturnValueError$1,
   RequestAbortedError: RequestAbortedError$3
 } = errors$1;
 const util$4 = util$e;
-const { AsyncResource: AsyncResource$3 } = require$$3__default["default"];
+const { AsyncResource: AsyncResource$3 } = require$$3;
 const { addSignal: addSignal$3, removeSignal: removeSignal$3 } = abortSignal;
 
 class StreamHandler extends AsyncResource$3 {
@@ -7109,16 +7091,16 @@ const {
   Readable,
   Duplex,
   PassThrough
-} = require$$0$2__default["default"];
+} = require$$0$2;
 const {
   InvalidArgumentError: InvalidArgumentError$4,
   InvalidReturnValueError,
   RequestAbortedError: RequestAbortedError$2
 } = errors$1;
 const util$3 = util$e;
-const { AsyncResource: AsyncResource$2 } = require$$3__default["default"];
+const { AsyncResource: AsyncResource$2 } = require$$3;
 const { addSignal: addSignal$2, removeSignal: removeSignal$2 } = abortSignal;
-const assert$1 = require$$0$1__default["default"];
+const assert$1 = require$$0$1;
 
 const kResume = Symbol('resume');
 
@@ -7354,10 +7336,10 @@ function pipeline (opts, handler) {
 var apiPipeline = pipeline;
 
 const { InvalidArgumentError: InvalidArgumentError$3, RequestAbortedError: RequestAbortedError$1, SocketError: SocketError$1 } = errors$1;
-const { AsyncResource: AsyncResource$1 } = require$$3__default["default"];
+const { AsyncResource: AsyncResource$1 } = require$$3;
 const util$2 = util$e;
 const { addSignal: addSignal$1, removeSignal: removeSignal$1 } = abortSignal;
-const assert = require$$0$1__default["default"];
+const assert = require$$0$1;
 
 class UpgradeHandler extends AsyncResource$1 {
   constructor (opts, callback) {
@@ -7458,7 +7440,7 @@ function upgrade (opts, callback) {
 var apiUpgrade = upgrade;
 
 const { InvalidArgumentError: InvalidArgumentError$2, RequestAbortedError, SocketError } = errors$1;
-const { AsyncResource } = require$$3__default["default"];
+const { AsyncResource } = require$$3;
 const util$1 = util$e;
 const { addSignal, removeSignal } = abortSignal;
 
@@ -8119,10 +8101,10 @@ function requireResponse () {
 	const { webidl } = requireWebidl();
 	const { FormData } = requireFormdata();
 	const { kHeadersList } = symbols$1;
-	const assert = require$$0$1__default["default"];
-	const { types } = require$$0__default["default"];
+	const assert = require$$0$1;
+	const { types } = require$$0;
 
-	const ReadableStream = globalThis.ReadableStream || require$$10__default["default"].ReadableStream;
+	const ReadableStream = globalThis.ReadableStream || require$$10.ReadableStream;
 
 	// https://fetch.spec.whatwg.org/#response-class
 	class Response {
@@ -8709,7 +8691,7 @@ function requireRequest () {
 	const { kHeaders, kSignal, kState, kGuard, kRealm } = requireSymbols();
 	const { webidl } = requireWebidl();
 	const { kHeadersList } = symbols$1;
-	const assert = require$$0$1__default["default"];
+	const assert = require$$0$1;
 
 	let TransformStream;
 
@@ -9178,7 +9160,7 @@ function requireRequest () {
 
 	      // 2. Set finalBody to the result of creating a proxy for inputBody.
 	      if (!TransformStream) {
-	        TransformStream = require$$10__default["default"].TransformStream;
+	        TransformStream = require$$10.TransformStream;
 	      }
 
 	      // https://streams.spec.whatwg.org/#readablestream-create-a-proxy
@@ -9619,8 +9601,8 @@ var hasRequiredDataURL;
 function requireDataURL () {
 	if (hasRequiredDataURL) return dataURL;
 	hasRequiredDataURL = 1;
-	const assert = require$$0$1__default["default"];
-	const { atob } = require$$6__default["default"];
+	const assert = require$$0$1;
+	const { atob } = require$$6;
 
 	const encoder = new TextEncoder();
 
@@ -10195,7 +10177,7 @@ function requireFetch () {
 	} = requireResponse();
 	const { Headers } = requireHeaders();
 	const { Request, makeRequest } = requireRequest();
-	const zlib = require$$3$1__default["default"];
+	const zlib = require$$3$1;
 	const {
 	  matchRequestIntegrity,
 	  makePolicyContainer,
@@ -10220,7 +10202,7 @@ function requireFetch () {
 	  isAborted
 	} = requireUtil();
 	const { kState, kHeaders, kGuard, kRealm } = requireSymbols();
-	const assert = require$$0$1__default["default"];
+	const assert = require$$0$1;
 	const { safelyExtractBody, extractBody } = requireBody();
 	const {
 	  redirectStatus,
@@ -10231,11 +10213,11 @@ function requireFetch () {
 	  DOMException
 	} = requireConstants$1();
 	const { kHeadersList } = symbols$1;
-	const EE = require$$0$3__default["default"];
-	const { Readable, pipeline } = require$$0$2__default["default"];
+	const EE = require$$0$3;
+	const { Readable, pipeline } = require$$0$2;
 	const { isErrored, isReadable } = util$e;
 	const { dataURLProcessor } = requireDataURL();
-	const { TransformStream } = require$$10__default["default"];
+	const { TransformStream } = require$$10;
 
 	/** @type {import('buffer').resolveObjectURL} */
 	let resolveObjectURL;
@@ -10950,7 +10932,7 @@ function requireFetch () {
 	      return makeNetworkError('invalid path called')
 	    }
 	    case 'blob:': {
-	      resolveObjectURL = resolveObjectURL || require$$6__default["default"].resolveObjectURL;
+	      resolveObjectURL = resolveObjectURL || require$$6.resolveObjectURL;
 
 	      // 1. Run these steps, but abort when the ongoing fetch is terminated:
 	      //    1. Let blob be request’s current URL’s blob URL entry’s object.
@@ -11875,7 +11857,7 @@ function requireFetch () {
 	  // cancelAlgorithm set to cancelAlgorithm, highWaterMark set to
 	  // highWaterMark, and sizeAlgorithm set to sizeAlgorithm.
 	  if (!ReadableStream) {
-	    ReadableStream = require$$10__default["default"].ReadableStream;
+	    ReadableStream = require$$10.ReadableStream;
 	  }
 
 	  const stream = new ReadableStream(
@@ -12235,14 +12217,14 @@ makeDispatcher(api.upgrade);
 
 /** @type {Record<string, any>} */
 const globals = {
-	crypto: crypto.webcrypto,
+	crypto: webcrypto,
 	fetch,
 	Response,
 	Request,
 	Headers,
-	ReadableStream: require$$10.ReadableStream,
-	TransformStream: require$$10.TransformStream,
-	WritableStream: require$$10.WritableStream
+	ReadableStream: ReadableStream$1,
+	TransformStream,
+	WritableStream
 };
 
 // exported for dev/preview and node environments

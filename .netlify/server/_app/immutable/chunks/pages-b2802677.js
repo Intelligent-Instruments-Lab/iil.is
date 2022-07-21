@@ -1,34 +1,10 @@
-var __defProp = Object.defineProperty;
-var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropNames = Object.getOwnPropertyNames;
-var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __export = (target, all) => {
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
-};
-var __copyProps = (to, from, except, desc) => {
-  if (from && typeof from === "object" || typeof from === "function") {
-    for (let key of __getOwnPropNames(from))
-      if (!__hasOwnProp.call(to, key) && key !== except)
-        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
-  }
-  return to;
-};
-var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-var stdin_exports = {};
-__export(stdin_exports, {
-  L: () => Layout,
-  p: () => pages,
-  w: () => writable
-});
-module.exports = __toCommonJS(stdin_exports);
-var import_index_85307065 = require("./index-85307065.js");
+import { f as noop, g as safe_not_equal } from "./index-85307065.js";
 const subscriber_queue = [];
-function writable(value, start = import_index_85307065.f) {
+function writable(value, start = noop) {
   let stop;
   const subscribers = /* @__PURE__ */ new Set();
   function set(new_value) {
-    if ((0, import_index_85307065.g)(value, new_value)) {
+    if (safe_not_equal(value, new_value)) {
       value = new_value;
       if (stop) {
         const run_queue = !subscriber_queue.length;
@@ -48,11 +24,11 @@ function writable(value, start = import_index_85307065.f) {
   function update(fn) {
     set(fn(value));
   }
-  function subscribe(run, invalidate = import_index_85307065.f) {
+  function subscribe(run, invalidate = noop) {
     const subscriber = [run, invalidate];
     subscribers.add(subscriber);
     if (subscribers.size === 1) {
-      stop = start(set) || import_index_85307065.f;
+      stop = start(set) || noop;
     }
     run(value);
     return () => {
@@ -127,3 +103,8 @@ const pages = [
     style: "default"
   }
 ];
+export {
+  Layout as L,
+  pages as p,
+  writable as w
+};

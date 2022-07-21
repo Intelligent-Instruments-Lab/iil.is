@@ -1,32 +1,9 @@
-var __defProp = Object.defineProperty;
-var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropNames = Object.getOwnPropertyNames;
-var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __export = (target, all) => {
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
-};
-var __copyProps = (to, from, except, desc) => {
-  if (from && typeof from === "object" || typeof from === "function") {
-    for (let key of __getOwnPropNames(from))
-      if (!__hasOwnProp.call(to, key) && key !== except)
-        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
-  }
-  return to;
-};
-var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-var stdin_exports = {};
-__export(stdin_exports, {
-  default: () => Halldorophone_kastljos,
-  metadata: () => metadata
-});
-module.exports = __toCommonJS(stdin_exports);
-var import_index_85307065 = require("../../../_app/immutable/chunks/index-85307065.js");
-var import_NewsItem_d440c00e = require("../../../_app/immutable/chunks/NewsItem-d440c00e.js");
-var import_CaptionedImage_6bbb271e = require("../../../_app/immutable/chunks/CaptionedImage-6bbb271e.js");
-var import_seo_f675d5d9 = require("../../../_app/immutable/chunks/seo-f675d5d9.js");
-var import_pages_b2802677 = require("../../../_app/immutable/chunks/pages-b2802677.js");
-var import_Menu_d2b189d9 = require("../../../_app/immutable/chunks/Menu-d2b189d9.js");
+import { c as create_ssr_component, v as validate_component } from "../../../_app/immutable/chunks/index-85307065.js";
+import { N as NewsItem } from "../../../_app/immutable/chunks/NewsItem-d440c00e.js";
+import { C as CaptionedImage } from "../../../_app/immutable/chunks/CaptionedImage-6bbb271e.js";
+import "../../../_app/immutable/chunks/seo-f675d5d9.js";
+import "../../../_app/immutable/chunks/pages-b2802677.js";
+import "../../../_app/immutable/chunks/Menu-d2b189d9.js";
 const metadata = {
   "layout": "news",
   "date": "2022-02-03",
@@ -34,10 +11,10 @@ const metadata = {
   "description": "Kastljos news segment about the halldorophone",
   "featured": false
 };
-const Halldorophone_kastljos = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots) => {
-  return `${(0, import_index_85307065.v)(import_NewsItem_d440c00e.N, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata), {}, {
+const Halldorophone_kastljos = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(NewsItem, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata), {}, {
     default: () => {
-      return `${(0, import_index_85307065.v)(import_CaptionedImage_6bbb271e.C, "CaptionedImage").$$render($$result, {
+      return `${validate_component(CaptionedImage, "CaptionedImage").$$render($$result, {
         src: "stock/halldor_kastljos.png",
         alt: "A man speaking to camera. Behind him another man is playing the halldorophone, an intelligent string instrument.",
         caption: "Halld\xF3r \xDAlfarsson, the creator of the halldorophone."
@@ -45,7 +22,7 @@ const Halldorophone_kastljos = (0, import_index_85307065.c)(($$result, $$props, 
 <p>On January 17th, news reporter Gu\xF0r\xFAn S\xF3ley and the good people of Kastlj\xF3s, one of Iceland\u2019s most prestigious news and culture comment programme, paid us a visit at the Intelligent Instruments Lab. The occasion was the gifting of a halldorophone (Icelandic: d\xF3r\xF3f\xF3nn) to the Iceland University of the Arts, with the support Design Fund Iceland. A ceremony was held at the IUA and rector Fr\xED\xF0a Bj\xF6rk Ingvarsd\xF3ttir received the instrument on behalf of the school. </p>
 <p>In the news segment we take a look at the halldorophone, a built-to-feedback, electro-acoustic string instrument invented by Halld\xF3r \xDAlfarsson (our technician at the IIL). Halld\xF3r goes on to tell the story of how the project came to be, originally conceived of as a prop for performance art during his time as a visual arts student. Starting out as kind of a joke, he says, but in time developed into a functional string instrument for string players interested in working with feedback.</p>
 <p>The halldorophone has recently received support from Technology Development Fund Iceland. In a project called \u201CEvolution of halldorophones\u201D select musical institutions will receive halldorophone on loan in for a period of two years, allowing musicians and students access to the instrument and collecting data for Halld\xF3r to further development of the project. </p>
-${(0, import_index_85307065.v)(import_CaptionedImage_6bbb271e.C, "CaptionedImage").$$render($$result, {
+${validate_component(CaptionedImage, "CaptionedImage").$$render($$result, {
         src: "stock/halldorophone.jpeg",
         alt: "A wooden cello like instrument embedded with electronic parts.",
         caption: "The halldorophone that is now in the possession of IUA."
@@ -61,3 +38,7 @@ ${(0, import_index_85307065.v)(import_CaptionedImage_6bbb271e.C, "CaptionedImage
     }
   })}`;
 });
+export {
+  Halldorophone_kastljos as default,
+  metadata
+};

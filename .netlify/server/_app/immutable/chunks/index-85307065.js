@@ -1,37 +1,3 @@
-var __defProp = Object.defineProperty;
-var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropNames = Object.getOwnPropertyNames;
-var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __export = (target, all) => {
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
-};
-var __copyProps = (to, from, except, desc) => {
-  if (from && typeof from === "object" || typeof from === "function") {
-    for (let key of __getOwnPropNames(from))
-      if (!__hasOwnProp.call(to, key) && key !== except)
-        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
-  }
-  return to;
-};
-var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-var stdin_exports = {};
-__export(stdin_exports, {
-  a: () => subscribe,
-  b: () => add_attribute,
-  c: () => create_ssr_component,
-  d: () => each,
-  e: () => escape,
-  f: () => noop,
-  g: () => safe_not_equal,
-  h: () => set_store_value,
-  i: () => createEventDispatcher,
-  m: () => missing_component,
-  n: () => null_to_empty,
-  s: () => setContext,
-  v: () => validate_component
-});
-module.exports = __toCommonJS(stdin_exports);
 function noop() {
 }
 function run(fn) {
@@ -168,3 +134,18 @@ function add_attribute(name, value, boolean) {
   const assignment = boolean && value === true ? "" : `="${escape(value, true)}"`;
   return ` ${name}${assignment}`;
 }
+export {
+  subscribe as a,
+  add_attribute as b,
+  create_ssr_component as c,
+  each as d,
+  escape as e,
+  noop as f,
+  safe_not_equal as g,
+  set_store_value as h,
+  createEventDispatcher as i,
+  missing_component as m,
+  null_to_empty as n,
+  setContext as s,
+  validate_component as v
+};

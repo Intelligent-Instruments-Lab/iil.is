@@ -1,33 +1,10 @@
-var __defProp = Object.defineProperty;
-var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropNames = Object.getOwnPropertyNames;
-var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __export = (target, all) => {
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
-};
-var __copyProps = (to, from, except, desc) => {
-  if (from && typeof from === "object" || typeof from === "function") {
-    for (let key of __getOwnPropNames(from))
-      if (!__hasOwnProp.call(to, key) && key !== except)
-        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
-  }
-  return to;
-};
-var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-var stdin_exports = {};
-__export(stdin_exports, {
-  default: () => Routes,
-  metadata: () => metadata
-});
-module.exports = __toCommonJS(stdin_exports);
-var import_index_85307065 = require("../../_app/immutable/chunks/index-85307065.js");
-var import_pages_b2802677 = require("../../_app/immutable/chunks/pages-b2802677.js");
-var import_Menu_d2b189d9 = require("../../_app/immutable/chunks/Menu-d2b189d9.js");
-var import_EmbedYouTube_svelte_svelte_type_style_lang_0d1d4efc = require("../../_app/immutable/chunks/EmbedYouTube.svelte_svelte_type_style_lang-0d1d4efc.js");
-const Home = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots) => {
+import { c as create_ssr_component, a as subscribe, v as validate_component, e as escape, b as add_attribute } from "../../_app/immutable/chunks/index-85307065.js";
+import { L as Layout } from "../../_app/immutable/chunks/pages-b2802677.js";
+import { M as Menu } from "../../_app/immutable/chunks/Menu-d2b189d9.js";
+import { C as CTARow } from "../../_app/immutable/chunks/EmbedYouTube.svelte_svelte_type_style_lang-0d1d4efc.js";
+const Home = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $Layout, $$unsubscribe_Layout;
-  $$unsubscribe_Layout = (0, import_index_85307065.a)(import_pages_b2802677.L, (value) => $Layout = value);
+  $$unsubscribe_Layout = subscribe(Layout, (value) => $Layout = value);
   let { title } = $$props;
   let { description } = $$props;
   let { pitch } = $$props;
@@ -58,14 +35,14 @@ const Home = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots)
   if ($$props.hero_slug === void 0 && $$bindings.hero_slug && hero_slug !== void 0)
     $$bindings.hero_slug(hero_slug);
   $$unsubscribe_Layout();
-  return `${$Layout.menu ? `${(0, import_index_85307065.v)(import_Menu_d2b189d9.M, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-secondary h-screen"}"><div class="${"grid grid-cols-8 max-w-screen-xl"}"><div class="${"hidden md:block col-span-3"}">${(0, import_index_85307065.v)(import_Menu_d2b189d9.M, "Menu").$$render($$result, {}, {}, {})}</div>
+  return `${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `<div class="${"bg-secondary h-screen"}"><div class="${"grid grid-cols-8 max-w-screen-xl"}"><div class="${"hidden md:block col-span-3"}">${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}</div>
     
-    <div class="${"sm:ml-4 md:ml-12 max-w-xl col-span-8 md:col-span-5 px-12 md:px-0 py-0 md:py-6"}"><div class="${"text-md md:text-xl md:pr-16 text-primary-700"}"><p>${(0, import_index_85307065.e)(pitch)}</p>
+    <div class="${"sm:ml-4 md:ml-12 max-w-xl col-span-8 md:col-span-5 px-12 md:px-0 py-0 md:py-6"}"><div class="${"text-md md:text-xl md:pr-16 text-primary-700"}"><p>${escape(pitch)}</p>
         <p>The call for abstracts is now live for our NIME 2022 workshop on <em>Embedded AI for NIME: Challenges and Opportunities</em>:
         </p></div>
-      <div class="${"w-5/6 mt-8"}"><a${(0, import_index_85307065.b)("href", hero_slug, 0)}${(0, import_index_85307065.b)("title", hero_caption, 0)}><img class="${"shadow-sm"}"${(0, import_index_85307065.b)("src", "./images/" + hero_image, 0)}${(0, import_index_85307065.b)("alt", hero_caption, 0)}>
-          <p class="${"text-sm text-primary-500 mt-4"}">${(0, import_index_85307065.e)(hero_caption)}</p></a></div>
-      <div class="${"mt-10"}">${(0, import_index_85307065.v)(import_EmbedYouTube_svelte_svelte_type_style_lang_0d1d4efc.C, "CTARow").$$render($$result, { links: cta_links }, {}, {})}</div></div></div></div>`}`;
+      <div class="${"w-5/6 mt-8"}"><a${add_attribute("href", hero_slug, 0)}${add_attribute("title", hero_caption, 0)}><img class="${"shadow-sm"}"${add_attribute("src", "./images/" + hero_image, 0)}${add_attribute("alt", hero_caption, 0)}>
+          <p class="${"text-sm text-primary-500 mt-4"}">${escape(hero_caption)}</p></a></div>
+      <div class="${"mt-10"}">${validate_component(CTARow, "CTARow").$$render($$result, { links: cta_links }, {}, {})}</div></div></div></div>`}`;
 });
 const metadata = {
   "layout": "home",
@@ -76,6 +53,10 @@ const metadata = {
   "hero_caption": "Working on Embedded AI for musical instruments? This is the workshop for you!",
   "hero_slug": "news/nime-2022-workshop"
 };
-const Routes = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots) => {
-  return `${(0, import_index_85307065.v)(Home, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata), {}, {})}`;
+const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(Home, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata), {}, {})}`;
 });
+export {
+  Routes as default,
+  metadata
+};
