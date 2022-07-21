@@ -1,0 +1,1192 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-85307065.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  "src/routes/research/projects.json.js": {
+    "file": "entries/endpoints/research/projects.json.js",
+    "src": "src/routes/research/projects.json.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/routes/research/halldorophone.md",
+      "src/routes/research/langspil.md",
+      "src/routes/research/livinglooper.md",
+      "src/routes/research/stenophone.md",
+      "src/routes/research/threnoscope.md"
+    ]
+  },
+  "src/routes/people/people.json.js": {
+    "file": "entries/endpoints/people/people.json.js",
+    "src": "src/routes/people/people.json.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/routes/people/davidbrynjar.md",
+      "src/routes/people/enrike.md",
+      "src/routes/people/esther.md",
+      "src/routes/people/ezra.md",
+      "src/routes/people/halldor.md",
+      "src/routes/people/jack.md",
+      "src/routes/people/jon.md",
+      "src/routes/people/karl.md",
+      "src/routes/people/kit.md",
+      "src/routes/people/marco.md",
+      "src/routes/people/robin.md",
+      "src/routes/people/sean.md",
+      "src/routes/people/sigga.md",
+      "src/routes/people/steve.md",
+      "src/routes/people/thor.md",
+      "src/routes/people/victor.md"
+    ]
+  },
+  "src/routes/openlab/openlabs.json.js": {
+    "file": "entries/endpoints/openlab/openlabs.json.js",
+    "src": "src/routes/openlab/openlabs.json.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/routes/openlab/1.md",
+      "src/routes/openlab/10.md",
+      "src/routes/openlab/11.md",
+      "src/routes/openlab/12.md",
+      "src/routes/openlab/13.md",
+      "src/routes/openlab/14.md",
+      "src/routes/openlab/15.md",
+      "src/routes/openlab/16.md",
+      "src/routes/openlab/17.md",
+      "src/routes/openlab/18.md",
+      "src/routes/openlab/19.md",
+      "src/routes/openlab/2.md",
+      "src/routes/openlab/20.md",
+      "src/routes/openlab/21.md",
+      "src/routes/openlab/3.md",
+      "src/routes/openlab/4.md",
+      "src/routes/openlab/5.md",
+      "src/routes/openlab/6.md",
+      "src/routes/openlab/7.md",
+      "src/routes/openlab/8.md",
+      "src/routes/openlab/9.md"
+    ]
+  },
+  "src/routes/news/items.json.js": {
+    "file": "entries/endpoints/news/items.json.js",
+    "src": "src/routes/news/items.json.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/routes/news/ICLC2021.md",
+      "src/routes/news/good-start.md",
+      "src/routes/news/google-summer-of-code.md",
+      "src/routes/news/gsoc2022.md",
+      "src/routes/news/halldorophone-kastljos.md",
+      "src/routes/news/icelandic-news.md",
+      "src/routes/news/karl.md",
+      "src/routes/news/living-algorithms.md",
+      "src/routes/news/moving-strings.md",
+      "src/routes/news/nime-2022-workshop.md",
+      "src/routes/news/nordic-popular-music-union.md",
+      "src/routes/news/on-the-fly-residency.md",
+      "src/routes/news/phd2-deadline.md",
+      "src/routes/news/phd2.md",
+      "src/routes/news/robin.md",
+      "src/routes/news/root-workshop-2022.md",
+      "src/routes/news/rusl2022.md",
+      "src/routes/news/soundworks.md",
+      "src/routes/news/steve-residency.md",
+      "src/routes/news/summer-interns.md",
+      "src/routes/news/synthabaeli.md",
+      "src/routes/news/trash-workshop.md"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js"
+    ],
+    "css": [
+      "_app/immutable/assets/__layout-f1480c1a.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/iil_wordmark-d35ec417.svg",
+      "_app/immutable/assets/iil_wordmark_nologo-b022fff8.svg",
+      "_app/immutable/assets/iil_menu-2f8e2158.svg",
+      "_app/immutable/assets/iil_logo_white_fit-610860e0.svg",
+      "_app/immutable/assets/eu_erc-603ae00c.svg"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-85307065.js"
+    ]
+  },
+  "src/routes/about.md": {
+    "file": "entries/pages/about.md.js",
+    "src": "src/routes/about.md",
+    "isEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/collaborate.md": {
+    "file": "entries/pages/collaborate.md.js",
+    "src": "src/routes/collaborate.md",
+    "isEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/events/moving-strings/index.md": {
+    "file": "entries/pages/events/moving-strings/index.md.js",
+    "src": "src/routes/events/moving-strings/index.md",
+    "isEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js",
+      "_EmbedYouTube.svelte_svelte_type_style_lang-0d1d4efc.js"
+    ],
+    "css": [
+      "_app/immutable/assets/index-305e56aa.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/moving_strings-c4776730.svg"
+    ]
+  },
+  "src/routes/index.md": {
+    "file": "entries/pages/index.md.js",
+    "src": "src/routes/index.md",
+    "isEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js",
+      "_EmbedYouTube.svelte_svelte_type_style_lang-0d1d4efc.js"
+    ]
+  },
+  "src/routes/news/ICLC2021.md": {
+    "file": "entries/pages/news/ICLC2021.md.js",
+    "src": "src/routes/news/ICLC2021.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/good-start.md": {
+    "file": "entries/pages/news/good-start.md.js",
+    "src": "src/routes/news/good-start.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/google-summer-of-code.md": {
+    "file": "entries/pages/news/google-summer-of-code.md.js",
+    "src": "src/routes/news/google-summer-of-code.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/gsoc2022.md": {
+    "file": "entries/pages/news/gsoc2022.md.js",
+    "src": "src/routes/news/gsoc2022.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/halldorophone-kastljos.md": {
+    "file": "entries/pages/news/halldorophone-kastljos.md.js",
+    "src": "src/routes/news/halldorophone-kastljos.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/icelandic-news.md": {
+    "file": "entries/pages/news/icelandic-news.md.js",
+    "src": "src/routes/news/icelandic-news.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/index.svelte": {
+    "file": "entries/pages/news/index.svelte.js",
+    "src": "src/routes/news/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_DarkPaginationNav.svelte_svelte_type_style_lang-c211c6b2.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/karl.md": {
+    "file": "entries/pages/news/karl.md.js",
+    "src": "src/routes/news/karl.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/living-algorithms.md": {
+    "file": "entries/pages/news/living-algorithms.md.js",
+    "src": "src/routes/news/living-algorithms.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/moving-strings.md": {
+    "file": "entries/pages/news/moving-strings.md.js",
+    "src": "src/routes/news/moving-strings.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/nime-2022-workshop.md": {
+    "file": "entries/pages/news/nime-2022-workshop.md.js",
+    "src": "src/routes/news/nime-2022-workshop.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/nordic-popular-music-union.md": {
+    "file": "entries/pages/news/nordic-popular-music-union.md.js",
+    "src": "src/routes/news/nordic-popular-music-union.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/on-the-fly-residency.md": {
+    "file": "entries/pages/news/on-the-fly-residency.md.js",
+    "src": "src/routes/news/on-the-fly-residency.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/phd2-deadline.md": {
+    "file": "entries/pages/news/phd2-deadline.md.js",
+    "src": "src/routes/news/phd2-deadline.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/phd2.md": {
+    "file": "entries/pages/news/phd2.md.js",
+    "src": "src/routes/news/phd2.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/robin.md": {
+    "file": "entries/pages/news/robin.md.js",
+    "src": "src/routes/news/robin.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/root-workshop-2022.md": {
+    "file": "entries/pages/news/root-workshop-2022.md.js",
+    "src": "src/routes/news/root-workshop-2022.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/rusl2022.md": {
+    "file": "entries/pages/news/rusl2022.md.js",
+    "src": "src/routes/news/rusl2022.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/soundworks.md": {
+    "file": "entries/pages/news/soundworks.md.js",
+    "src": "src/routes/news/soundworks.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/steve-residency.md": {
+    "file": "entries/pages/news/steve-residency.md.js",
+    "src": "src/routes/news/steve-residency.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/summer-interns.md": {
+    "file": "entries/pages/news/summer-interns.md.js",
+    "src": "src/routes/news/summer-interns.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/synthabaeli.md": {
+    "file": "entries/pages/news/synthabaeli.md.js",
+    "src": "src/routes/news/synthabaeli.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/news/trash-workshop.md": {
+    "file": "entries/pages/news/trash-workshop.md.js",
+    "src": "src/routes/news/trash-workshop.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_NewsItem-d440c00e.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/1.md": {
+    "file": "entries/pages/openlab/1.md.js",
+    "src": "src/routes/openlab/1.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/10.md": {
+    "file": "entries/pages/openlab/10.md.js",
+    "src": "src/routes/openlab/10.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/11.md": {
+    "file": "entries/pages/openlab/11.md.js",
+    "src": "src/routes/openlab/11.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/12.md": {
+    "file": "entries/pages/openlab/12.md.js",
+    "src": "src/routes/openlab/12.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/13.md": {
+    "file": "entries/pages/openlab/13.md.js",
+    "src": "src/routes/openlab/13.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/14.md": {
+    "file": "entries/pages/openlab/14.md.js",
+    "src": "src/routes/openlab/14.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/15.md": {
+    "file": "entries/pages/openlab/15.md.js",
+    "src": "src/routes/openlab/15.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/16.md": {
+    "file": "entries/pages/openlab/16.md.js",
+    "src": "src/routes/openlab/16.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/17.md": {
+    "file": "entries/pages/openlab/17.md.js",
+    "src": "src/routes/openlab/17.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/18.md": {
+    "file": "entries/pages/openlab/18.md.js",
+    "src": "src/routes/openlab/18.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/19.md": {
+    "file": "entries/pages/openlab/19.md.js",
+    "src": "src/routes/openlab/19.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/2.md": {
+    "file": "entries/pages/openlab/2.md.js",
+    "src": "src/routes/openlab/2.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/20.md": {
+    "file": "entries/pages/openlab/20.md.js",
+    "src": "src/routes/openlab/20.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/21.md": {
+    "file": "entries/pages/openlab/21.md.js",
+    "src": "src/routes/openlab/21.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/3.md": {
+    "file": "entries/pages/openlab/3.md.js",
+    "src": "src/routes/openlab/3.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/4.md": {
+    "file": "entries/pages/openlab/4.md.js",
+    "src": "src/routes/openlab/4.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/5.md": {
+    "file": "entries/pages/openlab/5.md.js",
+    "src": "src/routes/openlab/5.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/6.md": {
+    "file": "entries/pages/openlab/6.md.js",
+    "src": "src/routes/openlab/6.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/7.md": {
+    "file": "entries/pages/openlab/7.md.js",
+    "src": "src/routes/openlab/7.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/8.md": {
+    "file": "entries/pages/openlab/8.md.js",
+    "src": "src/routes/openlab/8.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/9.md": {
+    "file": "entries/pages/openlab/9.md.js",
+    "src": "src/routes/openlab/9.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_OpenLabEvent-63ba4b85.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/openlab/index.svelte": {
+    "file": "entries/pages/openlab/index.svelte.js",
+    "src": "src/routes/openlab/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_DarkPaginationNav.svelte_svelte_type_style_lang-c211c6b2.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/outputs/index.svelte": {
+    "file": "entries/pages/outputs/index.svelte.js",
+    "src": "src/routes/outputs/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/davidbrynjar.md": {
+    "file": "entries/pages/people/davidbrynjar.md.js",
+    "src": "src/routes/people/davidbrynjar.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/enrike.md": {
+    "file": "entries/pages/people/enrike.md.js",
+    "src": "src/routes/people/enrike.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/esther.md": {
+    "file": "entries/pages/people/esther.md.js",
+    "src": "src/routes/people/esther.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/ezra.md": {
+    "file": "entries/pages/people/ezra.md.js",
+    "src": "src/routes/people/ezra.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/halldor.md": {
+    "file": "entries/pages/people/halldor.md.js",
+    "src": "src/routes/people/halldor.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/index.svelte": {
+    "file": "entries/pages/people/index.svelte.js",
+    "src": "src/routes/people/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/jack.md": {
+    "file": "entries/pages/people/jack.md.js",
+    "src": "src/routes/people/jack.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/jon.md": {
+    "file": "entries/pages/people/jon.md.js",
+    "src": "src/routes/people/jon.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/karl.md": {
+    "file": "entries/pages/people/karl.md.js",
+    "src": "src/routes/people/karl.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/kit.md": {
+    "file": "entries/pages/people/kit.md.js",
+    "src": "src/routes/people/kit.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/marco.md": {
+    "file": "entries/pages/people/marco.md.js",
+    "src": "src/routes/people/marco.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/robin.md": {
+    "file": "entries/pages/people/robin.md.js",
+    "src": "src/routes/people/robin.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/sean.md": {
+    "file": "entries/pages/people/sean.md.js",
+    "src": "src/routes/people/sean.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/sigga.md": {
+    "file": "entries/pages/people/sigga.md.js",
+    "src": "src/routes/people/sigga.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/steve.md": {
+    "file": "entries/pages/people/steve.md.js",
+    "src": "src/routes/people/steve.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/thor.md": {
+    "file": "entries/pages/people/thor.md.js",
+    "src": "src/routes/people/thor.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/people/victor.md": {
+    "file": "entries/pages/people/victor.md.js",
+    "src": "src/routes/people/victor.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_People-ffe3e5f6.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/research/halldorophone.md": {
+    "file": "entries/pages/research/halldorophone.md.js",
+    "src": "src/routes/research/halldorophone.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_ResearchProject-50c047b7.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js",
+      "_CaptionedImage-6bbb271e.js"
+    ]
+  },
+  "src/routes/research/index.svelte": {
+    "file": "entries/pages/research/index.svelte.js",
+    "src": "src/routes/research/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_DarkPaginationNav.svelte_svelte_type_style_lang-c211c6b2.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/research/langspil.md": {
+    "file": "entries/pages/research/langspil.md.js",
+    "src": "src/routes/research/langspil.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_ResearchProject-50c047b7.js",
+      "_CaptionedImage-6bbb271e.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "src/routes/research/livinglooper.md": {
+    "file": "entries/pages/research/livinglooper.md.js",
+    "src": "src/routes/research/livinglooper.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_ResearchProject-50c047b7.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js",
+      "_CaptionedImage-6bbb271e.js"
+    ]
+  },
+  "src/routes/research/stenophone.md": {
+    "file": "entries/pages/research/stenophone.md.js",
+    "src": "src/routes/research/stenophone.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_ResearchProject-50c047b7.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js",
+      "_CaptionedImage-6bbb271e.js"
+    ]
+  },
+  "src/routes/research/threnoscope.md": {
+    "file": "entries/pages/research/threnoscope.md.js",
+    "src": "src/routes/research/threnoscope.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-85307065.js",
+      "_ResearchProject-50c047b7.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js",
+      "_CaptionedImage-6bbb271e.js"
+    ]
+  },
+  "_index-85307065.js": {
+    "file": "_app/immutable/chunks/index-85307065.js"
+  },
+  "_seo-f675d5d9.js": {
+    "file": "_app/immutable/chunks/seo-f675d5d9.js",
+    "imports": [
+      "_pages-b2802677.js"
+    ]
+  },
+  "_pages-b2802677.js": {
+    "file": "_app/immutable/chunks/pages-b2802677.js",
+    "imports": [
+      "_index-85307065.js"
+    ]
+  },
+  "_Menu-d2b189d9.js": {
+    "file": "_app/immutable/chunks/Menu-d2b189d9.js",
+    "imports": [
+      "_index-85307065.js",
+      "_pages-b2802677.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Menu-786cf109.css"
+    ]
+  },
+  "_EmbedYouTube.svelte_svelte_type_style_lang-0d1d4efc.js": {
+    "file": "_app/immutable/chunks/EmbedYouTube.svelte_svelte_type_style_lang-0d1d4efc.js",
+    "imports": [
+      "_index-85307065.js"
+    ],
+    "css": [
+      "_app/immutable/assets/EmbedYouTube-305e56aa.css"
+    ]
+  },
+  "_NewsItem-d440c00e.js": {
+    "file": "_app/immutable/chunks/NewsItem-d440c00e.js",
+    "imports": [
+      "_index-85307065.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "_CaptionedImage-6bbb271e.js": {
+    "file": "_app/immutable/chunks/CaptionedImage-6bbb271e.js",
+    "imports": [
+      "_index-85307065.js"
+    ]
+  },
+  "_DarkPaginationNav.svelte_svelte_type_style_lang-c211c6b2.js": {
+    "file": "_app/immutable/chunks/DarkPaginationNav.svelte_svelte_type_style_lang-c211c6b2.js",
+    "imports": [
+      "_index-85307065.js"
+    ],
+    "css": [
+      "_app/immutable/assets/DarkPaginationNav-562a77fc.css"
+    ]
+  },
+  "_OpenLabEvent-63ba4b85.js": {
+    "file": "_app/immutable/chunks/OpenLabEvent-63ba4b85.js",
+    "imports": [
+      "_index-85307065.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "_People-ffe3e5f6.js": {
+    "file": "_app/immutable/chunks/People-ffe3e5f6.js",
+    "imports": [
+      "_index-85307065.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js"
+    ]
+  },
+  "_ResearchProject-50c047b7.js": {
+    "file": "_app/immutable/chunks/ResearchProject-50c047b7.js",
+    "imports": [
+      "_index-85307065.js",
+      "_seo-f675d5d9.js",
+      "_pages-b2802677.js",
+      "_Menu-d2b189d9.js",
+      "_CaptionedImage-6bbb271e.js"
+    ]
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "_app/immutable/chunks/hooks-bced8853.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  }
+}
