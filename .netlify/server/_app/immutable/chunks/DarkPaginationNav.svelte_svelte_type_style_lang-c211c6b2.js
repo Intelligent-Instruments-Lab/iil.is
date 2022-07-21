@@ -1,27 +1,4 @@
-var __defProp = Object.defineProperty;
-var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropNames = Object.getOwnPropertyNames;
-var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __export = (target, all) => {
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
-};
-var __copyProps = (to, from, except, desc) => {
-  if (from && typeof from === "object" || typeof from === "function") {
-    for (let key of __getOwnPropNames(from))
-      if (!__hasOwnProp.call(to, key) && key !== except)
-        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
-  }
-  return to;
-};
-var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-var stdin_exports = {};
-__export(stdin_exports, {
-  P: () => PaginationNav,
-  p: () => paginate
-});
-module.exports = __toCommonJS(stdin_exports);
-var import_index_85307065 = require("./index-85307065.js");
+import { c as create_ssr_component, i as createEventDispatcher, d as each, e as escape } from "./index-85307065.js";
 function paginate({ items, pageSize, currentPage }) {
   return items.slice((currentPage - 1) * pageSize, (currentPage - 1) * pageSize + pageSize);
 }
@@ -136,10 +113,10 @@ function getLimitThreshold({ limit }) {
   const numberOfBoundaryPages = 2;
   return limit * 2 + maximumUnlimitedPages + numberOfBoundaryPages;
 }
-const PaginationNav = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots) => {
+const PaginationNav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let options;
   let totalPages;
-  (0, import_index_85307065.i)();
+  createEventDispatcher();
   let { totalItems = 0 } = $$props;
   let { pageSize = 1 } = $$props;
   let { currentPage = 1 } = $$props;
@@ -163,12 +140,12 @@ const PaginationNav = (0, import_index_85307065.c)(($$result, $$props, $$binding
     showStepOptions
   });
   totalPages = Math.ceil(totalItems / pageSize);
-  return `<div class="${"pagination-nav"}">${(0, import_index_85307065.d)(options, (option) => {
+  return `<div class="${"pagination-nav"}">${each(options, (option) => {
     return `<span class="${[
       "option",
       (option.type === "number" ? "number" : "") + " " + (option.type === "symbol" && option.symbol === PREVIOUS_PAGE ? "prev" : "") + " " + (option.type === "symbol" && option.symbol === NEXT_PAGE ? "next" : "") + " " + (option.type === "symbol" && option.symbol === NEXT_PAGE && currentPage >= totalPages || option.type === "symbol" && option.symbol === PREVIOUS_PAGE && currentPage <= 1 ? "disabled" : "") + " " + (option.type === "symbol" && option.symbol === ELLIPSIS ? "ellipsis" : "") + " " + (option.type === "number" && option.value === currentPage ? "active" : "")
     ].join(" ").trim()}">${option.type === "number" ? `${slots.number ? slots.number({ value: option.value }) : `
-          <span>${(0, import_index_85307065.e)(option.value)}</span>
+          <span>${escape(option.value)}</span>
         `}` : `${option.type === "symbol" && option.symbol === ELLIPSIS ? `${slots.ellipsis ? slots.ellipsis({}) : `
           <span>...</span>
         `}` : `${option.type === "symbol" && option.symbol === PREVIOUS_PAGE ? `${slots.prev ? slots.prev({}) : `
@@ -181,3 +158,7 @@ const PaginationNav = (0, import_index_85307065.c)(($$result, $$props, $$binding
 });
 const LightPaginationNav_svelte_svelte_type_style_lang = "";
 const DarkPaginationNav_svelte_svelte_type_style_lang = "";
+export {
+  PaginationNav as P,
+  paginate as p
+};

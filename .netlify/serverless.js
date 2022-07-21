@@ -1,24 +1,20 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-require('./shims.js');
-var _0SERVER = require('./server/index.js');
-require('assert');
-require('net');
-require('http');
-require('stream');
-require('buffer');
-require('util');
-require('stream/web');
-require('perf_hooks');
-require('util/types');
-require('events');
-require('tls');
-require('async_hooks');
-require('console');
-require('zlib');
-require('crypto');
+import './shims.js';
+import { Server } from './server/index.js';
+import 'assert';
+import 'net';
+import 'http';
+import 'stream';
+import 'buffer';
+import 'util';
+import 'stream/web';
+import 'perf_hooks';
+import 'util/types';
+import 'events';
+import 'tls';
+import 'async_hooks';
+import 'console';
+import 'zlib';
+import 'crypto';
 
 var setCookie = {exports: {}};
 
@@ -257,7 +253,7 @@ function split_headers(headers) {
  * @returns {import('@netlify/functions').Handler}
  */
 function init(manifest) {
-	const server = new _0SERVER.Server(manifest);
+	const server = new Server(manifest);
 
 	return async (event, context) => {
 		const response = await server.respond(to_request(event), {
@@ -331,4 +327,4 @@ function is_text(content_type) {
 	return type.startsWith('text/') || type.endsWith('+xml') || text_types.has(type);
 }
 
-exports.init = init;
+export { init };

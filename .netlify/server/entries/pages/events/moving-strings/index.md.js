@@ -1,32 +1,9 @@
-var __defProp = Object.defineProperty;
-var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropNames = Object.getOwnPropertyNames;
-var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __export = (target, all) => {
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
-};
-var __copyProps = (to, from, except, desc) => {
-  if (from && typeof from === "object" || typeof from === "function") {
-    for (let key of __getOwnPropNames(from))
-      if (!__hasOwnProp.call(to, key) && key !== except)
-        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
-  }
-  return to;
-};
-var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-var stdin_exports = {};
-__export(stdin_exports, {
-  default: () => Moving_strings,
-  metadata: () => metadata
-});
-module.exports = __toCommonJS(stdin_exports);
-var import_index_85307065 = require("../../../../_app/immutable/chunks/index-85307065.js");
-var import_seo_f675d5d9 = require("../../../../_app/immutable/chunks/seo-f675d5d9.js");
-var import_pages_b2802677 = require("../../../../_app/immutable/chunks/pages-b2802677.js");
-var import_Menu_d2b189d9 = require("../../../../_app/immutable/chunks/Menu-d2b189d9.js");
-var import_EmbedYouTube_svelte_svelte_type_style_lang_0d1d4efc = require("../../../../_app/immutable/chunks/EmbedYouTube.svelte_svelte_type_style_lang-0d1d4efc.js");
-const Section = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots) => {
+import { c as create_ssr_component, e as escape, b as add_attribute, v as validate_component, a as subscribe, h as set_store_value, d as each } from "../../../../_app/immutable/chunks/index-85307065.js";
+import { s as seo } from "../../../../_app/immutable/chunks/seo-f675d5d9.js";
+import { L as Layout } from "../../../../_app/immutable/chunks/pages-b2802677.js";
+import { M as Menu } from "../../../../_app/immutable/chunks/Menu-d2b189d9.js";
+import { C as CTARow } from "../../../../_app/immutable/chunks/EmbedYouTube.svelte_svelte_type_style_lang-0d1d4efc.js";
+const Section = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { title } = $$props;
   let { details } = $$props;
   let { description } = $$props;
@@ -36,30 +13,30 @@ const Section = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slo
     $$bindings.details(details);
   if ($$props.description === void 0 && $$bindings.description && description !== void 0)
     $$bindings.description(description);
-  return `<section><h1 class="${"font-hauser text-secondary text-4xl sm:text-5xl md:text-6xl mt-2 mb-2 sm:mb-4"}">${(0, import_index_85307065.e)(title)}</h1>
-  <div class="${"px-2 sm:px-4 pt-4 pb-2 sm:pb-0 font-hauser uppercase text-md sm:text-lg text-primary-700 "}">${(0, import_index_85307065.e)(details)}<br></div>
-  <div class="${"p-2 sm:p-4"}"><p>${(0, import_index_85307065.e)(description)}</p></div>
+  return `<section><h1 class="${"font-hauser text-secondary text-4xl sm:text-5xl md:text-6xl mt-2 mb-2 sm:mb-4"}">${escape(title)}</h1>
+  <div class="${"px-2 sm:px-4 pt-4 pb-2 sm:pb-0 font-hauser uppercase text-md sm:text-lg text-primary-700 "}">${escape(details)}<br></div>
+  <div class="${"p-2 sm:p-4"}"><p>${escape(description)}</p></div>
   ${slots.default ? slots.default({}) : ``}</section>`;
 });
-const Photo = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots) => {
+const Photo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { src } = $$props;
   let { name } = $$props;
   if ($$props.src === void 0 && $$bindings.src && src !== void 0)
     $$bindings.src(src);
   if ($$props.name === void 0 && $$bindings.name && name !== void 0)
     $$bindings.name(name);
-  return `<div class="${"hidden lg:block flex-none self-center sm:w-72 sm:h-72 relative border-dashed border-primary-200 border-4 rounded-sm shadow-sm"}"><img class="${"absolute inset-0 w-full h-full object-cover"}"${(0, import_index_85307065.b)("src", src, 0)}${(0, import_index_85307065.b)("alt", name, 0)}></div>`;
+  return `<div class="${"hidden lg:block flex-none self-center sm:w-72 sm:h-72 relative border-dashed border-primary-200 border-4 rounded-sm shadow-sm"}"><img class="${"absolute inset-0 w-full h-full object-cover"}"${add_attribute("src", src, 0)}${add_attribute("alt", name, 0)}></div>`;
 });
-const Thumbnail = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots) => {
+const Thumbnail = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { src } = $$props;
   let { name } = $$props;
   if ($$props.src === void 0 && $$bindings.src && src !== void 0)
     $$bindings.src(src);
   if ($$props.name === void 0 && $$bindings.name && name !== void 0)
     $$bindings.name(name);
-  return `<div class="${"lg:hidden self-start w-32 h-32 relative border-dashed border-primary-200 border-4 rounded-sm shadow-sm"}"><img class="${"absolute inset-0 w-full h-full object-cover"}"${(0, import_index_85307065.b)("src", src, 0)}${(0, import_index_85307065.b)("alt", name, 0)}></div>`;
+  return `<div class="${"lg:hidden self-start w-32 h-32 relative border-dashed border-primary-200 border-4 rounded-sm shadow-sm"}"><img class="${"absolute inset-0 w-full h-full object-cover"}"${add_attribute("src", src, 0)}${add_attribute("alt", name, 0)}></div>`;
 });
-const Link = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots) => {
+const Link = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { url } = $$props;
   let { label } = $$props;
   if ($$props.url === void 0 && $$bindings.url && url !== void 0)
@@ -68,57 +45,57 @@ const Link = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots)
     $$bindings.label(label);
   return `
 
-<div class="${"border-dashed border-primary-700 border-2 rounded-lg"}"><a class="${"h-9 flex items-center justify-center bg-primary-700 p-3 text-white"}"${(0, import_index_85307065.b)("href", url, 0)} target="${"_blank"}">${(0, import_index_85307065.e)(label)}</a></div>`;
+<div class="${"border-dashed border-primary-700 border-2 rounded-lg"}"><a class="${"h-9 flex items-center justify-center bg-primary-700 p-3 text-white"}"${add_attribute("href", url, 0)} target="${"_blank"}">${escape(label)}</a></div>`;
 });
-const Links = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots) => {
+const Links = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { links } = $$props;
   if ($$props.links === void 0 && $$bindings.links && links !== void 0)
     $$bindings.links(links);
-  return `<div class="${"flex flex-wrap gap-2 mt-4 "}">${links.event ? `${(0, import_index_85307065.v)(Link, "Link").$$render($$result, { url: links.event, label: "Event Page" }, {}, {})}` : ``}
-  ${links.signup ? `${(0, import_index_85307065.v)(Link, "Link").$$render($$result, { url: links.signup, label: "Sign-up Form" }, {}, {})}` : ``}
-  ${links.website ? `${(0, import_index_85307065.v)(Link, "Link").$$render($$result, {
+  return `<div class="${"flex flex-wrap gap-2 mt-4 "}">${links.event ? `${validate_component(Link, "Link").$$render($$result, { url: links.event, label: "Event Page" }, {}, {})}` : ``}
+  ${links.signup ? `${validate_component(Link, "Link").$$render($$result, { url: links.signup, label: "Sign-up Form" }, {}, {})}` : ``}
+  ${links.website ? `${validate_component(Link, "Link").$$render($$result, {
     url: "http://" + links.website,
     label: "Website"
   }, {}, {})}` : ``}
-  ${links.website2 ? `${(0, import_index_85307065.v)(Link, "Link").$$render($$result, {
+  ${links.website2 ? `${validate_component(Link, "Link").$$render($$result, {
     url: "http://" + links.website2,
     label: links.website2
   }, {}, {})}` : ``}
-  ${links.twitter ? `${(0, import_index_85307065.v)(Link, "Link").$$render($$result, {
+  ${links.twitter ? `${validate_component(Link, "Link").$$render($$result, {
     url: "https://twitter.com/" + links.twitter,
     label: "Twitter"
   }, {}, {})}` : ``}
-  ${links.instagram ? `${(0, import_index_85307065.v)(Link, "Link").$$render($$result, {
+  ${links.instagram ? `${validate_component(Link, "Link").$$render($$result, {
     url: "https://instagram.com/" + links.instagram,
     label: "Instagram"
   }, {}, {})}` : ``}
-  ${links.github ? `${(0, import_index_85307065.v)(Link, "Link").$$render($$result, {
+  ${links.github ? `${validate_component(Link, "Link").$$render($$result, {
     url: "https://github.com/" + links.github,
     label: "GitHub"
   }, {}, {})}` : ``}
-  ${links.scholar ? `${(0, import_index_85307065.v)(Link, "Link").$$render($$result, {
+  ${links.scholar ? `${validate_component(Link, "Link").$$render($$result, {
     url: "https://scholar.google.com/citations?user=" + links.scholar,
     label: "Scholar"
   }, {}, {})}` : ``}
-  ${links.video ? `${(0, import_index_85307065.v)(Link, "Link").$$render($$result, { url: links.video, label: "Video" }, {}, {})}` : ``}</div>`;
+  ${links.video ? `${validate_component(Link, "Link").$$render($$result, { url: links.video, label: "Video" }, {}, {})}` : ``}</div>`;
 });
-const Module = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots) => {
+const Module = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { content } = $$props;
   if ($$props.content === void 0 && $$bindings.content && content !== void 0)
     $$bindings.content(content);
-  return `<div class="${"flex"}"><div class="${"flex lg:space-x-10 space-y-8"}">${(0, import_index_85307065.v)(Photo, "Photo").$$render($$result, { src: content.image, name: content.name }, {}, {})}
-    <div><div class="${"flex flex-wrap"}">${(0, import_index_85307065.v)(Thumbnail, "Thumb").$$render($$result, { src: content.image, name: content.name }, {}, {})}
-        <div class="${"flex flex-col ml-4 lg:ml-0"}"><h1 class="${"font-hauser text-secondary text-3xl mt-4"}">${(0, import_index_85307065.e)(content.name)}</h1>
-          ${content.details ? `<h3 class="${"text-primary-900 text-1xl px-2 mt-4"}">${(0, import_index_85307065.e)(content.details)}</h3>` : ``}</div></div>
-      <div class="${"px-2"}"><p class="${"mt-2 sm:mt-4 mb-6 md:max-w-xl lg:max-w-1xl "}">${(0, import_index_85307065.e)(content.description)}</p>
-        ${(0, import_index_85307065.v)(Links, "Links").$$render($$result, { links: content.links }, {}, {})}</div></div></div></div>`;
+  return `<div class="${"flex"}"><div class="${"flex lg:space-x-10 space-y-8"}">${validate_component(Photo, "Photo").$$render($$result, { src: content.image, name: content.name }, {}, {})}
+    <div><div class="${"flex flex-wrap"}">${validate_component(Thumbnail, "Thumb").$$render($$result, { src: content.image, name: content.name }, {}, {})}
+        <div class="${"flex flex-col ml-4 lg:ml-0"}"><h1 class="${"font-hauser text-secondary text-3xl mt-4"}">${escape(content.name)}</h1>
+          ${content.details ? `<h3 class="${"text-primary-900 text-1xl px-2 mt-4"}">${escape(content.details)}</h3>` : ``}</div></div>
+      <div class="${"px-2"}"><p class="${"mt-2 sm:mt-4 mb-6 md:max-w-xl lg:max-w-1xl "}">${escape(content.description)}</p>
+        ${validate_component(Links, "Links").$$render($$result, { links: content.links }, {}, {})}</div></div></div></div>`;
 });
 const EmbedYouTubePlaylist_svelte_svelte_type_style_lang = "";
 const css$1 = {
   code: ".videoWrapper.svelte-eym11.svelte-eym11{height:0;padding-bottom:56.25%;padding-top:25px;position:relative}.videoWrapper.svelte-eym11 iframe.svelte-eym11{height:100%;left:0;position:absolute;top:0;width:100%}",
   map: null
 };
-const EmbedYouTubePlaylist = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots) => {
+const EmbedYouTubePlaylist = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { id } = $$props;
   let { scale } = $$props;
   if ($$props.id === void 0 && $$bindings.id && id !== void 0)
@@ -126,13 +103,13 @@ const EmbedYouTubePlaylist = (0, import_index_85307065.c)(($$result, $$props, $$
   if ($$props.scale === void 0 && $$bindings.scale && scale !== void 0)
     $$bindings.scale(scale);
   $$result.css.add(css$1);
-  return `<div class="${"videoWrapper svelte-eym11"}"><iframe${(0, import_index_85307065.b)("width", scale ? scale * 560 : 560, 0)}${(0, import_index_85307065.b)("height", scale ? scale * 315 : 315, 0)}${(0, import_index_85307065.b)("src", "https://www.youtube.com/embed/videoseries?list=" + id, 0)} title="${"YouTube video player"}" frameborder="${"0"}" allow="${"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"}" allowfullscreen class="${"svelte-eym11"}"></iframe></div>`;
+  return `<div class="${"videoWrapper svelte-eym11"}"><iframe${add_attribute("width", scale ? scale * 560 : 560, 0)}${add_attribute("height", scale ? scale * 315 : 315, 0)}${add_attribute("src", "https://www.youtube.com/embed/videoseries?list=" + id, 0)} title="${"YouTube video player"}" frameborder="${"0"}" allow="${"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"}" allowfullscreen class="${"svelte-eym11"}"></iframe></div>`;
 });
 const css = {
   code: ".videoWrapper.svelte-eym11.svelte-eym11{height:0;padding-bottom:56.25%;padding-top:25px;position:relative}.videoWrapper.svelte-eym11 iframe.svelte-eym11{height:100%;left:0;position:absolute;top:0;width:100%}",
   map: null
 };
-const EmbedYouTube = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots) => {
+const EmbedYouTube = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { id } = $$props;
   let { scale } = $$props;
   if ($$props.id === void 0 && $$bindings.id && id !== void 0)
@@ -140,7 +117,7 @@ const EmbedYouTube = (0, import_index_85307065.c)(($$result, $$props, $$bindings
   if ($$props.scale === void 0 && $$bindings.scale && scale !== void 0)
     $$bindings.scale(scale);
   $$result.css.add(css);
-  return `<div class="${"videoWrapper svelte-eym11"}"><iframe${(0, import_index_85307065.b)("width", scale ? scale * 560 : 560, 0)}${(0, import_index_85307065.b)("height", scale ? scale * 315 : 315, 0)}${(0, import_index_85307065.b)("src", "https://www.youtube.com/embed/" + id, 0)} title="${"YouTube video player"}" frameborder="${"0"}" allow="${"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"}" allowfullscreen class="${"svelte-eym11"}"></iframe></div>`;
+  return `<div class="${"videoWrapper svelte-eym11"}"><iframe${add_attribute("width", scale ? scale * 560 : 560, 0)}${add_attribute("height", scale ? scale * 315 : 315, 0)}${add_attribute("src", "https://www.youtube.com/embed/" + id, 0)} title="${"YouTube video player"}" frameborder="${"0"}" allow="${"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"}" allowfullscreen class="${"svelte-eym11"}"></iframe></div>`;
 });
 const title_graphic = "/_app/immutable/assets/moving_strings-c4776730.svg";
 const top = {
@@ -390,20 +367,20 @@ const copy = {
   concert,
   mrp
 };
-const MovingStrings = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots) => {
+const MovingStrings = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $Layout, $$unsubscribe_Layout;
   let $seo, $$unsubscribe_seo;
-  $$unsubscribe_Layout = (0, import_index_85307065.a)(import_pages_b2802677.L, (value) => $Layout = value);
-  $$unsubscribe_seo = (0, import_index_85307065.a)(import_seo_f675d5d9.s, (value) => $seo = value);
+  $$unsubscribe_Layout = subscribe(Layout, (value) => $Layout = value);
+  $$unsubscribe_seo = subscribe(seo, (value) => $seo = value);
   let { layout } = $$props;
   let { date } = $$props;
   let { title } = $$props;
   let { description } = $$props;
   let { featured } = $$props;
   let { dates_fromto } = $$props;
-  (0, import_index_85307065.h)(import_seo_f675d5d9.s, $seo.title = title, $seo);
-  (0, import_index_85307065.h)(import_seo_f675d5d9.s, $seo.description = description, $seo);
-  (0, import_index_85307065.h)(import_seo_f675d5d9.s, $seo.url = "/events/moving-strings", $seo);
+  set_store_value(seo, $seo.title = title, $seo);
+  set_store_value(seo, $seo.description = description, $seo);
+  set_store_value(seo, $seo.url = "/events/moving-strings", $seo);
   const methods = {
     setPresenterTimes: (p) => {
       const { starttime, presenters } = p;
@@ -449,62 +426,62 @@ const MovingStrings = (0, import_index_85307065.c)(($$result, $$props, $$binding
     $$bindings.dates_fromto(dates_fromto);
   $$unsubscribe_Layout();
   $$unsubscribe_seo();
-  return `${$Layout.menu ? `${(0, import_index_85307065.v)(import_Menu_d2b189d9.M, "Menu").$$render($$result, {}, {}, {})}` : `
+  return `${$Layout.menu ? `${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})}` : `
   <div class="${"bg-primary border-dashed border-secondary border-4 pt-4 pb-4"}">
-    <div id="${"top"}"><div class="${"py-8 px-4 sm:p-12 md:p-14 max-w-6xl"}"><div class="${"mb-8"}"><img class="${""}"${(0, import_index_85307065.b)("src", title_graphic, 0)} alt="${"Moving Strings"}"></div>
-        <div class="${"mb-8 px-4"}"><p class="${"font-hauser uppercase text-white text-xl"}">${(0, import_index_85307065.e)(copy.top.info.details)}</p></div>
-        <div class="${"grid grid-flow-row grid-cols-1 lg:grid-cols-2 px-2 sm:px-4 mt-4 mb-4"}">${(0, import_index_85307065.v)(EmbedYouTube, "YT").$$render($$result, { scale: "1", id: "B0UIsDUzrD4" }, {}, {})}</div>
-        <div class="${"max-w-6xl px-4"}"><p class="${"text-lg"}">${(0, import_index_85307065.e)(copy.top.info.tagline)}</p>
-          ${(0, import_index_85307065.d)(copy.top.info.description, (d) => {
-    return `<p class="${"text-md"}">${(0, import_index_85307065.e)(d)}</p>`;
+    <div id="${"top"}"><div class="${"py-8 px-4 sm:p-12 md:p-14 max-w-6xl"}"><div class="${"mb-8"}"><img class="${""}"${add_attribute("src", title_graphic, 0)} alt="${"Moving Strings"}"></div>
+        <div class="${"mb-8 px-4"}"><p class="${"font-hauser uppercase text-white text-xl"}">${escape(copy.top.info.details)}</p></div>
+        <div class="${"grid grid-flow-row grid-cols-1 lg:grid-cols-2 px-2 sm:px-4 mt-4 mb-4"}">${validate_component(EmbedYouTube, "YT").$$render($$result, { scale: "1", id: "B0UIsDUzrD4" }, {}, {})}</div>
+        <div class="${"max-w-6xl px-4"}"><p class="${"text-lg"}">${escape(copy.top.info.tagline)}</p>
+          ${each(copy.top.info.description, (d) => {
+    return `<p class="${"text-md"}">${escape(d)}</p>`;
   })}</div>
-        <div class="${"mt-10 mb-10 px-4"}">${(0, import_index_85307065.v)(import_EmbedYouTube_svelte_svelte_type_style_lang_0d1d4efc.C, "CTARow").$$render($$result, { links: copy.top.buttons }, {}, {})}</div></div></div>
+        <div class="${"mt-10 mb-10 px-4"}">${validate_component(CTARow, "CTARow").$$render($$result, { links: copy.top.buttons }, {}, {})}</div></div></div>
     
-    <div id="${"symposium"}"><div class="${"px-4 sm:p-12 md:p-14 max-w-6xl"}">${(0, import_index_85307065.v)(Section, "Section").$$render($$result, {
+    <div id="${"symposium"}"><div class="${"px-4 sm:p-12 md:p-14 max-w-6xl"}">${validate_component(Section, "Section").$$render($$result, {
     title: copy.symposium.info.title,
     details: copy.symposium.info.details,
     description: copy.symposium.info.description
   }, {}, {})}
         
-        <div class="${"p-4 pt-0"}">${(0, import_index_85307065.v)(import_EmbedYouTube_svelte_svelte_type_style_lang_0d1d4efc.C, "CTARow").$$render($$result, { links: copy.symposium.buttons }, {}, {})}</div>
+        <div class="${"p-4 pt-0"}">${validate_component(CTARow, "CTARow").$$render($$result, { links: copy.symposium.buttons }, {}, {})}</div>
         
         <div>
-          <div><div class="${"px-2 sm:px-4 pt-4 pb-2 sm:pb-0 font-hauser uppercase text-md sm:text-lg text-primary-700 "}">Presentations (Chair: ${(0, import_index_85307065.e)(copy.symposium.programme.presentations.chair)})</div>
-            <ul class="${"p-2 sm:p-4 text-primary-900"}">${(0, import_index_85307065.d)(copy.symposium.programme.presentations.presenters, (p, i) => {
-    return `<li>${(0, import_index_85307065.e)(p.starttime)}: <a${(0, import_index_85307065.b)("href", p.url, 0)} target="${"_blank"}">${(0, import_index_85307065.e)(p.name)}</a> - ${(0, import_index_85307065.e)(p.title)}</li>`;
+          <div><div class="${"px-2 sm:px-4 pt-4 pb-2 sm:pb-0 font-hauser uppercase text-md sm:text-lg text-primary-700 "}">Presentations (Chair: ${escape(copy.symposium.programme.presentations.chair)})</div>
+            <ul class="${"p-2 sm:p-4 text-primary-900"}">${each(copy.symposium.programme.presentations.presenters, (p, i) => {
+    return `<li>${escape(p.starttime)}: <a${add_attribute("href", p.url, 0)} target="${"_blank"}">${escape(p.name)}</a> - ${escape(p.title)}</li>`;
   })}</ul></div>
           
-          <div><div class="${"px-2 sm:px-4 pt-4 pb-2 sm:pb-0 font-hauser uppercase text-md sm:text-lg text-primary-700 "}">Panel (Chair: ${(0, import_index_85307065.e)(copy.symposium.programme.panel.chair)})</div>
+          <div><div class="${"px-2 sm:px-4 pt-4 pb-2 sm:pb-0 font-hauser uppercase text-md sm:text-lg text-primary-700 "}">Panel (Chair: ${escape(copy.symposium.programme.panel.chair)})</div>
             <div class="${"pl-2 sm:pl-4 text-primary-700"}">16:25-17:00</div>
-            <ul class="${"p-2 sm:p-4"}">${(0, import_index_85307065.d)(copy.symposium.programme.panel.speakers, (s) => {
-    return `<li class="${"text-primary-700"}"><a${(0, import_index_85307065.b)("href", s.url, 0)}>${(0, import_index_85307065.e)(s.name)}</a></li>`;
+            <ul class="${"p-2 sm:p-4"}">${each(copy.symposium.programme.panel.speakers, (s) => {
+    return `<li class="${"text-primary-700"}"><a${add_attribute("href", s.url, 0)}>${escape(s.name)}</a></li>`;
   })}</ul></div></div></div></div>
     
-    <div id="${"concert"}"><div class="${"px-4 sm:p-12 md:p-14 max-w-6xl"}">${(0, import_index_85307065.v)(Section, "Section").$$render($$result, {
+    <div id="${"concert"}"><div class="${"px-4 sm:p-12 md:p-14 max-w-6xl"}">${validate_component(Section, "Section").$$render($$result, {
     title: copy.concert.info.title,
     details: copy.concert.info.details,
     description: copy.concert.info.description
   }, {}, {})}
         
-        <div class="${"px-4"}">${(0, import_index_85307065.v)(import_EmbedYouTube_svelte_svelte_type_style_lang_0d1d4efc.C, "CTARow").$$render($$result, { links: copy.concert.buttons }, {}, {})}</div>
-        <div class="${"p-2 sm:p-4 mt-8"}"><div>${(0, import_index_85307065.d)(copy.concert.performers, (performer, index) => {
-    return `<div class="${"md:py-6 md:px-2"}">${(0, import_index_85307065.v)(Module, "Module").$$render($$result, { content: performer }, {}, {})}
+        <div class="${"px-4"}">${validate_component(CTARow, "CTARow").$$render($$result, { links: copy.concert.buttons }, {}, {})}</div>
+        <div class="${"p-2 sm:p-4 mt-8"}"><div>${each(copy.concert.performers, (performer, index) => {
+    return `<div class="${"md:py-6 md:px-2"}">${validate_component(Module, "Module").$$render($$result, { content: performer }, {}, {})}
               </div>`;
   })}</div></div></div></div>  
     
-    <div id="${"mrp"}"><div class="${"px-4 sm:p-12 md:p-14 max-w-6xl"}">${(0, import_index_85307065.v)(Section, "Section").$$render($$result, {
+    <div id="${"mrp"}"><div class="${"px-4 sm:p-12 md:p-14 max-w-6xl"}">${validate_component(Section, "Section").$$render($$result, {
     title: copy.mrp.info.title,
     details: copy.mrp.info.details,
     description: copy.mrp.info.description
   }, {}, {})}
         
-        <div class="${"grid grid-flow-row grid-cols-1 lg:grid-cols-2 gap-10 px-2 sm:px-4 mt-4 mb-4"}">${(0, import_index_85307065.v)(EmbedYouTubePlaylist, "YTP").$$render($$result, {
+        <div class="${"grid grid-flow-row grid-cols-1 lg:grid-cols-2 gap-10 px-2 sm:px-4 mt-4 mb-4"}">${validate_component(EmbedYouTubePlaylist, "YTP").$$render($$result, {
     scale: "0.75",
     id: "PL0HKnypdS9i9DNlk-pOr7M1zrDX06o1Xg"
   }, {}, {})}
-          ${(0, import_index_85307065.v)(EmbedYouTube, "YT").$$render($$result, { scale: "0.75", id: "GAb8RRKg8oo" }, {}, {})}</div>
-        <div class="${"p-2 sm:p-4"}"><div>${(0, import_index_85307065.d)(copy.mrp.events, (event, index) => {
-    return `<div class="${"md:py-6 md:px-2"}">${(0, import_index_85307065.v)(Module, "Module").$$render($$result, { content: event }, {}, {})}
+          ${validate_component(EmbedYouTube, "YT").$$render($$result, { scale: "0.75", id: "GAb8RRKg8oo" }, {}, {})}</div>
+        <div class="${"p-2 sm:p-4"}"><div>${each(copy.mrp.events, (event, index) => {
+    return `<div class="${"md:py-6 md:px-2"}">${validate_component(Module, "Module").$$render($$result, { content: event }, {}, {})}
               </div>`;
   })}</div></div></div></div></div>`}`;
 });
@@ -515,6 +492,10 @@ const metadata = {
   "description": "Moving Strings: A symposium on strings and feedback. Dec 6-10, Reykjav\xEDk, Iceland.",
   "featured": true
 };
-const Moving_strings = (0, import_index_85307065.c)(($$result, $$props, $$bindings, slots) => {
-  return `${(0, import_index_85307065.v)(MovingStrings, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata), {}, {})}`;
+const Moving_strings = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(MovingStrings, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata), {}, {})}`;
 });
+export {
+  Moving_strings as default,
+  metadata
+};
