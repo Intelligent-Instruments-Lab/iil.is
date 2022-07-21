@@ -17,9 +17,9 @@ const config = {
   kit: {
     adapter: adapter(),
     // hydrate the <div id="svelte"> element in src/app.html
-    vite: {
-      plugins: [svg()]
-    },
+    // vite: {
+    //   plugins: [svg()]
+    // },
   },
 };
 
