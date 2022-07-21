@@ -1,4 +1,4 @@
-export async function get() {
+export async function GET() {
     const imports = import.meta.glob("./*.{md,svx}");
     let body = [];
 
