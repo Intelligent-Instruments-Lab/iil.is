@@ -6,7 +6,7 @@ email: "rafaeleandrade@tutanota.com"
 image: "images/people/rafaele.jpg"
 links: {
   website: "rafaele-andrade.com",
-  website: "knurl-lab.in"
+  website2: "knurl-lab.in"
 }
 projects: [
   ""
