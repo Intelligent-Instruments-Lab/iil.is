@@ -5,8 +5,8 @@ role: "Research Intern"
 email: "rafaeleandrade@tutanota.com"
 image: "images/people/rafaele.jpg"
 links: {
-  website: "www.rafaele-andrade.com",
-  website2: "www.knurl-lab.in"
+  website: "rafaele-andrade.com",
+  website2: "knurl-lab.in"
 }
 projects: [
   ""
