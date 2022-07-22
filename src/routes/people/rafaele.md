@@ -1,11 +1,12 @@
 ---
 name: "Rafaele Andrade"
 type: "Associate"
-role: "Associate"
+role: "Research Intern"
 email: "rafaeleandrade@tutanota.com"
 image: "images/people/rafaele.jpg"
 links: {
-  website: "rafaele-andrade.com"
+  website: "rafaele-andrade.com",
+  website: "knurl-lab.in"
 }
 projects: [
   ""
