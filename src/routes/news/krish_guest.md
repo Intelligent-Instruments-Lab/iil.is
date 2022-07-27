@@ -13,7 +13,7 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 Guest researcher Krish Ravindranath has joined the team for a few weeks this summer. We are greatful for him traveling all the way from Atlanta, giving us a helping hand with various AI related projects. A warm welcome to you, Krish!
 
 <CaptionedImage
-src="news/krish_iil.jpeg"
+src="news/krish_iil.jpg"
 alt="Young man sitting in a gray couch with a laptop, in front of a yellow shelving system."
 caption="Krish, working hard."/>
 
@@ -22,7 +22,7 @@ caption="Krish, working hard."/>
 I am a machine learning engineer with experience researching, developing, and productionizing machine learning systems. My interest in music technology was sparked by my time working as an undergraduate researcher with the Robotic Musicianship group at the Georgia Tech Center for Music Technology, under Prof. Gil Weinberg. I am particularly interested in creative AI development and applications, and in creating new musical instruments, interfaces, and interactions.
 
 <CaptionedImage
-src="news/krish_laptop.jpeg"
+src="news/krish_laptop.jpg"
 alt="Krish sitting with his laptop showing a dark and orange interface."
 caption="Working on TensorBoard"/>
 
