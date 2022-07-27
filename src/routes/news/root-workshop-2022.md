@@ -3,7 +3,7 @@ layout: news
 date: "2022-05-10"
 title: "Presentation at CERN Workshop"
 description: "On creative misuse of ROOT."
-featured: true
+featured: false
 ---
 
 <script>
