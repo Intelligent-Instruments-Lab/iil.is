@@ -10,7 +10,7 @@ featured: true
 import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-Guest researcher Krish Ravindranath has joined the team for a few weeks this summer. We are greatful for him traveling all the way from Atlanta, giving us a helping hand with various AI related projects. A warm welcome to you, Krish!
+Guest researcher Krish Ravindranath has joined the team for a few weeks this summer. We are greatful for him traveling all the way from Atlanta, giving us a helping hand with various AI related projects. A warm welcome to you, Krish! 
 
 <CaptionedImage
 src="news/krish_iil.jpg"
@@ -24,7 +24,7 @@ I am a machine learning engineer with experience researching, developing, and pr
 <CaptionedImage
 src="news/krish_laptop.jpg"
 alt="Krish sitting with his laptop showing a dark and orange interface."
-caption="Working on TensorBoard"/>
+caption="Working on TensorBoard, training an ML model"/>
 
 # About his projects
 
@@ -33,4 +33,4 @@ I will be working on various projects at the IIL, helping incorporate machine le
 &nbsp;
 ...
 
-Lovely to have you, Krish! We hope Iceland treats you well. 
+Lovely to have you, Krish! We hope Iceland treats you well... and we're looking forward to continuing our work remotely in the foreseeable future.
