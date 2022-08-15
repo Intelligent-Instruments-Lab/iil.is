@@ -26,28 +26,28 @@ caption="The birthday concert will be held in Mengi on September 1st."/>
 
 # Performers
 
-Marco Donnarumma
+**Marco Donnarumma**
 
 Marco is known for engineering machines and composing sounds to create artworks and performances that can speak critically of ritual, power and technology.
 
 http://www.marcodonnarumma.com
 
-Jonathan Chaim Reus
+**Jonathan Chaim Reus**
 
 Jonathan is a homeostatic animal within an ecosystem of cultures, sounds and tools. At Mengi he will present a sketch of new music exploring artificial voices and vocal doppelgangers.
 
 https://www.jonathanreus.com
 
-Hekla
+**Hekla**
 
 Hekla is known for her bizarre and unique theremin centred music, adding ghostly piano lines, subtle synth and her own distinctive vocals. She emerges from no particular scene, ascribing to no particular rules. 
 
-Bob Hermit
+**Bob Hermit**
 
 Bob Hermit presents a temporary sonic ecosystem, populated and interacted with via a network of quasi-instruments.
 
 # Installation
 
-Sean Patrick O’Brien - Fern 2022: A kinetic light and sound sculpture. The phase relationship between oscillation and strobing lights reveals a dancing fern.
+**Sean Patrick O’Brien** - Fern 2022: A kinetic light and sound sculpture. The phase relationship between oscillation and strobing lights reveals a dancing fern.
 
 https://www.seanob.com
