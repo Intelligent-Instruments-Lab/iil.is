@@ -55,7 +55,7 @@ Hekla is known for her bizarre and unique theremin centred music, adding ghostly
 <CaptionedImage
 src="news/hekla.jpg"
 alt="Hekla performning in a dark location, black and white."
-caption="Hekla"/>
+caption="Hekla playing the theremin"/>
 
 **Bob Hermit**
 
