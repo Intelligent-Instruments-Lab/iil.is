@@ -32,15 +32,30 @@ Marco is known for engineering machines and composing sounds to create artworks 
 
 http://www.marcodonnarumma.com
 
+<CaptionedImage
+src="news/donnarumma.jpg"
+alt="An artistic photo of Marco Donnarumma."
+caption="Photo from the Eingeweide performance by Vason"/>
+
 **Jonathan Chaim Reus**
 
 Jonathan is a homeostatic animal within an ecosystem of cultures, sounds and tools. At Mengi he will present a sketch of new music exploring artificial voices and vocal doppelgangers.
 
 https://www.jonathanreus.com
 
+<CaptionedImage
+src="news/jonreus.jepg"
+alt="Jonathan performing in a dark location with two bright tube screens on either side.."
+caption="Photo of JCR by Joeri Thiry at STUK Kunstencentrum"/>
+
 **Hekla**
 
 Hekla is known for her bizarre and unique theremin centred music, adding ghostly piano lines, subtle synth and her own distinctive vocals. She emerges from no particular scene, ascribing to no particular rules. 
+
+<CaptionedImage
+src="news/hekla.jpg"
+alt="Hekla performning in a dark location, black and white."
+caption="Hekla"/>
 
 **Bob Hermit**
 
