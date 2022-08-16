@@ -44,8 +44,8 @@ Jonathan is a homeostatic animal within an ecosystem of cultures, sounds and too
 https://www.jonathanreus.com
 
 <CaptionedImage
-src="news/jonreus.jepg"
-alt="Jonathan performing in a dark location with two bright tube screens on either side.."
+src="news/jonreus.jpeg"
+alt="Jonathan performing in a dark location with two bright tube screens on either side."
 caption="Photo of JCR by Joeri Thiry at STUK Kunstencentrum"/>
 
 **Hekla**
