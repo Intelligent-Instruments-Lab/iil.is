@@ -35,7 +35,7 @@ http://www.marcodonnarumma.com
 <CaptionedImage
 src="news/donnarumma.jpg"
 alt="An artistic photo of Marco Donnarumma."
-caption="Photo from the Eingeweide performance by Vason"/>
+caption="Picture from Eingeweide (2018). Courtesy of Manuel Vason."/>
 
 **Jonathan Chaim Reus**
 
@@ -46,7 +46,7 @@ https://www.jonathanreus.com
 <CaptionedImage
 src="news/jonreus.jpeg"
 alt="Jonathan performing in a dark location with two bright tube screens on either side."
-caption="Photo of JCR by Joeri Thiry at STUK Kunstencentrum"/>
+caption="Photo of JCR by Joeri Thiry at STUK Kunstencentrum."/>
 
 **Hekla**
 
@@ -55,7 +55,7 @@ Hekla is known for her bizarre and unique theremin centred music, adding ghostly
 <CaptionedImage
 src="news/hekla.jpg"
 alt="Hekla performning in a dark location, black and white."
-caption="Hekla playing the theremin"/>
+caption="Hekla playing the theremin."/>
 
 **Bob Hermit**
 
