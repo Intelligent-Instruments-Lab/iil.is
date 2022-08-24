@@ -57,9 +57,14 @@ src="news/hekla.jpg"
 alt="Hekla performning in a dark location, black and white."
 caption="Hekla playing the theremin."/>
 
-**Bob Hermit**
+**Bob Hermit and Victor Shepardson**
 
-Bob Hermit presents a temporary sonic ecosystem, populated and interacted with via a network of quasi-instruments.
+Bob Hermit and Victor Shepardson present a temporary sonic ecosystem, populated and interacted with via a network of quasi-instruments.
+
+<CaptionedImage
+src="news/bob_victor.jpg"
+alt="Colorful electronic musical devices, manipulated with visual effects."
+caption="Bob and Victor's colorful set up."/>
 
 # Installation
 
