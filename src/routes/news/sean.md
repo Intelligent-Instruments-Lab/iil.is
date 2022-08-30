@@ -28,12 +28,12 @@ caption="Recycled speakers lasercut from discarded materials"/>
 
 # About the project
 
+I have been working with the Intelligent Instrument Lab to make physical the vibrations of sound. In our collaboration with this years RUSL fest, we built speakers and instruments from left-over materials and trash. Lately, I have been deconstructing the loudspeaker and handmaking its distinct individual parts which allow you to feel electromagnetic energy as it is being converted into the movement of waves of sound.
+
 <CaptionedImage
 src="news/sean-5712.jpg"
 alt="Various pieces of technical elements spread out on a blue table."
 caption="Various elements for the technology library, a modular system for rapid prototyping and experimentation"/>
-
-I have been working with the Intelligent Instrument Lab to make physical the vibrations of sound. In our collaboration with this years RUSL fest, we built speakers and instruments from left-over materials and trash. Lately, I have been deconstructing the loudspeaker and handmaking its distinct individual parts which allow you to feel electromagnetic energy as it is being converted into the movement of waves of sound.
 
 <CaptionedImage
 src="news/sean-5741.jpg"
