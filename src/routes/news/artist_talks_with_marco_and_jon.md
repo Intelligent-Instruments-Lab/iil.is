@@ -12,7 +12,7 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 
 Artist talk in Dynjandi
 Skipholt 31, 105 Reykjavik
-4PM - August 31st 2022
+4PM - August 31st 2022 <br />
 Free entry
 
 <CaptionedImage
@@ -24,7 +24,7 @@ caption="Marco Donnarumma and Jonathan Chaim Reus at the IIL's Yellow Lab"/>
 
 This summer the Intelligent Instruments Lab had a few visiting researchers and two of them, Marco Donnarumma and Jonathan Reus, will present their work as part of the lab’s birthday activities (which include a concert in Mengi the day after, on September 1st). Marco and Jon are interdisciplinary artists grounded in musical practice, but navigating the fields of multimedia, performance art, theatre, design, prosthesis, embodiment and artificial intelligence.
 
-Each presentation will last about half an hour, followed by refreshments and a panel session with the two artists. The panel chair will be Thor Magnusson and we will be joined by Guðbjörg R. Jóhannesdóttir and Jóhannes Dagsson, both experts in artistic research and philosophy.
+Each presentation will last about half an hour, followed by refreshments and a panel session with the two artists. The panel chair will be Thor Magnusson and we will be joined by Guðbjörg R. Jóhannesdóttir and Jóhannes Dagsson, both experts in artistic research and philosophy. <br />
 
 Topics discussed during the panel will include:
 
@@ -32,7 +32,8 @@ Topics discussed during the panel will include:
 - Performance and embodiment in digital art
 - Artificial intelligence as artistic technology (why do we use it?)
 - The place of interdisciplinarity in contemporary art
-- The role of technology in cultural and political events in society (ethics and anthropology)
+- The role of technology in cultural and political events in society (ethics and anthropology) 
+<br />
 
 # Marco Donnarumma - Performing AI - bodies, sounds and machines
 
@@ -42,7 +43,7 @@ alt="Two performers on a black stage, dramatic dancing close to each other on th
 caption="Marco Donnarumma will discuss his works, including Eingeweide"/>
 
 In this talk I will discuss some of my artworks with machine learning, robotics and AI reflecting on the particular techno-cultural contexts in which they were created. The discussion of the works will span the past decade, hopefully offering some insight into the shifting meanings of AI in public discourse. On one hand, this will provide a look into some of the possible approaches to computational agency in the media and performing arts. On the other hand, the discussion may help us trace connections among cultural conceptions of otherness, media art as critical research and capital-driven technological development.
-
+<br />
 # Jonathan Chaim Reus - Something about Being Human
 
 <CaptionedImage
@@ -51,7 +52,7 @@ alt="A man surrounded by white fog, wearing a device on his head that moves his 
 caption="Jonathan Reus Chaim will discuss his Sensory Cartographies project"/>
 
 My talk will jump around a diverse trajectory of artworks I have worked on over the past five years, from attempts to break open human sensoriums to performing with robotic tape machine instruments and some things in between. In my work I often try to challenge the existence of a single story of science or technology. I will try to touch on this, as well as talk a bit about how musical instruments, as well as datasets and AI systems, encode and remix traces of human lives.
-
+<br />
 Learn more: 
 https://www.lhi.is/en/event/artist-talk-making-art-machines-voices-instruments-bodies-and-sound
 
