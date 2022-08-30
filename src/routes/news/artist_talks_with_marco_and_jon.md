@@ -55,6 +55,7 @@ caption="Jonathan Reus Chaim will discuss his Sensory Cartographies project"/>
 
 My talk will jump around a diverse trajectory of artworks I have worked on over the past five years, from attempts to break open human sensoriums to performing with robotic tape machine instruments and some things in between. In my work I often try to challenge the existence of a single story of science or technology. I will try to touch on this, as well as talk a bit about how musical instruments, as well as datasets and AI systems, encode and remix traces of human lives.
 <br />
+
 Learn more: 
 https://www.lhi.is/en/event/artist-talk-making-art-machines-voices-instruments-bodies-and-sound
 
