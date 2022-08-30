@@ -10,8 +10,8 @@ featured: true
 import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-Artist talk in Dynjandi
-Skipholt 31, 105 Reykjavik
+Artist talk in Dynjandi<br />
+Skipholt 31, 105 Reykjavik<br />
 4PM - August 31st 2022 <br />
 Free entry
 
@@ -33,6 +33,7 @@ Topics discussed during the panel will include:
 - Artificial intelligence as artistic technology (why do we use it?)
 - The place of interdisciplinarity in contemporary art
 - The role of technology in cultural and political events in society (ethics and anthropology) 
+
 <br />
 
 # Marco Donnarumma - Performing AI - bodies, sounds and machines
@@ -44,6 +45,7 @@ caption="Marco Donnarumma will discuss his works, including Eingeweide"/>
 
 In this talk I will discuss some of my artworks with machine learning, robotics and AI reflecting on the particular techno-cultural contexts in which they were created. The discussion of the works will span the past decade, hopefully offering some insight into the shifting meanings of AI in public discourse. On one hand, this will provide a look into some of the possible approaches to computational agency in the media and performing arts. On the other hand, the discussion may help us trace connections among cultural conceptions of otherness, media art as critical research and capital-driven technological development.
 <br />
+
 # Jonathan Chaim Reus - Something about Being Human
 
 <CaptionedImage
