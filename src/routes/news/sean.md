@@ -43,4 +43,4 @@ caption="Exciter speakers turn anything into a speaker!"/>
 <CaptionedImage
 src="news/sean-5732.jpg"
 alt="Copper spirals on a yellow surface."
-caption="Copper coils ugly electromechanical experimentation"/>
+caption="Copper coils for electromechanical experimentation"/>
