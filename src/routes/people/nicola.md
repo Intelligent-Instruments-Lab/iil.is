@@ -3,7 +3,7 @@ name: "Nicola Privato"
 type: "Member"
 role: "PhD Student"
 email: "victor@lhi.is"
-image: "images/people/victor.jpg"
+image: "images/people/nicola-profile.jpg"
 links: {
   instagram: "victorrileys",
   twitter: "victorrileys",
