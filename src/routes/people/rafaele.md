@@ -3,7 +3,7 @@ name: "Rafaele Andrade"
 type: "Associate"
 role: "Research Intern"
 email: "rafaeleandrade@tutanota.com"
-image: "images/people/rafaele.jpg"
+image: "images/people/rafaele-5299.jpg"
 links: {
   website: "rafaele-andrade.com",
   website2: "knurl-lab.in"
