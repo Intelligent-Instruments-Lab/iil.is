@@ -57,9 +57,6 @@
       py-0 md:py-6">
       <div class="text-md md:text-xl md:pr-16 text-primary-700">
         <p>{pitch}</p>
-        <p>
-          The call for abstracts is now live for our NIME 2022 workshop on <em>Embedded AI for NIME: Challenges and Opportunities</em>:
-        </p>
       </div>
       <div class=" w-5/6 mt-8">
         <a href={hero_slug} title={hero_caption}>
