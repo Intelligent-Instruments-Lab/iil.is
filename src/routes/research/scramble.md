@@ -5,10 +5,10 @@ description: "Scramble is creative MIDI tool for performance and aided compositi
 featured: true
 authors: ["Nicola Privato"]
 highlight_image: "research/projects/scramble.png"
-highlight_caption: "The Threnoscope by Thor Magnusson."
+highlight_caption: "Scramble by Nicola Privato"
 ---
 
-<a href="https://thormagnusson.github.io/threnoscope/" title="Threnoscope">Scramble</a> and Scramble Live are two complementary MIDI tools for the real-time generation of polyphonic music. They combine the flexibility of Markov Chains for the generation of pitch transitions with the generalization capabilities offered by neural networks on the rhythmic and dynamic domains. 
+<a href="https://nicolaprivato.com/software" title="Scramble">Scramble and Scramble Live</a> are two complementary MIDI tools for the real-time generation of polyphonic music. They combine the flexibility of Markov Chains for the generation of pitch transitions with the generalization capabilities offered by neural networks on the rhythmic and dynamic domains. 
 
 Through an intuitive user interface, Scramble allows the user to perform the analysis of MIDI files, the training and generation of dinstinct models for pitch and time-related variables, controllable coupling and playback. 
 
