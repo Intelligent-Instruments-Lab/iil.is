@@ -1,6 +1,6 @@
 ---
 layout: researchproject
-title: "The Wall"
+title: "The Organolib"
 description: "The ii lab library of technical elements."
 featured: true
 authors: ["Thor Magnusson", "Jack Armitage", "Halldor Ulfarsson"]
@@ -21,5 +21,5 @@ We have built this system with the aim of doing quick experiments where we invit
 
 <CaptionedImage
   src="research/projects/wall2.jpg"
-  alt="A picture of the wall with the library of technical elements"
+  alt="A picture of the Organolib with the library of technical elements"
   caption="The library of technical elements."/>
