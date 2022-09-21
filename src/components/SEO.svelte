@@ -12,7 +12,7 @@
   <meta property="og:url" content={"https://iil.is" + $seo.url}>
   <meta property="og:title" content={$seo.title + " | Intelligent Instruments Lab"}>
   <meta property="og:description" content={$seo.description}>
-  <meta property="og:image" content={$seo.image}>
+  <meta property="og:image" content={"https://iil.is" + $seo.image}>
   <meta property="og:type" content="website">
 
   <!-- Twitter -->
