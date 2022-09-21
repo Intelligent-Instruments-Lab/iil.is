@@ -15,6 +15,7 @@
   $seo.title = title
   $seo.description = description
   $seo.url = '/research'
+  $seo.image = '/'+highlight_image
 
   const methods = {
     authorString: authors => {
