@@ -1,7 +1,7 @@
 ---
 layout: researchproject
 title: "Notochord"
-description: "Notochord is a prababilistic model for MIDI performance."
+description: "Notochord is a MIDI model for live performance."
 featured: true
 authors: ["Victor Shepardson"]
 highlight_image: "research/projects/notochord-action.png"
