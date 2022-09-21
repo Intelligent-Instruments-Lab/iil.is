@@ -20,7 +20,7 @@
   $seo.image = '/seo/sean_coils.jpg'
 
   let cta_links = [
-    { url: "/news/nime-2022-workshop", label: "Learn More", theme: "dark", target: "_self" }
+    { url: "/research", label: "Learn More", theme: "dark", target: "_self" }
   ]
 
   onMount(async () => {
