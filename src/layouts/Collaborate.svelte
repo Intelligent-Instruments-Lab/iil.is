@@ -14,10 +14,9 @@
   export let description;
   export let layout
 
-  $seo = {
-    title: title,
-    description: description,
-  };
+  $seo.title = title
+  $seo.description = description
+  $seo.url = '/collaborate'
 
   onMount(async () => {
     $Layout.menu = false
