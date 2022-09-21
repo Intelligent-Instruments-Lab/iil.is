@@ -5,7 +5,7 @@ description: "Notochord is a MIDI model for live performance."
 featured: true
 authors: ["Victor Shepardson"]
 highlight_image: "research/projects/notochord-action.png"
-highlight_caption: "Interacting with the Notochord model using a MIDI controller"
+highlight_caption: "Interacting with the Notochord model using a MIDI controller."
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mkBKAyudL0A" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
