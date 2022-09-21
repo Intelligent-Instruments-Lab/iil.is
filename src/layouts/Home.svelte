@@ -1,4 +1,5 @@
 <script>
+  import { seo } from "../stores/seo.js";
   import { onMount } from 'svelte'
   import { Layout } from '../stores/layout.js'
   import Menu from "../components/Menu/Menu.svelte"
@@ -12,6 +13,11 @@
   export let hero_image
   export let hero_caption
   export let hero_slug
+
+  $seo.title = title
+  $seo.description = description
+  $seo.url = '/'
+  $seo.image = '/seo/sean_coils.jpg'
 
   let cta_links = [
     { url: "/news/nime-2022-workshop", label: "Learn More", theme: "dark", target: "_self" }
