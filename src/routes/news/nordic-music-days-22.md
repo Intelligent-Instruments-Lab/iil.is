@@ -1,7 +1,7 @@
 ---
 layout: news
 date: "2022-09-26"
-title: "Upcoming Workshops"
+title: "Upcoming Workshops at Nordic Music Days"
 description: "New Instruments and DIMI-A 70's synth at the Nordic Music Days"
 featured: true
 ---
@@ -43,6 +43,10 @@ Register: https://forms.office.com/r/WDnMpzB6rf
 # Panels at Nordic Music Days
 
 As a part of the Innovative Instruments Exhibition, the Innovation Panels dive into two related themes: contemporary luthery and composing systems. 
+
+Friday, October 14, 2022 - 10:00
+Ráðhúsið
+Free admission / ókeypis aðgangur
 
 # Composing Systems 
 
