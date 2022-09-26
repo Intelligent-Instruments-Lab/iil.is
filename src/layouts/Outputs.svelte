@@ -10,31 +10,12 @@
   import { Layout } from '../stores/layout.js'
   import Menu from "../components/Menu/Menu.svelte"
   
-  import Publication from "../components/Publication.svelte"
-  
-  import * as bibtex from 'bibtex'
-  // const { parseBibFile } = pkg
-  // import { parseBibFile } from "bibtex";
-  // import { parseBibFile } from "../lib/bibtex/index/";
-  // import pubs from '../routes/publications/publications.bib?raw'
-  
+  export let title
+  export let description
   export let layout
-  export let publications
-  const bib = Object.values(bibtex.parseBibFile(publications).entries$)
-
-  let title = 'Outputs'
-  let description = "This page contains outputs from the Intelligent Instruments Lab."
   $seo.title = title
   $seo.description = description
   $seo.url = '/outputs'
-
-  // TODO: generate download of .bib file
-
-  // http://instrumentslab.org/publications/
-  // TODO: Item numbering
-  // TODO: Jump to year
-  // TODO: Separate into years
-  // TODO: Sort entries by year
 
   onMount(async () => {
     $Layout.menu = false
@@ -43,36 +24,22 @@
   })
 </script>
 
-<svelte:head>
-  <title>{title}</title>
-  <meta name="description" content={description} />
-</svelte:head>
-
 {#if $Layout.menu}
   <Menu/>
 {:else}
   <div class="bg-primary border-dashed border-secondary border-4">
     <div class="
-      p-10 sm:p-12 md:p-14
-      max-w-3xl">
-      <h1 class="font-hauser text-secondary
-        text-4xl sm:text-5xl md:text-6xl 
-        mb-4">
-        {title}
-      </h1>
-      <div class="p-2 sm:p-4">
-        <p>{description}</p>
-        <!-- <slot/> -->
-        <div class="h-6"></div>
-        <h2 class="font-hauser text-secondary
-          text-2xl sm:text-3xl md:text-4xl 
-          mb-4">
-          Publications
-        </h2>
-        {#each bib as entry}
-          <Publication pub={entry}/>
-        {/each}
+      pt-10 sm:pt-12 md:pt-14
+      pb-24
+      grid grid-cols-12">
+      <div class="col-span-1  md:col-span-2 lg:col-span-3"></div>
+      <div class="col-span-10 md:col-span-8 lg:col-span-6">
+        <h1 class="font-hauser text-secondary
+          text-4xl sm:text-5xl md:text-6xl 
+          mb-4">{title}</h1>
+        <div class="p-2 sm:p-4"><slot/></div>
       </div>
+      <div class="col-span-1  md:col-span-2 lg:col-span-3"></div>
     </div>
   </div>
 {/if}
