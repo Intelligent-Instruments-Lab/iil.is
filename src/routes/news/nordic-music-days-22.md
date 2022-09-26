@@ -44,8 +44,8 @@ Register: https://forms.office.com/r/WDnMpzB6rf
 
 As a part of the Innovative Instruments Exhibition, the Innovation Panels dive into two related themes: contemporary luthery and composing systems. 
 
-Friday, October 14, 2022 - 10:00 <p/>
-Ráðhúsið<p/>
+Friday, October 14, 2022 <p/>
+The conference room in Ráðhúsið, City Hall<p/>
 Free admission / ókeypis aðgangur<p/>
 
 # Composing Systems 
