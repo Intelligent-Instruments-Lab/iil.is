@@ -26,12 +26,12 @@ The workshop will be a media-archaeological journey into the electronic music of
 Register: https://forms.office.com/r/FWSVxgjvUN
 <br />
 
-# Workshop: New Instruments
-
 <CaptionedImage
 src="news/new-instruments-workshop.jpg"
 alt="Many different types of instruments and instrumental parts, both acoustic and electronic, placed on a yellow surface."
 caption="Be one of the first Organilib users at the New Instruments workshop"/>
+
+# Workshop: New Instruments
 
 In this workshop people of all skills and backgrounds can come and explore the ideas and technologies used to create intelligent musical systems. The workshop will focus on music, ideas, performance, expression, and the role of technology in creative work. During these three days we will look at how new musical instruments can change the way we think about musical practice and make music. 
 
@@ -44,9 +44,9 @@ Register: https://forms.office.com/r/WDnMpzB6rf
 
 As a part of the Innovative Instruments Exhibition, the Innovation Panels dive into two related themes: contemporary luthery and composing systems. 
 
-Friday, October 14, 2022 - 10:00
-Ráðhúsið
-Free admission / ókeypis aðgangur
+Friday, October 14, 2022 - 10:00 <p/>
+Ráðhúsið<p/>
+Free admission / ókeypis aðgangur<p/>
 
 # Composing Systems 
 
