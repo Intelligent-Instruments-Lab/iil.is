@@ -58,10 +58,7 @@ Moderator:
 Thor Magnusson
 
 Panelists:
-Bergrún Snæbjörnsdóttir
-Sóley Sigurjónsdóttir
-Halldór Eldjárn
-Davíð Brynjar Franzson
+Bergrún Snæbjörnsdóttir, Sóley Sigurjónsdóttir, Halldór Eldjárn and Davíð Brynjar Franzson
 
 # Contemporary Lutherie
 
@@ -73,10 +70,7 @@ Moderator:
 Nicola Privato
 
 Panelists:
-Úlfur Hansson
-Halldór Úlfarsson
-Lilja Maria Ásmundsdóttir
-Jari Suominen
+Úlfur Hansson, Halldór Úlfarsson, Lilja Maria Ásmundsdóttir and Jari Suominen
 
 <br />
 
