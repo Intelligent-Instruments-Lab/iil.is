@@ -47,6 +47,8 @@ caption="Rafaele with her Knurl in the Yellow Lab"/>
 
 Knurl is an instrument-interface exploring concepts of polyphony into the practice of a bowed string instrument. It runs and modifies live synthesis sounds while can program and plan the development of new ones. Its interface offers the manipulation of up to 4 sounds by potentiometers, tasks , machine learning system or a counterpoint. It's creator, Rafaele Andrade will be with us at the fair, showcasing her instrument.
 
+<br />
+
 # The Proto-Langspil
 
 <CaptionedImage
@@ -55,6 +57,8 @@ alt="Boxy wooden string instrument."
 caption="Jack Armitage with the Proto-Langspil, one of the first instruments we worked on"/>
 
 The proto-langspil is a contemporary interpretation of the langspil, an Icelandic monochord-like folk instrument. In our work we have explored its agential and performative qualities. Further info in a NIME paper.
+
+<br />
 
 # Notochord
 
@@ -65,6 +69,8 @@ caption="The Notochord Diagram"/>
 
 The Notochord is a machine learning system for MIDI data which processes each event very quickly, making it a software backbone for building intelligent instruments for realtime performance. It is made for MIDI data: once trained on a corpus of MIDI files, it can generate music, accompaniment, harmonisation, AI improvisation, or weirder forms of MIDI mangling.
 
+<br />
+
 # Scramble
 
 <CaptionedImage
@@ -73,6 +79,8 @@ alt="Technical audio interface."
 caption="Scramble Interface"/>
 
 Scramble is a hands-on MIDI tool for aided composition and performance. It analyses MIDI files and generates musical patterns out of them. It also incorporates the real time input from instruments for real-time interaction. Scramble combines melodic and rhythmic models from any number of songs in order to produce unexpected musical outcomes.
+
+<br />
 
 # Linnstrument
 
