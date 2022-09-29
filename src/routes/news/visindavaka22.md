@@ -45,7 +45,7 @@ src="news/rafaele-5308.jpg"
 alt="A large white upright instrument on a yellow table, a young woman standing next to it, smiling."
 caption="Rafaele with her Knurl in the Yellow Lab"/>
 
-Knurl is an instrument-interface exploring concepts of polyphony into the practice of a bowed string instrument. It runs and modifies live synthesis sounds while can program and plan the development of new ones. Its interface offers the manipulation of up to 4 sounds by potentiometers, tasks , machine learning system or a counterpoint. It's creator, Rafaele Andrade will be with us at the fair, showcasing her instrument.
+Knurl is an instrument-interface exploring concepts of polyphony into the practice of a bowed string instrument. It runs and modifies live synthesis sounds while can program and plan the development of new ones. Its interface offers the manipulation of up to 4 sounds by potentiometers, tasks , machine learning system or a counterpoint. Its creator, Rafaele Andrade, will be with us at the fair, showcasing her instrument.
 
 <br />
 
