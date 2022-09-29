@@ -17,7 +17,7 @@ This means we need to use Friday to prepare for the fair, so unfortunately there
 Hope to see you there! Check out our booth options below.
 
 <CaptionedImage
-src="research/halldorophone.jpg"
+src="stock/halldorophone.jpeg"
 alt="A wooden electronic instrument resembling a cello"
 caption="The halldorophone"/>
 
@@ -52,7 +52,7 @@ Knurl is an instrument-interface exploring concepts of polyphony into the practi
 <CaptionedImage
 src="research/projects/protolangspil.jpg"
 alt="Boxy wooden string instrument."
-caption="The Proto-Langspil, one of the first instruments we worked on"/>
+caption="Jack Armitage with the Proto-Langspil, one of the first instruments we worked on"/>
 
 The proto-langspil is a contemporary interpretation of the langspil, an Icelandic monochord-like folk instrument. In our work we have explored its agential and performative qualities. Further info in a NIME paper.
 
