@@ -1,7 +1,7 @@
 ---
 layout: researchproject
-title: "The Organolib"
-description: "The ii lab library of technical elements."
+title: "Organolib"
+description: "The IIL library of technical elements."
 featured: true
 authors: ["Thor Magnusson", "Jack Armitage", "Halldor Ulfarsson"]
 highlight_image: "research/projects/wall.jpg"
