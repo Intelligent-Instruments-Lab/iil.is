@@ -15,13 +15,14 @@ This Saturday, October 1st, from 13:00-18:00 we will be greeting anyone and ever
 This means we need to use Friday to prepare for the fair, so unfortunately there will be no Open Lab this week, but in way, we are bringing the Open Lab on the road! We will show loads of interesting intstruments at the fair and people are allowed to try it out. Furthermore, we will set up a performance with our friend Eydís Kvaran who will be playing the halldorophone.
 
 Hope to see you there! Check out our booth options below.
+<br />
+
+# The halldorophone
 
 <CaptionedImage
 src="stock/halldorophone.jpeg"
 alt="A wooden electronic instrument resembling a cello"
 caption="The halldorophone"/>
-
-# The halldorophone
 
 The halldorophone is a unique instrument designed for feedback. The vibration of the strings is ampliﬁed and routed to a speaker at the back of the instrument. The unstable nature of the instrument exacerbates the uniqueness of each performance. Come see the instrument in our booth and watch Eydís Kvaran's performance. 
 
