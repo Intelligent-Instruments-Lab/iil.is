@@ -1,7 +1,7 @@
 ---
 layout: researchproject
 title: "Halldorophone"
-description: "The Halldorophone is a musical instrument."
+description: "The halldorophone is a cello-like feedback instrument."
 featured: true
 authors: ["Halldor Úlfarsson"]
 highlight_image: "research/projects/halldorophone.jpg"
