@@ -10,7 +10,7 @@ featured: true
 import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-In celebration of the Nordic Music Days, we present two different workshops, both held the weekend before the festival starts, Oct. 7th-9th. We invite anyone interested in the subjects to register for these workshops and join us for a fun weekend, and possibly a performance at Nordic Music Days!
+In celebration of the Nordic Music Days, we present two different workshops, both held the weekend before the festival starts, Oct. 7th-9th. We invite anyone interested in the subjects to register for these workshops for free and join us for a fun weekend, and possibly a performance at Nordic Music Days!
 
 <CaptionedImage
 src="news/dimi.webp"
@@ -23,7 +23,7 @@ The DIMI-A is an early electronic synthesizer designed by Finnish media art pion
 
 The workshop will be a media-archaeological journey into the electronic music of the past - the techniques and methods applied - which will provide a deeper understanding of today’s electronic music. Through exploring, composing, playing and performing, we hope to create a fun and inclusive environment discovering how the experimental technologies of the past can influence current practices. The workshop is open to everyone, but there will be space limits. We will seek to select a diverse group for the workshop.
 
-Register: https://forms.office.com/r/FWSVxgjvUN
+Register for free: https://forms.office.com/r/FWSVxgjvUN
 <br />
 
 <CaptionedImage
@@ -37,7 +37,7 @@ In this workshop people of all skills and backgrounds can come and explore the i
 
 Through looking at new technologies, interfaces and technical elements developed in the lab, we create the conditions for workshop participants to make their own instruments, systems, or compositions. We invite everyone to join the workshop: the only thing you need is a deep interest in music, musical instruments and how new instruments can be built with contemporary technologies. 
 
-Register: https://forms.office.com/r/WDnMpzB6rf
+Register for free: https://forms.office.com/r/WDnMpzB6rf
 <br />
 
 # Panels at Nordic Music Days
