@@ -91,7 +91,7 @@ Contact if interested: jack@lhi.is
 <CaptionedImage
 src="news/esther_organolib-6355.jpg"
 alt="A young woman standing in front of a yellow and blue shelving system"
-caption="Shoot a message to Esther if you're interested in learning more about diversity at our lab"/>
+caption="Shoot Esther a message if you're interested in learning more about diversity at our lab"/>
 
 ## **Working with us**
 
