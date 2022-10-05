@@ -49,7 +49,7 @@ When not working on his personal project, Marco creates hybrid live art with the
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fIlaCMQiM7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br />
 
-Marco Donnarumma performing with the XTH Sense at the Intelligent Instrument Lab's very first birthday concert, on September 1st 2022 in Mengi. 
+Here you can see Marco Donnarumma performing with the XTH Sense at the Intelligent Instrument Lab's very first birthday concert, on September 1st 2022 in Mengi. An amazing concert we will never forget. We feel honoured having worked with Marco during his residency and happy to have gotten to know him. This is an artist everyone should follow!
 
 <CaptionedImage
 src="news/marco_lores-5234.jpg"
