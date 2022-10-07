@@ -21,11 +21,13 @@ src="news/sigga1.jpg"
 alt="A young woman sitting in a sofa with a laptop, surrounded by yellow and blue shelves"
 caption="Sigga was in intern at the IIL last summer"/>
 
-Through our collaboration with HÍ, you can receive credits for project-based modules, as HÍ computer science student Sigríður Birna Matthíasdóttir did this year working on AI voice synthesis and interactive machine learning: https://iil.is/news/sigga_summer 
+Through our collaboration with the Icelandic universities, you can receive credits for project-based modules.
+
+As HÍ computer science student Sigríður Birna Matthíasdóttir did this year working on AI voice synthesis and interactive machine learning: https://iil.is/news/sigga_summer 
 
 If you are not able to take such a module, but are interested in working with us next summer instead, we are open to supporting applications for Rannís Icelandic Student Innovation Fund: https://en.rannis.is/funding/research/icelandic-student-innovation-fund/ 
 
-See for example Robin Morabito, who spent the summer with us designing interactive sonifications of Icelandic seismology data: https://iil.is/news/robin 
+See for example Robin Morabito, an Iceland University of the Arts student, who spent the summer with us designing interactive sonifications of Icelandic seismology data: https://iil.is/news/robin 
 
 Contact Prof Thor Magnusson about this: thor.magnusson@lhi.is
 
