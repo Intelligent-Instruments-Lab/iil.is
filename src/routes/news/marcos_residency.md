@@ -10,14 +10,14 @@ featured: true
 import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-Between August and September 2022, the Intelligent Instruments Lab hosted a new visiting researcher, Marco Donnarumma. Working since the early 2000s, Marco’s aristic practice moves across media art, interactive computer music and contemporary performance. He is an independent artist and researcher, whose work combines performance with body art, movement, sound and technologies such as robotics, machine learning, psychoacoustic techniques. The focus of his work is on the body and the ways it can become a language to speak critically of ritual, power and technology.
+Between August and September 2022, the Intelligent Instruments Lab hosted a new visiting researcher, <a href="https://marcodonnarumma.com/">Marco Donnarumma</a>. Working since the early 2000s, Marco’s aristic practice moves across media art, interactive computer music and contemporary performance. He is an independent artist and researcher, whose work combines performance with body art, movement, sound and technologies such as robotics, machine learning, psychoacoustic techniques. The focus of his work is on the body and the ways it can become a language to speak critically of ritual, power and technology.
 
 <CaptionedImage
 src="news/marco_lores-5228.jpg"
 alt="A person smiling in the lab, yellow shelving system in background"
 caption="Marco Donnarumma visiting the IIL"/>
 
-While Marco is known for his work in media art, theater and performance, he is also actively involved in human-computer interaction and unconventional computing. In that context, in 2010 he created the XTH Sense, a free and open biophysical musical instrument. The XTH Sense amplifies sounds from heart, blood and muscles of a performer’s body and uses them to create music, video or light in real-time.
+While Marco is known for his work in media art, theater and performance, he is also actively involved in human-computer interaction and unconventional computing. In that context, in 2010 he created <a href="https://marcodonnarumma.com/works/xth-sense/">the XTH Sense</a>, a free and open biophysical musical instrument. The XTH Sense amplifies sounds from heart, blood and muscles of a performer’s body and uses them to create music, video or light in real-time.
 
 <CaptionedImage
 src="news/marco_lores-5243.jpg"
@@ -38,11 +38,11 @@ src="news/marco_lores-5238.jpg"
 alt="A person holding tattoo covered arms in front of their face, sensors are attached to their arms."
 caption="The sensors will detect the tiniest movement in the arms"/>
 
-To this end, Marco and the IIL formed a partnership to investigate and experiment with sound interactions through machine learning and generative systems. The partnership is part of Marco’s new fellowship with PACT Zollverein and Medienwerk.nrw in Germany. During the residency in Reykjavik Marco familiarised with the modular sound technologies being built at the Lab and the research ethos that drive the Lab’s research. Marco will now envision ways in which some of these tools can become part of an prosthetic musical instrument that will be used in a new performance to be premiered in Autumn 2023. At the same time, he will contribute to the Lab research with insight into the use of those tools by people who have different degrees of deafness, starting with himself and involving other people throughout the next months.
+To this end, Marco and the IIL formed a partnership to investigate and experiment with sound interactions through machine learning and generative systems. The partnership is part of Marco’s new fellowship with <a href="https://www.pact-zollverein.de/">PACT Zollverein</a> and <a href="https://www.medienwerk.nrw/en/homepage/">Medienwerk.nrw</a> in Germany. During the residency in Reykjavik Marco familiarised with the modular sound technologies being built at the Lab and the research ethos that drive the Lab’s research. Marco will now envision ways in which some of these tools can become part of an prosthetic musical instrument that will be used in a new performance to be premiered in Autumn 2023. At the same time, he will contribute to the Lab research with insight into the use of those tools by people who have different degrees of deafness, starting with himself and involving other people throughout the next months.
 
 <br />
 
-When not working on his personal project, Marco creates hybrid live art with the artist group, Fronte Vacuo, that he co-founded in Berlin together with bio artist Margherita Pevere and media artist Andrea Familari. He also loves forests.
+When not working on his personal project, Marco creates hybrid live art with the artist group, <a href="https://frontevacuo.com/">Fronte Vacuo</a>, that he co-founded in Berlin together with bio artist Margherita Pevere and media artist Andrea Familari. He also loves forests.
 
 <br />
 
