@@ -86,12 +86,12 @@ That‘s a lot of biology for today! Anyone reading this blog post on the IIL we
 
 Many other mutations have been discovered in the BRCA1/2 genes and the cancer risk associated with them varies. When comparing the effect of this mutation to another type of mutation in the same gene, BRCA2-999del5 or “the settler’s mutation”, where five nucleotides are missing, the results are inconclusive. The protein products in both cases are considered extremely unstable, one is not better (or worse) to have than the other one. Therefore, genetic counselors prefer looking at family history rather than the missing nucleotides to calculate the cancer risks for us mutants. My mutation is very rare and is only found in one family in Iceland, my family. Since my genetic code is so special, I thought it would be a great candidate for sonification. We still have not decided on methods or research questions which means we have no idea what the audio outcome will be. Maybe it will be quite musical, maybe it will be sonic nonsense. In any case, we’re sure it will be interesting and a good way to elucidate how important a tiny little nucleotide can be for people’s health.
 
-Missing everyone already. Can’t wait to be back at work! 
-Your project manager,
+Missing everyone already. Can’t wait to be back at work! <br />
+Your project manager,<br />
 Esther
 
-Read more about the pink ribbon here:
+Read more about the pink ribbon here:  <br />
 https://www.bleikaslaufan.is/
 
-Special thanks to the BRCA Iceland association for being a part of this project:
+Special thanks to the BRCA Iceland association for being a part of this project: <br />
 https://www.brca.is/ 
