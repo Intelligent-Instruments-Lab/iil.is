@@ -53,15 +53,15 @@ It is only when there’s something wrong with the genes that you get a medical 
 
 The mutation we’re working with is referred to as BRCA2-c.8796delC by geneticists. This is my mutation. The name implies that one C nucleotide has been deleted from the sequence, rendering the gene pretty much useless. The name of the mutation implies that in row 8796, there’s a missing C. So what happens when one C is taken out of the equation? Everything is moved up one letter and everything that comes after that is wrong and not helpful at all for the body to build a healthy BRCA2 protein.
 
-Normal: AAT AAT CA<span class="emphasized">C</span> AGG CAA ATG TTG A...
-<br />
+Normal: AAT AAT CA<b>C</b> AGG CAA ATG TTG A...
+
 delC mutation: AAT AAT CAA GGC AAA TGT TGA ...
 <br />
 
 These are the amino acids that the cell is supposed to make for the BRCA2 protein: <br />
 AAT=N (asparagine)<br />
 AAT=N (asparagine)<br />
-CA<span class="emphasized">C</span>=H (histidine)<br />
+CA<em>C</em>
 AGG=R (arginine)<br />
 CAA=Q (glutamine)<br />
 ATG=M (methionine)<br />
