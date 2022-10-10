@@ -60,7 +60,7 @@ My delC mutation: AAT AAT CAA GGC AAA TGT TGA ...
 These are the amino acids that the cell is supposed to make for the BRCA2 protein: <br />
 AAT=N (asparagine)<br />
 AAT=N (asparagine)<br />
-CA<em>C</em> <br />
+CA<em>C</em> (histidine)<br />
 AGG=R (arginine)<br />
 CAA=Q (glutamine)<br />
 ATG=M (methionine)<br />
