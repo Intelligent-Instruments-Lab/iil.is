@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2022-10-13"
+date: "2022-10-12"
 title: "Studying the BRCA2 gene on the Pink Day"
 description: "Using sonification to listen to Esther’s mutation"
 featured: true
