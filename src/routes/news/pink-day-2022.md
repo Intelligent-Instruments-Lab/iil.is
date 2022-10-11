@@ -14,7 +14,6 @@ On October 14th, we will celebrate the Pink Day in Iceland, a day dedicated to r
 
 Unfortunately, I won’t be able to join my lab mates during Pink Day. I am out sick, writing this from home as I recover from one of my adventures associated with my bilateral prophylactic mastectomy with reconstruction. Five months ago, I had a risk-reducing operation where a surgeon removed as much breast tissue as he possibly could to reduce the risk of breast cancer. This is done in the absence of malignancy. It may sound like an odd thing to put your body through when there is no cancer to be found, but in my case, it was the right thing to do. 
 
-<br />
 
 <CaptionedImage
 src="news/esther_pink.jpg"
@@ -32,8 +31,6 @@ AAT AAT CAC AGG CAA ATG TTG A...
 
 In this project, we will be looking at this code as the foundation of musical notations, waiting to be assigned sonic roles. We will demystify the complex DNA data through music. Working with me on the project is musician Hrafnkell ‘Keli’ Guðjónsson (<a href="https://www.instagram.com/keli1989/">Instagram</a>), my partner who helps me through my surgeries and the whirlwind the diagnosis has caused. And the IIL associate we all know and love, Robin Morabito, whose background is not only in data sonification for artistic purposes, but also biotech. The DNA sequencing will be done by Laboratory of Cell Biology at the National University Hospital, with the help of Rósa Björk Barkardóttir and other scientists. This project would not have been possible if it hadn’t been for the help of genetic counselor Eirný Þöll Þórólfsdóttir at the National University Hospital, who is a fountain of wisdom when it comes to genetics and what it means to be diagnosed with a mutation.
 
-
-<br />
 
 <CaptionedImage
 src="news/keli_pink_small.jpg"
@@ -74,7 +71,6 @@ TGA=Stop<br />
  
 So the amino acid sequence is NNQGKC. Because the TGA tells the cell to stop producing amino acids, the amino sequence will stop there regardless of the nucleotides that follow. 
 
-<br />
 
 <CaptionedImage
 src="news/robin_pink.jpg"
