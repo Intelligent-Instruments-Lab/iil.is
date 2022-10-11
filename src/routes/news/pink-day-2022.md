@@ -12,14 +12,14 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 
 On October 14th, we will celebrate the Pink Day in Iceland, a day dedicated to raising breast cancer awareness. People wear pink and buy the pink ribbon. By doing so they are supporting the Cancer Association and showing solidarity to all those who have been diagnosed with breast cancer.
 
+Unfortunately, I won’t be able to join my lab mates during Pink Day. I am out sick, writing this from home as I recover from one of my adventures associated with my bilateral prophylactic mastectomy with reconstruction. Five months ago, I had a risk-reducing operation where a surgeon removed as much breast tissue as he possibly could to reduce the risk of breast cancer. This is done in the absence of malignancy. It may sound like an odd thing to put your body through when there is no cancer to be found, but in my case, it was the right thing to do. 
+
 <br />
 
 <CaptionedImage
 src="news/esther_pink.jpg"
 alt="A young woman standing in front of a pink shelving system in the laboratory"
 caption="Esther Thorvalds at the Yellow Lab turned pink for the day"/>
-
-Unfortunately, I won’t be able to join my lab mates. I am out sick, recovering from one of my adventures associated with my bilateral prophylactic mastectomy with reconstruction. Five months ago, I had a risk-reducing operation where a surgeon removed as much breast tissue as he possibly could to reduce the risk of breast cancer. This is done in the absence of malignancy. It may sound like an odd thing to put your body through when there is no cancer to be found, but in my case, it was the right thing to do. 
 
 Turns out, breast cancer was not only written in the stars for me, but it was also written in my DNA. More precisely, it was written in my BRCA2 gene. The genetic counselors at the hospital calculated an 81,2% risk of breast cancer after reviewing my family history. All the women in my family who tested positive (and did not have a mastectomy) got cancer associated with this mutation. Breast cancer in all but one cases. The youngest died at age 36. I had no intention of living with those chances hanging over me, so after careful consideration and a lot of thinking, I chose surgery.
 
