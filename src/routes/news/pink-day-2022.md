@@ -42,13 +42,6 @@ caption="Hrafnkell Örn Guðjónsson at Sundlaugin Studio, also turned pink for 
 
 It is a common misconception to think that people are “diagnosed with the BRCA gene”. Maybe it’s because the full name is “BReast CAncer genes”, indicating that the gene itself causes breast cancer. That is not the case. In fact, everyone has two genes with those names, BRCA1 and BRCA2. Those are two magnificent genes that help your body make the protein that fights abnormal cellular growths in your body, growths that often can turn into cancer. Meaning the genes prevent cancer, they do not cause it. Having them isn’t a bad thing. The BRCA1 and BRCA2 genes contain the blueprint of the proteins that forms the enzymes that destroy the bad cells. A more accurate description would be “the ANTI-breast cancer genes”.
 
-<br />
-
-<CaptionedImage
-src="news/robin_pink.jpg"
-alt="A young person sitting in front of a laptop and a computer monitor by a pink desk filled with books and technical elements, on their hand is an electronic glove with loads of chords plugged in"
-caption="Robin Morabito working hard on their sonification project this summer at the Yellow Lab – turned pink of course"/>
-
 It is only when there’s something wrong with the genes that you get a medical “diagnosis”. That would mean that one of your BRCA genes has a mutation, it is faulty, which causes the gene to make unstable proteins that can’t fight cancer even if their life depended upon it … which it does. This is called a mutation. Genetic mutations aren’t bad in general but if someone says they have a mutation in one of their BRCA genes, it means it’s bad. 
 
 The mutation we’re working with is referred to as BRCA2-c.8796delC by geneticists. This is my mutation. The name implies that one C nucleotide has been deleted from the sequence, rendering the gene pretty much useless. The name of the mutation implies that in row 8796, there’s a missing C. So what happens when one C is taken out of the equation? Everything is moved up one letter and everything that comes after that is wrong and not helpful at all for the body to build a healthy BRCA2 protein.
@@ -80,6 +73,13 @@ TGT=C (cysteine)<br />
 TGA=Stop<br />
  
 So the amino acid sequence is NNQGKC. Because the TGA tells the cell to stop producing amino acids, the amino sequence will stop there regardless of the nucleotides that follow. 
+
+<br />
+
+<CaptionedImage
+src="news/robin_pink.jpg"
+alt="A young person sitting in front of a laptop and a computer monitor by a pink desk filled with books and technical elements, on their hand is an electronic glove with loads of chords plugged in"
+caption="Robin Morabito, sonification and biotech master, working hard on their project this summer at the Yellow Lab – turned pink of course"/>
 
 That‘s a lot of biology for today! Anyone reading this blog post on the IIL website probably can imagine the endless possibilities of music we can make with these codes. What would happen if the strings of a grand piano were to be assigned different keys mid-concert? How would the mutated gene sound in comparison to a healthy gene? It's not the first time sonification has been used to read DNA sequences and we're currently looking at all the possiblities. That‘s the adventure Keli, Robin and I will be embarking upon.
 
