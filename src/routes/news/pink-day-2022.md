@@ -23,7 +23,7 @@ caption="Esther Thorvalds at the Yellow Lab turned pink for the day"/>
 
 Turns out, breast cancer was not only written in the stars for me, but it was also written in my DNA. More precisely, it was written in my BRCA2 gene. The genetic counselors at the hospital calculated an 81,2% risk of breast cancer after reviewing my family history. All the women in my family who tested positive (and did not have a mastectomy) got cancer associated with this mutation. Breast cancer in all but one cases. The youngest died at age 36. I had no intention of living with those chances hanging over me, so after careful consideration and a lot of thinking, I chose surgery.
 
-So genetics have been on my mind for some time now and I have felt a strong need see and understand my genetic code. What better way to do so than with sonification!
+Genetics have weighed heavily on my mind for some time now and I have felt a strong need see and understand my genetic code. What better way to do so than with sonification!
 
 DNA is the molecule that contains the genetic code of all organisms. The DNA has sections called genes and those contain instructions that tell cells what proteins to make. Its structure looks like a twisted ladder, a spiral, and each step of the ladder contains a pair of nucleotides. There are four types of nucleotides; A, T, C and G, so when we’re looking at DNA data, we’ll see sequences built with these letters. The letters make up the DNA code that tells the cell what to do, which amino acids to build which will eventually become the protein for that gene. There are 22 amino acids, and the code is read in threes. 
 
