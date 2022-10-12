@@ -71,15 +71,19 @@ TGA=Stop<br />
  
 So the amino acid sequence is NNQGKC. Because the TGA tells the cell to stop producing amino acids, the amino sequence will stop there regardless of the nucleotides that follow. 
 
+Many mutations have been discovered in the BRCA1/2 genes and the cancer risk associated with them varies. When comparing the effect of this mutation to another type of mutation in the same gene, BRCA2-999del5 or “the settler’s mutation”, where five nucleotides are missing, the results are inconclusive. The protein products in both cases are considered extremely unstable, one is not better (or worse) to have than the other one. Therefore, genetic counselors prefer looking at family history rather than the missing nucleotides to calculate the cancer risks for us mutants. 
+
 
 <CaptionedImage
 src="news/robin_pink.jpg"
 alt="A young person sitting in front of a laptop and a computer monitor by a pink desk filled with books and technical elements, on their hand is an electronic glove with loads of chords plugged in"
 caption="Robin Morabito, sonification and biotech master, working hard on their project this summer at the Yellow Lab – turned pink of course"/>
 
-That‘s a lot of biology for today! Anyone reading this blog post on the IIL website probably can imagine the endless possibilities of music we can make with these codes. What would happen if the strings of a grand piano were to be assigned different keys mid-concert? How would the mutated gene sound in comparison to a healthy gene? It's not the first time sonification has been used to read DNA sequences and we're currently looking at all the possiblities. That‘s the adventure Keli, Robin and I will be embarking upon.
+That‘s a lot of biology for today! Anyone reading this blog post on the IIL website probably can imagine the endless possibilities of music we can make with these codes. What would happen if the strings of a grand piano were to be assigned different keys mid-concert? How would the mutated gene sound in comparison to a healthy gene? Or a gene with the settler's mutation? 
 
-Many other mutations have been discovered in the BRCA1/2 genes and the cancer risk associated with them varies. When comparing the effect of this mutation to another type of mutation in the same gene, BRCA2-999del5 or “the settler’s mutation”, where five nucleotides are missing, the results are inconclusive. The protein products in both cases are considered extremely unstable, one is not better (or worse) to have than the other one. Therefore, genetic counselors prefer looking at family history rather than the missing nucleotides to calculate the cancer risks for us mutants. My mutation is very rare and is only found in one family in Iceland, my family. Since my genetic code is so special, I thought it would be a great candidate for sonification. We still have not decided on methods or research questions which means we have no idea what the audio outcome will be. Maybe it will be quite musical, maybe it will be sonic nonsense. In any case, we’re sure it will be interesting and a good way to elucidate how important a tiny little nucleotide can be for people’s health.
+It's not the first time sonification has been used to read DNA sequences and we're currently looking at all the possiblities. But just like artist Marco Donnarumma talked about in (<a href="https://iil.is/news/marcos_residency">the last IIL post</a>), it's an artistic approach to work through the experience of getting a diagnosis of some sort. That‘s the adventure Keli, Robin and I will be embarking upon.
+
+My mutation is very rare and is only found in one family in Iceland, my family. Since my genetic code is so special, I thought it would be a great candidate for sonification. We still have not decided on methods or research questions which means we have no idea what the audio outcome will be. Maybe it will be quite musical, maybe it will be sonic nonsense. In any case, we’re sure it will be interesting and a good way to elucidate how important a tiny little nucleotide can be for people’s health.
 
 Missing everyone already. Can’t wait to be back at work! <br />
 Your project manager,<br />
