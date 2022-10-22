@@ -72,6 +72,8 @@ description: "Outputs from the Intelligent Instruments Lab."
 - Náið samband við hljóðfæri með gervigreind. Fréttablaðið. [https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/](https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/)
 - Tímamótastyrkur til rannsóknarverkefnis á vegum LHÍ. RÚV. [https://www.ruv.is/frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi](https://www.ruv.is/frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi)
 - Ólátagarður. Jack Armitage at RÚV. [https://www.ruv.is/utvarp/spila/olatagardur/31353](https://www.ruv.is/utvarp/spila/olatagardur/31353)
+- Four Necks [https://jungereporter.eu/four-necks-and-the-voice-of-michael-jackson/](https://jungereporter.eu/four-necks-and-the-voice-of-michael-jackson/)
+- Like a Bees Hive [https://jungereporter.eu/bees-hive-intelligent-instruments-lab/](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)
 
 <br/>
 
@@ -85,6 +87,10 @@ description: "Outputs from the Intelligent Instruments Lab."
 - Intelligent Instruments’ Birthday Party at Mengi. Marco Donnarumma, Jonathan Chaim Reus, Hekla, Bob & Vic.
 
 <br/>
+
+## Consultancies ##
+
+Thor Magnusson was a consultant on the [Turn it Up](https://www.scienceandindustrymuseum.org.uk/whats-on/turn-it-up) exhibition in the Science and Industry Museum in Manchester.
 
 ## Open source ##
 
