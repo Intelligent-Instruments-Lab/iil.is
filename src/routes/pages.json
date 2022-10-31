@@ -33,5 +33,10 @@
     "label": "Collaborate", 
     "url": "/collaborate",
     "style": "default"
+  },
+  {
+    "label": "Press",
+    "url": "/press",
+    "style": "default"
   }
 ]
