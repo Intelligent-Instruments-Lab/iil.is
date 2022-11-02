@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2022-10-02"
+date: "2022-11-02"
 title: "Iceland Airwaves"
 description: "ii lab at INNI events"
 featured: true
