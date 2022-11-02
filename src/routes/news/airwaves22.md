@@ -10,7 +10,7 @@ featured: true
 import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-# Airwaves
+# Airwaves  
 
 On November 2nd, Icelandic publisher & label INNI celebrate their 3rd Birthday with an evening full of music from friends and family. Expect scent, choir, installations, and some of the most innovative artists in Iceland music. The ii lab has been working with INNI on various occasions and we are excited to join them in this Airwaves event.
 <br>
@@ -39,7 +39,7 @@ src="news/inni.jpg"
 alt="Inni event at Idno"
 caption="Advert for Inni's event at Idno"/>
 
-# INNI X STAK
+# INNI X STAK  
 
 On Friday, Nov 4th, our open lab will be on the move and we will partake in INNIs event at STAK
 

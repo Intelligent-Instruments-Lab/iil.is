@@ -17,7 +17,7 @@ src="news/stelpurrokka1.jpg"
 alt="Stelpur Rokka and ii lab"
 caption="Girls rock collab with ii lab"/>
 
-**INSTRUMENTS PRESENTED:**
+**INSTRUMENTS PRESENTED:**  
 
 **Knurl** - a bowed 3D printed string instrument that runs and modifies live synthesis sounds. Its interface offers the manipulation of up to 4 sounds by potentiometers, tasks, machine learning system or a counterpoint. Its creator, Rafaele Andrade, will be at the workshop.
 
