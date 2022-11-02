@@ -14,10 +14,11 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 
 On November 2nd, Icelandic publisher & label INNI celebrate their 3rd Birthday with an evening full of music from friends and family. Expect scent, choir, installations, and some of the most innovative artists in Iceland music. The ii lab has been working with INNI on various occasions and we are excited to join them in this Airwaves event.
 <br>
-Admission Free  
+**Admission Free**    
 <br>
 
-Lineup:
+Lineup:  
+
 Fischersund 'Scent Experience'  
 Kliður  
 neonme  
@@ -32,18 +33,19 @@ Music from The Intelligent Instruments Lab
 
 Further info here: https://www.facebook.com/events/668398351372821  
 And here: https://icelandairwaves.is/schedule/artist/neonme-kongulo-rose-riebl-kaktus-secret-guest-atli-orvarsson-sin-fang-francesco-fabris-kjartan-holm/  
-<br />
+
 <CaptionedImage
 src="news/inni.jpg"
 alt="Inni event at Idno"
 caption="Advert for Inni's event at Idno"/>
-<br>
 
 # INNI X STAK
 
 On Friday, Nov 4th, our open lab will be on the move and we will partake in INNIs event at STAK
 
-The event starts at 4pm and lasts till 7pm at STAK in Hverfisgata 32. Admission free.
+The event starts at 4pm and lasts till 7pm at STAK in Hverfisgata 32. 
+
+Admission free.
 
 On the bill are:
 
@@ -58,5 +60,5 @@ See https://www.facebook.com/events/1149190202700878
 <CaptionedImage
 src="news/stak.png"
 alt="Inni event at Stak"
-caption="a flyer for Inni's event at Stak"/>
+caption="A flyer for Inni's event at Stak"/>
 <br />
