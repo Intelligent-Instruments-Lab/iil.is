@@ -12,7 +12,12 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 
 Calling all our female, intersex, non-binary and trans friends! We have joined forces with Girls Rock/Stelpur Rokka for a workshop this Friday! Esther Thorvalds, Rafaele Andrade and Ólöf Rún Benediktsdóttir welcome you to try out non-traditional instruments in the Stelpur Rokka Music Centre in Völvufell 17 this Friday at 5 pm. We will take a look at unique instruments and some wondrous music making tools! 👇
 
-INSTRUMENTS PRESENTED:
+<CaptionedImage
+src="news/stelpurrokka1.jpg"
+alt="Stelpur Rokka and ii lab"
+caption="Girls rock collab with ii lab"/>
+
+**INSTRUMENTS PRESENTED:**
 
 **Knurl** - a bowed 3D printed string instrument that runs and modifies live synthesis sounds. Its interface offers the manipulation of up to 4 sounds by potentiometers, tasks, machine learning system or a counterpoint. Its creator, Rafaele Andrade, will be at the workshop.
 
@@ -33,21 +38,12 @@ Girls and gender minorities are all welcome, regardless of prior musical experie
 https://www.facebook.com/events/3230637587250720
 Note that this workshop is a safe space open to female, non-binary, trans and intersex people of all ages!
 
-<br />
-<CaptionedImage
-src="news/stelpurrokka1.jpg"
-alt="Stelpur Rokka and ii lab"
-caption="Image material for stelpur rokka"/>
-<br>
 <CaptionedImage
 src="news/stelpurrokka2.jpg"
 alt="Stelpur Rokka and ii lab"
-caption="Image material for stelpur rokka"/>
-<br>
+caption="Esther at ii lab"/>
+
 <CaptionedImage
 src="news/stelpurrokka3.jpg"
 alt="Stelpur Rokka and ii lab"
-caption="Image material for stelpur rokka"/>
-<br>
-
-<br />
+caption="Rafaele at ii lab"/>
