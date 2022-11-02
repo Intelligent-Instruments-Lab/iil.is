@@ -29,7 +29,10 @@ JFDR
 Sóley  
 Atli Örvarsson   
 Sin Fang. Francesco Fabris, Kjartan Holm  
-Music from The Intelligent Instruments Lab  
+Music from The Intelligent Instruments Lab:
+- Michael Ott plays an improv piece on the Brain Sax (controlled using brainwaves) with Esther Þorvalds on the KeyTam drum.
+- Magnetic Resonator Piano sketches by Victor Shepardson, Jack Armitage and Nicola Privato.
+- Improv performance with Rafaele Andrade on knurl, Nicola Privato on guitar and live electronics, Victor Shepardson on the Living Looper, Thor Magnusson on the Threnoscope and special guests.
 
 Further info here: https://www.facebook.com/events/668398351372821  
 And here: https://icelandairwaves.is/schedule/artist/neonme-kongulo-rose-riebl-kaktus-secret-guest-atli-orvarsson-sin-fang-francesco-fabris-kjartan-holm/  
