@@ -13,24 +13,25 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 # Airwaves
 
 On November 2nd, Icelandic publisher & label INNI celebrate their 3rd Birthday with an evening full of music from friends and family. Expect scent, choir, installations, and some of the most innovative artists in Iceland music. The ii lab has been working with INNI on various occasions and we are excited to join them in this Airwaves event.
-
-Admission Free
+<br>
+Admission Free  
+<br>
 
 Lineup:
-Fischersund 'Scent Experience'
-Kliður
-neonme 
-Kónguló 
-Rose Riebl 
-Kaktus Einarsson 
-JFDR
-Sóley
-Atli Örvarsson 
-Sin Fang. Francesco Fabris, Kjartan Holm
-Music from The Intelligent Instruments Lab
+Fischersund 'Scent Experience'  
+Kliður  
+neonme  
+Kónguló  
+Rose Riebl   
+Kaktus Einarsson   
+JFDR  
+Sóley  
+Atli Örvarsson   
+Sin Fang. Francesco Fabris, Kjartan Holm  
+Music from The Intelligent Instruments Lab  
 
-Further info here: https://www.facebook.com/events/668398351372821 
-And here: https://icelandairwaves.is/schedule/artist/neonme-kongulo-rose-riebl-kaktus-secret-guest-atli-orvarsson-sin-fang-francesco-fabris-kjartan-holm/ 
+Further info here: https://www.facebook.com/events/668398351372821  
+And here: https://icelandairwaves.is/schedule/artist/neonme-kongulo-rose-riebl-kaktus-secret-guest-atli-orvarsson-sin-fang-francesco-fabris-kjartan-holm/  
 <br />
 <CaptionedImage
 src="news/inni.jpg"
@@ -46,10 +47,10 @@ The event starts at 4pm and lasts till 7pm at STAK in Hverfisgata 32. Admission 
 
 On the bill are:
 
--INKI
--Bridget Ferrill 
--Music From The Intelligent Instruments Lab 
--Xiupill
+-INKI  
+-Bridget Ferrill   
+-Music From The Intelligent Instruments Lab  
+-Xiupill  
 
 See https://www.facebook.com/events/1149190202700878
 
