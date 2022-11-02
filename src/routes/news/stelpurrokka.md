@@ -10,12 +10,14 @@ featured: true
 import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-Calling all our female, intersex, non-binary and trans friends! We have joined forces with Girls Rock/Stelpur Rokka for a workshop this Friday! Esther Thorvalds, Rafaele Andrade and Ólöf Rún Benediktsdóttir welcome you to try out non-traditional instruments in the Stelpur Rokka Music Centre in Völvufell 17 this Friday at 5 pm. We will take a look at unique instruments and some wondrous music making tools! 👇
+Calling all our female, intersex, non-binary and trans friends! We have joined forces with Girls Rock/Stelpur Rokka for a workshop this Friday! Esther Thorvalds, Rafaele Andrade and Ólöf Rún Benediktsdóttir welcome you to try out non-traditional instruments in the Stelpur Rokka Music Centre in Völvufell 17 this Friday at 5 pm. 
+
+Odd and unique instruments may change the way we think about music, but because of their special status they can be hard to come by. Stelpur rokka, in collaboration with the Intelligent Instruments Lab, now provides you with the opportunity to come see these wondrous music making tools for yourself and try them out. 👇
 
 <CaptionedImage
 src="news/stelpurrokka1.jpg"
 alt="Stelpur Rokka and ii lab"
-caption="Girls rock collab with ii lab"/>
+caption="Ólöf Rún Benediktsdóttir from Stelpur Rokka"/>
 
 **INSTRUMENTS PRESENTED:**  
 
@@ -36,14 +38,15 @@ caption="Girls rock collab with ii lab"/>
 Girls and gender minorities are all welcome, regardless of prior musical experience, all you need is a little bit of curiosity. Hope to see you there!
 
 https://www.facebook.com/events/3230637587250720
+
 Note that this workshop is a safe space open to female, non-binary, trans and intersex people of all ages!
 
 <CaptionedImage
 src="news/stelpurrokka2.jpg"
 alt="Stelpur Rokka and ii lab"
-caption="Esther at ii lab"/>
+caption="Esther Þorvalds is the IIL project manager but also volunteers for Stelpur Rokka"/>
 
 <CaptionedImage
 src="news/stelpurrokka3.jpg"
 alt="Stelpur Rokka and ii lab"
-caption="Rafaele at ii lab"/>
+caption="Rafaele Andrade is working on her knurl at the IIL"/>
