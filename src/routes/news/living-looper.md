@@ -12,7 +12,7 @@ featured: true
 
 
 <CaptionedImage
-  src="events/livinglooper.jpg"
+  src="news/livinglooper.jpg"
   alt="An AI generated interpretation of the Living Looper."
   caption="Intelligent Instruments Lab are giving a workshop on the Living Looper."/>
 
