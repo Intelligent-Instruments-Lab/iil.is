@@ -3,7 +3,7 @@ layout: news
 date: "2022-11-10"
 title: "Living Looper Workshop"
 description: "A workshop for guitarists on the Living Looper"
-featured: false
+featured: true
 ---
 
 <script>
