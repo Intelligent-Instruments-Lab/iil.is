@@ -26,7 +26,7 @@ Want to join? Send a message to victor@lhi.is!
 
 (image interpretation extruded by Dall-E)
 
-The full programme is as follows:
+The full schedule of the workshop is as follows:
 
 <br>
 
