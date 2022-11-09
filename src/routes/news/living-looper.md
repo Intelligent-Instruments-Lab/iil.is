@@ -16,7 +16,7 @@ featured: true
   alt="An AI generated interpretation of the Living Looper."
   caption="Intelligent Instruments Lab are giving a workshop on the Living Looper."/>
 
-We are hosting a <a href="/research/livinglooper">Living Looper</a> Workshop for electric guitarists! It  starts on Thursday at 2pm and continues on Friday at 3pm ... and there are a couple of spots open! 
+We are hosting a <a href="/research/livinglooper">Living Looper</a> Workshop for electric guitarists! It starts on Thursday at 2pm and continues on Friday at 3pm ... and there are a couple of spots open! 
 
 The workshop ends with a concert in Mengi on Saturday night, where we showcase the results of the workshop (participation optional). 
 
