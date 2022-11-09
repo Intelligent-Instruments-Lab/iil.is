@@ -13,8 +13,9 @@ featured: true
 
 <CaptionedImage
   src="news/livinglooper.jpg"
-  alt="An AI generated interpretation of the Living Looper."
-  caption="Intelligent Instruments Lab are giving a workshop on the Living Looper."/>
+  alt="Intelligent Instruments Lab are giving a workshop on the Living Looper."
+  caption="An AI generated interpretation of the Living Looper."
+/>
 
 We are hosting a <a href="/research/livinglooper">Living Looper</a> Workshop for electric guitarists! It starts on Thursday at 2pm and continues on Friday at 3pm ... and there are a couple of spots open! 
 
