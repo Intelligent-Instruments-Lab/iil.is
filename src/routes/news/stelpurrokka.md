@@ -3,7 +3,7 @@ layout: news
 date: "2022-11-04"
 title: "Stelpur Rokka"
 description: "New instruments workshop for female, intersex, non-binary and trans friends!"
-featured: true
+featured: false
 ---
 
 <script>
