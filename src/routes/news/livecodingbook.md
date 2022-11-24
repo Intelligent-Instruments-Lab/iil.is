@@ -10,7 +10,7 @@ featured: true
   import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-Live coding has been an active force in new music since the early 2000s. A few years ago, Alan Blackwell, Geoff Cox, Emma Cocker, Alex McLean and myself got together to work on a book on live coding. A user’s manual we imagined it, a handbook, a reference into the theoretical and technical frameworks that circumvent the practice.
+Live coding has been an active force in new music since the early 2000s. A few years ago, Alan Blackwell, Geoff Cox, Emma Cocker, Alex McLean and Thor Magnusson got together to work on a book on live coding. A user’s manual we imagined it, a handbook, a reference into the theoretical and technical frameworks that circumvent the practice.
 
 The book is now out on <a href="https://mitpress.mit.edu/9780262544818/live-coding/">MIT Press</a>, and find further information about open access <a href="https://livecodingbook.toplap.org">here</a>.
 
