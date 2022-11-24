@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2022-12-19"
+date: "2022-11-19"
 title: "ii lab on a Scandinavian tour"
 description: "Music and AI events in Oslo and Stockholm"
 featured: true
