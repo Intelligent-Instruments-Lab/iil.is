@@ -15,12 +15,12 @@ Indeed, there is also a coming together of worlds between contemporary research 
 
 What happens if these systems are brought together in a way that makes entangling them with musical instruments simple and powerful to do? In theory, any musical instrument could be augmented in this way with agency, if it has some way of communicating back and forth with a simulation.
 In this week we seek to first provide such a context, and then investigate its potential.
-This manifests in the form an open source Python library, [Tulvera](https://github.com/Intelligent-Instruments-Lab/iil-python-tools/tree/master/tulvera):
+This manifests in the form an open source Python library, [Tölvera](https://github.com/Intelligent-Instruments-Lab/iil-python-tools/tree/ja-dev/tolvera):
 
 - Tölvu = computer, from tala (number) + völva (prophetess) 
 - Vera = being 
-- Tulvera = number being
+- Tölvera = number being
 
-The following video playlist documents this project's work in progress using the Tulvera library:
+The following video playlist documents this project's work in progress using the Tölvera library:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8bdQleKUA1vNez5gw-pfQB21Q1-vHn3x" title="Agential Scores" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8bdQleKUA1vNez5gw-pfQB21Q1-vHn3x" title="Agential Scores / Tölvera" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
