@@ -6,7 +6,7 @@ email: "nicola@lhi.is"
 image: "images/people/nicola-profile.jpg"
 links: {
   instagram: "privatonicola",
-  twitter: "NicolaPrivato"
+  twitter: "NicolaPrivato",
   website: "nicolaprivato.com"
 }
 projects: [
