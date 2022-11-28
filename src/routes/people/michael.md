@@ -6,6 +6,7 @@ email: "mail@michaelmariaott.com"
 image: "images/people/michael.jpg"
 links: {
   instagram: "michaelmariaott",
+  twitter: "MichaelMariaOtt",
   website: "michaelmariaott.com"
 }
 projects: [
