@@ -14,7 +14,7 @@ ALife and related fields have inspired generations of researchers to expand thei
 Indeed, there is also a coming together of worlds between contemporary research with neural networks, and cellular automata, dubbed [Neural Cellular Automata](https://distill.pub/2020/growing-ca/).
 
 What happens if these systems are brought together in a way that makes entangling them with musical instruments simple and powerful to do? In theory, any musical instrument could be augmented in this way with agency, if it has some way of communicating back and forth with a simulation.
-In this week we seek to first provide such a context, and then investigate its potential.
+In this project we seek to first provide such a context, and then investigate its potential.
 This manifests in the form an open source Python library, [Tölvera](https://github.com/Intelligent-Instruments-Lab/iil-python-tools/tree/ja-dev/tolvera):
 
 - Tölvu = computer, from tala (number) + völva (prophetess) 
