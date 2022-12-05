@@ -30,5 +30,5 @@ Here's a <a href="https://iil.is/news/icelandic-news" target="_blank">blogpost</
 
 ## **Photos**
 
-For photos, please <a href="https://listahaskoliislands-my.sharepoint.com/:f:/g/personal/thor_magnusson_lhi_is/Eo7hKp4DCTtDn7aEZ88W_z4BVAe16xEW9u9NBLzwz44y5w?e=cYIMDs" target="_blank"> click here to view the best of photo collection in our OneDrive.</a>
+For photos, please click <a href="https://listahaskoliislands-my.sharepoint.com/:f:/g/personal/thor_magnusson_lhi_is/Eo7hKp4DCTtDn7aEZ88W_z4BVAe16xEW9u9NBLzwz44y5w?e=cYIMDs" target="_blank">  here </a> to view the best of photo collection in our OneDrive.
 </br>
