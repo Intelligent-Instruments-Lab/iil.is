@@ -20,7 +20,7 @@ We study creative AI from a broad humanities basis, involving musicians, compute
 
 
 
-For the entire PNG logo pack, <a href="http://users.sussex.ac.uk/~thm21/thor/iil/iil_logos.zip" target="_blank">click here to download.</a>
+For the entire PNG logo pack, click <a href="http://users.sussex.ac.uk/~thm21/thor/iil/iil_logos.zip" target="_blank"> here </a> to download.
 </br>
 
 ## **In the Press**
