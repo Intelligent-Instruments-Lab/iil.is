@@ -23,7 +23,7 @@ We study creative AI from a broad humanities basis, involving musicians, compute
 <a href="http://users.sussex.ac.uk/~thm21/thor/iil/iil_logos.zip" target="_blank"> Download all</a>
 </br>
 
-## **Media References**
+## **In the Press**
 
 Here's a <a href="https://iil.is/news/icelandic-news" target="_blank">blogpost</a> about coverage in the Icelandic media when we first started. 
 </br>
