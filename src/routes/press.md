@@ -18,10 +18,6 @@ We study creative AI from a broad humanities basis, involving musicians, compute
 
 ## **Logos**
 
-<CaptionedImage
-  src="stock/iiLab_wordmark_black.png"
-  alt="Intelligent Instruments Lab logo, black."
-  caption="The black logo with logomark and wordmark"/>
 
 For the entire PNG logo pack, click <a href="http://users.sussex.ac.uk/~thm21/thor/iil/iil_logos.zip" target="_blank"> here </a> to download.
 </br>
