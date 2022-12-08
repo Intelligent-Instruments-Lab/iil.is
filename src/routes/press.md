@@ -24,8 +24,8 @@ For the entire PNG logo pack, click <a href="http://users.sussex.ac.uk/~thm21/th
 
 ## **In the Press**
 
-Here's a <a href="https://iil.is/news/icelandic-news" target="_blank">blogpost</a> about coverage in the Icelandic media when we first started. 
-</br>
+Here is a <a href="https://iil.is/news/icelandic-news" target="_blank">blogpost</a> about coverage in the Icelandic media when we first started. 
+<br>
 
 ## **Photos**
 
