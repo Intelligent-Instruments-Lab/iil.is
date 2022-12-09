@@ -10,6 +10,7 @@ The Intelligent Instruments Lab is an interdisciplinary research lab that invest
 
 We study creative AI from a broad humanities basis, involving musicians, computer scientists, philosophers and cognitive scientists in key international institutions. We explore the emerging language and discourse of creative AI, addressing how notions such as agency, autonomy, authenticity, authorship, creativity and originality change with these new technologies.
 
+<br>
 
 ## **Logos**
 <br>
