@@ -12,5 +12,17 @@ We study creative AI from a broad humanities basis, involving musicians, compute
 
 ## Logos
 
+
 For the entire PNG logo pack, click <a href="http://users.sussex.ac.uk/~thm21/thor/iil/iil_logos.zip" target="_blank"> here </a> to download.
 
+
+## In the Press
+
+
+Here is a <a href="https://iil.is/news/icelandic-news" target="_blank">blogpost</a> about coverage in the Icelandic media when we first started. 
+
+
+## Photos
+
+
+For photos, please click <a href="https://listahaskoliislands-my.sharepoint.com/:f:/g/personal/thor_magnusson_lhi_is/Eo7hKp4DCTtDn7aEZ88W_z4BVAe16xEW9u9NBLzwz44y5w?e=cYIMDs" target="_blank">  here </a> to view the best of photo collection in our OneDrive.
