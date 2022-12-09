@@ -10,18 +10,21 @@ The Intelligent Instruments Lab is an interdisciplinary research lab that invest
 
 We study creative AI from a broad humanities basis, involving musicians, computer scientists, philosophers and cognitive scientists in key international institutions. We explore the emerging language and discourse of creative AI, addressing how notions such as agency, autonomy, authenticity, authorship, creativity and originality change with these new technologies.
 
+
 ## Logos
 <br>
 
 For the entire logo pack, click <a href="http://users.sussex.ac.uk/~thm21/thor/iil/iil_logos.zip" target="_blank"> here </a> to download.
 
 <br>
+
 ## In the Press
 <br>
 
 Here is a <a href="https://iil.is/news/icelandic-news" target="_blank">blogpost</a> about coverage in the Icelandic media when we first started. 
 
 <br>
+
 ## Photos
 <br>
 
