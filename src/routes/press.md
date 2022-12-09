@@ -5,6 +5,9 @@ slug: "press"
 description: "Press about the Intelligent Instruments Lab"
 ---
 
+<script>
+import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
+</script>
 
 The Intelligent Instruments Lab is an interdisciplinary research lab that investigates the role of artificial intelligence in new musical instruments. Music is our research base, but the reach and impact is wider and we explore how musical interfaces can be applied as scientific instruments, for example through sonification.
 
@@ -14,7 +17,11 @@ We study creative AI from a broad humanities basis, involving musicians, compute
 
 ## **Logos**
 
-
+<CaptionedImage
+  src="stock/iiLab_wordmark_black.png"
+  alt="Intelligent Instruments Lab logo, black."
+  caption="The black logo with logomark and wordmark"/>
+  
 For the entire logo pack, click <a href="http://users.sussex.ac.uk/~thm21/thor/iil/iil_logos.zip" target="_blank"> here </a> to download.
 
 <br>
