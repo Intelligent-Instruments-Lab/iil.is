@@ -42,7 +42,7 @@ Use node 16 (install `node` if you don't already have it)
 
 `npm install` to install
 
-`npm run dev` for development
+`npm run dev` for development (for running locally)
 
 `npm run build` for production
 
