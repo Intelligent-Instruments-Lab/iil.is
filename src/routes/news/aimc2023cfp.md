@@ -31,5 +31,5 @@ Main deadlines are in March 2023, but please find further information about indi
 
 ### **The AIMC Conferences**
 
-For information about previous conferences and open access proceedings, please check the [AIMC website] (https://aimusiccreativity.org).
+For information about previous conferences and open access proceedings, please check the [AIMC website](https://aimusiccreativity.org).
 
