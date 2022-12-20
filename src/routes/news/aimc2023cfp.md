@@ -13,7 +13,7 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 
 ### AIMC 2023
 
-Together with the [Emute Lab](http://www.emutelab.org/) at the University of Sussex, we are running the next International Conference on Artificial Intelligence and Music Creativity. 
+Together with the [Emute Lab](http://www.emutelab.org/) at the University of Sussex, we are running the next [International Conference on Artificial Intelligence and Music Creativity](https://aimc2023.pubpub.org). 
 
 **31 August - 1 September @ University of Sussex, Brighton, UK**
 
