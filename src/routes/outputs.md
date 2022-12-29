@@ -9,6 +9,7 @@ description: "Outputs from the Intelligent Instruments Lab."
 
 ## Peer-reviewed published conference papers ##
 
+
 - “Reflexions upon Feedback” by Thor Magnusson, Chris Kiefer and Halldor Ulfarsson at the *New Interfaces for Musical Expression 2022 Conference*.
 
 - “The Proto-Langspil: Launching an Icelandic NIME Research Lab with the Help of a Marginalised Instrument” by Jack Armitage, Victor Shepardson, Halldor Ulfarsson and Thor Magnusson at the *New Interfaces for Musical Expression 2022 Conference*.
@@ -25,6 +26,7 @@ description: "Outputs from the Intelligent Instruments Lab."
 
 ## Books and Book chapters ##
 
+
 - Live Coding: A User's Manual, by Alan Blackwell, Emma Cocker, Geoff Cox, Alex McLean and Thor Magnusson. Open Access [here](https://livecodingbook.toplap.org). Info at [MIT Press](https://mitpress.mit.edu/books/live-coding)
 
 - “Designing the Threnoscope, or, How I Wrote One of My Pieces” by Thor Magnusson in *Sound Work: Composition as Critical Technical Practice*, published by Orpheus Institut. [https://orpheusinstituut.be/en/publications/sound-work](https://orpheusinstituut.be/en/publications/sound-work)
@@ -32,6 +34,7 @@ description: "Outputs from the Intelligent Instruments Lab."
 <br/>
 
 ## Symposia and workshops organised by us ##
+
 
 - *Moving Strings Symposium* (December 2021). An international symposium with workshops, presentations and performances. [https://iil.is/news/moving-strings](https://iil.is/news/moving-strings)
 
@@ -55,6 +58,7 @@ description: "Outputs from the Intelligent Instruments Lab."
 
 ## Workshops we participated in ##
 
+
 - NIFTY workshop. Thor Magnusson presenting ii lab work at instrument design conference.
 - *HLCI Workshop* Presentation by Victor Shepardson.
 - *Feedback Musicianship Network workshop.* Halldor Ulfarsson and Thor Magnusson. At Aalborg University.
@@ -63,12 +67,14 @@ description: "Outputs from the Intelligent Instruments Lab."
 
 ## Residencies ##
 
+
 - Nyksund writing residency. Nyksund, Norway. Thor Magnusson.
 - On-the-fly residency. Barcelona. Jack Armitage.
 
 <br/>
 
 ## Presentations ##
+
 
 - “Keynote at ICLC 2021” Thor Magnusson at the *International Conference on Live Coding 2021*
 
@@ -92,6 +98,7 @@ description: "Outputs from the Intelligent Instruments Lab."
 
 ## Public media ##
 
+
 - Náið samband við hljóðfæri með gervigreind. Fréttablaðið. [https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/](https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/)
 
 - Tímamótastyrkur til rannsóknarverkefnis á vegum LHÍ. RÚV. [https://www.ruv.is/frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi](https://www.ruv.is/
@@ -106,6 +113,7 @@ frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi)
 <br/>
 
 ## Performances ##
+
 
 - RAFLOST Festival Opening Party. Jack Armitage.
 
@@ -123,9 +131,11 @@ frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi)
 
 ## Consultancies ##
 
+
 Thor Magnusson was a consultant on the [Turn it Up](https://www.scienceandindustrymuseum.org.uk/whats-on/turn-it-up) exhibition in the Science and Industry Museum in Manchester.
 
 ## Open source ##
+
 
 - sound-seed-automata - [https://github.com/victor-shepardson/sound-seed-automata](https://github.com/victor-shepardson/sound-seed-automata)
 
