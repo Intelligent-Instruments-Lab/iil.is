@@ -59,8 +59,10 @@ description: "Outputs from the Intelligent Instruments Lab."
 ## Workshops we participated in ##
 
 
-- NIFTY workshop. Thor Magnusson presenting ii lab work at instrument design conference.
-- *HLCI Workshop* Presentation by Victor Shepardson.
+- *NIFTY workshop*. Thor Magnusson presenting ii lab work at instrument design conference.
+
+- *HLCI Workshop*. Presentation by Victor Shepardson.
+
 - *Feedback Musicianship Network workshop.* Halldor Ulfarsson and Thor Magnusson. At Aalborg University.
 
 <br/>
@@ -112,6 +114,7 @@ frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi)
 
 <br/>
 
+
 ## Performances ##
 
 
@@ -129,10 +132,13 @@ frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi)
 
 <br/>
 
+
 ## Consultancies ##
 
 
 Thor Magnusson was a consultant on the [Turn it Up](https://www.scienceandindustrymuseum.org.uk/whats-on/turn-it-up) exhibition in the Science and Industry Museum in Manchester.
+
+<br>
 
 ## Open source ##
 
