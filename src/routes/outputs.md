@@ -9,6 +9,7 @@ description: "Outputs from the Intelligent Instruments Lab."
 
 ## Peer-reviewed published conference papers ##
 
+<br/>
 
 - “Reflexions upon Feedback” by Thor Magnusson, Chris Kiefer and Halldor Ulfarsson at the *New Interfaces for Musical Expression 2022 Conference*.
 
@@ -26,6 +27,7 @@ description: "Outputs from the Intelligent Instruments Lab."
 
 ## Books and Book chapters ##
 
+<br/>
 
 - Live Coding: A User's Manual, by Alan Blackwell, Emma Cocker, Geoff Cox, Alex McLean and Thor Magnusson. Open Access [here](https://livecodingbook.toplap.org). Info at [MIT Press](https://mitpress.mit.edu/books/live-coding)
 
@@ -35,6 +37,7 @@ description: "Outputs from the Intelligent Instruments Lab."
 
 ## Symposia and workshops organised by us ##
 
+<br/>
 
 - *Moving Strings Symposium* (December 2021). An international symposium with workshops, presentations and performances. [https://iil.is/news/moving-strings](https://iil.is/news/moving-strings)
 
@@ -58,6 +61,7 @@ description: "Outputs from the Intelligent Instruments Lab."
 
 ## Workshops we participated in ##
 
+<br/>
 
 - *NIFTY workshop*. Thor Magnusson presenting ii lab work at instrument design conference.
 
@@ -69,6 +73,7 @@ description: "Outputs from the Intelligent Instruments Lab."
 
 ## Residencies ##
 
+<br/>
 
 - Nyksund writing residency. Nyksund, Norway. Thor Magnusson.
 - On-the-fly residency. Barcelona. Jack Armitage.
@@ -77,6 +82,7 @@ description: "Outputs from the Intelligent Instruments Lab."
 
 ## Presentations ##
 
+<br/>
 
 - “Keynote at ICLC 2021” Thor Magnusson at the *International Conference on Live Coding 2021*
 
@@ -100,6 +106,7 @@ description: "Outputs from the Intelligent Instruments Lab."
 
 ## Public media ##
 
+<br/>
 
 - Náið samband við hljóðfæri með gervigreind. Fréttablaðið. [https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/](https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/)
 
@@ -114,9 +121,9 @@ frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi)
 
 <br/>
 
-
 ## Performances ##
 
+<br/>
 
 - RAFLOST Festival Opening Party. Jack Armitage.
 
@@ -135,6 +142,7 @@ frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi)
 
 ## Consultancies ##
 
+<br/>
 
 Thor Magnusson was a consultant on the [Turn it Up](https://www.scienceandindustrymuseum.org.uk/whats-on/turn-it-up) exhibition in the Science and Industry Museum in Manchester.
 
@@ -142,6 +150,7 @@ Thor Magnusson was a consultant on the [Turn it Up](https://www.scienceandindust
 
 ## Open source ##
 
+<br/>
 
 - sound-seed-automata - [https://github.com/victor-shepardson/sound-seed-automata](https://github.com/victor-shepardson/sound-seed-automata)
 
@@ -158,3 +167,5 @@ Thor Magnusson was a consultant on the [Turn it Up](https://www.scienceandindust
 - proto-langspil - [https://github.com/Intelligent-Instruments-Lab/proto-langspil](https://github.com/Intelligent-Instruments-Lab/proto-langspil)
 
 - iil-python-tools - [https://github.com/Intelligent-Instruments-Lab/iil-python-tools](https://github.com/Intelligent-Instruments-Lab/iil-python-tools)
+
+<br/>
