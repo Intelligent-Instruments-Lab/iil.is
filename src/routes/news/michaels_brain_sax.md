@@ -10,7 +10,7 @@ featured: true
 import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-We've had the great pleasure of working with and befriending saxophonist Michael Maria Ott las sememster who was spending some time at the Iceland University of the Arts as an exchange student. In addition to playing the saxophone, Michael is a composer and audio-visual artist. He combines improvisation with generative algorithms, machine learning, brain-computer interfaces and sonification of bio-signals. He studies jazz saxophone at the Mannheim University of Music and Performing Arts and says he was very happy to be able to work with the us at the lab during his Erasmus semester in Reykjavik.
+We've had the great pleasure of working with and befriending saxophonist Michael Maria Ott last sememster, where he was spending some time at the Iceland University of the Arts as an exchange student. In addition to playing the saxophone, Michael is a composer and audio-visual artist. He combines improvisation with generative algorithms, machine learning, brain-computer interfaces and sonification of bio-signals. He studies jazz saxophone at the Mannheim University of Music and Performing Arts and says he was very happy to be able to work with the us at the lab during his Erasmus semester in Reykjavik.
 <br />
 
 # Michael's Journey
