@@ -18,6 +18,7 @@ When we arrived at the Iceland University of the Arts, at the start of the proje
 
 We have built this system with the aim of doing quick experiments where we invite visiting researchers, musicians and students to work with us and help us to answer our research questions. Discussing new ways of doing intelligent instruments with people outside our lab is a key research method for us. Please get in touch with us throug our <a href="/collaborate"> Collaboration Page</a> if you would like to discuss an idea or visit us.
 
+The Organolib has a theoretical underpinning in Magnusson's <a href="https://www.tandfonline.com/doi/full/10.1080/09298215.2017.1353636">Musical Organics article</a> (Open Access).
 
 <CaptionedImage
   src="research/projects/wall2.jpg"

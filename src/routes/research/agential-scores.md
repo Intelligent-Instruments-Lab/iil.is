@@ -17,7 +17,7 @@ What happens if these systems are brought together in a way that makes entanglin
 In this project we seek to first provide such a context, and then investigate its potential.
 This manifests in the form an open source Python library, [Tölvera](https://github.com/Intelligent-Instruments-Lab/iil-python-tools/tree/ja-dev/tolvera):
 
-- Tölvu = computer, from tala (number) + völva (prophetess) 
+- Tölva = computer, from tala (number) + völva (prophetess) 
 - Vera = being 
 - Tölvera = number being
 
