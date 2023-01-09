@@ -1,8 +1,8 @@
 ---
 layout: news
-date: "2022-09-29"
-title: "Vísindavaka Science Fair!"
-description: "Come meet us in Laugardalshöll on Saturday"
+date: "2022-01-09"
+title: "How Michael's Brain Plays the Sax"
+description: "Real time bio-sensors to drive generative algorithms"
 featured: true
 ---
 
@@ -10,89 +10,32 @@ featured: true
 import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-This Saturday, October 1st, from 13:00-18:00 we will be greeting anyone and everyone in our booth as Vísindavaka Science Fair in Laugardalshöll. Vísindavaka in Iceland is part of European Researchers' Night, a yearly event in around 340 towns and cities all over Europe!
-
-This means we need to use Friday to prepare for the fair, so unfortunately there will be no Open Lab this week, but in way, we are bringing the Open Lab on the road! We will show loads of interesting intstruments at the fair and people are allowed to try it out. Furthermore, we will set up a performance with our friend Eydís Kvaran who will be playing the halldorophone.
-
-Hope to see you there! Check out our booth options below.
+We've had the great pleasure of working with and befriending saxophonist Michael Maria Ott las sememster who was spending some time at the Iceland University of the Arts as an exchange student. In addition to playing the saxophone, Michael is a composer and audio-visual artist. He combines improvisation with generative algorithms, machine learning, brain-computer interfaces and sonification of bio-signals. He studies jazz saxophone at the Mannheim University of Music and Performing Arts and says he was very happy to be able to work with the us at the lab during his Erasmus semester in Reykjavik.
 <br />
 
-# The halldorophone
+# Michael's Journey
+
+My interest in generative, data-driven music and composition started when I had to take off multiple months from playing saxophone due to an injury. Having always been interested in the interplay between machines and humans in music, I started to explore combining generative algorithms with improvised music. With life happening increasingly online due to COVID, I also tried to translate parts of the human experience, that are hard or impossible to perceive without physical proximity, into sound. This led me to use real time bio-sensors to drive generative algorithms, making the physical, mental and emotional state of the wearer audible and visible.
+
+In live performances it allows the musician to enter into a conversation with their state of being, creating a feedback-loop between musicians, machines and sound. In the context of interactive audio-visual installations audience-members are able to intuitively explore this feedback-loop.
 
 <CaptionedImage
-src="stock/halldorophone.jpeg"
-alt="A wooden electronic instrument resembling a cello"
-caption="The halldorophone"/>
-
-The halldorophone is a unique instrument designed for feedback. The vibration of the strings is ampliﬁed and routed to a speaker at the back of the instrument. The unstable nature of the instrument exacerbates the uniqueness of each performance. Come see the instrument in our booth and watch Eydís Kvaran's performance. 
-
+src="news/michaelsax1.jpg"
+alt="Young man with a saxaphone and a headband with a device in the middle"
+caption="Demonstrating the saxophone augmentation at Nordic Music Days."/>
 <br />
 
-# The Organolib
+During my time at the Intelligent Instruments Lab, I was able to explore the potential of using consumer- grade EEG headsets to control aspects of a composition, score or instrument with the mental state of the performer. I started developing an augmentation for saxophones that sonifies the brain state of the performer based on the strength of brain activity in different frequency bands. A speaker-mount designed with the help of Halldor Úlfarsson allows a speaker to be mounted on the bell of the saxophone. This allows for the sound to be projected into the saxophone, adding a naturally occurring filtering effect based on the open/closed tone holes and altering the sound of the saxophone. 
+
+With the sonification being incorporated as a part of the instrument, it stops being an independent musical element the performer reacts to and instead becomes part of the performers sound. The processed data influences the sound similar to the way the shape of the oral cavity influences the voice
+of a singer or sound of a woodwind player.
+
+It became clear that, due to the movement of facial muscles while playing a wind instrument, the data output resulting from consumer-grade EEG headsets is governed by artifacts introduced by those muscle movements. Looking forward I want to explore using a larger number of electrodes and different electrode placements combined with AI-aided analysis of the data to solve this problem.
 
 <CaptionedImage
-src="news/new-instruments-workshop.jpg"
-alt="Many different types of instruments and instrumental parts, both acoustic and electronic, placed on a yellow surface."
-caption="We'll be bringing a tiny version of the Organolib"/>
-
-People of all skills and backgrounds can come and explore the technologies used to create intelligent musical systems. Be one of the first people to see a small version of the library of technical elements that we're currently designing, a tool that helps us understand the role of technology in creative work. The Organolib is our library of technical elements, which is an experimental system for the assemblage of protypes and demos. We use this to quickly generate and explore ideas together with artists and researchers. 
-
+src="news/michaelsax2.jpg"
+alt="Two men playing music together, one standing with a saxaphone and a headband, the other one sitting in front of a laptop with an electric guitar."
+caption="Combining pulse sonification and free improvisation with Nicola Privato at Iceland Airwaves."/>
 <br />
 
-# Knurl
-
-<CaptionedImage
-src="news/rafaele-5308.jpg"
-alt="A large white upright instrument on a yellow table, a young woman standing next to it, smiling."
-caption="Rafaele with her Knurl in the Yellow Lab"/>
-
-Knurl is an instrument-interface exploring concepts of polyphony into the practice of a bowed string instrument. It runs and modifies live synthesis sounds while can program and plan the development of new ones. Its interface offers the manipulation of up to 4 sounds by potentiometers, tasks , machine learning system or a counterpoint. Its creator, Rafaele Andrade, will be with us at the fair, showcasing her instrument.
-
-<br />
-
-# The Proto-Langspil
-
-<CaptionedImage
-src="research/projects/protolangspil.jpg"
-alt="Boxy wooden string instrument."
-caption="Jack Armitage with the Proto-Langspil, one of the first instruments we worked on"/>
-
-The proto-langspil is a contemporary interpretation of the langspil, an Icelandic monochord-like folk instrument. In our work we have explored its agential and performative qualities. Further info in a NIME paper.
-
-<br />
-
-# Notochord
-
-<CaptionedImage
-src="research/projects/notochord-diagram.png"
-alt="A technical diagram with math symbols and lines."
-caption="The Notochord Diagram"/>
-
-The Notochord is a machine learning system for MIDI data which processes each event very quickly, making it a software backbone for building intelligent instruments for realtime performance. It is made for MIDI data: once trained on a corpus of MIDI files, it can generate music, accompaniment, harmonisation, AI improvisation, or weirder forms of MIDI mangling.
-
-<br />
-
-# Scramble
-
-<CaptionedImage
-src="research/projects/scramble.png"
-alt="Technical audio interface."
-caption="Scramble Interface"/>
-
-Scramble is a hands-on MIDI tool for aided composition and performance. It analyses MIDI files and generates musical patterns out of them. It also incorporates the real time input from instruments for real-time interaction. Scramble combines melodic and rhythmic models from any number of songs in order to produce unexpected musical outcomes.
-
-<br />
-
-# Linnstrument
-
-<CaptionedImage
-src="stock/linnstrument.svg"
-alt="An electronic instruments with many buttons."
-caption="The Linnstrument"/>
-
-Linnstrument is a music performance controller with 3D note expression designed by Roger Linn. The grid based MIDI controller, playable with one or two hands, is velocity sensitive, but also senses three dimensions per finger, polyphonically
-
-<br />
-
-Learn more about Visindavaka: 
-https://www.visindavaka.is/
+With the help of Jack Armitage I was also able to start developing a brain computer interface for the Magnetic Resonator Piano. For the first experiments I controlled the piano solely through the EEG headset and generative algorithms, requiring no physical actions at all, to minimize the occurrence of artifacts in the data. I am currently working on the next version of the interface, where the piano will be played by the artist, while the sound-intensity and harmonics of the strings will be determined through the magnetic resonators by the EEG data.
