@@ -20,9 +20,9 @@ My interest in generative, data-driven music and composition started when I had 
 In live performances it allows the musician to enter into a conversation with their state of being, creating a feedback-loop between musicians, machines and sound. In the context of interactive audio-visual installations audience-members are able to intuitively explore this feedback-loop.
 
 <CaptionedImage
-src="news/michaelsax1.jpg"
-alt="Young man with a saxaphone and a headband with a device in the middle"
-caption="Demonstrating the saxophone augmentation at Nordic Music Days."/>
+src="news/michaelsax2.jpg"
+alt="Two men playing music together, one standing with a saxaphone and a headband, the other one sitting in front of a laptop with an electric guitar."
+caption="Combining pulse sonification and free improvisation with Nicola Privato at Iceland Airwaves."/>
 <br />
 
 During my time at the Intelligent Instruments Lab, I was able to explore the potential of using consumer- grade EEG headsets to control aspects of a composition, score or instrument with the mental state of the performer. I started developing an augmentation for saxophones that sonifies the brain state of the performer based on the strength of brain activity in different frequency bands. A speaker-mount designed with the help of Halldor Úlfarsson allows a speaker to be mounted on the bell of the saxophone. This allows for the sound to be projected into the saxophone, adding a naturally occurring filtering effect based on the open/closed tone holes and altering the sound of the saxophone. 
@@ -33,9 +33,9 @@ of a singer or sound of a woodwind player.
 It became clear that, due to the movement of facial muscles while playing a wind instrument, the data output resulting from consumer-grade EEG headsets is governed by artifacts introduced by those muscle movements. Looking forward I want to explore using a larger number of electrodes and different electrode placements combined with AI-aided analysis of the data to solve this problem.
 
 <CaptionedImage
-src="news/michaelsax2.jpg"
-alt="Two men playing music together, one standing with a saxaphone and a headband, the other one sitting in front of a laptop with an electric guitar."
-caption="Combining pulse sonification and free improvisation with Nicola Privato at Iceland Airwaves."/>
+src="news/michaelsax1.jpg"
+alt="Young man with a saxaphone and a headband with a device in the middle"
+caption="Demonstrating the saxophone augmentation at Nordic Music Days."/>
 <br />
 
 With the help of Jack Armitage I was also able to start developing a brain computer interface for the Magnetic Resonator Piano. For the first experiments I controlled the piano solely through the EEG headset and generative algorithms, requiring no physical actions at all, to minimize the occurrence of artifacts in the data. I am currently working on the next version of the interface, where the piano will be played by the artist, while the sound-intensity and harmonics of the strings will be determined through the magnetic resonators by the EEG data.
