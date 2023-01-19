@@ -40,7 +40,7 @@ The workshop will culminate with a concert at 18.00 on the Friday in Hallgrimski
 
 **Application procedure:**  
 
-The workshop is free and we are running it in the afternoon in order to be able to include people who might be busy during the day. Applicants must send in a short application using this form (link here!!!!) before 30th of January. We will aim to select a diverse group of 8 people for the workshop. Applicants will receive notifications on the 3rd of February.
+The workshop is free and we are running it in the afternoon in order to be able to include people who might be busy during the day. Applicants must send in a short application using this form [HERE](https://forms.office.com/e/pCCH3rv6DM) before 30th of January. We will aim to select a diverse group of 8 people for the workshop. Applicants will receive notifications on the 3rd of February.
 
 <br>
 
