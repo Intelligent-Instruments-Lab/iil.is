@@ -12,24 +12,22 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 
 Last year, we hosted visiting researcher Rafaele Andrade. She stayed with us from September to November, working on her magnificent intstrument, the knurl. 
 
-Working since 2011, Rafaele’s artistic practice moves across music composition, creative coding, cello and contemporary performance. She has recently graduated in New audiences and innovative practices and is currently involved in a 2 year trajectory to showcase several projects and artworks crossovering with design, sustainability, music innovation and digital culture. She is an independent artist and researcher, whose work combines performance with music composition, interactivity, design, instruments, sound and technologies such as creative coding, machine learning, 3d Printing, electronics, AI tools and psychoacoustic techniques. 
-
-The focus of her work is on finding a sense of momentum-craftsmanship for music composition and artistic identity through the creation of her own instrument and music practice, Knurl, while working on projects and artworks that reveal social transformation and ambiental awareness. It was an absolute pleasure for us to partake in her journey. She's an amazing musician and researcher and sharing the lab space with her brought a lot of good energy and much laughter, resulting in a more vibrant and lively workspace than ever!
-<br />
-
 <CaptionedImage
 src="news/stelpurrokka3.jpg"
 alt="A young woman holding a large white upright instrument in a yellow research lab."
 caption="Rafaele Andrade visiting the IIL."/>
-<br />
 
-While Rafaele is known for her music compositions across Brazil, Germany and the Netherlands, she is also actively involved in the design and the construction of an experimental string based instrument. In her master studies (2020-2022), she created Knurl, an instrument interface exploring concepts of interactivity and polyphony in the practice of a bowed string instrument. It runs and modifies live synthesis sounds while autonomous and interactive systems can influence it.
+Working since 2011, Rafaele’s artistic practice moves across music composition, creative coding, cello and contemporary performance. She has recently graduated in New audiences and innovative practices and is currently involved in a 2 year trajectory to showcase several projects and artworks crossovering with design, sustainability, music innovation and digital culture. She is an independent artist and researcher, whose work combines performance with music composition, interactivity, design, instruments, sound and technologies such as creative coding, machine learning, 3d Printing, electronics, AI tools and psychoacoustic techniques. 
+
+The focus of her work is on finding a sense of momentum-craftsmanship for music composition and artistic identity through the creation of her own instrument and music practice, Knurl, while working on projects and artworks that reveal social transformation and ambiental awareness. It was an absolute pleasure for us to partake in her journey. She's an amazing musician and researcher and sharing the lab space with her brought a lot of good energy and much laughter, resulting in a more vibrant and lively workspace than ever!
 
 <CaptionedImage
 src="news/visindavaka_knurl.jpeg"
 alt="Two young women, each one with an upright instrument in the lap, one playing the halldorophone like a cello, the other one standing with a knurl. In the background, people working at an expo for science."
 caption="During her residency, Rafaele has explored some collaborations and experiences with Icelandic artists, such as one of her strongest references, the Halldorophone (player in the photo is Eyrún Kvaran)."/>
 <br />
+
+While Rafaele is known for her music compositions across Brazil, Germany and the Netherlands, she is also actively involved in the design and the construction of an experimental string based instrument. In her master studies (2020-2022), she created Knurl, an instrument interface exploring concepts of interactivity and polyphony in the practice of a bowed string instrument. It runs and modifies live synthesis sounds while autonomous and interactive systems can influence it.
 
 <CaptionedImage
 src="news/knurl.jpeg"
