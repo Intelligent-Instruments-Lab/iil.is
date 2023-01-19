@@ -11,7 +11,7 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
 **Dates**  
-Send applications before 30th of January  
+Deadline for applications: 30th of January  
 Workshop: 13th-23rd of February 2023  
 Concert: 24th of February, Hallgrímskirkja at 18:00  
 
