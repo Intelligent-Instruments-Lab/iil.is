@@ -30,8 +30,6 @@ We seek participants of diverse musical and cultural backgrounds, everyone is we
 
 The workshop will introduce creative AI technologies developed at the lab and people can use our systems such as the Notochord, Agential Scores, Scramble and more to control the organ. These involve AI and ALife, but participants can come up with their own systems too. We will also introduce our Organolib (technical library of sensors and actuators) which can be used to create novel interfaces. No technical skills are required for this workshop. We are hoping for a diverse group of people from all walks of music!
 
-The Hallgrímskirkja Klais organ has 4 keyboards and a pedalboard, 72 voices and 5275 pipes that can all be controlled by a computer via MIDI. The organ is 15 metres high, weighs about 25 tons, and the largest pipes are about 10 metres high.
-
 In the workshop we will learn about how the organ works, both for human players and how the organ's MIDI connection can extend human capabilities, both in terms of performance and composition by using alternative intelligence.
 
 In the workshop we will explore algorithmic music practices in the past, from ancient times to the current day, and move over to contemporary use of machine learning. We will also look at earlier works written for the organ in MIDI form as examples of how it is used. 
@@ -60,7 +58,17 @@ The workshop is free and we are running it in the afternoon in order to be able 
 
 <br>
 
+# The Klais Organ
 
+<CaptionedImage
+src="news/klaisorgan.jpg"
+alt="A picture of the Klais Organ at Hallgrimskirkja"
+caption="The Klais Organ at Hallgrimskirkja"/>
+
+The Hallgrímskirkja Klais organ has 4 keyboards and a pedalboard, 72 voices and 5275 pipes that can all be controlled by a computer via MIDI. The organ is 15 metres high, weighs about 25 tons, and the largest pipes are about 10 metres high.
+
+
+<br>
 
 # Intelligent Instruments Tech
 
