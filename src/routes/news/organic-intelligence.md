@@ -56,7 +56,7 @@ src="news/new-instruments-workshop.jpg"
 alt="Many different types of instruments and instrumental parts, both acoustic and electronic, placed on a yellow surface."
 caption="We'll be bringing a tiny version of the Organolib"/>
 
-The [Organolib](https://iil.is/research/organolib) is a library of technical elements that we're currently designing, a tool that helps us understand the role of technology in creative work. The Organolib is our library of technical elements, which is an experimental system for the assemblage of protypes and demos. We use this to quickly generate and explore ideas together with artists and researchers. 
+The [Organolib](https://iil.is/research/organolib) is a library of technical elements that we're currently designing, a tool that helps us understand the role of technology in creative work. It is an experimental system for the assemblage of musical protypes and demos. We use this to quickly generate and explore ideas together with artists and researchers. 
 
 
 <br>
