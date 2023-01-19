@@ -38,10 +38,27 @@ In the workshop we will explore algorithmic music practices in the past, from an
 
 <br />
 
-Application procedure:
-The workshop is free, but applicants must send in a form (link here!!!!) before 30th of january.  Applicants will receive notifications on the 6th of February.
+**Application procedure:**  
+
+The workshop is free, but applicants must send in a form (link here!!!!) before 30th of january. Applicants will receive notifications on the 3rd of February.
 
 <br>
+
+
+**Workshop Schedule:**  
+
+**Monday 13 Feb** - Workshop in Hallgrímskirkja, 17.00-19.00, introduction
+**Wednesday 15 Feb** - Workshop in ii lab, 17.00-19.00, iiL tools / MIDI tools
+**Friday 17 Feb** - Open lab 15.00 - Aki introduces earlier organ pieces
+**Monday, 20 Feb** - Workshop in Hallgrímskirkja, 17.00-19.00
+**Tuesday, 21 Feb** - Workshop in the lab, 17.00-19.00
+**Wednesday, 22 Feb** - Workshop in Hallgrímskirkja, 17.00-19.00
+**Thursday, 23 Feb** - Workshop in Hallgrímskirkja, 17.00-19.00
+**Friday, 24 Feb** - Concert in Hallgrímskirkja, 18.00-19.00
+
+<br>
+
+
 
 # Intelligent Instruments Tech
 
