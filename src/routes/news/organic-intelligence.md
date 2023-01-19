@@ -43,7 +43,10 @@ The workshop is free, but applicants must send in a form (link here!!!!) before 
 
 <br>
 
-In the workshop participants will be able to use some of the technologies developed in the lab or make their own.
+# Intelligent Instruments Tech
+
+In the workshop participants will be able to use some of the technologies developed in the lab and also make their own. We will support people in their creative ideas. Some of the technologies we might use are here below, but more info can be found on the lab's [research page](https://iil.is/research).
+
 
 # The Organolib
 
