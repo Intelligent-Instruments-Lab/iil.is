@@ -28,7 +28,7 @@ caption="Some of the ii lab team and Aki at Hallgrimskirkja"/>
 
 We seek participants of diverse musical and cultural backgrounds, everyone is welcome, but the workshop size will be eight participants plus workshop leaders. We hope to have people in the workshop who want to use the organ in novel and unexpected ways, to make new sounds, tell new stories, develop new interfaces, have fun and redefine what organ music is about. [Áki Ásgeirsson](https://www.cafeoto.co.uk/artists/aki-asgeirsson/) will be the workshop leader together with members of the lab.
 
-The workshop will introduce creative AI technologies developed at the lab and people can use our systems such as the Notochord, Agential Scores, Scramble and more to control the organ. These involve AI and ALife, but participants can come up with their own systems too. We will also introduce our Organolib (technical library of sensors and actuators) which can be used to create novel interfaces.
+The workshop will introduce creative AI technologies developed at the lab and people can use our systems such as the Notochord, Agential Scores, Scramble and more to control the organ. These involve AI and ALife, but participants can come up with their own systems too. We will also introduce our Organolib (technical library of sensors and actuators) which can be used to create novel interfaces. No technical skills are required for this workshop. We are hoping for a diverse group of people from all walks of music!
 
 The Hallgrímskirkja Klais organ has 4 keyboards and a pedalboard, 72 voices and 5275 pipes that can all be controlled by a computer via MIDI. The organ is 15 metres high, weighs about 25 tons, and the largest pipes are about 10 metres high.
 
@@ -47,6 +47,7 @@ The workshop is free, but applicants must send in a form (link here!!!!) before 
 
 In the workshop participants will be able to use some of the technologies developed in the lab and also make their own. We will support people in their creative ideas. Some of the technologies we might use are here below, but more info can be found on the lab's [research page](https://iil.is/research).
 
+<br>
 
 # The Organolib
 
