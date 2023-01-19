@@ -36,11 +36,13 @@ In the workshop we will learn about how the organ works, both for human players 
 
 In the workshop we will explore algorithmic music practices in the past, from ancient times to the current day, and move over to contemporary use of machine learning. We will also look at earlier works written for the organ in MIDI form as examples of how it is used. 
 
+The workshop will culminate with a concert at 18.00 on the Friday in Hallgrimskirkja where music from the workshop will be performed.
+
 <br />
 
 **Application procedure:**  
 
-The workshop is free and we are running it in the afternoon in order to be able to include people who might be busy during the day. Applicants must send in a short application using this form (link here!!!!) before 30th of january. We will aim to select a diverse group of 8 people for the workshop. Applicants will receive notifications on the 3rd of February.
+The workshop is free and we are running it in the afternoon in order to be able to include people who might be busy during the day. Applicants must send in a short application using this form (link here!!!!) before 30th of January. We will aim to select a diverse group of 8 people for the workshop. Applicants will receive notifications on the 3rd of February.
 
 <br>
 
