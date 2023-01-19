@@ -10,17 +10,23 @@ featured: true
 import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-**Dates**
+**Dates**  
 Send applications before 30th of January  
 Workshop: 13th-23rd of February 2023  
 Concert: 24th of February, Hallgrímskirkja at 18:00  
 
 
-**Collaboration between Intelligent Instruments Lab, Áki Ásgeirsson and Hallgrímskirkja.**
+**A collaboration between the Intelligent Instruments Lab, Áki Ásgeirsson and Hallgrímskirkja**
 
 The Intelligent Instruments Lab at the Iceland University of the Arts invites interested musicians to participate in a workshop where we will explore the use of creative AI technologies to play the [organ](https://listvinafelag.is/en/the-72-stop-klaisorgan/) at Hallgrimskirkja. 
 
-We seek participants of diverse musical and cultural backgrounds, everyone is welcome, but the workshop size will be eight participants plus workshop leaders. We hope to have people in the workshop who want to use the organ in novel and unexpected ways, to make new sounds, tell new stories, develop new interfaces, have fun and redefine what organ music is about. Áki Ásgeirsson will be the workshop leader together with members of the lab.
+<CaptionedImage
+src="news/organicintelligence.png"
+alt="A picture of the ii lab team with Aki climbing the church tower"
+caption="Some of the ii lab team and Aki at Hallgrimskirkja"/>
+
+
+We seek participants of diverse musical and cultural backgrounds, everyone is welcome, but the workshop size will be eight participants plus workshop leaders. We hope to have people in the workshop who want to use the organ in novel and unexpected ways, to make new sounds, tell new stories, develop new interfaces, have fun and redefine what organ music is about. [Áki Ásgeirsson](https://www.cafeoto.co.uk/artists/aki-asgeirsson/) will be the workshop leader together with members of the lab.
 
 The workshop will introduce creative AI technologies developed at the lab and people can use our systems such as the Notochord, Agential Scores, Scramble and more to control the organ. These involve AI and ALife, but participants can come up with their own systems too. We will also introduce our Organolib (technical library of sensors and actuators) which can be used to create novel interfaces.
 
@@ -31,14 +37,6 @@ In the workshop we will learn about how the organ works, both for human players 
 In the workshop we will explore algorithmic music practices in the past, from ancient times to the current day, and move over to contemporary use of machine learning. We will also look at earlier works written for the organ in MIDI form as examples of how it is used. 
 
 <br />
-
-# The halldorophone
-
-<CaptionedImage
-src="news/organicintelligence.png"
-alt="A picture of the ii lab team with Aki climbing the church tower"
-caption="Some of the ii lab team and Aki at Hallgrimskirkja"/>
-
 
 Application procedure:
 The workshop is free, but applicants must send in a form (link here!!!!) before 30th of january.  Applicants will receive notifications on the 6th of February.
@@ -54,8 +52,19 @@ src="news/new-instruments-workshop.jpg"
 alt="Many different types of instruments and instrumental parts, both acoustic and electronic, placed on a yellow surface."
 caption="We'll be bringing a tiny version of the Organolib"/>
 
-People of all skills and backgrounds can come and explore the technologies used to create intelligent musical systems. Be one of the first people to see a small version of the library of technical elements that we're currently designing, a tool that helps us understand the role of technology in creative work. The Organolib is our library of technical elements, which is an experimental system for the assemblage of protypes and demos. We use this to quickly generate and explore ideas together with artists and researchers. 
+The [Organolib](https://iil.is/research/organolib) is a library of technical elements that we're currently designing, a tool that helps us understand the role of technology in creative work. The Organolib is our library of technical elements, which is an experimental system for the assemblage of protypes and demos. We use this to quickly generate and explore ideas together with artists and researchers. 
 
+
+<br>
+
+# Tölvera
+
+<CaptionedImage
+src="research/projects/agential-leniatidal.jpg"
+alt="Tölvera project."
+caption="Artificial life made with Tölvera"/>
+
+Tölvera is a system that explores the possibilities of entangling the real-time parameters of musical instruments with artificial life (ALife) and other types of simulations. We have used it for our [agential scores](https://iil.is/research/agential-scores) project. Here users can play with the Tölvera ALife library developed at the lab and explore the use of artificial life in musical composition and performance.
 
 <br>
 
@@ -66,9 +75,10 @@ src="research/projects/notochord-diagram.png"
 alt="A technical diagram with math symbols and lines."
 caption="The Notochord Diagram"/>
 
-The Notochord is a machine learning system for MIDI data which processes each event very quickly, making it a software backbone for building intelligent instruments for realtime performance. It is made for MIDI data: once trained on a corpus of MIDI files, it can generate music, accompaniment, harmonisation, AI improvisation, or weirder forms of MIDI mangling.
+The [Notochord](https://iil.is/research/notochord) is a machine learning system for MIDI data which processes each event very quickly, making it a software backbone for building intelligent instruments for realtime performance. It is made for MIDI data: once trained on a corpus of MIDI files, it can generate music, accompaniment, harmonisation, AI improvisation, or weirder forms of MIDI mangling.
 
 <br>
+
 
 # Scramble
 
@@ -77,7 +87,7 @@ src="research/projects/scramble.png"
 alt="Technical audio interface."
 caption="Scramble Interface"/>
 
-Scramble is a hands-on MIDI tool for aided composition and performance. It analyses MIDI files and generates musical patterns out of them. It also incorporates the real time input from instruments for real-time interaction. Scramble combines melodic and rhythmic models from any number of songs in order to produce unexpected musical outcomes.
+[Scramble](https://iil.is/research/scramble) is a hands-on MIDI tool for aided composition and performance. It analyses MIDI files and generates musical patterns out of them. It also incorporates the real time input from instruments for real-time interaction. Scramble combines melodic and rhythmic models from any number of songs in order to produce unexpected musical outcomes.
 
 <br>
 
