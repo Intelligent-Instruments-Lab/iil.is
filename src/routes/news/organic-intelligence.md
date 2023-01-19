@@ -21,9 +21,9 @@ Concert: 24th of February, Hallgrímskirkja at 18:00
 The Intelligent Instruments Lab at the Iceland University of the Arts invites interested musicians to participate in a workshop where we will explore the use of creative AI technologies to play the [organ](https://listvinafelag.is/en/the-72-stop-klaisorgan/) at Hallgrimskirkja. 
 
 <CaptionedImage
-src="news/organicintelligence.png"
-alt="A picture of the ii lab team with Aki climbing the church tower"
-caption="Some of the ii lab team and Aki at Hallgrimskirkja"/>
+src="news/organicintelligence.jpg"
+alt="A photo of the IIL team with Hallgrimskirkja in the background."
+caption="The view of Hallgrimskirkja from our lab."/>
 
 
 We seek participants of diverse musical and cultural backgrounds, everyone is welcome, but the workshop size will be eight participants plus workshop leaders. We hope to have people in the workshop who want to use the organ in novel and unexpected ways, to make new sounds, tell new stories, develop new interfaces, have fun and redefine what organ music is about. [Áki Ásgeirsson](https://www.cafeoto.co.uk/artists/aki-asgeirsson/) will be the workshop leader together with members of the lab.
