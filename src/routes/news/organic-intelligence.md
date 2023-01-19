@@ -40,7 +40,7 @@ In the workshop we will explore algorithmic music practices in the past, from an
 
 **Application procedure:**  
 
-The workshop is free, but applicants must send in a form (link here!!!!) before 30th of january. Applicants will receive notifications on the 3rd of February.
+The workshop is free and we are running it in the afternoon in order to be able to include people who might be busy during the day. Applicants must send in a short application using this form (link here!!!!) before 30th of january. We will aim to select a diverse group of 8 people for the workshop. Applicants will receive notifications on the 3rd of February.
 
 <br>
 
