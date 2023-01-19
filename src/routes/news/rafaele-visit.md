@@ -25,7 +25,6 @@ The focus of her work is on finding a sense of momentum-craftsmanship for music 
 src="news/visindavaka_knurl.jpeg"
 alt="Two young women, each one with an upright instrument in the lap, one playing the halldorophone like a cello, the other one standing with a knurl. In the background, people working at an expo for science."
 caption="During her residency, Rafaele has explored some collaborations and experiences with Icelandic artists, such as one of her strongest references, the Halldorophone (player in the photo is Eyrún Kvaran)."/>
-<br />
 
 While Rafaele is known for her music compositions across Brazil, Germany and the Netherlands, she is also actively involved in the design and the construction of an experimental string based instrument. In her master studies (2020-2022), she created Knurl, an instrument interface exploring concepts of interactivity and polyphony in the practice of a bowed string instrument. It runs and modifies live synthesis sounds while autonomous and interactive systems can influence it.
 
@@ -33,7 +32,6 @@ While Rafaele is known for her music compositions across Brazil, Germany and the
 src="news/knurl.jpeg"
 alt="Two photographs of the knurl, a white upright string instrument. On the left the whole instrument is visible on a black background, on the right there is a close-up of the sliders."
 caption="When Rafaele performs with Knurl, its strings are sensor-based and become “buttons” to trigger sound events. The selection of these instances are selected by the sliders present in the frame part of the instrument."/>
-<br />
 
 Rafaele fine tuned the design of her instrument during her residency. It is to be used in coming projects in 2023/2024 for 3 other cellists in collaboration with other musicians and media artists. While working with the staffs from the lab in the development of the instrument, She has developed a soundtrack for the documentary “Dead zones” and has worked intensely together with Adam Pultz in the project “Sound energy harvest”, a light based performance that reflects about the high consume of energy through the generation of electricity through their own acoustic instruments. During her stay, Rafaele got involved with the community of the IIL; the Iceland University of Art, Mengi, INNI, and the general public and tourists by participating in Conferences, events, workshops and concerts.
 
@@ -41,7 +39,6 @@ Rafaele fine tuned the design of her instrument during her residency. It is to b
 src="news/knurl2.jpeg"
 alt="White 3D-printed upright instrument with 4 sets of strings. Black background."
 caption="Knurl is made with 3d print technology with recycled materials from the Netherlands. Its design is inspired in the rotational mechanisms such as its name, knurl (from Knurling)"/>
-<br />
 
 To this end, Rafaele and the IIL formed a partnership to investigate and experiment with sound interactions through machine learning for bela, the microcontroller mostly used for augmented and experimental instruments at the lab. During the residency in Reykjavik, Rafaele familiarised with the semi autonomous instruments, such as the halldorophone, hybrid visuals and the FAAB, modular sound technologies being built at the Lab and the research ethos that drive the Lab’s research. Rafaele will now envision ways in which some of these tools can become sounds, tools and structures to be used in a master performance of experimental instruments to be premiered in Utrecht at Gaudeamus festival, September 2023.
 
@@ -51,7 +48,6 @@ When not working on her artistic projects, Rafaele is involved with the live cod
 src="news/scuba.jpeg"
 alt="A diver in green misty water."
 caption="Rafaele combines artistic practices with her love for scuba diving and nature sports."/>
-<br />
 
 Here you can see Rafaele performing with Knurl at Amare concert hall, on the very first premiere of “This isn’t solo”, in July 2022 in Den Haag (NE). 
 
@@ -63,4 +59,3 @@ Learn more about Rafaele and Knurl: https://rafaele-andrade.com
 src="news/knurl-performance.jpeg"
 alt="A young woman playing the knurl like a chello, in a middle of a room with colorful patterns on the floor and sitting audience in a circle around her."
 caption="A close up of the “This isn’t solo”, an interactive performance with Knurl being manipulated by its audience."/>
-<br />
