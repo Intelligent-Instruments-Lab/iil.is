@@ -11,9 +11,9 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
 **Dates**
-Send applications before 30th of January
-Workshop: 13th-23rd of February 2023
-Concert: 24th of February, Hallgrímskirkja at 18:00
+Send applications before 30th of January  
+Workshop: 13th-23rd of February 2023  
+Concert: 24th of February, Hallgrímskirkja at 18:00  
 
 
 **Collaboration between Intelligent Instruments Lab, Áki Ásgeirsson and Hallgrímskirkja.**
@@ -35,7 +35,7 @@ In the workshop we will explore algorithmic music practices in the past, from an
 # The halldorophone
 
 <CaptionedImage
-src="news/organicintelligence.jpg"
+src="news/organicintelligence.png"
 alt="A picture of the ii lab team with Aki climbing the church tower"
 caption="Some of the ii lab team and Aki at Hallgrimskirkja"/>
 
