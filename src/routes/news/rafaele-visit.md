@@ -24,7 +24,7 @@ The focus of her work is on finding a sense of momentum-craftsmanship for music 
 <CaptionedImage
 src="news/visindavaka_knurl.jpeg"
 alt="Two young women, each one with an upright instrument in the lap, one playing the halldorophone like a cello, the other one standing with a knurl. In the background, people working at an expo for science."
-caption="During her residency, Rafaele has explored some collaborations and experiences with Icelandic artists, such as one of her strongest references, the Halldorophone (player in the photo is Eyrún Kvaran)."/>
+caption="During her residency, Rafaele has explored some collaborations and experiences with Icelandic artists, such as one of her strongest references, the Halldorophone (player in the photo is Eydís Kvaran)."/>
 
 While Rafaele is known for her music compositions across Brazil, Germany and the Netherlands, she is also actively involved in the design and the construction of an experimental string based instrument. In her master studies (2020-2022), she created Knurl, an instrument interface exploring concepts of interactivity and polyphony in the practice of a bowed string instrument. It runs and modifies live synthesis sounds while autonomous and interactive systems can influence it.
 
