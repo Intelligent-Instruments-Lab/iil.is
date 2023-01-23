@@ -54,6 +54,8 @@ Here you can see Rafaele performing with Knurl at Amare concert hall, on the ver
 We encourage everyone to check out Rafaele's work. We will be keeping a close eye on her in the future and we're honoured to have been a part of her artistic and academic journey. Rafaele, we miss you already!
 
 Learn more about Rafaele and Knurl: https://rafaele-andrade.com 
+<a href="https://open.spotify.com/artist/4GnSIWensqvJ1Lt16uRGDM?si=NmTP6Sy5RSWI3ol4wWZRSQ&utm_source=copy-link ">Rafaele on Spotify</a>
+
 
 <CaptionedImage
 src="news/knurl-performance.jpeg"
