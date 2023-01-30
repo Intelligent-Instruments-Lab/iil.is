@@ -11,7 +11,7 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
 **Dates**  
-Deadline for applications: 30th of January  
+Deadline for applications: Noon, 2nd of February   
 Workshop: 13th-23rd of February 2023  
 Concert: 24th of February, Hallgrímskirkja at 18:00  
 
@@ -40,7 +40,7 @@ The workshop will culminate with a concert at 18.00 on the Friday in Hallgrimski
 
 **Application procedure:**  
 
-The workshop is free and we are running it in the afternoon in order to be able to include people who might be busy during the day. Applicants must send in a short application using this form [HERE](https://forms.office.com/e/pCCH3rv6DM) before 30th of January. We will aim to select a diverse group of 8 people for the workshop. Applicants will receive notifications on the 3rd of February.
+The workshop is free and we are running it in the afternoon in order to be able to include people who might be busy during the day. Applicants must send in a short application using this form [HERE](https://forms.office.com/e/pCCH3rv6DM) before noon on 2nd of February (we are selecting participants that day). We will aim to invite a diverse group of 8 people for the workshop. Applicants will receive notifications on the 3rd of February.
 
 <br>
 
