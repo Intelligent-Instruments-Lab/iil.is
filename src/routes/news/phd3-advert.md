@@ -9,7 +9,7 @@ featured: true
 <script> import CaptionedImage from "../../components/Images/CaptionedImage.svelte" </script>
 
 <CaptionedImage
-  src="news/phd3advert.jpeg"
+  src="news/phd3advert.jpg"
   alt="A smiling young woman sitting in front of a drum, holding a magnetic controller. In the background there is a screen with visualisation of data."
   caption="Want to join the team? Application details below."/>
 
