@@ -9,9 +9,9 @@ featured: true
 <script> import CaptionedImage from "../../components/Images/CaptionedImage.svelte" </script>
 
 <CaptionedImage
-  src="news/phd3advert.jpg"
-  alt="A smiling young woman sitting in front of a drum, holding a magnetic controller. In the background there is a screen with visualisation of data."
-  caption="Want to join the team? Application details below."/>
+  src="news/phd3-6846.jpg"
+  alt="A smiling young woman holding a magnetic controller. In the background there is a screen with visualisation of data."
+  caption="Esther Thorvalds is researching interactive sonification of DNA to raise awareness of Iceland’s breast cancer-related BRCA2 gene mutation. Can scientists use Nicola Privato’s Magnetic Discs to navigate this complex data terrain and gain haptic intuition?"/>
 
 
 **How can we use sonic instruments to explore complex data?**
