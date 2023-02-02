@@ -11,7 +11,7 @@ featured: true
 <CaptionedImage
   src="news/phd3-6846.jpg"
   alt="A smiling young woman holding a magnetic controller. In the background there is a screen with visualisation of data."
-  caption="Esther Thorvalds is researching interactive sonification of DNA to raise awareness of breast cancer-related BRCA2 gene mutation. Can scientists use Nicola Privato’s Magnetic Discs to navigate this complex data terrain and gain haptic intuition?"/>
+  caption="Esther Thorvalds is researching interactive sonification of DNA to raise awareness of a breast cancer-related BRCA2 gene mutation. Can scientists use Nicola Privato’s Magnetic Discs to navigate this complex data terrain and gain haptic intuition?"/>
 
 
 **How can we use sonic instruments to explore complex data?**
