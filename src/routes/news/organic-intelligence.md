@@ -47,14 +47,14 @@ The workshop is free and we are running it in the afternoon in order to be able 
 
 **Workshop Schedule:**  
 
-**Monday 13 Feb** - Workshop in Hallgrímskirkja, 17.00-19.00, introduction  
-**Wednesday 15 Feb** - Workshop in ii lab, 17.00-19.00, iiL tools / MIDI tools  
-**Friday 17 Feb** - Open lab 15.00 - Aki introduces earlier organ pieces  
-**Monday, 20 Feb** - Workshop in Hallgrímskirkja, 17.00-19.00  
-**Tuesday, 21 Feb** - Workshop in the lab, 17.00-19.00  
-**Wednesday, 22 Feb** - Workshop in Hallgrímskirkja, 17.00-19.00  
-**Thursday, 23 Feb** - Workshop in Hallgrímskirkja, 17.00-19.00  
-**Friday, 24 Feb** - Concert in Hallgrímskirkja, 18.00-19.00  
+**Mon 13 Feb, 17.00-19.00** - Hallgrímskirkja - Introduction
+**Wed 15 Feb, 17.00-19.00** - ii lab at Þverholt - IIL tools / MIDI tools
+**Fri 17 Feb, 15.00 - 17.00** - Open Lab in ii lab at Þverholt - Áki presents organ and works
+**Mon 20 Feb, 15.00 - 16.30** - ii lab at Þverholt, then **17.00 - 19.00** in Hallgrímskirkja
+**Tue 21 Feb, 15.00 - 19.00** - ii lab at Þverholt
+**Wed 22 Feb, 15.00 - 16.30** - ii lab, then **17.00 - 19.00** in Hallgrímskirkja
+**Thu 23 Feb, 15.00 - 16.30** - ii lab, then **17.00 - 19.00** Hallgrímskirkja
+**Fri 24 Feb, 17.00 - 20.00** - Hallgrímskirkja - Concert
 
 <br>
 
