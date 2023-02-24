@@ -58,6 +58,8 @@ The workshop is free and we are running it in the afternoon in order to be able 
 
 <br>
 
+The project is supported by Tónlistarsjóður Music Fund.
+
 # The Klais Organ
 
 <CaptionedImage
