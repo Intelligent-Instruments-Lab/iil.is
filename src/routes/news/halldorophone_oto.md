@@ -3,7 +3,7 @@ layout: news
 date: "2023-01-30"
 title: "Halldorophone concert at Café Oto"
 description: "Five artists present their works in London"
-featured: true
+featured: false
 ---
 
 <script>
