@@ -3,7 +3,7 @@ name: "Sean Patrick O’Brien"
 type: "Associate"
 role: "Research Intern"
 email: "sean@seanob.com"
-image: "images/people/sean.png"
+image: "images/people/sean.jpg"
 links: {
   instagram: "foreverywhere",
   website: "seanob.com"
