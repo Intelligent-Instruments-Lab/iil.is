@@ -24,7 +24,9 @@ The oMOrruMUbaMAt album is based on the artistic work of the basque poet and mus
 Listen to an experimental "prepared txalaparta" track <a href="https://repetidor-shop.bandcamp.com/track/miran?fbclid=IwAR22JRpp13_wa_hQAUSPa_8YkXObswVbGvjuW6eo7JfVi2RdK0gt_Q-afRQ">here</a> 
 
 Doors open at 7:30 PM
+
 Concert starts at 8:00 PM
 
 Tickets at door: 2.500 kr.
+
 1.000 kr. for students, elderly and disabled
