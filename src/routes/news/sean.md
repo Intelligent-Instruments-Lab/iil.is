@@ -3,7 +3,7 @@ layout: news
 date: "2022-08-31"
 title: "Vibing to the beat of Sean Patrick O'Brien"
 description: "The artist that uses waves to create art"
-featured: true
+featured: false
 ---
 
 <script>

@@ -3,7 +3,7 @@ layout: news
 date: "2022-08-30"
 title: "ARTIST TALK Making Art with Machines: Voices, Instruments, Bodies and Sound"
 description: "Marco Donnarumma and Jonathan Chaim Reus present their works"
-featured: true
+featured: false
 ---
 
 <script>

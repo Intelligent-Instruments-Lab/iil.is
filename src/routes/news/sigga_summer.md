@@ -3,7 +3,7 @@ layout: news
 date: "2022-08-04"
 title: "Sigga, a singer turns programmer"
 description: "Making embedded machine learning accessible"
-featured: true
+featured: false
 ---
 
 <script>

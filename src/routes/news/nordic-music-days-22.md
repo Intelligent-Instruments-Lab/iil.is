@@ -3,7 +3,7 @@ layout: news
 date: "2022-09-26"
 title: "Upcoming Workshops at Nordic Music Days"
 description: "New Instruments and DIMI-A 70's synth at the Nordic Music Days"
-featured: true
+featured: false
 ---
 
 <script>

@@ -3,7 +3,7 @@ layout: news
 date: "2022-10-05"
 title: "Visiting researcher Marco Donnarumma"
 description: "How the body can become a language"
-featured: true
+featured: false
 ---
 
 <script>

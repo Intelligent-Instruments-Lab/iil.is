@@ -3,7 +3,7 @@ layout: news
 date: "2022-08-15"
 title: "Intelligent Instruments’ Birthday Concert"
 description: "Celebrating a year of IIL at Mengi"
-featured: true
+featured: false
 ---
 
 <script>
