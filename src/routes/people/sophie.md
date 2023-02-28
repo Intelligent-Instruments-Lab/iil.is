@@ -1,7 +1,7 @@
 ---
 name: "Sophie Skach"
 type: "Associate"
-role: "Visiting Researcher"
+role: "Postdoc"
 email: "info@sophieskach.com "
 image: "images/people/Sophie.jpg"
 links: {
