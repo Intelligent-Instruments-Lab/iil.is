@@ -13,16 +13,24 @@
   export let title
   export let description
   export let layout
-  $seo.title = title
-  $seo.description = description
-  $seo.url = '/outputs'
-
+  let seo_title = title
+  let seo_description = description
+  let seo_url = '/outputs'
+  let seo_image = '/seo/sean_coils.jpg'  
+  
   onMount(async () => {
     $Layout.menu = false
     $Layout.page = layout
     console.log('[Outputs]', $Layout.page, layout)
   })
 </script>
+
+<SEO
+  title={seo_title}
+  description={seo_description}
+  url={seo_url}
+  image={seo_image}
+  />
 
 {#if $Layout.menu}
   <Menu/>
