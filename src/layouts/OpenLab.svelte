@@ -1,17 +1,19 @@
 <script>
   import { paginate, PaginationNav } from "svelte-paginate";
-  import { seo } from "../stores/seo.js";
   import { onMount } from 'svelte'
   import { Layout } from '../stores/layout.js'
+  import SEO from "../components/SEO.svelte"
   import Menu from "../components/Menu/Menu.svelte"
 
   export let layout = "openlab"
   export let title = "Open Lab"
   export let description = "The Intelligent Instruments Lab opens its doors on Friday afternoons, where we present some work we are developing or invite interesting people to talk about their work, in a friendly environment with tea and biscuits."
   export let openlabs
-  $seo.title = title
-  $seo.description = description
-  $seo.url = '/openlab'
+    
+  let seo_title = title
+  let seo_description = description
+  let seo_url = '/openlab'
+  let seo_image = '/seo/sean_coils.jpg'
 
   let items = openlabs
 
@@ -57,6 +59,13 @@
     },
   }
 </script>
+
+<SEO
+  title={seo_title}
+  description={seo_description}
+  url={seo_url}
+  image={seo_image}
+  />
 
 {#if $Layout.menu}
   <Menu/>

@@ -2,6 +2,7 @@
 layout: news
 date: "2023-01-19"
 title: "Organic Intelligence Workshop"
+slug: "organic-intelligence"
 description: "A workshop with intelligent instruments on the organ in Hallgrimskirkja"
 featured: false
 ---

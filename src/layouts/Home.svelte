@@ -1,7 +1,7 @@
 <script>
-  import { seo } from "../stores/seo.js";
   import { onMount } from 'svelte'
   import { Layout } from '../stores/layout.js'
+  import SEO from "../components/SEO.svelte"
   import Menu from "../components/Menu/Menu.svelte"
   import CTARow from "../components/Buttons/CTARow.svelte"
   import YT from '../components/Video/EmbedYouTube.svelte'
@@ -13,11 +13,10 @@
   export let hero_image
   export let hero_caption
   export let hero_slug
-
-  $seo.title = title
-  $seo.description = description
-  $seo.url = '/'
-  $seo.image = '/seo/sean_coils.jpg'
+  let seo_title = title
+  let seo_description = description
+  let seo_url = ''
+  let seo_image = '/seo/sean_coils.jpg'
 
   let cta_links = [
     { url: "/research", label: "Learn More", theme: "dark", target: "_self" }
@@ -29,6 +28,13 @@
     console.log('[Home]', $Layout.page, layout)
   })
 </script>
+
+<SEO
+  title={seo_title}
+  description={seo_description}
+  url={seo_url}
+  image={seo_image}
+  />
 
 {#if $Layout.menu}
   <Menu/>

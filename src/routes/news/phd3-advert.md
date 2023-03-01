@@ -2,6 +2,7 @@
 layout: news
 date: "2023-02-02"
 title: "PhD Scholarship in Intelligent Instruments"
+slug: "phd3-advert"
 description: "Applications for the third PhD scholarship are now open!"
 featured: true
 ---

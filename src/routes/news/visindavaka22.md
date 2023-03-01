@@ -2,6 +2,7 @@
 layout: news
 date: "2022-09-29"
 title: "Vísindavaka Science Fair!"
+slug: "visindavaka22"
 description: "Come meet us in Laugardalshöll on Saturday"
 featured: false
 ---

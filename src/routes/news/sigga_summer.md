@@ -2,6 +2,7 @@
 layout: news
 date: "2022-08-04"
 title: "Sigga, a singer turns programmer"
+slug: "sigga_summer"
 description: "Making embedded machine learning accessible"
 featured: false
 ---

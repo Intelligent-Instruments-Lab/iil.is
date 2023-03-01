@@ -2,6 +2,7 @@
 layout: news
 date: "2021-10-07"
 title: "Off to a good start..."
+slug: "good-start"
 description: "What we have been up to in the first month."
 featured: false
 ---

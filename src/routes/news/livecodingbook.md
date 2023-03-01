@@ -2,6 +2,7 @@
 layout: news
 date: "2022-11-24"
 title: "Live Coding: A User's Manual"
+slug: "livecodingbook"
 description: "A new book published by MIT Press"
 featured: true
 ---

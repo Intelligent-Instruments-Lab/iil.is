@@ -1,6 +1,7 @@
 ---
 layout: news
 date: "2022-12-20"
+slug: "aimc2023cfp"
 title: "AIMC 2023"
 description: "The International Conference on Aritificial Intelligence and Music Creativity"
 featured: true

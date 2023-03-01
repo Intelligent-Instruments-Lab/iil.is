@@ -2,6 +2,7 @@
 layout: news
 date: "2022-02-03"
 title: "Iceland Univeristy of the Arts receives its very own halldorophone"
+slug: "halldorophone_oto"
 description: "Kastljos news segment about the halldorophone"
 featured: false
 ---

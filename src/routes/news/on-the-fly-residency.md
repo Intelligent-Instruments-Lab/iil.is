@@ -2,6 +2,7 @@
 layout: news
 date: "2022-03-01"
 title: "On-the-fly Residency in Barcelona"
+slug: "on-the-fly-residency"
 description: "Dr. Jack Armitage spends one month with Hangar.org."
 featured: false
 ---

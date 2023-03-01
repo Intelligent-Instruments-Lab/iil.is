@@ -2,6 +2,7 @@
 layout: news
 date: "2022-03-03"
 title: "PhD Scholarship Opportunity"
+slug: "phd2"
 description: "Open for applications"
 featured: false
 ---

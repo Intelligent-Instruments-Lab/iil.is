@@ -2,6 +2,7 @@
 layout: news
 date: "2022-04-26"
 title: "Residency at the IIL: Steve Symons"
+slug: "steve-residency"
 description: "Enactive metaphors for collaborative musical instruments"
 featured: false
 ---

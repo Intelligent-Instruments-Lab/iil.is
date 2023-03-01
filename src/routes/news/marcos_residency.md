@@ -2,6 +2,7 @@
 layout: news
 date: "2022-10-05"
 title: "Visiting researcher Marco Donnarumma"
+slug: "marcos_residency"
 description: "How the body can become a language"
 featured: false
 ---

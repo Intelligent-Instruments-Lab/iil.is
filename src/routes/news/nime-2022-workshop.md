@@ -2,6 +2,7 @@
 layout: news
 date: "2022-05-03"
 title: "Workshop on Embedded AI at NIME 2022"
+slug: "nime-2022-workshop"
 description: "Call for Workshop Abstracts on Embedded AI for NIME: Challenges and Opportunities."
 featured: false
 ---

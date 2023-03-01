@@ -1,10 +1,10 @@
 <script>
   import {onMount} from 'svelte'
 
-  import { seo } from "../stores/seo.js";
   import { Layout } from '../stores/layout.js'
   
   import Person from "../components/People/Person.svelte"
+  import SEO from "../components/SEO.svelte"
   import Menu from "../components/Menu/Menu.svelte"
   
   import order from "../routes/people/order.json"
@@ -15,9 +15,10 @@
   let title = "People"
   let description = "Meet the Intelligent Instruments Lab members and associates!"
   let layout = "people"
-  $seo.title = title
-  $seo.description = description
-  $seo.url = '/people'
+  let seo_title = title
+  let seo_description = description
+  let seo_url = '/people'
+  let seo_image = '/seo/sean_coils.jpg'
   
   onMount(async () => {
     members = people.filter(p => p.metadata.type === "Member")
@@ -31,6 +32,13 @@
     console.log('[People]', $Layout.page, layout)
   })
 </script>
+
+<SEO
+  title={seo_title}
+  description={seo_description}
+  url={seo_url}
+  image={seo_image}
+  />
 
 <svelte:head>
   <title>{title}</title>
