@@ -13,7 +13,7 @@
   let seo_title = title
   let seo_description = description
   let seo_url = '/openlab'
-  let seo_image = '/seo/sean_coils.jpg'
+  let seo_image = '/seo/openlab.jpeg'
 
   let items = openlabs
 
