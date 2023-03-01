@@ -40,10 +40,10 @@ Run the following commands.
 
 Use node 16 (install `node` if you don't already have it)
 
-`npm install` to install
+`npm install` or `npm i` to install
 
-`npm run dev` for development (for running locally)
+`vite dev` for development (for running locally)
 
-`npm run build` for production
+`vite build` for production
 
-`npm run preview` to preview a production build
+`vite preview` to preview a production build
