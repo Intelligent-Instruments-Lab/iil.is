@@ -1,10 +1,10 @@
 <script>
   import {onMount} from 'svelte'
 
-  import { seo } from "../stores/seo.js";
   import { Layout } from '../stores/layout.js'
   
   import Person from "../components/People/Person.svelte"
+  import SEO from "../components/SEO.svelte"
   import Menu from "../components/Menu/Menu.svelte"
   
   import order from "../routes/people/order.json"

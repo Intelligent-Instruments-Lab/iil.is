@@ -1,16 +1,19 @@
 <script>
-  import { seo } from "../stores/seo.js";
   import { onMount } from 'svelte'
   import { Layout } from '../stores/layout.js'
+  import SEO from "../components/SEO.svelte"
   import Menu from "../components/Menu/Menu.svelte"
   
   export let title
   export let description
   export let layout
   export let date
-  $seo.title = title
-  $seo.description = description
-  $seo.url = '/news'
+  export let slug
+
+  let seo_title = title
+  let seo_description = description
+  let seo_url = '/news/'+slug
+  let seo_image = '/seo/sean_coils.jpg'
 
   onMount(async () => {
     $Layout.menu = false
@@ -18,6 +21,13 @@
     console.log('[News]', $Layout.page, layout)
   })
 </script>
+
+<SEO
+  title={seo_title}
+  description={seo_description}
+  url={seo_url}
+  image={seo_image}
+  />
 
 {#if $Layout.menu}
   <Menu/>

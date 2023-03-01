@@ -5,9 +5,9 @@
 </script> -->
 
 <script>
-  import { seo } from "../stores/seo.js";
   import { onMount } from 'svelte'
   import { Layout } from '../stores/layout.js'
+  import SEO from "../components/SEO.svelte"
   import Menu from "../components/Menu/Menu.svelte"
   
   export let title

@@ -1,8 +1,8 @@
 <script>
   import { paginate, PaginationNav } from "svelte-paginate";
-  import { seo } from "../stores/seo.js";
   import { onMount } from 'svelte'
   import { Layout } from '../stores/layout.js'
+  import SEO from "../components/SEO.svelte"
   import Menu from "../components/Menu/Menu.svelte"
 
   export let items
@@ -10,9 +10,10 @@
   let layout = "news"
   let title = "News"
   let description = "News about the Intelligent Instruments Lab"
-  $seo.title = title
-  $seo.description = description
-  $seo.url = "/news"
+  let seo_title = title
+  let seo_description = description
+  let seo_url = '/news'
+  let seo_image = '/seo/sean_coils.jpg'
 
   $: featured = {
     size: 2, page: 1,
@@ -51,6 +52,13 @@
     },
   }
 </script>
+
+<SEO
+  title={seo_title}
+  description={seo_description}
+  url={seo_url}
+  image={seo_image}
+  />
 
 {#if $Layout.menu}
   <Menu/>

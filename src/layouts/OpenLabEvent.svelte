@@ -1,7 +1,7 @@
 <script>
-  import { seo } from "../stores/seo.js";
   import { onMount } from 'svelte'
   import { Layout } from '../stores/layout.js'
+  import SEO from "../components/SEO.svelte"
   import Menu from "../components/Menu/Menu.svelte"
   
   export let edition
@@ -9,9 +9,12 @@
   export let description;
   export let layout
   export let date
-  $seo.title = theme
-  $seo.description = description
-  $seo.url = '/openlab'
+  export let slug
+  export let highlight_image
+  let seo_title = title
+  let seo_description = description
+  let seo_url = '/openlab/'+slug
+  let seo_image = '/seo/openlab.jpeg'
 
   let title = theme
 
@@ -21,6 +24,13 @@
     console.log('[About]', $Layout.page, layout)
   })
 </script>
+
+<SEO
+  title={seo_title}
+  description={seo_description}
+  url={seo_url}
+  image={seo_image}
+  />
 
 {#if $Layout.menu}
   <Menu/>
