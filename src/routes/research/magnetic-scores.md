@@ -2,7 +2,7 @@
 layout: researchproject
 title: "Manetic Scores"
 slug: "magnetic-scores"
-description: "A somatosensory interface for music performance and composition"
+description: "A somatosensory interface for music performance and composition."
 featured: false
 authors: ["Nicola Privato"]
 highlight_image: "research/projects/boardpic.jpg"
