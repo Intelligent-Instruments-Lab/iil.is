@@ -1,6 +1,7 @@
 ---
 layout: researchproject
 title: "Notochord"
+slug: "notochord"
 description: "Notochord is a MIDI model for live performance."
 featured: true
 authors: ["Victor Shepardson"]

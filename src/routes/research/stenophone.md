@@ -1,6 +1,7 @@
 ---
 layout: researchproject
 title: "Stenophone"
+slug: "stenophone"
 description: "The Stenophone is a musical instrument for live coding."
 featured: true
 authors: ["Jack Armitage"]

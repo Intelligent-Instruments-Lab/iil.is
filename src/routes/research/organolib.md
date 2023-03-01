@@ -1,6 +1,7 @@
 ---
 layout: researchproject
 title: "Organolib"
+slug: "organolib"
 description: "The IIL library of technical elements."
 featured: true
 authors: ["Thor Magnusson", "Jack Armitage", "Halldor Ulfarsson"]

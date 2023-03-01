@@ -1,6 +1,7 @@
 ---
 layout: researchproject
 title: "Living Looper"
+slug: "livinglooper"
 description: "The musical looper as a network of intelligent processes."
 featured: true
 authors: ["Victor Shepardson"]

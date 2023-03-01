@@ -12,9 +12,10 @@
   export let authors
   export let highlight_image
   export let highlight_caption
+  export let slug
   $seo.title = title
   $seo.description = description
-  $seo.url = '/research'
+  $seo.url = '/research/'+slug
   $seo.image = '/images/'+highlight_image
 
   const methods = {

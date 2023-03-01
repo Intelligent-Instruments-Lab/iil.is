@@ -1,6 +1,7 @@
 ---
 layout: researchproject
 title: "Txalaparta"
+slug: "txalaparta"
 description: "The txalaparta is an ancient Basque percussion instrument."
 featured: false
 authors: ["Karl Jóhann Jóhannsson", "Victor Shepardson", "Enrique Hurtado", "Thor Magnusson"]

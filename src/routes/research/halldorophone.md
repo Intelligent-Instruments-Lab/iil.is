@@ -1,6 +1,7 @@
 ---
 layout: researchproject
 title: "Halldorophone"
+slug: "halldorophone"
 description: "The halldorophone is a cello-like feedback instrument."
 featured: true
 authors: ["Halldor Úlfarsson"]

@@ -1,6 +1,7 @@
 ---
 layout: researchproject
 title: "Scramble"
+slug: "scramble"
 description: "Scramble is creative MIDI tool for performance and aided composition"
 featured: true
 authors: ["Nicola Privato"]

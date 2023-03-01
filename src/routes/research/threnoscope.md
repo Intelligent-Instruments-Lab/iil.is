@@ -1,6 +1,7 @@
 ---
 layout: researchproject
 title: "Threnoscope"
+slug: "threnoscope"
 description: "The Threnoscope is a live coding environment for long durations."
 featured: true
 authors: ["Thor Magnusson"]

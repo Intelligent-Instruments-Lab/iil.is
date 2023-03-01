@@ -1,6 +1,7 @@
 ---
 layout: researchproject
 title: "AI Voice Synthesis"
+slug: "voice"
 description: "A series of collaborations between IIL and voice artists."
 featured: true
 authors: ["Victor Shepardson"]

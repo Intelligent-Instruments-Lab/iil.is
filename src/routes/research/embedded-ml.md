@@ -1,6 +1,7 @@
 ---
 layout: researchproject
 title: "Embedded Machine Learning on Bela"
+slug: "embedded-ml"
 description: "Enabling next-generation embedded instruments."
 featured: false
 authors: ["Ezra Pierce", "Victor Shepardson", "Jack Armitage"]

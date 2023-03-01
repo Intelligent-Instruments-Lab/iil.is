@@ -1,6 +1,7 @@
 ---
 layout: researchproject
 title: "Proto-Langspil"
+slug: "langspil"
 description: "The Proto-Langspil is a feedback instrument with intelligent behaviour."
 featured: true
 authors: ["Thor Magnusson", "Jack Armitage", "Halldor Ulfarsson", "Victor Shepardson"]

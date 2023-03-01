@@ -1,6 +1,7 @@
 ---
 layout: researchproject
 title: "Agential Scores"
+slug: "agential-scores"
 description: "Entangling instruments with agential simulations."
 featured: false
 authors: ["Jack Armitage"]
