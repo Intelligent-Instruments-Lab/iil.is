@@ -2,6 +2,7 @@
 layout: news
 date: "2022-04-07"
 title: "PhD2 Still Open for Applications"
+slug: "phd2-deadline"
 description: "A PhD scholarship deadline coming up"
 featured: false
 ---

@@ -2,6 +2,7 @@
 layout: news
 date: "2023-01-20"
 title: "String-Queen Rafaele Andrade Visits the IIL"
+slug: "rafaele-visit"
 description: "The creator of the knurl instrument does research at the lab"
 featured: false
 ---

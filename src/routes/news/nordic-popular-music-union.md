@@ -2,6 +2,7 @@
 layout: news
 date: "2021-11-02"
 title: "Nordic Popular Music Union"
+slug: "nordic-popular-music-union"
 description: "Talk: AI in pop music"
 featured: false
 ---

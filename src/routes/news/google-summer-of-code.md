@@ -2,6 +2,7 @@
 layout: news
 date: "2022-04-04"
 title: "The Google Summer of Code"
+slug: "google-summer-of-code"
 description: "Mentorship opportunity for students"
 featured: false
 ---

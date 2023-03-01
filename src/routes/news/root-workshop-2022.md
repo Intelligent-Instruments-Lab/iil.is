@@ -2,6 +2,7 @@
 layout: news
 date: "2022-05-10"
 title: "Presentation at CERN Workshop"
+slug: "root-workshop-2022"
 description: "On creative misuse of ROOT."
 featured: false
 ---

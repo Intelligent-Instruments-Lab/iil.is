@@ -2,6 +2,7 @@
 layout: news
 date: "2022-11-10"
 title: "Living Looper Workshop"
+slug: "living-looper"
 description: "A workshop for guitarists on the Living Looper"
 featured: false
 ---

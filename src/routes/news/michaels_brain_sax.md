@@ -2,6 +2,7 @@
 layout: news
 date: "2023-01-09"
 title: "How Michael's Brain Plays the Sax"
+slug: "michaels_brain_sax"
 description: "Real time bio-sensors to drive generative algorithms"
 featured: true
 ---

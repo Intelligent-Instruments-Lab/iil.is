@@ -2,6 +2,7 @@
 layout: news
 date: "2022-07-27"
 title: "Krish, the guest researcher"
+slug: "krish_guest"
 description: "A machine learning master and a wonderful helping hand"
 featured: false
 ---

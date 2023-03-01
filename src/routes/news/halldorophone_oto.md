@@ -2,6 +2,7 @@
 layout: news
 date: "2023-01-30"
 title: "Halldorophone concert at Café Oto"
+slug: "halldorophone-kastljos"
 description: "Five artists present their works in London"
 featured: false
 ---

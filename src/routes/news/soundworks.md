@@ -2,6 +2,7 @@
 layout: news
 date: "2022-02-04"
 title: "Sound Works: An Orpheus Institute Publication"
+slug: "soundworks"
 description: "A research article about the Threnoscope"
 featured: false
 ---

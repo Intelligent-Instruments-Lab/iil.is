@@ -2,6 +2,7 @@
 layout: news
 date: "2021-10-18"
 title: "In the Icelandic Media"
+slug: "icelandic-news"
 description: "Introductions to the project in Icelandic"
 featured: false
 ---

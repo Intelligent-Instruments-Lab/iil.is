@@ -2,6 +2,7 @@
 layout: news
 date: "2022-04-29"
 title: "Living Algorithms at RAFLOST Festival"
+slug: "living-algorithms"
 description: "Living Algorithms at RAFLOST Festival"
 featured: false
 ---

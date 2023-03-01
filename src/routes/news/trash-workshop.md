@@ -2,6 +2,7 @@
 layout: news
 date: "2022-06-21"
 title: "Trash Sounds"
+slug: "trash-workshop"
 description: "Everything you need to know about the workshop"
 featured: false
 ---

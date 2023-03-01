@@ -2,6 +2,7 @@
 layout: news
 date: "2023-02-27"
 title: "Experimental Basque Concert in Mengi"
+slug: "experimental_basque"
 description: "Ibon RG and Enrike Hurtado play the txalaparta and more"
 featured: true
 ---

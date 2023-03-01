@@ -2,6 +2,7 @@
 layout: news
 date: "2022-10-05"
 title: "Machine Learning & Electronics Internships"
+slug: "internships-jan-2023"
 description: "For 3rd year students studying related subjects"
 featured: false
 ---

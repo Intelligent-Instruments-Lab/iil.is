@@ -2,6 +2,7 @@
 layout: news
 date: "2022-07-04"
 title: "Karl Jóhannsson joins IIL this summer"
+slug: "karl"
 description: "An intelligent txalaparta percussion instrument is born"
 featured: false
 ---

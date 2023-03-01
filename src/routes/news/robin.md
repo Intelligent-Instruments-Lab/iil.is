@@ -2,6 +2,7 @@
 layout: news
 date: "2022-06-09"
 title: "Robin joins the IIL, turning weather data into music"
+slug: "robin"
 description: "On Robin's project this summer"
 featured: false
 ---
