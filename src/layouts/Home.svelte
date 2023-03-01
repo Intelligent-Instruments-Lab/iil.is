@@ -18,11 +18,6 @@
   let seo_url = ''
   let seo_image = '/seo/sean_coils.jpg'
 
-  $seo.title = title
-  $seo.description = description
-  $seo.url = '/'
-  $seo.image = '/seo/sean_coils.jpg'
-
   let cta_links = [
     { url: "/research", label: "Learn More", theme: "dark", target: "_self" }
   ]
