@@ -13,7 +13,7 @@
   let seo_title = title
   let seo_description = description
   let seo_url = '/openlab'
-  let seo_image = '/seo/sean_coils.jpg'
+  let seo_image = '/seo/openlab.jpeg'
 
   let items = openlabs
 
@@ -35,11 +35,6 @@
 
   $: futurePaginated = paginate({ items: future.items, pageSize: future.size, currentPage: future.page });
   $: pastPaginated = paginate({ items: past.items, pageSize: past.size, currentPage: past.page });
-
-  $seo = {
-    title: title,
-    description: description,
-  };
 
   onMount(async () => {
     $Layout.menu = false
