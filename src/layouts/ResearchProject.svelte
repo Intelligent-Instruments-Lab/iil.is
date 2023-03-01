@@ -1,6 +1,6 @@
 <script>
-  import { seo } from "../stores/seo.js";
   import { onMount } from 'svelte'
+  import SEO from "../components/SEO.svelte";
   import { Layout } from '../stores/layout.js'
   import Menu from "../components/Menu/Menu.svelte"
   import CaptionedImage from "../components/Images/CaptionedImage.svelte"
@@ -13,10 +13,17 @@
   export let highlight_image
   export let highlight_caption
   export let slug
-  $seo.title = title
-  $seo.description = description
-  $seo.url = '/research/'+slug
-  $seo.image = '/images/'+highlight_image
+  let seo_title = title
+  let seo_description = description
+  let seo_url = '/research/'+slug
+  let seo_image = '/images/'+highlight_image
+
+  console.log('seo',
+    seo_title,
+    seo_description,
+    seo_url,
+    seo_image
+  )
 
   const methods = {
     authorString: authors => {
@@ -43,6 +50,36 @@
     console.log('[Research]', $Layout.page, layout)
   })
 </script>
+
+<!-- <SEO
+  title={seo_title}
+  description={seo_description}
+  url={seo_url}
+  image={seo_image}
+  /> -->
+
+<svelte:head>
+
+  <!-- Page -->
+  <title>{seo_title} | Intelligent Instruments Lab</title>
+  <meta name="description" content={seo_description}/>
+
+  <!-- Open Graph -->
+  <meta property="og:url" content={"https://iil.is" + seo_url}>
+  <meta property="og:title" content={seo_title + " | Intelligent Instruments Lab"}>
+  <meta property="og:description" content={seo_description}>
+  <meta property="og:image" content={"https://iil.is" + seo_image}>
+  <meta property="og:type" content="website">
+
+  <!-- Twitter -->
+  <meta name="twitter:site" content="@_iil_is">
+  <meta property="twitter:url" content={"https://iil.is" + seo_url}>
+  <meta property="twitter:title" content={seo_title + " | Intelligent Instruments Lab"}>
+  <meta property="twitter:description" content={seo_description}>
+  <meta property="twitter:image" content={"https://iil.is" + seo_image}>
+  <meta property="twitter:card" content="summary_large_image">
+
+</svelte:head>
 
 {#if $Layout.menu}
   <Menu/>

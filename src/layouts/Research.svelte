@@ -1,17 +1,24 @@
 <script>
   import { paginate, PaginationNav } from "svelte-paginate";
-  import { seo } from "../stores/seo.js";
+  import SEO from "../components/SEO.svelte";
   import { onMount } from 'svelte'
   import { Layout } from '../stores/layout.js'
   import Menu from "../components/Menu/Menu.svelte"
 
+  export let projects
   export let layout = "research"
   export let title = "Research"
-  export let description = "Research Projects from the Intelligent Instruments Lab."
-  export let projects
-  $seo.title = title
-  $seo.description = description
-  $seo.url = '/research'
+  export let seo_title = "Research"
+  export let seo_description = "Research Projects from the Intelligent Instruments Lab."
+  export let seo_url = '/research'
+  export let seo_image = '/seo/sean_coils.jpg'
+
+  console.log('seo',
+    seo_title,
+    seo_description,
+    seo_url,
+    seo_image
+  )
 
   let items = projects
 
@@ -52,6 +59,36 @@
     }
   }
 </script>
+
+<!-- <SEO
+  title={seo_title}
+  description={seo_description}
+  url={seo_url}
+  image={seo_image}
+  /> -->
+
+<svelte:head>
+
+  <!-- Page -->
+  <title>{seo_title} | Intelligent Instruments Lab</title>
+  <meta name="description" content={seo_description}/>
+
+  <!-- Open Graph -->
+  <meta property="og:url" content={"https://iil.is" + seo_url}>
+  <meta property="og:title" content={seo_title + " | Intelligent Instruments Lab"}>
+  <meta property="og:description" content={seo_description}>
+  <meta property="og:image" content={"https://iil.is" + seo_image}>
+  <meta property="og:type" content="website">
+
+  <!-- Twitter -->
+  <meta name="twitter:site" content="@_iil_is">
+  <meta property="twitter:url" content={"https://iil.is" + seo_url}>
+  <meta property="twitter:title" content={seo_title + " | Intelligent Instruments Lab"}>
+  <meta property="twitter:description" content={seo_description}>
+  <meta property="twitter:image" content={"https://iil.is" + seo_image}>
+  <meta property="twitter:card" content="summary_large_image">
+
+</svelte:head>
 
 {#if $Layout.menu}
   <Menu/>
