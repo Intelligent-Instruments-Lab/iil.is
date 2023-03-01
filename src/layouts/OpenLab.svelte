@@ -36,11 +36,6 @@
   $: futurePaginated = paginate({ items: future.items, pageSize: future.size, currentPage: future.page });
   $: pastPaginated = paginate({ items: past.items, pageSize: past.size, currentPage: past.page });
 
-  $seo = {
-    title: title,
-    description: description,
-  };
-
   onMount(async () => {
     $Layout.menu = false
     $Layout.page = layout
