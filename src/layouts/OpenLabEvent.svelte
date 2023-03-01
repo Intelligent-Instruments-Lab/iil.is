@@ -9,11 +9,10 @@
   export let description;
   export let layout
   export let date
-  export let slug
   export let highlight_image
   let seo_title = title
   let seo_description = description
-  let seo_url = '/openlab/'+slug
+  let seo_url = '/openlab/'+edition
   let seo_image = '/seo/openlab.jpeg'
 
   let title = theme
