@@ -42,8 +42,8 @@ Use node 16 (install `node` if you don't already have it)
 
 `npm install` or `npm i` to install
 
-`vite dev` for development (for running locally)
+`npm run dev` for development (for running locally)
 
-`vite build` for production
+`npm run build` for production
 
-`vite preview` to preview a production build
+`npm run preview` to preview a production build
