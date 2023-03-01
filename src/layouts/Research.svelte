@@ -11,7 +11,7 @@
   export let seo_title = "Research"
   export let seo_description = "Research Projects from the Intelligent Instruments Lab."
   export let seo_url = '/research'
-  export let seo_image = '/images/seo/sean_coils.jpg'
+  export let seo_image = '/seo/sean_coils.jpg'
 
   console.log('seo',
     seo_title,
