@@ -9,14 +9,12 @@ featured: true
 
 <script> import CaptionedImage from "../../components/Images/CaptionedImage.svelte" </script>
 
-<CaptionedImage
-  src="news/txalamengi.jpg"
-  alt="A yellow typical Mengi poster with a picture of two men in front of their instruments, one in front of a piano and the other one in front of a txalaparta, wooden planks."
-  caption="Ibon RG and Enrike Hurtado will play at Mengi"/>
-
 Date: 11th April 2023
+
 Workshop: 13:00-18:00
+
 Concert: 20:00-22:00 (optional)
+
 Deadline for applications: April 3rd
 
 Applications are now open for a workshop on the traditional percussive instrument: Txalaparta! The workshop will be held on April 11th from 1 pm to 10 pm. The workshop will be held in the Dynjandi room at LHÍ Skipholti 31. 
