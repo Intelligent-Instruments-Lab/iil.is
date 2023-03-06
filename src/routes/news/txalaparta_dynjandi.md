@@ -23,7 +23,7 @@ The workshop will introduce the percussive techniques used to play the instrumen
 
 The workshop will culminate with a concert at 18.00 at the end of the workshop day where music from the workshop will be performed.
 
-For those who don't know, the txalaparta is a wooden Basque percussion instrument often used in celebrations. The name of the instrument is believed to refer to “racket”, which relates to the sound of the instrument.
+For those who don't know, the txalaparta is a wooden Basque percussion instrument often used in celebrations. The name of the instrument is believed to refer to “racket”, which relates to the sound of the instrument. Usually, two players on opposite sides play consecutively by striking with the sticks on the boards. 
 
 See a live performance by the Basque music duo Ibon RG and Enrike Hurtado on Basque TV <a href="https://www.eitb.eus/eu/telebista/programak/eitb-kultura/bideoak/osoa/8758212/bideoa-ibon-rgren-eta-enrike-hurtadoren-musika/?fbclid=IwAR22JRpp13_wa_hQAUSPa_8YkXObswVbGvjuW6eo7JfVi2RdK0gt_Q-afRQ">here</a> 
 
