@@ -21,9 +21,11 @@ Applications are now open for a workshop on the traditional percussive instrumen
 
 The workshop will introduce the percussive techniques used to play the instrument and the possibilities of introducing creative AI technologies developed at the lab. We seek participants of diverse musical and cultural backgrounds, everyone is welcome, but the workshop size will be 18 participants plus workshop leaders. Musical education or experience is a big plus. 
 
-The workshop will culminate with a concert at 18.00 at the end of the workshop day where music from the workshop will be performed.
+The txalaparta is a traditional Basque musical instrument for two performers. It is a percussion instrument, easy to build. The name of the instrument is believed to refer to “racket”, which relates to the sound of the instrument. 
 
-For those who don't know, the txalaparta is a wooden Basque percussion instrument often used in celebrations. The name of the instrument is believed to refer to “racket”, which relates to the sound of the instrument. Usually, two players on opposite sides play consecutively by striking with the sticks on the boards. 
+In this workshop two txalaparta players from Bilbao (Ibon and Enrike) will introduce the performance technique, we will do some exercises and improvise. We will also explore the Intelligent Txalaparta, a machine learning addition to the instrument made by the members of the Intelligent Instruments Lab at the Iceland University of the Arts. We will study how new artificial intelligence technologies can become part of musical performance. But most importantly we will have fun getting to know this amazing instrument with a fascinating musical tradition and history.
+
+The workshop will culminate with a concert at 18.00 at the end of the workshop day where music from the workshop will be performed.
 
 See a live performance by the Basque music duo Ibon RG and Enrike Hurtado on Basque TV <a href="https://www.eitb.eus/eu/telebista/programak/eitb-kultura/bideoak/osoa/8758212/bideoa-ibon-rgren-eta-enrike-hurtadoren-musika/?fbclid=IwAR22JRpp13_wa_hQAUSPa_8YkXObswVbGvjuW6eo7JfVi2RdK0gt_Q-afRQ">here</a> 
 
