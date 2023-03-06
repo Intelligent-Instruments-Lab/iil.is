@@ -15,7 +15,7 @@ Workshop: 13:00-18:00
 
 Concert: 20:00-22:00 (optional)
 
-Deadline for applications: April 3rd
+Deadline for applications: March 28th 2023
 
 Applications are now open for a workshop on the traditional percussive instrument: Txalaparta! The workshop will be held on April 11th from 1 pm to 10 pm. The workshop will be held in the Dynjandi room at LHÍ Skipholti 31. 
 
@@ -29,7 +29,7 @@ See a live performance by the Basque music duo Ibon RG and Enrike Hurtado on Bas
 
 APPLY HERE: https://forms.office.com/e/qk00dWNRxy
 
-The workshop is free and we are running it only for one day. Applicants must send in a short application using the form before midnight on April 3rd. We will aim to invite a diverse group of 18 people for the workshop. All applicants will be notified about the selection via email.
+The workshop is free and we are running it only for one day. Applicants must send in a short application using the form before midnight on March 28th. We will aim to invite a diverse group of 18 people for the workshop. All applicants will be notified about the selection via email.
 
 <CaptionedImage
   src="news/karl.jpeg"
