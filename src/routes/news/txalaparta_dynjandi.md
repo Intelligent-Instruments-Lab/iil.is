@@ -35,7 +35,7 @@ The txalaparta is a traditional Basque musical instrument for two performers. It
 
 In this workshop two txalaparta players from Bilbao (Ibon and Enrike) will introduce the performance technique, we will do some exercises and improvise. We will also explore the Intelligent Txalaparta, a machine learning addition to the instrument made by the members of the Intelligent Instruments Lab at the Iceland University of the Arts. We will study how new artificial intelligence technologies can become part of musical performance. But most importantly we will have fun getting to know this amazing instrument with a fascinating musical tradition and history.
 
-The workshop will culminate with a concert at 18.00 at the end of the workshop day where music from the workshop will be performed.
+The workshop will culminate with a concert at 20.00 at the end of the workshop day where music from the workshop will be performed.
 
 See a live performance by the Basque music duo Ibon RG and Enrike Hurtado on Basque TV <a href="https://www.eitb.eus/eu/telebista/programak/eitb-kultura/bideoak/osoa/8758212/bideoa-ibon-rgren-eta-enrike-hurtadoren-musika/?fbclid=IwAR22JRpp13_wa_hQAUSPa_8YkXObswVbGvjuW6eo7JfVi2RdK0gt_Q-afRQ">here</a> 
 
