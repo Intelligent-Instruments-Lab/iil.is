@@ -48,6 +48,9 @@ The workshop is free and we are running it only for one day. Applicants must sen
   alt="Txalaparta planks stacked side by side with sensors at the bottom."
   caption="How can artificial intelligence become part of musical performance?"/>
 
+The IIL is also hosting an experimental Basque concert in Mengi on April 6th, with Ibon RG and Enrike Hurtado.
+https://iil.is/news/experimental_basque
+
 <CaptionedImage
   src="news/karl.jpeg"
   alt="A man playing txalaparta, in the background a yellow shelving system."
