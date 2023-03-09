@@ -13,6 +13,6 @@ projects: [
   ""
 ]
 pronouns: "he/him"
-bio: "I am a doctoral student in the Intelligent Instruments Lab at LHI. Previously I worked on neural models of speech as a machine learning engineer and data scientist. Before that I was an MA student in Digital Musics at Dartmouth College and and BA student in Computer Science at the University of Virginia. My interests include machine learning, artificial intelligence, generative art, audiovisual music and improvisation. My current project involves building an AI augmented looping instrument and asking what AI means to people, anyway."
+bio: "I am a doctoral researcher in the Intelligent Instruments Lab at LHI. Previously I worked as a machine learning engineer on neural models of speech, and before that I studied Digital Musics at Dartmouth College and Computer Science at the University of Virginia. My interests include machine learning, artificial intelligence, electronic and audiovisual music, and improvisation. In my current research, I approach the lived experience of people with AI via design and performance of new musical instruments. My projects include the Living Looper, which reimagines the live looping pedal through neural synthesis algorithms, and Notochord, a probabilistic model for MIDI performances."
 ---
 
