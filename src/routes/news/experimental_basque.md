@@ -31,3 +31,6 @@ Concert starts at 8:00 PM
 Tickets at door: 2.500 kr.
 
 1.000 kr. for students, elderly and disabled
+
+The IIL is also hosting a Reykjavik workshop about the txalaparta on April 11th.
+https://iil.is/news/txalaparta_dynjandi
