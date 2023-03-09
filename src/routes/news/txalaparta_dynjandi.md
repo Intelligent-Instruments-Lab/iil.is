@@ -29,7 +29,7 @@ The workshop will introduce the percussive techniques used to play the instrumen
 <CaptionedImage
   src="news/txalaparta-5517.jpg"
   alt="A txalaparta stick connected to cables."
-  caption="We're collecting data from players to develope creative AI"/>
+  caption="We're collecting data from players to develop creative AI"/>
 
 The txalaparta is a traditional Basque musical instrument for two performers. It is a percussion instrument, easy to build. The name of the instrument is believed to refer to “racket”, which relates to the sound of the instrument. 
 
