@@ -36,5 +36,4 @@ The participants had four days to build and prepare for the concert on Thursday 
 
 Best of thanks to all the participants who made this evening so great!
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=jkE-5VO8X00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-&nbsp;
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jkE-5VO8X00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
