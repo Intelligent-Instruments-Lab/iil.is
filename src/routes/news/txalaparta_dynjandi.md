@@ -1,7 +1,7 @@
 ---
 layout: news
 date: "2023-03-09"
-title: "Txalaparta Workshop at LHÍ Skipholt"
+title: "Txalaparta Workshop"
 slug: "txalaparta_dynjandi"
 description: "Join us in learning the Basque txalaparta percussion"
 featured: true
