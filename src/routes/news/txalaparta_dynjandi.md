@@ -11,10 +11,10 @@ featured: true
 
 Applications are now open for a workshop on the traditional percussive instrument: **Txalaparta!** The workshop will be held on April 11th from 1-6 pm followed by a concert at 8pm. The workshop will be held in the Dynjandi auditorium at LHÍ at Skipholt 31 - and outdoors if the weather gods allow. 
 
-<b>**Date:**</b> 11th April 2023  
-**Workshop:** 13:00-18:00  
-**Concert:** 20:00-22:00 (optional)  
-**Deadline for applications:** March 28th 2023  
+<b>Date:</b> 11th April 2023  <br>
+<b>Workshop:</b> 13:00-18:00  <br>
+<b>Concert:</b> 20:00-22:00 (optional)  <br>
+<b>Deadline for applications:</b> March 28th 2023  <br>
 
 <CaptionedImage
   src="news/txalaparta-5499.jpg"
@@ -30,6 +30,8 @@ Two example performances (without AI):
 <iframe width="800" height="450" src="https://www.youtube.com/embed/uBbcnqHnQxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br>
 <iframe width="800" height="450" src="https://www.youtube.com/embed/505x6YgAgyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br>
 
 The txalaparta is perhaps a method rather than an instrument, and this is one of its beautiful qualities: how easy it is to build. People can play the txalaparta anywhere out in nature or at the dinner table (warning, take care of your furniture though). The name of the instrument is believed to refer to “racket”, which relates to the sound of the instrument. 
 
