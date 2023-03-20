@@ -9,27 +9,27 @@ featured: true
 
 <script> import CaptionedImage from "../../components/Images/CaptionedImage.svelte" </script>
 
-Applications are now open for a workshop on the traditional percussive instrument: Txalaparta! The workshop will be held on April 11th from 1-6pm followed by a concert at 8pm. The workshop will be held in the Dynjandi room at LHÍ Skipholti 31 and outdoors, if weather allows. 
+Applications are now open for a workshop on the traditional percussive instrument: **Txalaparta!** The workshop will be held on April 11th from 1-6 pm followed by a concert at 8pm. The workshop will be held in the Dynjandi auditorium at LHÍ at Skipholt 31 - and outdoors if the weather gods allow. 
 
-**Date:** 11th April 2023
-**Workshop:** 13:00-18:00
-**Concert:** 20:00-22:00 (optional)
-**Deadline for applications:** March 28th 2023
+<b>**Date:**</b> 11th April 2023  
+**Workshop:** 13:00-18:00  
+**Concert:** 20:00-22:00 (optional)  
+**Deadline for applications:** March 28th 2023  
 
 <CaptionedImage
   src="news/txalaparta-5499.jpg"
   alt="A couple of people playing a wooden percussion instrument."
   caption="Sophie and Victor from the lab trying out the txalaparta"/>
 
-The txalaparta is a traditional Basque percussion instrument for two performers. It has a unique performance method as it needs two performers to play - its performance is *about* the commuication between the two players. The instrument is played by hitting wooden batons straight down onto wooden planks (not tuned into any notes) and controlling its jumping up and down. It is a play between physics and control. 
+The txalaparta is a traditional Basque percussion instrument for two performers. It has a unique performance method as it needs two performers to play - its performance is *about* the commuication between the two players. The instrument is played by hitting wooden batons straight down onto wooden planks (not tuned in any notes) and controlling weight, force and velocity. It is a play between physics and control.
 
-What the two performers do is to communicate rhythmically: one person hits, another replies, and slowly a conversation takes place that gets more exciting as time passes. This is pure improvisation, there is no notation or compositional pieces for the instrument.
+The two performers then communicate rhythmically: one person strikes, another replies, and slowly a conversation takes place that gets more exciting as time passes. This is pure improvisation, there is no notation or compositional pieces for the instrument.
 
 Two example performances (without AI):
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uBbcnqHnQxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/505x6YgAgyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/uBbcnqHnQxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/505x6YgAgyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The txalaparta is perhaps a method rather than an instrument, and this is one of its beautiful qualities: how easy it is to build. People can play the txalaparta anywhere out in nature or at the dinner table (warning, take care of your furniture though). The name of the instrument is believed to refer to “racket”, which relates to the sound of the instrument. 
 
