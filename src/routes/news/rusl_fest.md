@@ -5,6 +5,7 @@ title: "RUSL Fest Video"
 slug: "rusl_fest"
 description: "Listen to the trash sounds music"
 featured: true
+highlight_image: "news/trash-5122.jpg"
 ---
 
 <script> import CaptionedImage from "../../components/Images/CaptionedImage.svelte" </script>
