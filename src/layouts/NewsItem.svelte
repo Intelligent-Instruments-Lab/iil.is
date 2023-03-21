@@ -9,11 +9,16 @@
   export let layout
   export let date
   export let slug
+  export let highlight_image
 
+  
   let seo_title = title
   let seo_description = description
   let seo_url = '/news/'+slug
   let seo_image = '/seo/sean_coils.jpg'
+  if (highlight_image != undefined ||
+      highlight_image === '')
+    seo_image = '/images/'+highlight_image
 
   onMount(async () => {
     $Layout.menu = false

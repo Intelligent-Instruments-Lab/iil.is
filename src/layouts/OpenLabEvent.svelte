@@ -14,6 +14,9 @@
   let seo_description = description
   let seo_url = '/openlab/'+edition
   let seo_image = '/seo/openlab.jpeg'
+  if (highlight_image != undefined ||
+      highlight_image === '')
+    seo_image = '/images/'+highlight_image
 
   let title = theme
 

@@ -5,8 +5,9 @@ title: "Txalaparta Workshop"
 slug: "txalaparta_dynjandi"
 description: "Join us in learning the Basque txalaparta percussion"
 featured: true
+highlight_image: "news/txalaparta-5499.jpg"
 ---
-
+****
 <script> import CaptionedImage from "../../components/Images/CaptionedImage.svelte" </script>
 
 Applications are now open for a workshop on the traditional percussive instrument: **Txalaparta!** The workshop will be held on April 11th from 1-6 pm followed by a concert at 8pm. The workshop will be held in the Dynjandi auditorium at LHÍ at Skipholt 31 - and outdoors if the weather gods allow. 
@@ -19,7 +20,7 @@ Applications are now open for a workshop on the traditional percussive instrumen
 <CaptionedImage
   src="news/txalaparta-5499.jpg"
   alt="A couple of people playing a wooden percussion instrument."
-  caption="Sophie and Victor from the lab trying out the txalaparta"/>
+  caption="Sophie and Victor from the lab trying out the txalaparta."/>
 
 The txalaparta is a traditional Basque percussion instrument for two performers. It has a unique performance method as it needs two performers to play - its performance is *about* the commuication between the two players. The instrument is played by hitting wooden batons straight down onto wooden planks (not tuned in any notes) and controlling weight, force and velocity. It is a play between physics and control.
 
