@@ -24,11 +24,11 @@ Here we collect all of the various Outputs of the lab, organised under the follo
 - Coming soon...
 
 ## 2022 <!-- omit in toc -->
-- "Reflexions upon Feedback" by Thor Magnusson, Chris Kiefer and Halldor Ulfarsson at the *New Interfaces for Musical Expression 2022 Conference*.
-- "The Proto-Langspil: Launching an Icelandic NIME Research Lab with the Help of a Marginalised Instrument" by Jack Armitage, Victor Shepardson, Halldor Ulfarsson and Thor Magnusson at the *New Interfaces for Musical Expression 2022 Conference*.
-- "Ritualistic Approach to Sonic Interaction Design: A Poetic Framework for Participatory Sonification" by Robin Morabito, Jack Armitage and Thor Magnusson at the *International Conference for Auditory Display 2022.*
-- "Autocoder: a Variational Autoencoder for Spectral Synthesis" by Davíð Brynjar Franzson, Victor Shepardson and Thor Magnusson. At the *International Conference for Computer Music*
-- "Notochord: A Flexible Probabilistic Model for Real-Time MIDI Performance" by Victor Shepardson, Jack Armitage and Thor Magnusson at the *Artificial Intelligence and Musical Creativity conference.*
+- _Notochord: A Flexible Probabilistic Model for Real-Time MIDI Performance_ by Victor Shepardson, Jack Armitage and Thor Magnusson at the *Artificial Intelligence and Musical Creativity conference.*
+- _Ritualistic Approach to Sonic Interaction Design: A Poetic Framework for Participatory Sonification_ by Robin Morabito, Jack Armitage and Thor Magnusson at the *International Conference for Auditory Display 2022.*
+- _Reflexions upon Feedback_ by Thor Magnusson, Chris Kiefer and Halldor Ulfarsson at the *New Interfaces for Musical Expression 2022 Conference*.
+- _The Proto-Langspil: Launching an Icelandic NIME Research Lab with the Help of a Marginalised Instrument_ by Jack Armitage, Victor Shepardson, Halldor Ulfarsson and Thor Magnusson at the *New Interfaces for Musical Expression 2022 Conference*. **Honourable Mention for Reproducible Research**
+- _Autocoder: a Variational Autoencoder for Spectral Synthesis_ by Davíð Brynjar Franzson, Victor Shepardson and Thor Magnusson. At the *International Conference for Computer Music*
 
 ## 2021 <!-- omit in toc -->
 - “Exploring XAI for the Arts” by Nick Bryan-Kinns, Berker Banar, Corey Ford, Courtney N. Reed, Yixiao Zhang, Simon Colton, and Jack Armitage at the *1st Workshop on eXplainable AI approaches for debugging and diagnosis* at the *NeurIPS conference*.

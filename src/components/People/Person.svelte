@@ -5,6 +5,10 @@
 
   export let person
 
+  const nameToAnchor = (name) => {
+    return name.toLowerCase().replace(/ /g, '-')
+  }
+
 </script>
 
 <div class="flex">
@@ -15,7 +19,7 @@
         <Thumb src={person.image} name={person.name}/>
         <div class="flex flex-col sm:ml-4 lg:ml-0">
           <h1 class="font-hauser text-secondary text-3xl mt-4">
-            {person.name}
+            <a href={'#'+nameToAnchor(person.name)}>{person.name}</a>
             <span class="font-sans text-secondary-500 text-lg ml-1">
               ({person.pronouns})
             </span>
