@@ -19,7 +19,7 @@
         <Thumb src={person.image} name={person.name}/>
         <div class="flex flex-col sm:ml-4 lg:ml-0">
           <h1 class="font-hauser text-secondary text-3xl mt-4">
-            <a href={'#'+nameToAnchor(person.name)}>{person.name}</a>
+            <a href={'#'+nameToAnchor(person.name)} id={nameToAnchor(person.name)}>{person.name}</a>
             <span class="font-sans text-secondary-500 text-lg ml-1">
               ({person.pronouns})
             </span>
