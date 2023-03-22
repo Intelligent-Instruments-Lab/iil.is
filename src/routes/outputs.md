@@ -85,6 +85,7 @@ frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi)
 - Intelligent Instruments’ Birthday Party at Mengi. Marco Donnarumma, Jonathan Chaim Reus, Hekla, Bob & Vic.
 
 # Consultancies
+- Jack Armitage was a technical consultant on the soundtrack for [Apple TV+ sci-fi series Silo](https://en.wikipedia.org/wiki/Silo_(TV_series)), working with [INNI Music](https://www.innimusic.com/) founder and composer [Atli Örvarsson](https://en.wikipedia.org/wiki/Atli_%C3%96rvarsson).
 - Thor Magnusson was a consultant on the [Turn it Up](https://www.scienceandindustrymuseum.org.uk/whats-on/turn-it-up) exhibition in the Science and Industry Museum in Manchester.
 
 # Open Source
