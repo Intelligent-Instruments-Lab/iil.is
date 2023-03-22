@@ -17,9 +17,35 @@ p {
   color: #2f3635;
 }
 
+h1 {
+  font-size: 2em;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.25em;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
 a {
   /*text-decoration: underline #fff133;*/
   color: #fff133;
+}
+
+ul {
+  list-style: square;
+}
+
+ul li {
+  margin-bottom: 7px;
 }
 
 .pagination-nav {
