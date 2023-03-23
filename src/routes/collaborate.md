@@ -13,7 +13,7 @@ We are open for collaborations with artists and scientists on experimental proje
 
 We also run a visiting researcher scheme. We welcome people to come and work with us in our wonderful Reykjavik lab over a specified period of time. The aim with this scheme is to enable artists, composers and musicians to develop technologies for their musical expression, but in turn the collaboration will help us answer our research questions. 
 
-Please get in touch with the Principal Investigator, Thor Magnusson, or the lab members you'd like to work with - all the relevant contact information can be found on our <a href="/people">People</a> page.
+Please get in touch with the Principal Investigator, [Thor Magnusson](/people#thor-magnusson), or the lab members you'd like to work with - all the relevant contact information can be found on our <a href="/people">People</a> page.
 
 Contact and follow us on the following channels to get in touch and receive updates about our work:
 
