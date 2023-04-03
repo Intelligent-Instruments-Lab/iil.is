@@ -15,7 +15,7 @@ highlight_image: "news/txalaparta-5499.jpg"
 <b>Staðsetning:</b> Hveravík á Ströndum  <br>
 <b>Vinnustofa:</b> 13:00-18:00  <br>
 <b>Tónleikar:</b> 20:00-22:00 (þátttaka valkvæð)  <br>
-<b>Skráningarfrestur:</b>6. apríl 2023  <br>
+<b>Skráningarfrestur:</b> 6. apríl 2023  <br>
 
 <CaptionedImage
   src="news/txala-3.jpg"
