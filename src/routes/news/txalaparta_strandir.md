@@ -21,8 +21,6 @@ highlight_image: "news/txalaparta-5499.jpg"
   alt="Tveir tónlistarmenn spila á txalaparta."
   caption="Sophie and Victor að spila á txalaparta."/>
 
-**Baskatónlist í Hveravík**
-
 Á Strákatanga útaf Hveravík gerðu baskar að hval fyrir nokkrum öldum. Má gera ráð fyrir að þeir hafi hlýjað sér í heitum hver og spilað tónlist á kvöldin eftir langan vinnudag? Hvernig tónlist væri það og hvaða hljóðfæri væru þeir með? Um það er erfitt að segja, en við gætum ímyndað okkur í gamni að þeir hafi spilað á txalaparta.
 
 Txalaparta er gamalt og hefðbundið baskneskt slagverkshljóðfæri sem spilað er á  af tveimur hljóðfæraleikurum í einu. Hljóðfærið sjálft er ekki flókið, nokkrar spýtur (úr rekaviði?) til að lemja á og góðir, þungir kjuðar til að slá á þær. Þó að hljóðfærið sé einfalt, þá er listin samtalið á milli hljóðfæraleikaranna og þar liggur galdurinn líka.
