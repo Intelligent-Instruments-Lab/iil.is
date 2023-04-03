@@ -18,8 +18,8 @@ highlight_image: "news/txalaparta-5499.jpg"
 
 <CaptionedImage
   src="news/txalaparta-5499.jpg"
-  alt="A couple of people playing a wooden percussion instrument."
-  caption="Sophie and Victor from the lab trying out the txalaparta."/>
+  alt="Tveir tónlistarmenn spila á txalaparta."
+  caption="Sophie and Victor að spila á txalaparta."/>
 
 **Baskatónlist í Hveravík**
 
@@ -46,8 +46,8 @@ The txalaparta is perhaps a method rather than an instrument, and this is one of
 
 <CaptionedImage
   src="news/txalaparta-5517.jpg"
-  alt="A txalaparta stick connected to cables."
-  caption="We're collecting data from players to develop creative AI"/>
+  alt="Hin stafræna txalaparta verður einnig á svæðinu."
+  caption="Er hægt að spila á txalaparta með gervigreind?"/>
 
 
 See a live performance by the Basque music duo Ibon RG and Enrike Hurtado on Basque TV <a href="https://www.eitb.eus/eu/telebista/programak/eitb-kultura/bideoak/osoa/8758212/bideoa-ibon-rgren-eta-enrike-hurtadoren-musika/?fbclid=IwAR22JRpp13_wa_hQAUSPa_8YkXObswVbGvjuW6eo7JfVi2RdK0gt_Q-afRQ">here</a> 
