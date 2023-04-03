@@ -48,8 +48,8 @@ En okkur langar til að hafa vinnustofuna opna fyrir gesti og gangandi, svo að 
   caption="Ætli það sé hægt að smíða álíka slagverk með rekaviði?"/>
 
 
-Hér má sjá leiðbeinendur á vinnustofunni spila á hljóðfærið: 
-<a href="https://www.eitb.eus/eu/telebista/programak/eitb-kultura/bideoak/osoa/8758212/bideoa-ibon-rgren-eta-enrike-hurtadoren-musika/?fbclid=IwAR22JRpp13_wa_hQAUSPa_8YkXObswVbGvjuW6eo7JfVi2RdK0gt_Q-afRQ">here</a> 
+Sjá leiðbeinendurna á vinnustofunni spila á hljóðfærið: 
+<a href="https://www.eitb.eus/eu/telebista/programak/eitb-kultura/bideoak/osoa/8758212/bideoa-ibon-rgren-eta-enrike-hurtadoren-musika/?fbclid=IwAR22JRpp13_wa_hQAUSPa_8YkXObswVbGvjuW6eo7JfVi2RdK0gt_Q-afRQ">hér</a>.
 
 
 
@@ -62,6 +62,6 @@ Vinnustofa þessi er skipulögð af Intelligent Instruments Lab sem starfar við
 https://iil.is/news/experimental_basque
 
 <CaptionedImage
-  src="news/txala-2.jpeg"
+  src="news/txala-2.jpg"
   alt="Seen from the side, a man and a woman play percussion."
   caption="Öll eru velkomin á vinnustofuna í Hveravík."/>
