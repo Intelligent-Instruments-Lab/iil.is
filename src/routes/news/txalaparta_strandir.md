@@ -45,7 +45,7 @@ En okkur langar til að hafa vinnustofuna opna fyrir gesti og gangandi, svo að 
 <CaptionedImage
   src="news/txala-1.jpg"
   alt="People using wooden sticks to hit planks."
-  caption="Ætli það sé hægt að smíða álíka slagverk með rekaviði?"/>
+  caption="Ætli hægt sé að smíða álíka slagverk með rekaviði?"/>
 
 
 Sjá leiðbeinendurna á vinnustofunni spila á hljóðfærið: 
