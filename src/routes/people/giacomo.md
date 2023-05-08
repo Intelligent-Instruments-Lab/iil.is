@@ -6,7 +6,7 @@ email: "giacomo@lhi.is"
 image: "images/people/giacomo.jpg"
 links: {
   twitter: "_Giaggia",
-  website: "giacomolepri.com"
+  website: "www.giacomolepri.com"
 }
 projects: [
   ""
