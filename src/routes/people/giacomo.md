@@ -1,12 +1,12 @@
 ---
 name: "Giacomo Lepri"
-type: "Postdoc"
+type: "Associate"
 role: "Postdoc"
 email: "giacomo@lhi.is"
 image: "images/people/giacomo.jpg"
 links: {
   twitter: "_Giaggia",
-  website: "www.giacomolepri.com"
+  website: "giacomolepri.com"
 }
 projects: [
   ""
