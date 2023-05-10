@@ -6,6 +6,7 @@ email: "giacomo@lhi.is"
 image: "images/people/giacomo.jpg"
 links: {
   twitter: "_Giaggia",
+  scholar: "gKocuOMAAAAJ&hl",
   website: "www.giacomolepri.com"
 }
 projects: [
