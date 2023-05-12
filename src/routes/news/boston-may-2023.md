@@ -3,6 +3,7 @@ layout: news
 date: "2023-05-12"
 slug: "boston-may-2023"
 title: "Research Visit to Boston USA"
+highlight_image: "news/ferroneural.jpg"
 description: "Jack & Nicola present work at Harvard & Northeastern universities."
 featured: true
 ---
