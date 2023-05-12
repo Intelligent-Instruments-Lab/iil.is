@@ -58,6 +58,7 @@ https://tenorboston23.sites.northeastern.edu/
 Nicola Privato, Thor Magnusson and Einar Torfi Einarsson
 
 Paper: Tuesday 16 May, 10:00, Paper Session 3, [NU; Ryder Hall, Rm. 161]
+
 Demo: Tuesday 16 May, 15:30, [NEC; Pierce Hall; SB 118]
 
 With the changes occurring in the dialectics between the composer and the interpreter during the second half of the twentieth century, the traditional concept of the musical score has undergone an ontological change. As composers began exploring unconventional notational practices and offering to the interpreter a higher autonomy in relating with the musical material, the locus of the musical information has become less defined, at times merging with that of the instrument. In this paper we explore the dual nature of notation both as score and as instrument from the point of view of non-visual methods of representation. We do this by presenting the Magnetic Score, a system for the inscription and generation of sound that relies on permanent magnetic fields. In magnetic scores, the relational design of the inscriptions and the interdependence of the symbolic and somatosensory layers offer original insights on the role and situatedness of the musical score in contemporary practices, as the performative gestures emerge out of the interpreter’s embodied interaction with the magnetic fields.
@@ -69,6 +70,7 @@ With the changes occurring in the dialectics between the composer and the interp
 Jack Armitage and Thor Magnusson
 
 Paper: Tuesday 16 May, 10:40, Paper Session 3, [NU; Ryder Hall, Rm. 161]
+
 Demo: Tuesday 16 May, 16:00, [NEC; Pierce Hall; SB 118]
 
 Dynamic scores have become a popular intervention into musical performance, with novelty both for the performer and the audience. In this paper we describe agential scores and the implications of their emergent, self-organising and entanglement affordances for musical performance ecologies. We do so through practice-based research, introducing Tolvera, an ALife software library for agential scores. We offer a typology of interaction scenarios for agential scores, and explore a subset of these, presenting the outcomes of early artistic encounters with Tolvera between two improvising guitarists. Reflecting on our encounters, we highlight unique issues that arise out of engaging with scores as real-time agents, proposing that agential scores encourage fluidity of form in notation, which in turn provokes performers to identify with, mirror and attune to them. Though scores have always had agency, we find their rapidly increasing agency poses new questions, and new possibilities for the intra-actions between the human and non-human agents of musical ecologies.
