@@ -3,7 +3,7 @@ layout: news
 date: "2023-05-12"
 slug: "boston-may-2023"
 title: "Research Visit to Boston USA"
-highlight_image: "news/ferroneural.jpg"
+highlight_image: "news/motherbird.jpg"
 description: "Jack & Nicola present work at Harvard & Northeastern universities."
 featured: true
 ---
@@ -88,3 +88,8 @@ Tuesday 16 May, 20:00, New England Conservatory, Plimpton Shattuck Black Box The
 Full details: https://tenorboston23.sites.northeastern.edu/performances/
 
 MOTHERBIRD (2023) for augmented flute, electronics, and artificial life simulation reimagines the centuries-old flute-as-bird archetype in a 21st-century context in which anthropogenic climate change has drastically altered the soundscapes of the natural world. An early instantiation of Armitage’s Agential Scores, a mode of score creation which challenges entangling human performers and musical instruments with artificial life simulations, the piece positions the flute as one organism within an indeterminate global ecosystem—an ecosystem in which changing sonic textures mediate the flocking behaviors of birds, or Boids, in real time. Per the speculative writings of Anna Tsing, Donna Haraway, Karen Barad, and others, the performer-composers ask: how might storytelling and fictionality serve as tools for deconstructing anthropocentric regimes? In MOTHERBIRD, reality is front-and-center, urging listeners to engage critically in becoming-with non-human and more-than-human worlds. 
+
+<CaptionedImage
+src="news/motherbird.jpg"
+alt="MOTHERBIRD by Jessica Shand, Manuel Cherep and Jack Armitage"
+caption="MOTHERBIRD by Jessica Shand, Manuel Cherep and Jack Armitage"/>
