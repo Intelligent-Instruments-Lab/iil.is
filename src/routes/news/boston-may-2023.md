@@ -75,7 +75,7 @@ Dynamic scores have become a popular intervention into musical performance, with
 
 ## Demo: “The Magnetic Score: Somatosensory Inscriptions and Relational Design in the Instrument-Score”
 
-Nicola Privato, Thor Magnusson, Einar Torfi Einarsson
+Nicola Privato, Thor Magnusson, and Einar Torfi Einarsson
 
 Tuesday 16 May, 15:30, [NEC; Pierce Hall; SB 118]
 

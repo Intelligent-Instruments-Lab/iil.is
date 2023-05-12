@@ -21,7 +21,8 @@ Here we collect all of the various Outputs of the lab, organised under the follo
 # Conference Papers
 
 ## 2023 <!-- omit in toc -->
-- Coming soon...
+- _Agential Scores: Exploring Emergent, Self-Organising and Entangled Music Notation_, Jack Armitage and Thor Magnusson, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA
+- _The Magnetic Score: Somatosensory Inscriptions and Relational Design in the Instrument-Score_, Nicola Privato, Thor Magnusson and Einar Torfi Einarsson, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA
 
 ## 2022 <!-- omit in toc -->
 - _Notochord: A Flexible Probabilistic Model for Real-Time MIDI Performance_ by Victor Shepardson, Jack Armitage and Thor Magnusson at the *Artificial Intelligence and Musical Creativity conference.*
@@ -58,6 +59,7 @@ Here we collect all of the various Outputs of the lab, organised under the follo
 - On-the-fly residency. Barcelona. Jack Armitage.
 
 # Presentations
+- "Agentology for Organology: Cyber-, Bio-, & Eco-Semiotic Perspectives on Instrumental Agency" Jack Armitage at *Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media*, May 11 2023, Harvard University Department of Music, Cambridge, MA
 - “Keynote at ICLC 2021” Thor Magnusson at the *International Conference on Live Coding 2021*
 - “In Between the Analogue and the Digital” Thor Magnusson in a panel session at the *International Conference on Live Interfaces*. ICLI 2022.
 - “Sound Seed Automata” Victor Shepardson at *HLCI Workshop 2021*
@@ -77,6 +79,8 @@ frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi)
 - Like a Bees Hive [https://jungereporter.eu/bees-hive-intelligent-instruments-lab/](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)
 
 # Performances
+- _MOTHERBIRD_, Jessica Shand, Manuel Cherep and Jack Armitage, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA
+- _FerroNeural_, Jack Armitage & Nicola Privato, at *Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media*, May 11 2023, Harvard University Department of Music, Cambridge, MAs
 - RAFLOST Festival Opening Party. Jack Armitage.
 - OMAR festival. Victor Shepardson et al.
 - Trash Sounds Workshop at RUSL Festival. Final performance.
