@@ -65,7 +65,7 @@ With the changes occurring in the dialectics between the composer and the interp
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kJ-VX6I8NMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Paper: “Agential Scores: Exploring Emergent, Self-Organising and Entangled Music Notation”
+## Paper & Demo: “Agential Scores: Exploring Emergent, Self-Organising and Entangled Music Notation”
 
 Jack Armitage and Thor Magnusson
 
