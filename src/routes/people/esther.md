@@ -9,6 +9,6 @@ links: {
   twitter: "estherthorvalds"
 }
 pronouns: "she/her"
-bio: "I studied culture and communication, creative writing and comparative literature. I have been working in the music and culture industry for a decade; managing, planning and promoting all sorts of music projects, artists, festivals and conferences in Iceland as well as abroad. I'm passionate about connecting with and designing for all sorts of users and promoting equality and diversity."
+bio: "I studied culture and communication, creative writing and comparative literature. I have been working in the music and culture industry for a decade; managing, planning and promoting all sorts of music projects, artists, festivals and conferences in Iceland as well as abroad. I'm the executive director of Girls Rock! Icealnd and passionate about promoting equality and diversity."
 ---
 
