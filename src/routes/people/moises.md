@@ -7,10 +7,8 @@ image: "images/people/moises.jpg"
 links: {
   twitter: "hexorcismos",
   instagram: "hexorcismos",
-  youtube: "www.youtube.com/@hexorcismos",
   website: "www.moiseshorta.audio",
   website2: "hexorcismos.bandcamp.com",
-  website3: "www.semilla.ai"
 }
 projects: [
   ""
