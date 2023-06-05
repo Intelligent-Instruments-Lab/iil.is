@@ -35,14 +35,14 @@ We'll be making use of existing open-source algorithms and delving into the phil
 
 Participants should have a computer available for the workshop. No programming knowledge is required, but it's always welcome.
 
-<hr>
 
 ## Workshop date and duration:
 
 19 of June 2023
-3 hours.
+
+Duration: 3 hours
 
 
-## Requirements
+## Requirements:
 
 Personal computer/Laptop
