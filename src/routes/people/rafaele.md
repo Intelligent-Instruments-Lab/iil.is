@@ -1,7 +1,7 @@
 ---
 name: "Rafaele Andrade"
 type: "Associate"
-role: "Research Intern"
+role: "Guest Artist and Researcher"
 email: "rafaeleandrade@tutanota.com"
 image: "images/people/rafaele-5299.jpg"
 links: {
