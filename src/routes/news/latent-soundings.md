@@ -17,6 +17,10 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
     alt="A generated image with scewed forms and colors."
     caption="What is Neural Audio Synthesis?"/>
 
+## Registration
+
+Register for the workshop: https://forms.office.com/e/EyEhb41yzR
+
 ## Latent Soundings: A practical introduction to Neural Audio Synthesis
 
 It’s not every day that a new audio synthesis technique emerges. We are familiar with additive synthesis, subtractive synthesis, FM synthesis, granular synthesis, concatenative synthesis, etc. but with new machine learning we have a new addition: neural synthesis!
@@ -35,6 +39,7 @@ We'll be making use of existing open-source algorithms and delving into the phil
 
 Participants should have a computer available for the workshop. No programming knowledge is required, but it's always welcome.
 
+Like all Intelligent Instruments Lab workshops, we are interested in a diverse group of workshop applicants (because diverse backgrounds are more interesting when generating new ideas), so if you are interested in the workshop but doubting whether you would fit into the workshop, you are the right person to join!
 
 ## Workshop date and duration:
 
@@ -46,3 +51,9 @@ Duration: 3 hours
 ## Requirements:
 
 Personal computer/Laptop
+
+## Facilitator:
+
+Moisés Horta Valenzuela / 𝔥𝔢𝔵𝔬𝔯𝔠𝔦𝔰𝔪𝔬𝔰
+
+As a self-taught sound artist and creative technologist from Tijuana, now based in Berlin, I navigate the realms of computer music, AI, and the politics of emerging digital technologies. My work, presented in spaces such as Ars Electronica and MUTEK, bridges ancient and modern sonic technologies and has earned me the A.I. Newcomer 2023 award. I lead workshops in creative AI, focusing on sound and image synthesis and the demystification of neural networks. Current projects include SEMILLA A.I., an interface for generative neural sound synthesizers, and OIR, an online platform for a semi-autonomous meta-DJ trained on extensive electronic music visuals.
