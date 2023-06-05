@@ -3,7 +3,7 @@ layout: news
 date: "2023-06-05"
 slug: "latent-soundings"
 title: "Latent Soundings"
-highlight_image: "news/nime2023.png"
+highlight_image: "news/latent.jpg"
 description: "A practical introduction to Neural Audio Synthesis"
 featured: true
 ---
@@ -13,9 +13,9 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
 <CaptionedImage
-    src="news/nime2023.png"
-    alt="New Interfaces for Musical Expression 2023, Mexico City, Mexico"
-    caption="New Interfaces for Musical Expression 2023, Mexico City, Mexico"/>
+    src="news/latent.jpg"
+    alt="A generated image with scewed forms and colors."
+    caption="What is Neural Audio Synthesis?"/>
 
 ## Latent Soundings: A practical introduction to Neural Audio Synthesis
 
