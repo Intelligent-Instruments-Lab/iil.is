@@ -38,21 +38,22 @@ Here we collect all of the various Outputs of the lab, organised under the follo
 
 # Books and Book chapters
 - Live Coding: A User's Manual, by Alan Blackwell, Emma Cocker, Geoff Cox, Alex McLean and Thor Magnusson. 2022. Open Access [here](https://livecodingbook.toplap.org). Info at [MIT Press](https://mitpress.mit.edu/books/live-coding)
-- “Designing the Threnoscope, or, How I Wrote One of My Pieces” by Thor Magnusson in *Sound Work: Composition as Critical Technical Practice*, published by Orpheus Institut. 2021. [https://orpheusinstituut.be/en/publications/sound-work](https://orpheusinstituut.be/en/publications/sound-work)
+- “Designing the Threnoscope, or, How I Wrote One of My Pieces” by Thor Magnusson in *Sound Work: Composition as Critical Technical Practice*, published by Orpheus Institut. 2021. [url](https://orpheusinstituut.be/en/publications/sound-work)
 
 # Journal articles
-- Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni by Thor Magnusson. 2021. [https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)
+- _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson. 2021. [url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)
 
-# Hosted Symposia and Workshops
-- *Moving Strings Symposium* (December 2021). An international symposium with workshops, presentations and performances. [https://iil.is/news/moving-strings](https://iil.is/news/moving-strings)
-- *Embedded AI for NIME: Challenges and Opportunities*. Workshop run at NIME with two other institutions.
-- *Living Algorithms* workshop at *Raflost festival 2022.*
-- *Sema Worshop* (September 2021) Mexico City.
-- *Media Lab Aalto Workshop*. Applying ii lab technologies in teaching.
-- *Trash Sounds Workshop* @ RUSL Festival
-- *Ii lab workshop* at Omar festival. Hjalteyri. A workshop in ii lab technologies.
+# Hosted Conferences, Symposia and Workshops
+- *Artificial Intelligence and Music Creativity* (August 2023). An international conference with papers, workshops, presentations and performances. [https://aimc2023.pubpub.org](https://aimc2023.pubpub.org)
+- *Embedded AI for NIME: Challenges and Opportunities*. Workshop run at NIME with two other institutions. 2022.
+- *Living Algorithms* workshop at *Raflost festival.* 2022.
+- *Media Lab Aalto Workshop*. Applying ii lab technologies in teaching. 2022. 
+- *Trash Sounds Workshop* @ RUSL Festival. 2022. 
+- *Ii lab workshop* at Omar festival. Hjalteyri. A workshop in ii lab technologies. 2022. 
 - *HLCI Workshop* Online organised by Jack Armitage.
 - *Panel session:* Making art with Machines: Voices, Instruments, Bodies and Sound at the Iceland University of the Arts 2022,
+- *Moving Strings Symposium* (December 2021). An international symposium with workshops, presentations and performances. [https://iil.is/news/moving-strings](https://iil.is/news/moving-strings)
+- *Sema Worshop* (September 2021) Mexico City.
 
 # Workshop Participation
 - *NIFTY workshop*. Thor Magnusson presenting ii lab work at instrument design conference.
@@ -77,10 +78,10 @@ Here we collect all of the various Outputs of the lab, organised under the follo
 - "Performing AI – bodies, sounds and machines“ Marco Donnarumma at Artist Talk: Making Art with Machines: Voices, Instruments, Bodies and Sound at the Iceland University of the Arts. 2022.
 
 # Public Media
-- Að greina gervi­greind by Thor Magnusson. 2023. [https://www.visir.is/g/20232400636d/ad-greina-gervi-greind](https://www.visir.is/g/20232400636d/ad-greina-gervi-greind)
+- Að greina gervi­greind by Thor Magnusson. 2023. [[url](https://www.visir.is/g/20232400636d/ad-greina-gervi-greind)]
 - Mun gervigreindin breyta okkur? with Thor Magnusson. Rauða borðið. 2023. [https://www.youtube.com/watch?v=tToyEAYyp5E](https://www.youtube.com/watch?v=tToyEAYyp5E)
 - Náið samband við hljóðfæri með gervigreind. Fréttablaðið. [https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/](https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/)
-- Tímamótastyrkur til rannsóknarverkefnis á vegum LHÍ. RÚV. [https://www.ruv.is/frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi](https://www.ruv.is/
+- Tímamótastyrkur til rannsóknarverkefnis á vegum LHÍ. RÚV. [url](https://www.ruv.is/
 frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi)
 - Ólátagarður. Jack Armitage at RÚV. [https://www.ruv.is/utvarp/spila/olatagardur/31353](https://www.ruv.is/utvarp/spila/olatagardur/31353)
 - Four Necks [https://jungereporter.eu/four-necks-and-the-voice-of-michael-jackson/](https://jungereporter.eu/four-necks-and-the-voice-of-michael-jackson/)
