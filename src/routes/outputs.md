@@ -22,26 +22,26 @@ Here we collect all of the various Outputs of the lab, organised under the follo
 # Conference Papers
 
 ## 2023 <!-- omit in toc -->
-- _Agential Scores: Exploring Emergent, Self-Organising and Entangled Music Notation_, Jack Armitage and Thor Magnusson, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA. [pdf](https://iil.is/pdf/2023_tenor_armitage_magnusson_agential_scores.pdf)
-- _The Magnetic Score: Somatosensory Inscriptions and Relational Design in the Instrument-Score_, Nicola Privato, Thor Magnusson and Einar Torfi Einarsson, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA. [pdf](https://iil.is/pdf/2023_tenor_privato_et_al_magnetic_scores.pdf)
+- _Agential Scores: Exploring Emergent, Self-Organising and Entangled Music Notation_, Jack Armitage and Thor Magnusson, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA. [[pdf](https://iil.is/pdf/2023_tenor_armitage_magnusson_agential_scores.pdf)]
+- _The Magnetic Score: Somatosensory Inscriptions and Relational Design in the Instrument-Score_, Nicola Privato, Thor Magnusson and Einar Torfi Einarsson, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA. [[pdf](https://iil.is/pdf/2023_tenor_privato_et_al_magnetic_scores.pdf)]
 
 ## 2022 <!-- omit in toc -->
-- _Notochord: A Flexible Probabilistic Model for Real-Time MIDI Performance_ by Victor Shepardson, Jack Armitage and Thor Magnusson at the *Artificial Intelligence and Musical Creativity conference.* [pdf](https://iil.is/pdf/2022_aimc_shepardson_et_al_notochord.pdf)
-- _Ritualistic Approach to Sonic Interaction Design: A Poetic Framework for Participatory Sonification_ by Robin Morabito, Jack Armitage and Thor Magnusson at the *International Conference for Auditory Display 2022.* [pdf](https://iil.is/pdf/2022_icad_morabito_et_al_ritualistic_sonic_interaction_design.pdf)
-- _Reflexions upon Feedback_ by Thor Magnusson, Chris Kiefer and Halldor Ulfarsson at the *New Interfaces for Musical Expression 2022 Conference*. [url](https://nime.pubpub.org/pub/feedback/release/1)
-- _The Proto-Langspil: Launching an Icelandic NIME Research Lab with the Help of a Marginalised Instrument_ by Jack Armitage, Victor Shepardson, Halldor Ulfarsson and Thor Magnusson at the *New Interfaces for Musical Expression 2022 Conference*. [url](https://nime.pubpub.org/pub/langspil/release/1) 
+- _Notochord: A Flexible Probabilistic Model for Real-Time MIDI Performance_ by Victor Shepardson, Jack Armitage and Thor Magnusson at the *Artificial Intelligence and Musical Creativity conference.* [[pdf](https://iil.is/pdf/2022_aimc_shepardson_et_al_notochord.pdf)]
+- _Ritualistic Approach to Sonic Interaction Design: A Poetic Framework for Participatory Sonification_ by Robin Morabito, Jack Armitage and Thor Magnusson at the *International Conference for Auditory Display 2022.* [[pdf](https://iil.is/pdf/2022_icad_morabito_et_al_ritualistic_sonic_interaction_design.pdf)]
+- _Reflexions upon Feedback_ by Thor Magnusson, Chris Kiefer and Halldor Ulfarsson at the *New Interfaces for Musical Expression 2022 Conference*. [[url](https://nime.pubpub.org/pub/feedback/release/1)]
+- _The Proto-Langspil: Launching an Icelandic NIME Research Lab with the Help of a Marginalised Instrument_ by Jack Armitage, Victor Shepardson, Halldor Ulfarsson and Thor Magnusson at the *New Interfaces for Musical Expression 2022 Conference*. [[url](https://nime.pubpub.org/pub/langspil/release/1)]
 **Honourable Mention for Reproducible Research**
-- _Autocoder: a Variational Autoencoder for Spectral Synthesis_ by Davíð Brynjar Franzson, Victor Shepardson and Thor Magnusson. At the *International Conference for Computer Music* [pdf](https://iil.is/pdf/2022_icmc_franzson_et_al_autocoder.pdf)
+- _Autocoder: a Variational Autoencoder for Spectral Synthesis_ by Davíð Brynjar Franzson, Victor Shepardson and Thor Magnusson. At the *International Conference for Computer Music* [[pdf](https://iil.is/pdf/2022_icmc_franzson_et_al_autocoder.pdf)]
 
 ## 2021 <!-- omit in toc -->
 - “Exploring XAI for the Arts” by Nick Bryan-Kinns, Berker Banar, Corey Ford, Courtney N. Reed, Yixiao Zhang, Simon Colton, and Jack Armitage at the *1st Workshop on eXplainable AI approaches for debugging and diagnosis* at the *NeurIPS conference*.
 
 # Books and Book chapters
 - Live Coding: A User's Manual, by Alan Blackwell, Emma Cocker, Geoff Cox, Alex McLean and Thor Magnusson. 2022. Open Access [here](https://livecodingbook.toplap.org). Info at [MIT Press](https://mitpress.mit.edu/books/live-coding)
-- “Designing the Threnoscope, or, How I Wrote One of My Pieces” by Thor Magnusson in *Sound Work: Composition as Critical Technical Practice*, published by Orpheus Institut. 2021. [url](https://orpheusinstituut.be/en/publications/sound-work)
+- “Designing the Threnoscope, or, How I Wrote One of My Pieces” by Thor Magnusson in *Sound Work: Composition as Critical Technical Practice*, published by Orpheus Institut. 2021. [[url](https://orpheusinstituut.be/en/publications/sound-work)]
 
 # Journal articles
-- _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson. 2021. [url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)
+- _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson. 2021. [[url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)]
 
 # Hosted Conferences, Symposia and Workshops
 - *Artificial Intelligence and Music Creativity* (August 2023). An international conference with papers, workshops, presentations and performances. [[url](https://aimc2023.pubpub.org)]
