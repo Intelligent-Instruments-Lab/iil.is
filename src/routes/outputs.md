@@ -44,7 +44,7 @@ Here we collect all of the various Outputs of the lab, organised under the follo
 - _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson. 2021. [url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)
 
 # Hosted Conferences, Symposia and Workshops
-- *Artificial Intelligence and Music Creativity* (August 2023). An international conference with papers, workshops, presentations and performances. [https://aimc2023.pubpub.org](https://aimc2023.pubpub.org)
+- *Artificial Intelligence and Music Creativity* (August 2023). An international conference with papers, workshops, presentations and performances. [[url](https://aimc2023.pubpub.org)]
 - *Embedded AI for NIME: Challenges and Opportunities*. Workshop run at NIME with two other institutions. 2022.
 - *Living Algorithms* workshop at *Raflost festival.* 2022.
 - *Media Lab Aalto Workshop*. Applying ii lab technologies in teaching. 2022. 
@@ -52,7 +52,7 @@ Here we collect all of the various Outputs of the lab, organised under the follo
 - *Ii lab workshop* at Omar festival. Hjalteyri. A workshop in ii lab technologies. 2022. 
 - *HLCI Workshop* Online organised by Jack Armitage.
 - *Panel session:* Making art with Machines: Voices, Instruments, Bodies and Sound at the Iceland University of the Arts 2022,
-- *Moving Strings Symposium* (December 2021). An international symposium with workshops, presentations and performances. [https://iil.is/news/moving-strings](https://iil.is/news/moving-strings)
+- *Moving Strings Symposium* (December 2021). An international symposium with workshops, presentations and performances. [[url](https://iil.is/news/moving-strings)]
 - *Sema Worshop* (September 2021) Mexico City.
 
 # Workshop Participation
@@ -78,14 +78,16 @@ Here we collect all of the various Outputs of the lab, organised under the follo
 - "Performing AI – bodies, sounds and machines“ Marco Donnarumma at Artist Talk: Making Art with Machines: Voices, Instruments, Bodies and Sound at the Iceland University of the Arts. 2022.
 
 # Public Media
-- Að greina gervi­greind by Thor Magnusson. 2023. [[url](https://www.visir.is/g/20232400636d/ad-greina-gervi-greind)]
-- Mun gervigreindin breyta okkur? with Thor Magnusson. Rauða borðið. 2023. [https://www.youtube.com/watch?v=tToyEAYyp5E](https://www.youtube.com/watch?v=tToyEAYyp5E)
-- Náið samband við hljóðfæri með gervigreind. Fréttablaðið. [https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/](https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/)
-- Tímamótastyrkur til rannsóknarverkefnis á vegum LHÍ. RÚV. [url](https://www.ruv.is/
+
+- _Að greina gervi­greind_ by Thor Magnusson. 2023. [[url](https://www.visir.is/g/20232400636d/ad-greina-gervi-greind)]
+- _Mun gervigreindin breyta okkur?_ with Thor Magnusson. Rauða borðið. 2023. [[url](https://www.youtube.com/watch?v=tToyEAYyp5E)]
+- _Náið samband við hljóðfæri með gervigreind_. Fréttablaðið. [[url](https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/)]
+- _Inventing instruments that interact, learn and evolve with the performer_ at Showcase of citizen science by ERC grantees and other EU-funded projects. 2022. [[url](https://erc.europa.eu/news-events/events/showcase-projects-citizen-science)]
+- _Tímamótastyrkur til rannsóknarverkefnis á vegum LHÍ_. RÚV. [[url](https://www.ruv.is/]
 frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi)
-- Ólátagarður. Jack Armitage at RÚV. [https://www.ruv.is/utvarp/spila/olatagardur/31353](https://www.ruv.is/utvarp/spila/olatagardur/31353)
-- Four Necks [https://jungereporter.eu/four-necks-and-the-voice-of-michael-jackson/](https://jungereporter.eu/four-necks-and-the-voice-of-michael-jackson/)
-- Like a Bees Hive [https://jungereporter.eu/bees-hive-intelligent-instruments-lab/](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)
+- Ólátagarður. Jack Armitage at RÚV. [[url](https://www.ruv.is/utvarp/spila/olatagardur/31353)]
+- Four Necks [[url](https://jungereporter.eu/four-necks-and-the-voice-of-a-popstar/)]
+- Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
 
 # Performances
 - _MOTHERBIRD_, Jessica Shand, Manuel Cherep and Jack Armitage, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA
