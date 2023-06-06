@@ -89,7 +89,6 @@ Here we collect some of the various Outputs of the lab, organised under the foll
 - _Náið samband við hljóðfæri með gervigreind_. Fréttablaðið. [[url](https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/)]
 - _Inventing instruments that interact, learn and evolve with the performer_ at Showcase of citizen science by ERC grantees and other EU-funded projects. 2022. [[url](https://erc.europa.eu/news-events/events/showcase-projects-citizen-science)]
 - _Tímamótastyrkur til rannsóknarverkefnis á vegum LHÍ_. RÚV. [[url](https://www.ruv.is/)]
-frett/2020/12/10/timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi)
 - Ólátagarður. Jack Armitage at RÚV. [[url](https://www.ruv.is/utvarp/spila/olatagardur/31353)]
 - Four Necks [[url](https://jungereporter.eu/four-necks-and-the-voice-of-a-popstar/)]
 - Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
