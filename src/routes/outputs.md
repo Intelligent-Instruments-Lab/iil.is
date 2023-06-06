@@ -5,7 +5,7 @@ slug: "about"
 description: "Outputs from the Intelligent Instruments Lab."
 ---
 
-Here we collect all of the various Outputs of the lab, organised under the following categories:
+Here we collect some of the various Outputs of the lab, organised under the following categories:
 
 - [Conference Papers](#conference-papers)
 - [Books and Book chapters](#books-and-book-chapters)
@@ -22,11 +22,11 @@ Here we collect all of the various Outputs of the lab, organised under the follo
 # Conference Papers
 
 ## 2023 <!-- omit in toc -->
-- _Magnetic Interactions as a Somatosensory Interface_, Nicola Privato, Thor Magnusson and Einar Torfi Einarsson. *Proceedings of NIME 2023*. [[pdf](https://iil.is/pdf/2023_nime_privato_et_al_thales.pdf)]
-- _The Living Looper: Rethinking the Musical Loop as a Machine Action-Perception Loop_, Victor Shepardson and Thor Magnusson. *Proceedings of NIME 2023*. [[pdf](https://iil.is/pdf/2023_nime_shepardson_magnusson_living_looper.pdf)]
-- _Ergodynamics of String Feedback: Control interface design for the halldorophone_, Halldor Ulfarsson and Thor Magnusson. *Proceedings of NIME 2023*. [[pdf](https://iil.is/pdf/2023_nime_ulfarsson_magnusson_ergodynamics_string_feedback.pdf)]
-- _A Scale-Based Ontology of Digital Musical Instrument Design_, Jack Armitage, Thor Magnusson and Andrew McPherson. *Proceedings of NIME 2023*. [[pdf](https://iil.is/pdf/2023_nime_armitage_et_al_ontology.pdf)]
-- _Studying Subtle and Detailed Digital Lutherie: Motivational Contexts and Technical Needs_, Jack Armitage, Thor Magnusson and Andrew McPherson. *Proceedings of NIME 2023*. [[pdf](https://iil.is/pdf/2023_nime_armitage_et_al_subtlety.pdf)]
+- _Magnetic Interactions as a Somatosensory Interface_, Nicola Privato, Thor Magnusson and Einar Torfi Einarsson. *Proceedings of the New Interfaces for Musical Expression conference*. 2023. [[pdf](https://iil.is/pdf/2023_nime_privato_et_al_thales.pdf)]
+- _The Living Looper: Rethinking the Musical Loop as a Machine Action-Perception Loop_, Victor Shepardson and Thor Magnusson. *Proceedings of the New Interfaces for Musical Expression conference*. 2023. [[pdf](https://iil.is/pdf/2023_nime_shepardson_magnusson_living_looper.pdf)]
+- _Ergodynamics of String Feedback: Control interface design for the halldorophone_, Halldor Ulfarsson and Thor Magnusson. *Proceedings of the New Interfaces for Musical Expression conference*. 2023. [[pdf](https://iil.is/pdf/2023_nime_ulfarsson_magnusson_ergodynamics_string_feedback.pdf)]
+- _A Scale-Based Ontology of Digital Musical Instrument Design_, Jack Armitage, Thor Magnusson and Andrew McPherson. *Proceedings of the New Interfaces for Musical Expression conference*. 2023. [[pdf](https://iil.is/pdf/2023_nime_armitage_et_al_ontology.pdf)]
+- _Studying Subtle and Detailed Digital Lutherie: Motivational Contexts and Technical Needs_, Jack Armitage, Thor Magnusson and Andrew McPherson. *Proceedings of the New Interfaces for Musical Expression conference*. 2023. [[pdf](https://iil.is/pdf/2023_nime_armitage_et_al_subtlety.pdf)]
 - _Agential Scores: Exploring Emergent, Self-Organising and Entangled Music Notation_, Jack Armitage and Thor Magnusson, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA. [[pdf](https://iil.is/pdf/2023_tenor_armitage_magnusson_agential_scores.pdf)]
 - _The Magnetic Score: Somatosensory Inscriptions and Relational Design in the Instrument-Score_, Nicola Privato, Thor Magnusson and Einar Torfi Einarsson, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA. [[pdf](https://iil.is/pdf/2023_tenor_privato_et_al_magnetic_scores.pdf)]
 
