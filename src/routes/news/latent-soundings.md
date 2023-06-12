@@ -23,7 +23,7 @@ Register for the workshop: https://forms.office.com/e/EyEhb41yzR
 
 ## Latent Soundings: A practical introduction to Neural Audio Synthesis
 
-It’s not every day that a new audio synthesis technique emerges. We are familiar with additive synthesis, subtractive synthesis, FM synthesis, granular synthesis, concatenative synthesis, etc. but with new machine learning we have a new addition: neural synthesis!
+It’s not every day that a new audio synthesis technique emerges. With new machine learning we have the possibility of a neural synthesis!
 
 In this introductory workshop we'll be delving into the field of neural audio synthesis. We will trace its history interwoven with artificial neural networks and get our hands dirty with training machine learning models with your own sounds.
 
