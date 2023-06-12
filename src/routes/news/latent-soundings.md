@@ -4,7 +4,7 @@ date: "2023-06-05"
 slug: "latent-soundings"
 title: "Latent Soundings"
 highlight_image: "news/latent.jpg"
-description: "A practical introduction to Neural Audio Synthesis"
+description: "A practical introduction to Neural Audio Synthesis with Moises Horta Valenzuela"
 featured: true
 ---
 
