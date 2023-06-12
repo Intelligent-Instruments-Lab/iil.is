@@ -44,7 +44,9 @@ Like all Intelligent Instruments Lab workshops, we are interested in a diverse g
 ## Workshop date and duration:
 
 19 of June 2023
+
 Time: 16:00-19:00
+
 Location: LHÍ Laugarnes
 
 ## Requirements:
