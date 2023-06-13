@@ -19,7 +19,9 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 
 ## Registration
 
-Register for the workshop: https://forms.office.com/e/EyEhb41yzR
+WORKSHOP IS FULL
+
+Thank you for your interest!
 
 ## Latent Soundings: A practical introduction to Neural Audio Synthesis
 
