@@ -1,0 +1,53 @@
+---
+layout: news
+date: "2023-06-14"
+slug: "smc-2023"
+title: "Jack Armitage presents two papers at SMC 2023"
+highlight_image: "news/.jpg"
+description: "Jack will present at the Sound & Music Computing conference in Stockholm, Sweden."
+featured: true
+---
+
+<script>
+import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
+</script>
+
+# Sound and Music Compting 2023
+
+Postdoc Jack Armitage will present two papers at the Sound & Music Computing conference in Stockholm, Sweden..
+
+If you are attending this event, please do say hi!
+
+# Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media
+
+June 12-17, KMH Royal College of Music, Stockholm, Sweden
+
+https://smcnetwork.org/smc2023
+
+## Talk: “Design Process in Visual Programming: Methods for Visual and Temporal Analysis”
+
+Jack Armitage, Thor Magnusson & Andrew McPherson
+
+Friday 16 June, 16:05, Session 5, Online
+
+Paper PDF: http://iil.is/pdf/2023_smc_armitage_et_al_design_process.pdf
+
+### Abstract
+
+Visual programming languages, such as Pure Data (Pd) and Max/MSP, have been prevalent in computer music for nearly three decades. However, few shared and consistent research methods have emerged for studying the reproducible use of digital musical instrument (DMI) designers employing these languages. In this paper, we introduce straightforward methods for extracting design process data from Pd usage through automated version control and protocol-based annotation. This data enables visual and temporal analysis, which can reveal patterns of DMI design cognition and collaboration processes. Although our focus is on design, we believe that this approach could also benefit creativity studies and musicological analysis of the compositional process. We present the outcomes of a study involving four groups of DMI designers in a one-hour closed activity and demonstrate how these analysis methods can be used to gain additional insight by comparing them against participant survey data. In discussing how these methods could be enhanced and further developed, we address validity, scalability, replicability, and generalisability. Lastly, we examine motivations and challenges for DMI design cognition research.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x6DaG6ng6OU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Talk: “Sculpting Algorithmic Pattern: Informal and Visuospatial Interaction in Musical Instrument Design”
+
+Jack Armitage, Thor Magnusson & Andrew McPherson
+
+Friday 16 June, 16:10, Session 5, Online
+
+Paper PDF: http://iil.is/pdf/2023_smc_armitage_et_al_sculpting.pdf
+
+### Abstract
+
+In live coding, the concept of algorithmic patterns is employed to characterise the improvisation of artistic structures. This paper presents a digital musical instrument (DMI) design study that led to the development of our understanding of proto-algorithmic thinking. The study focused on tools for manually sculpting digital resonance models using clay, with participants following brief technical instructions. The resulting thought process was grounded in systematic embodied interaction with the clay, giving rise to a form of algorithmic thinking that precedes the conceptual formalisation of the algorithm. We propose the term `proto-algorithmic pattern' to encompass implicit, tacit, gestural, and embodied practices that lack a formalised notational language. In conclusion, we explore the implications of our findings for interfaces and instruments in live coding and identify potential avenues for future research at the intersection of live coding and DMI design.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RMcPh47e8ho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
