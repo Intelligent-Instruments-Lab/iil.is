@@ -22,6 +22,8 @@ Here we collect some of the various Outputs of the lab, organised under the foll
 # Conference Papers
 
 ## 2023 <!-- omit in toc -->
+- _Sculpting Algorithmic Pattern: Informal and Visuospatial Interaction in Musical Instrument Design_. Jack Armitage, Thor Magnusson and Andrew McPherson. *Proceedings of the Sound and Music Computing Conference*, Stockholm, Sweden, 2023. [[pdf](http://iil.is/pdf/2023_smc_armitage_et_al_sculpting.pdf)]
+- _Design Process in Visual Programming: Methods for Visual and Temporal Analysis_. Jack Armitage, Thor Magnusson and Andrew McPherson. *Proceedings of the Sound and Music Computing Conference*, Stockholm, Sweden, 2023. [[pdf](http://iil.is/pdf/2023_smc_armitage_et_al_design_process.pdf)]
 - _Magnetic Interactions as a Somatosensory Interface_, Nicola Privato, Thor Magnusson and Einar Torfi Einarsson. *Proceedings of the New Interfaces for Musical Expression conference*. 2023. [[pdf](https://iil.is/pdf/2023_nime_privato_et_al_thales.pdf)]
 - _The Living Looper: Rethinking the Musical Loop as a Machine Action-Perception Loop_, Victor Shepardson and Thor Magnusson. *Proceedings of the New Interfaces for Musical Expression conference*. 2023. [[pdf](https://iil.is/pdf/2023_nime_shepardson_magnusson_living_looper.pdf)]
 - _Ergodynamics of String Feedback: Control interface design for the halldorophone_, Halldor Ulfarsson and Thor Magnusson. *Proceedings of the New Interfaces for Musical Expression conference*. 2023. [[pdf](https://iil.is/pdf/2023_nime_ulfarsson_magnusson_ergodynamics_string_feedback.pdf)]
