@@ -1,7 +1,7 @@
 ---
 name: "Adam Pultz Melbye"
-type: "Associate"
-role: "Visiting Researcher"
+type: "Member"
+role: "Postdoc"
 email: "mail@adampultz.com"
 image: "images/people/adam.jpg"
 links: {

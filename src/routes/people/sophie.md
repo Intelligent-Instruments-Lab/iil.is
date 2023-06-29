@@ -1,6 +1,6 @@
 ---
 name: "Sophie Skach"
-type: "Associate"
+type: "Member"
 role: "Postdoc"
 email: "info@sophieskach.com "
 image: "images/people/Sophie.jpg"
