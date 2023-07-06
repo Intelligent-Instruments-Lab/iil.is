@@ -8,6 +8,7 @@ links: {
   twitter: "thormagnusson",
   github: "thormagnusson",
   scholar: "cCgOZ_gAAAAJ",
+  instagram: "thor.magnusson",
   website: "thormagnusson.github.io"
 }
 projects: [
