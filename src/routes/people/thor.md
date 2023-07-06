@@ -14,5 +14,5 @@ projects: [
   "sonicwriting"
 ]
 pronouns: "he/him"
-bio: "I’m a professor of future music in the Music Department at the University of Sussex and a research professor at the Iceland University of the Arts. I’ve recently served as an Edgard-Varèse guest professor at the Technische Universität Berlin. My research interests include musical performance, improvisation, new technologies for musical expression, live coding, musical notation, artificial intelligence and computational creativity."
+bio: "I’m a research professor at the Iceland University of the Arts and a professor of future music in the Music Department at the University of Sussex. I’ve recently served as an Edgard-Varèse guest professor at the Technische Universität Berlin. My research interests include musical performance, improvisation, new technologies for musical expression, live coding, musical notation, artificial intelligence and computational creativity."
 ---
