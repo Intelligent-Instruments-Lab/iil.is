@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2022-08-10"
+date: "2023-08-12"
 slug: "chime"
 title: "CHIME Symposium 2023"
 description: "Wednesday - 12th of July 2023.
