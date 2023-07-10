@@ -1,6 +1,6 @@
 ---
-name: "Sean Patrick O’Brien"
-type: "Associate"
+name: "Sean Patrick O'Brien"
+type: "Member"
 role: "Research Technician"
 email: "sean@seanob.com"
 image: "images/people/sean.jpg"
