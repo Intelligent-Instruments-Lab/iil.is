@@ -85,12 +85,15 @@ Here we collect some of the various Outputs of the lab, organised under the foll
 - "Performing AI – bodies, sounds and machines“ Marco Donnarumma at Artist Talk: Making Art with Machines: Voices, Instruments, Bodies and Sound at the Iceland University of the Arts. 2022.
 
 # Public Media
-- _Sounding Smart_ in Icelandic Review. April/May 2023. [[url](https://www.icelandreview.com/magazine/soundingsmart/)]
-- _Að greina gervi­greind_ in Visir by Thor Magnusson. 2023. [[url](https://www.visir.is/g/20232400636d/ad-greina-gervi-greind)]
-- _Mun gervigreindin breyta okkur?_ with Thor Magnusson. Rauða borðið. 2023. [[url](https://www.youtube.com/watch?v=tToyEAYyp5E)]
-- _Náið samband við hljóðfæri með gervigreind_. Fréttablaðið. [[url](https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/)]
+
+- _Interview with Thor Magnusson_ in Gervigreindarlestin. June 2023. (Icelandic) [[url](https://www.ruv.is/utvarp/spila/gervigreindar-lestin/35187/afi71k?)]
+- _FluCoMa Podcast #10: Thor Magnusson_ in Flucoma Podcast. May 2023. (English) [[url](https://learn.flucoma.org/explore/magnusson/)]
+- _Sounding Smart_ in Icelandic Review. April/May 2023. (English) [[url](https://www.icelandreview.com/magazine/soundingsmart/)]
+- _Að greina gervi­greind_ in Visir by Thor Magnusson. 2023. (Icelandic) [[url](https://www.visir.is/g/20232400636d/ad-greina-gervi-greind)]
+- _Mun gervigreindin breyta okkur?_ with Thor Magnusson. Rauða borðið. 2023. (Icelandic) [[url](https://www.youtube.com/watch?v=tToyEAYyp5E)]
+- _Náið samband við hljóðfæri með gervigreind_. Fréttablaðið. (Icelandic) [[url](https://www.frettabladid.is/kynningar/nai-samband-vi-hljofri-me-gervigreind/)]
 - _Inventing instruments that interact, learn and evolve with the performer_ at Showcase of citizen science by ERC grantees and other EU-funded projects. 2022. [[url](https://erc.europa.eu/news-events/events/showcase-projects-citizen-science)]
-- _Tímamótastyrkur til rannsóknarverkefnis á vegum LHÍ_. RÚV. [[url](https://www.ruv.is/)]
+- _Tímamótastyrkur til rannsóknarverkefnis á vegum LHÍ_. RÚV. [[url](https://nyr.ruv.is/frettir/menning-og-daegurmal/2020-12-10-timamotastyrkur-til-rannsoknarverkefnis-a-vegum-lhi)]
 - Ólátagarður. Jack Armitage at RÚV. [[url](https://www.ruv.is/utvarp/spila/olatagardur/31353)]
 - Four Necks [[url](https://jungereporter.eu/four-necks-and-the-voice-of-a-popstar/)]
 - Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
