@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2023-08-15"
+date: "2023-08-19"
 slug: "iilbd02"
 title: "Celeste Betancur & Jack Armitage performing at Menningarnótt 2023"
 description: "Reykjavík City Library & Ásmundarsalur"
