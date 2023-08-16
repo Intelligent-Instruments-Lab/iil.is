@@ -31,6 +31,8 @@ More about Menningarnótt:
 
 To promote live coding in Iceland, Celeste & Jack will give a brief talk, demo and performance of live coding at Reykjavík City Library (Borgarbókasafnið).
 
+Facebook event: https://www.facebook.com/events/131371443358223
+
 More about Reykjavík City Library: https://borgarbokasafn.is/
 
 ## Ásmundarsalur (20:00-21:00)
