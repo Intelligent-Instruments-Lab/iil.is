@@ -19,9 +19,9 @@ caption="IIL's 2nd Birthday Concert at Mengi"/>
 
 # We are two years old! 🎂🎉
 
-Facebook event: link TBC.
+Facebook event: https://www.facebook.com/events/1537261500422543
 
-Mengi website: link TBC.
+Mengi website: https://mengi.net/events/2023/8/25/intelligent-instruments-labs-2nd-birthday-concert
 
 *íslenska fyrir neðan*
 
@@ -37,6 +37,12 @@ Celeste is a musician, computer music academic but must of all enthusiastic danc
 
 https://www.celestebetancur.com/
 
+## Júlía Mogensen (IS): Halldorophone
+
+Júlía Mogensen is a classically trained cellist, and an active performer of new experimental music, interested in exploring sound as a medium and potential for transformation. As a performer/collaborator/improviser she has worked with a diverse range of artists on stage and in recordings. 2019-2020 she studied Fine Arts at the IUA where she explored the relational dynamics between performer/audience/instrument through a wide range of mediums. Júlía studied at the IUA, Guildhall School of Music & Drama and in Berlin.During 2013-2019 Júlía was a member of the Icelandic Symphony Orchestra and the Icelandic Opera.
+
+https://www.instagram.com/julia.mogensen
+
 ## Adam Pultz (DE): FAAB (feedback-actuated augmented bass)
 
 Ambiguous textures and unstable pulses courtsey of a feedback-infested double bass.
@@ -51,7 +57,7 @@ Victor Shepardson and Nicola Privato are musicians and researchers in the Intell
 
 http://iil.is/people
 
-## Jack Armitage: Gagnavera
+## Jack Armitage (UK/IS): Gagnavera
 
 Jack Armitage is a postdoctoral researcher in the Intelligent Instruments Lab. Gagnavera is part of Jack’s Tolvera (“number being”) series of pieces inspired by artificial life and self-organising systems. 
 
@@ -59,6 +65,8 @@ http://jackarmitage.com
 
 Plus more artists to be announced!
 
-# Icelandic translation TBC
+## Robin Morabito (IT/IS): SillyCode
 
-...
+Robin is a multimedia artist and researcher interested in sonification, algorithmic composition and generative sound design. For this gig, Robin will improvise using SillyCode, a custom live coding environment, to sonify plain text thought and written in real time.
+
+https://robinmorabito.godaddysites.com/
