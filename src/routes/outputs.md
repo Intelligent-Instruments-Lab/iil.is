@@ -22,6 +22,8 @@ Here we collect some of the various Outputs of the lab, organised under the foll
 # Conference Papers
 
 ## 2023 <!-- omit in toc -->
+- _A Context-Sensitive Approach to XAI in Music Performance_. Nicola Privato, and Jack Armitage. *The 1st International Workshop
+on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, Online, 2023. [[pdf](http://iil.is/pdf/2023_xaixarts_privato_armitage_context.pdf)]
 - _Sculpting Algorithmic Pattern: Informal and Visuospatial Interaction in Musical Instrument Design_. Jack Armitage, Thor Magnusson and Andrew McPherson. *Proceedings of the Sound and Music Computing Conference*, Stockholm, Sweden, 2023. [[pdf](http://iil.is/pdf/2023_smc_armitage_et_al_sculpting.pdf)]
 - _Design Process in Visual Programming: Methods for Visual and Temporal Analysis_. Jack Armitage, Thor Magnusson and Andrew McPherson. *Proceedings of the Sound and Music Computing Conference*, Stockholm, Sweden, 2023. [[pdf](http://iil.is/pdf/2023_smc_armitage_et_al_design_process.pdf)]
 - _Magnetic Interactions as a Somatosensory Interface_, Nicola Privato, Thor Magnusson and Einar Torfi Einarsson. *Proceedings of the New Interfaces for Musical Expression conference*. 2023. [[pdf](https://iil.is/pdf/2023_nime_privato_et_al_thales.pdf)]
