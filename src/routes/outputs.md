@@ -21,7 +21,9 @@ Here we collect some of the various Outputs of the lab, organised under the foll
 
 # Conference Papers
 
+
 ## 2023 <!-- omit in toc -->
+- _The A in AIMC_. Thor Magnusson. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [html](https://aimc2023.pubpub.org/pub/axm86vsk/release/1)
 - _Bela-IREE: An Approach to Embedded Machine Learning for Real-Time Music Interaction_. Ezra Pierce, Victor Shepardson, Jack Armitage, and Thor Magnusson. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/t2l10z49)]. 
 - _A Context-Sensitive Approach to XAI in Music Performance_. Nicola Privato, and Jack Armitage. *The 1st International Workshop
 on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, Online, 2023. [[pdf](http://iil.is/pdf/2023_xaixarts_privato_armitage_context.pdf)]
