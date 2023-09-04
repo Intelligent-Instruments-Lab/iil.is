@@ -22,7 +22,7 @@ Here we collect some of the various Outputs of the lab, organised under the foll
 # Conference Papers
 
 ## 2023 <!-- omit in toc -->
-- _Bela-IREE: An Approach to Embedded Machine Learning for Real-Time Music Interaction_. Ezra Pierce, Victor Shepardson, Jack Armitage, and Thor Magnusson. *Proc. AI Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/t2l10z49)]. 
+- _Bela-IREE: An Approach to Embedded Machine Learning for Real-Time Music Interaction_. Ezra Pierce, Victor Shepardson, Jack Armitage, and Thor Magnusson. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/t2l10z49)]. 
 - _A Context-Sensitive Approach to XAI in Music Performance_. Nicola Privato, and Jack Armitage. *The 1st International Workshop
 on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, Online, 2023. [[pdf](http://iil.is/pdf/2023_xaixarts_privato_armitage_context.pdf)]
 - _Sculpting Algorithmic Pattern: Informal and Visuospatial Interaction in Musical Instrument Design_. Jack Armitage, Thor Magnusson and Andrew McPherson. *Proceedings of the Sound and Music Computing Conference*, Stockholm, Sweden, 2023. [[pdf](http://iil.is/pdf/2023_smc_armitage_et_al_sculpting.pdf)]
@@ -54,6 +54,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson. 2021. [[url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)]
 
 # Hosted Conferences, Symposia and Workshops
+- *Agential Instruments Design Workshop*. Jack Armitage, Victor Shepardson, Nicola Privato, Teresa Pelinski, Adan L Benito Temprano, Lewis Wolstanholme, Andrea Martelloni, Franco Santiago Caspe, Courtney N. Reed, Sophie Skach, Rodrigo Diaz, Sean Patrick O'Brien, and Jordie Shier. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/25mg4xnz)]. 
 - *Artificial Intelligence and Music Creativity* (August 2023). An international conference with papers, workshops, presentations and performances. [[url](https://aimc2023.pubpub.org)]
 - *Embedded AI for NIME: Challenges and Opportunities*. Workshop run at NIME with two other institutions. 2022.
 - *Living Algorithms* workshop at *Raflost festival.* 2022.
@@ -103,7 +104,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Performances
 - _MOTHERBIRD_, Jessica Shand, Manuel Cherep and Jack Armitage, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA
-- _FerroNeural_, Jack Armitage & Nicola Privato, at *Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media*, May 11 2023, Harvard University Department of Music, Cambridge, MAs
+- _FerroNeural_, Jack Armitage & Nicola Privato, at *Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media*, May 11 2023, Harvard University Department of Music, Cambridge, MA.
 - RAFLOST Festival Opening Party. Jack Armitage.
 - OMAR festival. Victor Shepardson et al.
 - Trash Sounds Workshop at RUSL Festival. Final performance.
