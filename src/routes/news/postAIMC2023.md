@@ -2,7 +2,7 @@
 layout: news
 date: "2023-09-05"
 slug: "postAIMC2023"
-title: "AIMC 2023 Reflection"
+title: "Post-AIMC 2023 Reflection"
 description: "Documenting The International Conference on Aritificial Intelligence and Music Creativity"
 featured: true
 ---
