@@ -279,9 +279,16 @@ Thor Magnusson and Chris Kiefer reflecting upon the conference and Oded Ben-Tal 
 <br>
 
 *Uncanny*, Begüm Çelik and Tuğrul Veli Şalcı
+
 *Cartographic*, Tasos Asonitis
+
 *James GM (Live) - Machine Learning And Audio-Visual Performance In Unreal Engine 5*, James Gibbons-MacGregor
+
 *drum.code*, Timo Hoogland
+
 *Pandora's Dream*, Celeste Betancur Gutierrez
+
 *Live Coding with an Affective Autonomous Agent in TidalCycles- Performance*, Liz Wilson
+
 *Gagnavera*, Jack Armitage
+
