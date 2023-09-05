@@ -23,6 +23,7 @@ In September 2023 two research labs focussing on musical instruments and live pe
 
 The two labs organising the conference were:
 [Experimental Music Technologies Lab](http://www.emutelab.org)
+
 [Intelligent Instruments Lab](http://www.iil.is)
 
 The conference had 75 submissions from all over the world across diverse tracks (papers, demos, doctoral consortium and performances). We also had 14 Alt-AIMC submissions, but the idea with the "Alt" is to allow for late breaking, unfinished or controversial work. 85 people registered to the conference and in addition to the Sussex and Icelandic teams, we were around 100 people participating. 
