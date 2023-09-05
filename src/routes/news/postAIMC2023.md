@@ -92,5 +92,127 @@ Alt-AIMC Papers/Posters
 
 "Investigation of Live Coding Using a Combination of ChatGPT and Fine-Tuned GPT-3" Tomoki Okuda and  Kazuhiro Jo
 
+<br>
 
 **Paper session 2 (incl. Alt-AIMC and Demos)**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zFYlFZh1sw0?si=qTSbjzw4NqT-8-yz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+Main Papers/Posters
+
+"The Phenomenology of Deconstructivist Aesthetics in Music: An Autoethnography of Errors, Erasures, Permutations, Discontinuities, Paradoxes and Artificial Intelligences" Philon Nguyen, Eldad Tsabary
+
+"Music AI’s Potential Impact: Scoping the terms of the debate about value" Oliver Bown
+
+"Caring Trouble and Musical AI: Considerations towards a Feminist Musical AI" Kelsey Cotton, Kıvanç Tatar
+
+"YouTube Mirror: An Interactive Audiovisual Installation based on Cross-Modal Generative Modeling" Sihwa Park
+
+"Risks and Opportunities from Artificial Creativity" Roisin Loughran
+
+"Extensible Embodied Knowledge: Bridging Performance Practice and Intelligent Performance System Design" Lucy Strauss, Matthew Yee-King
+
+"The A in AIMC" Thor Magnusson
+
+Alt-AIMC Papers/Posters
+
+"Are we solving the wrong problems - and doing harm in the process?" Anna-Kaisa Kaila, Andre Holzapfel, Bob L. T. Sturm
+
+"Beyond mutation: how can we acknowledge symbiogenesis in evolutionary music coding?" Matthias Jung
+
+
+<br>
+
+**Paper session 3 (incl. Alt-AIMC and Demos)**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eTHkk1eT7I4?si=bf8pul0sUzFE9iI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+Main Papers/Posters
+
+"Musical and Meta-Musical Conversations" Oded Ben-Tal, David Dolan
+
+"Silicon for Orchestra and Artificial Intelligence: Three Strategies for Incorporating Artificial Intelligence into the Compositional Process of Orchestral Music" Robert Laidlow
+
+"Human-AI Musicking: A Framework for Designing AI for Music Co-creativity" Craig Vear, Steve Benford, Juan Martinez Avila, Solomiya Moroz
+
+"Revisiting Reynolds - Autonomous Agents for Spatial Audiovisual Composition and Performances" Damian Dziwis
+
+"Liveness and machine listening in musical live coding: A conceptual framework for designing agent-based systems" Georgios Diapoulis
+
+"Virtual AI Jam: AI-Driven Virtual Musicians for Human-in-the-Loop Musical Improvisation" Torin Hopkins, Alvin Jude, Greg Phillips, Ellen Do
+
+Alt-AIMC Papers/Posters
+
+"Introducing the Caulsio: using causal inference to influence collaboration in a shared music making environment" Steve Symons
+
+"Accessible Co-Creativity through Language and Voice Input" Prateek Verma, Constantin Basica, Patricia Alessandrini, Alexandru Berceanu
+
+"Intimate Musical Collaboration with a Probabilistic Model" Karl Johannsson
+
+
+<br>
+
+**Paper session 4 (incl. Alt-AIMC and Demos)**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1oOr3EnMn_o?si=jOC-hTef1zqAzg5x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+Main Papers/Posters
+
+"Sequential Pitch Distributions for Raga Detection" VISHWAAS NARASINH, SENTHIL RAJA G
+
+"The Ai Music Generation Challenge 2022: Summary and Results" Bob L. Sturm
+
+"Statistical evaluation of abc-formatted music at the levels of items and corpora" Laura Cros Vila, Bob L. T. Sturm
+
+"Parsing musical structure to enable meaningful variations" Maziar Kanani, Seán O'Leary, James McDermott
+
+"Deep Learning with Audio: An Explorative Syllabus for Music Composition and Production" Koray Tahiroglu, Shenran Wang, Eduard Mihai Tampu, Jackie Lin
+
+"Are words enough? On the semantic conditioning of affective music generation." Jorge Forero, Gilberto Bernardes, Mónica Mendes
+
+Alt-AIMC Papers/Posters
+
+"Closing the Loop: Enabling User Feedback and Testing in Symbolic Music Generation through a Python Framework and Ableton Live Integration" Rui Guo
+
+"Introductory Studies on Raga Multi-track Music Generation of Indian classical music using AI" Sreekanth Gopi, Femi William
+
+"Building a Nature Soundscape Generator for the Post-Biodiversity Future" Avery Bick
+
+
+**Closing Session**
+
+Thor Magnusson and Chris Kiefer reflecting upon the conference and Oded Ben-Tal introduces AIMC 2024 in Oxford.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yC1PvuW2EWQ?si=hYqFBFNyP-qKpCEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+**Concert 1 in ACCA**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EZEnqwB1b2w?si=_vZFH1DRMLKCiffi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+*Odd Couple*, Oded Ben-Tal and David Dolan, piano and computer.
+
+*Organic Algorithmic Composition*, Gyuchul Moon.
+
+*Quantum Fantasy*, Jeff Morris. For Conductor and Computer.
+
+*AI*, Franziska Schroeder and Federico Rueben. Saxophone and live coding.
+
+
+**Concert 2 in ACCA**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xpN5Bxvkq08?si=WMbaQJczMJ_u1tez" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+*One, Two, Many*, Oded Ben-Tal. For two flutes and computer. Rowland Sutherland on flute 1.
+
+*iː ɡoʊ weɪ*, by Jonathan Reus. For Computer and Voice.
+
+*Notochord Arcs and scrambled Signals*, Victor Shepardson and Nicola Privato. For two computers and human operators.
+
+*SCAMP Singularity*, Henrique Portovedo. Augmented Saxophone and Computer.
+
+*The historically Informed AI: Johann Sperger through Time and Bass, for Contrabass, Viola, Magnetic Discs and Computer. Based on Sonata for Contrabass and Viola by Johann Matthias Sperger (1777)*. Darija Andzakovic , Natalia Duarte, and Nicola Privato.
