@@ -19,13 +19,15 @@ caption="The Arts A building at Sussex."/>
 
 ### Reflecting on AIMC 2023
 
-In September 2023 two research labs focussing on musical instruments and live performance came together to run the **International Conference on Artificial Intelligence and Music Creativity**, or [AIMC 2023](https://aimc2023.pubpub.org). After our application to the [AI and Music Creativity] (https://aimusiccreativity.org) board, it was decided that we would run the 2023 conference at the University of Sussex with the theme of "Intelligent Performance Systems".
+In September 2023 two research labs focussing on musical instruments and live performance came together to run the **International Conference on Artificial Intelligence and Music Creativity**, or [AIMC 2023](https://aimc2023.pubpub.org). After our application to the [AI and Music Creativity](https://aimusiccreativity.org) board, it was decided that we would run the 2023 conference at the University of Sussex with the theme of "Intelligent Performance Systems".
 
 The two labs organising the conference were:
 [Experimental Music Technologies Lab](http://www.emutelab.org)
 [Intelligent Instruments Lab](http://www.iil.is)
 
 The conference had 75 submissions from all over the world across diverse tracks (papers, demos, doctoral consortium and performances). We also had 14 Alt-AIMC submissions, but the idea with the "Alt" is to allow for late breaking, unfinished or controversial work. 85 people registered to the conference and in addition to the Sussex and Icelandic teams, we were around 100 people participating. 
+
+<hr>
 
 ### Conference format and Proceedings
 
@@ -34,6 +36,8 @@ The conference had two keynotes, paper sessions (5 min lightning talks, followed
 Check the website here: [AIMC 2023](https://aimc2023.pubpub.org)
 
 The AIMC 2023 proceedings can be found [here](http://www.aimc2023.org/proceedings)
+
+<hr>
 
 ### Streamed Video Recordings of all sessions
 
@@ -46,6 +50,8 @@ CJ gave a keynote on neural synthesis and the training of audio diffusion models
 
 <br>
 
+<hr>
+
 **Keynote 2 - Elaine Chew**
 
 Elaine Chew, who runs the [COSMOS project](https://cosmos.isd.kcl.ac.uk) presented her past work in the field of computational analysis of musical creativity.
@@ -57,6 +63,7 @@ Elaine wrote a [blog post](https://cosmos.isd.kcl.ac.uk/?p=4286) about her parti
 Information on both keynote speakers can be found [here](https://aimc2023.pubpub.org/keynotes)
 
 <br>
+<hr>
 
 **Industry Panel**
 
@@ -65,6 +72,7 @@ Information on both keynote speakers can be found [here](https://aimc2023.pubpub
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Dat1P9oa5QE?si=edP3KjZbLyrrwcKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <br>
+<hr>
 
 **Paper session 1 (incl. Alt-AIMC and Demos)**
 
@@ -93,6 +101,7 @@ Alt-AIMC Papers/Posters
 "Investigation of Live Coding Using a Combination of ChatGPT and Fine-Tuned GPT-3" Tomoki Okuda and  Kazuhiro Jo
 
 <br>
+<hr>
 
 **Paper session 2 (incl. Alt-AIMC and Demos)**
 
@@ -123,6 +132,7 @@ Alt-AIMC Papers/Posters
 
 
 <br>
+<hr>
 
 **Paper session 3 (incl. Alt-AIMC and Demos)**
 
@@ -153,6 +163,7 @@ Alt-AIMC Papers/Posters
 
 
 <br>
+<hr>
 
 **Paper session 4 (incl. Alt-AIMC and Demos)**
 
@@ -181,6 +192,8 @@ Alt-AIMC Papers/Posters
 
 "Building a Nature Soundscape Generator for the Post-Biodiversity Future" Avery Bick
 
+<br>
+<hr>
 
 **Closing Session**
 
@@ -188,6 +201,8 @@ Thor Magnusson and Chris Kiefer reflecting upon the conference and Oded Ben-Tal 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yC1PvuW2EWQ?si=hYqFBFNyP-qKpCEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<br>
+<hr>
 
 **Concert 1 in ACCA**
 
@@ -201,6 +216,9 @@ Thor Magnusson and Chris Kiefer reflecting upon the conference and Oded Ben-Tal 
 
 *AI*, Franziska Schroeder and Federico Rueben. Saxophone and live coding.
 
+
+<br>
+<hr>
 
 **Concert 2 in ACCA**
 
@@ -216,3 +234,20 @@ Thor Magnusson and Chris Kiefer reflecting upon the conference and Oded Ben-Tal 
 *SCAMP Singularity*, Henrique Portovedo. Augmented Saxophone and Computer.
 
 *The historically Informed AI: Johann Sperger through Time and Bass, for Contrabass, Viola, Magnetic Discs and Computer. Based on Sonata for Contrabass and Viola by Johann Matthias Sperger (1777)*. Darija Andzakovic , Natalia Duarte, and Nicola Privato.
+
+
+<br>
+<hr>
+
+**Algorave in Brighton**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d0RMUqcbhmQ?si=mwIWSFH21HQFXtjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+*Uncanny*, Begüm Çelik and Tuğrul Veli Şalcı
+*Cartographic*, Tasos Asonitis
+*James GM (Live) - Machine Learning And Audio-Visual Performance In Unreal Engine 5*, James Gibbons-MacGregor
+*drum.code*, Timo Hoogland
+*Pandora's Dream*, Celeste Betancur Gutierrez
+*Live Coding with an Affective Autonomous Agent in TidalCycles- Performance*, Liz Wilson
+*Gagnavera*, Jack Armitage
