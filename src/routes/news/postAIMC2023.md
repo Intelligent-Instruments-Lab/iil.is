@@ -44,6 +44,7 @@ CJ gave a keynote on neural synthesis and the training of audio diffusion models
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hsVMs2k0vck?si=-GNOxVGSZLhjmJh_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<br>
 
 **Keynote 2 - Elaine Chew**
 
@@ -54,3 +55,42 @@ Elaine Chew, who runs the [COSMOS project](https://cosmos.isd.kcl.ac.uk) present
 Elaine wrote a [blog post](https://cosmos.isd.kcl.ac.uk/?p=4286) about her participation at AIMC.
 
 Information on both keynote speakers can be found [here](https://aimc2023.pubpub.org/keynotes)
+
+<br>
+
+**Industry Panel**
+
+[Ollie Bown](http://www.olliebown.com) organised an industry panel with [CJ of Dadabots](https://dadabots.com), [Samim Winiger](https://samim.io), [Elaine Chew](https://www.kcl.ac.uk/people/elaine-chew), and [Ryan Groves] (https://www.ryangroves.com)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dat1P9oa5QE?si=edP3KjZbLyrrwcKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br>
+
+**Paper session 1 (incl. Alt-AIMC and Demos)**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xmRRu5yfCF8?si=re1Pf-iRelwZMtJt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Main Papers/Posters
+
+"Bela-IREE: An Approach to Embedded Machine Learning for Real-Time Music Interaction" Ezra Pierce, Victor Shepardson, Jack Armitage, Thor Magnusson
+
+"[neuralnet]: A Pure Data External for the Creation of Neural Networks Written in Pure C" Alexandros Drymonitis
+
+"NeuralMidiFx: A Wrapper Template for Deploying Neural Networks as VST3 Plugins" Behzad Haki, Julian Lenz, Sergi Jorda
+
+"Exploring Latent Spaces of Tonal Music using Variational Autoencoders" Nádia Carvalho, Gilberto Bernardes de Almeida
+
+"Emotional Machines" Jorge Forero, Mónica Mendes, Gilberto Bernardes
+
+"Finetuning Rolypoly~ 2.0: an expressive drum machine that adapts with every performance" Grigore Burloiu
+
+Alt-AIMC Papers/Posters
+
+"AI in live coding environments: Pandora's Dream" Celeste Betancur Gutierrez
+
+"Latent Space Explorer" Alexander Lunt, Sebastian Trump
+
+"Investigation of Live Coding Using a Combination of ChatGPT and Fine-Tuned GPT-3" Tomoki Okuda and  Kazuhiro Jo
+
+
+**Paper session 2 (incl. Alt-AIMC and Demos)**
