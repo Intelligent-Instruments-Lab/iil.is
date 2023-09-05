@@ -26,7 +26,7 @@ The two labs organising the conference were:
 
 [Intelligent Instruments Lab](http://www.iil.is)
 
-The conference had 75 submissions from all over the world across diverse tracks (papers, demos, doctoral consortium and performances). We also had 14 Alt-AIMC submissions, but the idea with the "Alt" is to allow for late breaking, unfinished or controversial work. 85 people registered to the conference and in addition to the Sussex and Icelandic teams, we were around 100 people participating. 
+The conference had 75 submissions from all over the world across diverse tracks (papers, demos, doctoral consortium and performances). We also had 14 Alt-AIMC submissions, but the idea with the "Alt" is to allow for late breaking, unfinished or controversial work. Those were judged by the jury and not double blind peer-reviewed like the academic papers. 85 people registered to the conference and in addition to the Sussex and Icelandic teams, we were around 100 people participating. 
 
 <hr>
 
