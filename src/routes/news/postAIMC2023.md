@@ -49,14 +49,15 @@ CJ gave a keynote on neural synthesis and the training of audio diffusion models
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hsVMs2k0vck?si=-GNOxVGSZLhjmJh_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <br>
-
 <hr>
+<br>
 
 **Keynote 2 - Elaine Chew**
 
 Elaine Chew, who runs the [COSMOS project](https://cosmos.isd.kcl.ac.uk) presented her past work in the field of computational analysis of musical creativity.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Jtb6tYH4XaE?si=jLFrDTecpTi6Scjq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
 
 Elaine wrote a [blog post](https://cosmos.isd.kcl.ac.uk/?p=4286) about her participation at AIMC.
 
@@ -64,21 +65,25 @@ Information on both keynote speakers can be found [here](https://aimc2023.pubpub
 
 <br>
 <hr>
+<br>
+
 
 **Industry Panel**
 
-[Ollie Bown](http://www.olliebown.com) organised an industry panel with [CJ of Dadabots](https://dadabots.com), [Samim Winiger](https://samim.io), [Elaine Chew](https://www.kcl.ac.uk/people/elaine-chew), and [Ryan Groves] (https://www.ryangroves.com)
+[Ollie Bown](http://www.olliebown.com) organised an industry panel with [CJ of Dadabots](https://dadabots.com), [Samim Winiger](https://samim.io), [Elaine Chew](https://www.kcl.ac.uk/people/elaine-chew), and [Ryan Groves](https://www.ryangroves.com).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Dat1P9oa5QE?si=edP3KjZbLyrrwcKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <br>
 <hr>
+<br>
 
 **Paper session 1 (incl. Alt-AIMC and Demos)**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmRRu5yfCF8?si=re1Pf-iRelwZMtJt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Main Papers/Posters
+<br>
+**Main Papers/Posters**
 
 "Bela-IREE: An Approach to Embedded Machine Learning for Real-Time Music Interaction" Ezra Pierce, Victor Shepardson, Jack Armitage, Thor Magnusson
 
@@ -92,7 +97,7 @@ Main Papers/Posters
 
 "Finetuning Rolypoly~ 2.0: an expressive drum machine that adapts with every performance" Grigore Burloiu
 
-Alt-AIMC Papers/Posters
+**Alt-AIMC Papers/Posters**
 
 "AI in live coding environments: Pandora's Dream" Celeste Betancur Gutierrez
 
@@ -102,13 +107,15 @@ Alt-AIMC Papers/Posters
 
 <br>
 <hr>
+<br>
 
 **Paper session 2 (incl. Alt-AIMC and Demos)**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zFYlFZh1sw0?si=qTSbjzw4NqT-8-yz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<br>
 
-Main Papers/Posters
+**Main Papers/Posters**
 
 "The Phenomenology of Deconstructivist Aesthetics in Music: An Autoethnography of Errors, Erasures, Permutations, Discontinuities, Paradoxes and Artificial Intelligences" Philon Nguyen, Eldad Tsabary
 
@@ -124,7 +131,7 @@ Main Papers/Posters
 
 "The A in AIMC" Thor Magnusson
 
-Alt-AIMC Papers/Posters
+**Alt-AIMC Papers/Posters**
 
 "Are we solving the wrong problems - and doing harm in the process?" Anna-Kaisa Kaila, Andre Holzapfel, Bob L. T. Sturm
 
@@ -133,13 +140,17 @@ Alt-AIMC Papers/Posters
 
 <br>
 <hr>
+<br>
 
 **Paper session 3 (incl. Alt-AIMC and Demos)**
 
+<br>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eTHkk1eT7I4?si=bf8pul0sUzFE9iI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<br>
 
-Main Papers/Posters
+**Main Papers/Posters**
 
 "Musical and Meta-Musical Conversations" Oded Ben-Tal, David Dolan
 
@@ -153,7 +164,7 @@ Main Papers/Posters
 
 "Virtual AI Jam: AI-Driven Virtual Musicians for Human-in-the-Loop Musical Improvisation" Torin Hopkins, Alvin Jude, Greg Phillips, Ellen Do
 
-Alt-AIMC Papers/Posters
+**Alt-AIMC Papers/Posters**
 
 "Introducing the Caulsio: using causal inference to influence collaboration in a shared music making environment" Steve Symons
 
@@ -164,13 +175,17 @@ Alt-AIMC Papers/Posters
 
 <br>
 <hr>
+<br>
 
 **Paper session 4 (incl. Alt-AIMC and Demos)**
 
+<br>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1oOr3EnMn_o?si=jOC-hTef1zqAzg5x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<br>
 
-Main Papers/Posters
+**Main Papers/Posters**
 
 "Sequential Pitch Distributions for Raga Detection" VISHWAAS NARASINH, SENTHIL RAJA G
 
@@ -184,7 +199,7 @@ Main Papers/Posters
 
 "Are words enough? On the semantic conditioning of affective music generation." Jorge Forero, Gilberto Bernardes, Mónica Mendes
 
-Alt-AIMC Papers/Posters
+**Alt-AIMC Papers/Posters**
 
 "Closing the Loop: Enabling User Feedback and Testing in Symbolic Music Generation through a Python Framework and Ableton Live Integration" Rui Guo
 
@@ -194,19 +209,30 @@ Alt-AIMC Papers/Posters
 
 <br>
 <hr>
+<br>
 
 **Closing Session**
 
+<br>
+
 Thor Magnusson and Chris Kiefer reflecting upon the conference and Oded Ben-Tal introduces AIMC 2024 in Oxford.
+
+<br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yC1PvuW2EWQ?si=hYqFBFNyP-qKpCEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <br>
 <hr>
+<br>
+
 
 **Concert 1 in ACCA**
 
+<br>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EZEnqwB1b2w?si=_vZFH1DRMLKCiffi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br>
 
 *Odd Couple*, Oded Ben-Tal and David Dolan, piano and computer.
 
@@ -219,11 +245,15 @@ Thor Magnusson and Chris Kiefer reflecting upon the conference and Oded Ben-Tal 
 
 <br>
 <hr>
+<br>
 
 **Concert 2 in ACCA**
 
+<br>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xpN5Bxvkq08?si=WMbaQJczMJ_u1tez" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<br>
 
 *One, Two, Many*, Oded Ben-Tal. For two flutes and computer. Rowland Sutherland on flute 1.
 
@@ -238,11 +268,15 @@ Thor Magnusson and Chris Kiefer reflecting upon the conference and Oded Ben-Tal 
 
 <br>
 <hr>
+<br>
 
 **Algorave in Brighton**
 
+<br>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/d0RMUqcbhmQ?si=mwIWSFH21HQFXtjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<br>
 
 *Uncanny*, Begüm Çelik and Tuğrul Veli Şalcı
 *Cartographic*, Tasos Asonitis
