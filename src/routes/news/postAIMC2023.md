@@ -13,9 +13,9 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 
 
 <CaptionedImage
-src="news/sussex.jpg"
-alt="A picture of the Arts A building."
-caption="The Arts A building at Sussex."/>
+src="news/aimclogo.png"
+alt="AIMC logo."
+caption="The AIMC 2023 logo."/>
 
 ### Reflecting on AIMC 2023
 
