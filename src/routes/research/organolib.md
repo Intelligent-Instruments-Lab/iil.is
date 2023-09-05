@@ -4,7 +4,7 @@ title: "Organolib"
 slug: "organolib"
 description: "The IIL library of technical elements."
 featured: true
-authors: ["Thor Magnusson", "Jack Armitage", "Halldor Ulfarsson"]
+authors: ["Thor Magnusson", "Jack Armitage", "Halldor Ulfarsson", "Sean O'Brien"]
 highlight_image: "research/projects/wall.jpg"
 highlight_caption: "The Library of Technical Elements."
 ---
