@@ -16,6 +16,7 @@ src="news/sophie-textile-5393.jpeg"
 alt="Young woman working with textiles in a yellow lab."/>
 
 Let's play music with e-textiles! 
+
 Saturday, September 16 2023 at 15:00-17:00 
 
 Girls rock Iceland! / Læti! and Intelligent Instruments Lab invite you to an electro-textile workshop with Sophie Skach.
@@ -31,9 +32,13 @@ No knowledge is necessary.
 It's free to enter and registration is required: https://forms.gle/DRbDJR21zeHm1rgK7
 
 Location:
+
 Iceland University of the Arts
+
 Þverholt 11
+
 4th floor
+
 105 Reykjavík
 
 Contact: Esther Þorvaldsdóttir (tel. 8654666)
