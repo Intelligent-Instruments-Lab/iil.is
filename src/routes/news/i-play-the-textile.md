@@ -13,7 +13,7 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 
 <CaptionedImage
 src="news/sophie-textile-5393.jpeg"
-alt="Young woman working with textiles in a yellow lab."/>
+alt="Sophie Skach working with textiles at the lab"/>
 
 Let's play music with e-textiles! 
 
