@@ -123,7 +123,6 @@ Many projects can be found on our [GitHub page](https://github.com/Intelligent-I
 - sound-seed-automata - [https://github.com/victor-shepardson/sound-seed-automata](https://github.com/victor-shepardson/sound-seed-automata)
 - rave-supercollider - [https://github.com/victor-shepardson/rave-supercollider](https://github.com/victor-shepardson/rave-supercollider)
 - tidal-rave - [https://github.com/jarmitage/tidal-rave](https://github.com/jarmitage/tidal-rave)
-- Taichi_Lenia - [https://github.com/jarmitage/Taichi_Lenia](https://github.com/jarmitage/Taichi_Lenia)
 - RapidLibBela - [https://github.com/jarmitage/RapidLibBela](https://github.com/jarmitage/RapidLibBela)
 - ScalaScales - [https://github.com/Intelligent-Instruments-Lab/ScalaScales](https://github.com/Intelligent-Instruments-Lab/ScalaScales)
 - proto-langspil - [https://github.com/Intelligent-Instruments-Lab/proto-langspil](https://github.com/Intelligent-Instruments-Lab/proto-langspil)
