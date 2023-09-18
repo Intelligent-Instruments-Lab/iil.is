@@ -2,8 +2,8 @@
 layout: news
 date: "2023-10-14"
 slug: "autumn2023tour"
-title: "Presenting II Lab work"
-description: "Thor Magnusson will present research in various events this autumn"
+title: "Presenting II Lab research"
+description: "Thor Magnusson will present lab work and other research in various events this autumn"
 featured: true
 ---
 
