@@ -106,6 +106,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
 
 # Performances
+- Nicola Privato at [Ars Electronica 2023] (https://ars.electronica.art/who-owns-the-truth/en/events-concerts-performances/), presenting a lecture-performance titled _AI Expainability, Embodiment and Sound in Space: a Case Study_.
 - _MOTHERBIRD_, Jessica Shand, Manuel Cherep and Jack Armitage, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA
 - _FerroNeural_, Jack Armitage & Nicola Privato, at *Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media*, May 11 2023, Harvard University Department of Music, Cambridge, MA.
 - RAFLOST Festival Opening Party. Jack Armitage.
@@ -116,7 +117,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - Intelligent Instruments’ Birthday Party at Mengi. Marco Donnarumma, Jonathan Chaim Reus, Hekla, Bob & Vic.
 
 # Exhibitions
-
+- Nicola Privato and Eva Sajovic present the installation _END OF EMPIRE_ at the [British Textile Biennial](https://britishtextilebiennial.co.uk/programme/eva-sajovic-end_of_empire/), Manchester.
 - Dr Sophie Skach and Victor Shepardson present their no-input textiles at the 2023 [Textile Intersections](https://www.textile-intersections.com/exhibition/) Conference in London.
 - Jack Armitage presented his Magnetic Resonator Piano installation with the Tolvera project at the 2023 [AIMC Conference](https://aimc2023.pubpub.org/pub/83k6upv8/release/2) in Brighton. 
 
