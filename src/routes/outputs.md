@@ -16,6 +16,7 @@ Here we collect some of the various Outputs of the lab, organised under the foll
 - [Presentations](#presentations)
 - [Public Media](#public-media)
 - [Performances](#performances)
+- [Exhibitions](#exhibitions)
 - [Consultancies](#consultancies)
 - [Open Source](#open-source)
 
@@ -113,6 +114,11 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - Live coding Tidal with Rave. Algorithmic Arts Assembly. Jack Armitage.
 - Lil Data at PC Music Vol. 3. London. Jack Armitage.
 - Intelligent Instruments’ Birthday Party at Mengi. Marco Donnarumma, Jonathan Chaim Reus, Hekla, Bob & Vic.
+
+# Exhibitions
+
+- Dr Sophie Skach and Victor Shepardson present their no-input textiles at the 2023 [Textile Intersections](https://www.textile-intersections.com/exhibition/) Conference in London.
+- Jack Armitage presented his Magnetic Resonator Piano installation with the Tolvera project at the 2023 [AIMC Conference](https://aimc2023.pubpub.org/pub/83k6upv8/release/2) in Brighton. 
 
 # Consultancies
 - Jack Armitage was a technical consultant on the soundtrack for [Apple TV+ sci-fi series Silo](https://en.wikipedia.org/wiki/Silo_(TV_series)), working with [INNI Music](https://www.innimusic.com/) founder and composer [Atli Örvarsson](https://en.wikipedia.org/wiki/Atli_%C3%96rvarsson).
