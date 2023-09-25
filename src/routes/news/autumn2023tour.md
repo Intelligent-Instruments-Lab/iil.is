@@ -33,8 +33,6 @@ This autumn, the lab PI, prof [Thor Magnusson](http://thormagnusson.github.io), 
 
 **- 4 October:** [CHIME Seminar](https://www.chime.ac.uk/chime-seminar-sm-astrid-bin-and-thor-magnusson). A seminar with Dr Astrid Bin on the new musical instruments design.
 
-**- 8 October:** [TEDx Reykjavik](http://www.tedxreykjavik.is). Presentation at TEDx Reykjavik in Tjarnarbio. 
-
 **- 11 October:** [Georgios Diapoulis Doctoral Defence](https://www.iil.is). A public - and streamed - doctoral defence by Georgios Diapoulis. Thor is the key opponent.
 
 **- 14 October:** [New Lutherie with Hans Johannsson](https://www.asmundarsalur.is/omuraldanna?). A round table discussion with Hans Johannsson and Patrick Gaydecki on contemporary lutherie. 
