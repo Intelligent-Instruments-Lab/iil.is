@@ -107,14 +107,13 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - Four Necks [[url](https://jungereporter.eu/four-necks-and-the-voice-of-a-popstar/)]
 - Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
 
-# Performances & Installations
-- Post-dreifing presents Supersoaker #3, Jack Armitage, Live Coding & DJ Set, Prikið, Reykjavík, Iceland, 5 Oct, 2023.
-- Strengjavera, Jack Armitage, Magnetic Resonator Piano and ALife, AIMC 2023, Brighton, UK, Sep 2023.
-- AIMC 2023 Algorave, Jack Armitage, Live Coding, St. Mary's Church, Brighton, UK, 1 Sep, 2023.
-- PIKKNIKK #6, Jack Armitage, Live Coding, Nordic House, Reykjavík, Iceland, 29 July, 2023.
-- LungA Festival, Jack Armitage, Live Coding & DJ Set, Seyðisfjörður, Iceland, 15 July, 2023.
-- HÁTÍÐNI Festival, Jack Armitage, Live Coding & DJ Set, Borðeyri, Iceland, 1 July, 2023.
-- Pandora's Mycophony, Jack Armitage with Celeste Betancur, Audiovisual live coding with artificial life and machine learning, NIME 2023, Mexico City, Mexico, 2 June, 2023.
+# Performances
+- _Post-dreifing presents Supersoaker #3_, Jack Armitage, Live Coding & DJ Set, Prikið, Reykjavík, Iceland, 5 Oct, 2023.
+- _Gagnavera at AIMC 2023 Algorave_, Jack Armitage, Live Coding, St. Mary's Church, Brighton, UK, 1 Sep, 2023.
+- _PIKKNIKK #6_, Jack Armitage, Live Coding, Nordic House, Reykjavík, Iceland, 29 July, 2023.
+- _LungA Festival_, Jack Armitage, Live Coding & DJ Set, Seyðisfjörður, Iceland, 15 July, 2023.
+- _HÁTÍÐNI Festival_, Jack Armitage, Live Coding & DJ Set, Borðeyri, Iceland, 1 July, 2023.
+- _Pandora's Mycophony_, Jack Armitage with Celeste Betancur, Audiovisual live coding with artificial life and machine learning, NIME 2023, Mexico City, Mexico, 2 June, 2023.
 - [IILBD002](https://iil.is/news/iilbd02), Mengi, August 2023. Featuring Celeste Betancur, Adam Pultz, Júlía Mogensen, Robin Morabito, Victor Shepardson, Nicola Privato, Jack Armitage.
 - Nicola Privato at [Ars Electronica 2023](https://ars.electronica.art/who-owns-the-truth/en/events-concerts-performances/), presenting a lecture-performance titled _AI Expainability, Embodiment and Sound in Space: a Case Study_.
 - _MOTHERBIRD_, Jessica Shand, Manuel Cherep and Jack Armitage, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA
@@ -126,10 +125,10 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - Lil Data at PC Music Vol. 3. London. Jack Armitage.
 - Intelligent Instruments’ Birthday Party at Mengi. Marco Donnarumma, Jonathan Chaim Reus, Hekla, Bob & Vic.
 
-# Exhibitions
+# Installataions and Exhibitions
 - Nicola Privato and Eva Sajovic present the installation _End of Empire_ at the [British Textile Biennial](https://britishtextilebiennial.co.uk/programme/eva-sajovic-end_of_empire/), Manchester.
 - Dr Sophie Skach and Victor Shepardson present their no-input textiles at the 2023 [Textile Intersections](https://www.textile-intersections.com/exhibition/) Conference in London.
-- Jack Armitage presented his Magnetic Resonator Piano installation with the Tolvera project at the 2023 [AIMC Conference](https://aimc2023.pubpub.org/pub/83k6upv8/release/2) in Brighton. 
+- [Strengjavera](https://aimc2023.pubpub.org/pub/83k6upv8/release/2), Jack Armitage, Magnetic Resonator Piano and ALife, AIMC 2023, Brighton, UK, Sep 2023.
 
 # Consultancies
 - Jack Armitage was a technical consultant on the soundtrack for [Apple TV+ sci-fi series Silo](https://en.wikipedia.org/wiki/Silo_(TV_series)), working with [INNI Music](https://www.innimusic.com/) founder and composer [Atli Örvarsson](https://en.wikipedia.org/wiki/Atli_%C3%96rvarsson).
@@ -137,11 +136,13 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Open Source
 Many projects can be found on our [GitHub page](https://github.com/Intelligent-Instruments-Lab/).
+- iil-python-tools (includes iipyper, iml, Notochord, Tolvera, and more) - [https://github.com/Intelligent-Instruments-Lab/iil-python-tools](https://github.com/Intelligent-Instruments-Lab/iil-python-tools)
+- iil-mrp-tools - [https://github.com/Intelligent-Instruments-Lab/iil-mrp-tools](https://github.com/Intelligent-Instruments-Lab/iil-mrp-tools)
+- flucoma-bela - [https://github.com/jarmitage/flucoma-bela](https://github.com/jarmitage/flucoma-bela)
 - sound-seed-automata - [https://github.com/victor-shepardson/sound-seed-automata](https://github.com/victor-shepardson/sound-seed-automata)
 - rave-supercollider - [https://github.com/victor-shepardson/rave-supercollider](https://github.com/victor-shepardson/rave-supercollider)
 - tidal-rave - [https://github.com/jarmitage/tidal-rave](https://github.com/jarmitage/tidal-rave)
 - RapidLibBela - [https://github.com/jarmitage/RapidLibBela](https://github.com/jarmitage/RapidLibBela)
 - ScalaScales - [https://github.com/Intelligent-Instruments-Lab/ScalaScales](https://github.com/Intelligent-Instruments-Lab/ScalaScales)
 - proto-langspil - [https://github.com/Intelligent-Instruments-Lab/proto-langspil](https://github.com/Intelligent-Instruments-Lab/proto-langspil)
-- iil-python-tools - [https://github.com/Intelligent-Instruments-Lab/iil-python-tools](https://github.com/Intelligent-Instruments-Lab/iil-python-tools)
 
