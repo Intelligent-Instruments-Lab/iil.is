@@ -24,6 +24,7 @@ Here we collect some of the various Outputs of the lab, organised under the foll
 
 
 ## 2023 <!-- omit in toc -->
+- _Sardine: a Modular Python Live Coding Environment_. Raphaël Maurice Forment & Jack Armitage. *7th International Conference on Live Coding (ICLC2023)*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2023_iclc_forment_armitage_sardine.pdf)]
 - _The A in AIMC_. Thor Magnusson. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [html](https://aimc2023.pubpub.org/pub/axm86vsk/release/1)
 - _Bela-IREE: An Approach to Embedded Machine Learning for Real-Time Music Interaction_. Ezra Pierce, Victor Shepardson, Jack Armitage, and Thor Magnusson. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/t2l10z49)]. 
 - _A Context-Sensitive Approach to XAI in Music Performance_. Nicola Privato, and Jack Armitage. *The 1st International Workshop
@@ -57,6 +58,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson. 2021. [[url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)]
 
 # Hosted Conferences, Symposia and Workshops
+- *Live Coding Self-Organising Systems*. Jack Armitage. [CuteLab.NYC](https://cutelab.nyc), New York, NY, USA. September 2023.
 - *Agential Instruments Design Workshop*. Jack Armitage, Victor Shepardson, Nicola Privato, Teresa Pelinski, Adan L Benito Temprano, Lewis Wolstanholme, Andrea Martelloni, Franco Santiago Caspe, Courtney N. Reed, Sophie Skach, Rodrigo Diaz, Sean Patrick O'Brien, and Jordie Shier. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/25mg4xnz)]. 
 - *Artificial Intelligence and Music Creativity* (August 2023). An international conference with papers, workshops, presentations and performances. [[url](https://aimc2023.pubpub.org)]
 - *Embedded AI for NIME: Challenges and Opportunities*. Workshop run at NIME with two other institutions. 2022.
@@ -105,7 +107,15 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - Four Necks [[url](https://jungereporter.eu/four-necks-and-the-voice-of-a-popstar/)]
 - Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
 
-# Performances
+# Performances & Installations
+- Post-dreifing presents Supersoaker #3, Jack Armitage, Live Coding & DJ Set, Prikið, Reykjavík, Iceland, 5 Oct, 2023.
+- Strengjavera, Jack Armitage, Magnetic Resonator Piano and ALife, AIMC 2023, Brighton, UK, Sep 2023.
+- AIMC 2023 Algorave, Jack Armitage, Live Coding, St. Mary's Church, Brighton, UK, 1 Sep, 2023.
+- PIKKNIKK #6, Jack Armitage, Live Coding, Nordic House, Reykjavík, Iceland, 29 July, 2023.
+- LungA Festival, Jack Armitage, Live Coding & DJ Set, Seyðisfjörður, Iceland, 15 July, 2023.
+- HÁTÍÐNI Festival, Jack Armitage, Live Coding & DJ Set, Borðeyri, Iceland, 1 July, 2023.
+- Pandora's Mycophony, Jack Armitage with Celeste Betancur, Audiovisual live coding with artificial life and machine learning, NIME 2023, Mexico City, Mexico, 2 June, 2023.
+- [IILBD002](https://iil.is/news/iilbd02), Mengi, August 2023. Featuring Celeste Betancur, Adam Pultz, Júlía Mogensen, Robin Morabito, Victor Shepardson, Nicola Privato, Jack Armitage.
 - Nicola Privato at [Ars Electronica 2023](https://ars.electronica.art/who-owns-the-truth/en/events-concerts-performances/), presenting a lecture-performance titled _AI Expainability, Embodiment and Sound in Space: a Case Study_.
 - _MOTHERBIRD_, Jessica Shand, Manuel Cherep and Jack Armitage, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA
 - _FerroNeural_, Jack Armitage & Nicola Privato, at *Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media*, May 11 2023, Harvard University Department of Music, Cambridge, MA.
