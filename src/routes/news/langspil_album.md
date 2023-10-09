@@ -22,7 +22,7 @@ The Intelligent Instruments Label, an offshoot of the Intelligent Instruments La
 
 <CaptionedImage
 src="news/Gufunes_artwork_Glytta_Hafbur.jpg"
-alt="An old harbour, with an iil frame, Intelligent Instruments Lab, Gufunes, Keli & EstHer."
+alt="An old harbor, with an iil frame, Intelligent Instruments Lab, Gufunes, Keli & EstHer."
 caption="Gufunes artwork, photo by Glytta Hafbur"/>
 
 "Gufunes," the debut release from this album, is set to be released Friday the 13th of October. It‘s a collaborative effort by Hrafnkell Örn Guðjónsson and Esther Þorvaldsdóttir. Hrafnkell, also known as Keli, is a well-regarded drummer with a significant presence in both Icelandic and international music scenes. His work spans various genres, and collaborations with various artists, most notably his band Agent Fresco. Esther, a member of the Intelligent Instruments Lab and Læti! / Girls Rock! Iceland, brings a decade's worth of experience in music and culture management, working with artists, festivals, and conferences in Iceland and beyond.
