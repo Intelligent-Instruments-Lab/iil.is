@@ -6,7 +6,7 @@ title: "The First Single from the Proto-Langspil Album"
 description: "Gufunes to be release on October 13th"
 featured: true
 ---
-
+*Icelandic below*
 <script>
 import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
