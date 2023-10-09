@@ -4,7 +4,7 @@ date: "2023-04-03"
 title: "Baskatónlist á Ströndum"
 slug: "txalaparta_strandir"
 description: "Vinnustofa í txalaparta í Hveravík"
-featured: true
+featured: false
 highlight_image: "news/txalaparta-5499.jpg"
 ---
 ****

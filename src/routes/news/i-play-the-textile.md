@@ -4,7 +4,7 @@ date: "2023-09-12"
 slug: "i-play-the-textile"
 title: "I Play the Textile Workshop"
 description: "Sophie Skach teaches intro to e-textiles for marginalised genders"
-featured: true
+featured: false
 ---
 
 <script>

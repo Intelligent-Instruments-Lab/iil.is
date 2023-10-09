@@ -4,7 +4,7 @@ date: "2023-03-09"
 title: "Txalaparta Workshop"
 slug: "txalaparta_dynjandi"
 description: "Join us in learning the Basque txalaparta percussion"
-featured: true
+featured: false
 highlight_image: "news/txalaparta-5499.jpg"
 ---
 ****

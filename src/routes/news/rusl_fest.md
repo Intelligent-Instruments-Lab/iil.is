@@ -4,7 +4,7 @@ date: "2023-03-15"
 title: "RUSL Fest Video"
 slug: "rusl_fest"
 description: "Listen to the trash sounds music"
-featured: true
+featured: false
 highlight_image: "news/trash-5122.jpg"
 ---
 

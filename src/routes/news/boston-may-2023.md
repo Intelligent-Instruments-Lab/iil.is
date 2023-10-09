@@ -5,7 +5,7 @@ slug: "boston-may-2023"
 title: "Research Visit to Boston USA"
 highlight_image: "news/motherbird.jpg"
 description: "Jack & Nicola present work at Harvard & Northeastern universities."
-featured: true
+featured: false
 ---
 
 <script>
