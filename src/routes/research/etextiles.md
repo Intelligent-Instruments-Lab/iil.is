@@ -5,7 +5,7 @@ slug: "etextiles"
 description: "E-textiles as musical interfaces."
 featured: false
 authors: ["Sophie Skach"]
-highlight_image: "research/projects/etextiles.jpeg"
+highlight_image: "research/projects/etextiles.jpg"
 highlight_caption: "Sophie demoing the etextile project."
 ---
 
