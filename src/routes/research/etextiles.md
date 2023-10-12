@@ -9,8 +9,11 @@ highlight_image: "research/projects/etextiles.jpg"
 highlight_caption: "Sophie demoing the etextile project."
 ---
 
-In this project we introduce textiles as a soft, malleable material for intelligent instruments.
+<script>
+  import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
+</script>
 
+In this project we introduce textiles as a soft, malleable material for intelligent instruments.
 
 Traditionally, musical instruments are made of rigid materials, such as wood. Interfaces for digital music making often feature plastic or metal - all materials that provide little ﬂexibility and can feel cold. To challenge these conventions, we ask how we can design instruments that are soft, warm, and ﬂexible. We are interested in how such materials can afford new ways of interaction. Textiles are one of those materials that we are ubiquitously surrounded by, in constant touch with, and therefore very familiar as an interface. 
 
