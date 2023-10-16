@@ -37,4 +37,4 @@ This autumn, the lab PI, prof [Thor Magnusson](http://thormagnusson.github.io), 
 
 **- 14 October:** [New Lutherie with Hans Johannsson](https://www.asmundarsalur.is/omuraldanna?). A round table discussion with Hans Johannsson and Patrick Gaydecki on contemporary lutherie. 
 
-
+**- 16 October:** [Meeting AI](https://www.hi.is/vidburdir/stefnumot_vid_gervigreind). A practice based presentation on ii lab work for the University of Iceland.
