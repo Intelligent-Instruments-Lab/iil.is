@@ -5,6 +5,7 @@ slug: "organisedsound"
 title: "Live Coding issue of Organised Sound"
 description: "A special issue on live coding in the Organised Sound Journal"
 featured: true
+highlight_image: "news/livecoding.jpg"
 ---
 
 <script>
@@ -13,7 +14,7 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 
 Live coding has evolved considerably since its emergence in the early 2000s, as presented in the seminal 2003 Organised Sound (8/3) article ‘Live Coding in Laptop Performance’ by Collins, McLean, Rohrhuber and Ward. Differentiating itself from early laptop music and other computer music, it is a performance practice that promotes the sharing of the musical process with the audience, emphasising the code itself as a form of musical notation. Live coding has been adopted into various fields of art, but as musical algorithmic thinking, it has been explored and developed by many practitioners and collectives across the world up to the present and there is a broad range of divergent practices within the field.
 
-See the special issue [here](https://www.cambridge.org/core/journals/organised-sound/issue/C0C7BBEDEF8AEC11B0E23F26362A11A3)
+Check the special issue [here](https://www.cambridge.org/core/journals/organised-sound/issue/C0C7BBEDEF8AEC11B0E23F26362A11A3)
 
 <CaptionedImage
 src="news/livecoding.jpg"
