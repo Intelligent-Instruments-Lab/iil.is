@@ -26,10 +26,14 @@ What's great about RAVE is that it can run in real time on a laptop and is well 
 
 <iframe width="100%" height="400" aspect-ratio="16/9" src="https://www.youtube.com/embed/ii-dmCbHmos?si=0I5SAU1NIVHLCh1X&amp;start=684" title="Live Coding RAVE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<i>IIL postdoc Jack Armitage live coding RAVE models at Algorithmic Art Assembly 2022</i><br><br>
+<i>IIL postdoc Jack Armitage live coding speech RAVE models at Algorithmic Art Assembly 2022.</i><br><br>
 
 [Hugging Face](https://huggingface.co/huggingface) is a hub for open-source and community machine learning projects -- sort of a Github for ML. We decided to put our RAVE models in a Hugging Face repo for discoverability -- it's an obvious place to search for models -- and it provides a nice user interface and storage while letting us manage the repo via git.
 
 Our new Hugging Face repo contains models of guitar, saxophone, church organ, speaking and singing voices, water, birds, whales, and we'll keep adding more. All our RAVE models inherit the Creative Commons Noncommercial license required by the ACIDS software, meaning you can do just about anything with them except sell the models themselves as part of a product.
+
+<iframe width="100%" height="400" aspect-ratio="16/9" src="https://www.youtube.com/embed/kuxYIYgPrTs?si=YYkFYpJbooMpcuFm&amp;start=2540" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<i>MIT Media Lab's Jessica Shand & Manuel Cherep perform MOTHERBIRD with IIL postdoc Jack Armitage at TENOR 2023, using flute and bird RAVE models.</i><br><br>
 
 Happy synthesizing!
