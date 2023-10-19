@@ -38,6 +38,7 @@ Kira Kira says:
 
 And so it is with everything in life. A good player would then embrace the moment as it is, but also know that anything can happen... '
 
+The album is mastered by Josh Wilkinson
 
 <CaptionedImage
 src="news/langspil-3.jpg"
@@ -60,3 +61,5 @@ Kira Kira segir:
 „Prótó-langspilið er svona hljóðfæri þar sem tímasetning skiptir öllu. Á fullkomnu augnabliki ratar háleitt hljóð í gegn, en í næstu andrá skerandi, dauðaþrjótandi hávaði.
 
 Og þannig er það með allt í lífinu. Góður leikmaður myndi faðma augnablikið eins og það er, en vita líka að allt getur gerst ...“
+
+Josh Wilkinson hljómjafnaði plötuna.
