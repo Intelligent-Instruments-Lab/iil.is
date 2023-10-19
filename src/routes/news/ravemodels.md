@@ -30,10 +30,23 @@ What's great about RAVE is that it can run in real time on a laptop and is well 
 
 [Hugging Face](https://huggingface.co/huggingface) is a hub for open-source and community machine learning projects -- sort of a Github for ML. We decided to put our RAVE models in a Hugging Face repo for discoverability -- it's an obvious place to search for models -- and it provides a nice user interface and storage while letting us manage the repo via git.
 
-Our new Hugging Face repo contains models of guitar, saxophone, church organ, speaking and singing voices, water, birds, whales, and we'll keep adding more. All our RAVE models inherit the Creative Commons Noncommercial license required by the ACIDS software, meaning you can do just about anything with them except sell the models themselves as part of a product.
+Our new Hugging Face repo contains models of guitar, saxophone, church organ, [magnetic resonator piano](https://andrewmcpherson.org/project/mrp), speaking and singing voices, water, birds, whales, and we'll keep adding more. All our RAVE models inherit the Creative Commons Noncommercial license required by the ACIDS software, meaning you can do just about anything with them except sell the models themselves as part of a product.
 
 <iframe width="100%" height="400" aspect-ratio="16/9" src="https://www.youtube.com/embed/kuxYIYgPrTs?si=YYkFYpJbooMpcuFm&amp;start=2540" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <i>MIT Media Lab's Jessica Shand & Manuel Cherep perform MOTHERBIRD with IIL postdoc Jack Armitage at TENOR 2023, using flute and bird RAVE models.</i><br><br>
+
+If use our models, let us know! And remember to cite using:
+
+```
+@misc {intelligent_instruments_lab_2023,
+	author       = { {Intelligent Instruments Lab} },
+	title        = { rave-models (Revision ad15daf) },
+	year         = 2023,
+	url          = { https://huggingface.co/Intelligent-Instruments-Lab/rave-models },
+	doi          = { 10.57967/hf/1235 },
+	publisher    = { Hugging Face }
+}
+```
 
 Happy synthesizing!
