@@ -20,6 +20,8 @@ caption="Gjafir Kairos by Kira Kira ft. Eyjólfur Eyjólfsson"
 
 # Gjafir Kairos (Kairos‘ Gifts) is IIL‘s second proto-langspil release
 
+Out: Friday October 27th 2023
+
 The Intelligent Instruments Label releases its second proto-langspil track: Gjafir Kairos by Kira Kira and Eyjólfur Eyjólfsson. This is a part of an album that showcases an album featuring many diverse artists, all using the proto-langspil instrument as their main music making tool. 
 
 Kira Kira, also known as Kristín Björk Kristjánsdóttir is an Icelandic artist, musician and filmmaker. Together with musician Eyjólfur Eyjólfsson, singer, flautist and probably the most experienced langspil player in Iceland, she created the song Gjafir Kairos. The name is in Icelandic and means Kairos‘ Gifts, although, the name Kairos is ancient Greek, meaning 'the right, critical, or opportune moment.'
@@ -49,6 +51,8 @@ caption="The Proto-Langspil designed at the lab"
 
 Icelandic news release:
 # Gjafir Kairos (Kairos‘ Gifts) er önnur útgáfa af prótó-langspils plötu IIL
+
+Útgáfudagur: Föstudaginn 27. október 2023
 
 The Intelligent Instruments Label gefur út annað prótó-langspils lag: Gjafir Kairos eftir Kiru Kiru og Eyjólf Eyjólfsson. Það er hluti af plötu með ýmsum lögum eftir fjölbreyttan hóp listamanna, sem allir nota prótó-langspilið sem aðalhljóðfæri.
 
