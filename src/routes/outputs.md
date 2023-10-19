@@ -136,6 +136,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Open Source
 Many projects can be found on our [GitHub page](https://github.com/Intelligent-Instruments-Lab/).
+- [RAVE models](https://huggingface.co/Intelligent-Instruments-Lab/rave-models) 
 - iil-python-tools (includes iipyper, iml, Notochord, Tolvera, and more) - [https://github.com/Intelligent-Instruments-Lab/iil-python-tools](https://github.com/Intelligent-Instruments-Lab/iil-python-tools)
 - iil-mrp-tools - [https://github.com/Intelligent-Instruments-Lab/iil-mrp-tools](https://github.com/Intelligent-Instruments-Lab/iil-mrp-tools)
 - flucoma-bela - [https://github.com/jarmitage/flucoma-bela](https://github.com/jarmitage/flucoma-bela)
