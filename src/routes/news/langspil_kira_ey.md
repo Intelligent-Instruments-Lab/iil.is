@@ -13,7 +13,7 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
 <CaptionedImage
-src="news/Gjafir_Kairos.png"
+src="news/Gjafir_Kairos.jpeg"
 alt="Art Work for a single with a blue waterfall"
 caption="Gjafir Kairos by Kira Kira ft. Eyjólfur Eyjólfsson"
 />
