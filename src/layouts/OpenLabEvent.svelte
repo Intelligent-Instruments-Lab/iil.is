@@ -58,7 +58,7 @@
           font-hauser uppercase 
           text-sm sm:text-md text-primary-700
           ">
-          Open Lab {edition}, {new Date(date).toDateString()}
+          {description}<br>Open Lab {edition}, {new Date(date).toDateString()}
         </div>
         <div class="p-2 sm:p-4"><slot/></div>
       </div>
