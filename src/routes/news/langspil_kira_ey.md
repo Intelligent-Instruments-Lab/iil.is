@@ -29,7 +29,7 @@ Kira Kira, also known as Kristín Björk Kristjánsdóttir is an Icelandic artis
 The music is written, produced and mixed by Kira Kira. She also plays the proto-langspil and sings. Eyjólfur Eyjólfsson plays traditional langspil and Kristófer Rodriguez Svönuson plays the drums. All sounds are sourced from the two langspil except the vocals and the drums. Kira Kira recorded the piece in Studio Garðshús, Stokkseyri in 2023.
 
 <CaptionedImage
-src="news/KiraKira_artwork.jpg"
+src="news/kira_ey.jpg"
 alt="A pretty blue landscape with a waterfall in the foreground"
 caption="Kira Kira's photo"
 />
