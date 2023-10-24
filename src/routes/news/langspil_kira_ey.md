@@ -31,7 +31,7 @@ The music is written, produced and mixed by Kira Kira. She also plays the proto-
 <CaptionedImage
 src="news/kira_ey.jpg"
 alt="A pretty blue landscape with a waterfall in the foreground"
-caption="Kira Kira's photo"
+caption="Kira Kira and Eyjólfur Eyjólfsson"
 />
 
 Kira Kira says: 
