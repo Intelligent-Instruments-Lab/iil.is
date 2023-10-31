@@ -36,6 +36,9 @@ Our new Hugging Face repo contains models of guitar, saxophone, church organ, [m
 
 <i>MIT Media Lab's Jessica Shand & Manuel Cherep perform MOTHERBIRD with IIL postdoc Jack Armitage at TENOR 2023, using flute and bird RAVE models.</i><br><br>
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/0-2JwrtS8fw" title="TouTube video player" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
+
+<i>Nicola Privato performing Mouija, a piece using Stacco and Thales, two magnetic instruments developed at IIL. The video features magnets, water, speech, choir, organ RAVE models</i><br><br>
 If use our models, let us know! And remember to cite using:
 
 ```
