@@ -32,6 +32,8 @@ What's great about RAVE is that it can run in real time on a laptop and is well 
 
 Our new Hugging Face repo contains models of guitar, saxophone, church organ, [magnetic resonator piano](https://andrewmcpherson.org/project/mrp), speaking and singing voices, water, birds, whales, and we'll keep adding more. All our RAVE models inherit the Creative Commons Noncommercial license required by the ACIDS software, meaning you can do just about anything with them except sell the models themselves as part of a product.
 
+The repo also includes some model checkpoints which can be used with our [fork of the RAVE code](https://github.com/victor-shepardson/RAVE) to speed up training via transfer learning.
+
 <iframe width="100%" height="400" aspect-ratio="16/9" src="https://www.youtube.com/embed/kuxYIYgPrTs?si=YYkFYpJbooMpcuFm&amp;start=2540" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <i>MIT Media Lab's Jessica Shand & Manuel Cherep perform MOTHERBIRD with IIL postdoc Jack Armitage at TENOR 2023, using flute and bird RAVE models.</i><br><br>
