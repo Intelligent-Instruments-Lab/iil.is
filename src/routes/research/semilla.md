@@ -28,9 +28,15 @@ The SEMILLA AI instrument employs computer vision techniques to translate the co
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_2C3XeQgGtY?si=TP69qtf42LStzius" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
 This ongoing artistic-research project aims to re-enchant the typically cold and statistical culture of Machine Learning poetics by looking beyond the Western paradigm of 'optimized' interfaces. Instead, it focuses on indigenous epistemologies, redirecting the research gaze to consider how these can reshape our relationship with predictive systems, such as modern-day AI.
 
-# Links:
-[http://semilla.ai](http://semilla.ai)
-[http://moiseshorta.audio](http://moiseshorta.audio)
-[http://hexorcismos.bandcamp.com](http://hexorcismos.bandcamp.com)
+
+# Links:  
+
+[http://semilla.ai](http://semilla.ai)  
+
+[http://moiseshorta.audio](http://moiseshorta.audio)  
+
+[http://hexorcismos.bandcamp.com](http://hexorcismos.bandcamp.com)  
+
