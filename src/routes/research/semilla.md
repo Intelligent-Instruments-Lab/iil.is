@@ -5,7 +5,7 @@ slug: "semilla"
 description: "A Mexican instrument of sonic clairvoyance"
 featured: true
 authors: ["Hexorcismos", "Moises Horta"]
-highlight_image: "news/semilla1.jpeg"
+highlight_image: "research/projects/semilla1.jpg"
 highlight_caption: "A picture of the instrument"
 ---
 
