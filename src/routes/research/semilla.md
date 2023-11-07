@@ -1,10 +1,10 @@
 ---
 layout: researchproject
-title: "Semilla"
+title: "Semilla AI"
 slug: "semilla"
 description: "A Mexican instrument of sonic clairvoyance"
 featured: true
-authors: ["Hexorcismos", "Moises Horta"]
+authors: ["Moises Horta Valenzuela"]
 highlight_image: "research/projects/semilla1.jpg"
 highlight_caption: "A picture of the instrument"
 ---
