@@ -2,11 +2,11 @@
 layout: researchproject
 title: "Semilla AI"
 slug: "semilla"
-description: "A Mexican instrument of sonic clairvoyance"
+description: "Multidimensional exploration through sonic clairvoyance"
+highlight_image: "research/projects/semilla1.jpg"
 featured: true
 authors: ["Moises Horta Valenzuela"]
-highlight_image: "research/projects/semilla1.jpg"
-highlight_caption: "A picture of the instrument"
+highlight_caption: ""
 ---
 
 <script>
