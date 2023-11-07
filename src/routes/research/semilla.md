@@ -5,7 +5,7 @@ slug: "semilla"
 description: "Multidimensional exploration through sonic clairvoyance"
 highlight_image: "research/projects/semilla1.jpg"
 featured: true
-authors: ["Moises Horta Valenzuela"]
+authors: ["Moisés Horta Valenzuela"]
 highlight_caption: ""
 ---
 
