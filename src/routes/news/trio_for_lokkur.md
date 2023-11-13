@@ -21,8 +21,11 @@ caption="Trio for Lokkur, langspil and proto-langspil by Berglind María Tómasd
 # Trio for Lokkur, langspil and proto-langspil is IIL‘s third proto-langspil release
 
 Single by Berglind María Tómasdóttir
+
 Release date: November 17th 2023
+
 Master: Josh Wilkinson
+
 Label: Intelligent Instruments Lab
 
 As the title indicates, the piece is a trio of the instruments: Lokkur, langspil and proto-langspil. It is a piece by composer Berglind María Tómasdóttir who wrote it for the proto-langspil album, a collection of proto-langspil experiment by various artists. It is set to be released on Friday, November 17th. 
@@ -47,7 +50,9 @@ caption="Berglind María Tómasdóttir"
 Lag eftir Berglindi Maríu Tómasdóttur
 
 Útgáfudagur: 17. nóvember 2023
+
 Hljómjöfnun: Josh Wilkinson
+
 Útgefandi: Intelligent Instruments Lab
 
 Eins og titillinn gefur til kynna má heyra þrjú hljóðfæri í laginu: Lokkur, langspil og prótó-langspil. Þetta verk er eftir tónskáldið Berglindi Maríu Tómasdóttur sem samdi það fyrir prótó-langspils plötuna, safn tilrauna ýmissa listamanna sem notuðu þetta nýja hljóðfæri í frumsköpun sinni. Lagið kemur út á föstudaginn, 17. nóvember.
