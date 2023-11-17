@@ -52,16 +52,22 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - “Exploring XAI for the Arts” by Nick Bryan-Kinns, Berker Banar, Corey Ford, Courtney N. Reed, Yixiao Zhang, Simon Colton, and Jack Armitage at the *1st Workshop on eXplainable AI approaches for debugging and diagnosis* at the *NeurIPS conference*.
 
 # Books and Book chapters
-- Live Coding: A User's Manual, by Alan Blackwell, Emma Cocker, Geoff Cox, Alex McLean and Thor Magnusson. 2022. Open Access [here](https://livecodingbook.toplap.org). Info at [MIT Press](https://mitpress.mit.edu/books/live-coding)
+- _Live Coding: A User's Manual_, by Alan Blackwell, Emma Cocker, Geoff Cox, Alex McLean and Thor Magnusson. 2022. Open Access [here](https://livecodingbook.toplap.org). Info at [MIT Press](https://mitpress.mit.edu/books/live-coding)
 - “Designing the Threnoscope, or, How I Wrote One of My Pieces” by Thor Magnusson in *Sound Work: Composition as Critical Technical Practice*, published by Orpheus Institut. 2021. [[url](https://orpheusinstituut.be/en/publications/sound-work)]
 
 # Journal articles
+
+- _Editorial: Live Coding Sonic Creativities_ by Anna Xambo, Gerard Roma and Thor Magnusson. 2023. [[url](https://www.cambridge.org/core/journals/organised-sound/article/editorial-live-coding-sonic-creativities/7CAFDFB2FB693C44A77017225A413FD8)]
 - _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson. 2021. [[url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)]
 
-# Hosted Conferences, Symposia and Workshops
+# Hosted Conferences and Symposia
+- *Artificial Intelligence and Music Creativity* (August 2023). An international conference with papers, workshops, presentations and performances. [[url](https://aimc2023.pubpub.org)]
+- *Moving Strings Symposium* (December 2021). An international symposium with workshops, presentations and performances. [[url](https://iil.is/news/moving-strings)]
+
+# Intelligent Instruments Workshops
 - *Live Coding Self-Organising Systems*. Jack Armitage. [CuteLab.NYC](https://cutelab.nyc), New York, NY, USA. September 2023.
 - *Agential Instruments Design Workshop*. Jack Armitage, Victor Shepardson, Nicola Privato, Teresa Pelinski, Adan L Benito Temprano, Lewis Wolstanholme, Andrea Martelloni, Franco Santiago Caspe, Courtney N. Reed, Sophie Skach, Rodrigo Diaz, Sean Patrick O'Brien, and Jordie Shier. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/25mg4xnz)]. 
-- *Artificial Intelligence and Music Creativity* (August 2023). An international conference with papers, workshops, presentations and performances. [[url](https://aimc2023.pubpub.org)]
+- *Organic Intelligence*. [Workshop](https://iil.is/news/organic-intelligence) on the AI control of Hallgrimskirkja's Klais organ. 2023.
 - *Embedded AI for NIME: Challenges and Opportunities*. Workshop run at NIME with two other institutions. 2022.
 - *Living Algorithms* workshop at *Raflost festival.* 2022.
 - *Media Lab Aalto Workshop*. Applying ii lab technologies in teaching. 2022. 
@@ -69,13 +75,12 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - *Ii lab workshop* at Omar festival. Hjalteyri. A workshop in ii lab technologies. 2022. 
 - *HLCI Workshop* Online organised by Jack Armitage.
 - *Panel session:* Making art with Machines: Voices, Instruments, Bodies and Sound at the Iceland University of the Arts 2022,
-- *Moving Strings Symposium* (December 2021). An international symposium with workshops, presentations and performances. [[url](https://iil.is/news/moving-strings)]
-- *Sema Worshop* (September 2021) Mexico City.
+- *Sema Worshop* on live coding with machine learning in Web Audio (September 2021) Mexico City.
 
 # Workshop Participation
-- *NIFTY workshop*. Thor Magnusson presenting ii lab work at instrument design conference.
-- *HLCI Workshop*. Presentation by Victor Shepardson.
-- *Feedback Musicianship Network workshop.* Halldor Ulfarsson and Thor Magnusson. At Aalborg University.
+- *NIFTY workshop*. Thor Magnusson presenting ii lab work at instrument design conference. 2023.
+- *HLCI Workshop*. Presentation by Victor Shepardson. 2022.
+- *Feedback Musicianship Network workshop.* Halldor Ulfarsson and Thor Magnusson. At Aalborg University. 2021.
 
 # Residencies
 - Nyksund writing residency. Nyksund, Norway. Thor Magnusson. 2022.
@@ -83,6 +88,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - Tangible Music Lab residency. Linz. Nicola Privato. 2023.
 
 # Presentations
+- _The digital and the analogue_, A conversation between Thor Magnusson, Hans Johannsson and Patrick Gaydecki. As part of Johansson's [instrument exhibition](https://www.asmundarsalur.is/omuraldanna). Ásmundarsalur, Reykjavík, Iceland, 10 Oct, 2023.
 - "Agentology for Organology: Cyber-, Bio-, & Eco-Semiotic Perspectives on Instrumental Agency" Jack Armitage at *Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media*, May 11 2023, Harvard University Department of Music, Cambridge, MA
 - “In Between the Analogue and the Digital” Thor Magnusson in a panel session at the *International Conference on Live Interfaces*. ICLI 2022.
 - “Keynote at ICLC 2021” Thor Magnusson at the *International Conference on Live Coding 2021*
@@ -109,22 +115,25 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
 
 # Performances
+
+- _Ómur Aldanna - Performance by Adam Pulz Melbye and Julia Mogensen_, Part of Hans Johannsson's [instrument exhibition](https://www.asmundarsalur.is/omuraldanna). Ásmundarsalur, Reykjavík, Iceland, 10 Oct, 2023.
 - _Post-dreifing presents Supersoaker #3_, Jack Armitage, Live Coding & DJ Set, Prikið, Reykjavík, Iceland, 5 Oct, 2023.
 - _Gagnavera at AIMC 2023 Algorave_, Jack Armitage, Live Coding, St. Mary's Church, Brighton, UK, 1 Sep, 2023.
 - _PIKKNIKK #6_, Jack Armitage, Live Coding, Nordic House, Reykjavík, Iceland, 29 July, 2023.
+- _OMAR festival_, Thor Magnusson, Victor Shepardson and Giacomo Lepri. 2023.
 - _LungA Festival_, Jack Armitage, Live Coding & DJ Set, Seyðisfjörður, Iceland, 15 July, 2023.
 - _HÁTÍÐNI Festival_, Jack Armitage, Live Coding & DJ Set, Borðeyri, Iceland, 1 July, 2023.
 - _Pandora's Mycophony_, Jack Armitage with Celeste Betancur, Audiovisual live coding with artificial life and machine learning, NIME 2023, Mexico City, Mexico, 2 June, 2023.
 - [IILBD002](https://iil.is/news/iilbd02), Mengi, August 2023. Featuring Celeste Betancur, Adam Pultz, Júlía Mogensen, Robin Morabito, Victor Shepardson, Nicola Privato, Jack Armitage.
 - Nicola Privato at [Ars Electronica 2023](https://ars.electronica.art/who-owns-the-truth/en/events-concerts-performances/), presenting a lecture-performance titled _AI Expainability, Embodiment and Sound in Space: a Case Study_.
-- _MOTHERBIRD_, Jessica Shand, Manuel Cherep and Jack Armitage, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA
-- _FerroNeural_, Jack Armitage & Nicola Privato, at *Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media*, May 11 2023, Harvard University Department of Music, Cambridge, MA.
-- RAFLOST Festival Opening Party. Jack Armitage.
-- OMAR festival. Victor Shepardson et al.
+- _MOTHERBIRD_, Jessica Shand, Manuel Cherep and Jack Armitage, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, Northeastern University, Cambridge, MA. May 16 2023.
+- _FerroNeural_, Jack Armitage & Nicola Privato, at *Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media*, Harvard University Department of Music, Cambridge, MA. May 11 2023.
+- RAFLOST Festival Opening Party. Jack Armitage. 2022.
+- OMAR festival. Victor Shepardson et al. 2022.
 - Trash Sounds Workshop at RUSL Festival. Final performance.
 - Live coding Tidal with Rave. Algorithmic Arts Assembly. Jack Armitage.
-- Lil Data at PC Music Vol. 3. London. Jack Armitage.
-- Intelligent Instruments’ Birthday Party at Mengi. Marco Donnarumma, Jonathan Chaim Reus, Hekla, Bob & Vic.
+- Lil Data at PC Music Vol. 3. London. Jack Armitage. 2022.
+- Intelligent Instruments’ Birthday Party at Mengi. Marco Donnarumma, Jonathan Chaim Reus, Hekla, Bob & Vic. 2022.
 
 # Installataions and Exhibitions
 - Nicola Privato and Eva Sajovic present the installation _End of Empire_ at the [British Textile Biennial](https://britishtextilebiennial.co.uk/programme/eva-sajovic-end_of_empire/), Manchester.
@@ -132,8 +141,10 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - [Strengjavera](https://aimc2023.pubpub.org/pub/83k6upv8/release/2), Jack Armitage, Magnetic Resonator Piano and ALife, AIMC 2023, Brighton, UK, Sep 2023.
 
 # Consultancies
-- Jack Armitage was a technical consultant on the soundtrack for [Apple TV+ sci-fi series Silo](https://en.wikipedia.org/wiki/Silo_(TV_series)), working with [INNI Music](https://www.innimusic.com/) founder and composer [Atli Örvarsson](https://en.wikipedia.org/wiki/Atli_%C3%96rvarsson).
-- Thor Magnusson was a consultant on the [Turn it Up](https://www.scienceandindustrymuseum.org.uk/whats-on/turn-it-up) exhibition in the Science and Industry Museum in Manchester.
+- Thor Magnusson was a consultant on the [Turn it Up](https://www.sciencemuseum.org.uk/see-and-do/turn-it-up) exhibition at the Science Museum in London. 2023.
+- Jack Armitage was a technical consultant on the soundtrack for [Apple TV+ sci-fi series Silo](https://en.wikipedia.org/wiki/Silo_(TV_series)), working with [INNI Music](https://www.innimusic.com/) founder and composer [Atli Örvarsson](https://en.wikipedia.org/wiki/Atli_%C3%96rvarsson). 2023.
+- Thor Magnusson was a consultant on the [Turn it Up](https://www.scienceandindustrymuseum.org.uk/whats-on/turn-it-up) exhibition in the Science and Industry Museum in Manchester. 2022.
+
 
 # Open Source
 Many projects can be found on our [GitHub page](https://github.com/Intelligent-Instruments-Lab/).
@@ -147,4 +158,3 @@ Many projects can be found on our [GitHub page](https://github.com/Intelligent-I
 - RapidLibBela - [https://github.com/jarmitage/RapidLibBela](https://github.com/jarmitage/RapidLibBela)
 - ScalaScales - [https://github.com/Intelligent-Instruments-Lab/ScalaScales](https://github.com/Intelligent-Instruments-Lab/ScalaScales)
 - proto-langspil - [https://github.com/Intelligent-Instruments-Lab/proto-langspil](https://github.com/Intelligent-Instruments-Lab/proto-langspil)
-
