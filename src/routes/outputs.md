@@ -68,9 +68,9 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 # Intelligent Instruments Workshops
 - *Live Coding Self-Organising Systems*. Jack Armitage. [CuteLab.NYC](https://cutelab.nyc), New York, NY, USA. September 2023.
 - *Agential Instruments Design Workshop*. Jack Armitage, Victor Shepardson, Nicola Privato, Teresa Pelinski, Adan L Benito Temprano, Lewis Wolstanholme, Andrea Martelloni, Franco Santiago Caspe, Courtney N. Reed, Sophie Skach, Rodrigo Diaz, Sean Patrick O'Brien, and Jordie Shier. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/25mg4xnz)]. 
-- *Txalaparta and AI*. [Workshop](https://iil.is/news/txalaparta_dynjandi) Txalaparta workshop in Dynjandi. April 2023.
-- *Txalaparta in Strandir*. [Workshop](https://iil.is/news/txalaparta_strandir) A workshop in Strandir. April 2023.
-- *Organic Intelligence*. [Workshop](https://iil.is/news/organic-intelligence) on the AI control of Hallgrimskirkja's Klais organ. February 2023.
+- *Txalaparta and AI*. Txalaparta workshop in Dynjandi. April 2023. [[info](https://iil.is/news/txalaparta_dynjandi)]
+- *Txalaparta in Strandir*. A workshop in Strandir. April 2023. [[info](https://iil.is/news/txalaparta_strandir)]
+- *Organic Intelligence*. A workshop on the AI control of Hallgrimskirkja's Klais organ. February 2023. [[info](https://iil.is/news/organic-intelligence)]
 - *Embedded AI for NIME: Challenges and Opportunities*. Workshop run at NIME with two other institutions. 2022.
 - *Living Algorithms* workshop at *Raflost festival.* 2022.
 - *Media Lab Aalto Workshop*. Applying ii lab technologies in teaching. 2022. 
