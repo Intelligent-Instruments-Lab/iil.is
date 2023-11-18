@@ -62,8 +62,12 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson. 2021. [[url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)]
 
 # Hosted Conferences and Symposia
+
+- *Artificial Intelligence and Copyright* (September 2023). We co-organised a conference with STEF on copyright at the age of artificial intellgence. [[url](https://stef.is/frettir/timinn-lidur-hratt-a-gervigreindarold-malthing-um-gervigreind-og-hofundarett/)]. A video stream of the conference can be found [here](https://www.youtube.com/watch?v=J1wQffSFbn4&t=305s).
 - *Artificial Intelligence and Music Creativity* (August 2023). An international conference with papers, workshops, presentations and performances. [[url](https://aimc2023.pubpub.org)]
+- *Ómar Festival"* (July 2023). Performances and demos in Hjalteyri. [[url](https://verksmidjanhjalteyri.com/omar)]
 - *Moving Strings Symposium* (December 2021). An international symposium with workshops, presentations and performances. [[url](https://iil.is/news/moving-strings)]
+
 
 # Intelligent Instruments Workshops
 - *Live Coding Self-Organising Systems*. Jack Armitage. [CuteLab.NYC](https://cutelab.nyc), New York, NY, USA. September 2023.
@@ -92,6 +96,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Presentations
 - _The digital and the analogue_, A conversation between Thor Magnusson, Hans Johannsson and Patrick Gaydecki. As part of Johansson's [instrument exhibition](https://www.asmundarsalur.is/omuraldanna). Ásmundarsalur, Reykjavík, Iceland, 10 Oct, 2023.
+- _CHIME Seminar_, Presentations and discussion with Thor Magnusson and Astrid Bin [url](https://www.chime.ac.uk/chime-seminar-sm-astrid-bin-and-thor-magnusson). As part of the EPSRC funded CHIME network. 4 Oct, 2023.
 - "Agentology for Organology: Cyber-, Bio-, & Eco-Semiotic Perspectives on Instrumental Agency" Jack Armitage at *Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media*, May 11 2023, Harvard University Department of Music, Cambridge, MA
 - “In Between the Analogue and the Digital” Thor Magnusson in a panel session at the *International Conference on Live Interfaces*. ICLI 2022.
 - “Keynote at ICLC 2021” Thor Magnusson at the *International Conference on Live Coding 2021*
@@ -139,8 +144,8 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - Intelligent Instruments’ Birthday Party at Mengi. Marco Donnarumma, Jonathan Chaim Reus, Hekla, Bob & Vic. 2022.
 
 # Installataions and Exhibitions
-- Nicola Privato and Eva Sajovic present the installation _End of Empire_ at the [British Textile Biennial](https://britishtextilebiennial.co.uk/programme/eva-sajovic-end_of_empire/), Manchester.
-- Dr Sophie Skach and Victor Shepardson present their no-input textiles at the 2023 [Textile Intersections](https://www.textile-intersections.com/exhibition/) Conference in London.
+- Nicola Privato and Eva Sajovic present the installation _End of Empire_ at the [British Textile Biennial](https://britishtextilebiennial.co.uk/programme/eva-sajovic-end_of_empire/), Manchester. Summer 2023.
+- Dr Sophie Skach and Victor Shepardson present their no-input textiles at the 2023 [Textile Intersections](https://www.textile-intersections.com/exhibition/) Conference in London. Summer 2023.
 - [Strengjavera](https://aimc2023.pubpub.org/pub/83k6upv8/release/2), Jack Armitage, Magnetic Resonator Piano and ALife, AIMC 2023, Brighton, UK, Sep 2023.
 
 # Consultancies
