@@ -24,7 +24,7 @@
         .reverse()
   }
   $: all = {
-    size: 4, page: 1,
+    size: 10, page: 1,
     items:
       items.sort((fst,snd)=>new Date(fst.metadata.date) - new Date(snd.metadata.date))
       .reverse()
