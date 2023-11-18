@@ -5,7 +5,7 @@ slug: "about"
 description: "Outputs from the Intelligent Instruments Lab."
 ---
 
-Here we collect some of the various Outputs of the lab, organised under the following categories:
+Intelligent Instruments Lab outputs organised under the following categories:
 
 - [Conference Papers](#conference-papers)
 - [Books and Book chapters](#books-and-book-chapters)
