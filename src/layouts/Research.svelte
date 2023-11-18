@@ -11,7 +11,7 @@
   let seo_title = "Research"
   let seo_description = "Research Projects from the Intelligent Instruments Lab."
   let seo_url = '/research'
-  let seo_image = '/seo/sean_coils.jpg'
+  let seo_image = '/seo/stacco.jpg'
 
   let items = projects
 

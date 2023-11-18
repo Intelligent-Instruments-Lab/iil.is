@@ -16,7 +16,7 @@
   let seo_title = title
   let seo_description = description
   let seo_url = ''
-  let seo_image = '/seo/sean_coils.jpg'
+  let seo_image = '/seo/stacco.jpg'
 
   let cta_links = [
     { url: "/research", label: "Learn More", theme: "dark", target: "_self" }

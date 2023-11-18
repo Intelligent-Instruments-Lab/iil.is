@@ -15,7 +15,7 @@
   let seo_title = title
   let seo_description = description
   let seo_url = '/news/'+slug
-  let seo_image = '/seo/sean_coils.jpg'
+  let seo_image = '/seo/stacco.jpg'
   if (highlight_image != undefined ||
       highlight_image === '')
     seo_image = '/images/'+highlight_image

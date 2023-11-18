@@ -16,7 +16,7 @@
   let seo_title = title
   let seo_description = description
   let seo_url = '/outputs'
-  let seo_image = '/seo/sean_coils.jpg'  
+  let seo_image = '/seo/stacco.jpg'  
   
   onMount(async () => {
     $Layout.menu = false
