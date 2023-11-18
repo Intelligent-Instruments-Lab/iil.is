@@ -21,6 +21,7 @@
   }
 </style>
 
+<center>
 <div class="{($Layout.menu || $Layout.page === 'home') ? 'menuActive' : 'menuInactive'}">
   <div class="pt-8 pl-6 max-w-screen-xl hidden md:block mb-4 lg:mb-10">
     <div class="grid grid-cols-8">
@@ -79,3 +80,4 @@
     </div>
   </div>
 </div>
+</center>
