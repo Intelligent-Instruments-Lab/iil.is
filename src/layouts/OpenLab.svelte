@@ -65,6 +65,7 @@
 {#if $Layout.menu}
   <Menu/>
 {:else}
+<center>
   <div class="bg-primary border-dashed border-secondary border-4">
     <main class="p-10 sm:p-12 md:p-14 max-w-3xl">
       <article>
@@ -170,4 +171,5 @@
       </article>
     </main>
   </div>
+  </center>
 {/if}
