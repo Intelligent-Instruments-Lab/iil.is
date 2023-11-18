@@ -73,7 +73,7 @@
           {title}
         </h1>
         <div class="mt-4 sm:mt-8 p-2">
-          <p>Here you will find our research projects.</p>
+          <p>Information about some of the key research projects at the Intelligent Instruments Lab.</p>
         </div>
         <div class="mt-2 sm:p-2">
           <!-- <h2 class="font-hauser text-secondary

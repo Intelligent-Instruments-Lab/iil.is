@@ -25,7 +25,7 @@
         .sort((fst,snd)=>fst.metadata.edition - snd.metadata.edition)
   }
   $: past = {
-    size: 4, page: 1,
+    size: 20, page: 1,
     items:
       items
         .filter(i=>new Date(i.metadata.date) < new Date())
