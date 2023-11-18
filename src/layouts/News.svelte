@@ -43,7 +43,7 @@
   const methods = {
     dayMonth: d => {
       d = new Date(d)
-      const options = {  month: 'short', day: 'numeric' };
+      const options = { year: 'numeric',  month: 'short', day: 'numeric' };
       return d.toLocaleDateString('en-US', options)
       // return (d.getDate().toString()+'.'+d.getMonth().toString())
     },
