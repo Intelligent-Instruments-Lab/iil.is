@@ -73,7 +73,7 @@
           {title}
         </h1>
         <div class="mt-4 sm:mt-8 p-2">
-          <p>News about publications, workshops, performances and other by the Intelligent Instruments Lab. Check Open Lab events <a href="http://www.iil.is/openlab">here</a></p>
+          <p>News about publications, workshops, performances and other activities by the Intelligent Instruments Lab. Check Open Lab events <a href="http://www.iil.is/openlab">here</a></p>
         </div>
         <div class="mt-2 sm:p-2">
           <h2 class="font-hauser text-secondary
