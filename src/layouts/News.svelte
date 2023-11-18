@@ -64,6 +64,7 @@
   <Menu/>
 {:else}
 <center>
+<div style="text-align: center;">
   <div class="bg-primary border-dashed border-secondary border-4">
     <main class="p-10 sm:p-12 md:p-14 max-w-3xl">
       <article>
@@ -162,6 +163,7 @@
         </div>
       </article>
     </main>
+  </div>
   </div>
   </center>
 {/if}
