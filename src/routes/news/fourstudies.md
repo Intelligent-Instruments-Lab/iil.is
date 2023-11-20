@@ -5,7 +5,7 @@ slug: "fourstudies"
 title: "Four studies for halldorophone and machine intelligence"
 description: "Digitally augmented halldorophone."
 featured: true
-highlight_image: "stock/halldorophone.jpeg"
+highlight_image: "stock/halldorophone_yellow.jpeg"
 ---
 
 <script>
@@ -13,7 +13,7 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
 <CaptionedImage
-src="stock/halldorophone.jpeg"
+src="stock/halldorophone_yellow.jpeg"
 alt="A cello like instrument"
 caption="The halldorophone"
 />
