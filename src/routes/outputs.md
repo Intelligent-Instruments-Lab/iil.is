@@ -66,22 +66,23 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - *Artificial Intelligence and Copyright* (September 2023). We co-organised a conference with STEF on copyright at the age of artificial intellgence. [[url](https://stef.is/frettir/timinn-lidur-hratt-a-gervigreindarold-malthing-um-gervigreind-og-hofundarett/)]. A video stream of the conference can be found [here](https://www.youtube.com/watch?v=J1wQffSFbn4&t=305s).
 - *Artificial Intelligence and Music Creativity* (August 2023). An international conference with papers, workshops, presentations and performances. [[url](https://aimc2023.pubpub.org)]
 - *Ómar Festival"* (July 2023). Performances and demos in Hjalteyri. [[url](https://verksmidjanhjalteyri.com/omar)]
+- *Composing Systems and Contemporary Luthiere* panels at Nordic Music Days, October 2022. [[info](https://iil.is/news/nordic-music-days-22)]
 - *Moving Strings Symposium* (December 2021). An international symposium with workshops, presentations and performances. [[url](https://iil.is/news/moving-strings)]
 
 
 # Intelligent Instruments Workshops
 - *Live Coding Self-Organising Systems*. Jack Armitage. [CuteLab.NYC](https://cutelab.nyc), New York, NY, USA. September 2023.
 - *Agential Instruments Design Workshop*. Jack Armitage, Victor Shepardson, Nicola Privato, Teresa Pelinski, Adan L Benito Temprano, Lewis Wolstanholme, Andrea Martelloni, Franco Santiago Caspe, Courtney N. Reed, Sophie Skach, Rodrigo Diaz, Sean Patrick O'Brien, and Jordie Shier. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/25mg4xnz)]. 
-- *Latent Soundings Workshop*. A workshop in Neural Audio Synthesis. [[info](https://iil.is/news/latent-soundings)]
+- *Latent Soundings Workshop*. A workshop in Neural Audio Synthesis. June, 2023. [[info](https://iil.is/news/latent-soundings)]
 - *Txalaparta and AI*. Txalaparta workshop in Dynjandi. April 2023. [[info](https://iil.is/news/txalaparta_dynjandi)]
 - *Txalaparta in Strandir*. A workshop in Strandir. April 2023. [[info](https://iil.is/news/txalaparta_strandir)]
 - *Organic Intelligence*. A workshop on the AI control of Hallgrimskirkja's Klais organ. February 2023. [[info](https://iil.is/news/organic-intelligence)]
 - *Embedded AI for NIME: Challenges and Opportunities*. Workshop run at NIME with two other institutions. 2022.
 - *Living Algorithms* workshop at *Raflost festival.* 2022.
-- *Nordic Music Days* Workshops at this festival of Nordic Music. [[info](https://iil.is/news/nordic-music-days-22)]
-- *ixi - Media Lab Aalto Workshop*. Applying ii lab technologies in teaching. 2022. 
+- *Nordic Music Days* Workshops at this festival of Nordic Music. September 2022. [[info](https://iil.is/news/nordic-music-days-22)]
+- *ixi - Media Lab Aalto Workshop*. Applying ii lab technologies in teaching. May, 2022. 
 - *Trash Sounds Workshop* @ RUSL Festival. 2022. 
-- *Ii lab workshop* at Omar festival. Hjalteyri. A workshop in ii lab technologies. 2022. 
+- *ii lab workshop* at Omar festival. Hjalteyri. A workshop in ii lab technologies. August, 2022. 
 - *HLCI Workshop* Online organised by Jack Armitage.
 - *Panel session:* Making art with Machines: Voices, Instruments, Bodies and Sound at the Iceland University of the Arts 2022,
 - *Sema Worshop* on live coding with machine learning in Web Audio (September 2021) Mexico City.
@@ -132,7 +133,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - _Gagnavera at AIMC 2023 Algorave_, Jack Armitage, Live Coding, St. Mary's Church, Brighton, UK, 1 Sep, 2023.
 - _Live coding at Menningarnótt_, Reykjavik, 2023. [[info](https://iil.is/news/menningarnott-2023)]
 - _PIKKNIKK #6_, Jack Armitage, Live Coding, Nordic House, Reykjavík, Iceland, 29 July, 2023.
-- _II Lab 2nd Birthday concert_ in Mengi, Reykjavik. [[info](https://iil.is/news/iilbd02)]
+- _II Lab 2nd Birthday concert_ in Mengi, Reykjavik. August, 2023. [[info](https://iil.is/news/iilbd02)]
 - _OMAR festival_, Thor Magnusson, Victor Shepardson and Giacomo Lepri. 2023.
 - _LungA Festival_, Jack Armitage, Live Coding & DJ Set, Seyðisfjörður, Iceland, 15 July, 2023.
 - _HÁTÍÐNI Festival_, Jack Armitage, Live Coding & DJ Set, Borðeyri, Iceland, 1 July, 2023.
