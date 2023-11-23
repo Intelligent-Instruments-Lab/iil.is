@@ -72,6 +72,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 # Intelligent Instruments Workshops
 - *Live Coding Self-Organising Systems*. Jack Armitage. [CuteLab.NYC](https://cutelab.nyc), New York, NY, USA. September 2023.
 - *Agential Instruments Design Workshop*. Jack Armitage, Victor Shepardson, Nicola Privato, Teresa Pelinski, Adan L Benito Temprano, Lewis Wolstanholme, Andrea Martelloni, Franco Santiago Caspe, Courtney N. Reed, Sophie Skach, Rodrigo Diaz, Sean Patrick O'Brien, and Jordie Shier. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/25mg4xnz)]. 
+- *Latent Soundings Workshop*. A workshop in Neural Audio Synthesis. [[info](https://iil.is/news/latent-soundings)]
 - *Txalaparta and AI*. Txalaparta workshop in Dynjandi. April 2023. [[info](https://iil.is/news/txalaparta_dynjandi)]
 - *Txalaparta in Strandir*. A workshop in Strandir. April 2023. [[info](https://iil.is/news/txalaparta_strandir)]
 - *Organic Intelligence*. A workshop on the AI control of Hallgrimskirkja's Klais organ. February 2023. [[info](https://iil.is/news/organic-intelligence)]
@@ -98,7 +99,8 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 # Presentations
 - _The digital and the analogue_, A conversation between Thor Magnusson, Hans Johannsson and Patrick Gaydecki. As part of Johansson's [instrument exhibition](https://www.asmundarsalur.is/omuraldanna). Ásmundarsalur, Reykjavík, Iceland, 10 Oct, 2023.
 - _CHIME Seminar_, Presentations and discussion with Thor Magnusson and Astrid Bin [url](https://www.chime.ac.uk/chime-seminar-sm-astrid-bin-and-thor-magnusson). As part of the EPSRC funded CHIME network. 4 Oct, 2023.
-- "Agentology for Organology: Cyber-, Bio-, & Eco-Semiotic Perspectives on Instrumental Agency" Jack Armitage at *Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media*, May 11 2023, Harvard University Department of Music, Cambridge, MA
+- "Agentology for Organology: Cyber-, Bio-, & Eco-Semiotic Perspectives on Instrumental Agency" Jack Armitage at *Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media*, May 11 2023, Harvard University Department of Music, Cambridge, MA.
+- _Intelligent Instruments Lab at Visindavaka_, Reykjavik. [[info](https://iil.is/news/visindavaka22)]
 - “In Between the Analogue and the Digital” Thor Magnusson in a panel session at the *International Conference on Live Interfaces*. ICLI 2022.
 - “Keynote at ICLC 2021” Thor Magnusson at the *International Conference on Live Coding 2021*
 - “Sound Seed Automata” Victor Shepardson at *HLCI Workshop 2021*
@@ -128,6 +130,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - _Ómur Aldanna - Performance by Adam Pulz Melbye and Julia Mogensen_, Part of Hans Johannsson's [instrument exhibition](https://www.asmundarsalur.is/omuraldanna). Ásmundarsalur, Reykjavík, Iceland, 10 Oct, 2023.
 - _Post-dreifing presents Supersoaker #3_, Jack Armitage, Live Coding & DJ Set, Prikið, Reykjavík, Iceland, 5 Oct, 2023.
 - _Gagnavera at AIMC 2023 Algorave_, Jack Armitage, Live Coding, St. Mary's Church, Brighton, UK, 1 Sep, 2023.
+- _Live coding at Menningarnótt_, Reykjavik, 2023. [[info](https://iil.is/news/menningarnott-2023)]
 - _PIKKNIKK #6_, Jack Armitage, Live Coding, Nordic House, Reykjavík, Iceland, 29 July, 2023.
 - _II Lab 2nd Birthday concert_ in Mengi, Reykjavik. [[info](https://iil.is/news/iilbd02)]
 - _OMAR festival_, Thor Magnusson, Victor Shepardson and Giacomo Lepri. 2023.
