@@ -77,7 +77,8 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - *Organic Intelligence*. A workshop on the AI control of Hallgrimskirkja's Klais organ. February 2023. [[info](https://iil.is/news/organic-intelligence)]
 - *Embedded AI for NIME: Challenges and Opportunities*. Workshop run at NIME with two other institutions. 2022.
 - *Living Algorithms* workshop at *Raflost festival.* 2022.
-- *Media Lab Aalto Workshop*. Applying ii lab technologies in teaching. 2022. 
+- *Nordic Music Days* Workshops at this festival of Nordic Music. [[info](https://iil.is/news/nordic-music-days-22)]
+- *ixi - Media Lab Aalto Workshop*. Applying ii lab technologies in teaching. 2022. 
 - *Trash Sounds Workshop* @ RUSL Festival. 2022. 
 - *Ii lab workshop* at Omar festival. Hjalteyri. A workshop in ii lab technologies. 2022. 
 - *HLCI Workshop* Online organised by Jack Armitage.
@@ -128,6 +129,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - _Post-dreifing presents Supersoaker #3_, Jack Armitage, Live Coding & DJ Set, Prikið, Reykjavík, Iceland, 5 Oct, 2023.
 - _Gagnavera at AIMC 2023 Algorave_, Jack Armitage, Live Coding, St. Mary's Church, Brighton, UK, 1 Sep, 2023.
 - _PIKKNIKK #6_, Jack Armitage, Live Coding, Nordic House, Reykjavík, Iceland, 29 July, 2023.
+- _II Lab 2nd Birthday concert_ in Mengi, Reykjavik. [[info](https://iil.is/news/iilbd02)]
 - _OMAR festival_, Thor Magnusson, Victor Shepardson and Giacomo Lepri. 2023.
 - _LungA Festival_, Jack Armitage, Live Coding & DJ Set, Seyðisfjörður, Iceland, 15 July, 2023.
 - _HÁTÍÐNI Festival_, Jack Armitage, Live Coding & DJ Set, Borðeyri, Iceland, 1 July, 2023.
@@ -136,6 +138,8 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - Nicola Privato at [Ars Electronica 2023](https://ars.electronica.art/who-owns-the-truth/en/events-concerts-performances/), presenting a lecture-performance titled _AI Expainability, Embodiment and Sound in Space: a Case Study_.
 - _MOTHERBIRD_, Jessica Shand, Manuel Cherep and Jack Armitage, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, Northeastern University, Cambridge, MA. May 16 2023.
 - _FerroNeural_, Jack Armitage & Nicola Privato, at *Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media*, Harvard University Department of Music, Cambridge, MA. May 11 2023.
+- _Halldorophone concert at Cafe Oto_, London. [[info](https://iil.is/news/halldorophone_oto)]
+- _ii lab at Iceland Airwaves_, Reykjavik. [[info](https://iil.is/news/airwaves22)]
 - RAFLOST Festival Opening Party. Jack Armitage. 2022.
 - OMAR festival. Victor Shepardson et al. 2022.
 - Trash Sounds Workshop at RUSL Festival. Final performance.
