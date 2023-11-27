@@ -22,8 +22,9 @@ caption="The Magnetic Resonator Piano."
 # "Stengjavera" – An installation by Jack Armitage at Nordic House, 9-10 Dec.
 
 IIL researcher [Jack Armitage](https://jackarmitage.com) is exhibiting an installation at the Nordic House over two days in December.
-The piece - "Strengjavera" (described below) - is based on a combination of the [Magnetic Resonator Piano](https://github.com/Intelligent-Instruments-Lab/iimrp) and Jack's artificial life research project [Tolvera](https://tolvera.is).
+The piece - "Strengjavera" (described below) - is based on a combination of the [Magnetic Resonator Piano](https://instrumentslab.org/research/mrp.html) and Jack's artificial life research project [Tolvera](https://tolvera.is).
 For more information, see the [event page on the Nordic House website](https://nordichouse.is/en/event/strengjavera-by-jack-armitage/), and the [event page on Facebook](https://www.facebook.com/events/s/strengjavera-sound-installatio/330194412977716/).
+Jack will also discuss Strengjavera at [Open Lab 71 on Friday December 1st](/openlab/71).
 
 <EmbedYouTube id="W2c8vFmdANY" caption="Short video of Strengjavera captured at AIMC 2023 in Brighton."/>
 
