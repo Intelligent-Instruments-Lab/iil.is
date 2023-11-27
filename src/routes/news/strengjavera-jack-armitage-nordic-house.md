@@ -42,10 +42,14 @@ Accessibility: Elissa Auditorium has good accessibility, restrooms are accessibl
 
 ## Description in Icelandic
 
-Strengjavera er innsetning sem kafar ofan í hugmyndina um sjálfskipulögð kerfi í samspili gerfiprógramma („Ai“) við flygil. Áhorfendum er boðið að verða vitni að óútreiknanlegum en samt dáleiðandi mynstrum sem koma fram þegar strengir píanósins eru settir af stað með rafsegulmagni, stjórnað af lífhermilíkingum. Verkið kannar möguleika tilbúinna kerfa til að aðlagast og þróast í rauntíma og skapa kraftmikinn og síbreytilegan hljóðheim sem endurspeglar margbreytileika og fegurð náttúrukerfa. Með því að má út mörkin milli tækni og náttúru hvetur Strengjavera áhorfendur til að ígrunda sambandið milli mannlegs sjálfræðis og sjálfstjórnarkerfa, en fagnar jafnframt fallegu hljóði píanósins á nýstárlegan og áður óheyrðan hátt.
+Strengjavera er innsetning þar sem sjá má kraftmikinn og síbreytilegan hljóðheim endurspegla margbreytileika og fegurð í náttúrunni. Hún er nefnilega kerfi sem stjórnar sér sjálft, eða lífgervigreindarforrit (ens. artificial life program). 
 
-Sýningartímar:
-- Laugardagur 9. Desember, 14:00 -19:00
-- Sunnudagur 10. Desember, 14:00 – 17:00
+Hér hefur Strengjavera tekið yfir flygil Norræna hússins. Áhorfendur fá að sjá óútreiknanleg og dáleiðandi mynstur sem myndast þegar strengir píanósins byrja að titra fyrir tilstilli rafsegla sem Strengjaveran stjórnar. Hún sýnir okkur eftirlíkingar úr lífhermi (ens. biomimetic simulations) og spilar útkomuna á flygilinn jafnóðum. 
 
-Aðgengi: Aðgengi í Elissu sal er gott. Aðgengileg og kynhlutlaus salerni eru á sömu hæð.
+Tölvukerfi sem stjórna sér sjálf, eins og Strengjaveran, hafa ýmsa möguleika til að aðlagast og þróast í rauntíma og það er einmitt það sem við fáum að sjá með innsetningunni og sömuleiðis heyra í fallegum hljómi píanósins sem hér er notað á nýstárlegan hátt. Með því að má út mörkin milli tækni og náttúru hvetur Strengjavera áhorfendur til að velta fyrir sér sambandinu milli mannlegs sjálfræðis og tölvukerfa sem stjórna sér sjálf. 
+
+Opnunartímar sýningar:
+- Laugardagur 9. desember, 14:00-19:00
+- Sunnudagur 10. desember, 14:00-17:00
+
+Aðgengi í Elissu sal er gott. Aðgengileg og kynhlutlaus salerni eru á sömu hæð.
