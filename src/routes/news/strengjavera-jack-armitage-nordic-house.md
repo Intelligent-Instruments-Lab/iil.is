@@ -36,8 +36,6 @@ Opening hours:
 - Saturday 9th: 2pm – 7pm
 - Sunday 10th: 2pm – 5pm
 
-Jack Armitage (he/they) is a composer, producer, performer and researcher. He produces, performs and live codes music as Lil Data, as part of the PC Music record label, with credits for Charli XCX, Jónsi, Harlecore and more. He is a postdoctoral research fellow in the Intelligent Instruments Lab at Iceland University of the Arts, and has a PhD in Media & Arts Technologies from Queen Mary University of London. His current research concerns self-organising systems, social ecology and human agency in the age of artificial intelligence.
-
 Accessibility: Elissa Auditorium has good accessibility, restrooms are accessible and gender neutral.
 
 ## Lýsing
