@@ -28,7 +28,7 @@ Jack will also discuss Strengjavera at [Open Lab 71 on Friday December 1st](/ope
 
 <EmbedYouTube id="W2c8vFmdANY" caption="Short video of Strengjavera captured at AIMC 2023 in Brighton."/>
 
-## Description in English
+## Description
 
 Strengjavera (“string being”) is an installation that delves into the concept of self-organising systems through the interaction of artificial life programs with an acoustic grand piano. Viewers are invited to witness the unpredictable yet mesmerising patterns that emerge as the piano’s strings are set into motion by electromagnetism, controlled by biomimetic simulations. The piece explores the potential for agential systems to adapt and evolve in real-time, creating a dynamic and ever-changing soundscape that reflects the complexity and beauty of natural systems. By blurring the boundaries between technology and nature, Strengjavera prompts viewers to reflect on the relationship between human agency and autonomous systems, while also celebrating the beautiful natural acoustics of the piano in novel and unheard ways.
 
@@ -40,7 +40,7 @@ Jack Armitage (he/they) is a composer, producer, performer and researcher. He pr
 
 Accessibility: Elissa Auditorium has good accessibility, restrooms are accessible and gender neutral.
 
-## Description in Icelandic
+## Lýsing
 
 Strengjavera er innsetning þar sem sjá má kraftmikinn og síbreytilegan hljóðheim endurspegla margbreytileika og fegurð í náttúrunni. Hún er nefnilega kerfi sem stjórnar sér sjálft, eða lífgervigreindarforrit (ens. artificial life program). 
 
