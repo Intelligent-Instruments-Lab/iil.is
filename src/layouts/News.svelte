@@ -66,7 +66,7 @@
 <center>
   <div class="bg-primary border-dashed border-secondary border-4">
     <main class="p-10 sm:p-12 md:p-14 max-w-3xl">
-      <article>
+      <article class=" text-left">
         <h1 class="font-hauser text-secondary
           text-4xl sm:text-5xl md:text-6xl 
           mb-4">

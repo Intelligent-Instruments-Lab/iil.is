@@ -9,6 +9,8 @@
   export let title = "Open Lab"
   export let description = "The Intelligent Instruments Lab opens its doors on Friday afternoons, where we present some work we are developing or invite interesting people to talk about their work, in a friendly environment with tea and biscuits."
   export let openlabs
+
+  let upcoming_placeholder = `Please check back later for further Open Lab announcements, or <a href="/collaborate">get in touch</a> if you'd like to present!`
     
   let seo_title = title
   let seo_description = description
@@ -21,14 +23,14 @@
     size: 100, page: 1,
     items:
       items
-        .filter(i=>new Date(i.metadata.date) > new Date())
+        .filter(i => new Date(i.metadata.date).setHours(0, 0, 0, 0) >= new Date().setHours(0, 0, 0, 0))
         .sort((fst,snd)=>fst.metadata.edition - snd.metadata.edition)
   }
   $: past = {
     size: 20, page: 1,
     items:
       items
-        .filter(i=>new Date(i.metadata.date) < new Date())
+        .filter(i => new Date(i.metadata.date).setHours(0, 0, 0, 0) < new Date().setHours(0, 0, 0, 0))
         .sort((fst,snd)=>fst.metadata.edition - snd.metadata.edition)
         .reverse()
   }
@@ -74,7 +76,7 @@
           mb-4">
           {title}
         </h1>
-        <div class="mt-4 sm:mt-8 p-2">
+        <div class="mt-4 sm:mt-8 p-2 text-left">
           <!-- TODO: hidden paragraphs on small -->
           <p>Communicating and discussing our research is part of our research methodology. We are interested in a continuous informal conversation with people, in terms of ad-hoc visits to the lab that can result in conversations that become the seeds of new developments. For this reason, we open the doors to our lab on Friday afternoons, where we present some work we are developing or invite interesting people to talk about their work, in a friendly environment with tea and biscuits.</p>
           
@@ -82,52 +84,58 @@
 
           <p>Our lab is located in Þverholt 11 on the 4th floor. Please pop by at <b>3pm on Fridays</b>. We look forward to seeing you.</p>
         </div>
-        <div class="mt-2 sm:p-2">
-          <h2 class="font-hauser text-secondary
+        <div class="mt-2 sm:p-2 text-left">
+            <h2 class="font-hauser text-secondary
             text-2xl sm:text-3xl md:text-4xl 
             mb-8">Upcoming</h2>
-          <div class="grid grid-flow-row grid-cols-1 sm:grid-cols-2 gap-10">
-            {#each futurePaginated as { metadata: { edition, theme, date, description, tags }, path }}
-              <div class="
-                border-primary-100 hover:border-white border-dashed border-2
-                shadow-sm hover:shadow-md rounded-sm
-                sm:w-72">
-                <div class="bg-primary-100 hover:bg-white">
-                  <a sveltekit:prefetch href={'openlab/'+path.replace(/\.[^/.]+$/, "")}>
-                    <div class="px-4 py-4 h-64 grid grid-rows-2">
-                      <div>
-                        <h2 class="text-2xl mt-2 text-primary-700">{theme}</h2>
-                        <p class="text-sm mt-4 text-primary-600">{description}</p>
-                      </div>
-                      <div class="self-end grid grid-cols-2 text-primary-500">
-                        <div class="text-sm font-hauser uppercase">
-                          Open Lab {edition}
+            {#if future.items.length > 0}
+                <div class="grid grid-flow-row grid-cols-1 sm:grid-cols-2 gap-10">
+                    {#each futurePaginated as { metadata: { edition, theme, date, description, tags }, path }}
+                        <div class="
+                        border-primary-100 hover:border-white border-dashed border-2
+                        shadow-sm hover:shadow-md rounded-sm
+                        sm:w-72">
+                            <div class="bg-primary-100 hover:bg-white">
+                                <a sveltekit:prefetch href={'openlab/'+path.replace(/\.[^/.]+$/, "")}>
+                                    <div class="px-4 py-4 h-64 grid grid-rows-2">
+                                        <div>
+                                            <h2 class="text-2xl mt-2 text-primary-700">{theme}</h2>
+                                            <p class="text-sm mt-4 text-primary-600">{description}</p>
+                                        </div>
+                                        <div class="self-end grid grid-cols-2 text-primary-500">
+                                            <div class="text-sm font-hauser uppercase">
+                                                Open Lab {edition}
+                                            </div>
+                                            <div class="text-sm font-hauser uppercase self-end text-right">
+                                                {methods.dayMonth(date)}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                        <div class="text-sm font-hauser uppercase self-end text-right">
-                          {methods.dayMonth(date)}
-                        </div>
-                      </div>
-                    </div>
-                  </a>
+                    {/each}
                 </div>
-              </div>
-            {/each}
-          </div>
-          <div class="mx-auto">
-            <!-- Defined in style.css -->
-            {#if future.items.length > future.size}
-              <PaginationNav
-                totalItems={future.items.length}
-                pageSize={future.size}
-                currentPage={future.page}
-                limit={1}
-                showStepOptions={true}
-                on:setPage={(e) => (future.page = e.detail.page)}
-              />
+            <!-- {/if} -->
+            <!-- {#if future.items.length > 0} -->
+                <div class="mx-auto">
+                    <!-- Defined in style.css -->
+                    {#if future.items.length > future.size}
+                        <PaginationNav
+                        totalItems={future.items.length}
+                        pageSize={future.size}
+                        currentPage={future.page}
+                        limit={1}
+                        showStepOptions={true}
+                        on:setPage={(e) => (future.page = e.detail.page)}
+                        />
+                    {/if}
+                </div>
+            {:else}
+                <p class="mt-4 sm:mt-8 p-2">{@html upcoming_placeholder}</p>
             {/if}
-          </div>
         </div>
-        <div class="mt-4 sm:px-2 py-2 mb-12">
+        <div class="mt-4 sm:px-2 py-2 mb-12 text-left">
           <h2 class="font-hauser text-secondary
             text-2xl sm:text-3xl md:text-4xl 
             mb-8">Past</h2>
@@ -171,5 +179,5 @@
       </article>
     </main>
   </div>
-  </center>
+</center>
 {/if}
