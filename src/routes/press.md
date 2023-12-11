@@ -31,7 +31,7 @@ Feel free to download the logo pack which includes our logomark and wordmark in 
 
 # **In the Press**
 
-
+<a href="https://grapevine.is/music/2023/12/08/do-androids-dream-of-composing-music/" target="_blank">Do Androids Dream of Composing Music</a> an article in the Reykjavik Grapevine, published Dec 8 2023. 
 <a href="https://iil.is/news/icelandic-news" target="_blank">Blogpost</a> about coverage in the Icelandic media when we first started. 
 
 More to come... 
