@@ -7,7 +7,7 @@ image: "images/people/celeste.jpg"
 links: {
   twitter: "essteb",
   instagram: "essteb",
-  website: "https://www.celestebetancur.com/",
+  website: "www.celestebetancur.com",
 }
 projects: [
   ""
