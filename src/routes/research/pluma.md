@@ -5,7 +5,7 @@ slug: "pluma"
 description: "Practice-based research on the ways we make sense of AI in creative settings."
 featured: true
 authors: ["Giacomo Lepri", "Halldor Úlfarsson", "Victor Shepardson", "Thor Magnusson"]
-highlight_image: "research/projects/pluma.png"
+highlight_image: "research/projects/pluma.jpg"
 highlight_caption: "The Pluma."
 ---
 

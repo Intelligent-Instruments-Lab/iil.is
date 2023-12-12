@@ -76,7 +76,7 @@ The Notochord is a machine learning system for MIDI data which processes each ev
 # Scramble
 
 <CaptionedImage
-src="research/projects/scramble.png"
+src="research/projects/scramble.jpg"
 alt="Technical audio interface."
 caption="Scramble Interface"/>
 
