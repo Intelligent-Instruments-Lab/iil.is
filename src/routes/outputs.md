@@ -25,7 +25,7 @@ Intelligent Instruments Lab outputs organised under the following categories:
 
 
 ## 2023 <!-- omit in toc -->
-- _Explainable AI in Music Performance: Case Studies from Live Coding & Sound Spatialisation_. Celeste Betancur, Jack Armitage, Victor Shepardson & Nicola Privato. *[XAI in Action](https://xai-in-action.github.io/): Past, Present, and Future Applications*, NeurIPS 2023 Workshop, New Orleans, USA. [[forthcoming]()]
+- _Explainable AI in Music Performance: Case Studies from Live Coding & Sound Spatialisation_. Celeste Betancur, Jack Armitage, Victor Shepardson & Nicola Privato. *[XAI in Action](https://xai-in-action.github.io/): Past, Present, and Future Applications*, NeurIPS 2023 Workshop, New Orleans, USA. [[PDF](https://openreview.net/forum?id=se4ojQqjB5)]
 - _Sardine: a Modular Python Live Coding Environment_. Raphaël Maurice Forment & Jack Armitage. *7th International Conference on Live Coding (ICLC2023)*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2023_iclc_forment_armitage_sardine.pdf)]
 - _The A in AIMC_. Thor Magnusson. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [html](https://aimc2023.pubpub.org/pub/axm86vsk/release/1)
 - _Bela-IREE: An Approach to Embedded Machine Learning for Real-Time Music Interaction_. Ezra Pierce, Victor Shepardson, Jack Armitage, and Thor Magnusson. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/t2l10z49)]. 

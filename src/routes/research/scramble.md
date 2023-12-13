@@ -5,7 +5,7 @@ slug: "scramble"
 description: "Scramble is creative MIDI tool for performance and aided composition"
 featured: true
 authors: ["Nicola Privato"]
-highlight_image: "research/projects/scramble.png"
+highlight_image: "research/projects/scramble.jpg"
 highlight_caption: "Scramble by Nicola Privato"
 ---
 

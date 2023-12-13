@@ -124,7 +124,7 @@ The [Notochord](https://iil.is/research/notochord) is a machine learning system 
 # Scramble
 
 <CaptionedImage
-src="research/projects/scramble.png"
+src="research/projects/scramble.jpg"
 alt="Technical audio interface."
 caption="Scramble Interface"/>
 
