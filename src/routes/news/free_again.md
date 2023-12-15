@@ -23,8 +23,11 @@ highlight_image: "news/FreeAgain.png"
 The Intelligent Instruments Label releases its second proto-langspil track next Friday: Free Again by Egill Sæbjörnsson. Egill was one of the artists we got to write for an album featuring diverse proto-langspil tracks. 
 
 Youtube: https://www.youtube.com/watch?v=lD8oRXBgBpE
+
 Spotify: https://open.spotify.com/album/30Pzx8I1TmWWJEVjpnrrKf?si=hvEA4JOEReS5s6jySbHNLg
+
 All the proto-langspil tracks: https://open.spotify.com/playlist/3jsrfO6fknJ2eyW783RSLV?si=65362cdd69b241d0
+
 
 Egill Sæbjörnsson is a visual artist that is also known for his music, both as a musician, composer and as an explorer in the field of music. He has often collaborated with his friends from S.L.Á.T.U.R. such as Áki Ásgeirsson, Magnús Jensson and Halldór Úlfarsson. His music got know when the album Tonk of the lawn came out on BadTaste Smekkleysa Records in the year 2000. On that album is the song "I love you so" that is well known in Iceland and has reached international airplay. He has since then released a few albums, but the last one, Moonlove, was released on The Vinyl Factory London, but the release concert was held at HAU Theatre Berlin the same year. In his art installations with video projections and sound he often create sculptures that are at the same time: non-human performers, musical instruments, and the musical score at the same time. 
 
@@ -61,8 +64,11 @@ Egill Sæbjörnsson er myndlistarmaður sem einnig er þekktur fyrir vinnu sína
 Í laginu Free Again studdist Egill einungis við prótó-langspilið frá IIL, sampl tækni og upptöku eigin raddar. Það var unnið hratt og var klárað á innan við klukkutíma. Hann segist sannfærður um að tilurð nýrra hljóðfæra sem undirstaða framþróunar tónlistar og er mjög ánægður með að fá að spreyta sig á þessari nýju uppfinningu.
 
 Lagið á Youtube: https://www.youtube.com/watch?v=lD8oRXBgBpE
+
 Lagið á Spotify: https://open.spotify.com/album/30Pzx8I1TmWWJEVjpnrrKf?si=hvEA4JOEReS5s6jySbHNLg
+
 Öll lög plötunnar sem eru komin út: https://open.spotify.com/playlist/3jsrfO6fknJ2eyW783RSLV?si=65362cdd69b241d0
+
  
 Egill Sæbjörnsson fæddist í Reykjavík 1973 en býr og starfar í Berlín. Hann hefur fengist við að búa til listaverk sem tengja saman þrívíð rými, stafrænar videó varpanir, ný svið tækni og hljóð frá því á tíunda áratug síðustu aldar. Verkin eru allt frá smáum innsetningum í söfnum og gallerínum upp í stærri listaverk í almenningsrýmum borga. Egill sér verk sín sem einhvers konar tæknibundna framþróun málverksins og höggmyndarinnar og rannsakar rýmin milli sýndarveruleika og hlutveruleikans. Verkin hans eru gjarnan full af leik og innihalda gjarnan ákveðin léttleika en spyrja einnig samtímis dýpri og ágengrari spurninga um lífið og tilveruna. Egill flytur reglulega gjörningafyrirlestra þar sem hann rannsakar fræðilegar undirliggjandi uppsprettur verka hans. 
  
