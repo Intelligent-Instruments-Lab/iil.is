@@ -23,6 +23,11 @@ highlight_image: "news/FreeAgain.png"
 The Intelligent Instruments Label releases its second proto-langspil track next Friday: Free Again by Egill Sæbjörnsson. Egill was one of the artists we got to write for an album featuring diverse proto-langspil tracks. 
 
 Egill Sæbjörnsson is a visual artist that is also known for his music, both as a musician, composer and as an explorer in the field of music. He has often collaborated with his friends from S.L.Á.T.U.R. such as Áki Ásgeirsson, Magnús Jensson and Halldór Úlfarsson. His music got know when the album Tonk of the lawn came out on BadTaste Smekkleysa Records in the year 2000. On that album is the song "I love you so" that is well known in Iceland and has reached international airplay. He has since then released a few albums, but the last one, Moonlove, was released on The Vinyl Factory London, but the release concert was held at HAU Theatre Berlin the same year. In his art installations with video projections and sound he often create sculptures that are at the same time: non-human performers, musical instruments, and the musical score at the same time. 
+
+<CaptionedImage
+    src="openlab/egill2.jpg"
+    alt="Man with cap" 
+    caption="Egill Sæbjörnsson"/>
  
 In the song Free again, Egill solely used the proto-langspil created at the IIL, sampling techniques and recordings of his own voice. The song was done fast and was finished within one hour. Egill is convinced that the future of music making is bound to the invention of new musical instruments and is highly content to get the opportunity to experiment with this new invention. 
  
