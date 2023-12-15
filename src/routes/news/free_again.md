@@ -44,6 +44,11 @@ https://smekkleysa.net/shop/international-music/vinyl/egills-tonk-of-the-lawn/
  
 https://thevinylfactory.com/product/egill-saebjornsson-moonlove/
 
+First release: https://iil.is/news/langspil_album 
+
+Second release: https://iil.is/news/langspil_kira_ey
+
+Third release: https://iil.is/news/trio_for_lokkur
 
 # Free Again eftir Egil Sæbjörnsson er fjórða lag af langspilsplötu IIL
 
@@ -64,3 +69,9 @@ http://egills.de
 https://smekkleysa.net/shop/international-music/vinyl/egills-tonk-of-the-lawn/
  
 https://thevinylfactory.com/product/egill-saebjornsson-moonlove/
+
+Fyrsta lag: https://iil.is/news/langspil_album 
+
+Annað lag: https://iil.is/news/langspil_kira_ey
+
+Þriðja lag: https://iil.is/news/trio_for_lokkur
