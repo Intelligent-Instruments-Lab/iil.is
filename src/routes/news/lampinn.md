@@ -45,7 +45,9 @@ Josh Wilkinson did the mastering.
     alt="Young woman playing an instrument at the IIL" 
     caption="Eydís Kvaran"/>
  
+ 
 # Lampinn eftir Eydísi Kvaran er fimmta lagið af prótó-langspilsplötu Intelligent Instruments Lab
+
 
 Þann 29. desember kemur út lagið Lampinn eftir Eydísi Kvaran. Um er að ræða fimmta lag af hinni svokölluðu prótó-langspilsplötu rannsóknarstofunnar Intelligent Instruments Lab, sem rannsakar gervigreind með því að smíða ný og einkennileg hljóðfæri. Á plötunni verða nokkrir vel valdir listamenn sem sömdu lag, hver með sínu nefi, og notuðu til þess nýtt hljóðfæri sem byggir á hinu hefðbunda langspil en hefur að geyma ýmsar nýjungar.
 
