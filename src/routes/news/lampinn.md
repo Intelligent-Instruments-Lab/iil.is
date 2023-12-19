@@ -20,7 +20,7 @@ highlight_image: "news/eydis.jpeg"
 
 # The Lamp by Eydísi Kvaran is the fifth track from Intelligent Instruments Lab's proto-langspil album
 
-On December 29, the song Lampinn (The Lamp) by Eydísi Kvaran will be released. It is the fifth track from the so-called proto-langspil album of the Intelligent Instruments Lab, which investigates artificial intelligence by building new and unusual instruments. On the album you‘ll find several artists who wrote a song, each with their style, using this new instrument based on the traditional langspil with some new thechnological upgrades.
+On December 29, Lampinn (The Lamp) by Eydísi Kvaran will be released. It is the fifth track from the so-called proto-langspil album of the Intelligent Instruments Lab, which investigates artificial intelligence by building new and unusual instruments. On the album you‘ll find several artists who wrote a song, each with their style, using this new instrument based on the traditional langspil with some new thechnological upgrades.
 
 This is what Eydís had to say about her contribution:
 
