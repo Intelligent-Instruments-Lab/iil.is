@@ -4,7 +4,7 @@ date: "2023-10-19"
 slug: "langspil_kira_ey"
 title: "New Proto-Langspil Single: Gjafir Kairos"
 description: "Kira Kira and Eyjólfur release their single next week."
-featured: true
+featured: false
 highlight_image: "news/Gjafir_Kairos.png"
 ---
 

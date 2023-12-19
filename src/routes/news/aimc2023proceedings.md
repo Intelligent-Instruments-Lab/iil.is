@@ -4,7 +4,7 @@ date: "2023-11-08"
 slug: "aimc2023proceedings"
 title: "AIMC 2023 proceedings"
 description: "Proceedings of AIMC 2023"
-featured: true
+featured: false
 ---
 
 <script>

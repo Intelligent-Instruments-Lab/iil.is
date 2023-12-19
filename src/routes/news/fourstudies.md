@@ -4,7 +4,7 @@ date: "2023-11-20"
 slug: "fourstudies"
 title: "Four studies for halldorophone and machine intelligence"
 description: "Digitally augmented halldorophone."
-featured: true
+featured: false
 highlight_image: "stock/halldorophone_yellow.jpeg"
 ---
 

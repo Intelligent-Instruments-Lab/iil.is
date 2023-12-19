@@ -6,7 +6,7 @@ title: "CHIME Symposium 2023"
 description: "Wednesday - 12th of July 2023.
 
 Thor Magnusson presents research at the CHIME symposium - online"
-featured: true
+featured: false
 ---
 
 <script>

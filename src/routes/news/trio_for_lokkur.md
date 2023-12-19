@@ -4,7 +4,7 @@ date: "2023-11-13"
 slug: "trio_for_lokkur"
 title: "New Proto-Langspil Single: Trio for Lokkur, langspil and proto-langspil"
 description: "Track by Berglind María Tómasdóttir."
-featured: true
+featured: false
 highlight_image: "news/Trio_for_Lokkur_Berglind_cover.png"
 ---
 

@@ -4,7 +4,7 @@ date: "2023-10-09"
 slug: "gufunes"
 title: "The First Single of the Proto-Langspil Album"
 description: "Gufunes to be release on October 13th"
-featured: true
+featured: false
 ---
 *Icelandic below*
 <script>

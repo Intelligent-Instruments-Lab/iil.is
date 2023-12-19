@@ -4,7 +4,7 @@ date: "2023-11-27"
 slug: "strengjavera-jack-armitage-nordic-house"
 title: "Stengjavera by Jack Armitage at Nordic House, 9-10 Dec."
 description: "A coming together between Magnetic Resonator Piano and artificial life."
-featured: true
+featured: false
 highlight_image: "news/mrp.jpg"
 ---
 

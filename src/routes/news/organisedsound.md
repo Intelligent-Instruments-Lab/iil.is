@@ -4,7 +4,7 @@ date: "2023-10-16"
 slug: "organisedsound"
 title: "Live Coding issue of Organised Sound"
 description: "A special issue on live coding in the Organised Sound Journal"
-featured: true
+featured: false
 highlight_image: "news/livecoding.jpg"
 ---
 

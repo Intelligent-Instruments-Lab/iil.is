@@ -4,7 +4,7 @@ date: "2023-12-15"
 slug: "aiinmusic2023"
 title: "AI in Music Symposium"
 description: "Thor Magnusson gives a keynote at AI in Music"
-featured: true
+featured: false
 highlight_image: "news/AIinMusic2023.png"
 ---
 

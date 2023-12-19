@@ -5,7 +5,7 @@ slug: "iilbd02"
 title: "IIL's 2nd Birthday Concert at MENGI"
 description: "Celebrate with us on Friday 25th August!"
 highlight_image: "news/iilbd02.jpg"
-featured: true
+featured: false
 ---
 
 <script>

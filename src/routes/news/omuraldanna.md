@@ -4,7 +4,7 @@ date: "2023-10-14"
 slug: "omuraldanna"
 title: "ii lab at Ómur Aldanna"
 description: "A symposium and conversation about traditional and digital lutherie"
-featured: true
+featured: false
 ---
 
 <script>
