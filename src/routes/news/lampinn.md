@@ -32,10 +32,13 @@ IIL has had a long and good collaboration with Eydís, and she was one of the fi
 
 Information on previous tracks can be found here:
 
-• Gufunes by Keli (feat. EstHer) - iil.is/news/langspil_album 
-• Gifts of Kairos by Kira Kira (feat. Eyjólfur Eyjólfsson) - iil.is/news/langspil_kira_ey 
-• Trio for Lokkur, Langspil and Proto-Longspil by Berglind María Tómasdóttir - iil.is/news/trio_for_lokkur
-• Free Again by Egill Sæbjörnsson - iil.is/news/free_again
+Gufunes by Keli (feat. EstHer) - iil.is/news/langspil_album 
+
+Gifts of Kairos by Kira Kira (feat. Eyjólfur Eyjólfsson) - iil.is/news/langspil_kira_ey 
+
+Trio for Lokkur, Langspil and Proto-Longspil by Berglind María Tómasdóttir - iil.is/news/trio_for_lokkur
+
+Free Again by Egill Sæbjörnsson - iil.is/news/free_again
 
 Josh Wilkinson did the mastering.
 
@@ -60,9 +63,13 @@ Hugmyndin var að nýta tengingu prótó-langspilsins bæði við sögulegt samh
 IIL hefur átt langt og gott samstarf með Eydísi og var hún meðal þeirra fyrstu sem hófu samstarf við rannsóknarstofuna. Hún hefur fundið prótó-langspilið þróast í höndunum á sér yfir langt tímabil þar sem hún var ein af þeim sem tók þátt í notendaprófunum í upphafi. Hún hefur einnig tekið þátt í vinnustofum og viðburðum sem tengjast halldórófóninum og tekið þátt í vísindalegum rannsóknum sem tengjast endurómun hljóðfæranna tveggja og hvaða áhrif hún hefur á upplifun hljóðfæraleikarans. 
 
 Upplýsingar um fyrri útgáfur má finna hér:
-•    Gufunes by Keli (feat. EstHer) - iil.is/news/langspil_album
-•    Gjafir Kairos by Kira Kira (feat. Eyjólfur Eyjólfsson) - iil.is/news/langspil_kira_ey
-•    Trio for Lokkur, Langspil and Proto-Langspil by Berglind María Tómasdóttir - iil.is/news/trio_for_lokkur
-•    Free Again by Egill Sæbjörnsson - iil.is/news/free_again
+
+Gufunes by Keli (feat. EstHer) - iil.is/news/langspil_album
+
+Gjafir Kairos by Kira Kira (feat. Eyjólfur Eyjólfsson) - iil.is/news/langspil_kira_ey
+
+Trio for Lokkur, Langspil and Proto-Langspil by Berglind María Tómasdóttir - iil.is/news/trio_for_lokkur
+
+Free Again by Egill Sæbjörnsson - iil.is/news/free_again
 
 Josh Wilkinson sá um hljómjöfnun.
