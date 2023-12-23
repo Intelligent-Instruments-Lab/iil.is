@@ -37,6 +37,8 @@ Egill Sæbjörnsson is a visual artist that is also known for his music, both as
     caption="Egill Sæbjörnsson"/>
  
 In the song Free again, Egill solely used the proto-langspil created at the IIL, sampling techniques and recordings of his own voice. The song was done fast and was finished within one hour. Egill is convinced that the future of music making is bound to the invention of new musical instruments and is highly content to get the opportunity to experiment with this new invention. 
+
+Josh Wilkinson did the mastering. The project is supported by the Recording fund and Composer's fund of Bylgjan and Stöð 2.
  
 Egill Sæbjörnsson was born in 1973 in Iceland and is currently based in Berlin. He has been making artworks that bring together 3D environments, digital projections, technology, and sound since the 1990s. These range from small intimate installations in museum and gallery settings to larger-scale permanent architectural installations. Sæbjörnsson conceives his work as a technological continuation of painting and sculpture, exploring the space between the virtual and physical. His work is playful and humorous but always probes deeper ontological and philosophical questions. Sæbjörnsson gives regular performance lectures in which he explores the theoretical underpinnings of his practice. 
 
@@ -69,6 +71,7 @@ Lagið á Spotify: https://open.spotify.com/album/30Pzx8I1TmWWJEVjpnrrKf?si=hvEA
 
 Öll lög plötunnar sem eru komin út: https://open.spotify.com/playlist/3jsrfO6fknJ2eyW783RSLV?si=65362cdd69b241d0
 
+ Josh Wilkinson sá um hljómjöfnun. Verkefnið er styrkt af Hljóðritasjóði og Tónskáldasjóði Bylgjunnar og Rásar 2. 
  
 Egill Sæbjörnsson fæddist í Reykjavík 1973 en býr og starfar í Berlín. Hann hefur fengist við að búa til listaverk sem tengja saman þrívíð rými, stafrænar videó varpanir, ný svið tækni og hljóð frá því á tíunda áratug síðustu aldar. Verkin eru allt frá smáum innsetningum í söfnum og gallerínum upp í stærri listaverk í almenningsrýmum borga. Egill sér verk sín sem einhvers konar tæknibundna framþróun málverksins og höggmyndarinnar og rannsakar rýmin milli sýndarveruleika og hlutveruleikans. Verkin hans eru gjarnan full af leik og innihalda gjarnan ákveðin léttleika en spyrja einnig samtímis dýpri og ágengrari spurninga um lífið og tilveruna. Egill flytur reglulega gjörningafyrirlestra þar sem hann rannsakar fræðilegar undirliggjandi uppsprettur verka hans. 
  

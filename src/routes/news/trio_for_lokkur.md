@@ -36,7 +36,7 @@ The aim of the album is to showcase the artistic results of their proto-langspil
 
 “I composed the piece while staying in Bali earlier this year, perhaps slightly influenced by the sounds I was consuming there, including gamelan playing and the sound of nature.”
 
-The project is funded by the Music Recording Fund.
+Josh Wilkinson did the mastering. The project is supported by the Recording fund and Composer's fund of Bylgjan and Stöð 2.
 
 First release: https://iil.is/news/langspil_album
 Second release: https://iil.is/news/langspil_kira_ey
@@ -66,7 +66,7 @@ Markmið prótó-langspils plötunnar er að sýna listrænan árangur hljóðf�
 
 „Ég samdi verkið á meðan ég dvaldi á Balí fyrr á þessu ári, ef til vill undir áhrifum frá hljóðunum sem ég var heyrði þar, þar á meðal gamelan tónlist og hljóði náttúrunnar.“
 
-Verkefnið er stutt af Hljóðritasjóði.
+Josh Wilkinson sá um hljómjöfnun. Verkefnið er styrkt af Hljóðritasjóði og Tónskáldasjóði Bylgjunnar og Rásar 2. 
 
 Fyrsta lag: https://iil.is/news/langspil_album
 Annað lag: https://iil.is/news/langspil_kira_ey

@@ -40,7 +40,7 @@ Kira Kira says:
 
 And so it is with everything in life. A good player would then embrace the moment as it is, but also know that anything can happen... '
 
-The album is mastered by Josh Wilkinson
+Josh Wilkinson did the mastering. The project is supported by the Recording fund and Composer's fund of Bylgjan and Stöð 2.
 
 <CaptionedImage
 src="news/langspil-3.jpg"
@@ -66,4 +66,4 @@ Kira Kira segir:
 
 Og þannig er það með allt í lífinu. Góður leikmaður myndi faðma augnablikið eins og það er, en vita líka að allt getur gerst ...“
 
-Josh Wilkinson hljómjafnaði plötuna.
+Josh Wilkinson sá um hljómjöfnun. Verkefnið er styrkt af Hljóðritasjóði og Tónskáldasjóði Bylgjunnar og Rásar 2. 

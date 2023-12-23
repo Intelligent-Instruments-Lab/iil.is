@@ -40,7 +40,7 @@ Trio for Lokkur, Langspil and Proto-Longspil by Berglind María Tómasdóttir - 
 
 Free Again by Egill Sæbjörnsson - iil.is/news/free_again
 
-Josh Wilkinson did the mastering.
+Josh Wilkinson did the mastering. The project is supported by the Recording fund and Composer's fund of Bylgjan and Stöð 2.
 
 
 <CaptionedImage
@@ -72,4 +72,4 @@ Trio for Lokkur, Langspil and Proto-Langspil by Berglind María Tómasdóttir - 
 
 Free Again by Egill Sæbjörnsson - iil.is/news/free_again
 
-Josh Wilkinson sá um hljómjöfnun.
+Josh Wilkinson sá um hljómjöfnun. Verkefnið er styrkt af Hljóðritasjóði og Tónskáldasjóði Bylgjunnar og Rásar 2. 
