@@ -22,13 +22,15 @@ highlight_image: "news/eydis.jpeg"
 
 On December 29, Lampinn (The Lamp) by Eydísi Kvaran will be released. It is the fifth track from the so-called proto-langspil album of the Intelligent Instruments Lab, which investigates artificial intelligence by building new and unusual instruments. On the album you‘ll find several artists who wrote a piece, each with their unique style, using this new instrument based on the traditional langspil with some new thechnological upgrades.
 
+Open on Spotify: https://open.spotify.com/track/1nVLnNxFNYS4game4EwPcY?si=39bf42db24a143c6
+
 This is what Eydís had to say about her contribution:
 
 The song is called 'Lampinn' and is one of three takes that were improvised in a studio in Hafnarfjörður with Sævar Andri Sigurðarson, who recorded the performance. The langspil is the only one played in the recording and the sound was not mixed, as the aim was to get as raw and sincere a sound as possible. The only inspiration in the work is an oil lamp from  Snæfellsnes. It was used for a long time on a farm to light up the living room when the home lost electricity during a storm.
 
 The idea was to make use of the connection of the proto-langspil, both to the historical context and to the modern period where electricity was new and unreliable, similar to this instrument. The song is quite long and steady, with a few jumps here and there, referencing the volatile Snæfellsnes and the raw, merciless landscapes found there. Intimacy is also emphasized, where people gathered around the oil lamp and listened for the next shift wind as entertainment, together with a deck of cards.
 
-IIL has had a long and good collaboration with Eydís, and she was one of the first artists to start collaborating with the laboratory. She has felt the proto-long game develop in her hands over a long period of time as she was one of the people involved in the initial user testing. She has also participated in workshops and events related to the Halldorophone and participated in scientific research related to the resonance of the two instruments and its effect on the player's experience.
+IIL has had a long and good collaboration with Eydís, and she was one of the first artists to start collaborating with the laboratory. She has felt the proto-langspil develop in her hands over a long period of time as she was one of the people involved in the initial user testing. She has also participated in workshops and events related to the Halldorophone and participated in scientific research related to the resonance of the two instruments and its effect on the player's experience.
 
 Information on previous tracks can be found here:
 
@@ -53,6 +55,8 @@ Josh Wilkinson did the mastering. The project is supported by the Recording fund
 
 
 Þann 29. desember kemur út lagið Lampinn eftir Eydísi Kvaran. Um er að ræða fimmta lag af hinni svokölluðu prótó-langspilsplötu rannsóknarstofunnar Intelligent Instruments Lab, sem rannsakar gervigreind með því að smíða ný og einkennileg hljóðfæri. Á plötunni verða nokkrir vel valdir listamenn sem sömdu lag, hver með sínu nefi, og notuðu til þess nýtt hljóðfæri sem byggir á hinu hefðbunda langspil en hefur að geyma ýmsar nýjungar.
+
+Hlusta á Spotify: https://open.spotify.com/track/1nVLnNxFNYS4game4EwPcY?si=39bf42db24a143c6
 
 Þetta hafði Eydís að segja um framlag sitt:
 
