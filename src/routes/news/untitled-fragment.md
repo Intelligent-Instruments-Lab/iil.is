@@ -21,6 +21,10 @@ highlight_image: "news/untitled fragment.png"
 
 The newest proto-langspil track is called: untitled fragment, work in progress, whispering
 
+Spotify: https://open.spotify.com/track/1RIKuxOyCrWuTqPbkh6CCr?si=cf8bd439061d41b5
+
+Youtube: https://youtu.be/cix4Yjt0juM?si=qbd-C_PjI1DvztqY
+
 Davíð is an artistic associate at the Intelligent Instruments Lab and co-runs Carrier Records--a label for new and experimental music--with Sam Pluta, Katie Young, and Jeff Snyder. Naturally, we asked him to write a piece for our album, which aim is to showcase to the experiments and research we‘ve been doing with our upgrade to the old traditional instrument.
 
 This is what how he describes his work for the proto-langspil album:
@@ -41,6 +45,8 @@ Information on previous tracks on the album can be found here:
 
 [Lampinn](https://iil.is/news/lampinn) by Eydís Kvaran
 
+[All released tracks on Spotify](https://open.spotify.com/playlist/3jsrfO6fknJ2eyW783RSLV?si=22b6dbc552074ee4)
+
 Josh Wilkinson did the mastering. The project is supported by the Recording fund and Composer’s fund of Bylgjan and Stöð 2. 
 
 <CaptionedImage
@@ -54,6 +60,11 @@ Josh Wilkinson did the mastering. The project is supported by the Recording fund
 # Sjötta lagið af prótó-langspilsplötu Intelligent Instruments Lab kemur frá Davíð Brynjari
 
 Nýjasta frum-langspil lagið heitir: untitled fragment, work in progress, whispering
+
+
+Spotify: https://open.spotify.com/track/1RIKuxOyCrWuTqPbkh6CCr?si=cf8bd439061d41b5
+
+Youtube: https://youtu.be/cix4Yjt0juM?si=qbd-C_PjI1DvztqY
 
 Davíð er listrænn samstarfsaðili Intelligent Instruments Lab og rekur Carrier Records - útgáfu fyrir nýja og tilraunakennda tónlist - ásamt Sam Pluta, Katie Young og Jeff Snyder. Við báðum hann að sjálfsögðu um að skrifa verk fyrir plötuna okkar, sem miðar að því að sýna tilraunir og rannsóknir sem við höfum verið að gera með nýja útfærslu á gamla hefðbundna hljóðfærinu.
 
@@ -74,5 +85,7 @@ Upplýsingar um fyrri lög á plötunni má finna hér:
 [Free Again](https://iil.is/news/free_again) eftir Egill Sæbjörnsson
 
 [Lampinn](https://iil.is/news/lampinn) eftir Eydísi Kvaran
+
+[Öll útkomin lög á Spotify](https://open.spotify.com/playlist/3jsrfO6fknJ2eyW783RSLV?si=22b6dbc552074ee4)
 
 Josh Wilkinson sá um masterinn. Verkefnið er styrkt af Upptökusjóði og tónskáldasjóði Bylgjunnar og Stöð 2.
