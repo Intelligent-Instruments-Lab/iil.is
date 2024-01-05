@@ -64,7 +64,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 # Hosted Conferences and Symposia
 
 - *Artificial Intelligence and Copyright* (September 2023). We co-organised a conference with STEF on copyright at the age of artificial intellgence. [[url](https://stef.is/frettir/timinn-lidur-hratt-a-gervigreindarold-malthing-um-gervigreind-og-hofundarett/)]. A video stream of the conference can be found [here](https://www.youtube.com/watch?v=J1wQffSFbn4&t=305s).
-- *Artificial Intelligence and Music Creativity* (August 2023). An international conference with papers, workshops, presentations and performances. [[url](https://aimc2023.pubpub.org)]
+- *Artificial Intelligence and Music Creativity* (August 2023). An international conference with papers, workshops, presentations and performances. Co-organised by Intelligent Instruments Lab and Experimental Music Technologies Lab (Sussex). [[url](https://aimc2023.pubpub.org)]
 - *Ómar Festival"* (July 2023). Performances and demos in Hjalteyri. [[url](https://verksmidjanhjalteyri.com/omar)]
 - *Composing Systems and Contemporary Luthiere* panels at Nordic Music Days, October 2022. [[info](https://iil.is/news/nordic-music-days-22)]
 - *Moving Strings Symposium* (December 2021). An international symposium with workshops, presentations and performances. [[url](https://iil.is/news/moving-strings)]
@@ -93,9 +93,10 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - *Feedback Musicianship Network workshop.* Halldor Ulfarsson and Thor Magnusson. At Aalborg University. 2021.
 
 # Residencies
+- SARC Belfast Improvisation with AI residency. Victor Shepardson. 2023.
+- Tangible Music Lab residency. Linz. Nicola Privato. 2023.
 - Nyksund writing residency. Nyksund, Norway. Thor Magnusson. 2022.
 - On-the-fly residency. Barcelona. Jack Armitage. 2022.
-- Tangible Music Lab residency. Linz. Nicola Privato. 2023.
 
 # Presentations
 - _The digital and the analogue_, A conversation between Thor Magnusson, Hans Johannsson and Patrick Gaydecki. As part of Johansson's [instrument exhibition](https://www.asmundarsalur.is/omuraldanna). Ásmundarsalur, Reykjavík, Iceland, 10 Oct, 2023.
