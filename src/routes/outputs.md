@@ -99,6 +99,8 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - On-the-fly residency. Barcelona. Jack Armitage. 2022.
 
 # Presentations
+- _Keynote on Intelligent Instruments_, Thor Magnusson with a keynote at the [AI and Music Symposium](https://eveeno.com/ai-in-music-symposium). 16 Dec, 2023.
+- _Thinking with Intelligent Instruments_, Thor Magnusson presenting a keynote at the [Orpheus Institute](https://orpheusinstituut.be). 11 Dec, 2023.
 - _The digital and the analogue_, A conversation between Thor Magnusson, Hans Johannsson and Patrick Gaydecki. As part of Johansson's [instrument exhibition](https://www.asmundarsalur.is/omuraldanna). Ásmundarsalur, Reykjavík, Iceland, 10 Oct, 2023.
 - _CHIME Seminar_, Presentations and discussion with Thor Magnusson and Astrid Bin [url](https://www.chime.ac.uk/chime-seminar-sm-astrid-bin-and-thor-magnusson). As part of the EPSRC funded CHIME network. 4 Oct, 2023.
 - "Agentology for Organology: Cyber-, Bio-, & Eco-Semiotic Perspectives on Instrumental Agency" Jack Armitage at *Instruments, Interfaces, Infrastructures: An Interdisciplinary Conference on Musical Media*, May 11 2023, Harvard University Department of Music, Cambridge, MA.
@@ -114,7 +116,8 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - "Performing AI – bodies, sounds and machines“ Marco Donnarumma at Artist Talk: Making Art with Machines: Voices, Instruments, Bodies and Sound at the Iceland University of the Arts. 2022.
 
 # Public Media
-
+- _Skapandi gervigreind_, a conversation in Rauða borðið. Jan 2024. (Icelandic) [[url](https://www.youtube.com/watch?v=ZdOO-AuOpVg)]
+- _Do Androids Dream of Composing Music?_ in Grapevine, Dec 2023. (English) [[url](https://grapevine.is/music/2023/12/08/do-androids-dream-of-composing-music/)]
 - _Interview with Thor Magnusson_ in Gervigreindarlestin. June 2023. (Icelandic) [[url](https://www.ruv.is/utvarp/spila/gervigreindar-lestin/35187/afi71k?)]
 - _FluCoMa Podcast #10: Thor Magnusson_ in Flucoma Podcast. May 2023. (English) [[url](https://learn.flucoma.org/explore/magnusson/)]
 - _Sounding Smart_ in Icelandic Review. April/May 2023. (English) [[url](https://www.icelandreview.com/magazine/soundingsmart/)]
