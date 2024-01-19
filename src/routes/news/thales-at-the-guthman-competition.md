@@ -43,7 +43,7 @@ Each controller contains a riser which touches the player's palm as they play. W
 As for the sound, Thales uses RAVE, a Neural Synthesis model for real time interaction. The model is trained on the sounds of magnets, hence the "composed" nature of this instrument.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Oh6NB6967XY?si=eBxu36Ni13LZy1vz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rcd4GOzGVA8?si=jrbdR6pZBfY2V10K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 We're looking forward to the final round of the Guthman competition, at Georgia Tech, Atlanta (USA), in March 2024!
