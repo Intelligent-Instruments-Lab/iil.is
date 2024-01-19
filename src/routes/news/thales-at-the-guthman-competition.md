@@ -17,7 +17,6 @@ highlight_image: "news/thales1.jpg"
     alt="Two black pucks on a wooden palette with markings on it"
     caption="Thales - the magnetic discs"
 />
-# Thales at the Guthman Musical Instrument Competition
 
 The Guthman Musical Instrument Competition has revealed the ten instruments that made it to the final round of their competition. We are happy to announce that one of these instruments was Thales, by our very own Nicola Privato!
 
