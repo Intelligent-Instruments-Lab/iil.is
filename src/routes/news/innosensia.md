@@ -64,9 +64,9 @@ Josh Wilkinson did the mastering. The project is supported by the Recording fund
 
 Sjöunda lagið á prótó-langspilsplötunni er komið út! Góðvinkona okkar Kira Kira hefur samið annað verk fyrir plötuna, að þessu sinni með Duo Harpverk. Kira Kira heitir fullu nafni Kristín Björk Kristjánsdóttir og fyrir þá sem ekki vita er hún íslensk listakona, í tónlist og kvikmyndalist sem skapar að mestu undir nafni sínu Kira Kira. Kristín er fædd í Reykjavík og með aðsetur á Stokkseyri á Íslandi, kemur úr myndlist og kvikmyndagerð og hefur gefið út tilraunakennda ambient tónlist síðan 2005.
 
-Spotify:
+[Hlusta á Spotify](https://open.spotify.com/album/0YfPsQqkthOJXqUtKDQDGX?si=GlCEJMUzTG6M2rj0_T1-eQ)
 
-Youtube:
+[Hlusta á Youtube](https://music.youtube.com/watch?v=5hn5a94ezwg&si=Ygkm3vymY3Ibcx_A)
 
 Í dularfullri hvelfingu undir tónlistarhúsinu Hörpu í Reykjavík er hljóðfæraríki sem hollenski slagverksleikarinn Frank Aarnink gætir. Algjör draumur fyrir hljóðkönnuði eins og Kiru Kiru að villast inn í og koma út með nýtt tónverk! Hörpuleikarinn Katie Buckley og Frank koma fram undir nafninu Duo Harpverk og buðu þau Kiru að semja tónlist fyrir sig. Það tók nokkur ár að koma því í verk, en þegar kvikmyndaleikstjórinn Kamell Allaway bað Kiru um að semja tónlist fyrir hryllingsstuttmyndina sína „Shadow“ small þetta saman. Lagið Innosensia er augnablik úr sköpunarrýminu sem varð til í gegnum Duo Harpverk, dáleiðandi hljóðfærahvelfinguna undir Hörpu og hina fyrrnefndu hryllingsmynd, ásamt hljóði  prótó-langspilsins, sem Kira kallar endurgjafarhörpu.
 
