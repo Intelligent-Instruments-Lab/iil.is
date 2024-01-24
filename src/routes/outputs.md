@@ -115,8 +115,11 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - "Something About Being Human“ Jonathan Chaim Reus at Artist Talk: Making Art with Machines: Voices, Instruments, Bodies and Sound at the Iceland University of the Arts
 - "Performing AI – bodies, sounds and machines“ Marco Donnarumma at Artist Talk: Making Art with Machines: Voices, Instruments, Bodies and Sound at the Iceland University of the Arts. 2022.
 
+
 # Public Media
 - _Skapandi gervigreind_, a conversation in Rauða borðið. Jan 2024. (Icelandic) [[url](https://www.youtube.com/watch?v=ZdOO-AuOpVg)]
+- _Intelligent Instruments_, an interview with Jack Armitage in Lestin. Jan 2024. [[url](https://www.ruv.is/sjonvarp/spila/lestin/23619/7hr98g)]
+- _Framtíðarmúsík með fortíðarbrag_, interview with Esther Ýr Þorvaldsdóttir about the proto-langspil album. Dec 2023. [[url](https://iil.is/images/news/iil_protolangspil_moggi.png)]
 - _Do Androids Dream of Composing Music?_ in Grapevine, Dec 2023. (English) [[url](https://grapevine.is/music/2023/12/08/do-androids-dream-of-composing-music/)]
 - _Interview with Thor Magnusson_ in Gervigreindarlestin. June 2023. (Icelandic) [[url](https://www.ruv.is/utvarp/spila/gervigreindar-lestin/35187/afi71k?)]
 - _FluCoMa Podcast #10: Thor Magnusson_ in Flucoma Podcast. May 2023. (English) [[url](https://learn.flucoma.org/explore/magnusson/)]
@@ -131,7 +134,6 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
 
 # Performances
-
 - _Ómur Aldanna - Performance by Adam Pulz Melbye and Julia Mogensen_, Part of Hans Johannsson's [instrument exhibition](https://www.asmundarsalur.is/omuraldanna). Ásmundarsalur, Reykjavík, Iceland, 10 Oct, 2023.
 - _Post-dreifing presents Supersoaker #3_, Jack Armitage, Live Coding & DJ Set, Prikið, Reykjavík, Iceland, 5 Oct, 2023.
 - _Gagnavera at AIMC 2023 Algorave_, Jack Armitage, Live Coding, St. Mary's Church, Brighton, UK, 1 Sep, 2023.
