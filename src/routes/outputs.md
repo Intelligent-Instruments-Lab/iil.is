@@ -117,6 +117,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 
 # Public Media
+- _Knitting Mathematics and Musical Textiles_, a podcast interview with postdoc Sophie Skach. (English). Jan 2024. [[url](https://www.youtube.com/watch?v=2yn_PainAIk)]
 - _Skapandi gervigreind_, a conversation in Rauða borðið. Jan 2024. (Icelandic) [[url](https://www.youtube.com/watch?v=ZdOO-AuOpVg)]
 - _Intelligent Instruments_, an interview with Jack Armitage in Lestin. Jan 2024. [[url](https://www.ruv.is/sjonvarp/spila/lestin/23619/7hr98g)]
 - _Framtíðarmúsík með fortíðarbrag_, interview with Esther Ýr Þorvaldsdóttir about the proto-langspil album. Dec 2023. [[url](https://iil.is/images/news/iil_protolangspil_moggi.png)]
