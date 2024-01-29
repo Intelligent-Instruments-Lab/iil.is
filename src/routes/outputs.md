@@ -117,6 +117,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 
 # Public Media
+- _Vélvitið: skapandi gervigreind_, radio programme at RÚV, (Icelandic). Jan 2024. [[url](https://www.ruv.is/utvarp/spila/velvitid/35931/aml8lj)]
 - _Knitting Mathematics and Musical Textiles_, a podcast interview with postdoc Sophie Skach. (English). Jan 2024. [[url](https://www.youtube.com/watch?v=2yn_PainAIk)]
 - _Skapandi gervigreind_, a conversation in Rauða borðið. Jan 2024. (Icelandic) [[url](https://www.youtube.com/watch?v=ZdOO-AuOpVg)]
 - _Intelligent Instruments_, an interview with Jack Armitage in Lestin. Jan 2024. [[url](https://www.ruv.is/sjonvarp/spila/lestin/23619/7hr98g)]
