@@ -123,9 +123,9 @@
   },
   "concert": {
     "info": {
-      "title": "Concert CANCELLED",
+      "title": "Concert",
       "details": "Thursday 9, Mengi, 2000 ISK",
-      "description": "Unfortunately, due to a COVID related incident, we must cancel the Moving Strings Concert. Some of our guests were scheduled to perform. The theme of the evening was meant to be feedback instruments and resonating strings. Performers: Tabita Cargnel (DE) with her singing tensegrity sculpture, Chris Kiefer (UK) with his new feedback instrument and Adam Pultz (DK) with his feedback-actuated bass. All are focusing on new ways of treating string instruments. This event is cancelled."
+      "description": "The theme of the evening is feedback instruments and resonating strings. Performers: Tabita Cargnel (DE) with her singing tensegrity sculpture, Chris Kiefer (UK) with his new feedback instrument and Adam Pultz (DK) with his feedback-actuated bass. All are focusing on new ways of treating string instruments."
     },
     "buttons": [{
         "url": "https://www.facebook.com/events/1003688887028231",
