@@ -15,6 +15,8 @@ If you like what you see here below you might suggest a workshop at your institu
 
 # AIMC Conference
 
+Location: Brighton, UK. Date: 29 August, 2023.
+
 We ran the International Conference for Music Creativity in August 2023.
 
 The theme of AIMC 2023 was Intelligent Performance Systems, where we were interested in how AI is applied in real-time artistic performance. This includes software, physical musical instruments as well as interactive installations. Our focus is on how artists engage creatively with intelligent objects that contribute to the way we perform and think music. With this theme we seek artistic and scientific contributions on the topics of creativity, autonomy, authenticity, agency, epistemic tools and human-machine co-creativity. How do intelligent tools change the way we think and perform our music? What is the role of intelligent instruments in performance?
