@@ -66,7 +66,7 @@
       <div class="">
         <h1 class="font-hauser text-white text-lg">Address</h1>
         <div class="px-2 py-3">
-          <a href="https://goo.gl/maps/jX1wteK9MjdMKsg28" target="_blank">
+          <a href="https://maps.app.goo.gl/VXYYfzR9Apv8mnp98" target="_blank">
             <div class="text-white">Intelligent Instruments Lab</div>
             <div class="text-white">Veröld - Hús Vigdísar</div>
             <div class="text-white">University of Iceland</div>
