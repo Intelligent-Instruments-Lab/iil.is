@@ -69,6 +69,7 @@
           <a href="https://goo.gl/maps/jX1wteK9MjdMKsg28" target="_blank">
             <div class="text-white">Intelligent Instruments Lab</div>
             <div class="text-white">Veröld - Hús Vigdísar</div>
+            <div class="text-white">University of Iceland</div>
             <div class="text-white">Brynjólfsgötu 1</div>
             <div class="text-white">107 Reykjavik</div>
             <div class="text-white">Iceland</div>
