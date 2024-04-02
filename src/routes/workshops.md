@@ -9,6 +9,9 @@ description: "Workshops at the Intelligent Instruments Lab"
 import CaptionedImage from "../components/Images/CaptionedImage.svelte"
 </script>
 
+One of the research methods we apply in our lab is to test our technologies through workshops. This serves multiple purpose: 1) we have to get our tech ready for proper real-world usage, debug, write tutorials, demo code, etc. 2) we spread our instruments out to users who apply them in their own work and become 'ambassadors' of our systems. 3) we gain feedback on the projects as we are developing them and a reality check. 4) we explore the perception of AI amongst users, explore the language and discourse that emerges during the workshop.
+
+If you like what you see here below you might suggest a workshop at your institution or get in touch for a collaborative workshop.
 
 # AIMC Conference
 
