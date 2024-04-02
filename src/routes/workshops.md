@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: outputs
 title: "Workshops"
 slug: "workshops"
 description: "Workshops at the Intelligent Instruments Lab"
@@ -27,17 +27,11 @@ We study creative AI from a broad humanities basis, involving musicians, compute
 <a href="https://users.sussex.ac.uk/~thm21/thor/iil/iil_logos.zip" target="_blank">Download Logo Pack</a>
 
 
----
-layout: outputs
-title: "Outputs"
-slug: "about"
-description: "Outputs from the Intelligent Instruments Lab."
----
 
 Intelligent Instruments Lab outputs organised under the following categories:
 
-- [Conference Papers](#conference-papers)
-- [Books and Book chapters](#books-and-book-chapters)
+- [AIMC Conference](#AIMC-Conference)
+- [Live Coding Self-Organising Systems](#Live-Coding-Self-Organising-Systems)
 - [Journal articles](#journal-articles)
 - [Hosted Conferences and Symposia](#hosted-conferences-and-symposia)
 - [Intelligent Instruments Workshops](#intelligent-instruments-workshops)
@@ -50,56 +44,18 @@ Intelligent Instruments Lab outputs organised under the following categories:
 - [Consultancies](#consultancies)
 - [Open Source](#open-source)
 
-# Conference Papers
+# AIMC Conference
 
+We ran a workshop at the AIMC conference.
 
-## 2023 <!-- omit in toc -->
-- _Explainable AI in Music Performance: Case Studies from Live Coding & Sound Spatialisation_. Celeste Betancur, Jack Armitage, Victor Shepardson & Nicola Privato. *[XAI in Action](https://xai-in-action.github.io/): Past, Present, and Future Applications*, NeurIPS 2023 Workshop, New Orleans, USA. [[PDF](https://openreview.net/forum?id=se4ojQqjB5)]
-- _Sardine: a Modular Python Live Coding Environment_. Raphaël Maurice Forment & Jack Armitage. *7th International Conference on Live Coding (ICLC2023)*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2023_iclc_forment_armitage_sardine.pdf)]
-- _The A in AIMC_. Thor Magnusson. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [html](https://aimc2023.pubpub.org/pub/axm86vsk/release/1)
-- _Bela-IREE: An Approach to Embedded Machine Learning for Real-Time Music Interaction_. Ezra Pierce, Victor Shepardson, Jack Armitage, and Thor Magnusson. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/t2l10z49)]. 
-- _A Context-Sensitive Approach to XAI in Music Performance_. Nicola Privato, and Jack Armitage. *The 1st International Workshop
-on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, Online, 2023. [[pdf](http://iil.is/pdf/2023_xaixarts_privato_armitage_context.pdf)]
-- _Sculpting Algorithmic Pattern: Informal and Visuospatial Interaction in Musical Instrument Design_. Jack Armitage, Thor Magnusson and Andrew McPherson. *Proceedings of the Sound and Music Computing Conference*, Stockholm, Sweden, 2023. [[pdf](http://iil.is/pdf/2023_smc_armitage_et_al_sculpting.pdf)]
-- _Design Process in Visual Programming: Methods for Visual and Temporal Analysis_. Jack Armitage, Thor Magnusson and Andrew McPherson. *Proceedings of the Sound and Music Computing Conference*, Stockholm, Sweden, 2023. [[pdf](http://iil.is/pdf/2023_smc_armitage_et_al_design_process.pdf)]
-- _Magnetic Interactions as a Somatosensory Interface_, Nicola Privato, Thor Magnusson and Einar Torfi Einarsson. *Proceedings of the New Interfaces for Musical Expression conference*. 2023. [[pdf](https://iil.is/pdf/2023_nime_privato_et_al_thales.pdf)]
-- _The Living Looper: Rethinking the Musical Loop as a Machine Action-Perception Loop_, Victor Shepardson and Thor Magnusson. *Proceedings of the New Interfaces for Musical Expression conference*. 2023. [[pdf](https://iil.is/pdf/2023_nime_shepardson_magnusson_living_looper.pdf)]
-- _Ergodynamics of String Feedback: Control interface design for the halldorophone_, Halldor Ulfarsson and Thor Magnusson. *Proceedings of the New Interfaces for Musical Expression conference*. 2023. [[pdf](https://iil.is/pdf/2023_nime_ulfarsson_magnusson_ergodynamics_string_feedback.pdf)]
-- _A Scale-Based Ontology of Digital Musical Instrument Design_, Jack Armitage, Thor Magnusson and Andrew McPherson. *Proceedings of the New Interfaces for Musical Expression conference*. 2023. [[pdf](https://iil.is/pdf/2023_nime_armitage_et_al_ontology.pdf)]
-- _Studying Subtle and Detailed Digital Lutherie: Motivational Contexts and Technical Needs_, Jack Armitage, Thor Magnusson and Andrew McPherson. *Proceedings of the New Interfaces for Musical Expression conference*. 2023. [[pdf](https://iil.is/pdf/2023_nime_armitage_et_al_subtlety.pdf)]
-- _Agential Scores: Exploring Emergent, Self-Organising and Entangled Music Notation_, Jack Armitage and Thor Magnusson, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA. [[pdf](https://iil.is/pdf/2023_tenor_armitage_magnusson_agential_scores.pdf)]
-- _The Magnetic Score: Somatosensory Inscriptions and Relational Design in the Instrument-Score_, Nicola Privato, Thor Magnusson and Einar Torfi Einarsson, *8th International Conference on Technologies for Music Notation and Representation (TENOR) 2023*, May 16 20223, Northeastern University, Cambridge, MA. [[pdf](https://iil.is/pdf/2023_tenor_privato_et_al_magnetic_scores.pdf)]
+<CaptionedImage
+  src="stock/iiLab_wordmark_black.png"
+  alt="Intelligent Instruments Lab logo, black."
+  caption="The black logo with logomark and wordmark"/>
+  
+# Live Coding Self-Organising Systems
 
-## 2022 <!-- omit in toc -->
-- _Notochord: A Flexible Probabilistic Model for Real-Time MIDI Performance_ by Victor Shepardson, Jack Armitage and Thor Magnusson at the *Artificial Intelligence and Musical Creativity conference.* [[pdf](https://iil.is/pdf/2022_aimc_shepardson_et_al_notochord.pdf)]
-- _Ritualistic Approach to Sonic Interaction Design: A Poetic Framework for Participatory Sonification_ by Robin Morabito, Jack Armitage and Thor Magnusson at the *International Conference for Auditory Display 2022.* [[pdf](https://iil.is/pdf/2022_icad_morabito_et_al_ritualistic_sonic_interaction_design.pdf)]
-- _Reflexions upon Feedback_ by Thor Magnusson, Chris Kiefer and Halldor Ulfarsson at the *New Interfaces for Musical Expression 2022 Conference*. [[url](https://nime.pubpub.org/pub/feedback/release/1)]
-- _The Proto-Langspil: Launching an Icelandic NIME Research Lab with the Help of a Marginalised Instrument_ by Jack Armitage, Victor Shepardson, Halldor Ulfarsson and Thor Magnusson at the *New Interfaces for Musical Expression 2022 Conference*. [[url](https://nime.pubpub.org/pub/langspil/release/1)]
-**Honourable Mention for Reproducible Research**
-- _Autocoder: a Variational Autoencoder for Spectral Synthesis_ by Davíð Brynjar Franzson, Victor Shepardson and Thor Magnusson. At the *International Conference for Computer Music* [[pdf](https://iil.is/pdf/2022_icmc_franzson_et_al_autocoder.pdf)]
-
-## 2021 <!-- omit in toc -->
-- “Exploring XAI for the Arts” by Nick Bryan-Kinns, Berker Banar, Corey Ford, Courtney N. Reed, Yixiao Zhang, Simon Colton, and Jack Armitage at the *1st Workshop on eXplainable AI approaches for debugging and diagnosis* at the *NeurIPS conference*.
-
-
-# Books and Book chapters
-- _Live Coding: A User's Manual_, by Alan Blackwell, Emma Cocker, Geoff Cox, Alex McLean and Thor Magnusson. 2022. Open Access [here](https://livecodingbook.toplap.org). Info at [MIT Press](https://mitpress.mit.edu/books/live-coding)
-- “Designing the Threnoscope, or, How I Wrote One of My Pieces” by Thor Magnusson in *Sound Work: Composition as Critical Technical Practice*, published by Orpheus Institut. 2021. [[url](https://orpheusinstituut.be/en/publications/sound-work)]
-
-# Journal articles
-- _Editorial: Live Coding Sonic Creativities_ by Anna Xambo, Gerard Roma and Thor Magnusson. 2023. [[url](https://www.cambridge.org/core/journals/organised-sound/article/editorial-live-coding-sonic-creativities/7CAFDFB2FB693C44A77017225A413FD8)]
-- _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson. 2021. [[url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)]
-
-# Hosted Conferences and Symposia
-
-- *Sketching Magnetic Interactions* Fabryka Sztuki (Poland). [url](https://actinout.pl/music-events/nicola-privato/), November, 2023.
-- *Live Coding Self-Organising Systems* Workshop at CuteLab.NYC, New York, NY, USA. [info](https://cutelab.nyc/), September, 2023.
-- *I Play the Textile Workshop* at Iceland University of the Arts. [info](https://iil.is/news/i-play-the-textile).
-- *Artificial Intelligence and Copyright* We co-organised a conference with STEF on copyright at the age of artificial intellgence. [[url](https://stef.is/frettir/timinn-lidur-hratt-a-gervigreindarold-malthing-um-gervigreind-og-hofundarett/)]. A video stream of the conference can be found [here](https://www.youtube.com/watch?v=J1wQffSFbn4&t=305s). September, 2023.
-- *Artificial Intelligence and Music Creativity* (August 2023). An international conference with papers, workshops, presentations and performances. Co-organised by Intelligent Instruments Lab and Experimental Music Technologies Lab (Sussex). [[url](https://aimc2023.pubpub.org)]
-- *Ómar Festival"* (July 2023). Performances and demos in Hjalteyri. [[url](https://verksmidjanhjalteyri.com/omar)]
-- *Composing Systems and Contemporary Luthiere* panels at Nordic Music Days, October 2022. [[info](https://iil.is/news/nordic-music-days-22)]
-- *Moving Strings Symposium* (December 2021). An international symposium with workshops, presentations and performances. [[url](https://iil.is/news/moving-strings)]
+- *Live Coding Self-Organising Systems*. Jack Armitage. [CuteLab.NYC](https://cutelab.nyc), New York, NY, USA. September 2023.
 
 
 # Intelligent Instruments Workshops
