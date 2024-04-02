@@ -68,8 +68,9 @@
         <div class="px-2 py-3">
           <a href="https://goo.gl/maps/jX1wteK9MjdMKsg28" target="_blank">
             <div class="text-white">Intelligent Instruments Lab</div>
-            <div class="text-white">Þverholt 11</div>
-            <div class="text-white">105 Reykjavík</div>
+            <div class="text-white">Veröld - Hús Vigdísar</div>
+            <div class="text-white">Brynjólfsgötu 1</div>
+            <div class="text-white">107 Reykjavik</div>
             <div class="text-white">Iceland</div>
           </a>
         </div>
