@@ -63,7 +63,6 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Hosted Conferences and Symposia
 
-- *Sketching Magnetic Interactions* Fabryka Sztuki (Poland). [url](https://actinout.pl/music-events/nicola-privato/), November, 2023.
 - *Live Coding Self-Organising Systems* Workshop at CuteLab.NYC, New York, NY, USA. [info](https://cutelab.nyc/), September, 2023.
 - *I Play the Textile Workshop* at Iceland University of the Arts. [info](https://iil.is/news/i-play-the-textile).
 - *Artificial Intelligence and Copyright* We co-organised a conference with STEF on copyright at the age of artificial intellgence. [[url](https://stef.is/frettir/timinn-lidur-hratt-a-gervigreindarold-malthing-um-gervigreind-og-hofundarett/)]. A video stream of the conference can be found [here](https://www.youtube.com/watch?v=J1wQffSFbn4&t=305s). September, 2023.
@@ -75,6 +74,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Intelligent Instruments Workshops
 - *Tolvera presentation* at Hybrid Live Coding Interfaces symposium [info](https://hybrid-livecode.pubpub.org/workshop2023). December, 2023.
+- _Stacco: Sketching Magnetic Interactions_ at Act-in-out, Fabryka Sztuki (Poland) [info](https://actinout.pl/music-events/nicola-privato/). October, 2023.
 - *Live Coding Self-Organising Systems*. Jack Armitage. [CuteLab.NYC](https://cutelab.nyc), New York, NY, USA. September 2023.
 - *Agential Instruments Design Workshop*. Jack Armitage, Victor Shepardson, Nicola Privato, Teresa Pelinski, Adan L Benito Temprano, Lewis Wolstanholme, Andrea Martelloni, Franco Santiago Caspe, Courtney N. Reed, Sophie Skach, Rodrigo Diaz, Sean Patrick O'Brien, and Jordie Shier. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/25mg4xnz)]. 
 - *Latent Soundings Workshop*. A workshop in Neural Audio Synthesis. June, 2023. [[info](https://iil.is/news/latent-soundings)]
@@ -104,6 +104,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - On-the-fly residency. Barcelona. Jack Armitage. 2022.
 
 # Presentations
+- _On the Making of End of Empire_, Nicola Privato with Eva Sajovic at Open Eye Gallery, Liverpool (UK) as part of the [Climate Lab programme](https://openeye.org.uk/whatson/end-of-empire-discussion/). 22 Feb, 2024.
 - _Keynote on Intelligent Instruments_, Thor Magnusson with a keynote at the [AI and Music Symposium](https://eveeno.com/ai-in-music-symposium). 16 Dec, 2023.
 - _Thinking with Intelligent Instruments_, Thor Magnusson presenting a keynote at the [Orpheus Institute](https://orpheusinstituut.be). 11 Dec, 2023.
 - _On AI Prosthetics: Notating for Intelligent Instruments_ Thor Magnusson presentation at the American Musicology Society. [info](https://www.amsmusicology.org/events/EventDetails.aspx?id=1807741). December, 2023.
@@ -132,6 +133,7 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 - _Knitting Mathematics and Musical Textiles_, a podcast interview with postdoc Sophie Skach. (English). Jan 2024. [[url](https://www.youtube.com/watch?v=2yn_PainAIk)]
 - _Skapandi gervigreind_, a conversation in Rauða borðið. Jan 2024. (Icelandic) [[url](https://www.youtube.com/watch?v=ZdOO-AuOpVg)]
 - _Intelligent Instruments_, an interview with Jack Armitage in Lestin. Jan 2024. [[url](https://www.ruv.is/sjonvarp/spila/lestin/23619/7hr98g)]
+- _Matricola Musica_, a podcast interview with Nicola Privato. (Italian). Jan 2024. [[url](https://www.raiplaysound.it/audio/2023/12/Matricola-Musica-Ep09-Conservatorio-di-Padova---Nicola-Privato-1093803d-e35b-4b0c-b724-657349f8d11e.html)]
 - _Framtíðarmúsík með fortíðarbrag_, interview with Esther Ýr Þorvaldsdóttir about the proto-langspil album. Dec 2023. [[url](https://iil.is/images/news/iil_protolangspil_moggi.png)]
 - _Do Androids Dream of Composing Music?_ in Grapevine, Dec 2023. (English) [[url](https://grapevine.is/music/2023/12/08/do-androids-dream-of-composing-music/)]
 - _Act_in_out_ in Fabryka Sztuki (Poland) [info](https://actinout.pl/music-events/nicola-privato/). October, 2023.
@@ -149,8 +151,13 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 - Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
 
 # Performances
+- _NeoArte: Synthesizer of Arts_, Thor Magnusson, Halla Steinnunn Stefánsdóttir, Jack Armitage, Miguel Cozzoli, Nicola Privato. Nordic House, Reykjavík. [info](https://neoarte.pl/en/programme/). 23 Mar 2024.
+- _Mouja at IRCAM Forum_, Nicola Privato, Thales and Stacco, Neural Synthesis and Ambisonics, IRCAM, Paris, France.
+[info](https://forum.ircam.fr/article/mouja/). 21 Mar 2024.
+- _Thales at Guthman Competition_, Nicola Privato and Jeremy Muller, Thales and Percussions, Georgia Tech Institute of Technology, Atlanta, USA. [info](https://guthman.gatech.edu/2024-winners). 9 Mar 2024.
+- _Mouja at TEI 2024_, Nicola Privato, Thales and Stacco with Neural Synthesis, MTO School of Music, Cork, Ireland.[info](https://dl.acm.org/doi/fullHtml/10.1145/3623509.3635328/). 13 Feb, 2024.
 - _RASK #7_ - Jack Armitage performing at Gaukurinn. [info](https://www.facebook.com/events/265473353207250/). December 2023.
-_ _Seasonally Adjusted Sonomes_ at Harpa, Reykjavik, Iceland. [info](https://www.instagram.com/p/C1F2Lzjo7Yo/). December 2023.
+- _Seasonally Adjusted Sonomes_ at Harpa, Reykjavik, Iceland. [info](https://www.instagram.com/p/C1F2Lzjo7Yo/). December 2023.
 - _ii lab at Erkitid_, Erkitid. Listasafn Reykjavikur. [info](https://www.erkitid.is/program2023). December 2023.
 - _Ómur Aldanna - Performance by Adam Pulz Melbye and Julia Mogensen_, Part of Hans Johannsson's [instrument exhibition](https://www.asmundarsalur.is/omuraldanna). Ásmundarsalur, Reykjavík, Iceland, 10 Oct, 2023.
 - _Mouja_, Nicola Privato performing at Fabryka Sztuki (Poland). [info](https://actinout.pl/music-events/nicola-privato/), October 2023.
