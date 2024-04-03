@@ -37,21 +37,22 @@ Physical and gestural musical instruments that take advantage of artificial inte
 [Workshop page](https://aimc2023.pubpub.org/pub/25mg4xnz/release/1)
 
 <CaptionedImage
-  src="workshops/stacco_score.jpg"
-  alt="From Sketching Magnetic Interactions for Neural Synthesis Workshop"
-  caption="From Sketching Magnetic Interactions for Neural Synthesis Workshop"/>
+  src="workshops/aimc.jpg"
+  alt="From the Agential Instruments Design Workshop"
+  caption="From the Agential Instruments Design Workshop"/>
 
   
 # Sketching Magnetic Interactions for Neural Synthesis.
 
 Location: Łódź, Poland. Date: 22 October, 2023.
 
-This workshop focuses on Stacco, one of the magnetic instruments developed a IIL and specifically designed to perform and compose with Neural Audio Synthesis. Stacco allows performers to explore neural synthesis models by displacing magnetic spheres on a board with four attractors. Participants are provided with cardboards, tracing paper sheets and other materials that can be placed on top of Stacco to sketch their own 2D or 3D compositional ideas. What new sounds, interactions, musical ideas emerge through this intuitive and fun way of composing with Neural Audio Synthesis? 
+This workshop focuses on [Stacco](https://iil.is/research/stacco), one of the magnetic instruments developed a IIL and specifically designed to perform and compose with Neural Audio Synthesis. Stacco allows performers to playfully explore neural synthesis models by displacing magnetic spheres on a board with four attractors. The participants are provided with cardboards and tracing paper sheets that can be placed on top of Stacco to sketch their own compositional ideas as they discover sounds in the foldings of the latent space. What gestures, interactions and musical ideas emerge from this intuitive and fun way of composing with Neural Audio Synthesis? 
 
 <CaptionedImage
-  src="workshops/aimclogo.png"
-  alt="The AIMC logo."
-  caption="The AIMC logo"/>
+ src="workshops/stacco_score.jpg"
+  alt="From Sketching Magnetic Interactions for Neural Synthesis Workshop"
+  caption="From Sketching Magnetic Interactions for Neural Synthesis Workshop"/>
+
 
 
 # Live Coding Self-Organising Systems
