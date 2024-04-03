@@ -112,13 +112,15 @@ In the workshop we will learn about how the organ works, both for human players 
   alt="Oganic Intelligence workshop"
   caption="Organic Intelligence Workshop"/>
 
+# Living Looper Workshop
 
+Multi-day workshop with the [Living Looper](https://iil.is/research/livinglooper) instrument and several local guitar players, culminating in an improvised concert at Mengi. November 2022.
 
 # Embedded AI for NIME: Challenges and Opportunities
 
 Workshop run at NIME with two other institutions. 2022.
 
-# Living Algorithms workshop 
+# Living Algorithms Workshop 
 
 at *Raflost festival.* 2022.
 
