@@ -5,7 +5,7 @@ slug: "embedded-ml"
 description: "Enabling next-generation embedded instruments."
 featured: false
 authors: ["Ezra Pierce", "Victor Shepardson", "Jack Armitage"]
-highlight_image: "research/projects/embedded-ml-trace.png"
+highlight_image: "research/projects/embedded-ml-trace.jpg"
 highlight_caption: "Tracing low-level IREE operations running on Bela."
 ---
 
