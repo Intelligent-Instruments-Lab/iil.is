@@ -2,7 +2,7 @@
 name: "Miguel Angel Crozzoli"
 type: "Member"
 role: "PhD Student"
-email: "miguel@lhi.is"
+email: "miguel@hi.is"
 image: "images/people/miguel.jpg"
 links: {
   instagram: "miguelcrozzoli",
