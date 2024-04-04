@@ -13,6 +13,7 @@
   export let highlight_image
   export let highlight_caption
   export let slug
+  export let redirect
   let seo_title = title
   let seo_description = description
   let seo_url = '/research/'+slug
@@ -20,6 +21,8 @@
 
   const methods = {
     authorString: authors => {
+      if (typeof redirect !== 'undefined' && redirect !== null && redirect !== '')
+        return ''
       if (authors.length === 1)
         return authors[0]
       else if (authors.length === 2)
@@ -37,10 +40,16 @@
     }
   }
 
+  const checkRedirect = r => {
+    if (typeof r !== 'undefined' && r !== null && r !== '')
+      window.location.href = r
+  }
+
   onMount(async () => {
     $Layout.menu = false
     $Layout.page = layout
     console.log('[Research]', $Layout.page, layout)
+    checkRedirect(redirect)
   })
 </script>
 
