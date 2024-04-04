@@ -116,13 +116,24 @@ In the workshop we will learn about how the organ works, both for human players 
 
 Multi-day workshop with the [Living Looper](https://iil.is/research/livinglooper) instrument and several local guitar players, culminating in an improvised concert at Mengi. November 2022.
 
+
 # Embedded AI for NIME: Challenges and Opportunities
 
 Workshop run at NIME with two other institutions. 2022.
 
 # Living Algorithms Workshop 
 
-at *Raflost festival.* 2022.
+Living Algorithms aims to celebrate and disseminate live coding - a practice involving the creation of art by writing and changing computer programs while they run. For more information about the international live coding community, see TOPLAP and Algorave.
+
+Free live coding workshops took place at Listaháskóli Íslands Þverholt throughout May 16-20th delivered by experts Professor Thor Magnusson (creator of the Threnoscope), Dr Jack Armitage (Lil Data) and PhD researcher Victor Shepardson. We are also pleased to invite artists Ida Schuften Juhl and Halldór Eldjárn to provide additional creative and musical inspiration and encouragement.
+
+[Workshop info page](https://iil.is/news/living-algorithms)
+
+<CaptionedImage
+  src="workshops/livingalgo.jpg"
+  alt="Living Algorithms workshop"
+  caption="Living Algorithms Workshop"/>
+
 
 # Nordic Music Days 
 
@@ -130,15 +141,25 @@ In this workshop people of all skills and backgrounds can come and explore the i
 
 Through looking at new technologies, interfaces and technical elements developed in the lab, we create the conditions for workshop participants to make their own instruments, systems, or compositions. We invite everyone to join the workshop: the only thing you need is a deep interest in music, musical instruments and how new instruments can be built with contemporary technologies.
 
-
 [[Workshop info page](https://iil.is/news/nordic-music-days-22)]
+
 
 # Trash Sounds Workshop
  @ RUSL Festival. 2022. 
 
 # ii lab workshop at Omar festival. 
 
-Hjalteyri. A workshop in ii lab technologies. August, 2022. 
+Hjalteyri. A workshop in ii lab technologies. August, 2022.
+
+Experimentation in music has always been important to the development of art, media and technology. You can mention how Edison and Bell worked simultaneously on recording technology for sound and telecommunications, or how Teleharmonium was the forerunner of Spotify with streaming music. Back in the centuries, technology can be seen as a tool that changes societies and helps us connect with each other through expression. This has not changed and musicians are still developing new tools, new interfaces and artificial intelligence through new instruments. This festival celebrates the role of music at the edge of the possible in technology and examines how disciplines such as music, engineering, psychology, computer science and media science come together to define possible futures.
+
+[Pictures of the workshop](https://verksmidjanhjalteyri.com/omar)
+
+<CaptionedImage
+  src="workshops/hjalteyri.jpg"
+  alt="ii lab workshop at Hjalteyri"
+  caption="ii lab workshop at Hjalteyri"/>
+
 
 # HLCI Workshop
 
