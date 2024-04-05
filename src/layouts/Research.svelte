@@ -14,6 +14,9 @@
   let seo_image = '/seo/stacco.jpg'
 
   let items = projects
+  
+  // filter out items that include property 'redirect':
+  items = items.filter(i => !i.metadata.redirect)
 
   $: featured = {
     size: 100, page: 1,
@@ -23,14 +26,15 @@
     size: 4, page: 1,
     items: items
   }
-
+  
   $: featuredPaginated = paginate({ items: featured.items, pageSize: featured.size, currentPage: featured.page });
   $: allPaginated = paginate({ items: all.items, pageSize: all.size, currentPage: all.page });
-
+  
   onMount(async () => {
     $Layout.menu = false
     $Layout.page = layout
     console.log('[Research]', $Layout.page, layout)
+    console.log(featured)
   })
 
   const methods = {

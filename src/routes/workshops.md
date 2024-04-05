@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: outputs
 title: "Workshops"
 slug: "workshops"
 description: "Workshops at the Intelligent Instruments Lab"
@@ -9,35 +9,161 @@ description: "Workshops at the Intelligent Instruments Lab"
 import CaptionedImage from "../components/Images/CaptionedImage.svelte"
 </script>
 
-# **Introduction Text**
+One of the research methods we apply in our lab is to test our technologies through workshops. This serves multiple purpose: 1) we have to get our tech ready for proper real-world usage, debug, write tutorials, demo code, etc. 2) we spread our instruments out to users who apply them in their own work and become 'ambassadors' of our systems. 3) we gain feedback on the projects as we are developing them and a reality check. 4) we explore the perception of AI amongst users, explore the language and discourse that emerges during the workshop.
 
-The Intelligent Instruments Lab is an interdisciplinary research lab that investigates the role of artificial intelligence in new musical instruments. Music is our research base, but the reach and impact is wider and we explore how musical interfaces can be applied as scientific instruments, for example through sonification.
+If you like what you see here below you might suggest a workshop at your institution or get in touch for a collaborative workshop.
 
-We study creative AI from a broad humanities basis, involving musicians, computer scientists, philosophers and cognitive scientists in key international institutions. We explore the emerging language and discourse of creative AI, addressing how notions such as agency, autonomy, authenticity, authorship, creativity and originality change with these new technologies.
 
-<br />
+# AIMC Conference
 
-# **Logos**
+Location: Brighton, UK. Date: 29 August, 2023.
+
+We ran the International Conference for Music Creativity in August 2023.
+
+The theme of AIMC 2023 was Intelligent Performance Systems, where we were interested in how AI is applied in real-time artistic performance. This includes software, physical musical instruments as well as interactive installations. Our focus is on how artists engage creatively with intelligent objects that contribute to the way we perform and think music. With this theme we seek artistic and scientific contributions on the topics of creativity, autonomy, authenticity, agency, epistemic tools and human-machine co-creativity. How do intelligent tools change the way we think and perform our music? What is the role of intelligent instruments in performance?
+
+[AIMC Website](https://aimc2023.pubpub.org)
 
 <CaptionedImage
-  src="stock/iiLab_wordmark_black.png"
+  src="news/aimclogo.png"
+  alt="The AIMC logo."
+  caption="The AIMC logo"/>
+
+
+# Agential Instruments Design Workshop
+
+Physical and gestural musical instruments that take advantage of artificial intelligence and machine learning to explore instrumental agency are becoming more accessible due to the development of new tools and workflows specialised for mobility, portability, efficiency and low latency. This full-day, hands-on workshop will provide all of these tools to participants along with support from their creators, enabling rapid creative exploration of their applications a musical instrument design. 
+
+[Workshop page](https://aimc2023.pubpub.org/pub/25mg4xnz/release/1)
+
+<CaptionedImage
+  src="workshops/aimc.jpg"
+  alt="From the Agential Instruments Design Workshop"
+  caption="From the Agential Instruments Design Workshop"/>
+
+  
+# Sketching Magnetic Interactions for Neural Synthesis.
+
+Location: Łódź, Poland. Date: 22 October, 2023.
+
+This workshop focuses on [Stacco](https://iil.is/research/stacco), one of the magnetic instruments developed a IIL and specifically designed to perform and compose with Neural Audio Synthesis. Stacco allows performers to playfully explore neural synthesis models by displacing magnetic spheres on a board with four attractors. The participants are provided with cardboards and tracing paper sheets that can be placed on top of Stacco to sketch their own compositional ideas as they discover sounds in the foldings of the latent space. What gestures, interactions and musical ideas emerge from this intuitive and fun way of composing with Neural Audio Synthesis? 
+
+<CaptionedImage
+ src="workshops/stacco_score.jpg"
+  alt="From Sketching Magnetic Interactions for Neural Synthesis Workshop"
+  caption="From Sketching Magnetic Interactions for Neural Synthesis Workshop"/>
+
+
+
+# Live Coding Self-Organising Systems
+
+- *Live Coding Self-Organising Systems*. Jack Armitage. [CuteLab.NYC](https://cutelab.nyc), New York, NY, USA. September 2023.
+
+
+# Latent Soundings Workshop
+
+It’s not every day that a new audio synthesis technique emerges. With new machine learning we have the possibility of a neural synthesis! In this introductory workshop we’ll be delving into the field of neural audio synthesis. We will trace its history interwoven with artificial neural networks and get our hands dirty with training machine learning models with your own sounds. Audio synthesis with neural networks, also known as neural audio synthesis, is a research field within the larger field of AI that facilitates the development of generative sound synthesizers based on the features learned from an original audio corpus. Once ‘trained’, these neural network based synthesizers can generate new sounds which imitate the features and qualities of the original dataset as well as perform timbre transfer—a novel process that reshapes a new audio signal into the timbral qualities of the dataset learned by the algorithm.
+
+[[Workshop info page](https://iil.is/news/latent-soundings)]
+
+<CaptionedImage
+  src="workshops/latent.jpg"
+  alt="From the Latent Soundings Workshop"
+  caption="From the Latent Soundings Workshop"/>
+
+
+# Txalaparta and AI
+
+The txalaparta is a traditional Basque percussion instrument for two performers. It has a unique performance method as it needs two performers to play - its performance is about the commuication between the two players. The instrument is played by hitting wooden batons straight down onto wooden planks (not tuned in any notes) and controlling weight, force and velocity. It is a play between physics and control.
+
+The workshop will introduce the percussive techniques used to play the instrument and the possibilities of introducing creative AI technologies developed at the lab. We have been exploring how machine learning models can perform with a human player. The workshop will therefore teach the technique and also give workshop participants the opportunity to play against an AI system (name of your own choosing).
+
+[[Workshop info page](https://iil.is/news/txalaparta_dynjandi)]
+
+<CaptionedImage
+  src="workshops/txalaDynjandi.jpg"
   alt="Intelligent Instruments Lab logo, black."
   caption="The black logo with logomark and wordmark"/>
-  
-<a href="https://users.sussex.ac.uk/~thm21/thor/iil/iil_logos.zip" target="_blank">Download Logo Pack</a>
 
-Feel free to download the logo pack which includes our logomark and wordmark in three different colors as PNGs. 
-<br />
+# Txalaparta at Strandir
 
-# **In the Press**
+The txalaparta is a traditional Basque percussion instrument for two performers. It has a unique performance method as it needs two performers to play - its performance is about the commuication between the two players. The instrument is played by hitting wooden batons straight down onto wooden planks (not tuned in any notes) and controlling weight, force and velocity. It is a play between physics and control.
 
-<a href="https://grapevine.is/music/2023/12/08/do-androids-dream-of-composing-music/" target="_blank">Do Androids Dream of Composing Music</a> an article in the Reykjavik Grapevine, published Dec 8 2023. 
-<a href="https://iil.is/news/icelandic-news" target="_blank">Blogpost</a> about coverage in the Icelandic media when we first started. 
+The workshop will introduce the percussive techniques used to play the instrument and the possibilities of introducing creative AI technologies developed at the lab. We have been exploring how machine learning models can perform with a human player. The workshop will therefore teach the technique and also give workshop participants the opportunity to play against an AI system (name of your own choosing).
 
-More to come... 
+[[Workshop info page](https://iil.is/news/txalaparta_strandir)]
 
-<br />
 
-# **Photos**
+<CaptionedImage
+  src="workshops/txalaStrandir.jpg"
+  alt="Intelligent Instruments Lab logo, black."
+  caption="The black logo with logomark and wordmark"/>
 
-<a href="https://listahaskoliislands-my.sharepoint.com/:f:/g/personal/thor_magnusson_lhi_is/Eo7hKp4DCTtDn7aEZ88W_z4BVAe16xEW9u9NBLzwz44y5w?e=cYIMDs" target="_blank">Here </a> is a "Best of" photo collection in OneDrive. You're welcome to browse through it and pick the photo that works with your material. 
+# Organic Intelligence 
+
+A workshop on the AI control of Hallgrimskirkja's Klais organ. The workshop introduced creative AI technologies developed at the lab and people can use our systems such as the Notochord, Agential Scores, Scramble and more to control the organ. These involve AI and ALife, but participants can come up with their own systems too. We will also introduce our Organolib (technical library of sensors and actuators) which can be used to create novel interfaces. No technical skills are required for this workshop. We are hoping for a diverse group of people from all walks of music!
+
+In the workshop we will learn about how the organ works, both for human players and how the organ’s MIDI connection can extend human capabilities, both in terms of performance and composition by using alternative intelligence.
+
+[[Workshop info page](https://iil.is/news/organic-intelligence)]
+
+<CaptionedImage
+  src="workshops/organ.jpg"
+  alt="Oganic Intelligence workshop"
+  caption="Organic Intelligence Workshop"/>
+
+# Living Looper Workshop
+
+Multi-day workshop with the [Living Looper](https://iil.is/research/livinglooper) instrument and several local guitar players, culminating in an improvised concert at Mengi. November 2022.
+
+
+# Embedded AI for NIME: Challenges and Opportunities
+
+Workshop run at NIME with two other institutions. 2022.
+
+# Living Algorithms Workshop 
+
+Living Algorithms aims to celebrate and disseminate live coding - a practice involving the creation of art by writing and changing computer programs while they run. For more information about the international live coding community, see TOPLAP and Algorave.
+
+Free live coding workshops took place at Listaháskóli Íslands Þverholt throughout May 16-20th delivered by experts Professor Thor Magnusson (creator of the Threnoscope), Dr Jack Armitage (Lil Data) and PhD researcher Victor Shepardson. We are also pleased to invite artists Ida Schuften Juhl and Halldór Eldjárn to provide additional creative and musical inspiration and encouragement.
+
+[Workshop info page](https://iil.is/news/living-algorithms)
+
+<CaptionedImage
+  src="workshops/livingalgo.jpg"
+  alt="Living Algorithms workshop"
+  caption="Living Algorithms Workshop"/>
+
+
+# Nordic Music Days 
+
+In this workshop people of all skills and backgrounds can come and explore the ideas and technologies used to create intelligent musical systems. The workshop will focus on music, ideas, performance, expression, and the role of technology in creative work. During these three days we will look at how new musical instruments can change the way we think about musical practice and make music.
+
+Through looking at new technologies, interfaces and technical elements developed in the lab, we create the conditions for workshop participants to make their own instruments, systems, or compositions. We invite everyone to join the workshop: the only thing you need is a deep interest in music, musical instruments and how new instruments can be built with contemporary technologies.
+
+[[Workshop info page](https://iil.is/news/nordic-music-days-22)]
+
+
+# Trash Sounds Workshop
+ @ RUSL Festival. 2022. 
+
+# ii lab workshop at Omar festival. 
+
+Hjalteyri. A workshop in ii lab technologies. August, 2022.
+
+Experimentation in music has always been important to the development of art, media and technology. You can mention how Edison and Bell worked simultaneously on recording technology for sound and telecommunications, or how Teleharmonium was the forerunner of Spotify with streaming music. Back in the centuries, technology can be seen as a tool that changes societies and helps us connect with each other through expression. This has not changed and musicians are still developing new tools, new interfaces and artificial intelligence through new instruments. This festival celebrates the role of music at the edge of the possible in technology and examines how disciplines such as music, engineering, psychology, computer science and media science come together to define possible futures.
+
+[Pictures of the workshop](https://verksmidjanhjalteyri.com/omar)
+
+<CaptionedImage
+  src="workshops/hjalteyri.jpg"
+  alt="ii lab workshop at Hjalteyri"
+  caption="ii lab workshop at Hjalteyri"/>
+
+
+# HLCI Workshop
+
+Online organised by Jack Armitage.
+
+
+
