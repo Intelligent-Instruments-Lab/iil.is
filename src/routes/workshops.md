@@ -70,6 +70,11 @@ It’s not every day that a new audio synthesis technique emerges. With new mach
   src="workshops/latent.jpg"
   alt="From the Latent Soundings Workshop"
   caption="From the Latent Soundings Workshop"/>
+  
+  <CaptionedImage
+  src="workshops/moises_workshop.jpeg"
+  alt="A teacher with two students in a class room. Another laptop in the foreground."
+  caption="During Moises Horta's workshop"/>
 
 
 # Txalaparta and AI
