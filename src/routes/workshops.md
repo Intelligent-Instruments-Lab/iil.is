@@ -48,9 +48,11 @@ Physical and gestural musical instruments that took advantage of artificial inte
 
 Location: Łódź, Poland. Date: 22 October, 2023.
 
-This workshop focused on  [Stacco](https://iil.is/research/stacco), one of the magnetic instruments developed at IIL and specifically designed to perform and compose with Neural Audio Synthesis. Stacco allowed performers to playfully explore neural synthesis models by displacing magnetic spheres on a board with four attractors. The participants were provided with cardboards and tracing paper sheets that could be placed on top of Stacco to sketch their own compositional ideas as they discovered sounds in the foldings of the latent space. 
+This workshop focused on [Stacco](https://iil.is/research/stacco), one of the magnetic instruments developed at IIL and specifically designed to perform and compose with Neural Audio Synthesis. Stacco allowed performers to playfully explore neural synthesis models by displacing magnetic spheres on a board with four attractors. The participants were provided with cardboards and tracing paper sheets that could be placed on top of Stacco to sketch their own compositional ideas as they discovered sounds in the foldings of the latent space. 
 
 They sought to answer the question: What gestures, interactions and musical ideas emerge from this intuitive and fun way of composing with Neural Audio Synthesis?
+
+[Workshop page](https://actinout.pl/music-events/nicola-privato/)
 
 <CaptionedImage
  src="workshops/stacco_score.jpg"
@@ -118,17 +120,34 @@ In the workshop we learned about how the organ worked, both for human players an
 
 <CaptionedImage
   src="workshops/organ.jpg"
-  alt="Oganic Intelligence workshop"
+  alt="Organic Intelligence workshop"
   caption="Organic Intelligence Workshop"/>
 
 # Living Looper Workshop
 
-Multi-day workshop with the [Living Looper](https://iil.is/research/livinglooper) instrument and several local guitar players, culminating in an improvised concert at Mengi. November 2022.
+We hosted a Living Looper Workshop for electric guitarists. The Living Looper substitutes gesture for memory: an assemblage of machine listening and neural synthesis algorithms mutate and refract the sound of the electric guitar. It weaves steel guitar strings into a squelching, growling fabric; we will each tug on a thread and see what happens. The workshop ended with a concert in Mengi on Saturday night, where we showcased the results of the workshop.
+
+[Living Looper](https://iil.is/research/livinglooper)
+
+<CaptionedImage
+  src="workshops/livinglooper.jpg"
+  alt="Living Looper workshop"
+  caption="Living Looper Workshop"/>
 
 
 # Embedded AI for NIME: Challenges and Opportunities
 
 Workshop run at NIME with two other institutions. 2022.
+
+With this Workshop we brought together researchers with the common interest of working with and developing embedded AI for New Interfaces for Musical Expression (NIME), and to jointly identify the challenges, trends, and technologies in use. Furthermore, we expect it to serve as the starting point for an embedded AI NIME community and as future reference to help newcomers get started with embedded AI.
+
+[Workshop info page](https://embedded-ai-for-nime.github.io)
+
+<CaptionedImage
+  src="workshops/livingalgo.jpg"
+  alt="Living Algorithms workshop"
+  caption="Living Algorithms Workshop"/>
+
 
 # Living Algorithms Workshop 
 
@@ -153,8 +172,20 @@ Through looking at new technologies, interfaces and technical elements developed
 [[Workshop info page](https://iil.is/news/nordic-music-days-22)]
 
 
+
 # Trash Sounds Workshop
  @ RUSL Festival. 2022. 
+
+We ran a workshop called Trash Sounds, a week-long intensive workshop from June 27 - July 2 on designing and performing with intelligent musical instruments made from discarded materials, as part of RUSL Festival 2022. In this workshop, participants gained hands-on experience with the cutting edge of musical instrument design, learning from scratch techniques for real-time audio programming, creative AI for gesture-sound mapping, sonic interaction design, physical instrument craft, and speculative design.
+
+[[Workshop info page](https://iil.is/news/rusl2022)]
+
+<CaptionedImage
+  src="workshops/livingalgo.jpg"
+  alt="Living Algorithms workshop"
+  caption="Living Algorithms Workshop"/>
+
+
 
 # ii lab workshop at Omar festival. 
 
