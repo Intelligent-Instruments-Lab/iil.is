@@ -20,7 +20,7 @@ Location: Brighton, UK. Date: 29 August, 2023.
 
 We ran the International Conference for Music Creativity in August 2023.
 
-The theme of AIMC 2023 was Intelligent Performance Systems, where we were interested in how AI is applied in real-time artistic performance. This includes software, physical musical instruments as well as interactive installations. Our focus is on how artists engage creatively with intelligent objects that contribute to the way we perform and think music. With this theme we seek artistic and scientific contributions on the topics of creativity, autonomy, authenticity, agency, epistemic tools and human-machine co-creativity. How do intelligent tools change the way we think and perform our music? What is the role of intelligent instruments in performance?
+The theme of AIMC 2023 was Intelligent Performance Systems, where we were interested in how AI was applied in real-time artistic performance. This included software, physical musical instruments as well as interactive installations. Our focus was on how artists engaged creatively with intelligent objects that contributed to the way we performed and thought music. With this theme we sought artistic and scientific contributions on the topics of creativity, autonomy, authenticity, agency, epistemic tools and human-machine co-creativity. How did intelligent tools change the way we thought and performed our music? What was the role of intelligent instruments in performance?
 
 [AIMC Website](https://aimc2023.pubpub.org)
 
@@ -32,7 +32,7 @@ The theme of AIMC 2023 was Intelligent Performance Systems, where we were intere
 
 # Agential Instruments Design Workshop
 
-Physical and gestural musical instruments that take advantage of artificial intelligence and machine learning to explore instrumental agency are becoming more accessible due to the development of new tools and workflows specialised for mobility, portability, efficiency and low latency. This full-day, hands-on workshop will provide all of these tools to participants along with support from their creators, enabling rapid creative exploration of their applications a musical instrument design. 
+Physical and gestural musical instruments that took advantage of artificial intelligence and machine learning to explore instrumental agency became more accessible due to the development of new tools and workflows specialized for mobility, portability, efficiency and low latency. This full-day, hands-on workshop provided all of these tools to participants along with support from their creators, enabling rapid creative exploration of their applications as musical instrument designs.
 
 [Workshop page](https://aimc2023.pubpub.org/pub/25mg4xnz/release/1)
 
@@ -46,7 +46,7 @@ Physical and gestural musical instruments that take advantage of artificial inte
 
 Location: Łódź, Poland. Date: 22 October, 2023.
 
-This workshop focuses on [Stacco](https://iil.is/research/stacco), one of the magnetic instruments developed a IIL and specifically designed to perform and compose with Neural Audio Synthesis. Stacco allows performers to playfully explore neural synthesis models by displacing magnetic spheres on a board with four attractors. The participants are provided with cardboards and tracing paper sheets that can be placed on top of Stacco to sketch their own compositional ideas as they discover sounds in the foldings of the latent space. What gestures, interactions and musical ideas emerge from this intuitive and fun way of composing with Neural Audio Synthesis? 
+This workshop focused on  [Stacco](https://iil.is/research/stacco), one of the magnetic instruments developed at IIL and specifically designed to perform and compose with Neural Audio Synthesis. Stacco allowed performers to playfully explore neural synthesis models by displacing magnetic spheres on a board with four attractors. The participants were provided with cardboards and tracing paper sheets that could be placed on top of Stacco to sketch their own compositional ideas as they discovered sounds in the foldings of the latent space. They sought to answer the question: What gestures, interactions and musical ideas emerge from this intuitive and fun way of composing with Neural Audio Synthesis?
 
 <CaptionedImage
  src="workshops/stacco_score.jpg"
@@ -62,7 +62,7 @@ This workshop focuses on [Stacco](https://iil.is/research/stacco), one of the ma
 
 # Latent Soundings Workshop
 
-It’s not every day that a new audio synthesis technique emerges. With new machine learning we have the possibility of a neural synthesis! In this introductory workshop we’ll be delving into the field of neural audio synthesis. We will trace its history interwoven with artificial neural networks and get our hands dirty with training machine learning models with your own sounds. Audio synthesis with neural networks, also known as neural audio synthesis, is a research field within the larger field of AI that facilitates the development of generative sound synthesizers based on the features learned from an original audio corpus. Once ‘trained’, these neural network based synthesizers can generate new sounds which imitate the features and qualities of the original dataset as well as perform timbre transfer—a novel process that reshapes a new audio signal into the timbral qualities of the dataset learned by the algorithm.
+It’s not every day that a new audio synthesis technique emerges. With new machine learning we have the possibility of a neural synthesis! In this introductory workshop we delved into the field of neural audio synthesis. We traced its history interwoven with artificial neural networks and got our hands dirty with training machine learning models with our own sounds. Audio synthesis with neural networks, also known as neural audio synthesis, was a research field within the larger field of AI that facilitated the development of generative sound synthesizers based on the features learned from an original audio corpus. Once ‘trained’, these neural network based synthesizers could generate new sounds which imitated the features and qualities of the original dataset as well as perform timbre transfer—a novel process that reshaped a new audio signal into the timbral qualities of the dataset learned by the algorithm.
 
 [[Workshop info page](https://iil.is/news/latent-soundings)]
 
@@ -76,7 +76,7 @@ It’s not every day that a new audio synthesis technique emerges. With new mach
 
 The txalaparta is a traditional Basque percussion instrument for two performers. It has a unique performance method as it needs two performers to play - its performance is about the commuication between the two players. The instrument is played by hitting wooden batons straight down onto wooden planks (not tuned in any notes) and controlling weight, force and velocity. It is a play between physics and control.
 
-The workshop will introduce the percussive techniques used to play the instrument and the possibilities of introducing creative AI technologies developed at the lab. We have been exploring how machine learning models can perform with a human player. The workshop will therefore teach the technique and also give workshop participants the opportunity to play against an AI system (name of your own choosing).
+The workshop introduced the percussive techniques used to play the instrument and the possibilities of introducing creative AI technologies developed at the lab. We had been exploring how machine learning models could perform with a human player. The workshop therefore taught the technique and also gave workshop participants the opportunity to play against an AI system (name of your own choosing).
 
 [[Workshop info page](https://iil.is/news/txalaparta_dynjandi)]
 
@@ -89,7 +89,7 @@ The workshop will introduce the percussive techniques used to play the instrumen
 
 The txalaparta is a traditional Basque percussion instrument for two performers. It has a unique performance method as it needs two performers to play - its performance is about the commuication between the two players. The instrument is played by hitting wooden batons straight down onto wooden planks (not tuned in any notes) and controlling weight, force and velocity. It is a play between physics and control.
 
-The workshop will introduce the percussive techniques used to play the instrument and the possibilities of introducing creative AI technologies developed at the lab. We have been exploring how machine learning models can perform with a human player. The workshop will therefore teach the technique and also give workshop participants the opportunity to play against an AI system (name of your own choosing).
+The workshop introduced the percussive techniques used to play the instrument and the possibilities of introducing creative AI technologies developed at the lab. We had been exploring how machine learning models could perform with a human player. The workshop therefore taught the technique and also gave workshop participants the opportunity to play against an AI system (name of your own choosing).
 
 [[Workshop info page](https://iil.is/news/txalaparta_strandir)]
 
@@ -101,9 +101,9 @@ The workshop will introduce the percussive techniques used to play the instrumen
 
 # Organic Intelligence 
 
-A workshop on the AI control of Hallgrimskirkja's Klais organ. The workshop introduced creative AI technologies developed at the lab and people can use our systems such as the Notochord, Agential Scores, Scramble and more to control the organ. These involve AI and ALife, but participants can come up with their own systems too. We will also introduce our Organolib (technical library of sensors and actuators) which can be used to create novel interfaces. No technical skills are required for this workshop. We are hoping for a diverse group of people from all walks of music!
+A workshop on the AI control of Hallgrimskirkja's Klais organ. The workshop introduced creative AI technologies developed at the lab and people could use our systems such as the Notochord, Agential Scores, Scramble and more to control the organ. These involved AI and ALife, but participants could come up with their own systems too. We also introduced our Organolib (technical library of sensors and actuators) which could be used to create novel interfaces. No technical skills were required for this workshop. We were hoping for a diverse group of people from all walks of music!
 
-In the workshop we will learn about how the organ works, both for human players and how the organ’s MIDI connection can extend human capabilities, both in terms of performance and composition by using alternative intelligence.
+In the workshop we learned about how the organ worked, both for human players and how the organ’s MIDI connection could extend human capabilities, both in terms of performance and composition by using alternative intelligence.
 
 [[Workshop info page](https://iil.is/news/organic-intelligence)]
 
@@ -125,7 +125,7 @@ Workshop run at NIME with two other institutions. 2022.
 
 Living Algorithms aims to celebrate and disseminate live coding - a practice involving the creation of art by writing and changing computer programs while they run. For more information about the international live coding community, see TOPLAP and Algorave.
 
-Free live coding workshops took place at Listaháskóli Íslands Þverholt throughout May 16-20th delivered by experts Professor Thor Magnusson (creator of the Threnoscope), Dr Jack Armitage (Lil Data) and PhD researcher Victor Shepardson. We are also pleased to invite artists Ida Schuften Juhl and Halldór Eldjárn to provide additional creative and musical inspiration and encouragement.
+Free live coding workshops took place at Listaháskóli Íslands Þverholt throughout May 16-20th delivered by experts Professor Thor Magnusson (creator of the Threnoscope), Dr Jack Armitage (Lil Data) and PhD researcher Victor Shepardson. We were also pleased to invite artists Ida Schuften Juhl and Halldór Eldjárn to provide additional creative and musical inspiration and encouragement.
 
 [Workshop info page](https://iil.is/news/living-algorithms)
 
@@ -137,9 +137,9 @@ Free live coding workshops took place at Listaháskóli Íslands Þverholt throu
 
 # Nordic Music Days 
 
-In this workshop people of all skills and backgrounds can come and explore the ideas and technologies used to create intelligent musical systems. The workshop will focus on music, ideas, performance, expression, and the role of technology in creative work. During these three days we will look at how new musical instruments can change the way we think about musical practice and make music.
+In this workshop people of all skills and backgrounds could come and explore the ideas and technologies used to create intelligent musical systems. The workshop focused on music, ideas, performance, expression, and the role of technology in creative work. During these three days we looked at how new musical instruments could change the way we thought about musical practice and made music.
 
-Through looking at new technologies, interfaces and technical elements developed in the lab, we create the conditions for workshop participants to make their own instruments, systems, or compositions. We invite everyone to join the workshop: the only thing you need is a deep interest in music, musical instruments and how new instruments can be built with contemporary technologies.
+Through looking at new technologies, interfaces and technical elements developed in the lab, we created the conditions for workshop participants to make their own instruments, systems, or compositions. We invited everyone to join the workshop: the only thing you needed was a deep interest in music, musical instruments and how new instruments could be built with contemporary technologies.
 
 [[Workshop info page](https://iil.is/news/nordic-music-days-22)]
 
@@ -151,7 +151,9 @@ Through looking at new technologies, interfaces and technical elements developed
 
 Hjalteyri. A workshop in ii lab technologies. August, 2022.
 
-Experimentation in music has always been important to the development of art, media and technology. You can mention how Edison and Bell worked simultaneously on recording technology for sound and telecommunications, or how Teleharmonium was the forerunner of Spotify with streaming music. Back in the centuries, technology can be seen as a tool that changes societies and helps us connect with each other through expression. This has not changed and musicians are still developing new tools, new interfaces and artificial intelligence through new instruments. This festival celebrates the role of music at the edge of the possible in technology and examines how disciplines such as music, engineering, psychology, computer science and media science come together to define possible futures.
+Experimentation in music has always been important to the development of art, media and technology. You can mention how Edison and Bell worked simultaneously on recording technology for sound and telecommunications, or how Teleharmonium was the forerunner of Spotify with streaming music. Back in the centuries, technology can be seen as a tool that changes societies and helps us connect with each other through expression. This has not changed and musicians are still developing new tools, new interfaces and artificial intelligence through new instruments. 
+
+This festival celebrated the role of music at the edge of the possible in technology and examined how disciplines such as music, engineering, psychology, computer science and media science came together to define possible futures.
 
 [Pictures of the workshop](https://verksmidjanhjalteyri.com/omar)
 
