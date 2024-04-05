@@ -20,7 +20,9 @@ Location: Brighton, UK. Date: 29 August, 2023.
 
 We ran the International Conference for Music Creativity in August 2023.
 
-The theme of AIMC 2023 was Intelligent Performance Systems, where we were interested in how AI was applied in real-time artistic performance. This included software, physical musical instruments as well as interactive installations. Our focus was on how artists engaged creatively with intelligent objects that contributed to the way we performed and thought music. With this theme we sought artistic and scientific contributions on the topics of creativity, autonomy, authenticity, agency, epistemic tools and human-machine co-creativity. How did intelligent tools change the way we thought and performed our music? What was the role of intelligent instruments in performance?
+The theme of AIMC 2023 was Intelligent Performance Systems, where we were interested in how AI was applied in real-time artistic performance. This included software, physical musical instruments as well as interactive installations. Our focus was on how artists engaged creatively with intelligent objects that contributed to the way we performed and thought music. With this theme we sought artistic and scientific contributions on the topics of creativity, autonomy, authenticity, agency, epistemic tools and human-machine co-creativity. 
+
+How do intelligent tools change the way we think and perform our music? What is the role of intelligent instruments in performance?
 
 [AIMC Website](https://aimc2023.pubpub.org)
 
@@ -46,7 +48,9 @@ Physical and gestural musical instruments that took advantage of artificial inte
 
 Location: Łódź, Poland. Date: 22 October, 2023.
 
-This workshop focused on  [Stacco](https://iil.is/research/stacco), one of the magnetic instruments developed at IIL and specifically designed to perform and compose with Neural Audio Synthesis. Stacco allowed performers to playfully explore neural synthesis models by displacing magnetic spheres on a board with four attractors. The participants were provided with cardboards and tracing paper sheets that could be placed on top of Stacco to sketch their own compositional ideas as they discovered sounds in the foldings of the latent space. They sought to answer the question: What gestures, interactions and musical ideas emerge from this intuitive and fun way of composing with Neural Audio Synthesis?
+This workshop focused on  [Stacco](https://iil.is/research/stacco), one of the magnetic instruments developed at IIL and specifically designed to perform and compose with Neural Audio Synthesis. Stacco allowed performers to playfully explore neural synthesis models by displacing magnetic spheres on a board with four attractors. The participants were provided with cardboards and tracing paper sheets that could be placed on top of Stacco to sketch their own compositional ideas as they discovered sounds in the foldings of the latent space. 
+
+They sought to answer the question: What gestures, interactions and musical ideas emerge from this intuitive and fun way of composing with Neural Audio Synthesis?
 
 <CaptionedImage
  src="workshops/stacco_score.jpg"
