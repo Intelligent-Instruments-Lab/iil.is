@@ -47,7 +47,7 @@ In this workshop led by Nicola Privato and Giacomo Lepri, participants were invi
 - [TENOR page](https://www.zhdk.ch/forschung/icst/tenor24/thursday-4-april-23065/)
 
 <CaptionedImage
- src="TENOR_stacco.jpg"
+ src="workshops/TENOR_stacco.jpg"
   alt="From Embedded Sketching for Neural Audio Synthesis"
   caption="From Embedded Sketching for Neural Audio Synthesis"/>
 
