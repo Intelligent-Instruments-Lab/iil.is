@@ -36,11 +36,27 @@ Tölvera is a new Python-based tool for real-time interactive and creative compu
   id="PL8bdQleKUA1vNez5gw-pfQB21Q1-vHn3x" 
   caption="YouTube Playlist for Tölvera"/>
 
+# Embedded Sketching for Neural Audio Synthesis
+
+#### TENOR Conference, Zurich, Switzerland, 4 April, 2024.
+
+[Stacco](https://iil.is/research/stacco) is an instrument-score with embedded permanent magnets. It attracts and repels magnetic spheres and detects the changes in its magnetic fields upon interaction. It is designed to perform with neural audio synthesis models, in which sound features are represented and distributed within entangled multidimensional sonic spaces. Stacco allows drawing and embedding scores into the interface itself, and by bridging gesture and notation it overcomes some of the inherent limitations of traditional notational methods as applied to this novel technology. 
+
+In this workshop led by Nicola Privato and Giacomo Lepri, participants were invited to compose and perform sketches for neural synthesis models, by drawing, embedding and layering tracing paper sheets on top of Stacco's surface. The workshop was followed by a discussion on the scores created by the participants and on the affordances of this compositional strategy as applied to neural adusio synthesis.
+
+- [TENOR page](https://www.zhdk.ch/forschung/icst/tenor24/thursday-4-april-23065/)
+
+<CaptionedImage
+ src="TENOR_Stacco.jpg"
+  alt="From Embedded Sketching for Neural Audio Synthesis"
+  caption="From Embedded Sketching for Neural Audio Synthesis"/>
+
+
 # Sketching Magnetic Interactions for Neural Synthesis
 
 #### Łódź, Poland, 22 October, 2023.
 
-This workshop focused on [Stacco](https://iil.is/research/stacco), one of the magnetic instruments developed at IIL and specifically designed to perform and compose with Neural Audio Synthesis. Stacco allowed performers to playfully explore neural synthesis models by displacing magnetic spheres on a board with four attractors. The participants were provided with cardboards and tracing paper sheets that could be placed on top of Stacco to sketch their own compositional ideas as they discovered sounds in the foldings of the latent space. 
+This workshop focused on [Stacco](https://iil.is/research/stacco), one of the magnetic instruments developed at IIL and specifically designed to perform and compose with Neural Audio Synthesis. The Participants playfully explored neural synthesis models by displacing magnetic spheres on a board with four attractors, using carboard sheets that could be placed on top of the instrument to notate their compositional ideas. 
 
 They sought to answer the question: What gestures, interactions and musical ideas emerge from this intuitive and fun way of composing with Neural Audio Synthesis?
 
