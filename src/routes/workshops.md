@@ -22,9 +22,25 @@ One of the research methods we apply in our lab is to test our technologies thro
 
 If you like what you see here below, you might suggest a workshop at your institution or [get in touch for a collaborative workshop](/collaborate).
 
+# Upcoming Workshop: Composing and Performing with AI
+
+### SaMPL Lab, Padova, Italy, and Conservatory of Padova. 20 and 27 May, 6 June 2024.
+
+In this workshop, Nicola Privato will introduce practical tools and methodologies for performing and composing with AI, including mapping and feature extraction tools, generative symbolic models and neural audio synthesis. We will begin with a broad presentation of these systems, of their historical evolution, and in the description of a series of application scenarios, and continue by introducing a selection of systems developed at the Intelligent Instruments Lab and IRCAM. In this phase, we will explore the algorithms and the compositional strategies they define, providing the participants with the necessary technical skills to autonomously apply them. The second meeting will be dedicated to the presentation of the participants' project proposals and the identification of effective strategies for the design and training of the proposed systems, while the third meeting will focus on their development.
+
+- [SaMPL website](https://sites.google.com/conservatoriopollini.it/sampl/didattica/sampl-school/composizione-e-performance-con-ia)
+- [Workshop Page](https://sites.google.com/conservatoriopollini.it/sampl/didattica/sampl-school/composizione-e-performance-con-ia)
+
+
+<CaptionedImage
+ src="workshops/padova_workshop.jpg"
+  alt="Composing and Performing with AI"
+  caption="Composing and Performing with AI"/>
+
+
 # Artificial Life & Self-Organising Systems for Creativity with Tölvera
 
-### MUSAiC Lab, KTH, Stockholm, Sweden, & Tangible Music Lab (TamLab), Linz, Austria, April 2024
+### MUSAiC Lab, KTH, Stockholm, Sweden, & Tangible Music Lab (TamLab), Linz, Austria, April 2024.
 
 Tölvera is a new Python-based tool for real-time interactive and creative computing with artificial life and self-organising systems. In this workshop targeted at those with some creative coding and some Python experience, led by Tölvera creator Dr. Jack Armitage from the Intelligent Instruments Lab in Reykjavík, you will learn how to create a wide variety of systems with interesting emergent behaviours, and interface with them using Open Sound Control, Interactive Machine Learning, Computer Vision, Sonification, Neural Audio Synthesis, and Live Coding.
 
