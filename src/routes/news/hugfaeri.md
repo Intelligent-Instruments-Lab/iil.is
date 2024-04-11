@@ -19,13 +19,13 @@ featured: true
 
 # Hugfæri og tæknileikar: Um hugsandi hljóðfæri og tilraunakennd hugvísindi
 
-Fyrirlestur við Heimspekideild Háskóla Íslands þann 18. apríl 2024.
+**Fyrirlestur við Heimspekideild Háskóla Íslands þann 18. apríl 2024.**
 
 Gervigreind ruddist með látum inn í samvitund okkar fyrir rúmu ári síðan. Tónlist og fræði hennar hafa ávallt verið tilraunastofa nýrrar hugsunar og tækni, og því eðlilegt að þýðing gervigreindar sé rannsökuð í gegnum tónlist á hagnýtan og skapandi hátt. Beiting skapandi gervigreindar getur spannað allt frá sjálfvirkri tónlistarsköpun til innleiðingar snjallra algríma í hljóðfærin sjálf. Hér vakna upp spurningar varðandi sköpun, list, siðfræði og þýðingu þess að vera skapandi manneskja. Við speglum okkur í gervigreindinni og hún hjálpar okkur að skýra og skilja þessi hugtök.
 
 Í þessu erindi mun ég fjalla um tvennt: Annars vegar mun ég ræða skapandi gervigreind í samhengi við Sókratesíska aðferð (e. elenctics)—en það er sú heimspekilega aðferð sem miðar að því að örva gagnrýna hugsun og þróa þekkingu í gegnum samræður—og samskipti okkar við nútíma skapandi gervigreindarkerfi. Með hliðsjón af verklegri rannsókn í rannsóknarstofu okkar Intelligent Instruments Lab, sem nýlega flutti til HÍ í Veröld - Hús Vigdísar, legg ég fram nýjan ramma fyrir rannsóknir á skapandi gervigreind og skoða þau hugtök og orðræðu sem verður til þegar slík grundvallarbreyting á sér stað í tækni tónlistar. Hins vegar mun ég ræða aðferðafræði rannsóknarstofunnar, sem gengur út á að framkvæma tilraunir er skoða hljóðfæri sem “boundary objects”, eða hluti sem skarast þvert á rannsóknarsvið. Þessi aðferð býður uppá þverfaglega nálgun þar sem rannsakendur deila þekkingu í eina heildarsýn og nota tilraunina á sínu eigin fræðilega sviði, hvort sem það eru tölvuvísindi, heimspeki, mannfræði eða hugarvísindi (e. congitive science). 
 
-Stutt æviágrip:
+**Stutt æviágrip:**
 
 Þórhallur Magnússon er rannsóknarprófessor við Háskóla Íslands og prófessor framtíðartónlist við Sussex háskólann í Brighton. Verk hans beinast að áhrifum stafrænna tækni á tónlistarsköpun sem hann kannar í gegnum listrænar rannsóknir og hugvísindalega fræðimennsku. Auk fræðilegra starfa hefur hann þróað tónlistarforrit, skapandi gervigreind, skrifað kennsluefni í tölvutónlist og skrifað forrit fyrir lifandi kóðun (e. live coding) í tónlist.
 
