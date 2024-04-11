@@ -12,7 +12,7 @@ featured: true
 </script>
 
 <CaptionedImage
-    src="people/thor2.png"
+    src="people/thor2.jpg"
     alt="Þórhallur Magnússon"
     caption="Þórhallur Magnússon"
 />
