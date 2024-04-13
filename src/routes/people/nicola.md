@@ -2,7 +2,7 @@
 name: "Nicola Privato"
 type: "Member"
 role: "PhD Student"
-email: "nicola@lhi.is"
+email: "nprivato@hi.is"
 image: "images/people/nicola-profile.jpg"
 links: {
   instagram: "privatonicola",
