@@ -52,6 +52,16 @@ Tölvera is a new Python-based tool for real-time interactive and creative compu
   id="PL8bdQleKUA1vNez5gw-pfQB21Q1-vHn3x" 
   caption="YouTube Playlist for Tölvera"/>
 
+# E-Textile No-Input Mixer workshop
+
+#### BGSU, Bowling Green, Ohio, 11 April 2024.
+
+[E-textiles](https://iil.is/research/etextiles) are woven, knitted, or otherwise fabric structures which also function as electrical components. In the no-input e-textiles project, we put conductive knitted and woven pieces into a feedback audio circuit, as part of a [no-input mixing board](https://doi.org/10.1145/3544548.3580662) setup.
+
+In this workshop, Victor Shepardson gave a talk on IIL and the project to MA composition students at Bowling Green State University, and participants were invited to try the no-input mixing board and knitted e-textile mat for themselves.
+
+- [Video demonstrations](https://www.youtube.com/watch?v=VT8Ht0lf_F4&list=PLK7FLipUDWEE1DbcmiXQZJ_Az9D3iGMDN)
+
 # Embedded Sketching for Neural Audio Synthesis
 
 #### TENOR Conference, Zurich, Switzerland, 4 April, 2024.
