@@ -72,7 +72,10 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - *Moving Strings Symposium* (December 2021). An international symposium with workshops, presentations and performances. [[url](https://iil.is/news/moving-strings)]
 
 
-# Intelligent Instruments Workshops
+# Workshops organised by Intelligent Instruments
+
+We have a dedicated [[workshop page](https://iil.is/workshops)] that describes the workshops in a bit more detail.
+
 - *Tolvera presentation* at Hybrid Live Coding Interfaces symposium [info](https://hybrid-livecode.pubpub.org/workshop2023). December, 2023.
 - _Stacco: Sketching Magnetic Interactions_ at Act-in-out, Fabryka Sztuki (Poland) [info](https://actinout.pl/music-events/nicola-privato/). October, 2023.
 - *Live Coding Self-Organising Systems*. Jack Armitage. [CuteLab.NYC](https://cutelab.nyc), New York, NY, USA. September 2023.
