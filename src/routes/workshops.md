@@ -20,7 +20,7 @@ One of the research methods we apply in our lab is to test our technologies thro
 - We gain feedback on the projects as we are developing them and a reality check.
 - We explore the perception of AI amongst users, and explore the language and discourse that emerges during the workshop.
 
-If you like what you see here below, you might suggest a workshop at your institution or [get in touch for a collaborative workshop](/collaborate).
+If you like what you see here below, you might suggest a workshop at your institution or [get in touch](/collaborate) for a collaborative workshop.
 
 #  :::::::: Upcoming Workshops  ::::::::
 
