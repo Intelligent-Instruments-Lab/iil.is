@@ -74,7 +74,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Workshops organised by Intelligent Instruments
 
-We have a dedicated [[workshop page](https://iil.is/workshops)] that describes the workshops in a bit more detail.
+We have a dedicated [workshop page](https://iil.is/workshops) that describes our workshops in a bit more detail.
 
 - *Tolvera presentation* at Hybrid Live Coding Interfaces symposium [info](https://hybrid-livecode.pubpub.org/workshop2023). December, 2023.
 - _Stacco: Sketching Magnetic Interactions_ at Act-in-out, Fabryka Sztuki (Poland) [info](https://actinout.pl/music-events/nicola-privato/). October, 2023.
