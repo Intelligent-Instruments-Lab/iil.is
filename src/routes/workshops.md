@@ -11,7 +11,7 @@ description: "Workshops at the Intelligent Instruments Lab"
     import YouTubePL from "../components/Video/EmbedYouTubePlaylist.svelte"
 </script>
 
-### Our Workshop Methodology
+# Our Workshop Methodology
 
 One of the research methods we apply in our lab is to test our technologies through workshops. This serves multiple purpose: 
 
@@ -22,7 +22,9 @@ One of the research methods we apply in our lab is to test our technologies thro
 
 If you like what you see here below, you might suggest a workshop at your institution or [get in touch for a collaborative workshop](/collaborate).
 
-# Upcoming Workshop: Composing and Performing with AI
+#  :::::::: Upcoming Workshops  ::::::::
+
+# Composing and Performing with AI
 
 ### SaMPL Lab, Padova, Italy, and Conservatory of Padova. 20 and 27 May, 6 June 2024.
 
@@ -37,6 +39,8 @@ In this workshop, Nicola Privato will introduce practical tools and methodologie
   alt="Composing and Performing with AI"
   caption="Composing and Performing with AI"/>
 
+
+#  :::::::: Past Workshops  ::::::::
 
 # Artificial Life & Self-Organising Systems for Creativity with Tölvera
 
