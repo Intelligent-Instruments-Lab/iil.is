@@ -5,7 +5,7 @@ slug: "livinglooper"
 description: "Rethinking the Musical Loop as a Machine Action-Perception Loop."
 featured: true
 authors: ["Victor Shepardson"]
-highlight_image: "research/projects/living-looper-system.jpeg"
+highlight_image: "research/projects/ll-2024-04-17.png"
 highlight_caption: "Living Looper by Victor Shepardson."
 ---
 

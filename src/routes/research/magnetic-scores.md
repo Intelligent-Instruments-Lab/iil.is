@@ -1,6 +1,6 @@
 ---
 layout: researchproject
-title: "Manetic Scores"
+title: "Magnetic Scores"
 slug: "magnetic-scores"
 description: "A somatosensory interface for music performance and composition."
 featured: false
