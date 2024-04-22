@@ -23,6 +23,8 @@ Intelligent Instruments Lab outputs organised under the following categories:
 
 # Conference Papers
 
+## 2024 <!-- omit in toc -->
+- _Sketching Magnetic Interactions for Neural Synthesis_. Nicola Privato, Giacomo Lepri, Thor Magnusson & Einar Torfi Einarsson. *[TENOR 2024](https://www.zhdk.ch/veranstaltung/53135)*, Zurich, Switzerland. [[PDF](http://iil.is/pdf/2024_tenor_sketching_magnetic_interactions.pdf)]
 
 ## 2023 <!-- omit in toc -->
 - _Explainable AI in Music Performance: Case Studies from Live Coding & Sound Spatialisation_. Celeste Betancur, Jack Armitage, Victor Shepardson & Nicola Privato. *[XAI in Action](https://xai-in-action.github.io/): Past, Present, and Future Applications*, NeurIPS 2023 Workshop, New Orleans, USA. [[PDF](https://openreview.net/forum?id=se4ojQqjB5)]
@@ -75,9 +77,9 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 # Workshops organised by Intelligent Instruments
 
 We have a dedicated [workshop page](https://iil.is/workshops) that describes our workshops in a bit more detail.
-
+- *Embedded Sketching for Neural Synthesis*. Nicola Privato and Giacomo Lepri, TENOR 2024, ZhDK (Switzerland) [info](https://www.zhdk.ch/veranstaltung/53135). April, 2023.
 - *Tolvera presentation* at Hybrid Live Coding Interfaces symposium [info](https://hybrid-livecode.pubpub.org/workshop2023). December, 2023.
-- _Stacco: Sketching Magnetic Interactions_ at Act-in-out, Fabryka Sztuki (Poland) [info](https://actinout.pl/music-events/nicola-privato/). October, 2023.
+- *Stacco: Sketching Magnetic Interactions* Nicola Privato, Act-in-out, Fabryka Sztuki (Poland) [info](https://actinout.pl/music-events/nicola-privato/). October, 2023.
 - *Live Coding Self-Organising Systems*. Jack Armitage. [CuteLab.NYC](https://cutelab.nyc), New York, NY, USA. September 2023.
 - *Agential Instruments Design Workshop*. Jack Armitage, Victor Shepardson, Nicola Privato, Teresa Pelinski, Adan L Benito Temprano, Lewis Wolstanholme, Andrea Martelloni, Franco Santiago Caspe, Courtney N. Reed, Sophie Skach, Rodrigo Diaz, Sean Patrick O'Brien, and Jordie Shier. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/25mg4xnz)]. 
 - *Latent Soundings Workshop*. A workshop in Neural Audio Synthesis. June, 2023. [[info](https://iil.is/news/latent-soundings)]
@@ -108,8 +110,8 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 
 # Presentations
 - _On the Making of End of Empire_, Nicola Privato with Eva Sajovic at Open Eye Gallery, Liverpool (UK) as part of the [Climate Lab programme](https://openeye.org.uk/whatson/end-of-empire-discussion/). 22 Feb, 2024.
-- _Keynote on Intelligent Instruments_, Thor Magnusson with a keynote at the [AI and Music Symposium](https://eveeno.com/ai-in-music-symposium). 16 Dec, 2023.
-- _Thinking with Intelligent Instruments_, Thor Magnusson presenting a keynote at the [Orpheus Institute](https://orpheusinstituut.be). 11 Dec, 2023.
+- _Keynote on Intelligent Instruments_, Thor Magnusson with a keynote at the [AI and Music Symposium](https://eveeno.com/ai-in-music-symposium). 16 Dec, 2024.
+- _Thinking with Intelligent Instruments_, Thor Magnusson presenting a keynote at the [Orpheus Institute](https://orpheusinstituut.be). 11 Dec, 2024.
 - _On AI Prosthetics: Notating for Intelligent Instruments_ Thor Magnusson presentation at the American Musicology Society. [info](https://www.amsmusicology.org/events/EventDetails.aspx?id=1807741). December, 2023.
 - _International Guest Lecture_ at Hochscholand for scen och musik. Gothenburg. [info](https://www.facebook.com/events/1061463981676050?ref=newsfeed), October 2023.
 _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_ Nicola Privato presenting at I_mBody Lab, Poland. October 2023.
@@ -154,6 +156,7 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 - Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
 
 # Performances
+- _Magnetologues_, Nicola Privato and Giacomo Lepri, Stacco, Neural Synthesis and Ambisonics, TENOR 2024, ZhDK Zurich, Swizerland. [info](https://www.zhdk.ch/veranstaltung/53135). 6 Apr 2024.
 - _NeoArte: Synthesizer of Arts_, Thor Magnusson, Halla Steinnunn Stefánsdóttir, Jack Armitage, Miguel Cozzoli, Nicola Privato. Nordic House, Reykjavík. [info](https://neoarte.pl/en/programme/). 23 Mar 2024.
 - _Mouja at IRCAM Forum_, Nicola Privato, Thales and Stacco, Neural Synthesis and Ambisonics, IRCAM, Paris, France.
 [info](https://forum.ircam.fr/article/mouja/). 21 Mar 2024.
@@ -214,3 +217,4 @@ Many projects can be found on our [GitHub page](https://github.com/Intelligent-I
 - RapidLibBela - [https://github.com/jarmitage/RapidLibBela](https://github.com/jarmitage/RapidLibBela)
 - ScalaScales - [https://github.com/Intelligent-Instruments-Lab/ScalaScales](https://github.com/Intelligent-Instruments-Lab/ScalaScales)
 - proto-langspil - [https://github.com/Intelligent-Instruments-Lab/proto-langspil](https://github.com/Intelligent-Instruments-Lab/proto-langspil)
+- Thales - [https://github.com/Intelligent-Instruments-Lab/Thales](https://github.com/Intelligent-Instruments-Lab/Thales)
