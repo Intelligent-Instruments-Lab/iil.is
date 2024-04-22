@@ -2,10 +2,10 @@
 layout: researchproject
 title: "Thales"
 slug: "Thales"
-description: " "
+description: "Magnetic Controllers for Neural Audio Synthesis"
 featured: false
 authors: ["Nicola Privato"]
-highlight_image: "research/projects/thales.jpg"
+highlight_image: "research/projects/thales.png"
 highlight_caption: "Thales."
 ---
 
