@@ -10,7 +10,12 @@ highlight_caption: "magnetic-scores."
 ---
 
 Magnetism is a playful and fascinating force, and one that can be used to convey information and suggest movement through the reciprocal, tangible interaction of magnetic fields.
+
 _Magnetic Scores_ explore the compositional and expressive possibilities offered by permanent magnets both in the inscription of musical instructions and in controlling musical parameters through somatosensory feedback.
-At the core of this project are the magnetic discs: two wireless controllers containing magnetometers and permanent magnets. Because the magnets are oriented with identical polarities, the controllers push on each other and generate a tangible magnetic field that can be played in order to produce sound. Alternatively, by embedding magnets of different dimensions and orientation in the peroformative space or in any type of surface, it is possible to compose and play magnetic scores.
+
+This project combines Thales,two wireless controllers containing magnetometers and permanent magnets, with a series of magnetically inscribed objects such as wooden boards, tridimensional object or the performative area itself. 
 We are using machine learning in order to dynamically map the discs' reading with various sound engines, including Neural Synthesis.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rcd4GOzGVA8?si=oyBdGvXAO0yQEzcd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 

@@ -5,11 +5,11 @@ slug: "Thales"
 description: "Magnetic Controllers for Neural Audio Synthesis"
 featured: false
 authors: ["Nicola Privato"]
-highlight_image: "research/projects/thales.png"
+highlight_image: "research/projects/thales.jpg"
 highlight_caption: "Thales."
 ---
 
-Thales is a composed instrument developed at the Intelligent Instruments Lab, based on two wireless controllers that interact with each other through their tangible magnetic fields. Its name comes from Thales of Miletus, the philosopher who described magnets as "having a soul".
+Thales is a composed instrument based on two wireless controllers that interact with each other through their tangible magnetic fields. Its name comes from Thales of Miletus, the philosopher who described magnets as "having a soul".
 
 In interaction design applications, it is common to use magnetometers to detect nearby magnets. But the novelty of Thales is that on top of the magnetometer is placed a stack of powerful magnets: as the discs detect nearby magnetic fields, the user tangibly interacts with them through the reciprocal attraction and repulsion of the magnets.
 
