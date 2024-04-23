@@ -19,7 +19,7 @@ featured: true
 
 # Overtone Flute Workshop
 
-** When: May 4rth, 2024. 10am. **
+** When: May 4rth, 2024. 10am. **  
 ** Where: Intelligent Instruments Lab @ Veröld - Hús Vigdísar. ** [[map](https://maps.app.goo.gl/4nSMipyv9WzY2ux79)]
 
 The oldest musical instruments we know of are bone flutes from ca 40.000 years ago. The flute is an instrument that exists in most cultures and we find them in mythology and fine art in all periods. It is an instrument of the human breath, of the psyche, highly expressive and personal. But how are flutes made? How do they work?
