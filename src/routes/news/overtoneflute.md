@@ -44,7 +44,9 @@ Jan teaches socially-engaged practice and practice-based research at the Guildha
 [Jan's website](https://www.janhendrickse.com)
 
 
+# Workshop Registration
 
+Please fill in the following form to apply for the workshop. We aim to invite 15 people to the workshop and we will select people based on considerations of diversity and plurality of backgrounds.  
 
 <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=sYZLjIL5HkOteIjsz0Hh8E-VWUy5AuRMjkzZso9NcJhUMzNFNkxXM0FFNzNQTzM0QVZHQklJWjI5MC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
@@ -58,4 +60,11 @@ Jan teaches socially-engaged practice and practice-based research at the Guildha
     src="news/ofWorkshop3.jpg"
     alt="From an earlier workshop"
     caption="From an earlier workshop"
+/>
+
+
+<CaptionedImage
+    src="research/projects/wall2.jpg"
+    alt="The ii lab Organium"
+    caption="The ii lab Organium"
 />
