@@ -27,3 +27,8 @@ We describe the Living Looper, a real-time software system for prediction and co
 
 https://github.com/victor-shepardson/living-looper
 
+## Videos
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-KiQkexsml8?si=ma7vymC8xi11Y1b_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XHec9nnvBq0?si=0wiEv3c0m1QNqnuJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
