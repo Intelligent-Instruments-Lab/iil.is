@@ -24,6 +24,27 @@ If you like what you see here below, you might suggest a workshop at your instit
 
 #  :::::::: Upcoming Workshops  ::::::::
 
+
+# Overtone Flute Workshop
+
+### Intelligent Instruments Lab, Reykjavik, May 6th, 2024.
+
+The oldest musical instruments we know of are bone flutes from ca 40.000 years ago. The flute is an instrument that exists in most cultures and we find them in mythology and fine art in all periods. It is an instrument of the human breath, of the psyche, highly expressive and personal. But how are flutes made? How do they work?
+ 
+People invited to take part in a workshop that will demonstrate a simple process of making an overtone flute. These flutes are played in many parts of the world, from Scandinavia to East Africa, as are useful for understanding the overtone series. The making process is simple and should take under an hour. We will make two instruments each one for experimentation in the workshop and one for a collective performance. 
+
+For this workshop we seek a diverse group of people from a broad background, and that means you if you are interested in flutes and flute making. We hope to involve composers, performers, amateurs, designers, enthusiasts or people interested in acoustics and the physics of instruments. We will explore the potential of collective music making with these instruments. No previous experience in instrument making or flute playing is required for the workshop.
+
+The workshop is in two parts: acoustic flutes and intelligent flutes. The first part of the workshop involves making your own flute and learn to play it. After lunch we will explore how to add electronics and do further experimentation with the flute. Both workshops will last approximately 3 hours.
+
+- [Workshop Page](https://iil.is/news/overtoneflute)
+
+<CaptionedImage
+    src="news/ofWorkshop1.jpg"
+    alt="From an earlier Overtone Flute workshop"
+    caption="From an earlier Overtone Flute workshop"
+/>
+
 # Composing and Performing with AI
 
 ### SaMPL Lab, Padova, Italy, and Conservatory of Padova. 20 and 27 May, 6 June 2024.
