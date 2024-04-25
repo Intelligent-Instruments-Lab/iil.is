@@ -57,7 +57,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Books and Book chapters
 - _Live Coding: A User's Manual_, by Alan Blackwell, Emma Cocker, Geoff Cox, Alex McLean and Thor Magnusson. 2022. Open Access [here](https://livecodingbook.toplap.org). Info at [MIT Press](https://mitpress.mit.edu/books/live-coding)
-- “Designing the Threnoscope, or, How I Wrote One of My Pieces” by Thor Magnusson in *Sound Work: Composition as Critical Technical Practice*, published by Orpheus Institut. 2021. [[url](https://orpheusinstituut.be/en/publications/sound-work)]
+- _Designing the Threnoscope, or, How I Wrote One of My Pieces_ by Thor Magnusson in *Sound Work: Composition as Critical Technical Practice*, published by Orpheus Institut. 2021. [[url](https://orpheusinstituut.be/en/publications/sound-work)]
 
 # Journal articles
 - _Editorial: Live Coding Sonic Creativities_ by Anna Xambo, Gerard Roma and Thor Magnusson. 2023. [[url](https://www.cambridge.org/core/journals/organised-sound/article/editorial-live-coding-sonic-creativities/7CAFDFB2FB693C44A77017225A413FD8)]
@@ -77,6 +77,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 # Workshops organised by Intelligent Instruments
 
 We have a dedicated [workshop page](https://iil.is/workshops) that describes our workshops in a bit more detail.
+
 - *Embedded Sketching for Neural Synthesis*. Nicola Privato and Giacomo Lepri, TENOR 2024, ZhDK (Switzerland) [info](https://www.zhdk.ch/veranstaltung/53135). April, 2023.
 - *Tolvera presentation* at Hybrid Live Coding Interfaces symposium [info](https://hybrid-livecode.pubpub.org/workshop2023). December, 2023.
 - *Stacco: Sketching Magnetic Interactions* Nicola Privato, Act-in-out, Fabryka Sztuki (Poland) [info](https://actinout.pl/music-events/nicola-privato/). October, 2023.
@@ -109,6 +110,7 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 - On-the-fly residency. Barcelona. Jack Armitage. 2022.
 
 # Presentations
+- _Hugfæri og tæknileikar: Um hugsandi hljóðfæri og tilraunakennd hugvísindi_, Thor Magnusson lecture at the [Univeristy of Iceland](https://www.hi.is/vidburdir/hugfaeri_og_taeknileikar_um_hugsandi_hljodfaeri_og_tilraunakennd_hugvisindi). 18 April, 2024.
 - _On the Making of End of Empire_, Nicola Privato with Eva Sajovic at Open Eye Gallery, Liverpool (UK) as part of the [Climate Lab programme](https://openeye.org.uk/whatson/end-of-empire-discussion/). 22 Feb, 2024.
 - _Keynote on Intelligent Instruments_, Thor Magnusson with a keynote at the [AI and Music Symposium](https://eveeno.com/ai-in-music-symposium). 16 Dec, 2024.
 - _Thinking with Intelligent Instruments_, Thor Magnusson presenting a keynote at the [Orpheus Institute](https://orpheusinstituut.be). 11 Dec, 2024.
@@ -194,7 +196,6 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 
 # Installataions and Exhibitions
 - _Strengjavera II_, at the Nordic House, Reykjavik. [Strengjavera](https://aimc2023.pubpub.org/pub/83k6upv8/release/2), Jack Armitage, Magnetic Resonator Piano and ALife, AIMC 2023, Brighton, UK, Sep 2023.
-
 - _End of Empire_, Nicola Privato and Eva Sajovic present the installation at the British Textile Bienniale. [info](https://britishtextilebiennial.co.uk/programme/eva-sajovic-end_of_empire/), Manchester. Summer 2023.
 - _no-input textiles_, Dr Sophie Skach and Victor Shepardson present at the 2023 Textile Intersections [info](https://www.textile-intersections.com/exhibition/) Conference in London. Summer 2023.
 - _Strengjavera I_, Jack Armitage, Magnetic Resonator Piano and ALife, AIMC 2023, Brighton, UK, [info](https://aimc2023.pubpub.org/pub/83k6upv8/release/2). Sep 2023.
@@ -207,8 +208,12 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 
 
 # Open Source
-Many projects can be found on our [GitHub page](https://github.com/Intelligent-Instruments-Lab/).
-- [RAVE models](https://huggingface.co/Intelligent-Instruments-Lab/rave-models) 
+
+Many projects can be found on our GitHub page - [https://github.com/Intelligent-Instruments-Lab/](https://github.com/Intelligent-Instruments-Lab/).
+
+Our Organium: Library of Technical Elements can be explored in an [online database](https://intelligentinstruments.notion.site/a3963e0f894e46e7a43eadd17d69a857?)
+
+- Neural Audio Synthesis RAVE models - [https://huggingface.co/Intelligent-Instruments-Lab/rave-models](https://huggingface.co/Intelligent-Instruments-Lab/rave-models) 
 - iil-dev (includes iipyper, iml, Notochord, Tolvera, and more) - [https://github.com/Intelligent-Instruments-Lab/iil-dev](https://github.com/Intelligent-Instruments-Lab/iil-dev)
 - flucoma-bela - [https://github.com/jarmitage/flucoma-bela](https://github.com/jarmitage/flucoma-bela)
 - sound-seed-automata - [https://github.com/victor-shepardson/sound-seed-automata](https://github.com/victor-shepardson/sound-seed-automata)
