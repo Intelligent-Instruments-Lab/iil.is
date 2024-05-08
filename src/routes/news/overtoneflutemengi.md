@@ -3,7 +3,7 @@ layout: news
 date: "2024-05-08"
 slug: "overtoneflutemengi"
 title: "Overtone Flute Concert at Mengi"
-description: "A concert following a workshop in Overtone Flute Building"
+description: "Music for Experimental Aerophones"
 featured: true
 ---
 
@@ -28,7 +28,7 @@ A performance of pieces made with overtone flutes built by the composers and per
 
 The oldest musical instruments we know of are bone flutes from ca 40,000 years ago. The flute is an instrument that exists in most cultures and we find them in mythology and fine art in all periods. It is an instrument of the human breath, of the psyche, highly expressive and personal. In this evening of performances we showcase the work of participants in a workshop who have made their own instruments. Many of these have been extended with digital and AI tools to create new hybrid compositions and collaborations. The event will feature members of the Intelligent Instruments Lab as well as the workshop participants. 
 
-Additional performers:
+** Additional performers: **
 
 Nicola Privato - live electronics  
 Victor Riley Shepardson - live electronics  
@@ -43,9 +43,9 @@ Jan Hendrickse - flutes and feedback flute
 />
 
 <CaptionedImage
-    src="news/ofWorkshop3.jpeg"
-    alt="From an earlier workshop"
-    caption="From an earlier workshop"
+    src="news/jan.jpg"
+    alt="Jan Hendrickse"
+    caption="Jan Hendrickse"
 />
 
 
