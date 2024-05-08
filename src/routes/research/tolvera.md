@@ -3,25 +3,18 @@ layout: researchproject
 title: "Tölvera"
 slug: "tolvera"
 description: ""
-featured: false
+featured: true
 authors: ["Jack Armitage"]
-highlight_image: "research/projects/agential-leniatidal.jpg"
+highlight_image: "research/projects/tolvera.jpg"
 highlight_caption: "Tölvera."
 ---
 
-_Agential Scores_ is a project exploring the possibilities of entangling the real-time parameters of musical instruments with [artificial life (ALife)](https://en.wikipedia.org/wiki/Artificial_life) and other types of simulations.
-Much of intelligent systems research today focuses on machine learning techniques such as deep learning, but that does not make it the only interesting computational material to work with when considering agency and intelligence in musical instruments.
-ALife and related fields have inspired generations of researchers to expand their horizons of what could be considered intelligent, and the same is still true today, with new systems and species being discovered all the time.
-Indeed, there is also a coming together of worlds between contemporary research with neural networks, and cellular automata, dubbed [Neural Cellular Automata](https://distill.pub/2020/growing-ca/).
+[Tölvera](http://tolvera.is) is a Python library designed for [composing together](https://arxiv.org/abs/2303.06777) and interacting with [basal](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2019.0750) [agencies](https://link.springer.com/article/10.1007/s00018-023-04790-z). 
+It provides creative coding-style APIs that allow users to combine and compose various built-in behaviours, such as flocking, slime mold growth, and swarming, and also author their own. 
+With built-in support for Open Sound Control (OSC) via [iipyper](https://github.com/Intelligent-Instruments-Lab/iipyper) and interactive machine learning (IML) via [anguilla](https://github.com/Intelligent-Instruments-Lab/anguilla), Tölvera interfaces with and rapidly maps onto existing creative computing software and hardware, striving to be both an accessible and powerful tool for exploring [diverse intelligence](https://www.frontiersin.org/articles/10.3389/fnsys.2022.768201/full) in artistic contexts.
 
-What happens if these systems are brought together in a way that makes entangling them with musical instruments simple and powerful to do? In theory, any musical instrument could be augmented in this way with agency, if it has some way of communicating back and forth with a simulation.
-In this project we seek to first provide such a context, and then investigate its potential.
-This manifests in the form an open source Python library, [Tölvera](https://github.com/Intelligent-Instruments-Lab/iil-python-tools/tree/ja-dev/tolvera):
+The word _Tölvera_ is an Icelandic [kenning](https://en.wikipedia.org/wiki/Kenning) based on _tölva_ meaning computer, from _tala_ (number) and _völva_ (prophetess), and _vera_ (being), composed together as _number being_.
 
-- Tölva = computer, from tala (number) + völva (prophetess) 
-- Vera = being 
-- Tölvera = number being
+For more, visit the [Tölvera website](http://tolvera.is) and join the [Discord server](https://discord.gg/ER7tWds9vM).
 
-The following video playlist documents this project's work in progress using the Tölvera library:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8bdQleKUA1vNez5gw-pfQB21Q1-vHn3x" title="Agential Scores / Tölvera" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="500" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8bdQleKUA1vNez5gw-pfQB21Q1-vHn3x" title="Tölvera" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
