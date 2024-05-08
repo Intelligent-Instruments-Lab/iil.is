@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2024-04-08"
+date: "2024-05-08"
 slug: "overtoneflutemengi"
 title: "Overtone Flute Concert at Mengi"
 description: "A concert following a workshop in Overtone Flute Building"
@@ -12,7 +12,7 @@ featured: true
 </script>
 
 <CaptionedImage
-    src="news/overtoneBW1.jpg"
+    src="news/overtoneBW1.jpeg"
     alt="From the workshop at the Intelligent Instruments Lab"
     caption="From the workshop at the Intelligent Instruments Lab"
 />
@@ -37,13 +37,13 @@ Jan Hendrickse - flutes and feedback flute
 
 
 <CaptionedImage
-    src="news/overtoneBW2.jpg"
+    src="news/overtoneBW2.jpeg"
     alt="From the workshop at the Intelligent Instruments Lab"
     caption="From the workshop at the Intelligent Instruments Lab"
 />
 
 <CaptionedImage
-    src="news/ofWorkshop3.jpg"
+    src="news/ofWorkshop3.jpeg"
     alt="From an earlier workshop"
     caption="From an earlier workshop"
 />

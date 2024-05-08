@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2024-04-23"
+date: "2024-05-04"
 slug: "overtoneflute"
 title: "Overtone Flute Workshop"
 description: "A workshop in building overtone flutes and exploring flute intelligence"
