@@ -1,9 +1,9 @@
 ---
 layout: news
-date: "2024-04-23"
-slug: "overtoneflute"
-title: "Overtone Flute Workshop"
-description: "A workshop in building overtone flutes and exploring flute intelligence"
+date: "2024-04-08"
+slug: "overtoneflutemengi"
+title: "Overtone Flute Concert at Mengi"
+description: "A concert following a workshop in Overtone Flute Building"
 featured: true
 ---
 
