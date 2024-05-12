@@ -42,6 +42,7 @@ Thor Magnusson will also give a talk about the history and development of musica
     caption="The Basque txalaparta instrument"
 />
 
+<hr>
 
 # Composing and Performing with AI
 
