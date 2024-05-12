@@ -84,6 +84,8 @@ The workshop was in two parts: acoustic flutes and intelligent flutes. The first
     caption="From an earlier Overtone Flute workshop"
 />
 
+<hr>
+
 
 # Artificial Life & Self-Organising Systems for Creativity with Tölvera
 
@@ -97,7 +99,12 @@ Tölvera is a new Python-based tool for real-time interactive and creative compu
 
 <YouTubePL 
   id="PL8bdQleKUA1vNez5gw-pfQB21Q1-vHn3x" 
-  caption="YouTube Playlist for Tölvera"/>
+  caption="YouTube Playlist for Tölvera"
+  />
+
+
+<hr>
+
 
 # E-Textile No-Input Mixer workshop
 
@@ -108,6 +115,11 @@ Tölvera is a new Python-based tool for real-time interactive and creative compu
 In this workshop, Victor Shepardson gave a talk on IIL and the project to MA composition students at Bowling Green State University, and participants were invited to try the no-input mixing board and knitted e-textile mat for themselves.
 
 - [Video demonstrations](https://www.youtube.com/watch?v=VT8Ht0lf_F4&list=PLK7FLipUDWEE1DbcmiXQZJ_Az9D3iGMDN)
+
+
+<hr>
+
+
 
 # Embedded Sketching for Neural Audio Synthesis
 
@@ -123,6 +135,9 @@ In this workshop led by Nicola Privato and Giacomo Lepri, participants were invi
  src="workshops/TENOR_stacco.jpg"
   alt="From Embedded Sketching for Neural Audio Synthesis"
   caption="From Embedded Sketching for Neural Audio Synthesis"/>
+
+<hr>
+
 
 
 # Sketching Magnetic Interactions for Neural Synthesis
@@ -140,6 +155,11 @@ They sought to answer the question: What gestures, interactions and musical idea
   alt="From Sketching Magnetic Interactions for Neural Synthesis Workshop"
   caption="From Sketching Magnetic Interactions for Neural Synthesis Workshop"/>
 
+
+<hr>
+
+
+
 # Live Coding Self-Organising Systems
 
 #### [CuteLab.NYC](https://cutelab.nyc), New York, USA, September 2023
@@ -152,6 +172,11 @@ They sought to answer the question: What gestures, interactions and musical idea
   src="workshops/tolvera_nyc.jpg"
   alt="Workshop Promotional Image"
   caption="Workshop Promotional Image"/>
+
+
+<hr>
+
+
 
 # AI Music Creativity (AIMC) Conference
 
@@ -169,6 +194,11 @@ How do intelligent tools change the way we think and perform our music? What is 
   id="PLTl_xbaxkOhrGf4yV2P8Uvx2E72Wsf8De" 
   caption="YouTube Playlist for AIMC 2023"/>
 
+
+<hr>
+
+
+
 # Agential Instruments Design Workshop
 
 #### Brighton, UK, 29 August, 2023
@@ -181,6 +211,11 @@ Physical and gestural musical instruments that took advantage of artificial inte
   src="workshops/aimc.jpg"
   alt="Teresa Pelinski, PhD Candidate, presenting at the Agential Instruments Design Workshop"
   caption="Teresa Pelinski, PhD Candidate, presenting at the Agential Instruments Design Workshop"/>
+
+
+<hr>
+
+
 
 # Latent Soundings Workshop
 
@@ -200,6 +235,11 @@ It’s not every day that a new audio synthesis technique emerges. With new mach
   alt="A teacher with two students in a class room. Another laptop in the foreground."
   caption="During Moises Horta's workshop"/>
 
+
+<hr>
+
+
+
 # Txalaparta and AI
 
 The txalaparta is a traditional Basque percussion instrument for two performers. It has a unique performance method as it needs two performers to play - its performance is about the commuication between the two players. The instrument is played by hitting wooden batons straight down onto wooden planks (not tuned in any notes) and controlling weight, force and velocity. It is a play between physics and control.
@@ -213,6 +253,11 @@ The workshop introduced the percussive techniques used to play the instrument an
   alt="Intelligent Instruments Lab logo, black."
   caption="The black logo with logomark and wordmark"/>
 
+
+<hr>
+
+
+
 # Txalaparta at Strandir
 
 The txalaparta is a traditional Basque percussion instrument for two performers. It has a unique performance method as it needs two performers to play - its performance is about the commuication between the two players. The instrument is played by hitting wooden batons straight down onto wooden planks (not tuned in any notes) and controlling weight, force and velocity. It is a play between physics and control.
@@ -225,6 +270,11 @@ The workshop introduced the percussive techniques used to play the instrument an
   src="workshops/txalaStrandir.jpg"
   alt="Intelligent Instruments Lab logo, black."
   caption="The black logo with logomark and wordmark"/>
+
+
+<hr>
+
+
 
 # Organic Intelligence 
 
@@ -240,6 +290,11 @@ In the workshop we learned about how the organ worked, both for human players an
   id="PLTl_xbaxkOhqiErBzmxpLDLnl2IkWzRhC"
   caption="Organic Intelligence Workshop"/>
 
+
+<hr>
+
+
+
 # Living Looper Workshop
 
 #### Intelligent Instruments Lab & Mengi, November 2022
@@ -252,6 +307,11 @@ We hosted a Living Looper Workshop for electric guitarists. The Living Looper su
   src="workshops/livinglooper.jpg"
   alt="Living Looper workshop"
   caption="Living Looper Workshop"/>
+
+
+<hr>
+
+
 
 # Embedded AI for NIME: Challenges and Opportunities
 
@@ -267,6 +327,11 @@ With this Workshop we brought together researchers with the common interest of w
   id="H99MRsQ6U3Y"
   caption="Embedded AI for NIME Proceedings for Workshop Session 1"/>
 
+
+<hr>
+
+
+
 # Nordic Music Days 
 
 #### Intelligent Instruments Lab, Reykjavík, Iceland, October 2022
@@ -276,6 +341,11 @@ In this workshop people of all skills and backgrounds could come and explore the
 Through looking at new technologies, interfaces and technical elements developed in the lab, we created the conditions for workshop participants to make their own instruments, systems, or compositions. We invited everyone to join the workshop: the only thing you needed was a deep interest in music, musical instruments and how new instruments could be built with contemporary technologies.
 
 - [Workshop info page](https://iil.is/news/nordic-music-days-22)
+
+
+<hr>
+
+
 
 # ii lab Workshop at ÓMAR Festival
 
@@ -293,6 +363,11 @@ This festival celebrated the role of music at the edge of the possible in techno
   alt="ii lab workshop at Hjalteyri"
   caption="ii lab workshop at Hjalteyri"/>
 
+
+<hr>
+
+
+
 # Trash Sounds Workshop
 
 #### RUSL Sustainable Design Festival, Gufunes, Iceland, July 2022
@@ -304,6 +379,11 @@ We ran a workshop called Trash Sounds, a week-long intensive workshop from June 
 <YouTube
   id="jkE-5VO8X00"
   caption="RUSL FEST - Intelligent Instruments Lab Final Concert"/>
+
+
+<hr>
+
+
 
 # Living Algorithms Workshop
 
@@ -320,6 +400,11 @@ Free live coding workshops will take place at Listaháskóli Íslands Þverholt 
   alt="Living Algorithms workshop"
   caption="Living Algorithms Workshop"/>
 
+
+<hr>
+
+
+
 # Moving Strings Symposium
 
 #### Intelligent Instruments Lab, Reykjavik, Iceland, December 2021
@@ -333,6 +418,11 @@ How can digital processing, including dynamical systems and AI, augment the natu
 <YouTubePL
   id="PLTl_xbaxkOhro3V3sKqxm-SdxEM1dtkxo"
   caption="YouTube Playlist for Moving Strings"/>
+
+
+<hr>
+
+
 
 # Hybrid Live Coding Interfaces (HLCI) Workshop 2021
 
