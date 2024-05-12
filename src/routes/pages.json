@@ -35,6 +35,11 @@
     "style": "default"
   },
   {
+    "label": "Workshops", 
+    "url": "/workshops",
+    "style": "default"
+  },
+  {
     "label": "Press",
     "url": "/press",
     "style": "default"
