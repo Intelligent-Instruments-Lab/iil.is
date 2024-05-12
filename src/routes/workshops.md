@@ -16,34 +16,32 @@ description: "Workshops at the Intelligent Instruments Lab"
 One of the research methods we apply in our lab is to test our technologies through workshops. This serves multiple purpose: 
 
 - We prepare our tools for real-world usage, debug, write tutorials and example code.
-- We spread our instruments out to users who apply them in their own work and become 'ambassadors' of our systems.
+- We share our instruments with performers who become ‘ambassadors’ of our systems.
 - We gain feedback on the projects as we are developing them and a reality check.
-- We explore the perception of AI amongst users, and explore the language and discourse that emerges during the workshop.
+- We explore the perception of AI and analyse the language and discourse that emerges
 
 If you like what you see here below, you might suggest a workshop at your institution or [get in touch](/collaborate) for a collaborative workshop.
 
 #  :::::::: Upcoming Workshops  ::::::::
 
 
-# Overtone Flute Workshop
 
-### Intelligent Instruments Lab, Reykjavik, May 6th, 2024.
+# ii lab workshop at The Basque Centre in Djúpavík
 
-The oldest musical instruments we know of are bone flutes from ca 40.000 years ago. The flute is an instrument that exists in most cultures and we find them in mythology and fine art in all periods. It is an instrument of the human breath, of the psyche, highly expressive and personal. But how are flutes made? How do they work?
- 
-People invited to take part in a workshop that will demonstrate a simple process of making an overtone flute. These flutes are played in many parts of the world, from Scandinavia to East Africa, as are useful for understanding the overtone series. The making process is simple and should take under an hour. We will make two instruments each one for experimentation in the workshop and one for a collective performance. 
+### Djúpavík, Strandir, June 6th, 2024.
 
-For this workshop we seek a diverse group of people from a broad background, and that means you if you are interested in flutes and flute making. We hope to involve composers, performers, amateurs, designers, enthusiasts or people interested in acoustics and the physics of instruments. We will explore the potential of collective music making with these instruments. No previous experience in instrument making or flute playing is required for the workshop.
+On Thursday, June 6, there will be an open workshop on making musical instruments from trash in Djúpavík. The goal is to promote sustainability and reuse while connecting with Basque cultural heritage. Seafood is also a part of the project. The Intelligent Instruments Lab at the Iceland University of the Arts and the Icelandic Basque Association organize the studio in collaboration with the Factory art exhibition in Djúpavík. 
 
-The workshop is in two parts: acoustic flutes and intelligent flutes. The first part of the workshop involves making your own flute and learn to play it. After lunch we will explore how to add electronics and do further experimentation with the flute. Both workshops will last approximately 3 hours.
+Thor Magnusson will also give a talk about the history and development of musical instruments.
 
-- [Workshop Page](https://iil.is/news/overtoneflute)
+- [Information Page](https://baskasetur.is/the-basque-centre-in-djupavik-opens-with-an-exhibition-a-workshop-on-making-musical-instrumentsa-symposium-and-a-concert-6-8-june-2024/)
 
 <CaptionedImage
-    src="news/ofWorkshop1.jpg"
-    alt="From an earlier Overtone Flute workshop"
-    caption="From an earlier Overtone Flute workshop"
+    src="news/txalaparta-5499.jpg"
+    alt="The Basque txalaparta instrument"
+    caption="The Basque txalaparta instrument"
 />
+
 
 # Composing and Performing with AI
 
@@ -62,6 +60,29 @@ In this workshop, Nicola Privato will introduce practical tools and methodologie
 
 
 #  :::::::: Past Workshops  ::::::::
+
+
+# Overtone Flute Workshop
+
+### Intelligent Instruments Lab, Reykjavik, May 6th, 2024.
+
+The oldest musical instruments we know of are bone flutes from ca 40.000 years ago. The flute is an instrument that exists in most cultures and we find them in mythology and fine art in all periods. It is an instrument of the human breath, of the psyche, highly expressive and personal. But how are flutes made? How do they work?
+ 
+People were invited to take part in a workshop that demonstrated a simple process of making an overtone flute. These flutes are played in many parts of the world, from Scandinavia to East Africa, as are useful for understanding the overtone series. The making process is simple and takes under an hour. We made two instruments each one for experimentation in the workshop and one for a collective performance. 
+
+In this workshop we sought a diverse group of people from a broad background. Composers, performers, amateurs, designers, enthusiasts and people interested in acoustics and the physics of instruments joined the workshop. We explored the potential of collective music making with these instruments.
+
+The workshop was in two parts: acoustic flutes and intelligent flutes. The first part of the workshop involved people making their own flute and learn to play it. After lunch was an exploration of how to add electronics and do further experimentation with the flute. The workshop was followed by a concert in Mengi.
+
+- [Workshop Page](https://iil.is/news/overtoneflute)  
+- [Mengi Concert](https://iil.is/news/overtoneflutemengi)  
+
+<CaptionedImage
+    src="news/ofWorkshop1.jpg"
+    alt="From an earlier Overtone Flute workshop"
+    caption="From an earlier Overtone Flute workshop"
+/>
+
 
 # Artificial Life & Self-Organising Systems for Creativity with Tölvera
 
