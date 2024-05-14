@@ -14,8 +14,8 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 
 <CaptionedImage
     src="news/societyaward.jpg"
-    alt="Rannís Event for European Cooperation for 30 years"
-    caption="Rannís Event for European Cooperation for 30 years"/>
+    alt="The award winners of the four projects under the categories: Health, Technology, Society and Inspiration."
+    caption="The award winners of the four projects under the categories: Health, Technology, Society and Inspiration."/>
 
 # The Intelligent Instruments project won a University of Iceland Science and Innovation Award
 
