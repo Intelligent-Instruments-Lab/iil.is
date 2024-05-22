@@ -1,7 +1,7 @@
 ---
 name: "Zeno van den Broek"
 type: "Associate"
-role: "Visiting Researcher"
+role: "Visiting Researcher & Artist"
 email: "info@zenovandenbroek.com"
 image: "images/people/zeno.jpg"
 links: {
