@@ -4,6 +4,7 @@ date: "2024-05-24"
 slug: "gsoc2024-ian"
 title: "Welcoming Ian Clester, GSOC 2024 contributor!"
 description: "Project: Differentiable Logic for Interactive Systems and Generative Music"
+highlight_image: "people/ian.jpg"
 featured: true
 ---
 
