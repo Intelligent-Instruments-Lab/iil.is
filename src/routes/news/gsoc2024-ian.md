@@ -14,7 +14,8 @@ Congratulations to [Ian Clester](/people#ian-clester), our second <a href="https
 Ian is a PhD student in Music Technology at Georgia Tech in the [Computational Music for All lab](https://gtcmt.gatech.edu/computational-music-for-all).
 Ian will be mentored by [Dr Jack Armitage](/people#jack-armitage) from the Intelligent Instruments Lab, and [Dr Chris Kiefer](https://profiles.sussex.ac.uk/p208667-chris-kiefer) from the [Experimental Music Technologies (Emute) Lab](https://www.emutelab.org/), University of Sussex, UK.
 
-Read about Ian's project below.
+Thanks to [BeagleBoard](https://beagleboard.org) and [Bela](http://bela.io) for sponsoring the hardware for Ian's project!
+Read more about Ian's project below.
 
 <CaptionedImage
   src="people/ian.jpg"
