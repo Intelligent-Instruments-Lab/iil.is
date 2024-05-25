@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2024-05-24"
+date: "2024-05-25"
 slug: "digitalhumanities"
 title: "Intelligent Instruments in the Experimental Humanities"
 description: "Thor Magnusson gives a keynote at the DHNB 2024 Conference"
