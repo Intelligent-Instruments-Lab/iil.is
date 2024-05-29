@@ -5,6 +5,7 @@ slug: "basqueworkshop"
 title: "Open Workshop in Instrument Making at the Basque Centre in Djupavik"
 description: "Open for anyone, all welcome to the amazing Djupavik, Strandir"
 featured: true
+highlight_image: "news/djupavik.jpg"
 ---
 
 <script>
@@ -12,7 +13,7 @@ featured: true
 </script>
 
 <CaptionedImage
-    src="news/djupavik.png"
+    src="news/djupavik.jpg"
     alt="Herring Tank in Djupavik Basque Centre"
     caption="The concerts and workshops will take place there"
 />

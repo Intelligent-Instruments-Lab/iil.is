@@ -5,6 +5,7 @@ slug: "halldorophoneEMS"
 title: "Halldorophone introduction at EMS"
 description: "Open house at EMS, Stockholm"
 featured: true
+highlight_image: "news/halldor.jpg"
 ---
 
 <script>
@@ -12,7 +13,7 @@ featured: true
 </script>
 
 <CaptionedImage
-    src="news/halldor.png"
+    src="news/halldor.jpg"
     alt="Halldorophone introduction at EMS"
     caption="Halldor Ulfarsson at EMS"
 />

@@ -5,7 +5,7 @@ slug: "digitalhumanities"
 title: "Intelligent Instruments in the Experimental Humanities"
 description: "Thor Magnusson gives a keynote at the DHNB 2024 Conference"
 featured: true
-highlight_image: "news/dhnb2024.png"
+highlight_image: "news/dhnb2024.jpg"
 ---
 
 <script>
@@ -13,7 +13,7 @@ highlight_image: "news/dhnb2024.png"
 </script>
 
 <CaptionedImage
-    src="news/dhnb2024.png"
+    src="news/dhnb2024.jph"
     alt="The Digital Humanities in the Nordic and Baltic Countries Conference"
     caption="Conference image showing a volcano and the name of the conference."
 />
