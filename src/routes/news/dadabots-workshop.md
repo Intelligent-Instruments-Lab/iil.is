@@ -21,7 +21,7 @@ highlight_image: "news/dadabots_logo.jpg"
 
 As part of our [ICLC 2024 Satellite Event](/news/iclc2024), we are pleased to welcome our AIMC 2023 keynote speakers [Dadabots](https://dadabots.com/) to the lab to give a workshop on their groundbreaking tools and practices for AI musicianship.
 
-- Sign-up required: https://forms.office.com/e/cLKTTccTbD
+- Sign-up required, remote attendance allowed: https://forms.office.com/e/cLKTTccTbD
 - 14:00-17:00, Saturday 8th June, Háskoli Íslands
 - Location: VHV-103, [Veröld – hús Vigdísar](https://www.hi.is/verold_hus_vigdisar), University of Iceland, Brynjólfsgötu 1, 107 Reykjavik ([Google Maps](https://maps.app.goo.gl/oNqmPashW3DRrYG57))
 - Facebook event: 
