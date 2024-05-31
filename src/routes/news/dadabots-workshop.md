@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2024-05-31"
+date: "2024-06-01"
 slug: "dadabots-workshop"
 title: "Workshop: Exploring AI Musicianship with Dadabots"
 description: "14:00-17:00, Saturday 8th June, Háskoli Íslands"
@@ -24,7 +24,6 @@ As part of our [ICLC 2024 Satellite Event](/news/iclc2024), we are pleased to we
 - Sign-up required, remote attendance allowed: https://forms.office.com/e/cLKTTccTbD
 - 14:00-17:00, Saturday 8th June, Háskoli Íslands
 - Location: VHV-103, [Veröld – hús Vigdísar](https://www.hi.is/verold_hus_vigdisar), University of Iceland, Brynjólfsgötu 1, 107 Reykjavik ([Google Maps](https://maps.app.goo.gl/oNqmPashW3DRrYG57))
-- Facebook event: 
 - Participant pre-requisites: none, laptop and headphones optional!
 
 ## Description
