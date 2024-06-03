@@ -5,7 +5,7 @@ slug: "dadabots-workshop"
 title: "Workshop: Exploring AI Musicianship with Dadabots"
 description: "14:00-17:00, Saturday 8th June, Háskoli Íslands"
 featured: true
-highlight_image: "news/dadabots_logo.jpg"
+highlight_image: "news/dadabots_workshop.jpg"
 ---
 
 <script>
@@ -13,7 +13,7 @@ highlight_image: "news/dadabots_logo.jpg"
 </script>
 
 <CaptionedImage
-    src="news/dadabots_logo.jpg"
+    src="news/dadabots_workshop.jpg"
     alt="Dadabots"
     caption="Dadabots"/>
 
