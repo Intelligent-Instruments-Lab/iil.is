@@ -24,10 +24,13 @@ Intelligent Instruments Lab outputs organised under the following categories:
 # Conference Papers
 
 ## 2024 <!-- omit in toc -->
-- _Sketching Magnetic Interactions for Neural Synthesis_. Nicola Privato, Giacomo Lepri, Thor Magnusson & Einar Torfi Einarsson. *[TENOR 2024](https://www.zhdk.ch/veranstaltung/53135)*, Zurich, Switzerland. [[PDF](http://iil.is/pdf/2024_tenor_sketching_magnetic_interactions.pdf)]
+- _Tölvera: Composing With Basal Agencies_. Jack Armitage, Victor Shepardson & Thor Magnusson. *Proc. New Interfaces for Musical Expression 2024 ([NIME 2024](https://www.nime2024.org/))*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2024_nime_armitage_et_al_tolvera.pdf)]
+- _Artificial Life in Integrated Interactive Sonification and Visualisation: Initial Experiments with a Python-Based Workflow_. Jack Armitage, Miguel Crozzoli & Daniel Jones. *Proc. International Conference on Auditory Display ([ICAD 2024](https://icad2024.icad.org/))*, Troy, NY, USA.  [[pdf](http://iil.is/pdf/2024_icad_armitage_et_al_alife.pdf)]
+- _Pop Live Coding Encounters: Reflections on Practice_. Sarah Davis, Jack Armitage & Gus Lobban. *Proc. International Conference on Live Coding ([ICLC 2024](https://iclc.toplap.org/2024/))*, Shanghai, China. [[pdf](http://iil.is/pdf/2024_iclc_davis_et_al_pop.pdf)]
+- _Sketching Magnetic Interactions for Neural Synthesis_. Nicola Privato, Giacomo Lepri, Thor Magnusson & Einar Torfi Einarsson. *[TENOR 2024](https://www.zhdk.ch/veranstaltung/53135)*, Zurich, Switzerland. [[pdf](http://iil.is/pdf/2024_tenor_sketching_magnetic_interactions.pdf)]
 
 ## 2023 <!-- omit in toc -->
-- _Explainable AI in Music Performance: Case Studies from Live Coding & Sound Spatialisation_. Celeste Betancur, Jack Armitage, Victor Shepardson & Nicola Privato. *[XAI in Action](https://xai-in-action.github.io/): Past, Present, and Future Applications*, NeurIPS 2023 Workshop, New Orleans, USA. [[PDF](https://openreview.net/forum?id=se4ojQqjB5)]
+- _Explainable AI in Music Performance: Case Studies from Live Coding & Sound Spatialisation_. Celeste Betancur, Jack Armitage, Victor Shepardson & Nicola Privato. *[XAI in Action](https://xai-in-action.github.io/): Past, Present, and Future Applications*, NeurIPS 2023 Workshop, New Orleans, USA. [[pdf](https://openreview.net/forum?id=se4ojQqjB5)]
 - _Sardine: a Modular Python Live Coding Environment_. Raphaël Maurice Forment & Jack Armitage. *7th International Conference on Live Coding (ICLC2023)*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2023_iclc_forment_armitage_sardine.pdf)]
 - _The A in AIMC_. Thor Magnusson. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [html](https://aimc2023.pubpub.org/pub/axm86vsk/release/1)
 - _Bela-IREE: An Approach to Embedded Machine Learning for Real-Time Music Interaction_. Ezra Pierce, Victor Shepardson, Jack Armitage, and Thor Magnusson. *Proc. Artificial Intelligence & Music Creativity 2023*. University of Sussex, Brighton, UK. [[link](https://aimc2023.pubpub.org/pub/t2l10z49)]. 
