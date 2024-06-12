@@ -3,7 +3,7 @@ layout: news
 date: "2024-06-11"
 slug: "sonar"
 title: "Intelligent Instruments at Sonar Festival"
-description: "Project presentations and panel sessions at Sonar D"
+description: "Project presentations and panel sessions at Sonar+D"
 featured: true
 highlight_image: "news/sonar.png"
 ---
@@ -15,7 +15,7 @@ highlight_image: "news/sonar.png"
 <CaptionedImage
     src="news/sonar.png"
     alt="Sonar Festival in Barcelona"
-    caption="Sonar 2024 in Barcelona"
+    caption="Sonar 2024 logo"
 />
 
 # Intelligent Instruments at Sonar Festival
@@ -24,7 +24,7 @@ The Intelligent Instruments Lab has been invited to show recent work at the Sona
 
 The ii lab will be part of the <a href="https://sonar.es/en/activity/project-area">AI & Music powered by S+T+ARTS</a> project area exhibition.
 
-Thor Magnusson will also participate in a panel on AI in music called <a href="https://sonar.es/es/actividad/we-are-the-music-makers-ai-and-music-forum">.We are the music makers - AI & Music</a>. 
+Thor Magnusson will also participate in a panel on AI in music called <a href="https://sonar.es/es/actividad/we-are-the-music-makers-ai-and-music-forum">We are the music makers - AI & Music</a>. 
 
 The panel will discuss the impact of AI on musical creativity and is with Anna Xambo (C4DM-QMUL), Magda Polo (UB EKHO), Rob Clouth, Sergi Jorda (UPF), and Thor Magnusson (Intelligent Instruments). Moderated by Gunseli Yalcinkaya (Dazed & Confused).
 
