@@ -18,4 +18,5 @@ Thor Magnusson will also participate in a panel on AI in music called <a href="h
 
 Whilst in Barcelona, Nicola Privato performs at the +Rain Film Festival, and info on that [here](https://www.upf.edu/es/web/rainfilmfest/participants-2024/-/asset_publisher/3l5C5u5Q3x4G/content/nicola.privato/maximized)
 
+
 Further info on Sonar: [https://sonar.es/](https://sonar.es/)
