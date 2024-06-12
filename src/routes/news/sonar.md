@@ -19,7 +19,7 @@ featured: true
 
 # Intelligent Instruments at Sonar Festival
 
-The Intelligent Instruments Lab has been invited to show recent work at the Sónar 2024 festival in Barcelona. Sónar is a pioneering festival that's reflected the evolution and expansion of electronic music and digital culture since its first edition in 1994. Every year, Sónar converts Barcelona into a focal point for music lovers, artists and professionals from across the world. We are exhibiting our work as part of the Sonar+D Project Area, which is full of exciting innovative projects in music technology. 
+The Intelligent Instruments Lab has been invited to show recent work at the Sonar 2024 festival in Barcelona. Sonar is a pioneering festival which has reflected the evolution and expansion of electronic music and digital culture since its first edition in 1994. Every year, Sonar converts Barcelona into a focal point for music lovers, artists and professionals from across the world. We at the Intelligent Instruments Lab are exhibiting our work as part of the Sonar+D Project Area, which is full of exciting innovative projects in music technology. 
 
 The ii lab will be part of the <a href="https://sonar.es/en/activity/project-area">AI & Music powered by S+T+ARTS</a> project area exhibition.
 
