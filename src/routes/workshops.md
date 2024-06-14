@@ -24,15 +24,19 @@ If you like what you see here below, you might suggest a workshop at your instit
 
 #  :::::::: Upcoming Workshops  ::::::::
 
+None planned at the moment!
+
+
+#  :::::::: Past Workshops  ::::::::
 
 
 # ii lab workshop at The Basque Centre in Djúpavík
 
 ### Djúpavík, Strandir, June 6th, 2024.
 
-On Thursday, June 6, there will be an open workshop on making musical instruments from trash in Djúpavík. The goal is to promote sustainability and reuse while connecting with Basque cultural heritage. Seafood is also a part of the project. The Intelligent Instruments Lab at the Iceland University of the Arts and the Icelandic Basque Association organize the studio in collaboration with the Factory art exhibition in Djúpavík. 
+We ran an open workshop on making musical instruments from trash in Djúpavík. The goal was to promote sustainability and reuse while connecting with Basque cultural heritage. Seafood is also a part of the project. The Intelligent Instruments Lab at the Iceland University of the Arts and the Icelandic Basque Association organize the studio in collaboration with the Factory art exhibition in Djúpavík. 
 
-Thor Magnusson will also give a talk about the history and development of musical instruments.
+Thor Magnusson also gave a talk about the history and development of musical instruments.
 
 - [Information Page](https://baskasetur.is/the-basque-centre-in-djupavik-opens-with-an-exhibition-a-workshop-on-making-musical-instrumentsa-symposium-and-a-concert-6-8-june-2024/)
 
@@ -44,11 +48,28 @@ Thor Magnusson will also give a talk about the history and development of musica
 
 <hr>
 
+# Workshop: Exploring AI Musicianship with Dadabots
+
+As part of our [ICLC 2024 Satellite Event](/news/iclc2024), we were pleased to welcome our AIMC 2023 keynote speakers [Dadabots](https://dadabots.com/) to the lab to give a workshop on their groundbreaking tools and practices for AI musicianship.
+
+In the workshop we explored how different flavors of neural network architectures (from LSTM to Transformer to Diffusion) make different music. We explored how it extends musicianship beyond just making songs into making 24/7 livestreams.  In the workshop participants learned how to train or finetune their own custom models & run them. Dadabots also presented what it's like collaborating with artists & getting into (and out of) copyright trouble. They also hinted at what capabilities are on the horizon. 
+
+This workshop was suitable for a general audience interested in music, possibly even making music for the first time. But also for the deeply curious we'll dip into the science & tech & are happy to answer more advanced questions.
+
+Finally the workshop introduced "prompt jockeying". It’s DJing but harder. If a DJ must be fluent in their rekordbox collection, a PJ must be fluent in their pytorch model. Prompts can be created live together with the audience — fake artists, genre fusions, rap features & producer collabs that never happened. 
+
+<CaptionedImage
+    src="news/dadabots_illustration.jpg"
+    alt="Dadabots, illustrated edition."
+    caption="Dadabots, illustrated edition."/>
+
+<hr>
+
 # Composing and Performing with AI
 
 ### SaMPL Lab, Padova, Italy, and Conservatory of Padova. 20 and 27 May, 6 June 2024.
 
-In this workshop, Nicola Privato will introduce practical tools and methodologies for performing and composing with AI, including mapping and feature extraction tools, generative symbolic models and neural audio synthesis. We will begin with a broad presentation of these systems, of their historical evolution, and in the description of a series of application scenarios, and continue by introducing a selection of systems developed at the Intelligent Instruments Lab and IRCAM. In this phase, we will explore the algorithms and the compositional strategies they define, providing the participants with the necessary technical skills to autonomously apply them. The second meeting will be dedicated to the presentation of the participants' project proposals and the identification of effective strategies for the design and training of the proposed systems, while the third meeting will focus on their development.
+In this workshop, Nicola Privato introduced practical tools and methodologies for performing and composing with AI, including mapping and feature extraction tools, generative symbolic models and neural audio synthesis. The workshop began with a broad presentation of these systems, of their historical evolution, and in the description of a series of application scenarios, and continue by introducing a selection of systems developed at the Intelligent Instruments Lab and IRCAM. The participants explored the algorithms and the compositional strategies they define, providing the participants with the necessary technical skills to autonomously apply them. The workshop included presentation of the participants' project proposals and the identification of effective strategies for the design and training of the proposed systems.
 
 - [SaMPL website](https://sites.google.com/conservatoriopollini.it/sampl/didattica/sampl-school/composizione-e-performance-con-ia)
 - [Workshop Page](https://sites.google.com/conservatoriopollini.it/sampl/didattica/sampl-school/composizione-e-performance-con-ia)
@@ -58,9 +79,6 @@ In this workshop, Nicola Privato will introduce practical tools and methodologie
  src="workshops/padova_workshop.jpg"
   alt="Composing and Performing with AI"
   caption="Composing and Performing with AI"/>
-
-
-#  :::::::: Past Workshops  ::::::::
 
 
 # Overtone Flute Workshop
