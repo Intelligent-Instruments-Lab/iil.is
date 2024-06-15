@@ -5,7 +5,7 @@ slug: "halldorophone"
 description: "The halldorophone is a cello-like feedback instrument."
 featured: true
 authors: ["Halldor Úlfarsson"]
-highlight_image: "stock/halldorophone.jpg"
+highlight_image: "stock/bananophone.jpg"
 highlight_caption: "The ii halldorophone."
 ---
 
