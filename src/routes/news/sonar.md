@@ -40,12 +40,6 @@ We will be joining the European Commission and the Prix Ars Electronica at the <
 Some images from our citizen science activities:
 
 <CaptionedImage
-    src="news/organolib-6330.jpg"
-    alt="Organium workshop"
-    caption="Organium workshop"
-/>
-
-<CaptionedImage
     src="stock/science_fair3.jpg"
     alt="iil at the European Science Night"
     caption="iil at the European Science Night"
@@ -58,9 +52,9 @@ Some images from our citizen science activities:
 />
 
 <CaptionedImage
-    src="workshops/latent.jpg"
-    alt="Hosting the Artificial Intelligence and Music Creativity Conference in Sussex"
-    caption="Hosting the Artificial Intelligence and Music Creativity Conference in Sussex"
+    src="news/organolib-6330.jpg"
+    alt="Organium workshop"
+    caption="Organium workshop"
 />
 
 <CaptionedImage
@@ -73,4 +67,16 @@ Some images from our citizen science activities:
     src="workshops/txalaDynjandi.jpg"
     alt="Intelligent txalaparta workshop in Reykjavik"
     caption="Intelligent txalaparta workshop in Reykjavik"
+/>
+
+<CaptionedImage
+    src="workshops/txalaDynjandi.jpg"
+    alt="Intelligent txalaparta workshop in Strandir, North Iceland"
+    caption="Intelligent txalaparta workshop in Strandir, North Iceland"
+/>
+
+<CaptionedImage
+    src="workshops/latent.jpg"
+    alt="Hosting the Artificial Intelligence and Music Creativity Conference in Sussex"
+    caption="Hosting the Artificial Intelligence and Music Creativity Conference in Sussex"
 />
