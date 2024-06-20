@@ -23,7 +23,7 @@ The Intelligent Instruments Lab has just won two prizes, both of whom will be aw
     caption="European Citizen Science Awards"
 />
 
-The <b>first</b> one is the <b>European Citizen Science Awards</b> where the lab won an Honorary Mention. This Citizen Science Award focuses on research projects that "social and political impact advances the further development of a pluralistic, inclusive and sustainable society in Europe." 
+The **first** one is the **European Citizen Science Awards** where the lab won an Honorary Mention. This Citizen Science Award focuses on research projects that "social and political impact advances the further development of a pluralistic, inclusive and sustainable society in Europe." 
 
 Information on the European Union Prize for Citizen Science awardees can be found <a href="https://ars.electronica.art/citizenscience/en/winners/">here</a>. The European Commission has a <a href="https://webcast.ec.europa.eu/eu-prize-for-citizen-science-2024-announcement-of-winners">webcast</a> announcing the winners.
 
@@ -35,7 +35,7 @@ The jury writes in their <a href="https://ars.electronica.art/citizenscience/en/
     caption="Prix Ars Electronica"
 />
 
-The <b>second</b> prize awarded to the lab is the <b>Prix Ars Electronica</b> <a href="https://ars.electronica.art/prix/en/winners/#aiinartaward">AI in Art Award</a> - Award of Distinction. The Prix Ars Electronica is described as "the world’s longest-running media art competition. With the award-winning works of international artists as a trend barometer, it offers an inspiring, current and forward-looking insight into the interface between art, technology and society."
+The **second** prize awarded to the lab is the **Prix Ars Electronica** <a href="https://ars.electronica.art/prix/en/winners/#aiinartaward">AI in Art Award</a> - Award of Distinction. The Prix Ars Electronica is described as "the world’s longest-running media art competition. With the award-winning works of international artists as a trend barometer, it offers an inspiring, current and forward-looking insight into the interface between art, technology and society."
 
 We will be joining the European Commission and the Prix Ars Electronica at the <a href="https://ars.electronica.art/news/en/">Ars Electronica Festival</a> in Linz in September. 
 
