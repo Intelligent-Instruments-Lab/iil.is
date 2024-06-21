@@ -72,7 +72,7 @@ Some images from our citizen science activities:
 />
 
 <CaptionedImage
-    src="workshops/txalaDynjandi.jpg"
+    src="workshops/txalaStrandir.jpg"
     alt="Intelligent txalaparta workshop in Strandir, North Iceland"
     caption="Intelligent txalaparta workshop in Strandir, North Iceland"
 />
