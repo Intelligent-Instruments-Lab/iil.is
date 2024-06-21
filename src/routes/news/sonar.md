@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2024-06-11"
+date: "2024-06-12"
 slug: "sonar"
 title: "Intelligent Instruments at Sonar Festival"
 description: "Project presentations and panel sessions at Sonar+D"
