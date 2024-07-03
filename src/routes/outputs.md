@@ -24,6 +24,7 @@ Intelligent Instruments Lab outputs organised under the following categories:
 # Conference Papers
 
 ## 2024 <!-- omit in toc -->
+- _Augmenting the Expressivity of the Notochord Generative MIDI Model for Arca's "The Light Comes in the Name of the Voice" Magnetic Resonator Piano Installation_. Jack Armitage & Victor Shepardson. *Proc. AI Music Creativity 2024 ([AIMC 2024](https://aimc2024.pubpub.org))*, Oxford, UK. [forthcoming]
 - _Tölvera: Composing With Basal Agencies_. Jack Armitage, Victor Shepardson & Thor Magnusson. *Proc. New Interfaces for Musical Expression 2024 ([NIME 2024](https://www.nime2024.org/))*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2024_nime_armitage_et_al_tolvera.pdf)]
 - _Commingling Artificial Life and Interactive Machine Learning in Diffractive Artistic Research Practice_. Jack Armitage, Victor Shepardson, Miguel Crozzoli & Thor Magnusson. *Proc. Conference on Artificial Life 2024 ([ALIFE 2024](https://2024.alife.org/))*, Copenhagen, Denmark. [[pdf](http://iil.is/pdf/2024_alife_armitage_et_al_alife-iml.pdf)]
 - _Artificial Life in Integrated Interactive Sonification and Visualisation: Initial Experiments with a Python-Based Workflow_. Jack Armitage, Miguel Crozzoli & Daniel Jones. *Proc. International Conference on Auditory Display ([ICAD 2024](https://icad2024.icad.org/))*, Troy, NY, USA.  [[pdf](http://iil.is/pdf/2024_icad_armitage_et_al_alife.pdf)]
