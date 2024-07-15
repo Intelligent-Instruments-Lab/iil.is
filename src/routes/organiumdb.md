@@ -5,5 +5,7 @@ slug: "organiumdb"
 description: "An online database of technical elements."
 ---
 
-
-<iframe src="http://www.iil.is" style="width:100%; height:100%;"></iframe>
+<script>
+    import page1Content 'http://www.iil.is';
+</script>
+{@html page1Content}
