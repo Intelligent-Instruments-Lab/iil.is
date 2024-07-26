@@ -1,7 +1,7 @@
 ---
 name: "Adam Pultz Melbye"
 type: "Member"
-role: "Postdoc"
+role: "Postdoc (2023-2024)"
 email: "mail@adampultz.com"
 image: "images/people/adam.jpg"
 links: {

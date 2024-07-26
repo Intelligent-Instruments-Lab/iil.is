@@ -1,7 +1,7 @@
 ---
 name: "Sophie Skach"
 type: "Member"
-role: "Postdoc"
+role: "Postdoc (2023-2024)"
 email: "info@sophieskach.com "
 image: "images/people/Sophie.jpg"
 links: {

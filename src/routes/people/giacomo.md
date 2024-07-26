@@ -1,7 +1,7 @@
 ---
 name: "Giacomo Lepri"
 type: "Member"
-role: "Postdoc"
+role: "Postdoc (2023-2024)"
 email: "giacomo@lhi.is"
 image: "images/people/giacomo.jpg"
 links: {

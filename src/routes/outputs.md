@@ -24,6 +24,7 @@ Intelligent Instruments Lab outputs organised under the following categories:
 # Conference Papers
 
 ## 2024 <!-- omit in toc -->
+- _Real-time Musical Collaboration with a Probabilistic Model_. Karl Johannsson, Victor Shepardson, Enrike Hurtado, Hannes Högni Vilhjálmsson and Thor Magnusson. *21st International Conference on Content-based Multimedia Indexing [CBMI 2024](https://cbmi2024.org)*. [[pdf](http://iil.is/pdf/2024_cbmi_johannsson_et_al_txalaparta.pdf)]
 - _Augmenting the Expressivity of the Notochord Generative MIDI Model for Arca's "The Light Comes in the Name of the Voice" Magnetic Resonator Piano Installation_. Jack Armitage & Victor Shepardson. *Proc. AI Music Creativity 2024 ([AIMC 2024](https://aimc2024.pubpub.org))*, Oxford, UK. [forthcoming]
 - _Tölvera: Composing With Basal Agencies_. Jack Armitage, Victor Shepardson & Thor Magnusson. *Proc. New Interfaces for Musical Expression 2024 ([NIME 2024](https://www.nime2024.org/))*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2024_nime_armitage_et_al_tolvera.pdf)]
 - _Commingling Artificial Life and Interactive Machine Learning in Diffractive Artistic Research Practice_. Jack Armitage, Victor Shepardson, Miguel Crozzoli & Thor Magnusson. *Proc. Conference on Artificial Life 2024 ([ALIFE 2024](https://2024.alife.org/))*, Copenhagen, Denmark. [[pdf](http://iil.is/pdf/2024_alife_armitage_et_al_alife-iml.pdf)]
@@ -218,7 +219,7 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 
 Many projects can be found on our GitHub page - [https://github.com/Intelligent-Instruments-Lab/](https://github.com/Intelligent-Instruments-Lab/).
 
-Our Organium: Library of Technical Elements can be explored in an [online database](https://intelligentinstruments.notion.site/a3963e0f894e46e7a43eadd17d69a857?)
+Our Organium: Library of Technical Elements can be explored in an [online database](/research/organiumdb)
 
 - Neural Audio Synthesis RAVE models - [https://huggingface.co/Intelligent-Instruments-Lab/rave-models](https://huggingface.co/Intelligent-Instruments-Lab/rave-models) 
 - iil-dev (includes iipyper, iml, Notochord, Tolvera, and more) - [https://github.com/Intelligent-Instruments-Lab/iil-dev](https://github.com/Intelligent-Instruments-Lab/iil-dev)
