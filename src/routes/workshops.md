@@ -231,33 +231,6 @@ Physical and gestural musical instruments that took advantage of artificial inte
   caption="Teresa Pelinski, PhD Candidate, presenting at the Agential Instruments Design Workshop"/>
 
 
-<hr>
-
-
-
-# Latent Soundings Workshop
-
-#### LHÍ Laugarnes, Iceland, June 2023
-
-It’s not every day that a new audio synthesis technique emerges. With new machine learning we have the possibility of a neural synthesis! In this introductory workshop we delved into the field of neural audio synthesis. We traced its history interwoven with artificial neural networks and got our hands dirty with training machine learning models with our own sounds. Audio synthesis with neural networks, also known as neural audio synthesis, was a research field within the larger field of AI that facilitated the development of generative sound synthesizers based on the features learned from an original audio corpus. Once ‘trained’, these neural network based synthesizers could generate new sounds which imitated the features and qualities of the original dataset as well as perform timbre transfer—a novel process that reshaped a new audio signal into the timbral qualities of the dataset learned by the algorithm.
-
-- [Workshop info page](https://iil.is/news/latent-soundings)
-
-<CaptionedImage
-  src="workshops/latent.jpg"
-  alt="From the Latent Soundings Workshop"
-  caption="From the Latent Soundings Workshop"/>
-  
-<CaptionedImage
-  src="workshops/moises_workshop.jpeg"
-  alt="A teacher with two students in a class room. Another laptop in the foreground."
-  caption="During Moises Horta's workshop"/>
-
-
-<hr>
-
-
-
 # Txalaparta and AI
 
 The txalaparta is a traditional Basque percussion instrument for two performers. It has a unique performance method as it needs two performers to play - its performance is about the commuication between the two players. The instrument is played by hitting wooden batons straight down onto wooden planks (not tuned in any notes) and controlling weight, force and velocity. It is a play between physics and control.
