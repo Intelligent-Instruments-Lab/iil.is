@@ -27,8 +27,10 @@ Intelligent Instruments Lab outputs organised under the following categories:
 - _Real-time Musical Collaboration with a Probabilistic Model_. Karl Johannsson, Victor Shepardson, Enrike Hurtado, Hannes Högni Vilhjálmsson and Thor Magnusson. *21st International Conference on Content-based Multimedia Indexing [CBMI 2024](https://cbmi2024.org)*. [[pdf](http://iil.is/pdf/2024_cbmi_johannsson_et_al_txalaparta.pdf)]
 - _Augmenting the Expressivity of the Notochord Generative MIDI Model for Arca's "The Light Comes in the Name of the Voice" Magnetic Resonator Piano Installation_. Jack Armitage & Victor Shepardson. *Proc. AI Music Creativity 2024 ([AIMC 2024](https://aimc2024.pubpub.org))*, Oxford, UK. [forthcoming]
 - _Tölvera: Composing With Basal Agencies_. Jack Armitage, Victor Shepardson & Thor Magnusson. *Proc. New Interfaces for Musical Expression 2024 ([NIME 2024](https://www.nime2024.org/))*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2024_nime_armitage_et_al_tolvera.pdf)]
+- _Querying the Ghost: AI Hauntography in NIME_. Nicola Privato & Thor Magnusson. *Proc. New Interfaces for Musical Expression 2024 ([NIME 2024](https://www.nime2024.org/))*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2024_nime_querying_the_ghost.pdf)]
 - _Commingling Artificial Life and Interactive Machine Learning in Diffractive Artistic Research Practice_. Jack Armitage, Victor Shepardson, Miguel Crozzoli & Thor Magnusson. *Proc. Conference on Artificial Life 2024 ([ALIFE 2024](https://2024.alife.org/))*, Copenhagen, Denmark. [[pdf](http://iil.is/pdf/2024_alife_armitage_et_al_alife-iml.pdf)]
 - _Artificial Life in Integrated Interactive Sonification and Visualisation: Initial Experiments with a Python-Based Workflow_. Jack Armitage, Miguel Crozzoli & Daniel Jones. *Proc. International Conference on Auditory Display ([ICAD 2024](https://icad2024.icad.org/))*, Troy, NY, USA.  [[pdf](http://iil.is/pdf/2024_icad_armitage_et_al_alife.pdf)]
+- _AI Hauntology and the Hauntographic Method_. Nicola Privato & Thor Magnusson. *Proc. Conference on Computation, Communicatio, Aesthetics and X ([xCoAx 2024](https://xcoax.org))*, Treviso, Italy. [[pdf](http://iil.is/pdf/2024_xCoAx_AI_Hauntology.pdf)]
 - _Pop Live Coding Encounters: Reflections on Practice_. Sarah Davis, Jack Armitage & Gus Lobban. *Proc. International Conference on Live Coding ([ICLC 2024](https://iclc.toplap.org/2024/))*, Shanghai, China. [[pdf](http://iil.is/pdf/2024_iclc_davis_et_al_pop.pdf)]
 - _Sketching Magnetic Interactions for Neural Synthesis_. Nicola Privato, Giacomo Lepri, Thor Magnusson & Einar Torfi Einarsson. *[TENOR 2024](https://www.zhdk.ch/veranstaltung/53135)*, Zurich, Switzerland. [[pdf](http://iil.is/pdf/2024_tenor_sketching_magnetic_interactions.pdf)]
 
@@ -104,6 +106,7 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 - *Sema Worshop* on live coding with machine learning in Web Audio (September 2021) Mexico City.
 
 # Workshop Participation
+- *UdK-Oxford Seedfunding Program*. Nicola Privato with Federico Visi and Robert Laidlow.
 - *NIFTY workshop*. Thor Magnusson presenting ii lab work at instrument design conference. 2023.
 - *HLCI Workshop*. Presentation by Victor Shepardson. 2022.
 - *Feedback Musicianship Network workshop.* Halldor Ulfarsson and Thor Magnusson. At Aalborg University. 2021.
@@ -166,6 +169,8 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 - Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
 
 # Performances
+- - _Mouja at xCoAx 2024_, Nicola Privato, Thales and Stacco, Neural Synthesis and Ambisonics, Fabrica, Treviso, France.
+[info](https://2024.xcoax.org/pdf/privato.pdf). 14 July 2024.
 - _Magnetologues_, Nicola Privato and Giacomo Lepri, Stacco, Neural Synthesis and Ambisonics, TENOR 2024, ZhDK Zurich, Swizerland. [info](https://www.zhdk.ch/veranstaltung/53135). 6 Apr 2024.
 - _NeoArte: Synthesizer of Arts_, Thor Magnusson, Halla Steinnunn Stefánsdóttir, Jack Armitage, Miguel Cozzoli, Nicola Privato. Nordic House, Reykjavík. [info](https://neoarte.pl/en/programme/). 23 Mar 2024.
 - _Mouja at IRCAM Forum_, Nicola Privato, Thales and Stacco, Neural Synthesis and Ambisonics, IRCAM, Paris, France.
