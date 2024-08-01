@@ -1,14 +1,12 @@
 ---
-layout: researchproject
-title: "Tölvera"
-slug: "tolvera"
-description: ""
+layout: news
+date: "2024-08-01"
+slug: "nordichi2024"
+title: "Tölvera Tutorial at NordiCHI 2024 (Sign-up Required)"
+description: "Monday 14th October (Half Day) in Uppsala, Sweden"
 featured: true
-authors: ["Jack Armitage"]
-highlight_image: "research/projects/tolvera.jpg"
-highlight_caption: "Tölvera."
+highlight_image: "news/nordichi2024.jpg"
 ---
-
 
 <script>
     import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
@@ -16,17 +14,36 @@ highlight_caption: "Tölvera."
     import YouTubePL from "../../components/Video/EmbedYouTubePlaylist.svelte"
 </script>
 
-[Tölvera](http://tolvera.is) is a Python library designed for [composing together](https://arxiv.org/abs/2303.06777) and interacting with [basal](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2019.0750) [agencies](https://link.springer.com/article/10.1007/s00018-023-04790-z), inspired by fields such as artificial life (ALife) and self-organising systems. 
-It provides creative coding-style APIs that allow users to combine and compose various built-in behaviours, such as flocking, slime mold growth, and swarming, and also author their own. 
-With built-in support for Open Sound Control (OSC) via [iipyper](https://github.com/Intelligent-Instruments-Lab/iipyper) and interactive machine learning (IML) via [anguilla](https://github.com/Intelligent-Instruments-Lab/anguilla), Tölvera interfaces with and rapidly maps onto existing creative computing software and hardware, striving to be both an accessible and powerful tool for exploring [diverse intelligence](https://www.frontiersin.org/articles/10.3389/fnsys.2022.768201/full) in artistic contexts.
+<CaptionedImage
+    src="news/nordichi2024.jpg"
+    alt="NordiCHI logo recreated with physarum slime in Tölvera."
+    caption="NordiCHI logo recreated with physarum slime in Tölvera."/>
 
-The word _Tölvera_ is an Icelandic [kenning](https://en.wikipedia.org/wiki/Kenning) based on _tölva_ meaning computer, from _tala_ (number) and _völva_ (prophetess), and _vera_ (being), composed together as _number being_.
+[Jack Armitage](/people#jack-armitage) will be giving a half-day tutorial on [Tölvera](/research/tolvera) at [NordiCHI 2024](https://www.nordichi2024.se/), on Monday 14th October, in Uppsala, Sweden.
 
-For more, visit the [Tölvera website](http://tolvera.is) and join the [Discord server](https://discord.gg/ER7tWds9vM).
+Sign-up by filling in [this short form](https://forms.office.com/e/uCfSDcHS6L).
 
 <YouTube
   id="BmoinLR8Otc"
-  caption="Tölvera Introduction"/>
+  caption="Tölvera introductory video"/>
+
+## Description
+
+In artificial intelligence-based human-computer interaction research, self-organising systems and artificial life offer unique opportunities for creative coding and interaction design that remain underexplored compared to the dominant paradigm of machine learning.
+These approaches can yield emergent, dynamic, and open-ended interactions that are difficult to achieve with traditional ML techniques, and at a fraction of the computational cost.
+
+[Tölvera](/research/tolvera), a Python-based medium for creative exploration of self-organising systems, was created to address this gap in the field of music interaction and to support artistic research. 
+This tutorial offers an introduction to Tölvera and its myriad features for interaction across sonic, visual and other modalities.
+
+Attendees will gain the practical experience needed to start integrating interactive self-organising systems into their own practices, whether they lie in research, art or both.
+Through practical demos and group discussion, attendees will also be invited to contemplate other subfields of artificial intelligence that might be more deserving of attention.
+
+Ahead of the workshop, participants can optionally [install Tölvera](https://intelligent-instruments-lab.github.io/tolvera/#install) and try out the [examples](https://intelligent-instruments-lab.github.io/tolvera/examples/).
+
+## What to bring
+
+- Laptop and charger: macOS with Apple Silicon has the best support, but Linux and Windows are also supported. macOS Intel is not currently supported.
+- Headphones
 
 <YouTubePL
   id="PL8bdQleKUA1vNez5gw-pfQB21Q1-vHn3x"

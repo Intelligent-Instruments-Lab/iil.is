@@ -20,7 +20,7 @@
   }
 </style>
 
-<div class="container">
+<div class="container mt-6 mb-6">
     <div class="videoWrapper">
     <iframe
         width={scale ? scale * 560 : 560}
