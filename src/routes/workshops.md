@@ -26,7 +26,7 @@ If you like what you see here below, you might suggest a workshop at your instit
 
 # Tölvera Tutorial at NordCHI 2024, Uppsala, Sweden
 
-[Jack Armitage](/people#jack-armitage) will be giving a half-day tutorial on [Tölvera](/research/tolvera) titled "Tölvera: Real-Time Interactive Self-Organising Systems for HCI Research & Artistic Practice" at [NordiCHI 2024](https://www.nordichi2024.se/), on Monday 14th October, in Uppsala, Sweden.
+[Jack Armitage](/people#jack-armitage) will be giving a half-day tutorial on [Tölvera](/research/tolvera) titled "Tölvera: Interactive Self-Organising Systems for HCI Research & Artistic Practice" at [NordiCHI 2024](https://www.nordichi2024.se/), on Monday 14th October, in Uppsala, Sweden.
 
 For sign-up and more, visit the [tutorial page](/news/nordichi2024).
 
