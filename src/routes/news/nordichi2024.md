@@ -27,7 +27,7 @@ Sign-up by filling in [this short form](https://forms.office.com/e/uCfSDcHS6L).
   id="BmoinLR8Otc"
   caption="Tölvera introductory video"/>
 
-## Description
+## Tölvera: Real-Time Interactive Self-Organising Systems for HCI Research & Artistic Practice
 
 In artificial intelligence-based human-computer interaction research, self-organising systems and artificial life offer unique opportunities for creative coding and interaction design that remain underexplored compared to the dominant paradigm of machine learning.
 These approaches can yield emergent, dynamic, and open-ended interactions that are difficult to achieve with traditional ML techniques, and at a fraction of the computational cost.

@@ -26,7 +26,7 @@ If you like what you see here below, you might suggest a workshop at your instit
 
 # Tölvera Tutorial at NordCHI 2024, Uppsala, Sweden
 
-[Jack Armitage](/people#jack-armitage) will be giving a half-day tutorial on [Tölvera](/research/tolvera) at [NordiCHI 2024](https://www.nordichi2024.se/), on Monday 14th October, in Uppsala, Sweden.
+[Jack Armitage](/people#jack-armitage) will be giving a half-day tutorial on [Tölvera](/research/tolvera) titled "Tölvera: Real-Time Interactive Self-Organising Systems for HCI Research & Artistic Practice" at [NordiCHI 2024](https://www.nordichi2024.se/), on Monday 14th October, in Uppsala, Sweden.
 
 For sign-up and more, visit the [tutorial page](/news/nordichi2024).
 
@@ -35,7 +35,7 @@ For sign-up and more, visit the [tutorial page](/news/nordichi2024).
     alt="NordiCHI logo recreated with physarum slime in Tölvera."
     caption="NordiCHI logo recreated with physarum slime in Tölvera."/>
 
-    In artificial intelligence-based human-computer interaction research, self-organising systems and artificial life offer unique opportunities for creative coding and interaction design that remain underexplored compared to the dominant paradigm of machine learning.
+In artificial intelligence-based human-computer interaction research, self-organising systems and artificial life offer unique opportunities for creative coding and interaction design that remain underexplored compared to the dominant paradigm of machine learning.
 These approaches can yield emergent, dynamic, and open-ended interactions that are difficult to achieve with traditional ML techniques, and at a fraction of the computational cost.
 
 [Tölvera](/research/tolvera), a Python-based medium for creative exploration of self-organising systems, was created to address this gap in the field of music interaction and to support artistic research. 
