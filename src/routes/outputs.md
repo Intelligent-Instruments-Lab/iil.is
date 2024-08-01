@@ -145,6 +145,7 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 
 
 # Public Media
+- _HALLDÓR ÚLFARSSON’S STRING MUSICAL INSTRUMENT, HALLDOROPHONE_, an article in Design Boom Magazine. August 2024. [url](https://www.designboom.com/technology/cello-electro-acoustic-string-instrument-halldorophone-feedback-halldor-ulfarsson-07-26-2024/)
 - _SÓNAR 2024: Sónar +D_, an article on Sonar in Tarantula. June 2024. [url](https://revistatarantula.com/sonar-2024-sonard/)
 - _La IA ens farà la bugada, no les cançons_ an article on Sonar in El Punt Avui. June 2024. [url](https://www.elpuntavui.cat/cultura/article/19-cultura/2428968-la-ia-ens-fara-la-bugada-no-les-cancons.html)
 - _Vélvitið: skapandi gervigreind_, radio programme at RÚV, (Icelandic). Jan 2024. [[url](https://www.ruv.is/utvarp/spila/velvitid/35931/aml8lj)]
