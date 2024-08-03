@@ -64,7 +64,8 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 
 # Books and Book chapters
-- _Live Coding: A User's Manual_, by Alan Blackwell, Emma Cocker, Geoff Cox, Alex McLean and Thor Magnusson. 2022. Open Access [here](https://livecodingbook.toplap.org). Info at [MIT Press](https://mitpress.mit.edu/books/live-coding)
+- _Explainable AI and Music_, by Nick Bryan-Kinns, Berker Banar, Corey Ford, Courtney N Reed, Yixiao Zhang, and **Jack Armitage** in *Artificial Intelligence for Art Creation and Understanding*. 2024. [Routledge & CRC Press](https://www.routledge.com/Artificial-Intelligence-for-Art-Creation-and-Understanding/Mou/p/book/9781003406273).
+- _Live Coding: A User's Manual_, by Alan Blackwell, Emma Cocker, Geoff Cox, Alex McLean and **Thor Magnusson**. 2022. Open Access [here](https://livecodingbook.toplap.org). Info at [MIT Press](https://mitpress.mit.edu/books/live-coding).
 - _Designing the Threnoscope, or, How I Wrote One of My Pieces_ by Thor Magnusson in *Sound Work: Composition as Critical Technical Practice*, published by Orpheus Institut. 2021. [[url](https://orpheusinstituut.be/en/publications/sound-work)]
 
 # Journal articles
