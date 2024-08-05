@@ -27,6 +27,7 @@ Intelligent Instruments Lab outputs organised under the following categories:
 - _Real-time Musical Collaboration with a Probabilistic Model_. Karl Johannsson, Victor Shepardson, Enrike Hurtado, Hannes Högni Vilhjálmsson and Thor Magnusson. *21st International Conference on Content-based Multimedia Indexing [CBMI 2024](https://cbmi2024.org)*. [[pdf](http://iil.is/pdf/2024_cbmi_johannsson_et_al_txalaparta.pdf)]
 - _Augmenting the Expressivity of the Notochord Generative MIDI Model for Arca's "The Light Comes in the Name of the Voice" Magnetic Resonator Piano Installation_. Jack Armitage & Victor Shepardson. *Proc. AI Music Creativity 2024 ([AIMC 2024](https://aimc2024.pubpub.org))*, Oxford, UK. [forthcoming]
 - _Tölvera: Composing With Basal Agencies_. Jack Armitage, Victor Shepardson & Thor Magnusson. *Proc. New Interfaces for Musical Expression 2024 ([NIME 2024](https://www.nime2024.org/))*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2024_nime_armitage_et_al_tolvera.pdf)]
+- _Stacco:Exploring the Embodied Perception of Latent Representations in Neural Synthesis_. Nicola Privato & Victor Shepardson & Giacomo Lepri & Thor Magnusson. *Proc. New Interfaces for Musical Expression 2024 ([NIME 2024](https://www.nime2024.org/))*, Utrecht, Netherlands. [[pdf](2024_nime__Stacco__Exploring_the_Embodied_Perception_of_Latent_Representations_in_Neural_Synthesis.pdf)]
 - _Querying the Ghost: AI Hauntography in NIME_. Nicola Privato & Thor Magnusson. *Proc. New Interfaces for Musical Expression 2024 ([NIME 2024](https://www.nime2024.org/))*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2024_nime_querying_the_ghost.pdf)]
 - _Commingling Artificial Life and Interactive Machine Learning in Diffractive Artistic Research Practice_. Jack Armitage, Victor Shepardson, Miguel Crozzoli & Thor Magnusson. *Proc. Conference on Artificial Life 2024 ([ALIFE 2024](https://2024.alife.org/))*, Copenhagen, Denmark. [[pdf](http://iil.is/pdf/2024_alife_armitage_et_al_alife-iml.pdf)]
 - _Artificial Life in Integrated Interactive Sonification and Visualisation: Initial Experiments with a Python-Based Workflow_. Jack Armitage, Miguel Crozzoli & Daniel Jones. *Proc. International Conference on Auditory Display ([ICAD 2024](https://icad2024.icad.org/))*, Troy, NY, USA.  [[pdf](http://iil.is/pdf/2024_icad_armitage_et_al_alife.pdf)]
@@ -86,8 +87,8 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 # Workshops organised by Intelligent Instruments
 
 We have a dedicated [workshop page](https://iil.is/workshops) that describes our workshops in a bit more detail.
-
-- *Embedded Sketching for Neural Synthesis*. Nicola Privato and Giacomo Lepri, TENOR 2024, ZhDK (Switzerland) [info](https://www.zhdk.ch/veranstaltung/53135). April, 2023.
+- *Embodied Sketching for Neural Synthesis*. Giacomo Lepri, Nicola Privato and Thor Magnusson, TENOR 2024, ZhDK (Switzerland) [info](https://audiomostly.com/2024/program/). September, 2024.
+- *Embedded Sketching for Neural Synthesis*. Nicola Privato and Giacomo Lepri, TENOR 2024, ZhDK (Switzerland) [info](https://www.zhdk.ch/veranstaltung/53135). April, 2024.
 - *Tolvera presentation* at Hybrid Live Coding Interfaces symposium [info](https://hybrid-livecode.pubpub.org/workshop2023). December, 2023.
 - *Stacco: Sketching Magnetic Interactions* Nicola Privato, Act-in-out, Fabryka Sztuki (Poland) [info](https://actinout.pl/music-events/nicola-privato/). October, 2023.
 - *Live Coding Self-Organising Systems*. Jack Armitage. [CuteLab.NYC](https://cutelab.nyc), New York, NY, USA. September 2023.
