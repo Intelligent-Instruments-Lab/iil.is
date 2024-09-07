@@ -19,7 +19,7 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 
 # The Intelligent Instruments project won a University of Iceland Science and Innovation Award
 
-The University of Iceland's Science and Innovation Awards were awarded for the 26th time on May 14th 2024. The Intelligent Instruments Lab received an award under the category 'Society' reflecting the citicen science and public engagement work we do as part of our research methodologies. We are thrilled to have received the award and are amongst some amazing group of other projects that received awards under other categories. 
+The University of Iceland's Science and Innovation Awards were awarded for the 26th time on May 14th 2024. The Intelligent Instruments Lab received an award under the category 'Society' reflecting the citicen science and public engagement work we do as part of our research methodologies. We are thrilled to have received the award and are amongst some amazing group of other projects that received awards under other categories. Credit for these awards goes to Thor Magnusson (IS), Jack Armitage (UK), Halla Steinunn Stefansdottir (IS), Victor Shepardson (US), Nicola Privato (IT), Miguel Angel Rozzoli (AR), Halldor Ulfarsson (IS), Sean O’Brien (US), Marco Donnarumma (IT), Sophie Skach (AT), and Giacomo Lepri (IT). 
 
 See HÍ news item [here](https://www.hi.is/frettir/sjalfvirkt_kodunarkerfi_fyrir_sjukraskrar_hlaut_visinda_og_nyskopunarverdlaun_hi).
 
