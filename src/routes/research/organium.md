@@ -5,7 +5,7 @@ slug: "organium"
 description: "The iil library of technical elements."
 featured: true
 authors: ["Thor Magnusson", "Jack Armitage", "Halldor Ulfarsson", "Sean O'Brien", "Nicola Privato", "Victor Shepardson"]
-highlight_image: "research/projects/wall.jpg"
+highlight_image: "research/projects/wall2.jpg"
 highlight_caption: "The Library of Technical Elements."
 ---
 
@@ -24,6 +24,12 @@ The Organium has a theoretical underpinning in Magnusson's <a href="https://www.
 The Organium Database can be explored [here](/research/organiumdb)
 
 <CaptionedImage
-  src="research/projects/wall2.jpg"
-  alt="A picture of the Organium with the library of technical elements"
-  caption="The library of technical elements."/>
+  src="research/projects/wall.jpg"
+  alt="A picture of a prototype panel of the Organium"
+  caption="A prototype panel of the Organium."/>
+
+## References
+
+- _The Organium: A Library of Technical Elements for Improvisatory Design Thinking_. Thor Magnusson, Kit Braybrooke, Sophie Skach, Giacomo Lepri, Marco Donnarumma, Adam Pultz Melbye, Jack Armitage, Victor Shepardson, Nicola Privato, Miguel Angel Crozzoli, Halldor Ulfarsson, Sean O'Brien. *Proceedings of the 2024 Audio Mostly Conference*. [Audio Mostly 2024](https://audiomostly.com/2024). Milan, Italy. [[pdf](http://iil.is/pdf/2024_audiomostly_organium.pdf)]
+- _Musical Organics: A Heterarchical Approach to Digital Organology_. Thor Magnusson. *Journal of New Music Research*. Volume 46, 2017. [[pdf](https://www.tandfonline.com/doi/full/10.1080/09298215.2017.1353636)]
+
