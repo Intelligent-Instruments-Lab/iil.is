@@ -13,7 +13,7 @@ highlight_image: "news/dhnb2024.jpg"
 </script>
 
 <CaptionedImage
-    src="news/dhnb2024.jph"
+    src="news/dhnb2024.jpg"
     alt="The Digital Humanities in the Nordic and Baltic Countries Conference"
     caption="Conference image showing a volcano and the name of the conference."
 />
