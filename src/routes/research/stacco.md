@@ -25,11 +25,6 @@ Stacco is a magnetic instrument that interacts with the player by attracting and
   alt="Stacco V2"
   caption="Stacco V2"/>
 
-<CaptionedImage
-  src="research/projects/Staccov2.jpg"
-  alt="Stacco V2"
-  caption="Stacco V2"/>
-
 
 <CaptionedImage
   src="research/projects/Staccov1.jpg"
