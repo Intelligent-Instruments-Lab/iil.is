@@ -46,7 +46,7 @@ Under the hood Stacco features four magnetometers and as many magnetic attractor
   alt="Stacco V2"
   caption="Stacco V2"/>
 
-Stacco introduces a novel approach to music notation with neural audio synthesis, by allowing the user to draw trajectories and gestures on the top of the instrument itself. We refer to this approach embodied sketching. This method is being used in a series of workshops with artists aiming at understanding the possible compositional practices with neural synthesis, and investigate strategies to make the model more interpretable by the user.
+Stacco introduces a novel approach to music notation with neural audio synthesis, by allowing the user to draw trajectories and gestures on the top of the instrument itself. We refer to this approach as _embodied sketching_. This method is being used in a series of workshops with artists aiming at understanding the possible compositional practices with neural synthesis, and investigate strategies to make the model more interpretable by the user.
 
 
 <CaptionedImage
@@ -69,14 +69,15 @@ Magnetologues is a duo performance featuring two Stacco, played by Giacomo Lepri
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bt3O-jhSqiU?si=meVtDnsyksBRQZwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-Here are the IIL papers on Stacco:
+Here are the IIL outputs with Stacco.
+
+Papers: 
 
 - _Stacco:Exploring the Embodied Perception of Latent Representations in Neural Synthesis_. Nicola Privato & Victor Shepardson & Giacomo Lepri & Thor Magnusson. *Proc. New Interfaces for Musical Expression 2024 ([NIME 2024](https://www.nime2024.org/))*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2024_nime_Stacco_Exploring_the_Embodied_Perception_of_Latent_Representations_in_Neural_Synthesis.pdf)]
 
 - _Sketching Magnetic Interactions for Neural Synthesis_. Nicola Privato, Giacomo Lepri, Thor Magnusson & Einar Torfi Einarsson. *[TENOR 2024](https://www.zhdk.ch/veranstaltung/53135)*, Zurich, Switzerland. [[pdf](http://iil.is/pdf/2024_tenor_sketching_magnetic_interactions.pdf)]
 
-
-Stacco has been presented in a series of performances:
+Performances:
 
 - _S27_, Nicola Privato performing in Hafnarhus [info](https://www.facebook.com/photo/?fbid=10232747883386342&set=a.1537457363270) October 2023.
 - _Mouja_, Nicola Privato performing at Fabryka Sztuki (Poland). [info](https://actinout.pl/music-events/nicola-privato/), October 2023.
@@ -88,7 +89,7 @@ Stacco has been presented in a series of performances:
 [info](https://2024.xcoax.org/pdf/privato.pdf). 14 July 2024.
 
 
-Stacco has been featured at the following workshops:
+Workshops:
 
 - *Embodied Sketching for Neural Synthesis*. Giacomo Lepri, Nicola Privato and Thor Magnusson, Audio Mostly 2024, (Italy) [info](https://audiomostly.com/2024/program/). September, 2024.
 - *Embedded Sketching for Neural Synthesis*. Nicola Privato and Giacomo Lepri, TENOR 2024, ZhDK (Switzerland) [info](https://www.zhdk.ch/veranstaltung/53135). April, 2024.
