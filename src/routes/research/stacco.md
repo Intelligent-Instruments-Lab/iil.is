@@ -4,7 +4,7 @@ title: "Stacco"
 slug: "Stacco"
 description: "A Playful Magnetic Instrument"
 featured: false
-authors: ["Nicola Privato and Giacomo Lepri"]
+authors: ["Nicola Privato, Giacomo Lepri and Halldor Úlfarsson"]
 highlight_image: "research/projects/stacco.jpg"
 highlight_caption: "Stacco."
 ---
