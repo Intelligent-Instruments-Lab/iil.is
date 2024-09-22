@@ -9,6 +9,10 @@ highlight_image: "research/projects/stacco.jpg"
 highlight_caption: "Stacco."
 ---
 
+<script>
+  import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
+</script>
+
 Stacco is a magnetic instrument that interacts with the player by attracting and repelling magnetic spheres and ferromagnetic objects. It is a playful instrument that allows the performer to control fine musical details if needed, but also to wonder freely into ferromegnetic sonic realms. 
 
 <CaptionedImage
