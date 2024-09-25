@@ -24,6 +24,7 @@ Intelligent Instruments Lab outputs organised under the following categories:
 # Conference Papers
 
 ## 2024 <!-- omit in toc -->
+- _The Organium: A Library of Technical Elements for Improvisatory Design Thinking_. Thor Magnusson, Kit Braybrooke, Sophie Skach, Giacomo Lepri, Marco Donnarumma, Adam Pultz Melbye, Jack Armitage, Victor Shepardson, Nicola Privato, Miguel Angel Crozzoli, Halldor Ulfarsson, Sean O'Brien. *Proceedings of the 2024 Audio Mostly Conference*. [Audio Mostly 2024](https://audiomostly.com/2024). Milan, Italy. [[pdf](http://iil.is/pdf/2024_audiomostly_organium.pdf)]
 - _Real-time Musical Collaboration with a Probabilistic Model_. Karl Johannsson, Victor Shepardson, Enrike Hurtado, Hannes Högni Vilhjálmsson and Thor Magnusson. *21st International Conference on Content-based Multimedia Indexing [CBMI 2024](https://cbmi2024.org)*. [[pdf](http://iil.is/pdf/2024_cbmi_johannsson_et_al_txalaparta.pdf)]
 - _Augmenting the Expressivity of the Notochord Generative MIDI Model for Arca's "The Light Comes in the Name of the Voice" Magnetic Resonator Piano Installation_. Jack Armitage & Victor Shepardson. *Proc. AI Music Creativity 2024 ([AIMC 2024](https://aimc2024.pubpub.org))*, Oxford, UK. [forthcoming]
 - _Tölvera: Composing With Basal Agencies_. Jack Armitage, Victor Shepardson & Thor Magnusson. *Proc. New Interfaces for Musical Expression 2024 ([NIME 2024](https://www.nime2024.org/))*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2024_nime_armitage_et_al_tolvera.pdf)]
@@ -65,11 +66,13 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 
 # Books and Book chapters
+
 - _Explainable AI and Music_, by Nick Bryan-Kinns, Berker Banar, Corey Ford, Courtney N Reed, Yixiao Zhang, and **Jack Armitage** in *Artificial Intelligence for Art Creation and Understanding*. 2024. [Routledge & CRC Press](https://www.routledge.com/Artificial-Intelligence-for-Art-Creation-and-Understanding/Mou/p/book/9781003406273).
 - _Live Coding: A User's Manual_, by Alan Blackwell, Emma Cocker, Geoff Cox, Alex McLean and **Thor Magnusson**. 2022. Open Access [here](https://livecodingbook.toplap.org). Info at [MIT Press](https://mitpress.mit.edu/books/live-coding).
 - _Designing the Threnoscope, or, How I Wrote One of My Pieces_ by Thor Magnusson in *Sound Work: Composition as Critical Technical Practice*, published by Orpheus Institut. 2021. [[url](https://orpheusinstituut.be/en/publications/sound-work)]
 
 # Journal articles
+
 - _Editorial: Live Coding Sonic Creativities_ by Anna Xambo, Gerard Roma and Thor Magnusson. 2023. [[url](https://www.cambridge.org/core/journals/organised-sound/article/editorial-live-coding-sonic-creativities/7CAFDFB2FB693C44A77017225A413FD8)]
 - _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson. 2021. [[url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)]
 
@@ -108,12 +111,14 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 - *Sema Worshop* on live coding with machine learning in Web Audio (September 2021) Mexico City.
 
 # Workshop Participation
+
 - *UdK-Oxford Seedfunding Program*. Nicola Privato with Federico Visi and Robert Laidlow.
 - *NIFTY workshop*. Thor Magnusson presenting ii lab work at instrument design conference. 2023.
 - *HLCI Workshop*. Presentation by Victor Shepardson. 2022.
 - *Feedback Musicianship Network workshop.* Halldor Ulfarsson and Thor Magnusson. At Aalborg University. 2021.
 
 # Residencies
+
 - Residency “Queer Sonic Fingerprint”. The Hague. Adam Pulz Melbye. 2023.
 - SARC Belfast Improvisation with AI residency. Victor Shepardson. 2023.
 - Tangible Music Lab residency. Linz. Nicola Privato. 2023.
@@ -121,6 +126,8 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 - On-the-fly residency. Barcelona. Jack Armitage. 2022.
 
 # Presentations
+
+- _Intelligent Instruments in the Experimental Humanities_, Thor Magnusson gave a keynote at the Digital Humanities in the Nordic and Baltic Countries Conference, [DHNB 2024](https://dhnb.eu/past-conferences/dhnb2024/), May 31st, 2024.
 - _Hugfæri og tæknileikar: Um hugsandi hljóðfæri og tilraunakennd hugvísindi_, Thor Magnusson lecture at the [Univeristy of Iceland](https://www.hi.is/vidburdir/hugfaeri_og_taeknileikar_um_hugsandi_hljodfaeri_og_tilraunakennd_hugvisindi). 18 April, 2024.
 - _On the Making of End of Empire_, Nicola Privato with Eva Sajovic at Open Eye Gallery, Liverpool (UK) as part of the [Climate Lab programme](https://openeye.org.uk/whatson/end-of-empire-discussion/). 22 Feb, 2024.
 - _Keynote on Intelligent Instruments_, Thor Magnusson with a keynote at the [AI and Music Symposium](https://eveeno.com/ai-in-music-symposium). 16 Dec, 2024.
@@ -147,6 +154,7 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 
 
 # Public Media
+
 - _HALLDÓR ÚLFARSSON’S STRING MUSICAL INSTRUMENT, HALLDOROPHONE_, an article in Design Boom Magazine. August 2024. [url](https://www.designboom.com/technology/cello-electro-acoustic-string-instrument-halldorophone-feedback-halldor-ulfarsson-07-26-2024/)
 - _SÓNAR 2024: Sónar +D_, an article on Sonar in Tarantula. June 2024. [url](https://revistatarantula.com/sonar-2024-sonard/)
 - _La IA ens farà la bugada, no les cançons_ an article on Sonar in El Punt Avui. June 2024. [url](https://www.elpuntavui.cat/cultura/article/19-cultura/2428968-la-ia-ens-fara-la-bugada-no-les-cancons.html)
@@ -172,6 +180,7 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 - Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
 
 # Performances
+
 - - _Mouja at xCoAx 2024_, Nicola Privato, Thales and Stacco, Neural Synthesis and Ambisonics, Fabrica, Treviso, France.
 [info](https://2024.xcoax.org/pdf/privato.pdf). 14 July 2024.
 - _Magnetologues_, Nicola Privato and Giacomo Lepri, Stacco, Neural Synthesis and Ambisonics, TENOR 2024, ZhDK Zurich, Swizerland. [info](https://www.zhdk.ch/veranstaltung/53135). 6 Apr 2024.
@@ -211,19 +220,21 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 - Intelligent Instruments’ Birthday Party at Mengi. Marco Donnarumma, Jonathan Chaim Reus, Hekla, Bob & Vic. 2022.
 
 # Installataions and Exhibitions
+
 - _Strengjavera II_, at the Nordic House, Reykjavik. [Strengjavera](https://aimc2023.pubpub.org/pub/83k6upv8/release/2), Jack Armitage, Magnetic Resonator Piano and ALife, AIMC 2023, Brighton, UK, Sep 2023.
 - _End of Empire_, Nicola Privato and Eva Sajovic present the installation at the British Textile Bienniale. [info](https://britishtextilebiennial.co.uk/programme/eva-sajovic-end_of_empire/), Manchester. Summer 2023.
 - _no-input textiles_, Dr Sophie Skach and Victor Shepardson present at the 2023 Textile Intersections [info](https://www.textile-intersections.com/exhibition/) Conference in London. Summer 2023.
 - _Strengjavera I_, Jack Armitage, Magnetic Resonator Piano and ALife, AIMC 2023, Brighton, UK, [info](https://aimc2023.pubpub.org/pub/83k6upv8/release/2). Sep 2023.
 
 # Consultancies
+
 - Thor Magnusson was a consultant for a Curriculum review Hochschule der Künste Bern. [info](https://www.hkb.bfh.ch/de/studium/?). December, 2023.
 - Thor Magnusson was a consultant on the [Turn it Up](https://www.sciencemuseum.org.uk/see-and-do/turn-it-up) exhibition at the Science Museum in London. 2023.
 - Jack Armitage was a technical consultant on the soundtrack for [Apple TV+ sci-fi series Silo](https://en.wikipedia.org/wiki/Silo_(TV_series)), working with [INNI Music](https://www.innimusic.com/) founder and composer [Atli Örvarsson](https://en.wikipedia.org/wiki/Atli_%C3%96rvarsson). 2023.
 - Thor Magnusson was a consultant on the [Turn it Up](https://www.scienceandindustrymuseum.org.uk/whats-on/turn-it-up) exhibition in the Science and Industry Museum in Manchester. 2022.
 
 
-# Open Source
+# Open Source Code
 
 Many projects can be found on our GitHub page - [https://github.com/Intelligent-Instruments-Lab/](https://github.com/Intelligent-Instruments-Lab/).
 
