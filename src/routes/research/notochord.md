@@ -41,3 +41,5 @@ This makes Notochord a kind of software <a href="https://en.wikipedia.org/wiki/N
   src="research/projects/notochord-action.jpg"
   alt="A screenshot of multiple code windows and video capture of a hand playing on a MIDI controller."
   caption="Using notochord with a MIDI controller and SuperCollider"/>
+
+## <a href="https://aimc2024.pubpub.org/pub/0lh6s86c/release/1" title="paper">AIMC 2024 Paper with Magetic Resonator Piano and Arca</a>
