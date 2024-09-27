@@ -1,7 +1,7 @@
 ---
 name: "Jack Armitage"
-type: "Member"
-role: "Postdoctoral Research Fellow"
+type: "Associate"
+role: "Postdoctoral Research Fellow (2021-2024)"
 email: "jack@hi.is"
 image: "images/people/jack1.jpg"
 links: {

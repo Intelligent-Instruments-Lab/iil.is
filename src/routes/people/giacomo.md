@@ -1,6 +1,6 @@
 ---
 name: "Giacomo Lepri"
-type: "Member"
+type: "Associate"
 role: "Postdoc (2023-2024)"
 email: "giacomo@lhi.is"
 image: "images/people/giacomo.jpg"

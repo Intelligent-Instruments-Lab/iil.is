@@ -1,6 +1,6 @@
 ---
 name: "Adam Pultz Melbye"
-type: "Member"
+type: "Associate"
 role: "Postdoc (2023-2024)"
 email: "mail@adampultz.com"
 image: "images/people/adam.jpg"

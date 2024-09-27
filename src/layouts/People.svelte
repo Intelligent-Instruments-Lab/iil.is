@@ -69,7 +69,7 @@
       <h1 class="font-hauser text-secondary
         text-4xl sm:text-5xl md:text-6xl 
         mb-4">
-        Associates
+        Associates and Alumni
       </h1>
       <div class="p-2 sm:p-4">
         <div>
