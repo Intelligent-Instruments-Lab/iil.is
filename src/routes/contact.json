@@ -1,10 +1,10 @@
 [
-    { "url": "mailto:iil@lhi.is", "label": "Email" },
+    { "url": "mailto:thormagnusson@hi.is", "label": "Email" },
     { "url": "https://facebook.com/intelligentinstrumentslab", "label": "Facebook" },
     { "url": "https://instagram.com/intelligentinstruments", "label": "Instagram" },
-    { "url": "https://twitter.com/_iil_is", "label": "Twitter" },
     { "url": "https://youtube.com/@IntelligentInstruments", "label": "YouTube" },
-    { "url": "https://discord.gg/fY9GYMebtJ", "label": "Discord" },
+    { "url": "https://discord.gg/6uGt5u7HJ2", "label": "Discord" },
+    { "url": "https://twitter.com/_iil_is", "label": "Twitter" },
     { "url": "https://github.com/intelligent-instruments-lab", "label": "GitHub" },
     { "url": "https://www.linkedin.com/company/intelligent-instruments-lab", "label": "LinkedIn" }
 ]

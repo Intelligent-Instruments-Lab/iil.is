@@ -80,7 +80,7 @@
           <!-- TODO: hidden paragraphs on small -->
           <p>Communicating and discussing our research is part of our research methodology. We are interested in a continuous informal conversation with people, in terms of ad-hoc visits to the lab that can result in conversations that become the seeds of new developments. For this reason, we open the doors to our lab on Friday afternoons, where we present some work we are developing or invite people to talk about all kinds of work, in a friendly environment, sometimes with kaffi and kleinur.</p>
           
-          <p>We run a <a href="https://discord.gg/fY9GYMebtJ">public server</a> on Discord for an ongoing conversation about music, technology and the humanities. There you can find an <a href="https://discord.gg/UTFPmHgA">Open Lab</a> channel where we announce what is happening and perhaps continue the discussion.</p> 
+          <p>We run a <a href="https://discord.gg/84UgedKepk">public server</a> on Discord for an ongoing conversation about music, technology and the humanities. There you can find an <a href="https://discord.gg/6uGt5u7HJ2">Open Lab</a> channel where we announce what is happening and perhaps continue the discussion.</p> 
 
           <p>Our lab is located at the University of Iceland in <a href="https://maps.app.goo.gl/bMXzdGoQFkDfGAfSA">Veröld - Hús Vigdísar</a> on the first floor. Please pop by at <b>3pm on Fridays</b>. We look forward to seeing you.</p>
         </div>
