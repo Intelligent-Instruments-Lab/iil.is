@@ -5,7 +5,7 @@ slug: "pems"
 title: "State of the Art Festival"
 description: "Presentation and Panel session in a Symposium"
 featured: true
-highlight_image: "news/pems2024.png"
+highlight_image: "news/stateoftheart.png"
 ---
 
 <script>
