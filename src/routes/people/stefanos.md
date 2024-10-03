@@ -1,11 +1,12 @@
 ---
-name: "Stefanos Vasilakis"
+name: "Stefanos Skialivas"
 type: "Member"
 role: "Research Assistant"
 email: "stefvasi@gmail.com"
 image: "images/people/stefanos.jpg"
 links: {
-
+  instagram: "_f_d_s_m_",
+  website: "https://stegi.radio/artist/stefanos-skialivas"
 }
 projects: [
   ""
