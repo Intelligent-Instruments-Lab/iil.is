@@ -5,7 +5,7 @@ slug: "sonicdialogues"
 title: "IIL Diffractive Sonic Dialogues"
 description: "Intelligent Instruments concert at Mengi"
 featured: true
-highlight_image: "news/sonicdialogues.png"
+highlight_image: "news/sonicdialogues.jpg"
 ---
 
 <script>
@@ -13,7 +13,7 @@ highlight_image: "news/sonicdialogues.png"
 </script>
 
 <CaptionedImage
-    src="news/sonicdialogues.png"
+    src="news/sonicdialogues.jpg"
     alt="IIL Diffractive Sonic Dialogues"
     caption="IIL Diffractive Sonic Dialogues."
 />
