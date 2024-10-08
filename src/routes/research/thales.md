@@ -31,5 +31,5 @@ Thales was featured at NIME 2023, Ars Electronica 2023, and is one of the winner
 You can find Thales' code, building instructions and list of materials from our <a href="https://github.com/Intelligent-Instruments-Lab/Thales" title="repo">GitHub repository</a>.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Oh6NB6967XY?si=pEkzucknf0Anw3VS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Oh6NB6967XY?si=pEkzucknf0Anw3VS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

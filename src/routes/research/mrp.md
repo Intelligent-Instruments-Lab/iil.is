@@ -58,4 +58,4 @@ By blurring the boundaries between technology and nature, Strengjavera prompts v
 
 - AIMC 2023 proceedings: https://aimc2023.pubpub.org/pub/83k6upv8
 
-<iframe width="500" height="315" src="https://www.youtube.com/embed/W2c8vFmdANY" title="Strengjavera" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/W2c8vFmdANY" title="Strengjavera" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

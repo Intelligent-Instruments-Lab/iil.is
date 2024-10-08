@@ -16,7 +16,7 @@ The project aims to creatively explore ways to evoke an illusion of liveness whi
 
 We have invited artists, musicians and technologists to experience the installation and tell us about the digital interactions it affords. We are currently analysing and reflecting on the impressions we collected, so to better appreciate how people make sense of AI in creative settings. Stay tuned to know more about the results of this research! 
 
-<iframe src="https://player.vimeo.com/video/864479032?h=dbcb583bd2" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/864479032?h=dbcb583bd2" width="100%" height="500" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/864479032">Pluma</a> from <a href="https://vimeo.com/user30344721">Giacomo Lepri</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 &nbsp;

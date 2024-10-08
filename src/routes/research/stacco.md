@@ -57,11 +57,11 @@ Stacco introduces a novel approach to music notation with neural audio synthesis
 
 We used Stacco in a number of performances, including solo sets, duos with two Staccos and in wider ensembles, including electronics and acoustic instruments. Mouja is a solo performance by Nicola Privato where Stacco is used as a Ouija board, in order to explore the latent space of layered RAVE models.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4qbK3cw3E5M?si=-LNYQC0hdTsBElk7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/4qbK3cw3E5M?si=-LNYQC0hdTsBElk7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Magnetologues is a duo performance featuring two Stacco, played by Giacomo Lepri and Nicola Privato. One controls neural synthesis models and an FM synthesizer, the other one moves the sound in space on an Ambisonics dome using ICST Ambisonics. The performance was recorded at ZhdK, Zurich, for 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Bt3O-jhSqiU?si=meVtDnsyksBRQZwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Bt3O-jhSqiU?si=meVtDnsyksBRQZwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 Here are the IIL outputs with Stacco.

@@ -23,7 +23,7 @@ For those of you who don't know the instruments, here are some cool videos we fo
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/XaSYiBaqLwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 &nbsp;
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qwnAnB57H2k?start=485" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/qwnAnB57H2k?start=485" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 &nbsp;
 
 And here below is an video extract of the system in use, played at the opening of the Basque-Icelandic exhibition in Djupavik, Iceland.
