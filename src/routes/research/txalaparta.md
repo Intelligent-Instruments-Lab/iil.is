@@ -20,7 +20,7 @@ The next step in this research was to use Victor Shephardson's <a href="/researc
 
 For those of you who don't know the instruments, here are some cool videos we found on Youtube:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XaSYiBaqLwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/XaSYiBaqLwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 &nbsp;
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qwnAnB57H2k?start=485" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -28,4 +28,5 @@ For those of you who don't know the instruments, here are some cool videos we fo
 
 And here below is an video extract of the system in use, played at the opening of the Basque-Icelandic exhibition in Djupavik, Iceland.
 
-<iframe width="1000" height="562" src="https://www.youtube.com/embed/_0JS-aBsfUo?si=ieaRQJ3yF-vJU9VU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/_0JS-aBsfUo?si=ieaRQJ3yF-vJU9VU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
