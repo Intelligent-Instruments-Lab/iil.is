@@ -16,7 +16,7 @@ In this project we are teaching a computer to play the txalaparta. Since the ins
 
 We have already done some work on the digital txalaparta and we reported on that in Computer Music Journal in the following articles: <a href="http://users.sussex.ac.uk/~thm21/thor/pdfs/HurtadoMagnussonRekalde.pdf">Digitizing the Txalaparta: Computer-Based Study of a Traditional Practice</a> and <a href="http://users.sussex.ac.uk/~thm21/thor/pdfs/Hurtado_Magnusson_TENOR_2016.pdf">Notating the non-notateable: digital notation of txalaparta practice</a>.
 
-The next step in this research is to use Victor Shephardson's <a href="/research/notochord">Notochord</a> low-latency machine learning system for real-time interaction. Having trained the model on recorded txalaparta performances we can now interact with it, sending one player's performance to the machine, which responds as if it was another human player. If all goes well, the computer will play along with a human txalaparta player in a convincing manner.
+The next step in this research was to use Victor Shephardson's <a href="/research/notochord">Notochord</a> low-latency machine learning system for real-time interaction. Having trained the model on recorded txalaparta performances we can now interact with it, sending one player's performance to the machine, which responds as if it was another human player. 
 
 For those of you who don't know the instruments, here are some cool videos we found on Youtube:
 
@@ -25,3 +25,7 @@ For those of you who don't know the instruments, here are some cool videos we fo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qwnAnB57H2k?start=485" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 &nbsp;
+
+And here below is an video extract of the system in use, played at the opening of the Basque-Icelandic exhibition in Djupavik, Iceland.
+
+<iframe width="1000" height="562" src="https://www.youtube.com/embed/_0JS-aBsfUo?si=ieaRQJ3yF-vJU9VU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
