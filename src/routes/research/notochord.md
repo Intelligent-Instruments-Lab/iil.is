@@ -10,7 +10,7 @@ highlight_caption: "Using the notochord homunculus terminal app with fluidsynth.
 ---
 
 <!-- <figure> -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mkBKAyudL0A" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/mkBKAyudL0A" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <!-- <figcaption>AIMC 2022 video presentation</figcaption> -->
 <!-- </figure> -->
 

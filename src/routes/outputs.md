@@ -1,7 +1,7 @@
 ---
 layout: outputs
 title: "Outputs"
-slug: "about"
+slug: "outputs"
 description: "Outputs from the Intelligent Instruments Lab."
 ---
 
@@ -128,6 +128,7 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 
 # Presentations
 
+- _Intelligent Instruments in your Hands_, Thor Magnusson presented a keynote at the Porto Electronic Music Symposium, [PEMS 2024](https://casadamusica.com/pems-2024/), October, 2024.
 - _Intelligent Instruments in the Experimental Humanities_, Thor Magnusson gave a keynote at the Digital Humanities in the Nordic and Baltic Countries Conference, [DHNB 2024](https://dhnb.eu/past-conferences/dhnb2024/), May 31st, 2024.
 - _Hugfæri og tæknileikar: Um hugsandi hljóðfæri og tilraunakennd hugvísindi_, Thor Magnusson lecture at the [Univeristy of Iceland](https://www.hi.is/vidburdir/hugfaeri_og_taeknileikar_um_hugsandi_hljodfaeri_og_tilraunakennd_hugvisindi). 18 April, 2024.
 - _On the Making of End of Empire_, Nicola Privato with Eva Sajovic at Open Eye Gallery, Liverpool (UK) as part of the [Climate Lab programme](https://openeye.org.uk/whatson/end-of-empire-discussion/). 22 Feb, 2024.
@@ -156,7 +157,9 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 
 # Public Media
 
-- _HALLDÓR ÚLFARSSON’S STRING MUSICAL INSTRUMENT, HALLDOROPHONE_, an article in Design Boom Magazine. August 2024. [url](https://www.designboom.com/technology/cello-electro-acoustic-string-instrument-halldorophone-feedback-halldor-ulfarsson-07-26-2024/)
+- _NICOLA PRIVATO AND GIACOMO LEPRI INTRODUCE STACCO_, an article in Design Boom Magazine. August 2024. [url](https://www.designboom.com/technology/musical-instrument-stacco-sounds-magnetic-marbles-intelligent-instruments-lab-08-20-2024/)
+- _FLEXIBLE AND SOFT ‘SMART’ FABRICS THAT CAN PRODUCE SOUNDS_, an article in Design Boom Magazine. August 2024. [url](https://www.designboom.com/technology/e-textiles-sounds-electronic-musical-instruments-sophie-skach-victor-shepardson-intelligent-instruments-lab-08-24-2024/)
+- _HALLDÓR ÚLFARSSON’S STRING MUSICAL INSTRUMENT, HALLDOROPHONE_, an article in Design Boom Magazine. July 2024. [url](https://www.designboom.com/technology/cello-electro-acoustic-string-instrument-halldorophone-feedback-halldor-ulfarsson-07-26-2024/)
 - _SÓNAR 2024: Sónar +D_, an article on Sonar in Tarantula. June 2024. [url](https://revistatarantula.com/sonar-2024-sonard/)
 - _La IA ens farà la bugada, no les cançons_ an article on Sonar in El Punt Avui. June 2024. [url](https://www.elpuntavui.cat/cultura/article/19-cultura/2428968-la-ia-ens-fara-la-bugada-no-les-cancons.html)
 - _Vélvitið: skapandi gervigreind_, radio programme at RÚV, (Icelandic). Jan 2024. [[url](https://www.ruv.is/utvarp/spila/velvitid/35931/aml8lj)]

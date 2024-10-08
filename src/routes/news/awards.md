@@ -12,7 +12,7 @@ highlight_image: "news/citsci.png"
     import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-The Intelligent Instruments Lab has just won two prizes, both of whom will be awarded at <a href="https://ars.electronica.art/news/en/">Ars Electronica</a> in Linz in September. Credit for these awards goes to Thor Magnusson (IS), Jack Armitage (UK), Halla Steinunn Stefansdottir (IS), Victor Shepardson (US), Nicola Privato (IT), Miguel Angel Rozzoli (AR), Halldor Ulfarsson (IS), Sean O’Brien (US), Marco Donnarumma (IT), Sophie Skach (AT), and Giacomo Lepri (IT). 
+The Intelligent Instruments Lab has just won two prizes, both of whom will be awarded at <a href="https://ars.electronica.art/news/en/">Ars Electronica</a> in Linz in September. Credit for these awards goes to Thor Magnusson (IS), Jack Armitage (UK), Halla Steinunn Stefansdottir (IS), Victor Shepardson (US), Nicola Privato (IT), Miguel Angel Rozzoli (AR), Halldor Ulfarsson (IS), Sean O’Brien (US), Marco Donnarumma (IT), Sophie Skach (AT), Adam Pultz Melbye (DK), and Giacomo Lepri (IT). It also goes to all our collaborators, artists in residence and people joining our open labs, as it really is a community work.
 
 <CaptionedImage
     src="news/citsci.png"
