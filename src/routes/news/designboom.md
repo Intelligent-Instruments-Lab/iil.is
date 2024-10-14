@@ -29,7 +29,7 @@ Design Boom visited us at [Sonar Festival](/news/sonar) and wrote this [nice art
 Following that, Design Boom wrote an [article](https://www.designboom.com/technology/e-textiles-sounds-electronic-musical-instruments-sophie-skach-victor-shepardson-intelligent-instruments-lab-08-24-2024/) about the e-textiles work at the lab.
 
 <CaptionedImage
-    src="stock/etextiles2.jpg"
+    src="projects/etextiles2.jpg"
     alt="E-textiles at the ii lab"
     caption="E-textiles at the ii lab"
 />
@@ -40,7 +40,7 @@ Following that, Design Boom wrote an [article](https://www.designboom.com/techno
 Finally, Design Boom wrote an [article](https://www.designboom.com/technology/musical-instrument-stacco-sounds-magnetic-marbles-intelligent-instruments-lab-08-20-2024/) about Stacco.
 
 <CaptionedImage
-    src="stock/Staccoscore1.jpg"
+    src="projects/Staccoscore1.jpg"
     alt="Stacco with a score"
     caption="Stacco with a score"
 />
