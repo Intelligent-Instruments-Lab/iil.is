@@ -32,7 +32,7 @@ Intelligent Instruments Lab outputs organised under the following categories:
 - _Stacco:Exploring the Embodied Perception of Latent Representations in Neural Synthesis_. Nicola Privato & Victor Shepardson & Giacomo Lepri & Thor Magnusson. *Proc. New Interfaces for Musical Expression 2024 ([NIME 2024](https://www.nime2024.org/))*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2024_nime_Stacco_Exploring_the_Embodied_Perception_of_Latent_Representations_in_Neural_Synthesis.pdf)]
 - _Querying the Ghost: AI Hauntography in NIME_. Nicola Privato & Thor Magnusson. *Proc. New Interfaces for Musical Expression 2024 ([NIME 2024](https://www.nime2024.org/))*, Utrecht, Netherlands. [[pdf](http://iil.is/pdf/2024_nime_querying_the_ghost.pdf)]
 - _Commingling Artificial Life and Interactive Machine Learning in Diffractive Artistic Research Practice_. Jack Armitage, Victor Shepardson, Miguel Crozzoli & Thor Magnusson. *Proc. Conference on Artificial Life 2024 ([ALIFE 2024](https://2024.alife.org/))*, Copenhagen, Denmark. [[pdf](http://iil.is/pdf/2024_alife_armitage_et_al_alife-iml.pdf)]
-- _Sounding Numbers: The Sonification Object as an Interface in “I am the Ocean”_. Miguel Crozzoli & Thor Magnusson. *Proc. International Conference on Auditory Display ([ICAD 2024](https://icad2024.icad.org/))*, Troy, NY, USA.  [[pdf](http://iil.is/pdf/2024_icad_crozzoli_et_al_sounding_numbers.pdf)]
+- _Sounding Numbers: The Sonification Object as an Interface in “I am the Ocean”_. Miguel Crozzoli & Thor Magnusson. *Proc. International Conference on Auditory Display ([ICAD 2024](https://icad2024.icad.org/))*, Troy, NY, USA.  [[pdf](http://iil.is/pdf/2024_icad_crozzoli_magnusson_sounding_numbers.pdf)]
 - _Artificial Life in Integrated Interactive Sonification and Visualisation: Initial Experiments with a Python-Based Workflow_. Jack Armitage, Miguel Crozzoli & Daniel Jones. *Proc. International Conference on Auditory Display ([ICAD 2024](https://icad2024.icad.org/))*, Troy, NY, USA.  [[pdf](http://iil.is/pdf/2024_icad_armitage_et_al_alife.pdf)]
 - _AI Hauntology and the Hauntographic Method_. Nicola Privato & Thor Magnusson. *Proc. Conference on Computation, Communicatio, Aesthetics and X ([xCoAx 2024](https://xcoax.org))*, Treviso, Italy. [[pdf](http://iil.is/pdf/2024_xCoAx_AI_Hauntology.pdf)]
 - _Pop Live Coding Encounters: Reflections on Practice_. Sarah Davis, Jack Armitage & Gus Lobban. *Proc. International Conference on Live Coding ([ICLC 2024](https://iclc.toplap.org/2024/))*, Shanghai, China. [[pdf](http://iil.is/pdf/2024_iclc_davis_et_al_pop.pdf)]
@@ -129,8 +129,10 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 
 # Presentations
 
+- _Sonifying the Arctic_, Miguel Crozzoli & Garrison Gerard talk at [ARCTIC CIRCLE](https://www.arcticcircle.org/), October 18th, 2024. 
 - _Intelligent Instruments in your Hands_, Thor Magnusson presented a keynote at the Porto Electronic Music Symposium, [PEMS 2024](https://casadamusica.com/pems-2024/), October, 2024.
 - _Intelligent Instruments in the Experimental Humanities_, Thor Magnusson gave a keynote at the Digital Humanities in the Nordic and Baltic Countries Conference, [DHNB 2024](https://dhnb.eu/past-conferences/dhnb2024/), May 31st, 2024.
+- _Data Artivism in the Climate Crisis_, Miguel Crozzoli talk at the [Ice and Water 2024](https://iceandwater2024.wixsite.com/home), May 23rd, 2024.
 - _Hugfæri og tæknileikar: Um hugsandi hljóðfæri og tilraunakennd hugvísindi_, Thor Magnusson lecture at the [Univeristy of Iceland](https://www.hi.is/vidburdir/hugfaeri_og_taeknileikar_um_hugsandi_hljodfaeri_og_tilraunakennd_hugvisindi). 18 April, 2024.
 - _On the Making of End of Empire_, Nicola Privato with Eva Sajovic at Open Eye Gallery, Liverpool (UK) as part of the [Climate Lab programme](https://openeye.org.uk/whatson/end-of-empire-discussion/). 22 Feb, 2024.
 - _Keynote on Intelligent Instruments_, Thor Magnusson with a keynote at the [AI and Music Symposium](https://eveeno.com/ai-in-music-symposium). 16 Dec, 2024.
@@ -186,6 +188,7 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 
 # Performances
 
+- _Dark Sonification at Asbestos Ars Festival III_, Miguel Cozzoli & Gon Muruaga (Duende). Asbestos Art Space, Helsinki, Finland. [info](https://www.asbestosartspace.com/single-post/5-6-10-asbestos-ars-festival-iii). 5 Oct 2024.
 - - _Mouja at xCoAx 2024_, Nicola Privato, Thales and Stacco, Neural Synthesis and Ambisonics, Fabrica, Treviso, France.
 [info](https://2024.xcoax.org/pdf/privato.pdf). 14 July 2024.
 - _Magnetologues_, Nicola Privato and Giacomo Lepri, Stacco, Neural Synthesis and Ambisonics, TENOR 2024, ZhDK Zurich, Swizerland. [info](https://www.zhdk.ch/veranstaltung/53135). 6 Apr 2024.
