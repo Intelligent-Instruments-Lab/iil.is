@@ -16,7 +16,7 @@ In this project we are teaching a computer to play the txalaparta. Since the ins
 
 We have already done some work on the digital txalaparta and we reported on that in Computer Music Journal in the following articles: <a href="http://users.sussex.ac.uk/~thm21/thor/pdfs/HurtadoMagnussonRekalde.pdf">Digitizing the Txalaparta: Computer-Based Study of a Traditional Practice</a> and <a href="http://users.sussex.ac.uk/~thm21/thor/pdfs/Hurtado_Magnusson_TENOR_2016.pdf">Notating the non-notateable: digital notation of txalaparta practice</a>.
 
-The next step in this research was to use Victor Shephardson's <a href="/research/notochord">Notochord</a> low-latency machine learning system for real-time interaction. Having trained the model on recorded txalaparta performances we can now interact with it, sending one player's performance to the machine, which responds as if it was another human player. 
+The next step in this research was to use Victor Shepardson's <a href="/research/notochord">Notochord</a> low-latency machine learning system for real-time interaction. Having trained the model on recorded txalaparta performances we can now interact with it, sending one player's performance to the machine, which responds as if it was another human player. 
 
 For those of you who don't know the instruments, here are some cool videos we found on Youtube:
 
