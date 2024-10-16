@@ -2,7 +2,7 @@
 layout: news
 date: "2024-10-13"
 slug: "haizebegi"
-title: "AI Txlaparta at Haizebegi Festival"
+title: "AI Txalaparta at Haizebegi Festival"
 description: "IIL presentation on our work and the AI txalaparta project in the Haizebegi festival in the Basque country."
 featured: true
 highlight_image: "news/haizebegiposter.jpg"
