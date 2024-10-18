@@ -1,11 +1,11 @@
 ---
 layout: news
-date: "2024-09-02"
-slug: "arselectronica"
-title: "Intelligent Instruments at Ars Electronica"
-description: "Project presentations, panel session and awards at Ars Electronica"
+date: "2024-18-10"
+slug: "arcticcircle"
+title: "Intelligent Instruments at Arctic Circle"
+description: "Presenting Sonifying the Arctic"
 featured: true
-highlight_image: "news/ae.png"
+highlight_image: "arcticcircle2.png"
 ---
 
 <script>
@@ -13,26 +13,21 @@ highlight_image: "news/ae.png"
 </script>
 
 <CaptionedImage
-    src="news/prixAE.png"
-    alt="Ars Electronica in Linz, Austria"
-    caption="Ars Electronica Logo"
+    src="arcticcircle2.png"
+    alt="Arctic Circle Assembly, Iceland"
+    caption="Arctic Circle passes"
 />
 
-# Intelligent Instruments at Ars Elecronica
+# Intelligent Instruments at Arctic Circle
 
-The Intelligent Instruments Lab has been invited to show recent work at the Ars Electronica festival in Linz. Ars Electronica is the largest international festival for art, technology and society which has been running since 1979. It is a gathering of artists, scientists and technologists, focusing on experimentation in contemporary technology and innovation. The role of art as a critical platform investigating technology makes the festival unique in its approaches to the issues of today's society.
+Miguel Angel Crozzoli and Garrison Gerard are presenting their latest collaboration "Sonifying the Arctic" at the Arctic Circle Assembly in Reykjavik. Their work offers an innovative approach to working with field recording data and sensor data from field stations. Through an intelligent harmonization and data imputation system they created Soundprints that can be potentially used for scientific inquiry and artistic expression. 
 
-The ii lab will be exhibiting instruments as part of the <a href="https://ars.electronica.art/hope/en/">POSTCITY project area exhibition</a>.
-
-Thor Magnusson will also participate in a panel on AI in arts called <a href="https://ars.electronica.art/aeblog/en/2024/08/26/from-hope-to-action/">AI and New Models in Creative Collaboration</a>. 
-
-We have also been awarded a [Prix Ars Electronica](https://calls.ars.electronica.art/2024/prix/winners/14162/)
-
-Further info on the awards [here](awards)
+### Abstract
+Combining field recording and sonification techniques offers great potential for aesthetic exploration and data perceptualization. Various artists have explored this combination through their artworks, developing methodologies for artistic creation with different intents—ranging from scientific inquiry and knowledge dissemination to purely aesthetic affectation. In this project, we explored a combination of methodologies, including the sonification of spectrograms and using weather data to modify granular synthesis parameters affecting samples created from our denoised field recordings. A key feature of this project is the development of a harmonization system that integrates sensor data collected from a field station with event detection, species classifications, and spectrograms derived from field recordings of the areas surrounding the field station. We also implemented an autoencoder architecture for data imputation to address the disparity in data volume and time resolution between both sources. In "Sonifying the Arctic," we developed a method to create an auditory identity for each data point, an approach we termed digital soundprint.
 
 <CaptionedImage
-    src="stock/halldorophone_yellow.jpeg"
-    alt="The lab halldorophone"
-    caption="The lab halldorophone"
+    src="arcticcircle2.png"
+    alt="Arctic Circle Assembly, Iceland"
+    caption="Arctic Circle"
 />
 
