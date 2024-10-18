@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2024-18-10"
+date: "2024-10-18"
 slug: "arcticcircle"
 title: "Intelligent Instruments at Arctic Circle"
 description: "Presenting Sonifying the Arctic"
