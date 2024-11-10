@@ -35,7 +35,7 @@ A study on Sophtar performance and interaction with symbolic models is currently
 <CaptionedImage
   src="research/projects/sophtar-solenoids.jpg"
   alt="A 3D-printed mount holding a set of solenoids over the strings of the Sophtar instrument."
-  caption="The solenoids mount designed for the Sophtar by [Halldor Úlfarsson](https://iil.is/people#halldor-úlfarsson) and [Federico Visi](https://iil.is/people#federico-visi)"/>
+  caption="The solenoids mount designed for the Sophtar by Halldor Úlfarsson and Federico Visi"/>
 
 
 The Sophtar was presented at the [NIME 2024](https://www.nime2024.org/) conference in Utrecht, Netherlands, where it was also part of an improvised session with other instruments; at a [dedicated IIL Open Lab](https://iil.is/openlab/88); and the 
