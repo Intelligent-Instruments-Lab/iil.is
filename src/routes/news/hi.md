@@ -24,7 +24,7 @@ The revolution that has taken place in creative AI in recent months has complete
 
 We have had a wonderful time at the Iceland University of the Arts, and it will continue to be a partner in the project.
 
-The project will continue as in the past, for example with [Open Labs](www.iil.is/openlab) with us at 3 PM on Fridays. Everyone welcome, as always!
+The project will continue as in the past, for example with [Open Labs](/openlab) with us at 3 PM on Fridays. Everyone welcome, as always!
 
 See news in Icelandic: https://www.hi.is/frettir/intelligent_instruments_vid_haskola_islands
 
