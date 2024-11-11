@@ -77,6 +77,8 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 - _Editorial: Live Coding Sonic Creativities_ by Anna Xambo, Gerard Roma and Thor Magnusson. 2023. [[url](https://www.cambridge.org/core/journals/organised-sound/article/editorial-live-coding-sonic-creativities/7CAFDFB2FB693C44A77017225A413FD8)]
 - _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson. 2021. [[url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)]
+- _Txalaparta á Ströndum_, by Thor Magnusson. *Strandapósturinn*. 2024. (In Icelandic). [[pdf](https://iil.is/pdf/2024_Strandapostur.pdf)]
+
 
 # Hosted Conferences and Symposia
 
@@ -129,8 +131,10 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 
 # Presentations
 
+- _Data Sonification of Environment_, Thor Magnusson and Miguel Crozzoli at EarthSonic Launch in Reykjavik. Part of Iceland Airwaves. [Info here](https://iil.is/news/earthsonic), November, 2024. 
 - _Sonifying the Arctic_, Miguel Crozzoli & Garrison Gerard talk at [ARCTIC CIRCLE](https://www.arcticcircle.org/), October 18th, 2024. 
 - _Intelligent Instruments in your Hands_, Thor Magnusson presented a keynote at the Porto Electronic Music Symposium, [PEMS 2024](https://casadamusica.com/pems-2024/), October, 2024.
+- _AI and Artistic Creation_, Thor Magnusson on an Ars Electronica Panel, [video here](https://www.youtube.com/watch?v=kKM0F33CCkc&list=UULFNHFv-dx6bFmHFY-RZCJq3A), August, 2024.
 - _Intelligent Instruments in the Experimental Humanities_, Thor Magnusson gave a keynote at the Digital Humanities in the Nordic and Baltic Countries Conference, [DHNB 2024](https://dhnb.eu/past-conferences/dhnb2024/), May 31st, 2024.
 - _Data Artivism in the Climate Crisis_, Miguel Crozzoli talk at the [Ice and Water 2024](https://iceandwater2024.wixsite.com/home), May 23rd, 2024.
 - _Hugfæri og tæknileikar: Um hugsandi hljóðfæri og tilraunakennd hugvísindi_, Thor Magnusson lecture at the [Univeristy of Iceland](https://www.hi.is/vidburdir/hugfaeri_og_taeknileikar_um_hugsandi_hljodfaeri_og_tilraunakennd_hugvisindi). 18 April, 2024.
@@ -160,6 +164,7 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 
 # Public Media
 
+- _Að gera dósamat úr tónlist_, an interview with Thor Magnusson (in Icelandic). Lestin, RÚV. November 2024. [url](https://www.ruv.is/utvarp/spila/lestin/23619/7hr9cf?)
 - _NICOLA PRIVATO AND GIACOMO LEPRI INTRODUCE STACCO_, an article in Design Boom Magazine. August 2024. [url](https://www.designboom.com/technology/musical-instrument-stacco-sounds-magnetic-marbles-intelligent-instruments-lab-08-20-2024/)
 - _FLEXIBLE AND SOFT ‘SMART’ FABRICS THAT CAN PRODUCE SOUNDS_, an article in Design Boom Magazine. August 2024. [url](https://www.designboom.com/technology/e-textiles-sounds-electronic-musical-instruments-sophie-skach-victor-shepardson-intelligent-instruments-lab-08-24-2024/)
 - _HALLDÓR ÚLFARSSON’S STRING MUSICAL INSTRUMENT, HALLDOROPHONE_, an article in Design Boom Magazine. July 2024. [url](https://www.designboom.com/technology/cello-electro-acoustic-string-instrument-halldorophone-feedback-halldor-ulfarsson-07-26-2024/)
