@@ -4,7 +4,7 @@ date: "2024-12-05"
 slug: "organised-sound-embedding-algorithms-call"
 title: "Organised Sound – Call for papers: Embedding Algorithms in Music and Sound Art"
 highlight_image: "news/organised-sound-embedding-algorithms-call.jpg"
-description: "Federico and Thor co-edit a special issue of Organised Sound on the topic of Embedding Algorithms in Music and Sound Art"
+description: "Federico and Thor co-edit a special issue of Organised Sound on Embedding Algorithms in Music and Sound Art"
 featured: true
 ---
 
