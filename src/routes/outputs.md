@@ -163,13 +163,13 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 
 
 # Public Media
-- _Stacco interview with Nicola Privato and Giacomo Lepri_, in Bela, December 2024. [url](https://blog.bela.io/stacco-magnetic-instrument/).
-- _Að gera dósamat úr tónlist_, an interview with Thor Magnusson (in Icelandic). Lestin, RÚV. November 2024. [url](https://www.ruv.is/utvarp/spila/lestin/23619/7hr9cf?)
-- _NICOLA PRIVATO AND GIACOMO LEPRI INTRODUCE STACCO_, an article in Design Boom Magazine. August 2024. [url](https://www.designboom.com/technology/musical-instrument-stacco-sounds-magnetic-marbles-intelligent-instruments-lab-08-20-2024/)
-- _FLEXIBLE AND SOFT ‘SMART’ FABRICS THAT CAN PRODUCE SOUNDS_, an article in Design Boom Magazine. August 2024. [url](https://www.designboom.com/technology/e-textiles-sounds-electronic-musical-instruments-sophie-skach-victor-shepardson-intelligent-instruments-lab-08-24-2024/)
-- _HALLDÓR ÚLFARSSON’S STRING MUSICAL INSTRUMENT, HALLDOROPHONE_, an article in Design Boom Magazine. July 2024. [url](https://www.designboom.com/technology/cello-electro-acoustic-string-instrument-halldorophone-feedback-halldor-ulfarsson-07-26-2024/)
-- _SÓNAR 2024: Sónar +D_, an article on Sonar in Tarantula. June 2024. [url](https://revistatarantula.com/sonar-2024-sonard/)
-- _La IA ens farà la bugada, no les cançons_ an article on Sonar in El Punt Avui. June 2024. [url](https://www.elpuntavui.cat/cultura/article/19-cultura/2428968-la-ia-ens-fara-la-bugada-no-les-cancons.html)
+- _Stacco interview with Nicola Privato and Giacomo Lepri_, in Bela, December 2024. [[url](https://blog.bela.io/stacco-magnetic-instrument/)]
+- _Að gera dósamat úr tónlist_, an interview with Thor Magnusson (in Icelandic). Lestin, RÚV. November 2024. [[url](https://www.ruv.is/utvarp/spila/lestin/23619/7hr9cf?)]
+- _NICOLA PRIVATO AND GIACOMO LEPRI INTRODUCE STACCO_, an article in Design Boom Magazine. August 2024. [[url](https://www.designboom.com/technology/musical-instrument-stacco-sounds-magnetic-marbles-intelligent-instruments-lab-08-20-2024/)]
+- _FLEXIBLE AND SOFT ‘SMART’ FABRICS THAT CAN PRODUCE SOUNDS_, an article in Design Boom Magazine. August 2024. [[url](https://www.designboom.com/technology/e-textiles-sounds-electronic-musical-instruments-sophie-skach-victor-shepardson-intelligent-instruments-lab-08-24-2024/)]
+- _HALLDÓR ÚLFARSSON’S STRING MUSICAL INSTRUMENT, HALLDOROPHONE_, an article in Design Boom Magazine. July 2024. [[url](https://www.designboom.com/technology/cello-electro-acoustic-string-instrument-halldorophone-feedback-halldor-ulfarsson-07-26-2024/)]
+- _SÓNAR 2024: Sónar +D_, an article on Sonar in Tarantula. June 2024. [[url](https://revistatarantula.com/sonar-2024-sonard/)]
+- _La IA ens farà la bugada, no les cançons_ an article on Sonar in El Punt Avui. June 2024. [[url](https://www.elpuntavui.cat/cultura/article/19-cultura/2428968-la-ia-ens-fara-la-bugada-no-les-cancons.html)]
 - _Vélvitið: skapandi gervigreind_, radio programme at RÚV, (Icelandic). Jan 2024. [[url](https://www.ruv.is/utvarp/spila/velvitid/35931/aml8lj)]
 - _Knitting Mathematics and Musical Textiles_, a podcast interview with postdoc Sophie Skach. (English). Jan 2024. [[url](https://www.youtube.com/watch?v=2yn_PainAIk)]
 - _Skapandi gervigreind_, a conversation in Rauða borðið. Jan 2024. (Icelandic) [[url](https://www.youtube.com/watch?v=ZdOO-AuOpVg)]
@@ -193,24 +193,24 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 
 # Performances
 
-- _Dark Sonification at Asbestos Ars Festival III_, Miguel Cozzoli & Gon Muruaga (Duende). Asbestos Art Space, Helsinki, Finland. [info](https://www.asbestosartspace.com/single-post/5-6-10-asbestos-ars-festival-iii). 5 Oct 2024.
+- _Dark Sonification at Asbestos Ars Festival III_, Miguel Cozzoli & Gon Muruaga (Duende). Asbestos Art Space, Helsinki, Finland. [[info](https://www.asbestosartspace.com/single-post/5-6-10-asbestos-ars-festival-iii)]. 5 Oct 2024.
 - - _Mouja at xCoAx 2024_, Nicola Privato, Thales and Stacco, Neural Synthesis and Ambisonics, Fabrica, Treviso, France.
-[info](https://2024.xcoax.org/pdf/privato.pdf). 14 July 2024.
-- _Magnetologues_, Nicola Privato and Giacomo Lepri, Stacco, Neural Synthesis and Ambisonics, TENOR 2024, ZhDK Zurich, Swizerland. [info](https://www.zhdk.ch/veranstaltung/53135). 6 Apr 2024.
-- _NeoArte: Synthesizer of Arts_, Thor Magnusson, Halla Steinnunn Stefánsdóttir, Jack Armitage, Miguel Cozzoli, Nicola Privato. Nordic House, Reykjavík. [info](https://neoarte.pl/en/programme/). 23 Mar 2024.
+[[info](https://2024.xcoax.org/pdf/privato.pdf)]. 14 July 2024.
+- _Magnetologues_, Nicola Privato and Giacomo Lepri, Stacco, Neural Synthesis and Ambisonics, TENOR 2024, ZhDK Zurich, Swizerland. [[info](https://www.zhdk.ch/veranstaltung/53135)]. 6 Apr 2024.
+- _NeoArte: Synthesizer of Arts_, Thor Magnusson, Halla Steinnunn Stefánsdóttir, Jack Armitage, Miguel Cozzoli, Nicola Privato. Nordic House, Reykjavík. [[info](https://neoarte.pl/en/programme/)]. 23 Mar 2024.
 - _Mouja at IRCAM Forum_, Nicola Privato, Thales and Stacco, Neural Synthesis and Ambisonics, IRCAM, Paris, France.
-[info](https://forum.ircam.fr/article/mouja/). 21 Mar 2024.
-- _Thales at Guthman Competition_, Nicola Privato and Jeremy Muller, Thales and Percussions, Georgia Tech Institute of Technology, Atlanta, USA. [info](https://guthman.gatech.edu/2024-winners). 9 Mar 2024.
-- _Mouja at TEI 2024_, Nicola Privato, Thales and Stacco with Neural Synthesis, MTO School of Music, Cork, Ireland.[info](https://dl.acm.org/doi/fullHtml/10.1145/3623509.3635328/). 13 Feb, 2024.
-- _RASK #7_ - Jack Armitage performing at Gaukurinn. [info](https://www.facebook.com/events/265473353207250/). December 2023.
-- _Seasonally Adjusted Sonomes_ at Harpa, Reykjavik, Iceland. [info](https://www.instagram.com/p/C1F2Lzjo7Yo/). December 2023.
-- _ii lab at Erkitid_, Erkitid. Listasafn Reykjavikur. [info](https://www.erkitid.is/program2023). December 2023.
-- _Ómur Aldanna - Performance by Adam Pulz Melbye and Julia Mogensen_, Part of Hans Johannsson's [instrument exhibition](https://www.asmundarsalur.is/omuraldanna). Ásmundarsalur, Reykjavík, Iceland, 10 Oct, 2023.
-- _Mouja_, Nicola Privato performing at Fabryka Sztuki (Poland). [info](https://actinout.pl/music-events/nicola-privato/), October 2023.
-- _S27_, Nicola Privato performing in Hafnarhus [info](https://www.facebook.com/photo/?fbid=10232747883386342&set=a.1537457363270) October 2023.
+[[info](https://forum.ircam.fr/article/mouja/). 21 Mar 2024.
+- _Thales at Guthman Competition_, Nicola Privato and Jeremy Muller, Thales and Percussions, Georgia Tech Institute of Technology, Atlanta, USA. [[info](https://guthman.gatech.edu/2024-winners)]. 9 Mar 2024.
+- _Mouja at TEI 2024_, Nicola Privato, Thales and Stacco with Neural Synthesis, MTO School of Music, Cork, Ireland. [[info](https://dl.acm.org/doi/fullHtml/10.1145/3623509.3635328/)]. 13 Feb, 2024.
+- _RASK #7_ - Jack Armitage performing at Gaukurinn. [[info](https://www.facebook.com/events/265473353207250/)]. December 2023.
+- _Seasonally Adjusted Sonomes_ at Harpa, Reykjavik, Iceland. [[info](https://www.instagram.com/p/C1F2Lzjo7Yo/)]. December 2023.
+- _ii lab at Erkitid_, Erkitid. Listasafn Reykjavikur. [[info](https://www.erkitid.is/program2023)]. December 2023.
+- _Ómur Aldanna - Performance by Adam Pulz Melbye and Julia Mogensen_, Part of Hans Johannsson's [instrument exhibition](https://www.asmundarsalur.is/omuraldanna)]. Ásmundarsalur, Reykjavík, Iceland, 10 Oct, 2023.
+- _Mouja_, Nicola Privato performing at Fabryka Sztuki (Poland). [[info](https://actinout.pl/music-events/nicola-privato/)], October 2023.
+- _S27_, Nicola Privato performing in Hafnarhus [[info](https://www.facebook.com/photo/?fbid=10232747883386342&set=a.1537457363270)] October 2023.
 - _Post-dreifing presents Supersoaker #3_, Jack Armitage, Live Coding & DJ Set, Prikið, Reykjavík, Iceland, 5 Oct, 2023.
 - _Tour with Flamingo_, Adam Pulz Melbye. Jazzakademia Kaunas (Lithuania), Improdimensija Vilnius (Lithuania), Klub Dragon Poznan (Poland), Mausoleum in Tierpark Dessau (Germany), Keith Bar Berlin (Germany).
-- _Performance with Sound Energy Harvest_, Gaudeamus Festival, Utrecht (Holland). [info](https://gaudeamus.nl/en/events/gaudeamus-festival-2023-thursday/rafaele-andrade-knurl-quartet/), September, 2023.
+- _Performance with Sound Energy Harvest_, Gaudeamus Festival, Utrecht (Holland). [[info](https://gaudeamus.nl/en/events/gaudeamus-festival-2023-thursday/rafaele-andrade-knurl-quartet/)], September, 2023.
 - _Gagnavera at AIMC 2023 Algorave_, Jack Armitage, Live Coding, St. Mary's Church, Brighton, UK, 1 Sep, 2023.
 - _Live coding at Menningarnótt_, Reykjavik, 2023. [[info](https://iil.is/news/menningarnott-2023)]
 - _PIKKNIKK #6_, Jack Armitage, Live Coding, Nordic House, Reykjavík, Iceland, 29 July, 2023.
