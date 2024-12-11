@@ -163,7 +163,7 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 
 
 # Public Media
-
+- _Stacco interview with Nicola Privato and Giacomo Lepri_, in Bela, December 2024. [url](https://blog.bela.io/stacco-magnetic-instrument/).
 - _Að gera dósamat úr tónlist_, an interview with Thor Magnusson (in Icelandic). Lestin, RÚV. November 2024. [url](https://www.ruv.is/utvarp/spila/lestin/23619/7hr9cf?)
 - _NICOLA PRIVATO AND GIACOMO LEPRI INTRODUCE STACCO_, an article in Design Boom Magazine. August 2024. [url](https://www.designboom.com/technology/musical-instrument-stacco-sounds-magnetic-marbles-intelligent-instruments-lab-08-20-2024/)
 - _FLEXIBLE AND SOFT ‘SMART’ FABRICS THAT CAN PRODUCE SOUNDS_, an article in Design Boom Magazine. August 2024. [url](https://www.designboom.com/technology/e-textiles-sounds-electronic-musical-instruments-sophie-skach-victor-shepardson-intelligent-instruments-lab-08-24-2024/)
