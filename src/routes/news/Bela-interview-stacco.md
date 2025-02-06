@@ -27,13 +27,13 @@ caption="Stacco with all sorts of magnets"/>
 
 > “Instead of simplifying the AI, we're making its complexity accessible to the senses. It's about using our bodies' own intelligence to grasp something we might not understand analytically. // Our approach is really about embodied understanding. Instead of trying to explain the algorithm in a rational way, we're allowing musicians to interact with it physically. It's almost like training your body to “feel” the algorithm.”
 
-Many thanks to the Bela team for doing this beautiful interview!
-Read the full interview on: [Bela website](https://blog.bela.io/stacco-magnetic-instrument/).
-
 <CaptionedImage
 src="news/Stacco-Nicola.jpg"
 alt="Nicola performing on Stacco"
 caption="Nicola performing on Stacco"/>
 
+Many thanks to the Bela team for doing this beautiful interview!
+
+Read the full interview on: [Bela website](https://blog.bela.io/stacco-magnetic-instrument/).
 
 
