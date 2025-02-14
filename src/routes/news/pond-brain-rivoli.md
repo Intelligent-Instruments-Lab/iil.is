@@ -12,7 +12,7 @@ highlight_image: "news/pond-brain-rivoli-close.jpg"
 import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
 
-*Pond Brain* is an art installation by Jenna Sutela featuring interactive sound by Victor Shepardson. It is now part of the collection of the contemporary art museum in Catello di Rivoli. Victor traveled to Italy to install the piece for the [2025 exhibition](https://www.castellodirivoli.org/mostra/ouverture-2024/), which is open now.
+*Pond Brain* is an art installation by Jenna Sutela featuring interactive sound by Victor Shepardson. It is now part of the collection of the contemporary art museum in Castello di Rivoli. Victor traveled to Italy to install the piece for the [2025 exhibition](https://www.castellodirivoli.org/mostra/ouverture-2024/), which is open now.
 
 *Pond Brain* was previously shown in
 [Yet, It Moves!](https://copenhagencontemporary.org/en/yet-it-moves/)
