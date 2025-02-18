@@ -2,7 +2,7 @@
 layout: news
 date: "Feb. 18, 2025"
 slug: "Sophtar at Guthman Musical Instrument Competition"
-title: "The Sophtar selected as a finalist in the Guthman Musical Instrument Competition"
+title: "The Sophtar at the Guthman Musical Instrument Competition"
 description: "Federico Visi and collaborator Sukandar Kartadinata will bring the Sophtar to Atlanta (US) to compete in the final round of the 2025 Guthman Musical Instrument Competition"
 featured: true
 highlight_image: "news/sophtar-studio-crop.jpg"
