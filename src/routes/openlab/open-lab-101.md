@@ -31,9 +31,8 @@ For this open lab, Thomas will present current research and experiments on inter
 🐚
 
 We look forward to seeing you!
+
 Free entry, accessible to all.
-From: 3 - 5 pm.
-Locaton: Veröld, Room: VHV-103
 
 <CaptionedImage
 src="openlabs/Reflectors_shellreader_All.jpg"
