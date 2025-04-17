@@ -23,9 +23,7 @@ pendant") is a tribute to John Chowning, a pioneer in electronic composition and
 
 &nbsp;
 
-The Chowndolo is rooted in media archeology and sound art practices, reinterpreting past technologies to shape new artistic expressions. The project embraces the concept of  remediation—the way new media refashion old interactive paradigms. The pendulum, as symbol of time measurement from Galileo to atomic clocks, is here re-interpreted and becomes a generator of an unpredictable musical time, an inverted metronome dancing with hidden forces.
-
-Key influences include Steve Reich’s Pendulum Music, William Forsythe’s kinetic installations, and experimental approaches like circuit bending and hardware hacking (e.g. Nicolas Collins, Paul DeMarinis). More than a device, Chowndolo is an invitation to interaction, inviting the audience to shape the composition by rearranging its elements. This aligns with a broader artistic ethos—rethinking technology as a process of reinterpretation, where physical and conceptual features are rediscovered.
+The Chowndolo is rooted in media archeology and sound art practices, reinterpreting past technologies to shape new artistic expressions. The project embraces the concept of  remediation—the way new media refashion old interactive paradigms. The pendulum, as symbol of time measurement from Galileo to atomic clocks, is here re-interpreted and becomes a generator of an unpredictable musical time, an inverted metronome dancing with hidden forces. The performer is invited to shape the ongoing composition by rearranging its elements. This aligns with a broader artistic ethos—rethinking technology as a process of reinterpretation, where physical and conceptual features are rediscovered.
 
 A new iteration of the project—designed to withstand long-term public exhibitions—was developed with support from the Intelligent Instruments Lab, incorporating custom hardware and electronics created using digital fabrication techniques such as CNC machining, 3D printing, laser cutting, and powder coating.
 
