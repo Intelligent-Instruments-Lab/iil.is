@@ -16,8 +16,12 @@ Beyond being an instrument, Chowndolo is an exploration of perception, making ta
 The name Chowndolo (from the Italian word "ciondolo" meaning "swinging
 pendant") is a tribute to John Chowning, a pioneer in electronic composition and voice synthesis. The instrument creates sound using FM audio synthesis, which was discovered by Chowning 1967.
 
+&nbsp;
+
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/325707625?h=bbc9d82f7e" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 <p><a href="https://vimeo.com/325707625">Chowndolo</a> from <a href="https://vimeo.com/user30344721">Giacomo Lepri</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+&nbsp;
 
 The Chowndolo is rooted in media archeology and sound art practices, reinterpreting past technologies to shape new artistic expressions. The project embraces the concept of  remediation—the way new media refashion old interactive paradigms. The pendulum, as symbol of time measurement from Galileo to atomic clocks, is here re-interpreted and becomes a generator of an unpredictable musical time, an inverted metronome dancing with hidden forces.
 
@@ -28,4 +32,4 @@ A new iteration of the project—designed to withstand long-term public exhibiti
 
 &nbsp;
 
-Info about the project is also available at [www.giacomolepri.com/pluma](http://www.giacomolepri.com/pluma)
+Info about the project is also available at [www.giacomolepri.com/pluma](http://www.giacomolepri.com/chowndolo)
