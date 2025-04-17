@@ -32,4 +32,4 @@ A new iteration of the project—designed to withstand long-term public exhibiti
 
 &nbsp;
 
-Info about the project is also available at [www.giacomolepri.com/pluma](http://www.giacomolepri.com/chowndolo)
+Info about the project is also available at [giacomolepri.com](http://www.giacomolepri.com/chowndolo)
