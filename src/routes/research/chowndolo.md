@@ -2,7 +2,7 @@
 layout: researchproject
 title: "Chowndolo"
 slug: "chowndolo"
-description: "An digital instrument based on a magnetic pendulum."
+description: "A digital instrument based on a magnetic pendulum."
 featured: true
 authors: ["Giacomo Lepri"]
 highlight_image: "research/projects/chowndolo.jpg"
