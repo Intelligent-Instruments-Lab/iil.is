@@ -22,7 +22,9 @@ One of the research methods we apply in our lab is to test our technologies thro
 
 If you like what you see here below, you might suggest a workshop at your institution or [get in touch](/collaborate) for a collaborative workshop.
 
-#  :::::::: Upcoming Workshops  ::::::::
+ <!-- #  :::::::: Upcoming Workshops  :::::::: -->
+
+#  :::::::: Past Workshops  ::::::::
 
 # Tölvera Tutorial at NordCHI 2024, Uppsala, Sweden
 
@@ -40,10 +42,6 @@ These approaches can yield emergent, dynamic, and open-ended interactions that a
 
 [Tölvera](/research/tolvera), a Python-based medium for creative exploration of self-organising systems, was created to address this gap in the field of music interaction and to support artistic research. 
 This tutorial offers an introduction to Tölvera and its myriad features for interaction across sonic, visual and other modalities.
-
-
-#  :::::::: Past Workshops  ::::::::
-
 
 # ii lab workshop at The Basque Centre in Djúpavík
 
