@@ -17,7 +17,7 @@ Stacco is a musical instrument combining the playful properties of magnets and A
 
 Stacco opens up new ways of integrating AI in the musical experience, leveraging the liveness of magnetic interactions and embodied intuition. The instrument features a novel AI technology known as Neural Audio Synthesis. Here, machine learning models are trained on small datasets of sounds coming from different sources, which the algorithm learns to reconstruct in real time according to the user’s behaviour. 
 
-Stacco comes with removable graphic scores that function as guides for the exploration of the latent spaces in the AI model. These scores can be positioned between Stacco's board and the magnetic marbles, allowing one to sketch interesting trajectories and musical gestures.
+Stacco comes with removable graphic scores that function as guides for the exploration of the latent spaces in the AI model. These scores can be positioned between Stacco's board and the magnetic marbles, allowing one to draw and compose with musical gestures.
 
 Further information at https://nicolaprivato.com/stacco and https://www.giacomolepri.com/stacco.
 
