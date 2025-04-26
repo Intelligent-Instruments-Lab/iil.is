@@ -2,7 +2,7 @@
 layout: researchproject
 title: "Stacco"
 slug: "Stacco"
-description: "A Playful Magnetic Instrument"
+description: "A Magnetic instrument to perform and compose with Neural Audio Synthesis"
 featured: false
 authors: ["Nicola Privato, Giacomo Lepri and Halldor Úlfarsson"]
 highlight_image: "research/projects/StaccoV2.jpg"
