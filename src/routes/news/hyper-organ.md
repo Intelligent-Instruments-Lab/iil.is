@@ -30,8 +30,8 @@ Fríkirkjan í Reykjavík
 ### Dagskrá 3.maí
 - 13:00 Hljóðinnsetning - Einar Torfi Einarsson
 - 14:00 MIDI juke-box - Ný innsend verk
-- 15:00 Umræður - Gunnar Gunnarsson, Áki Ásgeirsson, Gamut
-- 16:00 Tónleikar - Alexandros Drymonitis, Tómas Manoury, Gamut, Victor Riley Shepardson og Julie Zhu
+- 15:00 Umræður - Gunnar Gunnarsson, Áki Ásgeirsson, gamut inc
+- 16:00 Tónleikar - Alexandros Drymonitis, Tómas Manoury, gamut inc, Victor Riley Shepardson og Julie Zhu
 
 Ókeypis aðgangur
 
@@ -43,7 +43,7 @@ Dagskráin hefst með hljóðinnsetningu eftir Einar Torfa Einarsson fyrir ofuro
 
 Þeir sem vilja fá tónlistina sína leikna á orgelið í Fríkirkjunni eru hvattir til að senda inn stutta MIDI skrá á netfangið aki@aki.is fyrir 29. apríl.  Tónlistin þarf að vera styttri en 2 mínútur.  Leiðbeiningar eru á slóðinni https://aki.is/MIDI-juke-box.html
 
-Umræður um ofurorgel verða á ensku, en auk Gunnars Gunnarssonar, organista og Áka Ásgeirssonar, tónskálds, koma orgeltónskáldin Marion Wörle og Maciej Śledziecki og kynna nýjustu tækni og vísindi orgelverkefnisins Gamut. https://gamutinc.org/organ-works/
+Umræður um ofurorgel verða á ensku, en auk Gunnars Gunnarssonar, organista og Áka Ásgeirssonar, tónskálds, koma orgeltónskáldin Marion Wörle og Maciej Śledziecki og kynna nýjustu tækni og vísindi orgelverkefnisins gamut inc. https://gamutinc.org/organ-works/
 
 Dagskráin endar á tónleikum glænýrra verka fyrir Fríkirkjuorgelið þar sem víddir ofurorgelsins eru kannaðar með nýjum hugbúnaði sérsniðnum fyrir tilefnið.  Orgelið í Fríkirkjunni er elsta pípuorgel landsins sem enn er í notkun og verður 100 ára á næsta ári.  Það má því segja að ofurorgelið sé samruni æsku og elli, hefða og hugmynda.
 
@@ -60,8 +60,8 @@ Fríkirkjan, Reykjavík
 ### Schedule:
 - 13:00 Sound installation - Einar Torfi Einarsson
 - 14:00 MIDI juke-box - New submitted pieces
-- 15:00 Discussions - Gunnar Gunnarsson, Áki Ásgeirsson, Gamut
-- 16:00 Concerts - Alexandros Drymonitis, Tómas Manoury, Gamut, Victor Riley Shepardson and Julie Zhu
+- 15:00 Discussions - Gunnar Gunnarsson, Áki Ásgeirsson, gamut inc
+- 16:00 Concerts - Alexandros Drymonitis, Tómas Manoury, gamut inc, Victor Riley Shepardson and Julie Zhu
 
 Free entrance
 
@@ -73,7 +73,7 @@ The schedule starts with a sound installation by Einar Torfi Einarsson for the h
 
 Those who would like to have their music played by the organ in Fríkirkjan are encouraged to submit a short MIDI file to aki@aki.is by April 29. The music must be less than 2 minutes long. Instructions are available at https://aki.is/MIDI-juke-box.html
 
-Discussions about the hyperorgan will be in English, but in addition to Gunnar Gunnarsson, organist, and Áki Ásgeirsson, composer, organ composers Marion Wörle and Maciej Śledziecki will present the latest technology and ideas of the organ project Gamut. https://gamutinc.org/organ-works/
+Discussions about the hyperorgan will be in English, but in addition to Gunnar Gunnarsson, organist, and Áki Ásgeirsson, composer, organ composers Marion Wörle and Maciej Śledziecki will present the latest technology and ideas of the organ project gamut inc. https://gamutinc.org/organ-works/
 
 The program ends with a concert of brand new works for the Fríkirkjan Organ, where dimensions of the hyperorgan are explored with new software customized for the occasion. The organ in Fríkirkjan is the oldest pipe organ in the country that is still in use and will be 100 years old next year. It can therefore be said that the hyperorgan is a fusion of youth and old age, traditions and new ideas.
 
