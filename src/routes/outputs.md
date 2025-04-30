@@ -165,6 +165,7 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 
 
 # Public Media
+- _Siðferði gervigreindar_, Thor Magnusson in conversation with Oddný Ævarsdóttir in Rauða borðið. April 2025. (Icelandic) [[url](https://www.youtube.com/watch?v=8OxE-Ev-EJY)]
 - _Stacco interview with Nicola Privato and Giacomo Lepri_, in Bela, December 2024. [[url](https://blog.bela.io/stacco-magnetic-instrument/)]
 - _Að gera dósamat úr tónlist_, an interview with Thor Magnusson (in Icelandic). Lestin, RÚV. November 2024. [[url](https://www.ruv.is/utvarp/spila/lestin/23619/7hr9cf?)]
 - _NICOLA PRIVATO AND GIACOMO LEPRI INTRODUCE STACCO_, an article in Design Boom Magazine. August 2024. [[url](https://www.designboom.com/technology/musical-instrument-stacco-sounds-magnetic-marbles-intelligent-instruments-lab-08-20-2024/)]
