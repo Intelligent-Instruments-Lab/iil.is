@@ -75,6 +75,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Journal articles
 
+- _Hugsað með tækninni_, an interview with Thor Magnusson in *Hugur*, vol. 34. 2024. [[pdf](https://iil.is/pdf/2024_Hugur_Magnusson.pdf)]
 - _Editorial: Live Coding Sonic Creativities_ by Anna Xambo, Gerard Roma and Thor Magnusson. 2023. [[url](https://www.cambridge.org/core/journals/organised-sound/article/editorial-live-coding-sonic-creativities/7CAFDFB2FB693C44A77017225A413FD8)]
 - _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson. 2021. [[url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)]
 - _Txalaparta á Ströndum_, by Thor Magnusson. *Strandapósturinn*. 2024. (In Icelandic). [[pdf](https://iil.is/pdf/2024_Strandapostur.pdf)]
@@ -131,6 +132,7 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 
 # Presentations
 
+- _Gervigreind og tónlist: hvað er að gerast?_, Thor Magnusson gives a public lecture for MEKO in Kopavogur's Culture House. April 2025. [info here](https://menning.kopavogur.is/event/gervigreind-og-tonlist-hvad-er-ad-gerast/)
 - _Data Sonification of Environment_, Thor Magnusson and Miguel Crozzoli at EarthSonic Launch in Reykjavik. Part of Iceland Airwaves. [Info here](https://iil.is/news/earthsonic), November, 2024. 
 - _Sonifying the Arctic_, Miguel Crozzoli & Garrison Gerard talk at [ARCTIC CIRCLE](https://www.arcticcircle.org/), October 18th, 2024. 
 - _Intelligent Instruments in your Hands_, Thor Magnusson presented a keynote at the Porto Electronic Music Symposium, [PEMS 2024](https://casadamusica.com/pems-2024/), October, 2024.
@@ -163,6 +165,7 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 
 
 # Public Media
+- _Siðferði gervigreindar_, Thor Magnusson in conversation with Oddný Ævarsdóttir in Rauða borðið. April 2025. (Icelandic) [[url](https://www.youtube.com/watch?v=8OxE-Ev-EJY)]
 - _Stacco interview with Nicola Privato and Giacomo Lepri_, in Bela, December 2024. [[url](https://blog.bela.io/stacco-magnetic-instrument/)]
 - _Að gera dósamat úr tónlist_, an interview with Thor Magnusson (in Icelandic). Lestin, RÚV. November 2024. [[url](https://www.ruv.is/utvarp/spila/lestin/23619/7hr9cf?)]
 - _NICOLA PRIVATO AND GIACOMO LEPRI INTRODUCE STACCO_, an article in Design Boom Magazine. August 2024. [[url](https://www.designboom.com/technology/musical-instrument-stacco-sounds-magnetic-marbles-intelligent-instruments-lab-08-20-2024/)]
