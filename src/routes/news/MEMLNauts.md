@@ -5,7 +5,7 @@ slug: "MEMLNauts"
 title: "MEMLNauts improvised performances in Mengi"
 description: "A collection of improvised performances from participants in the Musically Embodied Machine Learning project (MEML)"
 featured: true
-highlight_image: "news/MEMLNauts.png"
+highlight_image: "news/MEMLNauts.jpg"
 ---
 
 <script>
