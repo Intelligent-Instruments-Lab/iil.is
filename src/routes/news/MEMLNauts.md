@@ -36,7 +36,7 @@ Stefanos Skialivas:
 Stefanos Skialivas is a musician and researcher developing his musical practice by experimenting with electromagnetic field inductors, coils that are able to capture electromagnetic fields and turn them into sound. His means of musical expression consist of DIY instrument-scores built with repurposed obsolete electronic devices. In his performances, he attempts to perceptualize through sound the functional complexity of digital devices and the inaudible wavescapes they produce. He is working as a research assistant at the Intelligent Instruments Lab.
 
 <CaptionedImage
-    src="news/MEMLNausts.png"
+    src="news/MEMLNausts.jpg"
     alt="MEMLNausts"
     caption=""
 />
