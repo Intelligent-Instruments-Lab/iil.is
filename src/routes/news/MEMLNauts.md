@@ -13,10 +13,10 @@ highlight_image: "news/MEMLNauts.jpg"
 </script>
 ** MEMLNauts ** 
 
-A collection of improvised performances from participants in the Musically Embodied Machine Learning project (MEML).  We are exploring the concept of building new hybrid musical instruments with embedded machine learning.  Embedded machine learning empowers musicians to find new performance approaches, by sharing control with often unpredictable and lively algorithms within the instrument.  We will present performances with a variety of machine learning augmented acoustics instruments, in solo and group improvisations.
+What musical juice can we get out of artificial neural networks? This concert will present a collection of improvised performances from participants in the Musically Embodied Machine Learning project (MEML).  In this workshop we have been building new hybrid musical instruments with embedded machine learning, where AI becomes part of the physical musical instrument.  Embedded machine learning empowers musicians to find new performance approaches, by sharing control with often unpredictable and lively algorithms.  The concert will feature performances with a variety of machine learning augmented acoustics instruments, in solo and group improvisations.
 
-Location: Mengi. Óðinsgata 2. 101, Reykjavík, Iceland
-Time: 8 - 10 PM
+** Location: ** Mengi. Óðinsgata 2, Reykjavík, Iceland  
+ ** Time: 8 - 10 PM ** 
 
 <br>
 <br>
