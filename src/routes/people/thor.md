@@ -5,7 +5,7 @@ role: "Principal Investigator"
 email: "thormagnusson@hi.is"
 image: "images/people/thor-profile.jpg"
 links: {
-  twitter: "thormagnusson",
+  bluesky: "thormagnusson",
   github: "thormagnusson",
   scholar: "cCgOZ_gAAAAJ",
   instagram: "thor.magnusson",
