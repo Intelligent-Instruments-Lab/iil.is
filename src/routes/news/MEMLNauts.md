@@ -11,14 +11,25 @@ highlight_image: "news/MEMLNauts.jpg"
 <script>
     import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
-MEMLNauts
+** MEMLNauts ** 
 
 A collection of improvised performances from participants in the Musically Embodied Machine Learning project (MEML).  We are exploring the concept of building new hybrid musical instruments with embedded machine learning.  Embedded machine learning empowers musicians to find new performance approaches, by sharing control with often unpredictable and lively algorithms within the instrument.  We will present performances with a variety of machine learning augmented acoustics instruments, in solo and group improvisations.
 
 Location: Mengi. Óðinsgata 2. 101, Reykjavík, Iceland
 Time: 8 - 10 PM
 
-Performers
+<br>
+<br>
+<CaptionedImage
+    src="news/MEMLNauts.jpg"
+    alt="MEMLNausts"
+    caption=""
+/>
+
+<br>
+<br>
+
+** Performers **
 
 Andrea Martelloni:
 Andrea Martelloni is a guitar player, composer, producer and researcher in digital musical instruments, with a PhD from Queen Mary University of London. His research includes work on the HITar and the field of gesture recognition applied to expressive digital musical instruments. He is also part of the Musically Embodied Machine Learning project at the University of Sussex, where he develops interfaces for the seamless integration of artificial intelligence in musical instruments. He has been playing guitar for over twenty years, studying at the Centro Professione Musica in Milan in his teenage. He is an active session musician in the South East of England. His current main project is Sloth In The City with wife and saxophonist Betty Accorsi. Other projects include solo guitar act Virgult, jazz guitar (Betty Accorsi Quartet, Madz and the Martians), pop (Miss and the Demeanors), folk (Monkey See Monkey Do, Hilltop Ceilidh Band).
@@ -34,10 +45,4 @@ Chris Kiefer is a computer-musician and musical instrument designer from Brighto
 
 Stefanos Skialivas:
 Stefanos Skialivas is a musician and researcher developing his musical practice by experimenting with electromagnetic field inductors, coils that are able to capture electromagnetic fields and turn them into sound. His means of musical expression consist of DIY instrument-scores built with repurposed obsolete electronic devices. In his performances, he attempts to perceptualize through sound the functional complexity of digital devices and the inaudible wavescapes they produce. He is working as a research assistant at the Intelligent Instruments Lab.
-
-<CaptionedImage
-    src="news/MEMLNausts.jpg"
-    alt="MEMLNausts"
-    caption=""
-/>
 
