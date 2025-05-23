@@ -46,3 +46,7 @@ Chris Kiefer is a computer-musician and musical instrument designer from Brighto
 Stefanos Skialivas:
 Stefanos Skialivas is a musician and researcher developing his musical practice by experimenting with electromagnetic field inductors, coils that are able to capture electromagnetic fields and turn them into sound. His means of musical expression consist of DIY instrument-scores built with repurposed obsolete electronic devices. In his performances, he attempts to perceptualize through sound the functional complexity of digital devices and the inaudible wavescapes they produce. He is working as a research assistant at the Intelligent Instruments Lab.
 
+Tom Manoury:
+Tom Manoury is a French/Icelandic multi-instrumentalist. He grew up in Paris and lived in Brussels for many years before moving to Reykjavik. Mostly self taught, he plays diverse wind instruments such as saxophones, euphonium, harmonica, and many others. He also sings and masters overtone and throat singing. 
+Aside his career as an instrumentalist and composer, he has been doing electronic music for over 15 years and develops interactive tools and intuitive interfaces aimed at live performances and real-time processing.
+
