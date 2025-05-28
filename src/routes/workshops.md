@@ -26,6 +26,14 @@ If you like what you see here below, you might suggest a workshop at your instit
 
 #  :::::::: Past Workshops  ::::::::
 
+# Voice AI and Creative Misuse with Tungnaa Demonstration
+
+### 27 May 2025, Goethe Institut Portugal (Online)
+
+[Jonathan Reus](/people#jonathan-chaim-reus) and [Victor Shepardson](/people#victor-shepardson) give a talk on creative misuse and the future of voice, and a demo of the newly [open-sourced Tungnaa instrument](https://github.com/tungnaa/tungnaa).
+
+Archived as part of the Goethe Institut [Art Meets Tech](https://www.goethe.de/ins/pt/en/kul/sup/web/pws.html) series.
+
 # Tölvera Tutorial at NordCHI 2024, Uppsala, Sweden
 
 [Jack Armitage](/people#jack-armitage) will be giving a half-day tutorial on [Tölvera](/research/tolvera) titled "Tölvera: Interactive Self-Organising Systems for HCI Research & Artistic Practice" at [NordiCHI 2024](https://www.nordichi2024.se/), on Monday 14th October, in Uppsala, Sweden.
