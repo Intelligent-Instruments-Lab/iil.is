@@ -75,10 +75,12 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Journal articles
 
+- _Skapandi gervigreind: nokkur orð um sjálfvirka og meðvirka tækni_ by Thor Magnusson in Þræðir 10, June 2025. [[url](https://www.lhi.is/thraedir/thraedir/skapandi-gervigreind/)]
 - _Hugsað með tækninni_, an interview with Thor Magnusson in *Hugur*, vol. 34. 2024. [[pdf](https://iil.is/pdf/2024_Hugur_Magnusson.pdf)]
-- _Editorial: Live Coding Sonic Creativities_ by Anna Xambo, Gerard Roma and Thor Magnusson. 2023. [[url](https://www.cambridge.org/core/journals/organised-sound/article/editorial-live-coding-sonic-creativities/7CAFDFB2FB693C44A77017225A413FD8)]
-- _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson. 2021. [[url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)]
 - _Txalaparta á Ströndum_, by Thor Magnusson. *Strandapósturinn*. 2024. (In Icelandic). [[pdf](https://iil.is/pdf/2024_Strandapostur.pdf)]
+- _Editorial: Live Coding Sonic Creativities_ by Anna Xambo, Gerard Roma and Thor Magnusson. 2023. [[url](https://www.cambridge.org/core/journals/organised-sound/article/editorial-live-coding-sonic-creativities/7CAFDFB2FB693C44A77017225A413FD8)]
+- _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson, in Þræðir. April, 2021.  [[url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)]
+
 
 
 # Hosted Conferences and Symposia
