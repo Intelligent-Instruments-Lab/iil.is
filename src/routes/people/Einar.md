@@ -5,10 +5,10 @@ role: "Master Research Intern"
 email: "ehb14@hi.is"
 image: "images/people/Einar.jpg"
 links: {
-  instagram: "",
-  twitter: "",
-  scholar: "",
-  website: ""
+  instagram: "a",
+  twitter: "a",
+  scholar: "a",
+  website: "a"
 }
 projects: [
   ""
