@@ -4,9 +4,8 @@ type: "Member"
 role: "Master Research Intern"
 email: "ehb14@hi.is"
 image: "images/people/Einar.jpg"
-
-projects: [
-]
+links: {}
+projects: []
 
 pronouns: "He/Him"
 
