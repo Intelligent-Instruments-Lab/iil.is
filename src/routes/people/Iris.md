@@ -1,9 +1,9 @@
 ---
-name: "Einar Hugi Böðvarsson"
+name: "Íris Jacobsen"
 type: "Member"
 role: "Master Research Intern"
-email: "ehb14@hi.is"
-image: "images/people/Einar.jpg"
+email: "irj19@hi.is"
+image: "images/people/Iris.jpg"
 links: {
   instagram: "",
   twitter: "",
@@ -13,7 +13,9 @@ links: {
 projects: [
   ""
 ]
-pronouns: "He/Him"
-bio: " I am a composer and organist. I hold an MA degree in sociology from the University of Iceland where my final thesis was a Weberian analysis of generative music. I'm currently pursuing a B.Sc. in computer science at the University of Iceland with an emphasis on data science and artificial intelligence as a precursor for further studies in computational sociology. I am interested in the social ontology of musical forms, how music is socially constructed but materially stabilized through technology, and identifying the social mechanisms involved in generating musical practice."
+pronouns: "She/Her"
+bio: "I’m a master’s student in philosophy at the University of Iceland, where I also earned my BA in the same field. My work is driven by questions about climate change, environmental ethics, and how we relate to nature in an increasingly technological world.
+At IIL, I’m researching AI-driven dark sonification as a way to make environmental data more perceptible and relational. Through ethnography, experiments, and philosophical analysis, I’m exploring how sound can shift our understanding of climate change and our place within it, in an effort to cultivate care through deeper, more embodied forms of awareness."
 ---
+
 
