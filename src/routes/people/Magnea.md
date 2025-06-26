@@ -5,10 +5,7 @@ role: "Master Research Intern"
 email: "magnearut@gmail.com"
 image: "images/people/Magnea.jpg"
 links: {
-  instagram: "magnea_",
-  twitter: "",
-  scholar: "",
-  website: ""
+  instagram: "magnea_"
 }
 projects: [
   ""
