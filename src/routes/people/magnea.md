@@ -3,7 +3,7 @@ name: "Magnea Rut Gunnarsdóttir"
 type: "Member"
 role: "Master Research Intern"
 email: "magnearut@gmail.com"
-image: "images/people/Magnea.jpg"
+image: "images/people/magnea.jpg"
 links: {
   instagram: "magnea_"
 }
