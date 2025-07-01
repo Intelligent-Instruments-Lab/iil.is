@@ -1,6 +1,6 @@
 ---
 name: "Kajetan Enge"
-type: "associates"
+type: "Associate"
 role: "Visiting Researcher"
 email: "kajetan@enge.at"
 image: "images/people/kajetan.jpg"
