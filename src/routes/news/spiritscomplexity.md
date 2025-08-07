@@ -8,6 +8,15 @@ featured: true
 highlight_image: "news/MEMLNauts.jpg"
 ---
 
+WORK IN PROGRESS !!!
+
+A visit from our Spirits in Complexity collaborators from the University of Music and Performing Arts in Vienna, Austria. We have planned the following events:
+
+## Symposium
+## Mengi Concert
+## Friday Open Lab at IIL
+
+
 <script>
     import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 </script>
