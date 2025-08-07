@@ -15,7 +15,11 @@ A visit from our Spirits in Complexity collaborators from the University of Musi
 ## Symposium
 
 When: August 21, 10am - 2pm.
+<br>
+
 Where: Mengi, 2 Óðinsgata, 101, Reykjavík.
+<br>
+
 Info: 
 The artistic research project “Spirits in Complexity – Making kin with experimental music systems” conducted at the University of Music and Performing Arts Vienna, Austria, explores the functional and affective relationships of humans and technological objects in the context of experimental music-making. The titular term “spirits” is used in a more or less metaphorical sense to refer to an opaque complexity that characterizes human and non-human interaction in the artistic-creative context.
 The workshop at the cooperation partner IIL revolves around the concept of „black box music“ and focuses on the fact that in contemporary music-making, objects of artistic practice are often opaque and complex dynamic systems – appearing as black boxes.
@@ -24,17 +28,19 @@ Participants: Thomas Grill, Miriam Jochmann, Nicola Privato, Victor Shepardson.
 
 
 ## Mengi Concert
-
 When: August 21, 18pm - 20pm.
-Where: Mengi, 2 Óðinsgata, 101, Reykjavík.
+<br>
+Where: Mengi, 2 Óðinsgata, 101, Reykjavík. 
+<br>
 Info: 
-
 Participants: Thomas Grill, Miriam Jochmann, Nicola Privato, Victor Shepardson. 
 
 
 ## Friday Open Lab at IIL
 When: August 22, 3pm - 4pm.
+<br>
 Where: University of Iceland, Veröld. Intelligent Instruments Lab.
+<br>
 Info: 
 Spirits in Complexity will present their research work and have open discussions.
 
