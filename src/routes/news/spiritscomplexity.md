@@ -17,7 +17,7 @@ A visit from our Spirits in Complexity collaborators from the University of Musi
 When: August 21, 10am - 2pm.
 <br>
 
-Where: Mengi, 2 Óðinsgata, 101, Reykjavík.
+Where: TBA.
 <br>
 
 Info: 
@@ -30,7 +30,7 @@ Participants: Thomas Grill, Miriam Jochmann, Nicola Privato, Victor Shepardson.
 ## Mengi Concert
 When: August 21, 18pm - 20pm.
 <br>
-Where: Mengi, 2 Óðinsgata, 101, Reykjavík. 
+Where: TBA. 
 <br>
 Info: 
 Participants: Thomas Grill, Miriam Jochmann, Nicola Privato, Victor Shepardson. 
