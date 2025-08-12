@@ -27,7 +27,7 @@ The workshop at the cooperation partner IIL revolves around the concept of „bl
 Participants: Thomas Grill, Miriam Jochmann, Nicola Privato, Victor Shepardson. 
 
 
-## Mengi Concert
+## Concert
 When: August 21, 18pm - 20pm.
 <br>
 Where: TBA. 
