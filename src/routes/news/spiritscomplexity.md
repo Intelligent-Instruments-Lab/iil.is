@@ -9,6 +9,11 @@ highlight_image: "news/spirits.jpg"
 ---
 
 
+<script>
+    import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
+</script>
+
+
 A visit from our *Spirits in Complexity* collaborators from the University of Music and Performing Arts in Vienna, Austria. We have planned the following events:
 
 
@@ -16,7 +21,7 @@ A visit from our *Spirits in Complexity* collaborators from the University of Mu
 
 In this informal concert at the lovely 12 Tonar record store and pub, work from the two projects "Spirits in Complexity" and "Intelligent Instruments" will be performed. Expect some hauntology, some ghosts, some latent dimensions, some AI spirits! The Spirits in Complexity team will be performing their "Black Box Music" piece.
 
-Performers: Thomas Grill, Miriam Jochmann, Nicola Privato, Victor Shepardson. 
+Performers: Thomas Grill, Angélica Castelló, Marco Döttlinger, Patrik Lechner, Nicola Privato, Victor Shepardson. 
 
 When: August 20th, 5pm. <br>
 Where: 12 Tónar. Map [here](https://maps.app.goo.gl/FrRvwRTLTtnD8ig19) <br>
@@ -33,10 +38,12 @@ When: August 22, 3pm. <br>
 Where: Veröld - Hús Vigdísar. Room 103. Map [here](https://maps.app.goo.gl/YPQ82HxCT5UPurn68) <br>
 
 
+<CaptionedImage
+    src="news/spirits_black_box_music.png"
+    alt="Spirits in complexity"
+    caption=""
+/>
 
-<script>
-    import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
-</script>
  
 ## Spirits in Complexity Team:
 
