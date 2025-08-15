@@ -14,7 +14,7 @@ A visit from our *Spirits in Complexity* collaborators from the University of Mu
 
 ## Concert
 
-In this informal concert at the lovely 12 Tonar record store and pub, work from the two projects "Spirits in Complexity" and "Intelligent Instruments" will be performed. Expect some hauntology, some ghosts, some latent dimensions, some AI spirits!
+In this informal concert at the lovely 12 Tonar record store and pub, work from the two projects "Spirits in Complexity" and "Intelligent Instruments" will be performed. Expect some hauntology, some ghosts, some latent dimensions, some AI spirits! The Spirits in Complexity team will be performing their "Black Box Music" piece.
 
 Performers: Thomas Grill, Miriam Jochmann, Nicola Privato, Victor Shepardson. 
 
