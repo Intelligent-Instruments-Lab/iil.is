@@ -35,7 +35,7 @@ The artistic research project “Spirits in Complexity – Making kin with exper
 In this symposium we will get presentations from the Vienna team as well as from members of the Intelligent Instruments Lab.
 
 When: August 22, 3pm. <br>
-Where: Veröld - Hús Vigdísar. Room 103. Map [here](https://maps.app.goo.gl/YPQ82HxCT5UPurn68) <br>
+Where: Veröld - Hús Vigdísar. Room 104. Map [here](https://maps.app.goo.gl/YPQ82HxCT5UPurn68) <br>
 
 
 <CaptionedImage
