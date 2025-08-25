@@ -25,7 +25,7 @@ Intelligent Instruments Lab outputs organised under the following categories:
 
 ## 2025 <!-- omit in toc -->
 - _Dark Sonification: an Entangled Post-Interaction Multimodal Data Display System_. Miguel Angel Crozzoli. *Proc. of Aarhus ’25 Doctoral Consortium (Aarhus ’25 Doctoral Consortium) ([Aarhus 2025](https://aarhus2025.org/))*, Aarhus, Denmark.  [[pdf](http://iil.is/pdf/2025_Aarhus25_DarkSonification_Crozzoli.pdf)]
-- _SIGNAL AND SYMBOL REPRESENTATIONS IN SONIFICATION: STRUCTURING DATA-TO-DISPLAY TRANSFORMATIONS_. Miguel Angel Crozzoli, Gonzalo Muruaga, Thor Magnusson. *Proc. International Conference on Auditory Display ([AM.ICAD 2025](https://amicad2025.dei.uc.pt/))*, Coimbra, Portugal.  [[pdf](http://iil.is/pdf/2025_ICAD25__Signal_Symbol_Crozzoli-Muruaga_Magnusson.pdf)]
+- _Signal and Symbol Representations in Sonification: Structuring Data-to-Display transformations_. Miguel Angel Crozzoli, Gonzalo Muruaga, Thor Magnusson. *Proc. International Conference on Auditory Display ([AM.ICAD 2025](https://amicad2025.dei.uc.pt/))*, Coimbra, Portugal.  [[pdf](http://iil.is/pdf/2025_ICAD25__Signal_Symbol_Crozzoli-Muruaga_Magnusson.pdf)]
 - _Data Perceptualization through Affect in Dark Sonification_. Miguel Angel Crozzoli, Thor Magnusson. *13th Conference on Computation, Communication, Aesthetics & X [xCoAx 2025](https://xcoax.org/#proceedings)*. Dundee, Scotland. [[pdf](http://iil.is/pdf/2025_xCoAx_DataPerceptualization_Crozzoli-Magnusson.pdf)]
 
 ## 2024 <!-- omit in toc -->
