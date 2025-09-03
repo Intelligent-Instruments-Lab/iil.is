@@ -6,7 +6,8 @@ email: "stefvasi@gmail.com"
 image: "images/people/stefanos.jpg"
 links: {
   instagram: "_f_d_s_m_",
-  website: "stegi.radio/artist/stefanos-skialivas"
+  website: "stefanosskialivas.com"
+
 }
 projects: [
   ""
