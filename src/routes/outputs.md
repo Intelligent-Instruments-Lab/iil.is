@@ -25,6 +25,9 @@ Intelligent Instruments Lab outputs organised under the following categories:
 
 ## 2025 <!-- omit in toc -->
 - _Dark Sonification: an Entangled Post-Interaction Multimodal Data Display System_. Miguel Angel Crozzoli. *Proc. of Aarhus ’25 Doctoral Consortium (Aarhus ’25 Doctoral Consortium) ([Aarhus 2025](https://aarhus2025.org/))*, Aarhus, Denmark.  [[pdf](http://iil.is/pdf/2025_Aarhus25_DarkSonification_Crozzoli.pdf)]
+- _Evolving the Living Looper: Artistic Research, Online Learning, and Tentacle Pendula_. Victor Shepardson, Halla Steinunn Stefánsdóttir, and Thor Magnusson. *Proc. International Conference on New Interfaces for Musical Expression ([NIME 2025](https://nime2025.org/))*, Canberra, Australia. [[pdf](../pdf/2025_nime_evolving_the_living_looper.pdf)]
+- _dit dah delta token: Statistical Models of Music and Language Interfering via Morse Code_. Victor Shepardson and Thor Magnusson. *Proc. International Computer Music Conference. ([ICMC 2025](https://icmc2025.sites.northeastern.edu/))*, Boston, USA. [[pdf](../pdf/2025_icmc_dit_dah_delta_token.pdf)]
+- _Notochord Homunculus: a Playground for Deep Generative MIDI_. Victor Shepardson and Thor Magnusson. *Proc. International Computer Music Conference. ([ICMC 2025](https://icmc2025.sites.northeastern.edu/))*, Boston, USA. [[pdf](../pdf/2025_icmc_notochord_homunculus.pdf)]
 - _Signal and Symbol Representations in Sonification: Structuring Data-to-Display transformations_. Miguel Angel Crozzoli, Gonzalo Muruaga, Thor Magnusson. *Proc. International Conference on Auditory Display ([AM.ICAD 2025](https://amicad2025.dei.uc.pt/))*, Coimbra, Portugal.  [[pdf](http://iil.is/pdf/2025_ICAD25__Signal_Symbol_Crozzoli-Muruaga_Magnusson.pdf)]
 - _Data Perceptualization through Affect in Dark Sonification_. Miguel Angel Crozzoli, Thor Magnusson. *13th Conference on Computation, Communication, Aesthetics & X [xCoAx 2025](https://xcoax.org/#proceedings)*. Dundee, Scotland. [[pdf](http://iil.is/pdf/2025_xCoAx_DataPerceptualization_Crozzoli-Magnusson.pdf)]
 
@@ -148,6 +151,7 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 - _Intelligent Instruments in the Experimental Humanities_, Thor Magnusson gave a keynote at the Digital Humanities in the Nordic and Baltic Countries Conference, [DHNB 2024](https://dhnb.eu/past-conferences/dhnb2024/), May 31st, 2024.
 - _Data Artivism in the Climate Crisis_, Miguel Crozzoli talk at the [Ice and Water 2024](https://iceandwater2024.wixsite.com/home), May 23rd, 2024.
 - _Hugfæri og tæknileikar: Um hugsandi hljóðfæri og tilraunakennd hugvísindi_, Thor Magnusson lecture at the [Univeristy of Iceland](https://www.hi.is/vidburdir/hugfaeri_og_taeknileikar_um_hugsandi_hljodfaeri_og_tilraunakennd_hugvisindi). 18 April, 2024.
+- _No-input Textiles_, Victor Shepardson and Sophie Skach at Ohio State University, March 2024.
 - _On the Making of End of Empire_, Nicola Privato with Eva Sajovic at Open Eye Gallery, Liverpool (UK) as part of the [Climate Lab programme](https://openeye.org.uk/whatson/end-of-empire-discussion/). 22 Feb, 2024.
 - _Keynote on Intelligent Instruments_, Thor Magnusson with a keynote at the [AI and Music Symposium](https://eveeno.com/ai-in-music-symposium). 16 Dec, 2024.
 - _Thinking with Intelligent Instruments_, Thor Magnusson presenting a keynote at the [Orpheus Institute](https://orpheusinstituut.be). 11 Dec, 2024.
@@ -205,10 +209,20 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 - Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
 
 # Performances
-
+- _IIL x Spirits in Complexity_, Thor Magnusson and Nicola Privato, Victor Shepardson. 12 Tónar, Reykjavík, Iceland. August 2025. [[info](../news/spiritscomplexity)]
+- _Pikknikk_, Victor Shepardson. Nordic House, Reykjavík, Iceland. July 2025.
+- _S27_, Victor Shepardson. Hafnarhaus, Reykjavík, Iceland. 28 May 2025.
+- _Haunting in Fríkirkjan_, Victor Shepardson and Julie Zhu. Fríkirkjan, Reykjavík, Iceland. April 2025. [[video](https://www.youtube.com/watch?v=K-69ZwARreA)]
 - _Dark Sonification at Asbestos Ars Festival III_, Miguel Cozzoli & Gon Muruaga (Duende). Asbestos Art Space, Helsinki, Finland. [[info](https://www.asbestosartspace.com/single-post/5-6-10-asbestos-ars-festival-iii)]. 5 Oct 2024.
-- - _Mouja at xCoAx 2024_, Nicola Privato, Thales and Stacco, Neural Synthesis and Ambisonics, Fabrica, Treviso, France.
+- _ii lab at Erkitid_, Erkitid. Listasafn Reykjavikur. [[info](https://www.erkitid.is/program2023)]. November 2024.
+- _Morse Code at Loftskeytastöðin_, Victor Shepardson, Robin Morabito, Miguel Crozzoli and Stefanos Skialivas. Reykjavík, Iceland. 1 November 2024. [[info](https://www.facebook.com/events/1069580927751064?ref=newsfeed)]
+- _Snjallfiðlutónleikar_ Halla Steinunn Stefánsdóttir and Victor Shepardson. Mengi, Reykjavík, Iceland. 25 October 2024. [[info](https://mengi.net/events/2024/10/25/snjallfilutnleikar-halla-steinunn-og-victor-riley)]
+- _IIL Diffractive Sonic Dialogues_, Federico Visi, Nicola Privato, Victor Shepardson, Miguel Crozzoli, Eydís Kvaran, Stefanos Skialivas. Mengi, Reykjavík, Iceland. 8 October 2024. [[info](../news/sonicdialogues)]
+- _learning machine knit minput intertextiles_, Victor Shepardson and Sophie Skach, NIME 2024, Utretch NL. September 2024.
+- _Mouja at xCoAx 2024_, Nicola Privato, Thales and Stacco, Neural Synthesis and Ambisonics, Fabrica, Treviso, France.
 [[info](https://2024.xcoax.org/pdf/privato.pdf)]. 14 July 2024.
+- _Auto Eater Aether Theater_. Victor Shepardson and Gianluca Elia. R6013, Reykjavík, Iceland. July 2024.
+- _Basque-Icelandic Symposium_. Performances by Victor Shepardson, Thor Magnusson and Bergsveinn Birgisson. Djúpavík, Iceland. June 2024.
 - _Magnetologues_, Nicola Privato and Giacomo Lepri, Stacco, Neural Synthesis and Ambisonics, TENOR 2024, ZhDK Zurich, Swizerland. [[info](https://www.zhdk.ch/veranstaltung/53135)]. 6 Apr 2024.
 - _NeoArte: Synthesizer of Arts_, Thor Magnusson, Halla Steinnunn Stefánsdóttir, Jack Armitage, Miguel Cozzoli, Nicola Privato. Nordic House, Reykjavík. [[info](https://neoarte.pl/en/programme/)]. 23 Mar 2024.
 - _Mouja at IRCAM Forum_, Nicola Privato, Thales and Stacco, Neural Synthesis and Ambisonics, IRCAM, Paris, France.
@@ -245,11 +259,13 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 - Lil Data at PC Music Vol. 3. London. Jack Armitage. 2022.
 - Intelligent Instruments’ Birthday Party at Mengi. Marco Donnarumma, Jonathan Chaim Reus, Hekla, Bob & Vic. 2022.
 
-# Installataions and Exhibitions
+# Installations and Exhibitions
 
+- _Pond Brain_, Jenna Sutela with interactive sound by Victor Shepardson, Castello di Rivoli, 2025.
 - _Strengjavera II_, at the Nordic House, Reykjavik. [Strengjavera](https://aimc2023.pubpub.org/pub/83k6upv8/release/2), Jack Armitage, Magnetic Resonator Piano and ALife, AIMC 2023, Brighton, UK, Sep 2023.
 - _End of Empire_, Nicola Privato and Eva Sajovic present the installation at the British Textile Bienniale. [info](https://britishtextilebiennial.co.uk/programme/eva-sajovic-end_of_empire/), Manchester. Summer 2023.
 - _no-input textiles_, Dr Sophie Skach and Victor Shepardson present at the 2023 Textile Intersections [info](https://www.textile-intersections.com/exhibition/) Conference in London. Summer 2023.
+- _Pond Brain_, Jenna Sutela with interactive sound by Victor Shepardson, Copenhagen Contemporary and Helsinki Biennial, 2023.
 - _Strengjavera I_, Jack Armitage, Magnetic Resonator Piano and ALife, AIMC 2023, Brighton, UK, [info](https://aimc2023.pubpub.org/pub/83k6upv8/release/2). Sep 2023.
 
 # Consultancies
