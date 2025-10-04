@@ -178,6 +178,7 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 
 # Public Media
 
+- _Otolith_, an album by Florian Kolb & Thanos Polymeneas-Liontiris. [[Bandcamp](https://zappak.bandcamp.com/album/otolith)]
 - _Latent Imprints_, Liner Notes for a new album by Sveið, by Thor Magnusson. June 2025. [[html](https://www.federicoreuben.com/latent-imprints-thor)]
 - _Siðferði gervigreindar_, Thor Magnusson in conversation with Oddný Ævarsdóttir in Rauða borðið. April 2025. (Icelandic) [[url](https://www.youtube.com/watch?v=8OxE-Ev-EJY)]
 - _Stacco interview with Nicola Privato and Giacomo Lepri_, in Bela, December 2024. [[url](https://blog.bela.io/stacco-magnetic-instrument/)]
