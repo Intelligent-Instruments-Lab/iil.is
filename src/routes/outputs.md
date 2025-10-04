@@ -143,7 +143,10 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 
 # Presentations
 
-- _Gervigreind og tónlist: hvað er að gerast?_, Thor Magnusson gives a public lecture for MEKO in Kopavogur's Culture House. April 2025. [info here](https://menning.kopavogur.is/event/gervigreind-og-tonlist-hvad-er-ad-gerast/)
+- _Sintesis Neuronal, Nuevas Frontera en Diseno, Compositión e Interpretación Musical_, Nicola Privato presentation at University of Costa Rica. San José. July 2025. [info here](https://boblsturm.github.io/aimusicstudies2024/)
+- _Gervigreind og tónlist: hvað er að gerast?_, Thor Magnusson gives a public lecture for MEKO in Kopavogur's Culture House. April 2025. [info here](https://inmuse.lmta.lt/)
+- _AI Hauntology and the Hauntographic Method_, Nicola Privato presentation at InMuse 2025. Vilnius. [info here](https://boblsturm.github.io/aimusicstudies2024/)
+- _AI Hauntography_, Nicola Privato presentation at the first Confernce on AI Music Studies. Stockholm, December 2024. [info here](https://boblsturm.github.io/aimusicstudies2024/)
 - _Data Sonification of Environment_, Thor Magnusson and Miguel Crozzoli at EarthSonic Launch in Reykjavik. Part of Iceland Airwaves. [Info here](https://iil.is/news/earthsonic), November, 2024. 
 - _Sonifying the Arctic_, Miguel Crozzoli & Garrison Gerard talk at [ARCTIC CIRCLE](https://www.arcticcircle.org/), October 18th, 2024. 
 - _Intelligent Instruments in your Hands_, Thor Magnusson presented a keynote at the Porto Electronic Music Symposium, [PEMS 2024](https://casadamusica.com/pems-2024/), October, 2024.
@@ -212,6 +215,7 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 # Performances
 - _IIL x Spirits in Complexity_, Thor Magnusson and Nicola Privato, Victor Shepardson. 12 Tónar, Reykjavík, Iceland. August 2025. [[info](../news/spiritscomplexity)]
 - _Pikknikk_, Victor Shepardson. Nordic House, Reykjavík, Iceland. July 2025.
+- _Mouja_, Nicola Privato. Performance at InMuse 2025. Vilnius.
 - _S27_, Victor Shepardson. Hafnarhaus, Reykjavík, Iceland. 28 May 2025.
 - _Haunting in Fríkirkjan_, Victor Shepardson and Julie Zhu. Fríkirkjan, Reykjavík, Iceland. April 2025. [[video](https://www.youtube.com/watch?v=K-69ZwARreA)]
 - _Dark Sonification at Asbestos Ars Festival III_, Miguel Cozzoli & Gon Muruaga (Duende). Asbestos Art Space, Helsinki, Finland. [[info](https://www.asbestosartspace.com/single-post/5-6-10-asbestos-ars-festival-iii)]. 5 Oct 2024.
@@ -262,6 +266,7 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 
 # Installations and Exhibitions
 
+- _Feel the Sound_, Nicola Privato, Giacomo Lepri and Halldor Ulfarsson, Barbican Centre, [info](https://britishtextilebiennial.co.uk/programme/eva-sajovic-end_of_empire/) London, May to August 2025.
 - _Pond Brain_, Jenna Sutela with interactive sound by Victor Shepardson, Castello di Rivoli, 2025.
 - _Strengjavera II_, at the Nordic House, Reykjavik. [Strengjavera](https://aimc2023.pubpub.org/pub/83k6upv8/release/2), Jack Armitage, Magnetic Resonator Piano and ALife, AIMC 2023, Brighton, UK, Sep 2023.
 - _End of Empire_, Nicola Privato and Eva Sajovic present the installation at the British Textile Bienniale. [info](https://britishtextilebiennial.co.uk/programme/eva-sajovic-end_of_empire/), Manchester. Summer 2023.
@@ -285,6 +290,7 @@ Our Organium: Library of Technical Elements can be explored in an [online databa
 
 - Neural Audio Synthesis RAVE models - [https://huggingface.co/Intelligent-Instruments-Lab/rave-models](https://huggingface.co/Intelligent-Instruments-Lab/rave-models) 
 - iil-dev (includes iipyper, iml, Notochord, Tolvera, and more) - [https://github.com/Intelligent-Instruments-Lab/iil-dev](https://github.com/Intelligent-Instruments-Lab/iil-dev)
+- Stacco - [https://github.com/Intelligent-Instruments-Lab/Stacco](https://github.com/Intelligent-Instruments-Lab/Stacco)
 - flucoma-bela - [https://github.com/jarmitage/flucoma-bela](https://github.com/jarmitage/flucoma-bela)
 - sound-seed-automata - [https://github.com/victor-shepardson/sound-seed-automata](https://github.com/victor-shepardson/sound-seed-automata)
 - rave-supercollider - [https://github.com/victor-shepardson/rave-supercollider](https://github.com/victor-shepardson/rave-supercollider)
