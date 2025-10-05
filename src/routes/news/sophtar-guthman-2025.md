@@ -13,7 +13,7 @@ highlight_image: "news/sophtar-studio-crop.jpg"
   	import YouTube from "../../components/Video/EmbedYouTube.svelte"
 </script>
 
-The [Sophtar](https://iil.is/research/sophtar) has been selcted as one the ten finalists in this year's [Guthman Musical Instrument Competition](https://guthman.gatech.edu).
+The [Sophtar](https://iil.is/research/sophtar) has been selected as one the ten finalists in this year's [Guthman Musical Instrument Competition](https://guthman.gatech.edu).
 
 [Federico Visi](https://iil.is/people#federico-visi) and collaborator [Sukandar Kartadinata](https://www.glui.de/wp/) will bring the instrument to the Georgia Tech campus in Atlanta (US) to present it to [the competition's judges](https://guthman.gatech.edu/judges-2025) and participate in a public performance involving local Atlanta musicians.
 
