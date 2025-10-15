@@ -96,7 +96,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Hosted Conferences and Symposia
 
-- *Live Coding Self-Organising Systems* Workshop at CuteLab.NYC, New York, NY, USA. [info](https://cutelab.nyc/), September, 2023.
+- *Live Coding Self-Organising Systems* Workshop at CuteLab. New York, USA. [info](https://cutelab.nyc/), September, 2023.
 - *I Play the Textile Workshop* at Iceland University of the Arts. [info](https://iil.is/news/i-play-the-textile).
 - *Artificial Intelligence and Copyright* We co-organised a conference with STEF on copyright at the age of artificial intellgence. [[url](https://stef.is/frettir/timinn-lidur-hratt-a-gervigreindarold-malthing-um-gervigreind-og-hofundarett/)]. A video stream of the conference can be found [here](https://www.youtube.com/watch?v=J1wQffSFbn4&t=305s). September, 2023.
 - *Artificial Intelligence and Music Creativity* (August 2023). An international conference with papers, workshops, presentations and performances. Co-organised by Intelligent Instruments Lab and Experimental Music Technologies Lab (Sussex). [[url](https://aimc2023.pubpub.org)]
@@ -145,6 +145,7 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 
 # Presentations
 
+- _Stefnumót við gervigreind, Thor Magnusson on Critical AI Studies. September 2025. [info here](https://luma.com/ysvfpjeo?)
 - _Sintesis Neuronal, Nuevas Frontera en Diseno, Compositión e Interpretación Musical_, Nicola Privato presentation at University of Costa Rica. San José. July 2025. [info here](https://boblsturm.github.io/aimusicstudies2024/)
 - _Gervigreind og tónlist: hvað er að gerast?_, Thor Magnusson gives a public lecture for MEKO in Kopavogur's Culture House. April 2025. [info here](https://inmuse.lmta.lt/)
 - _AI Hauntology and the Hauntographic Method_, Nicola Privato presentation at InMuse 2025. Vilnius. [info here](https://boblsturm.github.io/aimusicstudies2024/)
