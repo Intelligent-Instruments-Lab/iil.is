@@ -85,6 +85,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Journal articles
 
+- _Of altered instrumental relations: a practice-led inquiry into agency through musical performance with neural audio synthesis and violin_ by Halla Steinunn Stefansdottir and Thor Magnusson in Frontiers of Computer Science vol 25. [[pdf](https://iil.is/pdf/2025_Frontiers_Stefansdottir.pdf)]
 - _AI and corporeal knowledge: inventing and performing with prostheses and sonic organs_ by Marco Donnarumma in Frontiers of Computer Science vol 25. [[pdf](https://iil.is/pdf/2025_Frontiers_Donnarumma.pdf)]
 - _Skapandi gervigreind: nokkur orð um sjálfvirka og meðvirka tækni_ by Thor Magnusson in Þræðir 10, 2025. [[url](https://www.lhi.is/thraedir/thraedir/skapandi-gervigreind/)]
 - _Hugsað með tækninni_, an interview with Thor Magnusson in *Hugur*, vol. 34. 2024. [[pdf](https://iil.is/pdf/2024_Hugur_Magnusson.pdf)]
