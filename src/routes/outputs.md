@@ -146,6 +146,7 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 
 # Presentations
 
+- _Tungnaá In Live Performance: An Implementation Of Interactive Artistic Text-To-Voice_, Victor Shepardson, Jonathan Reus, Thor Magnusson at Interspeech 2025 conference. [info here](https://www.isca-archive.org/interspeech_2025/shepardson25_interspeech.html)
 - _Stefnumót við gervigreind, Thor Magnusson on Critical AI Studies. September 2025. [info here](https://luma.com/ysvfpjeo?)
 - _Sintesis Neuronal, Nuevas Frontera en Diseno, Compositión e Interpretación Musical_, Nicola Privato presentation at University of Costa Rica. San José. July 2025. [info here](https://boblsturm.github.io/aimusicstudies2024/)
 - _Gervigreind og tónlist: hvað er að gerast?_, Thor Magnusson gives a public lecture for MEKO in Kopavogur's Culture House. April 2025. [info here](https://inmuse.lmta.lt/)
