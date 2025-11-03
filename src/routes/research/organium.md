@@ -4,7 +4,7 @@ title: "Organium"
 slug: "organium"
 description: "The iil library of technical elements."
 featured: true
-authors: ["Thor Magnusson", "Jack Armitage", "Halldor Ulfarsson", "Sean O'Brien", "Nicola Privato", "Victor Shepardson"]
+authors: ["Thor Magnusson", "Jack Armitage", "Halldor Ulfarsson", "Sean O'Brien", "Nicola Privato", "Victor Shepardson", "Stefanos Skialivas"]
 highlight_image: "research/projects/wall2.jpg"
 highlight_caption: "The Library of Technical Elements."
 ---

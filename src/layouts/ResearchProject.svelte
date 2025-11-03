@@ -30,7 +30,7 @@
       else {
         let s = ''
         for (var i = 0; i < authors.length; i++) {
-          if (i < authors.length-2)
+          if (i < authors.length-1)
             s = s + authors[i] + ', '
           else
             s = s + ' and ' + authors[i]

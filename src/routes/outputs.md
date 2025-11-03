@@ -186,6 +186,7 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 
 # Public Media
 
+- _tri-n-os_, an album by Anton Lambert & Thanos Polymeneas-Liontiris. [[Bandcamp](https://kohlhaas.bandcamp.com/album/tri-n-os)]
 - _Otolith_, an album by Florian Kolb & Thanos Polymeneas-Liontiris. [[Bandcamp](https://zappak.bandcamp.com/album/otolith)]
 - _Latent Imprints_, Liner Notes for a new album by Sveið, by Thor Magnusson. June 2025. [[html](https://www.federicoreuben.com/latent-imprints-thor)]
 - _Siðferði gervigreindar_, Thor Magnusson in conversation with Oddný Ævarsdóttir in Rauða borðið. April 2025. (Icelandic) [[url](https://www.youtube.com/watch?v=8OxE-Ev-EJY)]
@@ -233,6 +234,7 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 [[info](https://2024.xcoax.org/pdf/privato.pdf)]. 14 July 2024.
 - _Auto Eater Aether Theater_. Victor Shepardson and Gianluca Elia. R6013, Reykjavík, Iceland. July 2024.
 - _Basque-Icelandic Symposium_. Performances by Victor Shepardson, Thor Magnusson and Bergsveinn Birgisson. Djúpavík, Iceland. June 2024.
+- _MAZA_, Thanos Polymeneas -Liontiris, George Kokkinaris, MIZI (Georgios Mizithras). Subset Festival 2024 (Athens and Epidaurus Festival). Athens Conservatoire, Greece. [[info](https://aefestival.gr/festival_events/magda-lampropoulou-amp-dimitra-kousteridou-mizi-george-kokkinaris-thanos-polymeneas/?lang=en)] [[video](https://www.youtube.com/watch?v=a2QyYnJ4Jjc)]13 June 2024.
 - _Magnetologues_, Nicola Privato and Giacomo Lepri, Stacco, Neural Synthesis and Ambisonics, TENOR 2024, ZhDK Zurich, Swizerland. [[info](https://www.zhdk.ch/veranstaltung/53135)]. 6 Apr 2024.
 - _NeoArte: Synthesizer of Arts_, Thor Magnusson, Halla Steinnunn Stefánsdóttir, Jack Armitage, Miguel Cozzoli, Nicola Privato. Nordic House, Reykjavík. [[info](https://neoarte.pl/en/programme/)]. 23 Mar 2024.
 - _Mouja at IRCAM Forum_, Nicola Privato, Thales and Stacco, Neural Synthesis and Ambisonics, IRCAM, Paris, France.
