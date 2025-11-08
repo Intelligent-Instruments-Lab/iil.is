@@ -136,6 +136,7 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 - *HLCI Workshop*. Presentation by Victor Shepardson. 2022.
 - *Feedback Musicianship Network workshop.* Halldor Ulfarsson and Thor Magnusson. At Aalborg University. 2021.
 
+
 # Residencies
 
 - Residency “Queer Sonic Fingerprint”. The Hague. Adam Pulz Melbye. 2023.
@@ -144,8 +145,10 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 - Nyksund writing residency. Nyksund, Norway. Thor Magnusson. 2022.
 - On-the-fly residency. Barcelona. Jack Armitage. 2022.
 
+
 # Presentations
 
+- _Málstofa um gervigreind, Thor Magnusson with a talk on Creative AI and on a panel. November 6th, 2025. [info here](https://www.facebook.com/share/v/1Eex5R5GXN/)
 - _Tungnaá In Live Performance: An Implementation Of Interactive Artistic Text-To-Voice_, Victor Shepardson, Jonathan Reus, Thor Magnusson at Interspeech 2025 conference. [info here](https://www.isca-archive.org/interspeech_2025/shepardson25_interspeech.html)
 - _Stefnumót við gervigreind, Thor Magnusson on Critical AI Studies. September 2025. [info here](https://luma.com/ysvfpjeo?)
 - _Sintesis Neuronal, Nuevas Frontera en Diseno, Compositión e Interpretación Musical_, Nicola Privato presentation at University of Costa Rica. San José. July 2025. [info here](https://boblsturm.github.io/aimusicstudies2024/)
@@ -186,6 +189,8 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 
 # Public Media
 
+
+- _Gervigreind og sköpun_, Thor Magnusson in conversation with Björn Þorláksson in Samstöðin. November 2025. (Icelandic) [[url](https://www.youtube.com/watch?v=s3rFJh1VohU)]
 - _tri-n-os_, an album by Anton Lambert & Thanos Polymeneas-Liontiris. [[Bandcamp](https://kohlhaas.bandcamp.com/album/tri-n-os)]
 - _Otolith_, an album by Florian Kolb & Thanos Polymeneas-Liontiris. [[Bandcamp](https://zappak.bandcamp.com/album/otolith)]
 - _Latent Imprints_, Liner Notes for a new album by Sveið, by Thor Magnusson. June 2025. [[html](https://www.federicoreuben.com/latent-imprints-thor)]
