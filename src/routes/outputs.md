@@ -148,6 +148,7 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 
 # Presentations
 
+- _Making Sense - Having Sense: On Concepts and Perceptions of Creative AI_, Thor Magnusson. Online lecture for the Ulysses Platform. [info here](https://ulysses-platform.eu/news/ulysses-online-sessions/ulysses-online-thor-magnusson-0)
 - _Málstofa um gervigreind, Thor Magnusson with a talk on Creative AI and on a panel. November 6th, 2025. [info here](https://www.facebook.com/share/v/1Eex5R5GXN/)
 - _Tungnaá In Live Performance: An Implementation Of Interactive Artistic Text-To-Voice_, Victor Shepardson, Jonathan Reus, Thor Magnusson at Interspeech 2025 conference. [info here](https://www.isca-archive.org/interspeech_2025/shepardson25_interspeech.html)
 - _Stefnumót við gervigreind, Thor Magnusson on Critical AI Studies. September 2025. [info here](https://luma.com/ysvfpjeo?)
