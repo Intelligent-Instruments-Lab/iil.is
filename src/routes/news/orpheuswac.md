@@ -1,10 +1,10 @@
 ---
 layout: news
-date: "2024-11-16"
+date: "2024-11-15"
 slug: "conferences"
 title: "Orpheus Institute and WAC conferences"
 description: "Thor Magnusson keynote and paper presentation"
-featured: false
+featured: true
 ---
 
 <script>
@@ -15,7 +15,7 @@ import CaptionedImage from "../../components/Images/CaptionedImage.svelte"
 <CaptionedImage
 src="news/orpheus.png"
 alt="Orpheus banner"
-caption=""/>
+caption="Orpheus banner"/>
 
 ### Decentralised Creativity and Agential Systems in Music
 
