@@ -4,7 +4,7 @@ date: "2025-08-27"
 slug: "strengjavera-album"
 title: "Dr Jack Armitage releases Strengjavera album on Mengi Records"
 description: "Strengjavera was created during Jack's postdoc at IIL"
-featured: true
+featured: false
 highlight_image: "news/strengjavera_album.png"
 ---
 
