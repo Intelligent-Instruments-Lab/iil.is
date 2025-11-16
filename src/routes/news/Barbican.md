@@ -4,7 +4,7 @@ date: "2025-05-26"
 slug: "Feel the Sound"
 title: "Chowndolo and Stacco at the Barbican"
 description: "Our instruments Chowndolo and Stacco are part of the Barbican's immersive exhibition Feel the Sound. "
-featured: true
+featured: false
 highlight_image: "news/Stacco_Chowndolo.jpg"
 ---
 
