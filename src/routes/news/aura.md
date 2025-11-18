@@ -27,7 +27,7 @@ Recent findings appear in her article in Frontiers in Computer Science, co-autho
 
 Further information about the AURA programme can be found at the following links:
 
-[> AURA I - Thursday, November 20th](https://bit.ly/3LBx565)   
-[> AURA II - Thursday, November 17th](https://bit.ly/43y2sob)   
-[> AURA III - Thursday, December 4th](https://bit.ly/43xVqzG)   
+[> AURA I - Thursday, November 20th](https://www.facebook.com/events/816429148038427)   
+[> AURA II - Thursday, November 27th](https://www.facebook.com/events/1915088225887079)   
+[> AURA III - Thursday, December 4th](https://www.facebook.com/events/24972296029030434)   
 
