@@ -15,7 +15,7 @@ highlight_image: "news/aura.jpg"
 <CaptionedImage
     src="news/aura.jpg"
     alt="Halla Steinunn Stefánsdóttir performing in Hafnarhús"
-    caption="Halla Steinunn Stefánsdóttir performing in Hafnarhús"/>
+    caption="Halla Steinunn Stefánsdóttir performing in Hafnarhús. Photo taken by Hildur Inga Björnsdóttir."/>
 
 # AURA Consert series
 
