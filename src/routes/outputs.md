@@ -148,6 +148,8 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 
 # Presentations
 
+- _Thinking with Technology: Hacking, Making and Improvisation_, Thor Magnusson gave a keynote at the [WAC](https://wac-2025.ircam.fr/) conference at Ircam, Paris. November 19th, 2025.
+- _Agency and Synthetic Media: A New Musical Ontology of AI Music_, Thor Magnusson talk at the [Decentralised Creativity and Agential Systems in Music](https://orpheusinstituut.be/en/news-and-events/decentralised-creativity-conference) conference at Orpheus Instituut, Ghent, November 17th, 2025.
 - _Making Sense - Having Sense: On Concepts and Perceptions of Creative AI_, Thor Magnusson. Online lecture for the Ulysses Platform. [info here](https://ulysses-platform.eu/news/ulysses-online-sessions/ulysses-online-thor-magnusson-0)
 - _Málstofa um gervigreind, Thor Magnusson with a talk on Creative AI and on a panel. November 6th, 2025. [info here](https://www.facebook.com/share/v/1Eex5R5GXN/)
 - _Tungnaá In Live Performance: An Implementation Of Interactive Artistic Text-To-Voice_, Victor Shepardson, Jonathan Reus, Thor Magnusson at Interspeech 2025 conference. [info here](https://www.isca-archive.org/interspeech_2025/shepardson25_interspeech.html)
@@ -190,7 +192,7 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 
 # Public Media
 
-
+- _Sköpun skepnu sem skapar_, Thor Magnusson writes an article for Vísbending, issue 42, vol 43. [[pdf](http://iil.is/pdf/2025_Visbending_Magnusson.pdf)]
 - _Gervigreind og sköpun_, Thor Magnusson in conversation with Björn Þorláksson in Samstöðin. November 2025. (Icelandic) [[url](https://www.youtube.com/watch?v=s3rFJh1VohU)]
 - _tri-n-os_, an album by Anton Lambert & Thanos Polymeneas-Liontiris. [[Bandcamp](https://kohlhaas.bandcamp.com/album/tri-n-os)]
 - _Otolith_, an album by Florian Kolb & Thanos Polymeneas-Liontiris. [[Bandcamp](https://zappak.bandcamp.com/album/otolith)]
