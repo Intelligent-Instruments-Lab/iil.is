@@ -3,7 +3,7 @@ name: "Karl Jóhann Jóhannsson"
 type: "Associate"
 role: "Research Intern"
 email: "karljohann@gmail.com"
-image: "images/people/rike.png"
+image: "images/people/rike.jpg"
 links: {
   twitter: "karljohann",
   instagram: "karljohann"
