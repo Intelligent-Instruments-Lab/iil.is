@@ -230,12 +230,19 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 - Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
 
 # Performances
+- _Ambient November '25_ curated by Extreme Chill Festival. Árni Valur and Stefanos Skialivas. Space Odyssey, Reykjavik, Iceland. [[video](https://www.youtube.com/watch?v=QvaiJCdqXrU)]
+- _Another Ghost in the Imaginary Machine_, Stefanos Skialivas at RAFLOST festival 2025. Elliðaárstöð, Reykjavik, Iceland. [[info](https://www.raflost.is/stefanos-skialivas/)]. 15 November 2025.
 - _IIL x Spirits in Complexity_, Thor Magnusson and Nicola Privato, Victor Shepardson. 12 Tónar, Reykjavík, Iceland. August 2025. [[info](../news/spiritscomplexity)]
 - _Pikknikk_, Victor Shepardson. Nordic House, Reykjavík, Iceland. July 2025.
+- _Ambient July '25_ curated by Extreme Chill Festival, Stefanos Skialivas. Space Odyssey, Reykjavik, Iceland. [[video](https://youtu.be/C-bmoo1Sa3g?si=digk0BY4tAebr-Kb)] 26 July 2025.
 - _Techno-Utopia_, by Robert Laidlow. Nicola Privato and Bictor Shepardson collaborated with composer Robert Laidlow for his piece Techon-Utopia, featuring Stacco and AI models trained on the archives of the BBC Orchestra. The piece was and performed by soloist Zubin Kanga and the BBC Orchestra in London, UK. July 2025. Recording to be released.
 - _Mouja_, Nicola Privato. Performance at InMuse 2025. Vilnius.
 - _S27_, Victor Shepardson. Hafnarhaus, Reykjavík, Iceland. 28 May 2025.
+- _MEMLNauts_, Tom Manoury, Chris Kiefer, Betty Arcosi, Andrea Martelloni, Thor Magnusson, Stefanos Skialivas. Mengi, Reykjavik, Iceland. [[info](https://iil.is/news/MEMLNauts)] 24 May 2025.
 - _Haunting in Fríkirkjan_, Victor Shepardson and Julie Zhu. Fríkirkjan, Reykjavík, Iceland. April 2025. [[video](https://www.youtube.com/watch?v=K-69ZwARreA)]
+- _S27_, Stefanos Skialivas. Hafnarhaus, Reykjavík, Iceland. 26 February 2025. [[video](https://www.youtube.com/watch?v=DkKa9fNa5Uw)]
+- _Ambient December '24_ curated by Extreme Chill Festival, Stefanos Skialivas and Nicola Privato. Space Odyssey, Reykjavik, Iceland.
+[[video](https://youtu.be/PePOh8T8cug?si=vgJwHSxZf0YZmYLh)]. 12 December 2024.
 - _Dark Sonification at Asbestos Ars Festival III_, Miguel Cozzoli & Gon Muruaga (Duende). Asbestos Art Space, Helsinki, Finland. [[info](https://www.asbestosartspace.com/single-post/5-6-10-asbestos-ars-festival-iii)]. 5 Oct 2024.
 - _ii lab at Erkitid_, Erkitid. Listasafn Reykjavikur. [[info](https://www.erkitid.is/program2023)]. November 2024.
 - _Morse Code at Loftskeytastöðin_, Victor Shepardson, Robin Morabito, Miguel Crozzoli and Stefanos Skialivas. Reykjavík, Iceland. 1 November 2024. [[info](https://www.facebook.com/events/1069580927751064?ref=newsfeed)]
