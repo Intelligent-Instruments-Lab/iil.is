@@ -24,6 +24,7 @@ Intelligent Instruments Lab outputs organised under the following categories:
 # Conference Papers
 
 ## 2025 <!-- omit in toc -->
+- _AI ReadsFluxus: Text Scores, Language Games, and the Art of Being Literal_. Nicola Privato and Thor Magnusson. *Proc. of TENOR 2025, International Conference on Technologies for Music Notation and Representation.([TENOR 2025](https://zhuanti.ccom.edu.cn/tenorbjen/info/1523/1201.htm))*, Beijing, China. [[pdf](http://iil.is/pdf/2025_tenor_privato.pdf)]
 - _Dark Sonification: an Entangled Post-Interaction Multimodal Data Display System_. Miguel Angel Crozzoli. *Proc. of Aarhus ’25 Doctoral Consortium (Aarhus ’25 Doctoral Consortium) ([Aarhus 2025](https://aarhus2025.org/))*, Aarhus, Denmark.  [[pdf](http://iil.is/pdf/2025_Aarhus25_DarkSonification_Crozzoli.pdf)]
 - _Evolving the Living Looper: Artistic Research, Online Learning, and Tentacle Pendula_. Victor Shepardson, Halla Steinunn Stefánsdóttir, and Thor Magnusson. *Proc. International Conference on New Interfaces for Musical Expression ([NIME 2025](https://nime2025.org/))*, Canberra, Australia. [[pdf](../pdf/2025_nime_evolving_the_living_looper.pdf)]
 - _dit dah delta token: Statistical Models of Music and Language Interfering via Morse Code_. Victor Shepardson and Thor Magnusson. *Proc. International Computer Music Conference. ([ICMC 2025](https://icmc2025.sites.northeastern.edu/))*, Boston, USA. [[pdf](../pdf/2025_icmc_dit_dah_delta_token.pdf)]
@@ -85,6 +86,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Journal articles
 
+- _The Open Work and AI: Co-creation and Haunting in Text Scores and Inherent Scores_ by Nicola Privato and Thor Magnusson in Organised Sound, 2025. [publishing in Process]
 - _Of altered instrumental relations: a practice-led inquiry into agency through musical performance with neural audio synthesis and violin_ by Halla Steinunn Stefansdottir and Thor Magnusson in Frontiers of Computer Science vol 25. [[pdf](https://iil.is/pdf/2025_Frontiers_Stefansdottir.pdf)]
 - _AI and corporeal knowledge: inventing and performing with prostheses and sonic organs_ by Marco Donnarumma in Frontiers of Computer Science vol 25. [[pdf](https://iil.is/pdf/2025_Frontiers_Donnarumma.pdf)]
 - _Skapandi gervigreind: nokkur orð um sjálfvirka og meðvirka tækni_ by Thor Magnusson in Þræðir 10, 2025. [[url](https://www.lhi.is/thraedir/thraedir/skapandi-gervigreind/)]
@@ -109,6 +111,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 # Workshops organised by Intelligent Instruments
 
 We have a dedicated [workshop page](https://iil.is/workshops) that describes our workshops in a bit more detail.
+- *Hauntography, a Hauntology-Inspired Framework to Create and Think Through Spectrality*. Nicola Privato and Thomas Pausz, IIL, University of Iceland. January, 2025.
 - *Embodied Sketching for Neural Synthesis*. Giacomo Lepri, Nicola Privato and Thor Magnusson, TENOR 2024, ZhDK (Switzerland) [info](https://audiomostly.com/2024/program/). September, 2024.
 - *Embedded Sketching for Neural Synthesis*. Nicola Privato and Giacomo Lepri, TENOR 2024, ZhDK (Switzerland) [info](https://www.zhdk.ch/veranstaltung/53135). April, 2024.
 - *Tolvera presentation* at Hybrid Live Coding Interfaces symposium [info](https://hybrid-livecode.pubpub.org/workshop2023). December, 2023.
@@ -229,6 +232,7 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 # Performances
 - _IIL x Spirits in Complexity_, Thor Magnusson and Nicola Privato, Victor Shepardson. 12 Tónar, Reykjavík, Iceland. August 2025. [[info](../news/spiritscomplexity)]
 - _Pikknikk_, Victor Shepardson. Nordic House, Reykjavík, Iceland. July 2025.
+- _Techno-Utopia_, by Robert Laidlow. Nicola Privato and Bictor Shepardson collaborated with composer Robert Laidlow for his piece Techon-Utopia, featuring Stacco and AI models trained on the archives of the BBC Orchestra. The piece was and performed by soloist Zubin Kanga and the BBC Orchestra in London, UK. July 2025. Recording to be released.
 - _Mouja_, Nicola Privato. Performance at InMuse 2025. Vilnius.
 - _S27_, Victor Shepardson. Hafnarhaus, Reykjavík, Iceland. 28 May 2025.
 - _Haunting in Fríkirkjan_, Victor Shepardson and Julie Zhu. Fríkirkjan, Reykjavík, Iceland. April 2025. [[video](https://www.youtube.com/watch?v=K-69ZwARreA)]

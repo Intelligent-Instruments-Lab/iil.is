@@ -26,6 +26,19 @@ If you like what you see here below, you might suggest a workshop at your instit
 
 #  :::::::: Past Workshops  ::::::::
 
+# Hauntography, a Hauntology-Inspired Framework to Create and Think Through Spectrality
+
+### 7 January 2026, with students from the London Architectural Association, at Intelligent Instruments Lab, University of Iceland.
+
+Nicola Privato introduces and discusses the framework to analyse and create with spectral phenomena that he developed during his PhD research on music AI. Thomas Pausz discusses his artistic practice focused on hauntology theory and reflect on it through this lens. The students are then invited to apply the framework to reflect on their own work.
+
+<CaptionedImage
+    src="workshops/Haunted_ecologies.jpg"
+    alt="Thomas Pausz Exhibition Haunted Ecologies."
+    caption="Thomas Pausz Exhibition Haunted Ecologies."/>
+
+
+
 # Voice AI and Creative Misuse with Tungnaa Demonstration
 
 ### 27 May 2025, Goethe Institut Portugal (Online)
