@@ -24,8 +24,10 @@ Intelligent Instruments Lab outputs organised under the following categories:
 # Conference Papers
 
 ## 2025 <!-- omit in toc -->
-- _AI ReadsFluxus: Text Scores, Language Games, and the Art of Being Literal_. Nicola Privato and Thor Magnusson. *Proc. of TENOR 2025, International Conference on Technologies for Music Notation and Representation.([TENOR 2025](https://zhuanti.ccom.edu.cn/tenorbjen/info/1523/1201.htm))*, Beijing, China. [[pdf](http://iil.is/pdf/2025_tenor_privato.pdf)]
+- _Interactive Artistic Text-To-Voice: Tungnaá and Bla Blavatar vs Jaap Blonk_. Victor Shepardson, Jonathan Reus, and Thor Magnusson. *Neural Information Processing Systems Creative AI Track ([NeurIPS 2025](https://neurips.cc/Conferences/2025/CallForCreativeAI))*, San Diego, USA. [[pdf](https://openreview.net/pdf?id=nap90xgOW6)]
+- _AI ReadsFluxus: Text Scores, Language Games, and the Art of Being Literal_. Nicola Privato and Thor Magnusson. *Proc. of TENOR 2025, International Conference on Technologies for Music Notation and Representation ([TENOR 2025](https://zhuanti.ccom.edu.cn/tenorbjen/info/1523/1201.htm))*, Beijing, China. [[pdf](http://iil.is/pdf/2025_tenor_privato.pdf)]
 - _Dark Sonification: an Entangled Post-Interaction Multimodal Data Display System_. Miguel Angel Crozzoli. *Proc. of Aarhus ’25 Doctoral Consortium (Aarhus ’25 Doctoral Consortium) ([Aarhus 2025](https://aarhus2025.org/))*, Aarhus, Denmark.  [[pdf](http://iil.is/pdf/2025_Aarhus25_DarkSonification_Crozzoli.pdf)]
+- _Tungnaá in Live Performance: An Implementation of Interactive Artistic Text-To-Voice_. Victor Shepardson, Jonathan Reus, and Thor Magnusson. *Proc. ([INTERSPEECH](https://interspeech2025.org))*, Rotterdam, Netherlands. [[pdf](https://www.isca-archive.org/interspeech_2025/shepardson25_interspeech.pdf)]
 - _Evolving the Living Looper: Artistic Research, Online Learning, and Tentacle Pendula_. Victor Shepardson, Halla Steinunn Stefánsdóttir, and Thor Magnusson. *Proc. International Conference on New Interfaces for Musical Expression ([NIME 2025](https://nime2025.org/))*, Canberra, Australia. [[pdf](../pdf/2025_nime_evolving_the_living_looper.pdf)]
 - _dit dah delta token: Statistical Models of Music and Language Interfering via Morse Code_. Victor Shepardson and Thor Magnusson. *Proc. International Computer Music Conference. ([ICMC 2025](https://icmc2025.sites.northeastern.edu/))*, Boston, USA. [[pdf](../pdf/2025_icmc_dit_dah_delta_token.pdf)]
 - _Notochord Homunculus: a Playground for Deep Generative MIDI_. Victor Shepardson and Thor Magnusson. *Proc. International Computer Music Conference. ([ICMC 2025](https://icmc2025.sites.northeastern.edu/))*, Boston, USA. [[pdf](../pdf/2025_icmc_notochord_homunculus.pdf)]
@@ -112,6 +114,8 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 We have a dedicated [workshop page](https://iil.is/workshops) that describes our workshops in a bit more detail.
 - *Hauntography, a Hauntology-Inspired Framework to Create and Think Through Spectrality*. Nicola Privato and Thomas Pausz, IIL, University of Iceland. January, 2025.
+- *Voice AI and Creative Misuse with Tungnaa Demonstration*. Jonathan Reus and Victor Shepardson. Goethe Institut Portugal (online), 27 May 2025. [info](https://www.goethe.de/ins/pt/en/kul/sup/web/pws.html)
+- *OFUR-ORGEL / HYPER-ORGAN*. Áki Ásgeirsson and Victor Shepardson. University of Iceland and Fríkirkjan í Reykjavík. April 2025. [[info](https://iil.is/news/hyper-organ)]
 - *Embodied Sketching for Neural Synthesis*. Giacomo Lepri, Nicola Privato and Thor Magnusson, TENOR 2024, ZhDK (Switzerland) [info](https://audiomostly.com/2024/program/). September, 2024.
 - *Embedded Sketching for Neural Synthesis*. Nicola Privato and Giacomo Lepri, TENOR 2024, ZhDK (Switzerland) [info](https://www.zhdk.ch/veranstaltung/53135). April, 2024.
 - *Tolvera presentation* at Hybrid Live Coding Interfaces symposium [info](https://hybrid-livecode.pubpub.org/workshop2023). December, 2023.
@@ -153,8 +157,9 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 
 - _Thinking with Technology: Hacking, Making and Improvisation_, Thor Magnusson gave a keynote at the [WAC](https://wac-2025.ircam.fr/) conference at Ircam, Paris. November 19th, 2025.
 - _Agency and Synthetic Media: A New Musical Ontology of AI Music_, Thor Magnusson talk at the [Decentralised Creativity and Agential Systems in Music](https://orpheusinstituut.be/en/news-and-events/decentralised-creativity-conference) conference at Orpheus Instituut, Ghent, November 17th, 2025.
+- _Knitting Noise with No-Input Textiles_, Victor Shepardson and Sophie Skach at [Most Wanted:Music Hybrid Music Lab](https://mwm-berlin.de/hybrid-music-lab/). Berlin, Germany, November 12th 2025.
 - _Making Sense - Having Sense: On Concepts and Perceptions of Creative AI_, Thor Magnusson. Online lecture for the Ulysses Platform. [info here](https://ulysses-platform.eu/news/ulysses-online-sessions/ulysses-online-thor-magnusson-0)
-- _Málstofa um gervigreind, Thor Magnusson with a talk on Creative AI and on a panel. November 6th, 2025. [info here](https://www.facebook.com/share/v/1Eex5R5GXN/)
+- _Málstofa um gervigreind_, Thor Magnusson with a talk on Creative AI and on a panel. November 6th, 2025. [info here](https://www.facebook.com/share/v/1Eex5R5GXN/)
 - _Tungnaá In Live Performance: An Implementation Of Interactive Artistic Text-To-Voice_, Victor Shepardson, Jonathan Reus, Thor Magnusson at Interspeech 2025 conference. [info here](https://www.isca-archive.org/interspeech_2025/shepardson25_interspeech.html)
 - _Stefnumót við gervigreind, Thor Magnusson on Critical AI Studies. September 2025. [info here](https://luma.com/ysvfpjeo?)
 - _Sintesis Neuronal, Nuevas Frontera en Diseno, Compositión e Interpretación Musical_, Nicola Privato presentation at University of Costa Rica. San José. July 2025. [info here](https://boblsturm.github.io/aimusicstudies2024/)
@@ -232,6 +237,7 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 # Performances
 - _Ambient November '25_ curated by Extreme Chill Festival. Árni Valur and Stefanos Skialivas. Space Odyssey, Reykjavik, Iceland. [[video](https://www.youtube.com/watch?v=QvaiJCdqXrU)]
 - _Another Ghost in the Imaginary Machine_, Stefanos Skialivas at RAFLOST festival 2025. Elliðaárstöð, Reykjavik, Iceland. [[info](https://www.raflost.is/stefanos-skialivas/)]. 15 November 2025.
+- _Kárahátíð 1.4 x No Borders: Falconfest_, Victor Shepardson. Lemmy, Reykjavík, Iceland. October 2025. [[info](https://www.facebook.com/events/769640492599217/)]
 - _IIL x Spirits in Complexity_, Thor Magnusson and Nicola Privato, Victor Shepardson. 12 Tónar, Reykjavík, Iceland. August 2025. [[info](../news/spiritscomplexity)]
 - _Pikknikk_, Victor Shepardson. Nordic House, Reykjavík, Iceland. July 2025.
 - _Ambient July '25_ curated by Extreme Chill Festival, Stefanos Skialivas. Space Odyssey, Reykjavik, Iceland. [[video](https://youtu.be/C-bmoo1Sa3g?si=digk0BY4tAebr-Kb)] 26 July 2025.

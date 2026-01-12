@@ -47,6 +47,12 @@ Nicola Privato introduces and discusses the framework to analyse and create with
 
 Archived as part of the Goethe Institut [Art Meets Tech](https://www.goethe.de/ins/pt/en/kul/sup/web/pws.html) series.
 
+# OFUR-ORGEL / HYPER-ORGAN, Fríkirkjan í Reykajvík, April 2025.
+
+Áki Ásgeirsson and Victor Shepardson lead a workshop and concert using the MIDI controlled organ in Fríkirkjan. With Alexandros Drymonitis, Tómas Manoury, gamut inc, Einar Torfi Einarsson and Julie Zhu.
+
+[[info](https://iil.is/news/hyper-organ)]
+
 # Tölvera Tutorial at NordCHI 2024, Uppsala, Sweden
 
 [Jack Armitage](/people#jack-armitage) will be giving a half-day tutorial on [Tölvera](/research/tolvera) titled "Tölvera: Interactive Self-Organising Systems for HCI Research & Artistic Practice" at [NordiCHI 2024](https://www.nordichi2024.se/), on Monday 14th October, in Uppsala, Sweden.
