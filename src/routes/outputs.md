@@ -17,7 +17,7 @@ Intelligent Instruments Lab outputs organised under the following categories:
 - [Presentations](#presentations)
 - [Public Media](#public-media)
 - [Performances](#performances)
-- [Exhibitions](#exhibitions)
+- [Installations and Exhibitions](#installations-and-exhibitions)
 - [Consultancies](#consultancies)
 - [Open Source](#open-source)
 
