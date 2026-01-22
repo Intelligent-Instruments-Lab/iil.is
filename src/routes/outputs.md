@@ -237,6 +237,9 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 - Like a Bees Hive [[url](https://jungereporter.eu/bees-hive-intelligent-instruments-lab/)]
 
 # Performances
+
+- _AURA I._ Halla Steinunn Stefánsdóttir and Davíð Brynjar Franzson with Nordic Affect at Reykjavík Arts Museum, November 20, 2025
+- _AURA II._ Halla Steinunn Stefánsdóttir with Robert Ek at Reykjavík Arts Museum, November 27, 2025
 - _Ambient November '25_ curated by Extreme Chill Festival. Árni Valur and Stefanos Skialivas. Space Odyssey, Reykjavik, Iceland. [[video](https://www.youtube.com/watch?v=QvaiJCdqXrU)]
 - _Another Ghost in the Imaginary Machine_, Stefanos Skialivas at RAFLOST festival 2025. Elliðaárstöð, Reykjavik, Iceland. [[info](https://www.raflost.is/stefanos-skialivas/)]. 15 November 2025.
 - _Kárahátíð 1.4 x No Borders: Falconfest_, Victor Shepardson. Lemmy, Reykjavík, Iceland. October 2025. [[info](https://www.facebook.com/events/769640492599217/)]
