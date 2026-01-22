@@ -299,6 +299,7 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 
 # Installations and Exhibitions
 
+- _“Of the mysterious voices of shells”_, Halla Steinunn Stefánsdóttir with _"shellspeakers"_ designed by Halldór Úlfarsson, Nature Museum, Kópavogur, November, 2025. [url](https://fb.watch/EC4RJd-Cmw/)
 - _Feel the Sound_, Nicola Privato, Giacomo Lepri and Halldor Ulfarsson, Barbican Centre, [info](https://britishtextilebiennial.co.uk/programme/eva-sajovic-end_of_empire/) London, May to August 2025.
 - _Pond Brain_, Jenna Sutela with interactive sound by Victor Shepardson, Castello di Rivoli, 2025.
 - _Strengjavera II_, at the Nordic House, Reykjavik. [Strengjavera](https://aimc2023.pubpub.org/pub/83k6upv8/release/2), Jack Armitage, Magnetic Resonator Piano and ALife, AIMC 2023, Brighton, UK, Sep 2023.
