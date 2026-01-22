@@ -247,6 +247,7 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 - _Pikknikk_, Victor Shepardson. Nordic House, Reykjavík, Iceland. July 2025.
 - _Ambient July '25_ curated by Extreme Chill Festival, Stefanos Skialivas. Space Odyssey, Reykjavik, Iceland. [[video](https://youtu.be/C-bmoo1Sa3g?si=digk0BY4tAebr-Kb)] 26 July 2025.
 - _Techno-Utopia_, by Robert Laidlow. Nicola Privato and Victor Shepardson collaborated with composer Robert Laidlow for his piece Techon-Utopia, featuring Stacco and AI models trained on the archives of the BBC Orchestra. The piece was and performed by soloist Zubin Kanga and the BBC Orchestra in London, UK. July 2025. Recording to be released.
+- _Pikknikk,_ Halla Steinunn Stefánsdóttir. Nordic House, Reykjavík, Iceland. July 6, 2025.
 - _Sonic Picnic:_ Halla Steinunn Stefánsdóttir. In-Discourse, Lokstallarna, Malmö, Sweden. June 13, 2025.
 - _Mouja_, Nicola Privato. Performance at InMuse 2025. Vilnius.
 - _S27_, Victor Shepardson. Hafnarhaus, Reykjavík, Iceland. 28 May 2025.
