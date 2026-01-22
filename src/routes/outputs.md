@@ -88,6 +88,7 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Journal articles
 
+- _Navigating an Urban Archive: an exploration of wave field synthesis as soundscape composition_ by Halla Steinunn Stefánsdóttir and Davíð Brynjar Franzson, 2025. [[article](https://www.cambridge.org/core/journals/organised-sound/article/abs/navigating-an-urban-archive-an-exploration-of-wavefield-synthesis-as-soundscape-composition/C59C7786C01771FD309FF40BD4EA78E2 )]
 - _The Open Work and AI: Co-creation and Haunting in Text Scores and Inherent Scores_ by Nicola Privato and Thor Magnusson in Organised Sound, 2025. [publishing in Process]
 - _Of altered instrumental relations: a practice-led inquiry into agency through musical performance with neural audio synthesis and violin_ by Halla Steinunn Stefansdottir and Thor Magnusson in Frontiers of Computer Science vol 25. [[pdf](https://iil.is/pdf/2025_Frontiers_Stefansdottir.pdf)]
 - _AI and corporeal knowledge: inventing and performing with prostheses and sonic organs_ by Marco Donnarumma in Frontiers of Computer Science vol 25. [[pdf](https://iil.is/pdf/2025_Frontiers_Donnarumma.pdf)]
