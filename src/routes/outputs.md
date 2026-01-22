@@ -201,6 +201,7 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 
 # Public Media
 
+- _“Of the mysterious voices of shells”_, Halla Steinunn Stefánsdóttir introduces the installation, and Halldór Úlfarsson shellspeaker design, interview in Víðsjá, The Icelandic National Broadcasting Service, November 2025. Interview starts at 32:40 [[url](https://www.ruv.is/utvarp/spila/vidsja/23618/b725m2?fbclid=IwY2xjawPTOgtleHRuA2FlbQIxMABicmlkETFkdVJMVzB2VzVNU05yaEhHc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsp6KwyLVP4Y_2dhf7ZGA-wzaxlkyK-zcR0pn2_qh56dBJ8Esq4Ji0GZQHzs_aem_gp9BJjyH3ax81SpZMwdOrQ )]
 - _Sköpun skepnu sem skapar_, Thor Magnusson writes an article for Vísbending, issue 42, vol 43. [[pdf](http://iil.is/pdf/2025_Visbending_Magnusson.pdf)]
 - _Gervigreind og sköpun_, Thor Magnusson in conversation with Björn Þorláksson in Samstöðin. November 2025. (Icelandic) [[url](https://www.youtube.com/watch?v=s3rFJh1VohU)]
 - _tri-n-os_, an album by Anton Lambert & Thanos Polymeneas-Liontiris. [[Bandcamp](https://kohlhaas.bandcamp.com/album/tri-n-os)]
