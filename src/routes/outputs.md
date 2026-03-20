@@ -88,8 +88,9 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Journal articles
 
-- _Navigating an Urban Archive: an exploration of wave field synthesis as soundscape composition_ by Halla Steinunn Stefánsdóttir and Davíð Brynjar Franzson, 2025. [[article](https://www.cambridge.org/core/journals/organised-sound/article/abs/navigating-an-urban-archive-an-exploration-of-wavefield-synthesis-as-soundscape-composition/C59C7786C01771FD309FF40BD4EA78E2 )]
-- _The Open Work and AI: Co-creation and Haunting in Text Scores and Inherent Scores_ by Nicola Privato and Thor Magnusson in Organised Sound, 2025. [publishing in Process]
+- _The data-driven voice-body in performance: AI voices as materials, mediators, and gifts_, by Jonathan Reus in Frontiers of Computer Science. vol 8. 2026. [[article](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1686763/full)]
+- _Navigating an Urban Archive: an exploration of wave field synthesis as soundscape composition_ by Halla Steinunn Stefánsdóttir and Davíð Brynjar Franzson, in Organised Sound, 2025. [[article](https://www.cambridge.org/core/journals/organised-sound/article/abs/navigating-an-urban-archive-an-exploration-of-wavefield-synthesis-as-soundscape-composition/C59C7786C01771FD309FF40BD4EA78E2 )]
+- _The Open Work and AI: Co-creation and Haunting in Text Scores and Inherent Scores_ by Nicola Privato and Thor Magnusson in Organised Sound, 2025. [[article](https://www.cambridge.org/core/journals/organised-sound/article/abs/open-work-and-ai-cocreation-and-haunting-in-text-scores-and-inherent-scores/EFB1A826C2C80AB47AA286261E50BAB0)]
 - _Of altered instrumental relations: a practice-led inquiry into agency through musical performance with neural audio synthesis and violin_ by Halla Steinunn Stefansdottir and Thor Magnusson in Frontiers of Computer Science vol 25. [[pdf](https://iil.is/pdf/2025_Frontiers_Stefansdottir.pdf)]
 - _AI and corporeal knowledge: inventing and performing with prostheses and sonic organs_ by Marco Donnarumma in Frontiers of Computer Science vol 25. [[pdf](https://iil.is/pdf/2025_Frontiers_Donnarumma.pdf)]
 - _Skapandi gervigreind: nokkur orð um sjálfvirka og meðvirka tækni_ by Thor Magnusson in Þræðir 10, 2025. [[url](https://www.lhi.is/thraedir/thraedir/skapandi-gervigreind/)]
