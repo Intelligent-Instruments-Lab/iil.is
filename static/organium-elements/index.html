@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Organium Elements</title>
+<meta name="description" content="A catalogue of components, sensors, actuators, and techniques for Organium—an experimental instrument system." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Jost:wght@400&display=swap" />
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<a class="skip" href="#elements">Skip to elements</a>
+
+<header class="site-hero">
+  <div class="site-hero__inner">
+    <a class="site-hero__brand" href="https://iil.is" target="_blank" rel="noopener">
+      Intelligent Instruments Lab
+    </a>
+    <h1>Organium Elements</h1>
+    <p class="lead">
+      A practical, scientific catalogue of parts, modules, and techniques used across the Organium ecosystem.
+      Organium is designed at the <a href="https://iil.is" target="_blank">Intelligent Instruments Lab</a> —
+      read the <a href="https://iil.is/pdf/2024_audiomostly_organium.pdf" target="_blank">research paper</a>.
+      Search below, then open an element to see notes, wiring, and media.
+    </p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="search-row" role="search">
+    <label class="search" aria-label="Search elements">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" stroke="currentColor" stroke-width="1.6"/>
+        <path d="M16.6 16.6 21 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      <input id="q" type="search" placeholder="Search by name (e.g., &quot;solenoid&quot;, &quot;accelerometer&quot;, &quot;amp&quot;)&hellip;" autocomplete="off" />
+    </label>
+
+    <div class="stats" aria-live="polite">
+      <span class="pill"><b id="count">0</b> available</span>
+      <span class="pill">Total: <b id="total">0</b></span>
+      <span class="pill">Tip: type <b>DC</b>, <b>IR</b>, <b>ESP</b>&hellip;</span>
+      <div class="view-toggle" role="group" aria-label="View mode">
+        <span class="view-label">View</span>
+        <button class="view-btn view-btn--list" id="viewList" aria-label="List view" title="List view">
+          <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <rect x="2" y="4" width="4" height="4" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M9 6h9M9 14h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <rect x="2" y="12" width="4" height="4" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </button>
+        <button class="view-btn view-btn--thumb active" id="viewThumb" aria-label="Thumbnail view" title="Thumbnail view">
+          <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <rect x="2" y="2" width="7" height="7" stroke="currentColor" stroke-width="1.5"/>
+            <rect x="11" y="2" width="7" height="7" stroke="currentColor" stroke-width="1.5"/>
+            <rect x="2" y="11" width="7" height="7" stroke="currentColor" stroke-width="1.5"/>
+            <rect x="11" y="11" width="7" height="7" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="filter-row" id="filterRow"></div>
+
+  <main id="elements">
+    <div class="grid" id="grid"></div>
+
+    <div class="empty" id="empty">
+      No matches. Try a shorter query, or different keywords (e.g., "sensor", "motor", "driver", "wire").
+    </div>
+  </main>
+
+  <footer>
+    <div class="kicker" id="buildDate"><span class="dot" aria-hidden="true"></span> Organium archive</div>
+  </footer>
+</div>
+
+<script src="assets/elements.js?v=1774095730"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

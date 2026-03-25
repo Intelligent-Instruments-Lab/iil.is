@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% block title %}Components{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Components <span class="count">{{ components|length }}</span></h1>
+  <a href="/component/new" class="btn btn--primary">+ New component</a>
+</div>
+
+<details class="quickstart">
+  <summary>Quickstart guide</summary>
+  <div class="quickstart__body">
+    <img src="/assets/img/quickstart.svg?v=4" alt="Quickstart guide" style="width:100%; max-width:860px; display:block; margin: 0 auto 20px; border: 1px solid var(--border);"/>
+    <div class="quickstart__grid">
+
+      <div class="qs-step">
+        <div class="qs-step__num">1</div>
+        <div>
+          <div class="qs-step__title">First-time setup</div>
+          <p>Double-click <strong>Setup.command</strong> in the project folder. It installs dependencies and connects your GitHub repository.</p>
+        </div>
+      </div>
+
+      <div class="qs-step">
+        <div class="qs-step__num">2</div>
+        <div>
+          <div class="qs-step__title">Add a component</div>
+          <p>Click <strong>+ New component</strong> above. Fill in the title, type, status, and any metadata. Write notes in the content editor using Markdown.</p>
+        </div>
+      </div>
+
+      <div class="qs-step">
+        <div class="qs-step__num">3</div>
+        <div>
+          <div class="qs-step__title">Upload images</div>
+          <p>Open a component and scroll to the <strong>Images</strong> section. Upload any photo or diagram — click a thumbnail to insert it into the content.</p>
+        </div>
+      </div>
+
+      <div class="qs-step">
+        <div class="qs-step__num">4</div>
+        <div>
+          <div class="qs-step__title">Control visibility</div>
+          <p>Use the <strong>👁 / 🚫</strong> toggle on each row to show or hide a component on the public site without deleting it.</p>
+        </div>
+      </div>
+
+      <div class="qs-step">
+        <div class="qs-step__num">5</div>
+        <div>
+          <div class="qs-step__title">Preview locally</div>
+          <p>Run <code>npm run dev</code> in the project folder to open the public site at <strong>localhost:8080</strong>. Use <strong>↻ Rebuild</strong> to refresh after edits.</p>
+        </div>
+      </div>
+
+      <div class="qs-step">
+        <div class="qs-step__num">6</div>
+        <div>
+          <div class="qs-step__title">Publish to GitHub Pages</div>
+          <p>Click <strong>↑ Publish</strong> in the top bar. This rebuilds the site and pushes it to GitHub. Your site will be live within a minute.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+<div class="list">
+  {% for c in components %}
+  <div class="list-row {% if not c.published %}list-row--hidden{% endif %}">
+    <a href="/component/{{ c.filename }}" class="list-row__name">{{ c.title }}</a>
+    <div class="list-row__right">
+      {% if c.type %}
+        {% for t in c.type.split(',') %}
+          <span class="tag">{{ t.strip() }}</span>
+        {% endfor %}
+      {% endif %}
+      {% if c.status %}
+        <span class="status status--{{ c.status|lower|replace(' ', '-') }}">{{ c.status }}</span>
+      {% endif %}
+      <form method="post" action="/component/{{ c.filename }}/toggle-publish" style="margin:0">
+        <button type="submit" class="btn btn--sm {% if c.published %}btn--ghost{% else %}btn--secondary{% endif %}"
+                title="{{ 'Available — click to hide' if c.published else 'Hidden — click to make available' }}">
+          {{ '👁' if c.published else '🚫' }}
+        </button>
+      </form>
+    </div>
+  </div>
+  {% else %}
+  <div class="list-row" style="color: var(--muted)">No components yet.</div>
+  {% endfor %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<style>
+  .list-row--hidden .list-row__name { opacity: 0.4; }
+</style>
+{% endblock %}

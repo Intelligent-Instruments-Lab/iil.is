@@ -1,0 +1,225 @@
+{% extends "base.html" %}
+{% block title %}{{ component.title if component else 'New component' }}{% endblock %}
+
+{% block content %}
+{% set c = component %}
+{% set filename = c.filename if c else '' %}
+
+<form method="post" id="edit-form"
+      action="{{ '/component/' + filename if c else '/component/new' }}">
+
+  <div class="page-header">
+    <a href="/" class="btn btn--ghost">← Back</a>
+    <div class="nav__actions">
+      <button type="submit" class="btn btn--primary">Save</button>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <div class="field" style="margin-bottom: 20px">
+    <input class="title-input" type="text" name="title"
+           placeholder="Component name"
+           value="{{ c.title if c else '' }}" required/>
+  </div>
+
+  <div class="edit-layout">
+
+    <!-- Left: body editor -->
+    <div>
+      <div class="card">
+        <div class="card__title">Content</div>
+        <textarea id="body-editor" name="body">{{ c.body if c else '' }}</textarea>
+      </div>
+
+      {% if not is_new %}
+      <!-- Image upload -->
+      <div class="card" style="margin-top:16px">
+        <div class="card__title">Images</div>
+        <div style="display:flex; gap:8px; align-items:center; margin-bottom:10px">
+          <input type="file" id="img-file" accept="image/*" style="flex:1; font-size:13px"/>
+          <button type="button" class="btn btn--secondary btn--sm" id="img-upload-btn">Upload</button>
+        </div>
+        {% if c.images %}
+        <div class="img-grid">
+          {% for img in c.images %}
+          <div class="img-thumb">
+            <img src="/assets/img/{{ img }}"
+                 title="{{ img }}"
+                 onclick="insertImage('{{ img }}')" />
+            <div class="img-thumb__name">{{ img }}</div>
+            <form method="post"
+                  action="{{ url_for('delete_image', filename=c.filename, image=img) }}"
+                  onsubmit="return confirm('Delete {{ img }}?')"
+                  style="margin:0">
+              <button type="submit" class="btn btn--danger btn--sm" style="width:100%; margin-top:4px">Delete</button>
+            </form>
+          </div>
+          {% endfor %}
+        </div>
+        {% else %}
+        <p style="font-size:13px; color:var(--muted)">No images yet. Upload one above.</p>
+        {% endif %}
+        <p style="font-size:11px; color:var(--muted); margin-top:8px">
+          Click an image to insert it at the cursor position in the editor.
+        </p>
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- Right: metadata + actions -->
+    <div>
+      <div class="card">
+        <div class="card__title">Properties</div>
+
+        <div class="field">
+          <label>Type <span style="font-weight:400;color:var(--muted)">(Cmd/Ctrl+click for multiple)</span></label>
+          <select name="Type" id="type-select" multiple size="5">
+            {% for t in all_types %}
+            <option value="{{ t }}" {% if t in current_types %}selected{% endif %}>{{ t }}</option>
+            {% endfor %}
+            {% for t in extra_types %}
+            <option value="{{ t }}" selected>{{ t }}</option>
+            {% endfor %}
+          </select>
+          <div style="display:flex; gap:6px; margin-top:6px">
+            <input type="text" id="new-type-input" placeholder="Add custom type…"
+                   style="flex:1; font-size:12px; padding:5px 8px"/>
+            <button type="button" class="btn btn--secondary btn--sm" id="add-type-btn">Add</button>
+          </div>
+        </div>
+        <div class="field">
+          <label>Status</label>
+          <select name="Status">
+            {% for opt in ['Done', 'In progress', 'Not started'] %}
+            <option value="{{ opt }}"
+              {{ 'selected' if c and c.meta.Status == opt else '' }}>{{ opt }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="field">
+          <label>Senses</label>
+          <input type="text" name="Senses"
+                 value="{{ c.meta.Senses if c and c.meta.Senses else '' }}"/>
+        </div>
+        <div class="field">
+          <label>Actuates</label>
+          <input type="text" name="Actuates"
+                 value="{{ c.meta.Actuates if c and c.meta.Actuates else '' }}"/>
+        </div>
+        <div class="field">
+          <label>Connection</label>
+          <input type="text" name="Connection"
+                 value="{{ c.meta.Connection if c and c.meta.Connection else '' }}"/>
+        </div>
+        <div class="field">
+          <label>Voltage</label>
+          <input type="text" name="Voltage"
+                 value="{{ c.meta.Voltage if c and c.meta.Voltage else '' }}"/>
+        </div>
+        <div class="field">
+          <label>Panel</label>
+          <input type="text" name="Panel"
+                 value="{{ c.meta.Panel if c and c.meta.Panel else '' }}"/>
+        </div>
+        <div class="field">
+          <label>Added</label>
+          <input type="text" name="Added"
+                 value="{{ c.meta.Added if c and c.meta.Added else '' }}"
+                 {{ 'readonly style=color:var(--muted)' if c else '' }}/>
+        </div>
+        <div class="field" style="display:flex; align-items:center; gap:10px; padding-top:6px">
+          <label style="margin:0; cursor:pointer">
+            {% set published = (c.meta.Published if c and c.meta.get('Published') else 'Yes') %}
+            <input type="checkbox" name="Published" value="Yes"
+                   {{ 'checked' if published != 'No' else '' }}
+                   style="width:auto; margin-right:6px"/>
+            Available on public site
+          </label>
+        </div>
+      </div>
+
+      {% if not is_new %}
+      <div class="card danger-zone" style="margin-top:16px">
+        <div class="card__title">Danger zone</div>
+        <form method="post" action="/component/{{ filename }}/delete"
+              onsubmit="return confirm('Delete {{ c.title }}? This cannot be undone.')">
+          <button type="submit" class="btn btn--danger" style="width:100%">Delete component</button>
+        </form>
+      </div>
+      {% endif %}
+    </div>
+
+  </div>
+</form>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// ── Markdown editor ────────────────────────────────────────────────────────
+const editor = new EasyMDE({
+  element: document.getElementById('body-editor'),
+  spellChecker: false,
+  autofocus: false,
+  toolbar: ['bold','italic','heading','|','quote','unordered-list','ordered-list',
+            '|','link','image','|','preview','side-by-side','fullscreen','|','guide'],
+  minHeight: '420px',
+  status: false,
+});
+
+// ── Insert image at cursor ─────────────────────────────────────────────────
+function insertImage(filename) {
+  const md = '![](' + filename + ')';
+  const cm = editor.codemirror;
+  const pos = cm.getCursor();
+  cm.replaceRange('\n' + md + '\n', pos);
+  cm.focus();
+}
+
+// ── Add custom type ────────────────────────────────────────────────────────
+document.getElementById('add-type-btn').addEventListener('click', function () {
+  const input = document.getElementById('new-type-input');
+  const val = input.value.trim();
+  if (!val) return;
+
+  const select = document.getElementById('type-select');
+  for (const opt of select.options) {
+    if (opt.value.toLowerCase() === val.toLowerCase()) {
+      opt.selected = true;
+      input.value = '';
+      return;
+    }
+  }
+
+  const opt = document.createElement('option');
+  opt.value = val;
+  opt.textContent = val;
+  opt.selected = true;
+  select.appendChild(opt);
+  input.value = '';
+});
+
+document.getElementById('new-type-input').addEventListener('keydown', function (e) {
+  if (e.key === 'Enter') { e.preventDefault(); document.getElementById('add-type-btn').click(); }
+});
+
+// ── Image upload ───────────────────────────────────────────────────────────
+{% if not is_new %}
+document.getElementById('img-upload-btn').addEventListener('click', function () {
+  const file = document.getElementById('img-file').files[0];
+  if (!file) return;
+  const form = new FormData();
+  form.append('image', file);
+  fetch('{{ url_for("upload_image", filename=component.filename) }}', { method: 'POST', body: form })
+    .then(r => r.json())
+    .then(data => {
+      if (data.error) { alert(data.error); return; }
+      // Insert markdown at cursor and reload to show thumbnail
+      const cm = editor.codemirror;
+      cm.replaceRange('\n' + data.markdown + '\n', cm.getCursor());
+      cm.focus();
+      location.reload();
+    });
+});
+{% endif %}
+</script>
+{% endblock %}

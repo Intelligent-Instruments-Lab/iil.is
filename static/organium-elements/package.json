@@ -1,0 +1,10 @@
+{
+  "name": "organium-elements",
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "pip3 install -r requirements.txt",
+    "dev": "npx live-server --port=8080 --open='index.html'",
+    "start": "npx serve . --port 8080",
+    "admin": "python3 admin.py"
+  }
+}

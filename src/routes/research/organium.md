@@ -21,7 +21,7 @@ We have built this system with the aim of doing quick experiments where we invit
 
 The Organium has a theoretical underpinning in Magnusson's <a href="https://www.tandfonline.com/doi/full/10.1080/09298215.2017.1353636">Musical Organics article</a> (Open Access).
 
-The Organium Database can be explored [here](/research/organiumdb)
+The Organium Elements catalog can be explored [here](/organium-elements/)
 
 <CaptionedImage
   src="research/projects/wall.jpg"

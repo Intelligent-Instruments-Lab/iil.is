@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (https://fritzing.org/) -->
+
+<svg
+   width="8.28875in"
+   height="1.23874in"
+   y="0in"
+   x="0in"
+   viewBox="0 0 596.79 89.189"
+   version="1.2"
+   id="svg211"
+   sodipodi:docname="flex_bb.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs215" />
+  <sodipodi:namedview
+     id="namedview213"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="in"
+     showgrid="false"
+     inkscape:zoom="1.5193787"
+     inkscape:cx="519.2912"
+     inkscape:cy="53.969427"
+     inkscape:window-width="1309"
+     inkscape:window-height="456"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg211" />
+  <g
+     partID="60010"
+     id="g96">
+    <g
+       transform="translate(102.993,0)"
+       id="g94">
+      <g
+         id="breadboard">
+        <rect
+           width="480"
+           fill="#8D3A2A"
+           height="24.666"
+           y="-1.001"
+           x="13.797"
+           id="rect27" />
+        <rect
+           width="417"
+           fill="#292725"
+           height="16"
+           y="6.66499"
+           x="53.727"
+           id="rect29" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.95099"
+           x="446.831"
+           id="rect31" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.95099"
+           x="428.449"
+           id="rect33" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.95199"
+           x="410.068"
+           id="rect35" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94999"
+           x="391.686"
+           id="rect37" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94899"
+           x="373.304"
+           id="rect39" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.95099"
+           x="354.923"
+           id="rect41" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.95099"
+           x="336.542"
+           id="rect43" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94899"
+           x="318.16"
+           id="rect45" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94899"
+           x="299.779"
+           id="rect47" />
+        <rect
+           width="15.668"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94899"
+           x="281.396"
+           id="rect49" />
+        <rect
+           width="15.666"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94999"
+           x="263.016"
+           id="rect51" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94799"
+           x="244.634"
+           id="rect53" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94699"
+           x="226.252"
+           id="rect55" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94899"
+           x="207.871"
+           id="rect57" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94899"
+           x="189.489"
+           id="rect59" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94899"
+           x="171.107"
+           id="rect61" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94899"
+           x="152.726"
+           id="rect63" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94899"
+           x="134.344"
+           id="rect65" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94999"
+           x="115.963"
+           id="rect67" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94799"
+           x="97.582"
+           id="rect69" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94699"
+           x="79.2"
+           id="rect71" />
+        <rect
+           width="15.667"
+           fill="#DBD9C3"
+           height="13.667"
+           y="6.94799"
+           x="60.823"
+           id="rect73" />
+        <rect
+           width="4.834"
+           fill="#DBD9C3"
+           height="13.667"
+           y="8.82999"
+           x="471.391"
+           id="rect75" />
+        <path
+           fill="#DBD9C3"
+           d="M469.478,8.96399l1.907,-0.011l1.029,0.012l-0.045,-1.225l-3.855,-5.84799L39.529,-0.0829999c0,0,-2.616,1.687,-3.246,2.026c-1.108,-0.129,-5.507,0.019,-6.912,-0.043c-0.041,1.054,-0.062,7.28099,-0.063,7.04999c0.609,0.041,7.646,-0.0619999,7.646,-0.0619999s2.664,-4.084,2.663,-4.084l427.767,0.023L469.478,8.96399z"
+           id="path77" />
+        <rect
+           width="6"
+           fill="#DBD9C3"
+           height="13.333"
+           y="6.66299"
+           x="47.395"
+           id="rect79" />
+        <rect
+           width="8.458"
+           fill="#DBD9C3"
+           height="2"
+           y="14.83"
+           x="38.936"
+           id="rect81" />
+        <rect
+           width="10"
+           fill="#DBD9C3"
+           height="7.31199"
+           y="10.848"
+           x="29.349"
+           id="rect83" />
+        <g
+           width="1.743"
+           id="connector0terminal"
+           fill="#8C8C8C"
+           height="1.815"
+           y="13.527"
+           x="0.007" />
+        <g
+           width="1.743"
+           id="connector1terminal"
+           fill="#8C8C8C"
+           height="1.815"
+           y="6.32999"
+           x="0.007" />
+        <rect
+           width="7.874"
+           id="connector0pin"
+           fill="#8C8C8C"
+           height="1.815"
+           y="13.527" />
+        <rect
+           width="7.874"
+           id="connector1pin"
+           fill="#8C8C8C"
+           height="1.815"
+           y="6.32999" />
+        <rect
+           width="22.004"
+           id="rect6"
+           fill="#8C8C8C"
+           height="1.815"
+           y="6.32099"
+           x="0.071" />
+        <rect
+           width="22.004"
+           id="rect8"
+           fill="#8C8C8C"
+           height="1.814"
+           y="13.52"
+           x="0.071" />
+        <polygon
+           points="11.784,9.74999,10.277,8.13599,10.277,6.32199,11.784,4.71,30.146,4.71,30.146,9.74999"
+           id="polygon23"
+           fill="#8C8C8C" />
+        <polygon
+           points="11.796,16.948,10.277,15.333,10.277,13.521,11.796,11.909,30.312,11.909,30.312,16.948"
+           id="polygon25"
+           fill="#8C8C8C" />
+      </g>
+    </g>
+  </g>
+  <g
+     partID="81240"
+     id="g103">
+    <g
+       transform="translate(4.01722,56.7871)"
+       id="g101">
+      <g
+         id="g99">
+        <text
+           font-size="7.2"
+           id="label"
+           font-family="Droid Sans"
+           stroke-width="0"
+           fill="#787878"
+           text-anchor="middle"
+           xml:space="preserve"
+           y="6.48"
+           x="36">ground (-)</text>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="81530"
+     id="g111">
+    <g
+       transform="translate(17.6163,8.05219)"
+       id="g109">
+      <g
+         id="g107">
+        <text
+           font-size="7.2"
+           id="text105"
+           font-family="Droid Sans"
+           stroke-width="0"
+           fill="#787878"
+           text-anchor="middle"
+           xml:space="preserve"
+           y="6.48"
+           x="14.4">ring</text>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="82280"
+     id="g119">
+    <g
+       transform="translate(58.8013,18.7558)"
+       id="g117">
+      <g
+         id="g115">
+        <text
+           font-size="7.2"
+           id="text113"
+           font-family="Droid Sans"
+           stroke-width="0"
+           fill="#787878"
+           text-anchor="middle"
+           xml:space="preserve"
+           y="6.48"
+           x="21.6">tip(+)</text>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="855125880"
+     id="g173">
+    <g
+       transform="translate(64.8992,42.7455)"
+       id="g171">
+      <g
+         transform="matrix(-1,0,0,-1,0,0)"
+         id="g169">
+        <g
+           id="g167"
+           gorn="0.2">
+          <g
+             id="icon"
+             gorn="0.2.0">
+            <polygon
+               points="39.918,6.52,39.918,6.52,39.918,14.794,39.918,14.794,39.918,16.691,44.19,16.691,44.19,4.617,39.918,4.617"
+               fill="#2B2B2B"
+               id="polygon121" />
+            <polygon
+               points="39.918,14.52,39.918,14.794,39.918,14.794,39.918,16.26,44.19,16.26,44.19,14.52"
+               fill="#292929"
+               id="polygon123" />
+            <polygon
+               points="39.918,7.09301,39.918,6.485,39.918,6.485,39.918,5.014,44.19,5.014,44.19,7.09301"
+               fill="#292929"
+               id="polygon125" />
+            <rect
+               width="4.25"
+               fill="#333333"
+               height="3.208"
+               y="8.48501"
+               x="39.918"
+               id="rect127" />
+            <rect
+               width="4.25"
+               fill="#383838"
+               height="1.763"
+               y="9.40801"
+               x="39.918"
+               id="rect129" />
+            <rect
+               width="4.271"
+               fill="#212121"
+               height="0.436"
+               y="16.259"
+               x="39.918"
+               id="rect131" />
+            <rect
+               width="4.271"
+               fill="#212121"
+               height="0.396"
+               y="4.619"
+               x="39.918"
+               id="rect133" />
+            <rect
+               width="1.883"
+               fill="#A1A1A1"
+               height="12.07"
+               y="4.619"
+               x="44.172"
+               id="rect135" />
+            <rect
+               width="1.883"
+               fill="#ABABAB"
+               height="7.42901"
+               y="7.09101"
+               x="44.172"
+               id="rect137" />
+            <rect
+               width="1.883"
+               fill="#C7C7C7"
+               height="3.208"
+               y="8.48501"
+               x="44.172"
+               id="rect139" />
+            <rect
+               width="1.883"
+               fill="#E6E6E6"
+               height="1.763"
+               y="9.40801"
+               x="44.172"
+               id="rect141" />
+            <rect
+               width="1.883"
+               fill="#737373"
+               height="0.396"
+               y="4.619"
+               x="44.172"
+               id="rect143" />
+            <rect
+               width="1.883"
+               fill="#737373"
+               height="0.396"
+               y="16.277"
+               x="44.172"
+               id="rect145" />
+            <g
+               id="g151">
+              <g
+                 id="g149">
+                <rect
+                   width="40.318"
+                   fill="#333333"
+                   height="21.601"
+                   y="0"
+                   x="0"
+                   id="rect147" />
+              </g>
+            </g>
+            <rect
+               width="5.189"
+               height="2.527"
+               y="0"
+               x="23.233"
+               id="rect153" />
+            <rect
+               width="5.189"
+               height="2.528"
+               y="19.001"
+               x="23.233"
+               id="rect155" />
+            <rect
+               width="5.189"
+               id="connector2pad"
+               gorn="0.2.0.16"
+               fill="#C7C7C7"
+               height="0.835001"
+               y="0"
+               x="23.233" />
+            <rect
+               width="5.191"
+               height="2.527"
+               y="0"
+               x="8.832"
+               id="rect158" />
+            <rect
+               width="5.191"
+               id="connector3pad"
+               gorn="0.2.0.18"
+               fill="#C7C7C7"
+               height="0.835001"
+               y="0"
+               x="8.832" />
+            <rect
+               width="5.189"
+               id="connector1pad"
+               gorn="0.2.0.19"
+               fill="#C7C7C7"
+               height="0.836001"
+               y="20.693"
+               x="23.233" />
+            <rect
+               width="5.191"
+               height="2.528"
+               y="19.001"
+               x="8.832"
+               id="rect162" />
+            <rect
+               width="5.191"
+               id="connector4pad"
+               gorn="0.2.0.21"
+               fill="#C7C7C7"
+               height="0.836001"
+               y="20.693"
+               x="8.832" />
+            <rect
+               width="5.191"
+               id="connector0pad"
+               gorn="0.2.0.22"
+               fill="#C7C7C7"
+               height="0.836001"
+               y="20.693"
+               x="8.832" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="855127160"
+     id="g179">
+    <line
+       stroke="#8c0000"
+       y2="14.4345"
+       x1="53.5196"
+       stroke-width="3.2"
+       stroke-linecap="round"
+       y1="14.5152"
+       x2="103.872"
+       id="line175" />
+    <line
+       stroke="#cc1414"
+       y2="14.4345"
+       x1="53.5196"
+       stroke-width="1.6"
+       stroke-linecap="round"
+       y1="14.5152"
+       x2="103.872"
+       id="line177" />
+  </g>
+  <g
+     partID="855127170"
+     id="g185">
+    <line
+       stroke="#8c0000"
+       y2="14.5152"
+       x1="53.4717"
+       stroke-width="3.2"
+       stroke-linecap="round"
+       y1="21.6345"
+       x2="53.5196"
+       id="line181" />
+    <line
+       stroke="#cc1414"
+       y2="14.5152"
+       x1="53.4717"
+       stroke-width="1.6"
+       stroke-linecap="round"
+       y1="21.6345"
+       x2="53.5196"
+       id="line183" />
+  </g>
+  <g
+     partID="855128630"
+     id="g191">
+    <line
+       stroke="#000000"
+       y2="7.22251"
+       x1="3.20026"
+       stroke-width="3.2"
+       stroke-linecap="round"
+       y1="50.2492"
+       x2="3.20026"
+       id="line187" />
+    <line
+       stroke="#404040"
+       y2="7.22251"
+       x1="3.20026"
+       stroke-width="1.6"
+       stroke-linecap="round"
+       y1="50.2492"
+       x2="3.20026"
+       id="line189" />
+  </g>
+  <g
+     partID="855128560"
+     id="g197">
+    <line
+       stroke="#000000"
+       y2="7.23749"
+       x1="3.20026"
+       stroke-width="3.2"
+       stroke-linecap="round"
+       y1="7.22251"
+       x2="103.872"
+       id="line193" />
+    <line
+       stroke="#404040"
+       y2="7.23749"
+       x1="3.20026"
+       stroke-width="1.6"
+       stroke-linecap="round"
+       y1="7.22251"
+       x2="103.872"
+       id="line195" />
+  </g>
+  <g
+     partID="855128450"
+     id="g203">
+    <line
+       stroke="#000000"
+       y2="50.2492"
+       x1="53.4717"
+       stroke-width="3.2"
+       stroke-linecap="round"
+       y1="42.328"
+       x2="53.5196"
+       id="line199" />
+    <line
+       stroke="#404040"
+       y2="50.2492"
+       x1="53.4717"
+       stroke-width="1.6"
+       stroke-linecap="round"
+       y1="42.328"
+       x2="53.5196"
+       id="line201" />
+  </g>
+  <g
+     partID="855128700"
+     id="g209">
+    <line
+       stroke="#000000"
+       y2="50.2492"
+       x1="53.5196"
+       stroke-width="3.2"
+       stroke-linecap="round"
+       y1="50.2492"
+       x2="3.20026"
+       id="line205" />
+    <line
+       stroke="#404040"
+       y2="50.2492"
+       x1="53.5196"
+       stroke-width="1.6"
+       stroke-linecap="round"
+       y1="50.2492"
+       x2="3.20026"
+       id="line207" />
+  </g>
+</svg>

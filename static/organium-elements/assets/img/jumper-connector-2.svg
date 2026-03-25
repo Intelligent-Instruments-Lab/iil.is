@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (https://fritzing.org/) -->
+
+<svg
+   width="1.51128in"
+   height="0.76649in"
+   y="0in"
+   x="0in"
+   viewBox="0 0 108.812 55.1873"
+   version="1.2"
+   id="svg3186"
+   sodipodi:docname="jumper_schem.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3190" />
+  <sodipodi:namedview
+     id="namedview3188"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="in"
+     showgrid="false"
+     inkscape:zoom="3.2072609"
+     inkscape:cx="77.636341"
+     inkscape:cy="36.791519"
+     inkscape:window-width="1309"
+     inkscape:window-height="456"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3186" />
+  <g
+     partID="855139530"
+     id="g3111">
+    <g
+       transform="translate(0.704121,6.32727)"
+       id="g3109">
+      <g
+         id="schematic"
+         gorn="0.1">
+        <polyline
+           stroke="#000000"
+           points="18.107,10.969,21.707,7.36799,25.311,10.969"
+           fill="none"
+           stroke-width="0.7"
+           stroke-linecap="round"
+           id="polyline3054" />
+        <polyline
+           stroke="#000000"
+           points="25.311,3.768,11.674,3.768,8.074,7.36799,4.476,3.768"
+           fill="none"
+           stroke-width="0.7"
+           stroke-linecap="round"
+           id="polyline3056" />
+        <line
+           stroke="#000000"
+           y2="10.969"
+           x1="25.311"
+           fill="none"
+           stroke-width="0.7"
+           stroke-linecap="round"
+           y1="10.969"
+           x2="25.311"
+           id="line3058" />
+        <polyline
+           stroke="#000000"
+           points="14.507,18.166,18.107,14.568,21.707,18.166,25.311,18.166"
+           fill="none"
+           stroke-width="0.7"
+           stroke-linecap="round"
+           id="polyline3060" />
+        <polyline
+           stroke="#000000"
+           points="10.908,25.367,14.507,21.768,18.105,25.367,25.311,25.367"
+           fill="none"
+           stroke-width="0.7"
+           stroke-linecap="round"
+           id="polyline3062" />
+        <rect
+           width="3.709"
+           height="22.116"
+           y="3.529"
+           id="rect3064" />
+        <line
+           stroke="#787878"
+           y2="3.768"
+           id="connector0pin"
+           x1="32.508"
+           gorn="0.1.6"
+           fill="none"
+           stroke-width="0.7"
+           stroke-linecap="round"
+           y1="3.768"
+           x2="25.309" />
+        <g
+           id="connector0terminal"
+           gorn="0.1.7"
+           fill="none"
+           d="M32.508,3.768L32.508,3.768L32.508,3.768z" />
+        <line
+           stroke="#787878"
+           y2="25.367"
+           id="connector1pin"
+           x1="32.508"
+           gorn="0.1.8"
+           fill="none"
+           stroke-width="0.7"
+           stroke-linecap="round"
+           y1="25.367"
+           x2="25.309" />
+        <g
+           id="connector1terminal"
+           gorn="0.1.9"
+           fill="none"
+           d="M32.508,25.367L32.508,25.367L32.508,25.367z" />
+        <line
+           stroke="#000000"
+           y2="10.969"
+           id="connector2pin"
+           x1="32.508"
+           gorn="0.1.10"
+           fill="none"
+           stroke-width="0.7"
+           stroke-linecap="round"
+           y1="10.969"
+           x2="25.311" />
+        <g
+           id="connector2terminal"
+           gorn="0.1.11"
+           fill="none"
+           d="M32.508,10.969L32.508,10.969L32.508,10.969z" />
+        <g
+           transform="matrix(1, 0, 0, 1, 25.6758, 2.5945)"
+           id="g3078">
+          <g
+             id="g3076">
+            <g
+               id="g3074">
+              <text
+                 font-size="2"
+                 font-family="'Droid Sans'"
+                 id="text3072">Sleeve</text>
+            </g>
+          </g>
+        </g>
+        <g
+           transform="matrix(1, 0, 0, 1, 26.3877, 24.2371)"
+           id="g3086">
+          <g
+             id="g3084">
+            <g
+               id="g3082">
+              <text
+                 font-size="2"
+                 font-family="'Droid Sans'"
+                 id="text3080">Ring2</text>
+            </g>
+          </g>
+        </g>
+        <g
+           transform="matrix(1, 0, 0, 1, 26.3877, 17.0115)"
+           id="g3094">
+          <g
+             id="g3092">
+            <g
+               id="g3090">
+              <text
+                 font-size="2"
+                 font-family="'Droid Sans'"
+                 id="text3088">Ring1</text>
+            </g>
+          </g>
+        </g>
+        <g
+           transform="matrix(1, 0, 0, 1, 28.6729, 9.67749)"
+           id="g3102">
+          <g
+             id="g3100">
+            <g
+               id="g3098">
+              <text
+                 font-size="2"
+                 font-family="'Droid Sans'"
+                 id="text3096">Tip</text>
+            </g>
+          </g>
+        </g>
+        <line
+           stroke="#787878"
+           y2="10.969"
+           id="connector3pin"
+           x1="32.508"
+           gorn="0.1.16"
+           fill="none"
+           stroke-width="0.7"
+           stroke-linecap="round"
+           y1="10.969"
+           x2="25.309" />
+        <g
+           id="connector3terminal"
+           gorn="0.1.17"
+           fill="none"
+           d="M32.508,10.969L32.508,10.969L32.508,10.969z" />
+        <line
+           stroke="#787878"
+           y2="18.166"
+           id="connector4pin"
+           x1="32.508"
+           gorn="0.1.18"
+           fill="none"
+           stroke-width="0.7"
+           stroke-linecap="round"
+           y1="18.166"
+           x2="25.309" />
+        <g
+           id="connector4terminal"
+           gorn="0.1.19"
+           fill="none"
+           d="M32.508,18.166L32.508,18.166L32.508,18.166z" />
+      </g>
+    </g>
+  </g>
+  <g
+     partID="855140640"
+     id="g3125">
+    <g
+       transform="translate(86.9462,20.8927)"
+       id="g3123">
+      <g
+         transform="matrix(-1,0,0,1,0,0)"
+         id="g3121">
+        <g
+           id="g3119">
+          <rect
+             stroke="none"
+             width="3.6"
+             id="rect3113"
+             height="7.2"
+             fill="none"
+             stroke-width="0"
+             y="0"
+             x="17.7228" />
+          <g
+             stroke="none"
+             width="0.0072"
+             id="g3115"
+             height="0.0072"
+             fill="none"
+             stroke-width="0"
+             y="3.6"
+             x="21.33" />
+          <polygon
+             stroke="#000000"
+             points="21.21,3.6,17.73,0.12,0.12,0.12,0.12,7.08,17.73,7.08"
+             fill="white"
+             stroke-width="0.24"
+             id="polygon3117" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="855140780"
+     id="g3140">
+    <g
+       transform="translate(94.4121,16.8198)"
+       id="g3138">
+      <g
+         transform="matrix(0,-1,1,0,0,0)"
+         id="g3136">
+        <g
+           id="g3134">
+          <path
+             stroke="#787878"
+             id="path3127"
+             fill="none"
+             stroke-width="0.75"
+             stroke-linecap="round"
+             d="M7.201,7.575l0,-7.2" />
+          <g
+             width="0.945"
+             id="g3129"
+             fill="none"
+             height="0.953"
+             y="0"
+             x="6.728" />
+          <path
+             stroke="#000000"
+             id="path4098"
+             fill="none"
+             stroke-width="0.9"
+             stroke-linecap="round"
+             d="M0.5,7.711L13.9,7.711" />
+          <path
+             stroke="#000000"
+             id="path4100"
+             fill="none"
+             stroke-width="0.9"
+             stroke-linecap="round"
+             d="M2.732,10.456l8.935,0" />
+          <path
+             stroke="#000000"
+             id="path4102"
+             fill="none"
+             stroke-width="0.9"
+             stroke-linecap="round"
+             d="M9.431,13.175L4.967,13.175" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="855140860"
+     id="g3154">
+    <g
+       transform="translate(59.2528,13.6927)"
+       id="g3152">
+      <g
+         transform="matrix(-1,0,0,1,0,0)"
+         id="g3150">
+        <g
+           id="g3148">
+          <rect
+             stroke="none"
+             width="3.6"
+             id="rect3142"
+             height="7.2"
+             fill="none"
+             stroke-width="0"
+             y="0"
+             x="16.8322" />
+          <g
+             stroke="none"
+             width="0.0072"
+             id="g3144"
+             height="0.0072"
+             fill="none"
+             stroke-width="0"
+             y="3.6"
+             x="20.4394" />
+          <polygon
+             stroke="#000000"
+             points="20.3194,3.6,16.8394,0.12,0.12,0.12,0.12,7.08,16.8394,7.08"
+             fill="white"
+             stroke-width="0.24"
+             id="polygon3146" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="855140641"
+     id="g3160">
+    <g
+       transform="translate(65.6162,20.8927)"
+       id="g3158">
+      <g
+         id="schematicText">
+        <text
+           font-size="4.8"
+           id="label"
+           font-family="Droid Sans"
+           fill="#000000"
+           y="5.28"
+           x="0.48">analog IO</text>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="855140861"
+     id="g3168">
+    <g
+       transform="translate(38.8134,13.6927)"
+       id="g3166">
+      <g
+         id="g3164">
+        <text
+           font-size="4.8"
+           id="text3162"
+           font-family="Droid Sans"
+           fill="#000000"
+           y="5.28"
+           x="0.48">+ Voltage</text>
+      </g>
+    </g>
+  </g>
+  <g
+     partID="855140670"
+     id="g3172">
+    <line
+       stroke="#404040"
+       y2="24.4933"
+       x1="65.6126"
+       stroke-width="0.699998"
+       stroke-linecap="round"
+       y1="24.4963"
+       x2="29.6126"
+       id="line3170" />
+  </g>
+  <g
+     partID="855140810"
+     id="g3176">
+    <line
+       stroke="#404040"
+       y2="10.0953"
+       x1="94.8886"
+       stroke-width="0.699998"
+       stroke-linecap="round"
+       y1="9.61926"
+       x2="29.6126"
+       id="line3174" />
+  </g>
+  <g
+     partID="855140890"
+     id="g3180">
+    <line
+       stroke="#404040"
+       y2="17.2963"
+       x1="38.8098"
+       stroke-width="0.699998"
+       stroke-linecap="round"
+       y1="17.2963"
+       x2="29.6136"
+       id="line3178" />
+  </g>
+  <g
+     id="partLabel"
+     partID="855139530">
+    <g
+       stroke="none"
+       font-size="5"
+       font-style="normal"
+       id="schematicLabel"
+       font-family="'DroidSans'"
+       fill="#000000"
+       font-weight="normal"
+       fill-opacity="1">
+      <text
+         y="3.75"
+         x="0"
+         id="text3182">mini jack (female)</text>
+    </g>
+  </g>
+</svg>

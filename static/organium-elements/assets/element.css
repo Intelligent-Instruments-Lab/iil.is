@@ -1,0 +1,218 @@
+/* IIL aesthetic overrides for element detail pages */
+:root {
+  --bg:      rgb(156, 181, 176);
+  --bg-dark: rgb(55, 66, 63);
+  --surface: rgb(94, 109, 106);
+  --ink:     #2f3635;
+  --muted:   rgba(47, 54, 53, .55);
+  --accent:  rgb(255, 237, 0);
+  --line:    rgba(255,255,255,.12);
+}
+
+/* ── Base ──────────────────────────────────────────────────────────────── */
+
+html, body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Override notion.css light-theme page colours */
+.page.sans {
+  background: var(--bg);
+  color: var(--ink);
+}
+
+/* ── Back nav ───────────────────────────────────────────────────────────── */
+
+.back-nav {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 24px 0;
+  font-size: 11px;
+  letter-spacing: .10em;
+  text-transform: uppercase;
+}
+
+.back-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color .1s;
+}
+
+.back-nav a:hover {
+  color: var(--accent);
+}
+
+/* ── Page content ───────────────────────────────────────────────────────── */
+
+.page-title {
+  color: var(--ink) !important;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-size: 2.2em;
+}
+
+.page-description {
+  color: var(--muted) !important;
+}
+
+/* ── Properties table ───────────────────────────────────────────────────── */
+
+.properties {
+  border: 1px solid var(--line) !important;
+  background: var(--bg) !important;
+  margin-bottom: 24px !important;
+}
+
+.property-row th,
+.property-row td {
+  color: var(--muted) !important;
+  border-bottom: 1px solid var(--line) !important;
+}
+
+.property-row th {
+  font-size: 11px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.property-row td {
+  color: var(--ink) !important;
+}
+
+/* ── Tags / select values ───────────────────────────────────────────────── */
+
+.selected-value {
+  background: rgba(255,255,255,.10) !important;
+  color: var(--ink) !important;
+  border-radius: 0 !important;
+  border: 1px solid var(--line) !important;
+  font-size: 11px !important;
+  letter-spacing: .04em !important;
+  text-transform: uppercase !important;
+}
+
+/* ── Status values ──────────────────────────────────────────────────────── */
+
+.status-value {
+  background: transparent !important;
+  color: var(--muted) !important;
+  font-size: 11px !important;
+  letter-spacing: .06em !important;
+  text-transform: uppercase !important;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 0;         /* square dots, IIL style */
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.status-dot-color-green  { background: var(--accent); }
+.status-dot-color-yellow { background: rgba(255, 237, 0, .5); }
+.status-dot-color-gray   { background: var(--muted); }
+
+/* ── Body content ───────────────────────────────────────────────────────── */
+
+.page-body {
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.page-body p,
+.page-body ul,
+.page-body ol,
+.page-body li,
+.page-body h1,
+.page-body h2,
+.page-body h3,
+.page-body h4 {
+  margin: 0 !important;
+}
+
+.page-body p:empty { display: none !important; }
+.page-body p,
+.page-body li { color: var(--ink); line-height: 1.5; }
+.page-body li p { margin: 0 !important; padding: 0 !important; display: inline; }
+
+.page-body ul,
+.page-body ol {
+  padding-inline-start: 1.5em !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 4px !important;
+}
+
+.page-body h1,
+.page-body h2,
+.page-body h3,
+.page-body h4 {
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 4px;
+  margin: 0 !important;
+  margin-top: 0.5em !important;
+}
+
+.page-body a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.page-body a:hover {
+  text-decoration: underline;
+}
+
+.page-body img {
+  border: 2px solid rgba(47, 54, 53, .25);
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.page-body code,
+.page-body pre {
+  background: var(--bg-dark) !important;
+  color: var(--accent) !important;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  font-size: 12px;
+}
+
+.page-body table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.page-body th,
+.page-body td {
+  border: 1px solid var(--line);
+  padding: 8px 12px;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.page-body th {
+  background: var(--bg-dark);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* ── Notion icon overrides ──────────────────────────────────────────────── */
+
+.icon img {
+  filter: invert(1) opacity(.5);
+}

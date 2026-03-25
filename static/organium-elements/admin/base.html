@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>{% block title %}Admin{% endblock %} · Organium</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="/assets/easymde.min.css"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg:      rgb(156, 181, 176);
+    --surface: rgb(140, 163, 158);
+    --border:  rgba(47, 54, 53, .18);
+    --text:    #2f3635;
+    --muted:   rgba(47, 54, 53, .55);
+    --accent:  rgb(255, 237, 0);
+    --danger:  #c0392b;
+    --success-bg: rgba(47, 54, 53, .12);
+    --error-bg:   rgba(192, 57, 43, .12);
+    --radius:  0px;
+    --nav-h:   52px;
+  }
+  body { font-family: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+         background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.5; }
+
+  /* Nav */
+  .nav { position: sticky; top: 0; z-index: 100; height: var(--nav-h);
+         background: var(--text); border-bottom: 1px solid rgba(255,255,255,.08);
+         display: flex; align-items: center; justify-content: space-between;
+         padding: 0 24px; gap: 12px; }
+  .nav__brand { font-weight: 700; font-size: 13px; text-decoration: none;
+                color: #fff; letter-spacing: .10em; text-transform: uppercase; }
+  .nav__actions { display: flex; align-items: center; gap: 8px; }
+
+  /* Buttons */
+  .btn { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px;
+         border-radius: var(--radius); border: 1px solid var(--border);
+         font-size: 12px; font-weight: 600; cursor: pointer; text-decoration: none;
+         letter-spacing: .05em; text-transform: uppercase;
+         transition: background .15s, border-color .15s; white-space: nowrap;
+         font-family: inherit; }
+  .btn--primary   { background: var(--accent); color: var(--text); border-color: var(--accent); }
+  .btn--primary:hover { background: rgb(230, 214, 0); border-color: rgb(230, 214, 0); }
+  .btn--secondary { background: transparent; color: var(--text); border-color: var(--border); }
+  .btn--secondary:hover { background: rgba(47,54,53,.08); }
+  .btn--ghost     { background: none; color: var(--muted); border-color: transparent; }
+  .btn--ghost:hover { color: var(--text); }
+  .btn--danger    { background: var(--danger); color: #fff; border-color: var(--danger); }
+  .btn--danger:hover { background: #a93226; }
+  .btn--sm { padding: 4px 10px; font-size: 11px; }
+
+  /* Nav buttons override — light on dark nav */
+  .nav .btn--secondary { color: rgba(255,255,255,.7); border-color: rgba(255,255,255,.2); background: transparent; }
+  .nav .btn--secondary:hover { background: rgba(255,255,255,.1); color: #fff; }
+  .nav .btn--ghost { color: rgba(255,255,255,.5); }
+  .nav .btn--ghost:hover { color: #fff; background: transparent; }
+
+  /* Flash */
+  .flashes { padding: 0 24px; margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
+  .flash { padding: 10px 14px; font-size: 13px; border: 1px solid var(--border); }
+  .flash--success { background: var(--success-bg); }
+  .flash--error   { background: var(--error-bg); border-color: rgba(192,57,43,.3); color: var(--danger); }
+
+  /* Main */
+  .main { max-width: 960px; margin: 0 auto; padding: 28px 24px; }
+  .page-header { display: flex; align-items: center; justify-content: space-between;
+                 margin-bottom: 24px; }
+  .page-header h1 { font-size: 18px; font-weight: 700; text-transform: uppercase; letter-spacing: .02em; }
+  .count { font-size: 13px; font-weight: 400; color: var(--muted); margin-left: 8px; }
+
+  /* Component list */
+  .list { border: 1px solid var(--border); background: rgba(255,255,255,.15); overflow: hidden; }
+  .list-row { display: flex; align-items: center; justify-content: space-between;
+              padding: 11px 16px; border-bottom: 1px solid var(--border);
+              transition: background .1s; gap: 12px; }
+  .list-row:last-child { border-bottom: none; }
+  .list-row:hover { background: rgba(255,255,255,.2); }
+  .list-row__name { font-weight: 500; text-decoration: none; color: var(--text);
+                    flex: 1; min-width: 0; white-space: nowrap;
+                    overflow: hidden; text-overflow: ellipsis; }
+  .list-row__name:hover { color: var(--text); text-decoration: underline; }
+  .list-row__right { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+  .tag { font-size: 11px; padding: 2px 8px; letter-spacing: .04em; text-transform: uppercase;
+         border: 1px solid var(--border); color: var(--muted); }
+
+  /* Status badges */
+  .status { font-size: 11px; padding: 2px 8px; font-weight: 600;
+            letter-spacing: .06em; text-transform: uppercase; }
+  .status--done        { background: transparent; color: var(--text); border: 1px solid var(--accent); }
+  .status--in-progress { background: rgba(47,54,53,.15); color: var(--text); border: 1px solid var(--border); }
+  .status--not-started { background: transparent; color: var(--muted); border: 1px dashed var(--border); }
+
+  /* Edit form */
+  .edit-layout { display: grid; grid-template-columns: 1fr 280px; gap: 24px; align-items: start; }
+  @media (max-width: 700px) { .edit-layout { grid-template-columns: 1fr; } }
+  .card { background: rgba(255,255,255,.15); border: 1px solid var(--border); padding: 20px; }
+  .card + .card { margin-top: 16px; }
+  .card__title { font-size: 11px; font-weight: 700; color: var(--muted);
+                 text-transform: uppercase; letter-spacing: .08em; margin-bottom: 14px; }
+
+  /* Form fields */
+  .field { margin-bottom: 14px; }
+  .field:last-child { margin-bottom: 0; }
+  label { display: block; font-size: 11px; font-weight: 600; margin-bottom: 4px;
+          color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+  input[type=text], select, textarea {
+    width: 100%; padding: 7px 10px; border: 1px solid var(--border);
+    border-radius: var(--radius); font-size: 13px; font-family: inherit;
+    background: rgba(255,255,255,.2); color: var(--text); transition: border-color .15s; }
+  input[type=text]:focus, select:focus, textarea:focus {
+    outline: none; border-color: var(--text); background: rgba(255,255,255,.35); }
+  .title-input { font-size: 22px; font-weight: 700; padding: 8px 10px;
+                 border: 1px solid transparent; background: transparent; }
+  .title-input:focus { border-color: var(--text); background: rgba(255,255,255,.2); }
+
+  /* Editor */
+  .EasyMDEContainer .CodeMirror { border-radius: 0; background: rgba(255,255,255,.2); }
+  .editor-toolbar { border-radius: 0; background: rgba(47,54,53,.08); border-color: var(--border); }
+  .editor-toolbar a { color: var(--text) !important; }
+  .editor-toolbar a:hover, .editor-toolbar a.active { background: rgba(47,54,53,.12) !important; border-color: var(--border) !important; }
+
+  /* Image gallery */
+  .img-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); gap: 8px; margin-top: 10px; }
+  .img-thumb { position: relative; aspect-ratio: 1; }
+  .img-thumb img { width: 100%; height: 100%; object-fit: cover;
+                   border: 1px solid var(--border); cursor: pointer; }
+  .img-thumb img:hover { border-color: var(--text); }
+  .img-thumb__name { font-size: 10px; color: var(--muted); text-align: center;
+                     white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 3px; }
+
+  /* Checkboxes */
+  .checkbox-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 8px; }
+  .checkbox-label { display: flex; align-items: center; gap: 6px; font-size: 13px;
+                    font-weight: 400; color: var(--text); cursor: pointer; margin: 0; }
+  .checkbox-label input[type=checkbox] { width: auto; margin: 0; cursor: pointer; }
+
+  /* Danger zone */
+  .danger-zone { border-color: rgba(192,57,43,.35); }
+  .danger-zone .card__title { color: var(--danger); }
+
+  /* Form actions */
+  .form-actions { display: flex; gap: 8px; align-items: center; margin-top: 16px; }
+  .form-actions .spacer { flex: 1; }
+
+  /* Quickstart */
+  .quickstart { border: 1px solid var(--border); margin-bottom: 24px; }
+  .quickstart summary { padding: 12px 16px; cursor: pointer; font-size: 12px;
+    font-weight: 700; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--muted); list-style: none; display: flex; align-items: center; gap: 8px; }
+  .quickstart summary::before { content: '▸'; font-size: 10px; transition: transform .2s; }
+  .quickstart[open] summary::before { transform: rotate(90deg); }
+  .quickstart summary:hover { color: var(--text); background: rgba(47,54,53,.05); }
+  .quickstart__body { padding: 20px; border-top: 1px solid var(--border); }
+  .quickstart__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+  .qs-step { display: flex; gap: 12px; align-items: flex-start; }
+  .qs-step__num { width: 24px; height: 24px; flex-shrink: 0; background: var(--accent);
+    color: var(--text); font-size: 11px; font-weight: 700; display: grid;
+    place-items: center; }
+  .qs-step__title { font-size: 12px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .06em; margin-bottom: 4px; }
+  .qs-step p { font-size: 12px; color: var(--muted); margin: 0; line-height: 1.5; }
+  .qs-step code { font-size: 11px; background: rgba(47,54,53,.1);
+    padding: 1px 5px; border: 1px solid var(--border); }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <a href="/" class="nav__brand">Organium Admin</a>
+  <div class="nav__actions">
+    <form method="post" action="/rebuild">
+      <button class="btn btn--secondary">↻ Rebuild</button>
+    </form>
+    <form method="post" action="/publish">
+      <button class="btn btn--primary">↑ Publish</button>
+    </form>
+    <a href="http://localhost:8080" target="_blank" class="btn btn--ghost">View site ↗</a>
+    <form method="post" action="/quit" onsubmit="return confirm('Stop the admin server?')">
+      <button class="btn btn--ghost" style="color:rgba(255,255,255,.3)">✕ Quit</button>
+    </form>
+  </div>
+</nav>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+<div class="flashes">
+  {% for category, message in messages %}
+  <div class="flash flash--{{ category }}">{{ message }}</div>
+  {% endfor %}
+</div>
+{% endif %}
+{% endwith %}
+
+<div class="main">
+  {% block content %}{% endblock %}
+</div>
+<script src="/assets/easymde.min.js"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>
