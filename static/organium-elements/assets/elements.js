@@ -1,3 +1,4 @@
+const ELEMENTS_DATE = "2026-03-25";
 const ELEMENTS = [
   {
     name: "Adjustable 10k voltage divider with alligator clips",
