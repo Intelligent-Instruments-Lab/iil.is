@@ -239,7 +239,7 @@ h1 {
   transition: background .1s ease;
 }
 .card:hover { background: var(--surface); }
-.card:hover .card__title { color: var(--bg); }
+.card:hover .card__title { color: rgba(255,255,255,.85); }
 
 .card__media {
   width: 72px; height: 72px;
