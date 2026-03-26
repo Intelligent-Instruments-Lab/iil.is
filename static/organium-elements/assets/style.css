@@ -260,7 +260,8 @@ h1 {
 .card__thumb--placeholder svg { width: 28px; height: 28px; }
 
 .card__title {
-  font-size: 13px;
+  font-family: 'Jost', 'Futura', 'Century Gothic', sans-serif;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: .01em;
   text-transform: uppercase;
