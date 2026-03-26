@@ -132,7 +132,8 @@ h1 {
   text-underline-offset: 3px;
 }
 .lead a:hover {
-  color: var(--accent);
+  color: var(--ink);
+  opacity: .6;
 }
 
 /* ── Search ────────────────────────────────────────────────────────────── */
@@ -238,8 +239,7 @@ h1 {
   background: var(--bg);
   transition: background .1s ease;
 }
-.card:hover { background: var(--surface); }
-.card:hover .card__title { color: rgba(255,255,255,.85); }
+.card:hover { background: rgb(136, 162, 157); }
 
 .card__media {
   width: 72px; height: 72px;
