@@ -133,7 +133,24 @@
       }
     );
 
-    return marked.parse(fixedMd);
+    const html = marked.parse(fixedMd);
+
+    // Replace full-size img src with medium version (falls back to original if medium 404s)
+    const div = document.createElement('div');
+    div.innerHTML = html;
+    div.querySelectorAll('img[src^="assets/img/"]').forEach(function (img) {
+      const orig = img.getAttribute('src');
+      // Only rewrite flat assets/img/ paths (not already in a subdir)
+      if (!/^assets\/img\/[^/]+$/.test(orig)) return;
+      const name = orig.replace(/^assets\/img\//, '').replace(/\.[^.]+$/, '');
+      const medium = 'assets/img/medium/' + name + '.jpg';
+      img.setAttribute('src', medium);
+      img.setAttribute('loading', 'lazy');
+      img.addEventListener('error', function () {
+        img.setAttribute('src', orig);
+      }, { once: true });
+    });
+    return div.innerHTML;
   }
 
   // ── Helpers ──────────────────────────────────────────────────────────────────

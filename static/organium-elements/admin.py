@@ -202,7 +202,28 @@ def upload_image(filename):
             indices.append(int(m.group(1)))
     next_index = max(indices, default=0) + 1
     new_name = f'{slug}-{next_index}{ext}'
-    file.save(os.path.join(img_dir, new_name))
+    dest_path = os.path.join(img_dir, new_name)
+    file.save(dest_path)
+
+    # Generate compressed thumbnail and medium image for faster web delivery
+    try:
+        from PIL import Image as PILImage
+        base_name = os.path.splitext(new_name)[0] + '.jpg'
+        thumb_dir  = os.path.join(img_dir, 'thumbs')
+        medium_dir = os.path.join(img_dir, 'medium')
+        os.makedirs(thumb_dir,  exist_ok=True)
+        os.makedirs(medium_dir, exist_ok=True)
+        with PILImage.open(dest_path) as img:
+            img = img.convert('RGB')
+            t = img.copy()
+            t.thumbnail((400, 400), PILImage.LANCZOS)
+            t.save(os.path.join(thumb_dir, base_name), 'JPEG', quality=82, optimize=True)
+            m = img.copy()
+            m.thumbnail((1200, 1200), PILImage.LANCZOS)
+            m.save(os.path.join(medium_dir, base_name), 'JPEG', quality=85, optimize=True)
+    except Exception:
+        pass  # image generation is optional
+
     return jsonify({'markdown': f'![{new_name}]({new_name})'})
 
 

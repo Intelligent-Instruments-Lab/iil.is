@@ -47,6 +47,7 @@ html, body {
 /* ── Page content ───────────────────────────────────────────────────────── */
 
 .page-title {
+  font-family: 'Jost', 'Futura', 'Century Gothic', sans-serif;
   color: var(--ink) !important;
   text-transform: uppercase;
   letter-spacing: -0.02em;
