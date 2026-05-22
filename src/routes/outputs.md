@@ -23,6 +23,9 @@ Intelligent Instruments Lab outputs organised under the following categories:
 
 # Conference Papers
 
+## 2026 <!-- omit in toc -->
+- _The Extended Encounter: Kicking Against Methodology_. Thor Magnusson. *Proc. International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. [[pdf](../pdf/2026_nime_extended_encounter.pdf)]
+
 ## 2025 <!-- omit in toc -->
 - _Interactive Artistic Text-To-Voice: Tungnaá and Bla Blavatar vs Jaap Blonk_. Victor Shepardson, Jonathan Reus, and Thor Magnusson. *Neural Information Processing Systems Creative AI Track ([NeurIPS 2025](https://neurips.cc/Conferences/2025/CallForCreativeAI))*, San Diego, USA. [[pdf](https://openreview.net/pdf?id=nap90xgOW6)]
 - _AI ReadsFluxus: Text Scores, Language Games, and the Art of Being Literal_. Nicola Privato and Thor Magnusson. *Proc. of TENOR 2025, International Conference on Technologies for Music Notation and Representation ([TENOR 2025](https://zhuanti.ccom.edu.cn/tenorbjen/info/1523/1201.htm))*, Beijing, China. [[pdf](http://iil.is/pdf/2025_tenor_privato.pdf)]
@@ -317,6 +320,7 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 
 # Consultancies
 
+- Thor Magnusson was part of the planning committee for the SHIFT festival at the Royal Ballet and Opera in London. [info](https://www.rbo.org.uk/tickets-and-events/festival/rboshift-2026-details). June, 2026.
 - Thor Magnusson was a consultant for a Curriculum review Hochschule der Künste Bern. [info](https://www.hkb.bfh.ch/de/studium/?). December, 2023.
 - Thor Magnusson was a consultant on the [Turn it Up](https://www.sciencemuseum.org.uk/see-and-do/turn-it-up) exhibition at the Science Museum in London. 2023.
 - Jack Armitage was a technical consultant on the soundtrack for [Apple TV+ sci-fi series Silo](https://en.wikipedia.org/wiki/Silo_(TV_series)), working with [INNI Music](https://www.innimusic.com/) founder and composer [Atli Örvarsson](https://en.wikipedia.org/wiki/Atli_%C3%96rvarsson). 2023.
