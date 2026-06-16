@@ -24,7 +24,7 @@ Intelligent Instruments Lab outputs organised under the following categories:
 # Conference Papers
 
 ## 2026 <!-- omit in toc -->
-- _The Extended Encounter: Kicking Against Methodology_. Thor Magnusson. *Proc. International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. [[pdf](../pdf/2026_nime_extended_encounter.pdf)]
+- _The Extended Encounter: Kicking Against Methodology_. Thor Magnusson. *Proc. International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. [[pdf](../pdf/2026_NIME_Magnusson.pdf)]
 
 ## 2025 <!-- omit in toc -->
 - _Interactive Artistic Text-To-Voice: Tungnaá and Bla Blavatar vs Jaap Blonk_. Victor Shepardson, Jonathan Reus, and Thor Magnusson. *Neural Information Processing Systems Creative AI Track ([NeurIPS 2025](https://neurips.cc/Conferences/2025/CallForCreativeAI))*, San Diego, USA. [[pdf](https://openreview.net/pdf?id=nap90xgOW6)]
