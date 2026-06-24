@@ -25,6 +25,8 @@ Intelligent Instruments Lab outputs organised under the following categories:
 
 ## 2026 <!-- omit in toc -->
 - _The Extended Encounter: Kicking Against Methodology_. Thor Magnusson. *Proc. International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. [[pdf](../pdf/2026_NIME_Magnusson.pdf)]
+- _Distributed Agency in Collaborative Improvisation withIntelligent Instruments: A Phenomenological Inquiry_. Halla Steinunn Stefánsdóttir, Robert Ek and Thor Magnusson. *Proc. International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. [[pdf](../pdf/2026_NIME_StefansdottirEkMagnusson.pdf)]
+- _TECHNO-UTOPIA: Music Emerging from Colliding Embedded AI Instruments with Radio Orchestras and their Archives_. Robert Laidlow, Nicola Privato and Victor Shepardson. *Proc. International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. [[pdf](../pdf/2026_NIME_LaidlowPrivatoShepardson.pdf)]
 
 ## 2025 <!-- omit in toc -->
 - _Interactive Artistic Text-To-Voice: Tungnaá and Bla Blavatar vs Jaap Blonk_. Victor Shepardson, Jonathan Reus, and Thor Magnusson. *Neural Information Processing Systems Creative AI Track ([NeurIPS 2025](https://neurips.cc/Conferences/2025/CallForCreativeAI))*, San Diego, USA. [[pdf](https://openreview.net/pdf?id=nap90xgOW6)]
@@ -243,6 +245,8 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 
 # Performances
 
+- _iː ɡoʊ weɪ_. Jonathan Reus. *International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. June, 2026. [[pdf](../pdf/2026_NIME_Reus.pdf)]
+- _Feedback Sensibilities_. Miguel Angel Crozzoli and Stefanos Vasilakis. *International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. June, 2026. [[pdf](../pdf/2026_NIME_CrozzoliVasilakis.pdf)]
 - _AURA I._ Halla Steinunn Stefánsdóttir and Davíð Brynjar Franzson with Nordic Affect at Reykjavík Arts Museum, November 20, 2025
 - _AURA II._ Halla Steinunn Stefánsdóttir with Robert Ek at Reykjavík Arts Museum, November 27, 2025
 - _Ambient November '25_ curated by Extreme Chill Festival. Árni Valur and Stefanos Skialivas. Space Odyssey, Reykjavik, Iceland. [[video](https://www.youtube.com/watch?v=QvaiJCdqXrU)]
