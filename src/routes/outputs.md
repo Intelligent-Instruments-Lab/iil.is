@@ -247,6 +247,7 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 
 - _iː ɡoʊ weɪ_. Jonathan Reus. *International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. June, 2026. [[pdf](../pdf/2026_NIME_Reus.pdf)]
 - _Feedback Sensibilities_. Miguel Angel Crozzoli and Stefanos Vasilakis. *International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. June, 2026. [[pdf](../pdf/2026_NIME_CrozzoliVasilakis.pdf)]
+- _Modes of Sophtar Improvisation_. Federico Visi. *International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. June, 2026. [[pdf](../pdf/2026_NIME_Visi.pdf)]
 - _AURA I._ Halla Steinunn Stefánsdóttir and Davíð Brynjar Franzson with Nordic Affect at Reykjavík Arts Museum, November 20, 2025
 - _AURA II._ Halla Steinunn Stefánsdóttir with Robert Ek at Reykjavík Arts Museum, November 27, 2025
 - _Ambient November '25_ curated by Extreme Chill Festival. Árni Valur and Stefanos Skialivas. Space Odyssey, Reykjavik, Iceland. [[video](https://www.youtube.com/watch?v=QvaiJCdqXrU)]
