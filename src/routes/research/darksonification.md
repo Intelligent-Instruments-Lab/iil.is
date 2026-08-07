@@ -19,6 +19,6 @@ In practice, anyone with a dataset and the intention of attuning to it can use D
 
 Overall, Dark Sonification aims for multiplicity and stays with complexity. Multiplicity, because its internal structuring builds combinations of algorithmic processes to experience multiple perspectives on the same data. Complexity, because it approaches a data object with the intention of raising questions and finding answers through performativity, opening space for new forms of experiencing and, hopefully, new knowledge to emerge.
  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-Lo9VoGhE6A?si=QiHrfUhnQ19Q3OD-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/-Lo9VoGhE6A?si=QiHrfUhnQ19Q3OD-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
  
 The system has been tested and used for scientific, dissemination, and artistic purposes, becoming an instrument of knowledge in the most diverse ways. It has grown through collaborations across oceanography, musicology, ecology, and literature, and has been used as a scientific research display, a musical instrument, and a medium for participatory sound installations.
