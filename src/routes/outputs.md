@@ -101,11 +101,11 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 - _The Open Work and AI: Co-creation and Haunting in Text Scores and Inherent Scores_ by Nicola Privato and Thor Magnusson in Organised Sound, 2025. [[article](https://www.cambridge.org/core/journals/organised-sound/article/abs/open-work-and-ai-cocreation-and-haunting-in-text-scores-and-inherent-scores/EFB1A826C2C80AB47AA286261E50BAB0)]
 - _Of altered instrumental relations: a practice-led inquiry into agency through musical performance with neural audio synthesis and violin_ by Halla Steinunn Stefansdottir and Thor Magnusson in Frontiers of Computer Science vol 25. [[pdf](https://iil.is/pdf/2025_Frontiers_Stefansdottir.pdf)]
 - _AI and corporeal knowledge: inventing and performing with prostheses and sonic organs_ by Marco Donnarumma in Frontiers of Computer Science vol 25. [[pdf](https://iil.is/pdf/2025_Frontiers_Donnarumma.pdf)]
-- _Skapandi gervigreind: nokkur orð um sjálfvirka og meðvirka tækni_ by Thor Magnusson in Þræðir 10, 2025. [[url](https://www.lhi.is/thraedir/thraedir/skapandi-gervigreind/)]
+- _Skapandi gervigreind: nokkur orð um sjálfvirka og meðvirka tækni_ by Thor Magnusson in Þræðir, vol 10, 2025. [[pdf](https://iil.is/pdf/2025_Thraedir_Magnusson.pdf)]
 - _Hugsað með tækninni_, an interview with Thor Magnusson in *Hugur*, vol. 34. 2024. [[pdf](https://iil.is/pdf/2024_Hugur_Magnusson.pdf)]
 - _Txalaparta á Ströndum_, by Thor Magnusson. *Strandapósturinn*. 2024. (In Icelandic). [[pdf](https://iil.is/pdf/2024_Strandapostur.pdf)]
 - _Editorial: Live Coding Sonic Creativities_ by Anna Xambo, Gerard Roma and Thor Magnusson. 2023. [[url](https://www.cambridge.org/core/journals/organised-sound/article/editorial-live-coding-sonic-creativities/7CAFDFB2FB693C44A77017225A413FD8)]
-- _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson, in Þræðir. 2021.  [[url](https://www.lhi.is/tolublad-6-snjallhjodfaeri-ad-skilja-gervigreind-21-aldar-i-gegnum-skapandi-tonlistartaekni)]
+- _Snjallhjóðfæri: að skilja gervigreind 21. aldar í gegnum skapandi tónlistartækni_ by Thor Magnusson, in Þræðir, vol 6. 2021.  [[pdf](https://iil.is/pdf/2021_Thraedir_Magnusson.pdf)]
 
 
 
