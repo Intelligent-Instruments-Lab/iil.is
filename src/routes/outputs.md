@@ -96,6 +96,8 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Journal articles
 
+
+- _From Field to Corpus: Phenomenological Continuities in Soundscape Composition and Corpus-Based Timbral Composition_, by Thanos Polymeneas-Liontiris in Computer Music Journal. vol 50. 2026. [[article](https://direct.mit.edu/comj/article-abstract/doi/10.1162/COMJ.a.714/137647/From-Field-to-Corpus-Phenomenological-Continuities?)]
 - _The data-driven voice-body in performance: AI voices as materials, mediators, and gifts_, by Jonathan Reus in Frontiers of Computer Science. vol 8. 2026. [[article](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1686763/full)]
 - _Navigating an Urban Archive: an exploration of wave field synthesis as soundscape composition_ by Halla Steinunn Stefánsdóttir and Davíð Brynjar Franzson, in Organised Sound, 2025. [[article](https://www.cambridge.org/core/journals/organised-sound/article/abs/navigating-an-urban-archive-an-exploration-of-wavefield-synthesis-as-soundscape-composition/C59C7786C01771FD309FF40BD4EA78E2 )]
 - _The Open Work and AI: Co-creation and Haunting in Text Scores and Inherent Scores_ by Nicola Privato and Thor Magnusson in Organised Sound, 2025. [[article](https://www.cambridge.org/core/journals/organised-sound/article/abs/open-work-and-ai-cocreation-and-haunting-in-text-scores-and-inherent-scores/EFB1A826C2C80AB47AA286261E50BAB0)]
