@@ -96,7 +96,6 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Journal articles
 
-
 - _From Field to Corpus: Phenomenological Continuities in Soundscape Composition and Corpus-Based Timbral Composition_, by Thanos Polymeneas-Liontiris in Computer Music Journal. vol 50. 2026. [[article](https://direct.mit.edu/comj/article-abstract/doi/10.1162/COMJ.a.714/137647/From-Field-to-Corpus-Phenomenological-Continuities?)]
 - _The data-driven voice-body in performance: AI voices as materials, mediators, and gifts_, by Jonathan Reus in Frontiers of Computer Science. vol 8. 2026. [[article](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1686763/full)]
 - _Navigating an Urban Archive: an exploration of wave field synthesis as soundscape composition_ by Halla Steinunn Stefánsdóttir and Davíð Brynjar Franzson, in Organised Sound, 2025. [[article](https://www.cambridge.org/core/journals/organised-sound/article/abs/navigating-an-urban-archive-an-exploration-of-wavefield-synthesis-as-soundscape-composition/C59C7786C01771FD309FF40BD4EA78E2 )]
@@ -167,6 +166,7 @@ We have a dedicated [workshop page](https://iil.is/workshops) that describes our
 
 # Presentations
 
+- _Embodied Music and AI_, Thor Magnusson gave an invited talk at the [Musicality Genomics Consortium](https://www.mcg.uva.nl/musicgens/program-iceland-2026.html) conference at the University of Iceland. September 23rd, 2026.
 - _Thinking with Technology: Hacking, Making and Improvisation_, Thor Magnusson gave a keynote at the [WAC](https://wac-2025.ircam.fr/) conference at Ircam, Paris. November 19th, 2025.
 - _Agency and Synthetic Media: A New Musical Ontology of AI Music_, Thor Magnusson talk at the [Decentralised Creativity and Agential Systems in Music](https://orpheusinstituut.be/en/news-and-events/decentralised-creativity-conference) conference at Orpheus Instituut, Ghent, November 17th, 2025.
 - _Knitting Noise with No-Input Textiles_, Victor Shepardson and Sophie Skach at [Most Wanted:Music Hybrid Music Lab](https://mwm-berlin.de/hybrid-music-lab/). Berlin, Germany, November 12th 2025.
@@ -211,7 +211,7 @@ _ _Compositions and Interfaces for the Embodied Understanding of AI Instruments_
 
 
 # Public Media
-
+- _Heila­rotnun og hug­ræktar­stöðvar á tímum gervi­greindar_ in Visir by Thor Magnusson. September 29th, 2026. (Icelandic) [[url](https://www.visir.is/g/20262941454d/heilarotnun-og-hugraektarstodvar-a-timum-gervigreindar)]
 - _"Takk fyrir lánið_", Thor Magnusson discusses the use of AI in the world of sampling. The Icelandic National Broadcasting Service. April 12th, 2026. [[url](https://www.ruv.is/utvarp/dagskra/ras1/2026-04-12/5492414)]
 - _“Of the mysterious voices of shells”_, Halla Steinunn Stefánsdóttir introduces the installation, and Halldór Úlfarsson shellspeaker design, interview in Víðsjá, The Icelandic National Broadcasting Service, November 2025. Interview starts at 32:40 [[url](https://www.ruv.is/utvarp/spila/vidsja/23618/b725m2?)]
 - _Sköpun skepnu sem skapar_, Thor Magnusson writes an article for Vísbending, issue 42, vol 43. November, 2025. [[pdf](http://iil.is/pdf/2025_Visbending_Magnusson.pdf)]
