@@ -11,7 +11,7 @@ Intelligent Instruments Lab outputs organised under the following categories:
 - [Books and Book chapters](#books-and-book-chapters)
 - [Journal articles](#journal-articles)
 - [Hosted Conferences and Symposia](#hosted-conferences-and-symposia)
-- [Intelligent Instruments Workshops](#intelligent-instruments-workshops)
+- [Workshops organised by Intelligent Instruments](#workshops-organised-by-intelligent-instruments)
 - [Workshop Participation](#workshop-participation)
 - [Residencies](#residencies)
 - [Presentations](#presentations)
@@ -19,13 +19,14 @@ Intelligent Instruments Lab outputs organised under the following categories:
 - [Performances](#performances)
 - [Installations and Exhibitions](#installations-and-exhibitions)
 - [Consultancies](#consultancies)
-- [Open Source](#open-source)
+- [Open Source Code](#open-source-code)
 
 # Conference Papers
 
 ## 2026 <!-- omit in toc -->
 - _Digital Sound Print: Sonifying Ecoacoustic and Sensor Data from Vatnajokull National Park_. Miguel Angel Crozzoli, Garrison Gerard, and Thor Magnusson. *Proc. International Conference on Auditory Display ([ICAD 2026](https://icad2026.icad.org/))*, Barcelona, Spain. [[pdf](http://iil.is/pdf/2026_ICAD26_Digital_Sound_Print_Crozzoli_Gerard_Magnusson_camera_ready_2.pdf)]
 - _Octopus: a Multichannel Wearable Vibrotactile Haptic Feedback Interface for Embodied Exploration in Interactive Data Display Systems_. Stefanos Vasilakis, Miguel Angel Crozzoli, Kamilla Henriau, Thor Magnusson, and Runar Unnthorsson. *Proc. International Conference on Auditory Display ([ICAD 2026](https://icad2026.icad.org/))*, Barcelona, Spain. [[pdf](http://iil.is/pdf/2026_ICAD26_Octopus_Vasilakis-Crozzoli-Henriau-Magnusson-Unnthorsson.pdf)]
+- _Navigating Sleep: Neural Audio Synthesis as Compositional Medium for EEG Data Sonification_. Stefanos Vasilakis, Areti Andreopoulou, and Thanos Polymeneas-Liontiris. *Proc. International Conference on Auditory Display ([ICAD 2026](https://icad2026.icad.org/))*, Barcelona, Spain. [[pdf](https://stefvasi.github.io/Navigating_Sleep/navigating_sleep_icad2026.pdf)]
 - _The Extended Encounter: Kicking Against Methodology_. Thor Magnusson. *Proc. International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. [[pdf](../pdf/2026_NIME_Magnusson.pdf)]
 - _Distributed Agency in Collaborative Improvisation withIntelligent Instruments: A Phenomenological Inquiry_. Halla Steinunn Stefánsdóttir, Robert Ek and Thor Magnusson. *Proc. International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. [[pdf](../pdf/2026_NIME_StefansdottirEkMagnusson.pdf)]
 - _TECHNO-UTOPIA: Music Emerging from Colliding Embedded AI Instruments with Radio Orchestras and their Archives_. Robert Laidlow, Nicola Privato and Victor Shepardson. *Proc. International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. [[pdf](../pdf/2026_NIME_LaidlowPrivatoShepardson.pdf)]
@@ -96,7 +97,8 @@ on Explainable AI for the Arts (XAIxArts), ACM Creativity and Cognition (CC)*, O
 
 # Journal articles
 
-- _From Field to Corpus: Phenomenological Continuities in Soundscape Composition and Corpus-Based Timbral Composition_, by Thanos Polymeneas-Liontiris in Computer Music Journal. vol 50. 2026. [[article](https://direct.mit.edu/comj/article-abstract/doi/10.1162/COMJ.a.714/137647/From-Field-to-Corpus-Phenomenological-Continuities?)]
+- _From Field to Corpus: Phenomenological Continuities in Soundscape Composition and Corpus-Based Timbral Composition_, by Thanos Polymeneas-Liontiris in Computer Music Journal. vol 50. 2026. [[article](https://direct.mit.edu/comj/article-abstract/doi/10.1162/COMJ.a.714/137647/From-Field-to-Corpus-Phenomenological-Continuities)]
+- _Nodes, glitches and embedded algorithms: COMACROB and posthuman organology_, by Thanos Polymeneas-Liontiris and Alexandros Drymonitis in Organised Sound. 2026. [[article](https://www.cambridge.org/core/journals/organised-sound/article/nodes-glitches-and-embedded-algorithms-comacrob-and-posthuman-organology/597F3296A0DB474E252588B052085B78)]
 - _The data-driven voice-body in performance: AI voices as materials, mediators, and gifts_, by Jonathan Reus in Frontiers of Computer Science. vol 8. 2026. [[article](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1686763/full)]
 - _Navigating an Urban Archive: an exploration of wave field synthesis as soundscape composition_ by Halla Steinunn Stefánsdóttir and Davíð Brynjar Franzson, in Organised Sound, 2025. [[article](https://www.cambridge.org/core/journals/organised-sound/article/abs/navigating-an-urban-archive-an-exploration-of-wavefield-synthesis-as-soundscape-composition/C59C7786C01771FD309FF40BD4EA78E2 )]
 - _The Open Work and AI: Co-creation and Haunting in Text Scores and Inherent Scores_ by Nicola Privato and Thor Magnusson in Organised Sound, 2025. [[article](https://www.cambridge.org/core/journals/organised-sound/article/abs/open-work-and-ai-cocreation-and-haunting-in-text-scores-and-inherent-scores/EFB1A826C2C80AB47AA286261E50BAB0)]
@@ -250,6 +252,7 @@ _ _Can Computers Create?_ a public talk at the European Science Night. [info](ht
 
 # Performances
 
+- _Synthetic shadows and twisted mirrors: co-improvising with machines_, Stefanos Skialivas with Petter Asbjørnsen, Andrea Giordano, Elena Perales Andreu and Vincenzo Madaghiele. Notam, Oslo, Norway. [[info](https://notam.no/en/event/synthetic-shadows-and-twisted-mirrors-co-improvising-with-machines/)] 6 October 2026.
 - _iː ɡoʊ weɪ_. Jonathan Reus. *International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. June, 2026. [[pdf](../pdf/2026_NIME_Reus.pdf)]
 - _Feedback Sensibilities_. Miguel Angel Crozzoli and Stefanos Vasilakis. *International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. June, 2026. [[pdf](../pdf/2026_NIME_CrozzoliVasilakis.pdf)]
 - _Modes of Sophtar Improvisation_. Federico Visi. *International Conference on New Interfaces for Musical Expression ([NIME 2026](https://nime2026.org/))*, London, UK. June, 2026. [[pdf](../pdf/2026_NIME_Visi.pdf)]
