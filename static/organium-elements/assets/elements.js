@@ -187,6 +187,12 @@ const ELEMENTS = [
     type: ""
   },
   {
+    name: "HydroMoth with Underwater Case",
+    page: "element.html?file=database/Organium_Elements/HydroMoth with Underwater Case.md",
+    img: "assets/img/thumbs/hydromoth-with-underwater-case-1.jpg",
+    type: "Integrated System, Sensor"
+  },
+  {
     name: "Hydrophone",
     page: "element.html?file=database/Organium_Elements/Hydrophone.md",
     img: null,
