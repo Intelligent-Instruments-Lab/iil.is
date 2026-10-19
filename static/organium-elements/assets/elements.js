@@ -7,10 +7,22 @@ const ELEMENTS = [
     type: "Analog-to-digital converter"
   },
   {
+    name: "Adafruit ESP32-S2 TFT Feather",
+    page: "element.html?file=database/Organium_Elements/Adafruit ESP32-S2 TFT Feather.md",
+    img: "assets/img/thumbs/adafruit-esp32-s2-tft-feather-1.jpg",
+    type: "Integrated System"
+  },
+  {
     name: "Adafruit METRO 328 (Arduino Compatible)",
     page: "element.html?file=database/Organium_Elements/Adafruit METRO 328 (Arduino Compatible).md",
     img: "assets/img/thumbs/adafruit-metro-328-arduino-compatible-1.jpg",
     type: "Microcontroller board"
+  },
+  {
+    name: "Adafruit QT Py ESP32-S2 (Adafruit 5325)",
+    page: "element.html?file=database/Organium_Elements/Adafruit QT Py ESP32-S2 (Adafruit 5325).md",
+    img: "assets/img/thumbs/adafruit-qt-py-esp32-s2-adafruit-5325-1.jpg",
+    type: "Microcontroller"
   },
   {
     name: "Adjustable 10k voltage divider with alligator clips",
@@ -121,7 +133,7 @@ const ELEMENTS = [
     type: "Actuator, Transducer, Integrated System"
   },
   {
-    name: "ESP 32 ttgo",
+    name: "ESP32 TTGO T7 v1.3 Mini32 (LilyGO)",
     page: "element.html?file=database/Organium_Elements/ESP_32_ttgo.md",
     img: "assets/img/thumbs/esp-32-ttgo-4.jpg",
     type: "Integrated System"

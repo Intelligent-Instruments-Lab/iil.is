@@ -1,79 +1,85 @@
-# ESP 32 ttgo
+# ESP32 TTGO T7 v1.3 Mini32 (LilyGO)
 
+Category: PROCESSING
+Modality: ESP32
 Type: Integrated System
 Added: January 18, 2023 4:18 PM
-Senses: Input from various sensors
-Actuates: Forwards that input on to your computer
+Senses: N/A — it is the host; sensors connect to it
+Actuates: N/A — it runs the code that reads sensors and drives outputs
+Connection: Micro-USB (CH34x serial) · WiFi · Bluetooth · 2.54 mm headers · JST battery connector
 Status: Done
-Voltage: 3.7V (?)
+Voltage: 3.3 V logic, not 5 V tolerant. Power from USB, a LiPo on the battery connector, or 5–12 V unregulated into the 5V pin
+Published: Yes
 
-![esp32_ttgo-removebg-preview.jpg](esp-32-ttgo-4.jpg)
+**Principle**: An ESP32 on a small breakout. The ESP32 is a dual-core 240 MHz microcontroller with **WiFi and Bluetooth on the die** — that is the whole reason to reach for one instead of an Arduino. It also brings capacitive touch inputs, two DACs and far more RAM, at the cost of a 3.3 V world where an Arduino tolerated 5 V. This particular board is LilyGO's **T7 v1.3 "Mini32"**: the ESP32 module, a USB-serial chip, a regulator and a LiPo connector, and little else.
 
-**Function**: Microcontroller
+**Function**: The host for a wireless instrument or sensor node. Code it in the Arduino IDE, PlatformIO or MicroPython; it reads sensors over I2C, SPI or the analog pins and sends the result onward over WiFi — OSC and MIDI over the network are the usual pattern — or over Bluetooth, or to whatever you wire to it.
 
-**Typical use: All Arduino-based projects**
+**Voltage**: 3.3 V logic. **Nothing on this board is 5 V tolerant**: a 5 V sensor output on a GPIO can damage it, so use a level shifter. Power from USB, from a LiPo on the JST connector, or from an unregulated 5–12 V supply into the 5V pin and GND.
 
-**Good for: Instrument prototyping, wireless sensors, dedicated wifi protocols,**  
+**Typical use**:
+- Wireless sensor nodes and instruments — the board reads the sensors and streams OSC or MIDI over WiFi to a laptop, with no cable to trip over.
+- Battery-powered pieces that must keep running unplugged: the LiPo connector and the deep-sleep modes are both on board.
 
-**Bad for: Audio-rate use, computationally demanding tasks**
+**Good for**:
+- WiFi and Bluetooth without an add-on radio, which is the entire argument for it
+- Two cores and plenty of RAM — networking on one, your loop on the other
+- Capacitive touch pins straight on the chip; see the ESP-32 touch sensor entry
+- Runs from a LiPo and charges over USB; deep sleep measured in microamps
 
-**Sensorwiki link**:
+**Bad for**:
+- Audio-rate work and hard real-time timing — WiFi activity steals cycles at unpredictable moments
+- Anything that assumes 5 V tolerance; it has none
+- Clean analog input: the ADC is noisy and non-linear near the rails, and **ADC2 cannot be read while WiFi is on**
+- A weak supply — the radio draws current in bursts on transmit, and an undersized USB port shows up as random reboots rather than as an obvious power fault
 
-**Buy link**: [http://www.lilygo.cn/prod_view.aspx?TypeId=50063&Id=1258](http://www.lilygo.cn/prod_view.aspx?TypeId=50063&Id=1258)
+**Typical gotchas — the four things that cost a day with this board**:
 
-## Pinout diagram
+**1 · The USB port may not appear at all.** The serial chip is a **CH34x**, which macOS has no driver for. Install it from [wch.cn](https://www.wch.cn/downloads/CH34XSER_MAC_ZIP.html) following the [WCH instructions](https://github.com/WCHSoftGroup/ch34xser_macos). Until then the board is invisible to the IDE and looks dead.
 
-Some pinouts are not indicated correctly (e.g. the SDA and SCL pins)
+**2 · The I2C pins are mislabelled.** The published pinout names the wrong pins for SDA and SCL, so I2C fails out of the box with nothing pointing at the cause. Fix it in the board's `pin_arduino.h`:
 
-![esp32_pin.jpeg](esp-32-ttgo-3.jpeg)
-
-[https://github.com/LilyGO/ESP32-MINI-32-V1.3](https://github.com/LilyGO/ESP32-MINI-32-V1.3)
-
-IMPORTANT Configuration Notes:
-
-## USB - Serial Communication
-
-The USB connection may not be recognised automatically. It may be necessary to install the appropriate drivers for the serial communication chip of the TTGO microcontroller. Download the driver from this link https://www.wch.cn/downloads/CH34XSER_MAC_ZIP.html, and  follow the installation instructions:  https://github.com/WCHSoftGroup/ch34xser_macos
-
----
-
-## I2C Communication
-
-The I2C communication will not work out-of-the-box. This happens because the pins for the I2C communication of the TTGO is not marked correctly on the pinout diagram. 
-
-To solve this you have to change the pins for the I2C communictaion (SDA and SCL) in the configuration file (pin_arduino.h). of the board.  Use the “Go” function of Finder (if you are on Mac), press the alt/opt key to show the hidden files (Library), and choose it. Search in this directory for the pin_arduino.h file  which is located inside Esp32 Library/model_name. Example: /Users/macmini/Library/Arduino15/packages/esp32/hardware/esp32/3.1.0/variants/ttgo-t7-v13-mini32
-
-Change the pins in the file. Suggested pins: 
-
-```python
+```c
 static const uint8_t SDA = 19;
 static const uint8_t SCL = 23;
 ```
 
-Keep in mind that every time that the drivers/libraries of the ESP32 are updated the pin_arduino.h file returns to its default state and the I2C will not work, so it’s needed to be changed again.
+On macOS that file is inside the hidden Library folder — Finder's *Go* menu with alt/opt held — at a path like `~/Library/Arduino15/packages/esp32/hardware/esp32/3.1.0/variants/ttgo-t7-v13-mini32`. **Every ESP32 core update resets the file**, and I2C silently stops working until you edit it again.
 
----
+**3 · OSC and analog input can collide.** On some systems, instantiating OSC conflicts with certain ADC pins; prefer `analogRead` on **pin 32**.
 
-## OSC Communication
+**4 · A sketch that will not upload.** Current spikes can leave the flash status in a state that blocks uploads. Clear it once with `esptool.py write_flash_status --non-volatile 0`.
 
-Because of a conflict that might happen in some OS, when instantiating OSC communication prefer AnaloRead from pin 32 over.
+**Mini Jack connection diagram**: N/A — a host board, not a patchable element. Sensors reach it over I2C (see the pin warning above), SPI or the analog pins.
 
----
+**Component diagram**:
 
-## Rare error while uploading
+![TTGO pinout — note that SDA and SCL are not labelled correctly here](esp-32-ttgo-3.jpeg)
 
-Rare error caused by current spikes prevents sketch uploading, solved with: 
+![TTGO board dimensions](esp-32-ttgo-2.jpeg)
 
-```python
-esptool.py write_flash_status --non-volatile 0
+**Links**: [LilyGO ESP32-MINI-32 V1.3 repository](https://github.com/LilyGO/ESP32-MINI-32-V1.3) · [CH34x macOS driver](https://www.wch.cn/downloads/CH34XSER_MAC_ZIP.html) · [CH34x install instructions](https://github.com/WCHSoftGroup/ch34xser_macos)
+
+**Buy**: [LilyGO product page](http://www.lilygo.cn/prod_view.aspx?TypeId=50063&Id=1258)
+
+**Use instructions/Tutorials**: Install the ESP32 boards package in the Arduino IDE, install the CH34x driver, then select the TTGO T7 v1.3 Mini32 variant. Apply the `pin_arduino.h` edit above before expecting I2C to work, and re-apply it after every core update. For battery use, a LiPo plugs into the JST connector and charges over USB.
+
+**Arduino IDE sketches**: Standard ESP32 core — a WiFi connection is four lines.
+```cpp
+#include <WiFi.h>
+void setup() {
+  Serial.begin(115200);
+  WiFi.begin("ssid", "password");
+  while (WiFi.status() != WL_CONNECTED) { delay(250); Serial.print('.'); }
+  Serial.println(WiFi.localIP());
+}
+void loop() {}
 ```
 
----
+**Relevant software files**: —
 
-## Power
+**Extra and gratuitous information and images**: ESP32 dual-core at 240 MHz, WiFi b/g/n and Bluetooth, capacitive touch inputs, two DACs, CH34x USB-serial, JST LiPo connector with charging, 3.3 V logic throughout. The pinout image above is the one that shipped with the board — it is the document with the wrong I2C labels, kept because it is otherwise the clearest view of the pin layout.
 
-Power the board from USB, battery connector, or use unregulated power source between 5 and 12V connected to 5V input pin and GND
+![ESP32 TTGO board](esp-32-ttgo-4.jpg)
 
-![TTGO dimensions.jpeg](esp-32-ttgo-2.jpeg)
-
-![ESPgit.jpeg](esp-32-ttgo-1.jpeg)
+![ESP32 TTGO](esp-32-ttgo-1.jpeg)
