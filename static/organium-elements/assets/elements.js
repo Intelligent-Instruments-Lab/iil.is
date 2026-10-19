@@ -1,4 +1,4 @@
-const ELEMENTS_DATE = "2026-03-28";
+const ELEMENTS_DATE = "2026-10-19";
 const ELEMENTS = [
   {
     name: "Adjustable 10k voltage divider with alligator clips",
@@ -343,18 +343,6 @@ const ELEMENTS = [
     type: "Resistor, Sensor"
   },
   {
-    name: "Template",
-    page: "element.html?file=database/Organium_Elements/Template.md",
-    img: "assets/img/thumbs/template-1-1.jpg",
-    type: "Actuator, Amplifier, Sensor"
-  },
-  {
-    name: "Template (1)",
-    page: "element.html?file=database/Organium_Elements/Template_(1).md",
-    img: "assets/img/thumbs/template-1-1.jpg",
-    type: "Integrated System, Sensor"
-  },
-  {
     name: "Tilt switch",
     page: "element.html?file=database/Organium_Elements/Tilt_switch.md",
     img: "assets/img/thumbs/tilt-switch-2.jpg",
@@ -371,24 +359,6 @@ const ELEMENTS = [
     page: "element.html?file=database/Organium_Elements/Ultrasonic_Distance_Sensor_(HRSC04).md",
     img: "assets/img/thumbs/ultrasonic-distance-sensor-hrsc04-1.jpg",
     type: "Sensor"
-  },
-  {
-    name: "Untitled",
-    page: "element.html?file=database/Organium_Elements/Untitled.md",
-    img: null,
-    type: ""
-  },
-  {
-    name: "Untitled",
-    page: "element.html?file=database/Organium_Elements/Untitled_d6d2cfa4.md",
-    img: null,
-    type: ""
-  },
-  {
-    name: "Untitled",
-    page: "element.html?file=database/Organium_Elements/Untitled_eca3192c.md",
-    img: null,
-    type: ""
   },
   {
     name: "Velcro prototyping panel",

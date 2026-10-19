@@ -8,6 +8,8 @@ Connection: N/A
 Status: Done
 Voltage: 3 x AA batteries (4.5V)
 Panel: Integrated Systems
+Published: No
+Hidden: second copy of the blank authoring template
 
 ![HydroMoth.jpg](template-1-1.png)
 
