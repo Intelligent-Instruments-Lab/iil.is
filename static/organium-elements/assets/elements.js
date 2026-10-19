@@ -163,12 +163,6 @@ const ELEMENTS = [
     type: "Sensor"
   },
   {
-    name: "IANG (wireless controller)",
-    page: "element.html?file=database/Organium_Elements/IANG_(wireless_controller).md",
-    img: "assets/img/thumbs/iang-wireless-controller-1.jpg",
-    type: "Sensor"
-  },
-  {
     name: "Infrared (IR) proximity senso",
     page: "element.html?file=database/Organium_Elements/Infrared_(IR)_proximity_senso.md",
     img: "assets/img/thumbs/infrared-ir-proximity-senso-1.jpg",

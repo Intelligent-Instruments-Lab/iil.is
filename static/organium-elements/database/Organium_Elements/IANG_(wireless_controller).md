@@ -6,6 +6,8 @@ Senses: Motion (acceleration) and pushed buttons
 Actuates: Data over wifi
 Status: In progress
 Voltage: Charges over 5V?
+Published: No
+Hidden: lab-specific wireless controller; its README attachment was never exported with the Notion archive
 
 ![332401794_695511495703053_7426609253488609246_n-removebg-preview.jpg](iang-wireless-controller-3.jpg)
 
