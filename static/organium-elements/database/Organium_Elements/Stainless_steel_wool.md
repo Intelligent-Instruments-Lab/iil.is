@@ -1,5 +1,7 @@
 # Stainless steel wool
 
+Category: INPUTS
+Modality: CONDUCTIVE
 Type: Material
 Added: January 19, 2023 5:01 PM
 Senses: N/A (passive material)
@@ -7,7 +9,6 @@ Actuates: N/A (conductive material)
 Connection: N/A
 Status: Done
 Voltage: N/A
-Panel: E-textiles
 
 ![steelthread.jpg](stainless-steel-wool-1.jpg)
 
@@ -21,7 +22,7 @@ Panel: E-textiles
 
 **Voltage**: N/A (passive conductive material, voltage depends on application)
 
-**Typical use**: Conductive felted wool creation, wearable electronics, soft sensors, textile interfaces, conductive thread alternative, pressure-sensitive fabrics, capacitive touch surfaces.
+**Typical use**: Soft conductive contacts — felted into a pad whose resistance drops as it is squeezed, or used as a touch surface where a metal plate would feel wrong. Because it felts into ordinary wool, the sensor becomes part of the textile rather than something glued onto it.
 
 **Good for**:
 

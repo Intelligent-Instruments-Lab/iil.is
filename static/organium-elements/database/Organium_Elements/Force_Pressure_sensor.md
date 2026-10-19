@@ -1,5 +1,8 @@
 # Force/Pressure sensor
 
+Category: INPUTS
+Modality: TACTILE
+Subtype: BEND
 Type: Resistor, Sensor
 Added: January 9, 2023 3:47 PM
 Senses: Force applied by pressing the circular sensing area
@@ -40,7 +43,7 @@ Voltage: 3.3-5
 - Very light touch detection (<10g)
 - Long-term continuous pressure (can drift)
 
-**Mini Jack connection diagram:** 
+**Mini Jack connection diagram:**
 
 ![fsr_10k_bb.svg](force-pressure-sensor-4.svg)
 
@@ -119,3 +122,5 @@ Show Image
 ![force2.jpeg](force-pressure-sensor-3.jpeg)
 
 ![Force_Sensor.png](force-pressure-sensor-1.png)
+
+![Force_Pressure_sensor](force-pressure-sensor-1.jpg)

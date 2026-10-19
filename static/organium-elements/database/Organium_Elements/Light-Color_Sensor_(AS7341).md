@@ -65,11 +65,11 @@ Panel: Digital Inputs/Sensors
 
 **Arduino IDE sketches**:
 
-[AS_7341.ino](Light-Color%20Sensor%20(AS7341)/AS_7341.ino)
+AS_7341.ino
 
 **Relevant software files**:
 
-[AS_7341_OSC.maxpat](Light-Color%20Sensor%20(AS7341)/AS_7341_OSC.maxpat)
+AS_7341_OSC.maxpat
 
 **Extra and gratuitous information and images**:
 

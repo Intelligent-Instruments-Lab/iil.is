@@ -1,5 +1,7 @@
 # PIR (motion sensor)
 
+Category: INPUTS
+Modality: PROXIMITY / DISTANCE
 Type: Sensor
 Added: February 17, 2023 2:36 PM
 Senses: Motion (infrared changes from moving warm bodies)
@@ -7,7 +9,6 @@ Actuates: Digital signal (HIGH/LOW)
 Connection: Minijack
 Status: Done
 Voltage: 5-12V DC
-Panel: Digital Inputs/Sensors
 
 ![image.jpg](pir-motion-sensor-2.jpg)
 
@@ -23,7 +24,7 @@ Panel: Digital Inputs/Sensors
 
 **Voltage**: 5-12V DC operating voltage, digital output (3.3V or 5V compatible)
 
-**Typical use**: Motion-activated lighting, security systems, presence detection, automatic door triggers, energy-saving systems, occupancy sensing, interactive installations.
+**Typical use**: Knowing somebody is there without watching them — a piece that wakes when a visitor enters and settles again when the room empties. It reports presence as a plain digital pulse, with no camera and nothing that could identify anyone.
 
 **Good for**:
 
@@ -50,11 +51,16 @@ Panel: Digital Inputs/Sensors
 
 **Component diagram**:
 
+![PIR pinout — front, back, the three pins and the two trim pots](diagram-pir-pinout.svg)
+
 - **VCC**: 5-12V power
 - **GND**: Ground
 - **OUT**: Digital output (HIGH on motion, LOW no motion)
 - **Sensitivity pot**: Adjusts detection sensitivity
-- **Time delay pot**: Adjusts how long output stays HIGH after detection
+- **Time delay pot**: Adjusts how long output stays HIGH after detection (Tx)
+- **Retrigger jumper (H / L)**: on **H** the output stays HIGH for as long as movement keeps happening, each new detection restarting Tx; on **L** it gives one burst of Tx and then drops, ignoring anything that moves in the meantime. A light that goes off while somebody is plainly still in the room is almost always a jumper left on L.
+
+![PIR retrigger jumper — H keeps the output high while movement continues, L gives one fixed burst](diagram-pir-timing.svg)
 
 **Links**:
 

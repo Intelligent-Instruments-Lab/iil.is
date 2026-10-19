@@ -1,5 +1,7 @@
 # Tilt switch
 
+Category: INPUTS
+Modality: MOTION
 Type: Sensor
 Added: January 13, 2023 10:49 AM
 Senses: Basic orientation (tilt angle)
@@ -7,7 +9,6 @@ Actuates: Digital on/off signal based on orientation
 Connection: minijack
 Status: Done
 Voltage: Up to 24V, switching less than 5mA
-Panel: Analog Inputs/Sensors
 
 ![imageedit_58_2736298866.jpg](tilt-switch-2.jpg)
 
@@ -98,3 +99,5 @@ void loop() {
 **Limitations**: Binary output only (on/off). For precise angle measurement or multi-axis sensing, use accelerometer like [BNO055](https://www.notion.so/intelligentinstruments/Accelerometer%20(BNO055)).
 
 ![Tilt.jpeg](tilt-switch-1.jpeg)
+
+![Tilt_switch](tilt-switch-1.jpg)

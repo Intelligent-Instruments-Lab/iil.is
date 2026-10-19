@@ -1,5 +1,7 @@
 # Hydrophone
 
+Category: INPUTS
+Modality: AUDIO
 Type: Sensor
 Added: January 11, 2023 2:48 PM
 Senses: Underwater sound, vibrations in water
@@ -7,7 +9,6 @@ Actuates: Audio signal output
 Connection: Minijack
 Status: Done
 Voltage: Depends on preamp circuit (typically 3.3-9V)
-
 
 **Name**: Hydrophone (Underwater Microphone)
 
@@ -19,7 +20,7 @@ Voltage: Depends on preamp circuit (typically 3.3-9V)
 
 **Voltage**: Preamp circuit typically 3.3-9V (piezo element itself is passive)
 
-**Typical use**: Underwater sound recording, marine biology research, underwater performance installations, aquatic instrument sensing, hydroacoustic monitoring, interactive water installations.
+**Typical use**: Listening underwater — field recording in a river, a harbour or the sea, or a live feed out of a tank into a piece. It also works as a contact pickup for vibration carried by liquid rather than by air.
 
 **Good for**:
 

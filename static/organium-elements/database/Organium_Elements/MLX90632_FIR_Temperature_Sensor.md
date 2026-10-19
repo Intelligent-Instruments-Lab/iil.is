@@ -1,5 +1,7 @@
 # MLX90632 FIR Temperature Sensor
 
+Category: INPUTS
+Modality: ENVIRONMENT
 Type: Sensor
 Added: March 10, 2026 2:08 PM
 Senses: Infrared/thermal temperature (contactless)
@@ -7,7 +9,6 @@ Actuates: Digital data via I2C
 Connection:  I2C (configurable address)
 Status: Done
 Voltage: 3.3V
-Panel: Digital Inputs/Sensors
 
 ![MLX90632.jpg](mlx90632-fir-temperature-sensor-1.png)
 
@@ -84,12 +85,12 @@ Adafruit_MLX90632 mlx = Adafruit_MLX90632();
 
 void setup() {
   Serial.begin(115200);
-  
+
   if (!mlx.begin()) {
     Serial.println("MLX90632 not found!");
     while (1) { delay(10); }
   }
-  
+
   // Medical mode: 35-42°C, ±0.2°C accuracy
   // Extended mode: -20 to 100°C
   mlx.setMode(MLX90632_MODE_MEDICAL);
@@ -98,13 +99,13 @@ void setup() {
 void loop() {
   float objectTemp = mlx.readObjectTemp();
   float ambientTemp = mlx.readAmbientTemp();
-  
+
   Serial.print("Object: ");
   Serial.print(objectTemp, 2);
   Serial.print("°C  Ambient: ");
   Serial.print(ambientTemp, 2);
   Serial.println("°C");
-  
+
   delay(500);
 }`
 
@@ -151,3 +152,5 @@ void loop() {
 **Weight**: 1.7g / 0.1oz
 
 ##
+
+![MLX90632_FIR_Temperature_Sensor](mlx90632-fir-temperature-sensor-1.jpg)

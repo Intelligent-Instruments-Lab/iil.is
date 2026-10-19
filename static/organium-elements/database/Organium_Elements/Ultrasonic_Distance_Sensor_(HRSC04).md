@@ -74,7 +74,7 @@ Panel: Digital Inputs/Sensors
 
 **Arduino IDE sketches**:
 
-[HR_SC04.ino](Ultrasonic%20Distance%20Sensor%20(HRSC04)/HR_SC04.ino)
+HR_SC04.ino
 
 **Relevant software files**: HC-SR04 arduino library
 

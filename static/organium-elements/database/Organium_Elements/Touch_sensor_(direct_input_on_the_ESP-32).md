@@ -1,5 +1,7 @@
 # Touch sensor (direct input on the ESP-32)
 
+Category: INPUTS
+Modality: CAPACITIVE
 Type: Sensor
 Added: October 2, 2024 2:45 PM
 Senses: Touch (capacitive sensing of conductive contact)
@@ -7,7 +9,6 @@ Actuates: Continuous digital values
 Connection: N/A
 Status: Done
 Voltage: N/A (integrated into ESP32 microcontroller, powered by board voltage)
-Panel: N/A
 
 ![image.png](touch-sensor-direct-input-on-the-esp-32-1.png)
 
@@ -21,7 +22,7 @@ Panel: N/A
 
 **Voltage**: N/A (powered by board voltage, typically 3.3V)
 
-**Typical use**: Touch-based parameter control, button alternatives, gestural interfaces, capacitive switches, interactive surfaces, wearable touch controls.
+**Typical use**: Touch input with no button and no extra chip — a pin wired to a nail head, a strip of copper tape or a length of conductive thread becomes the control surface, so the thing being touched can be whatever suits the object.
 
 **Good for**:
 
@@ -67,7 +68,7 @@ void setup() {
 void loop() {
   int touchValue = touchRead(touchPin);
   Serial.println(touchValue);
-  
+
   if (touchValue < 40) { // Threshold (adjust)
     Serial.println("Touch detected!");
   }

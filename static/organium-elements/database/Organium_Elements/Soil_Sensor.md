@@ -1,5 +1,7 @@
 # Soil Sensor
 
+Category: INPUTS
+Modality: ENVIRONMENT
 Type: Sensor
 Added: March 10, 2026 2:23 PM
 Senses: Soil moisture (capacitive), temperature
@@ -7,7 +9,6 @@ Actuates: Digital data via I2C
 Connection: I2C (STEMMA 4-pin JST PH 2mm)
 Status: Done
 Voltage: 3-5V
-Panel: Digital Inputs/Sensors
 
 ![soil_sensor.jpg](soil-sensor-1.png)
 
@@ -85,7 +86,7 @@ Adafruit_seesaw ss;
 
 void setup() {
   Serial.begin(115200);
-  
+
   if (!ss.begin(0x36)) {
     Serial.println("Seesaw not found!");
     while(1) delay(1);
@@ -95,12 +96,12 @@ void setup() {
 void loop() {
   float tempC = ss.getTemp();
   uint16_t moisture = ss.touchRead(0);
-  
+
   Serial.print("Temperature: ");
   Serial.print(tempC);
   Serial.print("°C  Moisture: ");
   Serial.println(moisture);
-  
+
   delay(1000); // Extended delay needed
 }`
 
@@ -148,3 +149,5 @@ void loop() {
 **Weight**: 4.0g / 0.1oz
 
 ##
+
+![Soil_Sensor](soil-sensor-1.jpg)

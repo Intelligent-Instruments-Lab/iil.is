@@ -1,5 +1,7 @@
 # Stereo 2.1W Class D Audio Amplifier - TPA2012
 
+Category: PROCESSING
+Modality: DRIVERS
 Type: Amplifier
 Added: February 23, 2023 2:21 PM
 Senses: N/A (amplifier)
@@ -7,7 +9,6 @@ Actuates: Amplified audio signal to speakers
 Connection: pins / terminals
 Status: Done
 Voltage: 2.7-5.5V input, outputs 2.1W per channel
-Panel: Analog Outputs/Actuators
 
 ![849236CB-FE03-439D-BEC4-7F5B40997D05.jpeg](stereo-2-1w-class-d-audio-amplifier---tpa2012-1.jpeg)
 
@@ -21,7 +22,7 @@ Panel: Analog Outputs/Actuators
 
 **Voltage**: Input: 2.7-5.5V DC, Output: 2.1W per channel @ 4Ω, 1.4W per channel @ 8Ω
 
-**Typical use**: Portable audio projects, battery-powered speakers, small instrument amplification, multimedia installations, headphone driving, low-power audio systems.
+**Typical use**: Driving a pair of small speakers from a battery — the class-D output stage wastes very little as heat, so a portable instrument or a self-contained sound object gets to a usable volume without a heatsink or a mains supply.
 
 **Good for**:
 
@@ -75,7 +76,7 @@ Can be controlled via audio output from microcontroller (DAC or PWM audio)
 
 `// Connect to Arduino audio output
 // Enable amplifier via SD pin
-int sdPin = 8; 
+int sdPin = 8;
 void setup() {
   pinMode(sdPin, OUTPUT);
   digitalWrite(sdPin, HIGH); // Enable amp
@@ -92,3 +93,5 @@ void setup() {
 **Efficiency advantage**: Class D amplifiers waste minimal power as heat (~85-90% efficient vs ~50-70% for Class AB), ideal for battery-powered projects.
 
 **Applications**: Portable Bluetooth speakers, instrument amplification, multimedia projects, battery-powered audio systems, small installation speakers
+
+![Stereo_2_1W_Class_D_Audio_Amplifier_-_TPA2012](stereo-2-1w-class-d-audio-amplifier---tpa2012-1.jpg)

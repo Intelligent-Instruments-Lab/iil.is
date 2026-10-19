@@ -23,7 +23,7 @@ Typical use:** As a rugged, stable controller for your software.
 **Buy:** Not available
 **Instructions:**
 
-[README.rtf](IANG%20(wireless%20controller)/README.rtf)
+README.rtf
 
 **Software/examples:** [https://www.julianscordato.com/patches/iang_1.5.zip](https://www.julianscordato.com/patches/iang_1.5.zip)
 **Notes:** The builder requires to build standalone applications in case there is need to share the software externally

@@ -1,5 +1,7 @@
 # Motor Driver (DRV8833)
 
+Category: PROCESSING
+Modality: DRIVERS
 Type: Amplifier, Driver
 Added: February 23, 2023 2:51 PM
 Senses: N/A
@@ -22,7 +24,7 @@ Voltage: 2.7-10.8V motor power, 1.8-7V logic level
 
 **Voltage**: 2.7-10.8V (motor power and logic inputs), Output current: 1.5A per channel continuous (2A peak)
 
-**Typical use**: Low-voltage robotics, battery-powered projects, small DC motors, vibration motors, 3-6V motor control, portable motorized instruments.
+**Typical use**: Driving small 3-6V DC motors from logic — two motors forward and reverse, or one stepper. The low voltage range is the point: it suits battery-powered and vibration motors that a 12V driver would over-drive.
 
 **Good for**:
 
@@ -40,6 +42,29 @@ Voltage: 2.7-10.8V motor power, 1.8-7V logic level
 - High current motors (>1.5A continuous)
 - Motors requiring 12V operation (use TB6612 instead)
 - Heavy-duty applications
+
+**Compatible motors (which of these it drives):**
+A DRV8833 = **two DC motors** (one per H-bridge, bidirectional PWM) **or one bipolar stepper**, at **2.7–10.8 V**. The room has **7× DRV8833**.
+
+*In hand now (Rev5, received):*
+| Motor / load | DRV8833? | Note |
+|---|---|---|
+| **DollaTek 130 DC motor** 3–6 V (×20) | ✅ yes | the only in-hand DC motor — 2 per board |
+| **Water pump, air pump, USB fans, vibrating/haptic motor** | ✅ yes | small DC loads, one per H-bridge (a DRV2605L is better for *fine* haptics) |
+| **Electromagnet 5 V** (×10) | ⚠️ possible | in range, but a relay is cleaner for simple on/off |
+| **Solenoid 12 V (#412, ×20)** | ❌ no | 12 V > 10.8 V ceiling → use **TB6612** or a relay/MOSFET |
+| **Servos** (#154 / #155 / #1404) | ❌ no | servos need a PWM *signal*, not an H-bridge → use **PCA9685** or a direct MCU pin |
+
+*Rev6 (proposed — not yet ordered), where the DRV8833 is the ideal match:*
+| Motor | DRV8833? | Note |
+|---|---|---|
+| **DC Gearbox "TT" motor #3777** (3–6 V) | ✅ ideal | running current well under 1 A/ch |
+| **2WD robot chassis #3244** (2 TT motors) | ✅ perfect | one DRV8833 = both wheels, bidirectional |
+| **N20 gearmotor 6 V #4638** | ✅ yes | geared, low current |
+| **NEMA-8 stepper #4411** | ✅ yes | one bipolar stepper per board |
+| **NEMA-17 12 V stepper #324** | ❌ no | 12 V → **TB6612** |
+
+**Rule of thumb (our driver stash):** DRV8833 → our **3–6 V DC motors** (2/board) or one small bipolar stepper · **TB6612 (×5, →13.5 V)** → the 12 V stepper/solenoid · **DRV8871 (×6, 3.6 A)** → a bigger/higher-current single DC motor or pump · **PCA9685 (×2)** → the servos · **DRV2605L (×5)** → fine haptics.
 
 **Mini Jack connection diagram**: N/A (breakout board with headers)
 
@@ -91,3 +116,5 @@ https://learn.adafruit.com/adafruit-drv8833-dc-stepper-motor-driver-breakout-boa
 **TB6612 vs DRV8833**: Use DRV8833 for 3-9V motors (LiPo batteries, small hobby motors). Use TB6612 for 6-12V motors (higher voltage applications).
 
 **Typical applications**: vibration motor control, low-voltage actuators, battery-powered motorized projects, toy motors
+
+![Motor_Driver_(DRV8833)](motor-driver-drv8833-1.jpg)

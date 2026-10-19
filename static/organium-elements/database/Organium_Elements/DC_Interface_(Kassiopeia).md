@@ -32,7 +32,7 @@ Chrisi adds:
 
 “Just for some more inspiration, with the bare DC cables I provided you, you can essentially solder them to anything that could be battery powered. We are using the Kassiopeia with small portable LCD TVs (you know the "90s trucker" kind), small record players that have a DC power supply, LED stripes, guitar pedals for "power starving" effects, motors, ... A lot of fun can be had with it :)”
 
-[Kassiopeia Proto2 Schematics.pdf](DC%20Interface%20(Kassiopeia)/Kassiopeia_Proto2_Schematics.pdf)
+Kassiopeia Proto2 Schematics.pdf
 
 ![Koma2.jpeg](dc-interface-kassiopeia-1.jpeg)
 

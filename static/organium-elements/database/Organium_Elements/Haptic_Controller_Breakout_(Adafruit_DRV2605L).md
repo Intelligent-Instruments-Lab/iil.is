@@ -1,5 +1,7 @@
 # Haptic Controller Breakout (Adafruit DRV2605L)
 
+Category: PROCESSING
+Modality: DRIVERS
 Type: Amplifier
 Added: February 7, 2023 11:49 AM
 Status: Done
@@ -16,7 +18,7 @@ Status: Done
 
 **Voltage**: 3.3-5V logic, 3-5.2V motor power supply, max 250mA output
 
-**Typical use**: Adding haptic feedback to interfaces, wearables, instruments, controllers. Provides tactile notifications, button confirmation, alerts, immersive haptic experiences.
+**Typical use**: Giving a control a physical answer — a click felt under a touch surface that has no moving parts, or a defined buzz pattern pulled from the chip's built-in effect library with one I2C write instead of hand-timed PWM.
 
 **Good for**:
 
@@ -46,9 +48,9 @@ Status: Done
 **Links**:
 
 - [Adafruit DRV2605L Guide](https://learn.adafruit.com/adafruit-drv2605-haptic-controller-breakout/overview)
-    
+
     [Adafruit DRV2605L Haptic Controller Breakout](https://learn.adafruit.com/adafruit-drv2605-haptic-controller-breakout/overview)
-    
+
 - Library Documentation:
 [https://adafruit.github.io/Adafruit_DRV2605_Library/html/class_adafruit___d_r_v2605.html](https://adafruit.github.io/Adafruit_DRV2605_Library/html/class_adafruit___d_r_v2605.html)
 

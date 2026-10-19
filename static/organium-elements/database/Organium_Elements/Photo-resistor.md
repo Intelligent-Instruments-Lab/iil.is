@@ -1,13 +1,14 @@
 # Photo-resistor
 
+Category: INPUTS
+Modality: LIGHT
 Type: Sensor
 Added: January 17, 2023 10:38 AM
-Senses: Luminosity 
+Senses: Luminosity
 Actuates: Analog voltage output via voltage divider
 Connection: minijack
 Status: Done
 Voltage: 0-5, 0-3.3 Volts
-Panel: Analog Inputs/Sensors
 
 ![Ljos.jpeg](photo-resistor-2.jpeg)
 
@@ -75,3 +76,5 @@ Voltage divider configuration:
 **Voltage divider calculation**: With 10kΩ fixed resistor, output voltage = 5V × (10kΩ / (10kΩ + LDR resistance))
 
 ![5F3FF2ED-4982-44A0-9CA1-06BDCDEA5C5A.jpeg](photo-resistor-1.jpeg)
+
+![Photo-resistor](photo-resistor-1.jpg)

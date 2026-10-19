@@ -1,5 +1,7 @@
 # Temperature Sensor
 
+Category: INPUTS
+Modality: ENVIRONMENT
 Type: Resistor, Sensor
 Added: January 9, 2023 3:49 PM
 Senses: Temperature
@@ -7,7 +9,6 @@ Actuates: Analog voltage output
 Connection: minijack
 Status: Done
 Voltage: 2.7-5.5V, analog output 0V @ -50°C to 1.75V @ 125°C
-Panel: Analog Inputs/Sensors
 
 ![var-removebg-preview.jpg](temperature-sensor-1.jpg)
 
@@ -21,7 +22,7 @@ Panel: Analog Inputs/Sensors
 
 **Voltage**: Supply: 2.7-5.5V, Output: 0V @ -50°C to 1.75V @ 125°C (10mV/°C)
 
-**Typical use**: Temperature monitoring, environmental sensing, thermal control systems, weather stations, temperature-responsive installations, climate data logging.
+**Typical use**: Reading the temperature of a place or a surface — logging how a room drifts over a day, or watching something that gets hot (a motor, a supply, a closed enclosure) so the piece can react or shut itself down before anything cooks.
 
 **Good for**:
 

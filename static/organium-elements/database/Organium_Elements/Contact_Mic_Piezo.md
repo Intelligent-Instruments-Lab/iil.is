@@ -1,5 +1,7 @@
 # Contact Mic / Piezo
 
+Category: INPUTS
+Modality: AUDIO
 Type: Sensor, Transducer
 Added: November 15, 2022 10:37 AM
 Senses: Vibrations in materials
@@ -7,7 +9,6 @@ Actuates: Can vibrate (act as a weak speaker)
 Connection: Minijack
 Status: Done
 Voltage: Produces weak current (variable voltage output when sensing)
-Panel: Analog Inputs/Sensors
 
 ![NOTE: Needs a preamp to get a good signal (and protect certain inputs you may want to connect it too:](contact-mic-piezo-1.jpg)
 
@@ -52,10 +53,9 @@ Piezo disc → Preamp circuit → Audio input/amplifier
 **Links**:
 
 - [Wikipedia: Piezoelectric Sensor](https://en.wikipedia.org/wiki/Piezoelectric_sensor)
-- 
-    
-    [Piezo Preamp](Piezo%20Preamp%20b70c3dcb8e7342e7854bad2e8417dc77.md)
-    
+-
+
+    Piezo Preamp
 
 **Extra and gratuitous information and images:**
 

@@ -1,5 +1,8 @@
 # Electromagnet
 
+Category: OUTPUTS
+Modality: MOTION
+Subtype: SOLENOID
 Type: Sensor, Transducer
 Added: January 17, 2023 10:44 AM
 Senses: Can sense ferromagnetic objects (like a pickup, but not optimized)
@@ -7,7 +10,6 @@ Actuates: Vibrates/attracts ferromagnetic materials
 Connection: Minijack
 Status: Done
 Voltage: AC as an audio exciter (with amplifier) or 12V DC if used as magnet.
-Panel: Analog Outputs/Actuators
 
 ![Electromagnet.jpg](electromagnet-1.jpg)
 
@@ -17,7 +19,7 @@ Panel: Analog Outputs/Actuators
 
 **Principle**: Creates magnetic field when charged. Copper coil wrapped around iron/ferrite core generates electromagnetic field proportional to current. Can attract ferromagnetic materials or vibrate them with AC signal.
 
-**Function**: Attracts ferromagnetic objects when energized (it will release them when no longer charged), or vibrates metal strings/objects when driven with audio-frequency AC signal (E-bow effect). 
+**Function**: Attracts ferromagnetic objects when energized (it will release them when no longer charged), or vibrates metal strings/objects when driven with audio-frequency AC signal (E-bow effect).
 
 **Voltage**: 12V DC (for magnetic holding), AC audio signal with amplifier (for string vibration)
 
@@ -44,7 +46,7 @@ Panel: Analog Outputs/Actuators
 - For AC (vibration): Audio amplifier output → Electromagnet coil
 - Polarity doesn't matter for AC; matters for DC attraction direction
 
-**Component diagram**: 
+**Component diagram**:
 
 Audio signal → Amplifier → Electromagnet → Vibrates ferromagnetic string/object
 
@@ -59,9 +61,9 @@ Example: [Amazon.de Electromagnet](https://www.amazon.de/-/en/Heschen-Elektromag
 Various sizes/strengths available from electronics suppliers
 
 **Make instructions**:
-Can wind your own: copper wire around iron core. More turns = stronger field but higher resistance. See: 
+Can wind your own: copper wire around iron core. More turns = stronger field but higher resistance. See:
 
-[Seancoils](Seancoils%2003cf2d33e9fe4ddabdf4505516b5657f.md)
+Seancoils
 
 notes for DIY coil development.
 
@@ -112,6 +114,6 @@ Motor driver libraries if using H-bridge control
 
 Workspace:
 
-[Coils with core - Notes](Seancoils/Coils%20with%20core%20-%20Notes%2023dd30160edf45a3afbde6667ffe382c.md) 
+Coils with core - Notes
 
-[2023 Electromagnets/coils dev notes](Electromagnet/2023%20Electromagnets%20coils%20dev%20notes%207973f09bb5324ee1867d21a39b5c8da2.md)
+2023 Electromagnets/coils dev notes

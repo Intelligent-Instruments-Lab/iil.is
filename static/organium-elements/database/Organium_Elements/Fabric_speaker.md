@@ -1,5 +1,7 @@
 # Fabric speaker
 
+Category: OUTPUTS
+Modality: AUDIO
 Type: Actuator
 Added: January 19, 2023 4:58 PM
 Status: Not started
@@ -14,7 +16,7 @@ Status: Not started
 
 **Bad for:** High fidelity sound reproduction
 
-**Sensorwiki link**: 
+**Sensorwiki link**:
 
 **Buy link**: Made in-lab
 
@@ -24,6 +26,6 @@ Status: Not started
 
 ![9E3B84E9-82DB-4D82-A2E0-DA1751AAD4A3.jpeg](fabric-speaker-2.jpeg)
 
-Experimental design using [conductive thread](Conductive%20thread%20f175fc5315d8435eb82695033e14e635.md) and neodymium magnets.
+Experimental design using [conductive thread](element.html?file=database/Organium_Elements/Conductive_thread.md) and neodymium magnets.
 
 Currently in development…

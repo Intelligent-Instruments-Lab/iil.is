@@ -1,5 +1,7 @@
 # AudioMoth
 
+Category: PROCESSING
+Modality: SYSTEMS
 Type: Integrated System, Sensor
 Added: March 10, 2026 4:34 PM
 Senses: Audio (8kHz-384kHz sampling)
@@ -7,7 +9,6 @@ Actuates: Records WAV files to microSD, USB audio output
 Connection: N/A
 Status: Done
 Voltage: 3 x AA batteries (4.5V), USB-powered (for USB microphone mode)
-Panel: Integrated Systems
 
 ![AudioMoth.jpg](audiomoth-1.png)
 
@@ -152,3 +153,5 @@ Panel: Integrated Systems
 **Data Format**: Uncompressed WAV files with embedded metadata (timestamps, gain settings, battery voltage)
 
 ##
+
+![AudioMoth](audiomoth-1.jpg)

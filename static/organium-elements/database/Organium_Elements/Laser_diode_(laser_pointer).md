@@ -1,5 +1,7 @@
 # Laser diode (laser pointer)
 
+Category: OUTPUTS
+Modality: LIGHT
 Type: Actuator
 Added: January 17, 2023 3:03 PM
 Senses: N/A
@@ -7,7 +9,6 @@ Actuates: Red laser light (650nm)
 Connection: minijack
 Status: Done
 Voltage: 2.8 - 5.2V
-Panel: Analog Actuators
 
 ![Laser-removebg-preview.jpg](laser-diode-laser-pointer-1.jpg)
 
@@ -23,7 +24,7 @@ Panel: Analog Actuators
 
 **Voltage**: 2.8-5.2V DC, 25mA max current
 
-**Typical use**: Laser harps (beam break detection), laser microphones (modulated audio transmission), optical triggers, light beam instruments, interactive installations.
+**Typical use**: Beam-break triggers — a beam across a doorway, a harp of beams cut by the hand, an optical tripwire read by an LDR or phototransistor. Also modulating the beam itself so it carries audio to a distant receiver (the laser-microphone trick).
 
 **Good for**:
 
@@ -59,7 +60,7 @@ Panel: Analog Actuators
 
 1. **Safety first**: Never point at eyes or reflective surfaces
 2. Use current-limiting resistor (calculate for 25mA max)
-3. For beam-break: Pair with  [Solar cell](Solar%20cell%20c684ed7dfe71478aa6ee790091aad483.md)  or photodiode
+3. For beam-break: Pair with  [Solar cell](element.html?file=database/Organium_Elements/Solar_cell.md)  or photodiode
 4. For modulation: Modulate power supply for audio transmission
 5. Secure mounting to prevent accidental eye exposure
 

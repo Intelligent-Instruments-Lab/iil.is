@@ -1,5 +1,7 @@
 # Conductive thread
 
+Category: INPUTS
+Modality: CONDUCTIVE
 Type: Resistor, Sensor
 Added: January 19, 2023 4:59 PM
 Senses: Touch, Bend, Pressure.
@@ -7,7 +9,6 @@ Actuates: Electrical signals through sewable circuits in textiles
 Connection: sewing
 Status: Done
 Voltage: 3.3-5 for connected circuits
-Panel: E-textiles
 
 ![conductive.jpg](conductive-thread-1.jpg)
 
@@ -21,7 +22,7 @@ Panel: E-textiles
 
 **Voltage**: 3.3-5V (typical for embedded electronics), suitable for low-power applications
 
-**Typical use**: E-textile projects, wearable electronics, soft circuits, capacitive touch sensors (with ESP-32’s capacitive sensor pins or Bela Trill), connecting LEDs in fabric, flexible switches, DIY pressure sensors, textile-based instruments.
+**Typical use**: Sewing a circuit into fabric — connecting LEDs and sensors in a garment where a wire would be stiff and would eventually break. Also soft capacitive touch, and stretch or pressure switches read by the ESP32's touch pins or a Trill Craft.
 
 **Good for**:
 
@@ -75,7 +76,7 @@ Thread sewn through fabric connecting: Power → Component → Ground, or creati
 
 - Connect thread to jumper wire and connect jumper wire to capacitance reading pin on ESP-32
 
-[Touch sensor (direct input on the ESP-32)](Touch%20sensor%20(direct%20input%20on%20the%20ESP-32)%20113a02c4d7f080fb9fbdc72b61c13928.md)
+[Touch sensor (direct input on the ESP-32)](element.html?file=database/Organium_Elements/Touch_sensor_%28direct_input_on_the_ESP-32%29.md)
 
 **For capacitive touch with Trill:**
 

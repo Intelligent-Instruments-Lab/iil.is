@@ -25,7 +25,7 @@ Published: No
 **Component diagram:** The coils have very close to 8Ω resistance.
 **Links:** N/A
 **Buy:** Homemade
-**Make instructions: [Seancoils](Seancoils%2003cf2d33e9fe4ddabdf4505516b5657f.md) 
+**Make instructions: Seancoils 
 Extra and gratuitous information and images:**
 
 We have put in one round of development to create a tidy package for the Seancoils. With two holes for mounting and a 3D printed enclosure. Any notes on how this package can be improved are welcomed.
@@ -40,4 +40,4 @@ The coreless coils we started developing from Sean’s original push are documen
 
 [Seancoils ](https://www.notion.so/Seancoils-cbed5e87951d4d29939438e85d6467f2?pvs=21)
 
-[Coils with core - Notes](Seancoils/Coils%20with%20core%20-%20Notes%2023dd30160edf45a3afbde6667ffe382c.md)
+Coils with core - Notes

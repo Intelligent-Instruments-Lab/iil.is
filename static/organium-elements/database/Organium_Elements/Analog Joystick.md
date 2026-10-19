@@ -1,12 +1,14 @@
 # Analog Joystick
 
+Category: INPUTS
+Modality: TACTILE
+Subtype: TURN
 Added: March 19, 2026 12:04 PM
 Senses: X and Y position (analog
 Actuates: Analog voltage output for parameter control
 Connection: Minijack
 Status: Done
 Voltage: 3.3-5V reference (analog output 0-VCC)
-Panel: Analog Inputs/Sensors
 Published: Yes
 
 ![](analog-joystick-1.jpg)
@@ -16,11 +18,20 @@ Published: Yes
 
 **Principle**: Dual-axis analog joystick using two independent 10KΩ potentiometers mechanically coupled to X and Y gantry with spring-return centering mechanism. Unlike arcade-style digital joysticks, this provides continuous analog position sensing via resistive voltage dividers.
 
-**Function**: Provides two-dimensional analog position input. Each axis outputs voltage proportional to deflection angle (±25°). Center position outputs VCC/2. Spring system returns joystick to center when released.
+**Function**: Provides two-dimensional analog position input. Each axis outputs voltage proportional to deflection angle (±25°). Center position outputs VCC/2. Spring system returns joystick to center when released. They differ in size, mounting and feel:
+
+| Flavour | Photo | Size / mount | Extras | Reach for it when |
+|---|---|---|---|---|
+| **Arcade-style / panel joystick** (Adafruit #3102) | first | 67 x 53 x 53 mm, panel-mount holes, six 2.8 mm spade tabs | — | It is played by hand as an instrument or installation control, and wants to be gripped, mounted in a panel and survive an exhibition |
+| **Thumb joystick breakout** (Adafruit, small blue PCB) | second | ~1.5 cm stick on a breakout board, breadboard/header pins | Adds a **SEL push-switch** — pressing the stick shorts SEL to ground | It goes on a breadboard, into a handheld or wearable controller, or you want the extra click of a button in the same gesture |
+
+The thumb version's breakout is silkscreened with the wiring: *"SEL shorts to ground when pressed; X and Y act like 10K pots; Xout and Yout are analog out"* — so it needs three pins (two analog, one digital) rather than two.
+
+![Analog thumb joystick](analog-joystick-2.jpg)
 
 **Voltage**: 3.3-5V reference voltage (user-defined), analog output 0-VCC
 
-**Typical use**: Robotics control, game controllers, camera pan/tilt, motor speed/direction, menu navigation, cursor control, manual positioning systems, analog input devices.
+**Typical use**: Two-axis hand control with a spring return to centre — steering a pan/tilt rig, setting motor speed and direction, or navigating a menu, in any case where letting go should mean "stop".
 
 **Good for**:
 - Smooth analog directional control
@@ -53,11 +64,11 @@ Published: Yes
 - Joystick grip/knob
 - Mounting holes
 
-**Links**: 
+**Links**:
 - https://www.adafruit.com/product/3102
 - Datasheet: https://cdn-shop.adafruit.com/product-files/3102/C4802-001+datasheet.pdf
 
-**Buy**: 
+**Buy**:
 - Adafruit #3102 ($19.95)
 - 2.8mm spade connector kit: Adafruit #4748 (fits connection tabs)
 
@@ -86,16 +97,16 @@ void setup() {
 void loop() {
   int xValue = analogRead(xPin);  // 0-1023 (center ~512)
   int yValue = analogRead(yPin);
-  
+
   // Map to -100 to +100 range
   int xPos = map(xValue, 0, 1023, -100, 100);
   int yPos = map(yValue, 0, 1023, -100, 100);
-  
+
   Serial.print("X: ");
   Serial.print(xPos);
   Serial.print(" Y: ");
   Serial.println(yPos);
-  
+
   delay(100);
 }
 ```
@@ -109,7 +120,7 @@ void loop() {
 
 **Relevant software files**: N/A (uses standard analogRead)
 
-**Extra and gratuitous information and images**: 
+**Extra and gratuitous information and images**:
 
 **Specifications:**
 - Resistance: 10KΩ ±10%

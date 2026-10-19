@@ -1,5 +1,8 @@
 # Footswitch
 
+Category: INPUTS
+Modality: TACTILE
+Subtype: PRESS
 Type: Sensor
 Added: November 20, 2024 12:08 PM
 Senses: Pressure force
@@ -7,7 +10,6 @@ Actuates: Digital or analog signal (button press/release)
 Connection: Minijack
 Status: Done
 Voltage: 3.3 - 5V
-Panel: Analog Inputs/Sensors
 
 ![1732099885993 copy.png](footswitch-1.png)
 
@@ -109,3 +111,5 @@ void loop() {
 - Tap tempo controls
 
 ##
+
+![Footswitch](footswitch-1.jpg)

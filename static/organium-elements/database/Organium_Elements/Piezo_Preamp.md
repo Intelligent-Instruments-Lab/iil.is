@@ -1,5 +1,7 @@
 # Piezo Preamp
 
+Category: PROCESSING
+Modality: DRIVERS
 Type: Amplifier, Enclosure
 Added: February 8, 2023 2:37 PM
 Senses: N/A (amplifier for piezo input)
@@ -15,7 +17,7 @@ Panel: Analog Inputs/Sensors
 
 **Type**: Amplifier, Buffer
 
-**Principle**: High-impedance buffer amplifier. Converts high-impedance piezo signal from  [Contact Mic / Piezo](Contact%20Mic%20Piezo%20a4d6ecb497a74593bcbaa6220d11a0d5.md) to low-impedance line level output, preventing signal loss and noise.
+**Principle**: High-impedance buffer amplifier. Converts high-impedance piezo signal from  [Contact Mic / Piezo](element.html?file=database/Organium_Elements/Contact_Mic_Piezo.md) to low-impedance line level output, preventing signal loss and noise.
 
 **Function**: Amplifies and buffers signal from contact microphones (piezo discs) to line level. Provides clean, usable audio signal from piezo transducers for connection to audio equipment.
 
@@ -78,7 +80,7 @@ Panel: Analog Inputs/Sensors
 
 **Location**: Preamps stored on same panel as contact mics in Organolib.
 
-**Why needed**: Piezo discs have extremely high output impedance. Without buffering, signal is weak, noisy, and prone to interference. Preamp solves this by converting to low-impedance line level.**:** 
+**Why needed**: Piezo discs have extremely high output impedance. Without buffering, signal is weak, noisy, and prone to interference. Preamp solves this by converting to low-impedance line level.**:**
 
 ![The Preamp has the output on the bottom, you can connect headphones directly to hear a connected contact mic or plug it into any audio input.](piezo-preamp-2.jpg)
 

@@ -1,13 +1,14 @@
 # BNO055 - 9-Axis Absolute Orientation Sensor (IMU)
 
+Category: INPUTS
+Modality: MOTION
 Type: Sensor
 Added: February 17, 2023 12:46 PM
 Senses: Acceleration (3-axis), Angular velocity (3-axis), Magnetic field (3-axis), Absolute orientation, Temperature
 Actuates: Digital data over I2C (e.g. to ESP32 microcontroller), can be forwarded via WiFi as OSC/MIDI messages
-Connection: I2C
+Connection: I2C — 0.1" header on the original breakout (#2472); the #4646 variant adds STEMMA QT
 Status: Done
 Voltage: 3.3 - 5V
-Panel: Digital Inputs/Sensors
 Published: Yes
 
 ![Acc-ESP32.jpg](bno055---9-axis-absolute-orientation-sensor-imu-1.jpg)
@@ -20,13 +21,8 @@ Published: Yes
 
 **Typical use**:
 
-- Wireless gesture controllers for musical expression (via ESP32 + WiFi/OSC)
-- Absolute orientation tracking for interactive installations
-- Motion-based instrument control with drift-free positioning
-- Wearable musical instruments (gloves, armbands)
-- Augmented acoustic instruments
-- Head tracking for spatial audio
-- Robotics and drone stabilization
+- Gesture instruments that need *absolute* orientation — on-board sensor fusion means no drift, so the same movement maps to the same sound an hour later.
+- Head tracking for spatial audio, and stabilisation for anything that has to know which way is down.
 
 **Good for**:
 
@@ -37,7 +33,7 @@ Published: Yes
 - Stable readings even in magnetically noisy environments
 - Low computational overhead on host microcontroller
 - Musical gesture control with reliable orientation data
-- Newer boards have STEMMA QT connectors for solderless connections
+- ⚠️ **The boards in question are Adafruit #2472 — the original breakout, with NO STEMMA QT.** The QT version is a separate product, **#4646**. Confirmed against the boards in hand (2026-09).
 
 **Bad for**:
 
@@ -47,7 +43,7 @@ Published: Yes
 - Use with I2C multiplexers (I2C protocol violations)
 - Projects requiring only basic acceleration data (overkill for simple applications)
 
-**Mini Jack connection diagram**: - 
+**Mini Jack connection diagram**: -
 N/A - Uses I2C protocol:
 
 - VIN → 3.3-5V
@@ -157,7 +153,7 @@ The BNO055 I2C implementation violates the I2C protocol in some circumstances. W
 
 **Hardware Features:**
 
-- Newer boards include STEMMA QT connectors for solderless I2C connections
+- ⚠️ **Not on the #2472 breakout.** The STEMMA QT version is **#4646**, a different product that a separate purchase, 0.1" headers only. **DECIDED 2026-09 (user): #4646 will not be bought.** The twelve #2472 boards are the lab's IMU stock, full stop.
 - Onboard 10kΩ pull-up resistors on I2C lines
 - I2C Address: 0x28 (default) or 0x29 (if ADR pin connected to 3.3V)
 
@@ -170,7 +166,21 @@ The BNO055 I2C implementation violates the I2C protocol in some circumstances. W
 **Musical Applications:**
 
 - Used in:
-    
-    [MidiSense](MidiSense%20295a02c4d7f080f38401ebb4ba1b5106.md)
-    
-- Common mapping: Euler angles → continuous parameters, sharp movements → triggers
+
+    MidiSense
+
+- Common mapping: Euler angles → continuous parameters, sharp movements → triggers95 each,
+delivered with the **Rev5** Adafruit shipment and confirmed against the order slip — *not* part of
+the 2026-09 Rev6 order. Box `input / motion`, with the LIS3DH and the other IMUs.
+
+⚠️ **These are the pre-STEMMA-QT boards, and that has a practical cost.** Everything else in the
+lab's I2C chain plugs together with a QT cable; these twelve do not. Each needs its **header strip
+soldered** before it can be used on a breadboard, and in a class they are the part that breaks the
+plug-and-play story — worth either soldering all twelve in one sitting ahead of time, or planning
+the exercise around wiring rather than plugging. **The solderless #4646 will not be bought — decided 2026-09.** So the soldering is not a
+choice to revisit: it is the one-off job that makes these twelve usable.
+
+**Also in the pipeline, undecided:** the Rev6 list carries the **BNO085 (#4754)**, Tier 2, still
+`proposed`. It is the successor — same job, but Hillcrest fusion firmware rather than Bosch's, and
+generally far less fussy about calibration than the BNO055 is. With 12 BNO055s already in hand it
+is a genuine question whether it is needed.

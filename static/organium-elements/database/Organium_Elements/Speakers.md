@@ -1,5 +1,7 @@
 # Speakers
 
+Category: OUTPUTS
+Modality: AUDIO
 Type: Actuator
 Added: February 17, 2023 2:38 PM
 Senses: AC current provided by a power amplifier
@@ -20,7 +22,7 @@ Voltage: Up to around 50V from the D-Class amplifiers
 
 **Voltage**: AC audio signal from power amplifier (typically up to ~50V from D-Class amplifiers in lab)
 
-**Typical use**: Audio playback, sound reproduction, monitoring, installations, musical instruments, acoustic feedback systems, multimedia projects.
+**Typical use**: Giving a piece its own voice instead of borrowing a PA — a raw driver mounted into an enclosure, a panel or a found object and fed from a small amplifier, so the work stays self-contained wherever it is set up.
 
 **Good for**:
 

@@ -129,7 +129,7 @@ const ELEMENTS = [
   {
     name: "Force/Pressure sensor",
     page: "element.html?file=database/Organium_Elements/Force_Pressure_sensor.md",
-    img: "assets/img/thumbs/force-pressure-sensor-2.jpg",
+    img: "assets/img/thumbs/force-pressure-sensor-1.jpg",
     type: "Resistor, Sensor"
   },
   {
@@ -202,7 +202,7 @@ const ELEMENTS = [
     name: "MCP2221A USB Bridge",
     page: "element.html?file=database/Organium_Elements/MCP2221A_USB_Bridge.md",
     img: "assets/img/thumbs/mcp2221a-usb-bridge-1.jpg",
-    type: "Connector"
+    type: "Interface / adapter"
   },
   {
     name: "MLX90632 FIR Temperature Sensor",
@@ -301,6 +301,12 @@ const ELEMENTS = [
     type: "Power Supply, Sensor"
   },
   {
+    name: "Solenoid 12V DC Push/Pull (Adafruit #412)",
+    page: "element.html?file=database/Organium_Elements/Solenoid 12V DC Push-Pull (Adafruit 412).md",
+    img: "assets/img/thumbs/solenoid-12v-dc-push-pull-adafruit-412-1.jpg",
+    type: "Actuator"
+  },
+  {
     name: "Speakers",
     page: "element.html?file=database/Organium_Elements/Speakers.md",
     img: "assets/img/thumbs/speakers-1.jpg",
@@ -339,7 +345,7 @@ const ELEMENTS = [
   {
     name: "Tilt switch",
     page: "element.html?file=database/Organium_Elements/Tilt_switch.md",
-    img: "assets/img/thumbs/tilt-switch-2.jpg",
+    img: "assets/img/thumbs/tilt-switch-1.jpg",
     type: "Sensor"
   },
   {

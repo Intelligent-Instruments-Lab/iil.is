@@ -1,17 +1,33 @@
 # DC Motors
 
+Category: OUTPUTS
+Modality: MOTION
+Subtype: DC
 Type: Actuator
 Added: January 9, 2023 4:14 PM
 Senses: N/A
 Actuates: Rotational motion, vibration (when used with offset weights)
 Connection: Minijack
 Status: Done
-Voltage: 4.5 to 9VDC
-Panel: Analog Outputs/Actuators 2
+Voltage: 3–6VDC
 
 ![DCMotor.jpg](dc-motors-1.jpg)
 
 **Name**: DC Motor (130-Size Hobby Motor)
+
+>
+> | Motor | Voltage | Qty |
+> |---|---|---|
+> | **DollaTek 130-size, 17000 RPM** (bare brushed motor — the one described below) | **3–6 V** | 2 packs = 20 |
+> | **DC Gearbox "TT" Motor** 200 RPM (Adafruit #3777) | **3–6 V** | 14 |
+> | **Round Robot Chassis 2WD** (Adafruit #3244 — 2 TT gearmotors each) | **3–6 V** | 8 (16 motors) |
+> | **N20 DC Motor w/ magnetic encoder** (Adafruit #4638) | **6 V** rated | 6 |
+>
+> All run on **~3–6 V** — drive them from a DRV8833 / TB6612 / DRV8871 off a 5–6 V rail.
+> **Terminal marking:** the DollaTek motors have an embossed **dot on one terminal = positive (+)**
+> — feed +V there for the motor's nominal (clockwise, from the shaft end) direction. Brushed DC is
+> symmetric, so reversing the leads only reverses the spin (no damage); the dot is a *direction
+> reference* for wiring a batch of motors consistently.
 
 **Type**: Actuator
 
@@ -19,16 +35,11 @@ Panel: Analog Outputs/Actuators 2
 
 **Function**: Converts electrical energy into mechanical rotational motion. Can be used for continuous rotation, creating vibration (with offset weight), or driving mechanical systems. Speed varies proportionally with applied voltage.
 
-**Voltage**: 4.5 to 9VDC (wider operating range than typical toy motors which use 1.5-4.5V)
+**Voltage**: 3–6VDC (the DollaTek 130-size we stock; the TT/chassis motors are also 3–6 V, the N20 is 6 V rated)
 
 **Typical use**:
-
-- Haptic feedback and vibration generation (with offset weight attached)
-- Motion control in robotics and kinetic sculptures
-- Mechanical actuation in interactive installations
-- Rotating elements in musical instruments
-- Alert/notification systems without sound
-- Small motorized mechanisms
+- Rotating and vibrating parts in kinetic work — a turning element in an instrument, or an offset weight that makes the motor itself a vibration source.
+- Small motorised mechanisms driven through an H-bridge, where both speed and direction come from code.
 
 **Good for**:
 
@@ -37,7 +48,7 @@ Panel: Analog Outputs/Actuators 2
 - Haptic feedback in wearables and controllers
 - Speed control via PWM from microcontroller
 - Prototyping - comes with pre-soldered wires
-- Wide voltage range (4.5-9V) makes it Arduino-compatible
+- Low 3–6 V operating range — driver/battery-friendly, Arduino-compatible
 - Compact 130-size form factor fits existing mounts
 - Cost-effective for multiple-motor projects
 
@@ -63,7 +74,7 @@ N/A - Direct wire connection:
 
 ![DCmotor.jpeg](dc-motors-2.jpeg)
 
-**Component diagram**: - 
+**Component diagram**: -
 
 **Links**:
 
@@ -72,7 +83,11 @@ N/A - Direct wire connection:
 
 **Buy**:
 
-- [Adafruit DC Toy/Hobby Motor - 130 Size](https://www.adafruit.com/product/711)
+- DollaTek 130-size 3–6 V 17000 RPM (bare motor) — Amazon
+- [DC Gearbox "TT" Motor 200 RPM 3–6 V (Adafruit #3777)](https://www.adafruit.com/product/3777)
+- [Mini 3-Layer Round Robot Chassis 2WD (Adafruit #3244)](https://www.adafruit.com/product/3244)
+- [N20 DC Motor + Magnetic Encoder 6 V (Adafruit #4638)](https://www.adafruit.com/product/4638)
+- Reference (similar bare 130-size): [Adafruit DC Toy/Hobby Motor #711](https://www.adafruit.com/product/711)
 
 **Make instructions**:
 N/A (commercial component)
@@ -85,13 +100,13 @@ N/A (commercial component)
 4. Test and adjust weight/position for desired vibration strength
 
 **Use instructions/Tutorials**:
-To be used with a DC motor driver 
+To be used with a DC motor driver
 
-[DC Motor Driver (with Variable Speed)](DC%20Motor%20Driver%20(with%20Variable%20Speed)%2055d02ce7ee5a4e4a83c9b9b07808f422.md)
+DC Motor Driver (with Variable Speed)
 
-or 
+or
 
-[Dual Motor Driver PWM (L298N)](Dual%20Motor%20Driver%20PWM%20(L298N)%20295a02c4d7f08002b33ccce357cfa34f.md)
+Dual Motor Driver PWM (L298N)
 
 or other: TB6612 etc.
 
@@ -99,21 +114,18 @@ or other: TB6612 etc.
 
 **Relevant software files**: N/A
 
-**Technical Specifications (130-Size Motor):**
+**Technical Specifications (DollaTek 130-Size Motor — our stock):**
 
-- **Body size**: 27.5mm × 20mm × 15mm
-- **Shaft**: 8mm length × 2mm diameter
-- **Weight**: ~17.5 grams
-- **Rated voltage**: 6.0VDC
-- **Operating range**: 4.5-9VDC
-- **No-load speed**: 9100 ±1800 RPM
-- **Loaded speed**: 4500 ±1500 RPM
-- **No-load current**: 70 mA max
-- **Loaded current**: 250 mA max
-- **Stall current**: 500mA max
-- **Starting torque**: 20 g·cm
-- **Rated load**: 10 g·cm
+- **Body size**: ~25mm × 20mm × 15mm (130-size class)
+- **Shaft**: ~8mm length × 2mm diameter
+- **Weight**: ~17 grams
+- **Operating voltage**: 3–6 VDC (rated max ~6 V)
+- **No-load speed**: ~17000 RPM @ 6 V
+- **No-load current**: ~70 mA (typical 130-size)
+- **Loaded / stall current**: ~250 mA loaded, up to ~500 mA stall (typical 130-size — size the driver for stall)
 - **Operating temp**: -10°C to +60°C
+
+*(Figures marked "typical" are for the 130-size class; the DollaTek datasheet only specifies 3–6 V and ~17000 RPM. Other DC motors in the same family differ: TT gearbox #3777 = 3–6 V / 200 RPM geared; N20 #4638 = 6 V geared w/ encoder.)*
 
 **Motor Driver Options:**
 
