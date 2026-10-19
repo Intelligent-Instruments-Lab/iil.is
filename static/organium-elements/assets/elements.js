@@ -117,7 +117,7 @@ const ELEMENTS = [
   {
     name: "DotStar LED Strip Warm White 60 LED/m",
     page: "element.html?file=database/Organium_Elements/DotStar LED Strip Warm White 60 LEDm.md",
-    img: null,
+    img: "assets/img/thumbs/dotstar-led-strip-warm-white-60-ledm-1.jpg",
     type: "Actuator, Transducer, Integrated System"
   },
   {
@@ -515,5 +515,11 @@ const ELEMENTS = [
     page: "element.html?file=database/Organium_Elements/Xth_Sense.md",
     img: "assets/img/thumbs/xth-sense-2.jpg",
     type: "Sensor"
+  },
+  {
+    name: "microSD Card Logging Shield (Whadda WPI304N)",
+    page: "element.html?file=database/Organium_Elements/microSD Card Logging Shield (Whadda WPI304N).md",
+    img: "assets/img/thumbs/microsd-card-logging-shield-whadda-wpi304n-1.jpg",
+    type: "Interface / adapter"
   },
 ];

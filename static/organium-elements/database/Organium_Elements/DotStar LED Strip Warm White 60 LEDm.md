@@ -63,3 +63,6 @@ void loop(){
 **Lab photo**: this strip is photographed alongside the NeoPixel RGB strip in one frame — the warm-white DotStar is the upper strip. Both share the photo for now; see also the NeoPixel entry.
 
 ![DotStar warm-white strip (top) with the NeoPixel RGB strip (bottom)](neopixel-addressable-rgb-led-strip-adafruit-3919-1.jpg)
+
+**Lab photo**: the two strips were photographed together — the warm-white DotStar alongside the addressable RGB NeoPixel, which is the quickest way to see the difference in density and in how the light reads.
+![LED strips — the warm-white DotStar alongside the RGB NeoPixel](dotstar-led-strip-warm-white-60-ledm-1.jpg)
