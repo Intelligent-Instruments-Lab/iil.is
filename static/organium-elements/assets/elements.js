@@ -313,6 +313,12 @@ const ELEMENTS = [
     type: "Software"
   },
   {
+    name: "PCA9548 8-Channel I2C Multiplexer (Adafruit 5626)",
+    page: "element.html?file=database/Organium_Elements/PCA9548 8-Channel I2C Multiplexer (Adafruit 5626).md",
+    img: "assets/img/thumbs/pca9548-8-channel-i2c-multiplexer-adafruit-5626-1.jpg",
+    type: "Interface / bus expander"
+  },
+  {
     name: "PCA9685 16-Channel 12-Bit PWM Servo Driver (HiLetgo)",
     page: "element.html?file=database/Organium_Elements/PCA9685 16-Channel 12-Bit PWM Servo Driver (HiLetgo).md",
     img: "assets/img/thumbs/pca9685-16-channel-12-bit-pwm-servo-driver-hiletgo-1.jpg",
