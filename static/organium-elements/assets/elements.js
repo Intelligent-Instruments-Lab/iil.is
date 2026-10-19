@@ -1,6 +1,18 @@
 const ELEMENTS_DATE = "2026-10-19";
 const ELEMENTS = [
   {
+    name: "ADS1115 16-Bit 4-Channel ADC (Adafruit 1085)",
+    page: "element.html?file=database/Organium_Elements/ADS1115 16-Bit 4-Channel ADC (Adafruit 1085).md",
+    img: "assets/img/thumbs/ads1115-16-bit-4-channel-adc-adafruit-1085-1.jpg",
+    type: "Analog-to-digital converter"
+  },
+  {
+    name: "Adafruit METRO 328 (Arduino Compatible)",
+    page: "element.html?file=database/Organium_Elements/Adafruit METRO 328 (Arduino Compatible).md",
+    img: "assets/img/thumbs/adafruit-metro-328-arduino-compatible-1.jpg",
+    type: "Microcontroller board"
+  },
+  {
     name: "Adjustable 10k voltage divider with alligator clips",
     page: "element.html?file=database/Organium_Elements/Adjustable_10k_voltage_divider_with_alligator_clip.md",
     img: "assets/img/thumbs/adjustable-10k-voltage-divider-with-alligator-clip-1.jpg",
@@ -11,6 +23,12 @@ const ELEMENTS = [
     page: "element.html?file=database/Organium_Elements/Air_Pressure_sensor_(MP3V5010DP).md",
     img: "assets/img/thumbs/air-pressure-sensor-mp3v5010dp-1.jpg",
     type: "Resistor, Sensor"
+  },
+  {
+    name: "Analog Feedback Standard Servo (Adafruit 1404)",
+    page: "element.html?file=database/Organium_Elements/Analog Feedback Standard Servo (Adafruit 1404).md",
+    img: "assets/img/thumbs/analog-feedback-standard-servo-adafruit-1404-1.jpg",
+    type: "Actuator, Sensor"
   },
   {
     name: "Analog Joystick",
@@ -43,6 +61,12 @@ const ELEMENTS = [
     type: "Connector"
   },
   {
+    name: "Buttons and Switches (Family)",
+    page: "element.html?file=database/Organium_Elements/Buttons and Switches (Family).md",
+    img: "assets/img/thumbs/buttons-and-switches-family-1.jpg",
+    type: "Sensor"
+  },
+  {
     name: "Circular Soft Potentiometer (Ribbon Sensor)",
     page: "element.html?file=database/Organium_Elements/Circular_Soft_Potentiometer_(Ribbon_Sensor).md",
     img: "assets/img/thumbs/circular-soft-potentiometer-ribbon-sensor-1.jpg",
@@ -67,6 +91,12 @@ const ELEMENTS = [
     type: "Sensor, Transducer"
   },
   {
+    name: "Continuous Rotation Servo FeeTech FS5103R (Adafruit 154)",
+    page: "element.html?file=database/Organium_Elements/Continuous Rotation Servo FeeTech FS5103R (Adafruit 154).md",
+    img: null,
+    type: "Actuator"
+  },
+  {
     name: "DC Interface (Kassiopeia)",
     page: "element.html?file=database/Organium_Elements/DC_Interface_(Kassiopeia).md",
     img: "assets/img/thumbs/dc-interface-kassiopeia-3.jpg",
@@ -83,6 +113,24 @@ const ELEMENTS = [
     page: "element.html?file=database/Organium_Elements/DC_Motors.md",
     img: "assets/img/thumbs/dc-motors-1.jpg",
     type: "Actuator"
+  },
+  {
+    name: "Diffused 3mm LED Pack 25-Pack 5 Colors",
+    page: "element.html?file=database/Organium_Elements/Diffused 3mm LED Pack 25-Pack 5 Colors.md",
+    img: null,
+    type: "Actuator, Transducer"
+  },
+  {
+    name: "Diffused 5mm LED Pack 25-Pack 5 Colors",
+    page: "element.html?file=database/Organium_Elements/Diffused 5mm LED Pack 25-Pack 5 Colors.md",
+    img: "assets/img/thumbs/diffused-5mm-led-pack-25-pack-5-colors-1.jpg",
+    type: "Actuator, Transducer"
+  },
+  {
+    name: "DotStar LED Strip Warm White 60 LED/m",
+    page: "element.html?file=database/Organium_Elements/DotStar LED Strip Warm White 60 LEDm.md",
+    img: null,
+    type: "Actuator, Transducer, Integrated System"
   },
   {
     name: "Dual Motor Driver PWM (L298N)",
@@ -181,6 +229,18 @@ const ELEMENTS = [
     type: "Actuator"
   },
   {
+    name: "LiPo Battery 3.7 V (JST)",
+    page: "element.html?file=database/Organium_Elements/LiPo Battery 3.7V (JST).md",
+    img: "assets/img/thumbs/lipo-battery-37v-jst-1.jpg",
+    type: "Power source"
+  },
+  {
+    name: "LiPo USB Charger MCP73831 (Adafruit 1904)",
+    page: "element.html?file=database/Organium_Elements/LiPo USB Charger MCP73831 (Adafruit 1904).md",
+    img: "assets/img/thumbs/lipo-usb-charger-mcp73831-adafruit-1904-1.jpg",
+    type: "Power Supply, Driver"
+  },
+  {
     name: "Light-Color Sensor (AS7341)",
     page: "element.html?file=database/Organium_Elements/Light-Color_Sensor_(AS7341).md",
     img: "assets/img/thumbs/light-color-sensor-as7341-1.jpg",
@@ -229,6 +289,12 @@ const ELEMENTS = [
     type: "Connector"
   },
   {
+    name: "Monochrome 0.96\" 128x64 OLED SSD1306 (Adafruit 326)",
+    page: "element.html?file=database/Organium_Elements/Monochrome 0.96in 128x64 OLED SSD1306 (Adafruit 326).md",
+    img: "assets/img/thumbs/monochrome-096in-128x64-oled-ssd1306-adafruit-326-1.jpg",
+    type: "Display"
+  },
+  {
     name: "Motor Diver (TB6612)",
     page: "element.html?file=database/Organium_Elements/Motor_Diver_(TB6612).md",
     img: "assets/img/thumbs/motor-diver-tb6612-1.jpg",
@@ -241,15 +307,39 @@ const ELEMENTS = [
     type: "Amplifier, Driver"
   },
   {
+    name: "NeoPixel Addressable RGB LED Strip (Adafruit 3919)",
+    page: "element.html?file=database/Organium_Elements/NeoPixel Addressable RGB LED Strip (Adafruit 3919).md",
+    img: "assets/img/thumbs/neopixel-addressable-rgb-led-strip-adafruit-3919-1.jpg",
+    type: "Actuator"
+  },
+  {
+    name: "Neodymium Magnets (Disc, Cube, Sphere)",
+    page: "element.html?file=database/Organium_Elements/Neodymium Magnets (Disc, Cube, Sphere).md",
+    img: "assets/img/thumbs/neodymium-magnets-disc-cube-sphere-1.jpg",
+    type: "Hardware"
+  },
+  {
     name: "Notochord",
     page: "element.html?file=database/Organium_Elements/Notochord.md",
     img: "assets/img/thumbs/notochord-1.jpg",
     type: "Software"
   },
   {
+    name: "PCA9685 16-Channel 12-Bit PWM Servo Driver (HiLetgo)",
+    page: "element.html?file=database/Organium_Elements/PCA9685 16-Channel 12-Bit PWM Servo Driver (HiLetgo).md",
+    img: "assets/img/thumbs/pca9685-16-channel-12-bit-pwm-servo-driver-hiletgo-1.jpg",
+    type: "Driver"
+  },
+  {
     name: "PIR (motion sensor)",
     page: "element.html?file=database/Organium_Elements/PIR_(motion_sensor).md",
     img: "assets/img/thumbs/pir-motion-sensor-1.jpg",
+    type: "Sensor"
+  },
+  {
+    name: "Panel Mount 10K Linear Potentiometer (Adafruit 562)",
+    page: "element.html?file=database/Organium_Elements/Panel Mount 10K Linear Potentiometer (Adafruit 562).md",
+    img: "assets/img/thumbs/panel-mount-10k-linear-potentiometer-adafruit-562-1.jpg",
     type: "Sensor"
   },
   {
@@ -263,6 +353,12 @@ const ELEMENTS = [
     page: "element.html?file=database/Organium_Elements/Piezo_Preamp.md",
     img: "assets/img/thumbs/piezo-preamp-1.jpg",
     type: "Amplifier, Enclosure"
+  },
+  {
+    name: "Raspberry Pi 5 - 4GB (Adafruit 5812)",
+    page: "element.html?file=database/Organium_Elements/Raspberry Pi 5 - 4GB (Adafruit 5812).md",
+    img: "assets/img/thumbs/raspberry-pi-5---4gb-adafruit-5812-1.jpg",
+    type: "Computer"
   },
   {
     name: "Ribbon - Linear SoftPot",
@@ -280,6 +376,12 @@ const ELEMENTS = [
     name: "Single String Pickup",
     page: "element.html?file=database/Organium_Elements/Single_String_Pickup.md",
     img: "assets/img/thumbs/single-string-pickup-1.jpg",
+    type: "Sensor"
+  },
+  {
+    name: "Slider Potentiometer 10K (Adafruit 4272)",
+    page: "element.html?file=database/Organium_Elements/Slider Potentiometer 10K (Adafruit 4272).md",
+    img: "assets/img/thumbs/slider-potentiometer-10k-adafruit-4272-1.jpg",
     type: "Sensor"
   },
   {
@@ -313,6 +415,12 @@ const ELEMENTS = [
     type: "Material"
   },
   {
+    name: "Standard Servo TowerPro SG-5010 (Adafruit 155)",
+    page: "element.html?file=database/Organium_Elements/Standard Servo TowerPro SG-5010 (Adafruit 155).md",
+    img: "assets/img/thumbs/standard-servo-towerpro-sg-5010-adafruit-155-1.jpg",
+    type: "Actuator"
+  },
+  {
     name: "Stereo 2.1W Class D Audio Amplifier - TPA2012",
     page: "element.html?file=database/Organium_Elements/Stereo_2_1W_Class_D_Audio_Amplifier_-_TPA2012.md",
     img: "assets/img/thumbs/stereo-2-1w-class-d-audio-amplifier---tpa2012-1.jpg",
@@ -323,6 +431,18 @@ const ELEMENTS = [
     page: "element.html?file=database/Organium_Elements/String_rigging.md",
     img: "assets/img/thumbs/string-rigging-1.jpg",
     type: "Connector"
+  },
+  {
+    name: "Tactile Button Switch 6mm 20-Pack (Adafruit 367)",
+    page: "element.html?file=database/Organium_Elements/Tactile Button Switch 6mm 20-Pack (Adafruit 367).md",
+    img: null,
+    type: "Sensor"
+  },
+  {
+    name: "Tactile Switch 12mm Square 10-Pack (Adafruit 1119)",
+    page: "element.html?file=database/Organium_Elements/Tactile Switch 12mm Square 10-Pack (Adafruit 1119).md",
+    img: null,
+    type: "Sensor"
   },
   {
     name: "Tactile Transducer",
@@ -346,6 +466,48 @@ const ELEMENTS = [
     name: "Touch sensor (direct input on the ESP-32)",
     page: "element.html?file=database/Organium_Elements/Touch_sensor_(direct_input_on_the_ESP-32).md",
     img: "assets/img/thumbs/touch-sensor-direct-input-on-the-esp-32-1.jpg",
+    type: "Sensor"
+  },
+  {
+    name: "Trill Bar 1D Linear Touch Sensor (Bela)",
+    page: "element.html?file=database/Organium_Elements/Trill Bar 1D Linear Touch Sensor (Bela).md",
+    img: "assets/img/thumbs/trill-bar-1d-linear-touch-sensor-bela-1.jpg",
+    type: "Sensor"
+  },
+  {
+    name: "Trill Craft 30-Channel Capacitive Touch (Bela)",
+    page: "element.html?file=database/Organium_Elements/Trill Craft 30-Channel Capacitive Touch (Bela).md",
+    img: "assets/img/thumbs/trill-craft-30-channel-capacitive-touch-bela-1.jpg",
+    type: "Sensor"
+  },
+  {
+    name: "Trill Flex Flexible Capacitive Strip (Bela)",
+    page: "element.html?file=database/Organium_Elements/Trill Flex Flexible Capacitive Strip (Bela).md",
+    img: "assets/img/thumbs/trill-flex-flexible-capacitive-strip-bela-1.jpg",
+    type: "Sensor"
+  },
+  {
+    name: "Trill Hex Hexagonal Touch Grid (Bela)",
+    page: "element.html?file=database/Organium_Elements/Trill Hex Hexagonal Touch Grid (Bela).md",
+    img: "assets/img/thumbs/trill-hex-hexagonal-touch-grid-bela-1.jpg",
+    type: "Sensor"
+  },
+  {
+    name: "Trill Hub Sensor Controller (Bela)",
+    page: "element.html?file=database/Organium_Elements/Trill Hub Sensor Controller (Bela).md",
+    img: "assets/img/thumbs/trill-hub-sensor-controller-bela-1.jpg",
+    type: "Connector, Integrated System"
+  },
+  {
+    name: "Trill Ring Circular Touch Sensor (Bela)",
+    page: "element.html?file=database/Organium_Elements/Trill Ring Circular Touch Sensor (Bela).md",
+    img: "assets/img/thumbs/trill-ring-circular-touch-sensor-bela-1.jpg",
+    type: "Sensor"
+  },
+  {
+    name: "Trill Square 2D Touch Pad (Bela)",
+    page: "element.html?file=database/Organium_Elements/Trill Square 2D Touch Pad (Bela).md",
+    img: "assets/img/thumbs/trill-square-2d-touch-pad-bela-1.jpg",
     type: "Sensor"
   },
   {
