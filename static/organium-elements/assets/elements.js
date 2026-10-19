@@ -91,12 +91,6 @@ const ELEMENTS = [
     type: "Sensor, Transducer"
   },
   {
-    name: "Continuous Rotation Servo FeeTech FS5103R (Adafruit 154)",
-    page: "element.html?file=database/Organium_Elements/Continuous Rotation Servo FeeTech FS5103R (Adafruit 154).md",
-    img: null,
-    type: "Actuator"
-  },
-  {
     name: "DC Interface (Kassiopeia)",
     page: "element.html?file=database/Organium_Elements/DC_Interface_(Kassiopeia).md",
     img: "assets/img/thumbs/dc-interface-kassiopeia-3.jpg",
@@ -115,13 +109,7 @@ const ELEMENTS = [
     type: "Actuator"
   },
   {
-    name: "Diffused 3mm LED Pack 25-Pack 5 Colors",
-    page: "element.html?file=database/Organium_Elements/Diffused 3mm LED Pack 25-Pack 5 Colors.md",
-    img: null,
-    type: "Actuator, Transducer"
-  },
-  {
-    name: "Diffused 5mm LED Pack 25-Pack 5 Colors",
+    name: "Diffused LED Packs \u2014 3mm & 5mm (25-Pack, 5 Colours)",
     page: "element.html?file=database/Organium_Elements/Diffused 5mm LED Pack 25-Pack 5 Colors.md",
     img: "assets/img/thumbs/diffused-5mm-led-pack-25-pack-5-colors-1.jpg",
     type: "Actuator, Transducer"
@@ -131,12 +119,6 @@ const ELEMENTS = [
     page: "element.html?file=database/Organium_Elements/DotStar LED Strip Warm White 60 LEDm.md",
     img: null,
     type: "Actuator, Transducer, Integrated System"
-  },
-  {
-    name: "Dual Motor Driver PWM (L298N)",
-    page: "element.html?file=database/Organium_Elements/Dual_Motor_Driver_PWM_(L298N).md",
-    img: null,
-    type: "Actuator, Amplifier, Sensor"
   },
   {
     name: "ESP 32 ttgo",

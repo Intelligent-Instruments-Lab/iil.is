@@ -3,6 +3,8 @@
 Type: Actuator, Amplifier, Sensor
 Added: October 23, 2025 4:26 PM
 Status: In progress
+Published: No
+Hidden: inherited from the Notion export as an unfilled template - every field is blank
 
 
 **Name**: Name of Element 

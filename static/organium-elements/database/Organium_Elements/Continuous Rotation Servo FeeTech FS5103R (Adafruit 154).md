@@ -10,7 +10,8 @@ Actuates: Continuous rotation — direction and speed of the output shaft (both 
 Connection: PWM
 Status: Done
 Voltage: 4.8 - 6V DC
-Published: Yes
+Published: No
+Hidden: the lab does not have this servo - the FeeTech was out of stock and the Batan D125F arrived instead (see the analog-feedback servo entry)
 
 **Principle**: Mechanically a standard servo, but modified: the position potentiometer is disconnected from the output shaft and fixed at centre, and the end-stops are removed. Now the internal control loop can never "reach" its target, so the PWM pulse no longer sets an angle — it sets motor *speed and direction*. A 1.5 ms pulse reads as "already centred" so the motor stops; pulses above or below spin it forward or backward, faster the further from centre.
 

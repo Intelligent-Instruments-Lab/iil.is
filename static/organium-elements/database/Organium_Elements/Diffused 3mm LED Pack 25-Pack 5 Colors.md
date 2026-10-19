@@ -9,7 +9,8 @@ Actuates: Coloured light (red, yellow, green, blue, white)
 Connection: Analog (2-lead, current-limited via resistor)
 Status: Done
 Voltage: ~2V (red/yellow/green) or ~3.3V (blue/white) forward at 20mA
-Published: Yes
+Published: No
+Hidden: folded into the 5mm LED entry as a size variant on 2026-10-19 — the two packs are the same part in different bodies, and the 5mm page now covers both
 
 **Principle**: A light-emitting diode: forward-biased current through a semiconductor junction recombines charge carriers and emits photons at a wavelength set by the die chemistry. The 3mm epoxy lens here is diffused (milky, not water-clear), scattering light so the LED reads as an evenly-lit dot from any angle rather than a single harsh point.
 
