@@ -235,12 +235,6 @@ const ELEMENTS = [
     type: "Connector"
   },
   {
-    name: "Modular Aerophone (?)",
-    page: "element.html?file=database/Organium_Elements/Modular_Aerophone_(_).md",
-    img: null,
-    type: ""
-  },
-  {
     name: "Motor Diver (TB6612)",
     page: "element.html?file=database/Organium_Elements/Motor_Diver_(TB6612).md",
     img: "assets/img/thumbs/motor-diver-tb6612-1.jpg",
@@ -365,12 +359,6 @@ const ELEMENTS = [
     page: "element.html?file=database/Organium_Elements/Velcro_prototyping_panel.md",
     img: "assets/img/thumbs/velcro-prototyping-panel-1.jpg",
     type: "Enclosure, Material"
-  },
-  {
-    name: "X-Bee",
-    page: "element.html?file=database/Organium_Elements/X-Bee.md",
-    img: null,
-    type: ""
   },
   {
     name: "Xth Sense",
