@@ -10,7 +10,8 @@ Actuates: N/A
 Connection: Digital (2-terminal momentary contact; 4 legs internally paired)
 Status: Done
 Voltage: Passive switch — logic-level agnostic; use with 3.3 V or 5 V and a pull resistor
-Published: Yes
+Published: No
+Hidden: folded into the 12mm tactile switch entry as a size variant on 2026-10-19 — same mechanism and same wiring, only the button top differs, and that page now covers both
 
 **Principle**: A momentary tactile ("tact") switch. Under the plastic button is a springy metal dome. At rest the two contact pairs are open; press the button and the dome collapses to bridge them, shorting the terminals. Release and the dome snaps back open — with the characteristic tactile "click." Not a latching switch: it conducts only while held.
 

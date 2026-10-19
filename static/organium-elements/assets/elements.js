@@ -415,13 +415,7 @@ const ELEMENTS = [
     type: "Connector"
   },
   {
-    name: "Tactile Button Switch 6mm 20-Pack (Adafruit 367)",
-    page: "element.html?file=database/Organium_Elements/Tactile Button Switch 6mm 20-Pack (Adafruit 367).md",
-    img: null,
-    type: "Sensor"
-  },
-  {
-    name: "Tactile Switch 12mm Square 10-Pack (Adafruit 1119)",
+    name: "Tactile Switches \u2014 6mm & 12mm (Momentary)",
     page: "element.html?file=database/Organium_Elements/Tactile Switch 12mm Square 10-Pack (Adafruit 1119).md",
     img: null,
     type: "Sensor"

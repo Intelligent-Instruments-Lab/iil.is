@@ -26,7 +26,7 @@ Choosing wrongly is the usual beginner bug: a momentary button wired as a power 
 | Tactile switch, 12 mm square | Momentary | Bigger target, better feel for panel-mounted or performance use |
 | Slide switch | Latching | Holds its position; use for power and mode selection |
 
-See the dedicated pages for the two tactile SKUs. Related but distinct: **Footswitch** (a momentary switch you operate with your foot, hands-free) and **Tilt switch** (closes on orientation, not on touch).
+See the dedicated page covering both tactile sizes. Related but distinct: **Footswitch** (a momentary switch you operate with your foot, hands-free) and **Tilt switch** (closes on orientation, not on touch).
 
 **Voltage**: Passive and logic-level agnostic — works at 3.3 V or 5 V. The switch never sets the voltage; the pull resistor does.
 
