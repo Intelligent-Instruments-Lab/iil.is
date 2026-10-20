@@ -1,4 +1,4 @@
-const ELEMENTS_DATE = "2026-10-19";
+const ELEMENTS_DATE = "2026-10-20";
 const ELEMENTS = [
   {
     name: "ADS1115 16-Bit 4-Channel ADC (Adafruit 1085)",
@@ -181,10 +181,10 @@ const ELEMENTS = [
     type: "Connector"
   },
   {
-    name: "Hall Effect Sensor",
+    name: "Hall Effect Sensor (US5881LUA)",
     page: "element.html?file=database/Organium_Elements/Hall_Effect_Sensor.md",
     img: "assets/img/thumbs/hall-effect-sensor-1.jpg",
-    type: "Actuator, Amplifier, Sensor"
+    type: "Sensor"
   },
   {
     name: "Haptic Controller Breakout (Adafruit DRV2605L)",
