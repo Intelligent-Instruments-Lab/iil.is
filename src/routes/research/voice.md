@@ -16,4 +16,8 @@ and <a href="http://digitalsigga.com/" title="Sigga">Digital Sigga</a> to explor
 
 Jon and Sigga are developing their own personal voice datasets. We have developed <a href="https://github.com/victor-shepardson/rave-supercollider" title="RAVE">rave-supercollider</a> to bring IRCAM ACIDS's <a href="https://github.com/acids-ircam/RAVE" title="RAVE">RAVE autoencoder</a> into the SuperCollider audio programming language, and Jon and Victor are working to bring greater expressivity to Coqui AI's <a href="https://github.com/coqui-ai/TTS" title="TTS">text-to-speech models</a>.
 
+Watch a video of Jon discussing his work on his <a href="https://jonathanreus.com/portfolio/dadasets/" title="TTS">website</a>.
+
+
+
 
