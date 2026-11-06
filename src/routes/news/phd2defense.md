@@ -30,7 +30,7 @@ The doctoral committee also included Franziska Schroeder, Professor at Queen’s
 
 Ásgrímur Angantýsson, Dean of the Faculty of Icelandic and Comparative Cultural Studies, will chair the ceremony.
 
-# About the research
+## About the research
 
 Artificial intelligence (AI) technologies are increasingly making their way into the creative industries. Within AI systems, deep learning functions like a black box, concealing the processes behind its outputs. The field of Explainable Artificial Intelligence (XAI) has emerged in response to this opacity.
 
@@ -42,12 +42,12 @@ Through instrument design, artistic practice, and user research, I demonstrate h
 
 Building on these findings, I develop hauntography, a theoretical framework based on hauntology that reconceptualizes AI as a spectral construct. This framework is applied to interviews with artists, offering insights into the musical interface of AI, AI mediation, and ongoing debates surrounding AI agency.
 
-# About the doctoral candidate
+## About the doctoral candidate
 
 Nicola Privato holds a BA in Modern Languages and Literature from the University of Padua (Università degli Studi di Padova, UNIPD), a BA in Jazz Music from the Giuseppe Tartini Conservatory in Trieste, and an MA in Electronic Music Composition from the Cesare Pollini Conservatory in Padua. Nicola lives in Reykjavík and teaches at the Iceland University of the Arts. The doctoral research was conducted at the Intelligent Instruments Lab at the University of Iceland.
 
 
-## Icelandic 
+# Icelandic 
 
 Mánudaginn 30. nóvember fer fram doktorsvörn við Íslensku og menningardeild Háskóla Íslands. Þá ver Nicola Privato doktorsritgerð sína í menningarfræði, Hauntography: Algorithmic Presence and the Out of Joint in Music AI. Viðburðurinn fer fram í Hátíðasal í Aðalbyggingu Háskóla Íslands og hefst kl. 13:00.
 
@@ -57,12 +57,10 @@ Doktorsritgerðin var unnin undir leiðsögn Þórhalls Magnússonar, prófessor
 
 Ásgrímur Angantýsson, forseti Íslensku- og menningardeildar, stjórnar athöfninni.
 
-
-
-Um rannsóknina
+# Um rannsóknina
 
 Gervigreindartækni haslar sér í auknum mæli völl innan skapandi greina. Í gervigreindarkerfum virkar djúpnám eins og svartir kassar sem fela ferlið að baki úttökunum. Fræðasviðið útskýranleg gervigreind (XAI) hefur sprottið fram sem viðbragð við þessu. En hvað á að útskýra þegar gervigreind kemur inn í skapandi ferli? Þetta verkefni tekur gagnrýna afstöðu til forsendna XAI þegar beitt er á listgreinar og kannar þess í stað þá fagurfræði og orðræðu sem spretta af innbyggðu ógagnsæi gervigreindar, ásamt þekkingarfræðilegum möguleikum þess. Með hönnun hljóðfæra, listrænni iðkun og notendarannsóknum sýni ég hvernig listamenn nýta hið óþekkta í gervigreindarlíkönum sem uppsprettu skáldlegrar merkingar, en hugleiðingar þeirra koma oft saman í listrænni umfjöllun um reikniritslega nærveru. Út frá þessum niðurstöðum þróa ég vofuritun (e. hauntography), fræðilegan ramma byggðan á vofufræði (e. hauntology) sem endurskilgreinir gervigreind sem vofukennda smíð. Rammanum er beitt á viðtöl við listamenn og veitir innsýn í tónlistarlegt viðmót gervigreindar, miðlun gervigreindar og yfirstandandi umræðu um erindreka gervigreindar.
 
-Um doktorsefnið
+# Um doktorsefnið
 
 Nicola Privato lauk BA-prófi í nútímatungumálum og bókmenntum við Università degli Studi di Padova (UNIPD), BA-prófi í djasstónlist við Conservatorio Giuseppe Tartini, Trieste og MA-prófi í raftónsmíðum við Conservatorio Cesare Pollini, Padova. Hann býr í Reykjavík og kennir við Listaháskóla Íslands. Doktorsrannsóknina vann hann við Intelligent Instruments Lab, Háskóla Íslands.
