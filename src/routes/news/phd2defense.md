@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2026-11-30"
+date: "2026-11-05"
 title: "PhD Defense"
 slug: "phd2defense"
 description: "Hauntography - a PhD defense by Nicola Privato at the University of Iceland"
