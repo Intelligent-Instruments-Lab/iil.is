@@ -13,7 +13,7 @@ highlight_image: "news/stateoftheart.png"
 </script>
 
 <CaptionedImage
-    src="news/stateoftheart.png"
+    src="news/stateoftheart.jpg"
     alt="State of the Art Festival"
     caption="State of the Art Festival."
 />

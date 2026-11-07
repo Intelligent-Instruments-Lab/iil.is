@@ -18,11 +18,11 @@ When: November 30th, 2026. 13.00-15.30
   caption="Nicola Privato."/>
 
 
-On Monday, November 30, a doctoral dissertation defense will take place at the Faculty of Icelandic and Comparative Cultural Studies at the University of Iceland. On this occasion, Nicola Privato will defend her doctoral dissertation in Cultural Studies, entitled Hauntography: Algorithmic Presence and the Out of Joint in Music AI.
+On Monday, November 30, a doctoral dissertation defense will take place at the Faculty of Icelandic and Comparative Cultural Studies at the University of Iceland. On this occasion, Nicola Privato will defend his doctoral dissertation in Cultural Studies, entitled Hauntography: Algorithmic Presence and the Out of Joint in Music AI.
 
 The event will take place in the Ceremonial Hall (Hátíðasalur) in the University of Iceland’s Main Building and will begin at 1:00 p.m.
 
-The dissertation’s opponents (examiners) will be Caroline Bassett, Professor of Digital Humanities at the University of Cambridge, and Jonathan Impett, Research Director of the Orpheus Institute in Ghent.
+The dissertation’s opponents will be Caroline Bassett, Professor of Digital Humanities at the University of Cambridge, and Jonathan Impett, Research Director of the Orpheus Institute in Ghent.
 
 The dissertation was completed under the supervision of Þórhallur Magnússon, Professor at the University of Iceland, and Einar Torfi Einarsson, Professor at the Iceland University of the Arts.
 
@@ -32,7 +32,7 @@ The doctoral committee also included Franziska Schroeder, Professor at Queen’s
 
 ## About the research
 
-Artificial intelligence (AI) technologies are increasingly making their way into the creative industries. Within AI systems, deep learning functions like a black box, concealing the processes behind its outputs. The field of Explainable Artificial Intelligence (XAI) has emerged in response to this opacity.
+Artificial intelligence (AI) technologies are increasingly making their way into creative domains. Within AI systems, deep learning functions like a black box, concealing the processes behind its outputs. The field of Explainable Artificial Intelligence (XAI) has emerged in response to this opacity.
 
 But what is there to explain when AI enters the creative process?
 
@@ -40,7 +40,7 @@ This project takes a critical stance toward the assumptions underlying XAI when 
 
 Through instrument design, artistic practice, and user research, I demonstrate how artists draw on the unknown qualities of AI models as a source of poetic meaning. Their reflections often converge in artistic discussions of algorithmic presence.
 
-Building on these findings, I develop hauntography, a theoretical framework based on hauntology that reconceptualizes AI as a spectral construct. This framework is applied to interviews with artists, offering insights into the musical interface of AI, AI mediation, and ongoing debates surrounding AI agency.
+Building on these findings, I develop hauntography, a theoretical framework based on hauntology theory that reconceptualizes AI as a spectral construct. This framework is applied to interviews with artists, offering insights into AI musical interfaces, AI mediation, and ongoing debates surrounding AI agency.
 
 ## About the doctoral candidate
 
