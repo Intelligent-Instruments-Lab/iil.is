@@ -97,6 +97,7 @@ Intelligent Instruments Lab outputs organised under the following categories:
 
 # Journal articles
 
+- _Embedding algorithms in music and sound art_, by Federico Visi and Thor Magnusson in Organised Sound. vol 31. 2026. [[article](https://www.cambridge.org/core/journals/organised-sound/article/editorial-embedding-algorithms-in-music-and-sound-art/357CB54B0100702D634D7068BA281996)] [[pdf](https://iil.is/pdf/2026_OS_VisiMagnusson.pdf)]
 - _From Field to Corpus: Phenomenological Continuities in Soundscape Composition and Corpus-Based Timbral Composition_, by Thanos Polymeneas-Liontiris in Computer Music Journal. vol 50. 2026. [[article](https://direct.mit.edu/comj/article-abstract/doi/10.1162/COMJ.a.714/137647/From-Field-to-Corpus-Phenomenological-Continuities)]
 - _Nodes, glitches and embedded algorithms: COMACROB and posthuman organology_, by Thanos Polymeneas-Liontiris and Alexandros Drymonitis in Organised Sound. 2026. [[article](https://www.cambridge.org/core/journals/organised-sound/article/nodes-glitches-and-embedded-algorithms-comacrob-and-posthuman-organology/597F3296A0DB474E252588B052085B78)]
 - _The data-driven voice-body in performance: AI voices as materials, mediators, and gifts_, by Jonathan Reus in Frontiers of Computer Science. vol 8. 2026. [[article](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1686763/full)] [[pdf](https://iil.is/pdf/2026_Frontiers_Reus.pdf)]
