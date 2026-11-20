@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2026-11-10"
+date: "2026-10-23"
 slug: "embedded algorithms"
 title: "Embedded Algorithms issue of Organised Sound"
 description: "A special issue on embedded algorithms in the Organised Sound Journal"
