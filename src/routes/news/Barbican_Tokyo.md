@@ -1,6 +1,6 @@
 ---
 layout: news
-date: "2026-10-20"
+date: "2026-11-10"
 slug: "Feel the Sound"
 title: "Chowndolo and Stacco at the Tokyo Museum of Narratives"
 description: "Our instruments Chowndolo and Stacco are part of the immersive exhibition Feel the Sound, now opening at the Museum of Narratives, Tokyo. "
